@@ -1,0 +1,2635 @@
+[ L
+    ( Position 1 1 )
+    ( Comment "-- arch-tag: Haskell XML Toolbox main description file" )
+, L
+    ( Position 1 55 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "name" )
+, L
+    ( Position 2 5 ) Colon
+, L
+    ( Position 2 6 )
+    ( Whitespace " " )
+, L
+    ( Position 2 7 )
+    ( TokSym "hxt" )
+, L
+    ( Position 2 10 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "version" )
+, L
+    ( Position 3 8 ) Colon
+, L
+    ( Position 3 9 )
+    ( Whitespace " " )
+, L
+    ( Position 3 10 )
+    ( TokSym "7.3" )
+, L
+    ( Position 3 13 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "license" )
+, L
+    ( Position 4 8 ) Colon
+, L
+    ( Position 4 9 )
+    ( Whitespace " " )
+, L
+    ( Position 4 10 )
+    ( TokSym "OtherLicense" )
+, L
+    ( Position 4 22 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "license-file" )
+, L
+    ( Position 5 13 ) Colon
+, L
+    ( Position 5 14 )
+    ( Whitespace " " )
+, L
+    ( Position 5 15 )
+    ( TokSym "LICENCE" )
+, L
+    ( Position 5 22 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 6 1 )
+    ( Indent 0 )
+, L
+    ( Position 6 1 )
+    ( TokSym "maintainer" )
+, L
+    ( Position 6 11 ) Colon
+, L
+    ( Position 6 12 )
+    ( Whitespace " " )
+, L
+    ( Position 6 13 )
+    ( TokSym "Uwe" )
+, L
+    ( Position 6 16 )
+    ( Whitespace " " )
+, L
+    ( Position 6 17 )
+    ( TokSym "Schmidt" )
+, L
+    ( Position 6 24 )
+    ( Whitespace " " )
+, L
+    ( Position 6 25 )
+    ( TokOther "<" )
+, L
+    ( Position 6 26 )
+    ( TokSym "uwe" )
+, L
+    ( Position 6 29 )
+    ( TokOther "@" )
+, L
+    ( Position 6 30 )
+    ( TokSym "fh-wedel.de" )
+, L
+    ( Position 6 41 )
+    ( TokOther ">" )
+, L
+    ( Position 6 42 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 7 1 )
+    ( Indent 0 )
+, L
+    ( Position 7 1 )
+    ( TokSym "stability" )
+, L
+    ( Position 7 10 ) Colon
+, L
+    ( Position 7 11 )
+    ( Whitespace " " )
+, L
+    ( Position 7 12 )
+    ( TokSym "stable" )
+, L
+    ( Position 7 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 8 1 )
+    ( Indent 0 )
+, L
+    ( Position 8 1 )
+    ( TokSym "category" )
+, L
+    ( Position 8 9 ) Colon
+, L
+    ( Position 8 10 )
+    ( Whitespace " " )
+, L
+    ( Position 8 11 )
+    ( TokSym "XML" )
+, L
+    ( Position 8 14 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 9 1 )
+    ( Indent 0 )
+, L
+    ( Position 9 1 )
+    ( TokSym "synopsis" )
+, L
+    ( Position 9 9 ) Colon
+, L
+    ( Position 9 10 )
+    ( Whitespace " " )
+, L
+    ( Position 9 11 )
+    ( TokSym "A" )
+, L
+    ( Position 9 12 )
+    ( Whitespace " " )
+, L
+    ( Position 9 13 )
+    ( TokSym "collection" )
+, L
+    ( Position 9 23 )
+    ( Whitespace " " )
+, L
+    ( Position 9 24 )
+    ( TokSym "of" )
+, L
+    ( Position 9 26 )
+    ( Whitespace " " )
+, L
+    ( Position 9 27 )
+    ( TokSym "tools" )
+, L
+    ( Position 9 32 )
+    ( Whitespace " " )
+, L
+    ( Position 9 33 )
+    ( TokSym "for" )
+, L
+    ( Position 9 36 )
+    ( Whitespace " " )
+, L
+    ( Position 9 37 )
+    ( TokSym "processing" )
+, L
+    ( Position 9 47 )
+    ( Whitespace " " )
+, L
+    ( Position 9 48 )
+    ( TokSym "XML" )
+, L
+    ( Position 9 51 )
+    ( Whitespace " " )
+, L
+    ( Position 9 52 )
+    ( TokSym "with" )
+, L
+    ( Position 9 56 )
+    ( Whitespace " " )
+, L
+    ( Position 9 57 )
+    ( TokSym "Haskell." )
+, L
+    ( Position 9 65 )
+    ( Whitespace " " )
+, L
+    ( Position 9 66 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 10 1 )
+    ( Indent 0 )
+, L
+    ( Position 10 1 )
+    ( TokSym "description" )
+, L
+    ( Position 10 12 ) Colon
+, L
+    ( Position 10 13 )
+    ( Whitespace "  " )
+, L
+    ( Position 10 15 )
+    ( TokSym "The" )
+, L
+    ( Position 10 18 )
+    ( Whitespace " " )
+, L
+    ( Position 10 19 )
+    ( TokSym "Haskell" )
+, L
+    ( Position 10 26 )
+    ( Whitespace " " )
+, L
+    ( Position 10 27 )
+    ( TokSym "XML" )
+, L
+    ( Position 10 30 )
+    ( Whitespace " " )
+, L
+    ( Position 10 31 )
+    ( TokSym "Toolbox" )
+, L
+    ( Position 10 38 )
+    ( Whitespace " " )
+, L
+    ( Position 10 39 )
+    ( TokSym "bases" )
+, L
+    ( Position 10 44 )
+    ( Whitespace " " )
+, L
+    ( Position 10 45 )
+    ( TokSym "on" )
+, L
+    ( Position 10 47 )
+    ( Whitespace " " )
+, L
+    ( Position 10 48 )
+    ( TokSym "the" )
+, L
+    ( Position 10 51 )
+    ( Whitespace " " )
+, L
+    ( Position 10 52 )
+    ( TokSym "ideas" )
+, L
+    ( Position 10 57 )
+    ( Whitespace " " )
+, L
+    ( Position 10 58 )
+    ( TokSym "of" )
+, L
+    ( Position 10 60 )
+    ( Whitespace " " )
+, L
+    ( Position 10 61 )
+    ( TokSym "HaXml" )
+, L
+    ( Position 10 66 )
+    ( Whitespace " " )
+, L
+    ( Position 10 67 )
+    ( TokSym "and" )
+, L
+    ( Position 10 70 )
+    ( Whitespace " " )
+, L
+    ( Position 10 71 )
+    ( TokSym "HXML" )
+, L
+    ( Position 10 75 )
+    ( TokOther "," )
+, L
+    ( Position 10 76 )
+    ( Whitespace " " )
+, L
+    ( Position 10 77 )
+    ( TokSym "but" )
+, L
+    ( Position 10 80 )
+    ( Whitespace " " )
+, L
+    ( Position 10 81 )
+    ( TokSym "introduces" )
+, L
+    ( Position 10 91 )
+    ( Whitespace " " )
+, L
+    ( Position 10 92 )
+    ( TokSym "a" )
+, L
+    ( Position 10 93 )
+    ( Whitespace " " )
+, L
+    ( Position 10 94 )
+    ( TokSym "more" )
+, L
+    ( Position 10 98 )
+    ( Whitespace " " )
+, L
+    ( Position 10 99 )
+    ( TokSym "general" )
+, L
+    ( Position 10 106 )
+    ( Whitespace " " )
+, L
+    ( Position 10 107 )
+    ( TokSym "approach" )
+, L
+    ( Position 10 115 )
+    ( Whitespace " " )
+, L
+    ( Position 10 116 )
+    ( TokSym "for" )
+, L
+    ( Position 10 119 )
+    ( Whitespace " " )
+, L
+    ( Position 10 120 )
+    ( TokSym "processing" )
+, L
+    ( Position 10 130 )
+    ( Whitespace " " )
+, L
+    ( Position 10 131 )
+    ( TokSym "XML" )
+, L
+    ( Position 10 134 )
+    ( Whitespace " " )
+, L
+    ( Position 10 135 )
+    ( TokSym "with" )
+, L
+    ( Position 10 139 )
+    ( Whitespace " " )
+, L
+    ( Position 10 140 )
+    ( TokSym "Haskell." )
+, L
+    ( Position 10 148 )
+    ( Whitespace " " )
+, L
+    ( Position 10 149 )
+    ( TokSym "The" )
+, L
+    ( Position 10 152 )
+    ( Whitespace " " )
+, L
+    ( Position 10 153 )
+    ( TokSym "Haskell" )
+, L
+    ( Position 10 160 )
+    ( Whitespace " " )
+, L
+    ( Position 10 161 )
+    ( TokSym "XML" )
+, L
+    ( Position 10 164 )
+    ( Whitespace " " )
+, L
+    ( Position 10 165 )
+    ( TokSym "Toolbox" )
+, L
+    ( Position 10 172 )
+    ( Whitespace " " )
+, L
+    ( Position 10 173 )
+    ( TokSym "uses" )
+, L
+    ( Position 10 177 )
+    ( Whitespace " " )
+, L
+    ( Position 10 178 )
+    ( TokSym "a" )
+, L
+    ( Position 10 179 )
+    ( Whitespace " " )
+, L
+    ( Position 10 180 )
+    ( TokSym "generic" )
+, L
+    ( Position 10 187 )
+    ( Whitespace " " )
+, L
+    ( Position 10 188 )
+    ( TokSym "data" )
+, L
+    ( Position 10 192 )
+    ( Whitespace " " )
+, L
+    ( Position 10 193 )
+    ( TokSym "model" )
+, L
+    ( Position 10 198 )
+    ( Whitespace " " )
+, L
+    ( Position 10 199 )
+    ( TokSym "for" )
+, L
+    ( Position 10 202 )
+    ( Whitespace " " )
+, L
+    ( Position 10 203 )
+    ( TokSym "representing" )
+, L
+    ( Position 10 215 )
+    ( Whitespace " " )
+, L
+    ( Position 10 216 )
+    ( TokSym "XML" )
+, L
+    ( Position 10 219 )
+    ( Whitespace " " )
+, L
+    ( Position 10 220 )
+    ( TokSym "documents" )
+, L
+    ( Position 10 229 )
+    ( TokOther "," )
+, L
+    ( Position 10 230 )
+    ( Whitespace " " )
+, L
+    ( Position 10 231 )
+    ( TokSym "including" )
+, L
+    ( Position 10 240 )
+    ( Whitespace " " )
+, L
+    ( Position 10 241 )
+    ( TokSym "the" )
+, L
+    ( Position 10 244 )
+    ( Whitespace " " )
+, L
+    ( Position 10 245 )
+    ( TokSym "DTD" )
+, L
+    ( Position 10 248 )
+    ( Whitespace " " )
+, L
+    ( Position 10 249 )
+    ( TokSym "subset" )
+, L
+    ( Position 10 255 )
+    ( Whitespace " " )
+, L
+    ( Position 10 256 )
+    ( TokSym "and" )
+, L
+    ( Position 10 259 )
+    ( Whitespace " " )
+, L
+    ( Position 10 260 )
+    ( TokSym "the" )
+, L
+    ( Position 10 263 )
+    ( Whitespace " " )
+, L
+    ( Position 10 264 )
+    ( TokSym "document" )
+, L
+    ( Position 10 272 )
+    ( Whitespace " " )
+, L
+    ( Position 10 273 )
+    ( TokSym "subset" )
+, L
+    ( Position 10 279 )
+    ( TokOther "," )
+, L
+    ( Position 10 280 )
+    ( Whitespace " " )
+, L
+    ( Position 10 281 )
+    ( TokSym "in" )
+, L
+    ( Position 10 283 )
+    ( Whitespace " " )
+, L
+    ( Position 10 284 )
+    ( TokSym "Haskell." )
+, L
+    ( Position 10 292 )
+    ( Whitespace " " )
+, L
+    ( Position 10 293 )
+    ( TokSym "It" )
+, L
+    ( Position 10 295 )
+    ( Whitespace " " )
+, L
+    ( Position 10 296 )
+    ( TokSym "contains" )
+, L
+    ( Position 10 304 )
+    ( Whitespace " " )
+, L
+    ( Position 10 305 )
+    ( TokSym "a" )
+, L
+    ( Position 10 306 )
+    ( Whitespace " " )
+, L
+    ( Position 10 307 )
+    ( TokSym "validating" )
+, L
+    ( Position 10 317 )
+    ( Whitespace " " )
+, L
+    ( Position 10 318 )
+    ( TokSym "XML" )
+, L
+    ( Position 10 321 )
+    ( Whitespace " " )
+, L
+    ( Position 10 322 )
+    ( TokSym "parser" )
+, L
+    ( Position 10 328 )
+    ( TokOther "," )
+, L
+    ( Position 10 329 )
+    ( Whitespace " " )
+, L
+    ( Position 10 330 )
+    ( TokSym "a" )
+, L
+    ( Position 10 331 )
+    ( Whitespace " " )
+, L
+    ( Position 10 332 )
+    ( TokSym "HTML" )
+, L
+    ( Position 10 336 )
+    ( Whitespace " " )
+, L
+    ( Position 10 337 )
+    ( TokSym "parser" )
+, L
+    ( Position 10 343 )
+    ( TokOther "," )
+, L
+    ( Position 10 344 )
+    ( Whitespace " " )
+, L
+    ( Position 10 345 )
+    ( TokSym "namespace" )
+, L
+    ( Position 10 354 )
+    ( Whitespace " " )
+, L
+    ( Position 10 355 )
+    ( TokSym "support" )
+, L
+    ( Position 10 362 )
+    ( TokOther "," )
+, L
+    ( Position 10 363 )
+    ( Whitespace " " )
+, L
+    ( Position 10 364 )
+    ( TokSym "an" )
+, L
+    ( Position 10 366 )
+    ( Whitespace " " )
+, L
+    ( Position 10 367 )
+    ( TokSym "XPath" )
+, L
+    ( Position 10 372 )
+    ( Whitespace " " )
+, L
+    ( Position 10 373 )
+    ( TokSym "expression" )
+, L
+    ( Position 10 383 )
+    ( Whitespace " " )
+, L
+    ( Position 10 384 )
+    ( TokSym "evaluator" )
+, L
+    ( Position 10 393 )
+    ( TokOther "," )
+, L
+    ( Position 10 394 )
+    ( Whitespace " " )
+, L
+    ( Position 10 395 )
+    ( TokSym "an" )
+, L
+    ( Position 10 397 )
+    ( Whitespace " " )
+, L
+    ( Position 10 398 )
+    ( TokSym "XSLT" )
+, L
+    ( Position 10 402 )
+    ( Whitespace " " )
+, L
+    ( Position 10 403 )
+    ( TokSym "library" )
+, L
+    ( Position 10 410 )
+    ( TokOther "," )
+, L
+    ( Position 10 411 )
+    ( Whitespace " " )
+, L
+    ( Position 10 412 )
+    ( TokSym "a" )
+, L
+    ( Position 10 413 )
+    ( Whitespace " " )
+, L
+    ( Position 10 414 )
+    ( TokSym "RelaxNG" )
+, L
+    ( Position 10 421 )
+    ( Whitespace " " )
+, L
+    ( Position 10 422 )
+    ( TokSym "schema" )
+, L
+    ( Position 10 428 )
+    ( Whitespace " " )
+, L
+    ( Position 10 429 )
+    ( TokSym "validator" )
+, L
+    ( Position 10 438 )
+    ( Whitespace " " )
+, L
+    ( Position 10 439 )
+    ( TokSym "and" )
+, L
+    ( Position 10 442 )
+    ( Whitespace " " )
+, L
+    ( Position 10 443 )
+    ( TokSym "funtions" )
+, L
+    ( Position 10 451 )
+    ( Whitespace " " )
+, L
+    ( Position 10 452 )
+    ( TokSym "for" )
+, L
+    ( Position 10 455 )
+    ( Whitespace " " )
+, L
+    ( Position 10 456 )
+    ( TokSym "serialization" )
+, L
+    ( Position 10 469 )
+    ( Whitespace " " )
+, L
+    ( Position 10 470 )
+    ( TokSym "and" )
+, L
+    ( Position 10 473 )
+    ( Whitespace " " )
+, L
+    ( Position 10 474 )
+    ( TokSym "deserialization" )
+, L
+    ( Position 10 489 )
+    ( Whitespace " " )
+, L
+    ( Position 10 490 )
+    ( TokSym "of" )
+, L
+    ( Position 10 492 )
+    ( Whitespace " " )
+, L
+    ( Position 10 493 )
+    ( TokSym "user" )
+, L
+    ( Position 10 497 )
+    ( Whitespace " " )
+, L
+    ( Position 10 498 )
+    ( TokSym "defined" )
+, L
+    ( Position 10 505 )
+    ( Whitespace " " )
+, L
+    ( Position 10 506 )
+    ( TokSym "data." )
+, L
+    ( Position 10 511 )
+    ( Whitespace " " )
+, L
+    ( Position 10 512 )
+    ( TokSym "The" )
+, L
+    ( Position 10 515 )
+    ( Whitespace " " )
+, L
+    ( Position 10 516 )
+    ( TokSym "libraray" )
+, L
+    ( Position 10 524 )
+    ( Whitespace " " )
+, L
+    ( Position 10 525 )
+    ( TokSym "make" )
+, L
+    ( Position 10 529 )
+    ( Whitespace " " )
+, L
+    ( Position 10 530 )
+    ( TokSym "extensive" )
+, L
+    ( Position 10 539 )
+    ( Whitespace " " )
+, L
+    ( Position 10 540 )
+    ( TokSym "use" )
+, L
+    ( Position 10 543 )
+    ( Whitespace " " )
+, L
+    ( Position 10 544 )
+    ( TokSym "of" )
+, L
+    ( Position 10 546 )
+    ( Whitespace " " )
+, L
+    ( Position 10 547 )
+    ( TokSym "the" )
+, L
+    ( Position 10 550 )
+    ( Whitespace " " )
+, L
+    ( Position 10 551 )
+    ( TokSym "arrow" )
+, L
+    ( Position 10 556 )
+    ( Whitespace " " )
+, L
+    ( Position 10 557 )
+    ( TokSym "approach" )
+, L
+    ( Position 10 565 )
+    ( Whitespace " " )
+, L
+    ( Position 10 566 )
+    ( TokSym "for" )
+, L
+    ( Position 10 569 )
+    ( Whitespace " " )
+, L
+    ( Position 10 570 )
+    ( TokSym "processing" )
+, L
+    ( Position 10 580 )
+    ( Whitespace " " )
+, L
+    ( Position 10 581 )
+    ( TokSym "XML." )
+, L
+    ( Position 10 585 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 11 1 )
+    ( Indent 0 )
+, L
+    ( Position 11 1 )
+    ( TokSym "homepage" )
+, L
+    ( Position 11 9 ) Colon
+, L
+    ( Position 11 10 )
+    ( Whitespace " " )
+, L
+    ( Position 11 11 )
+    ( TokSym "http" )
+, L
+    ( Position 11 15 ) Colon
+, L
+    ( Position 11 16 )
+    ( TokOther "//" )
+, L
+    ( Position 11 18 )
+    ( TokSym "www.fh-wedel.de" )
+, L
+    ( Position 11 33 )
+    ( TokOther "/~" )
+, L
+    ( Position 11 35 )
+    ( TokSym "si" )
+, L
+    ( Position 11 37 )
+    ( TokOther "/" )
+, L
+    ( Position 11 38 )
+    ( TokSym "HXmlToolbox" )
+, L
+    ( Position 11 49 )
+    ( TokOther "/" )
+, L
+    ( Position 11 50 )
+    ( TokSym "index.html" )
+, L
+    ( Position 11 60 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 12 1 )
+    ( Indent 0 )
+, L
+    ( Position 12 1 )
+    ( TokSym "copyright" )
+, L
+    ( Position 12 10 ) Colon
+, L
+    ( Position 12 11 )
+    ( Whitespace " " )
+, L
+    ( Position 12 12 )
+    ( TokSym "Copyright" )
+, L
+    ( Position 12 21 )
+    ( Whitespace " " )
+, L
+    ( Position 12 22 )
+    ( TokOther "(" )
+, L
+    ( Position 12 23 )
+    ( TokSym "c" )
+, L
+    ( Position 12 24 )
+    ( TokOther ")" )
+, L
+    ( Position 12 25 )
+    ( Whitespace " " )
+, L
+    ( Position 12 26 )
+    ( TokSym "2005" )
+, L
+    ( Position 12 30 )
+    ( Whitespace " " )
+, L
+    ( Position 12 31 )
+    ( TokSym "Uwe" )
+, L
+    ( Position 12 34 )
+    ( Whitespace " " )
+, L
+    ( Position 12 35 )
+    ( TokSym "Schmidt" )
+, L
+    ( Position 12 42 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 13 1 )
+    ( Comment "-- tested-with: ghc-6.6" )
+, L
+    ( Position 13 24 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 14 1 )
+    ( Comment "-- exposed: True" )
+, L
+    ( Position 14 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 15 1 )
+    ( Indent 0 )
+, L
+    ( Position 15 1 )
+    ( TokSym "exposed-modules" )
+, L
+    ( Position 15 16 ) Colon
+, L
+    ( Position 15 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 16 1 )
+    ( Indent 2 )
+, L
+    ( Position 16 3 )
+    ( TokSym "Control.Arrow.ArrowIf" )
+, L
+    ( Position 16 24 )
+    ( TokOther "," )
+, L
+    ( Position 16 25 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 17 1 )
+    ( Indent 2 )
+, L
+    ( Position 17 3 )
+    ( TokSym "Control.Arrow.ArrowIO" )
+, L
+    ( Position 17 24 )
+    ( TokOther "," )
+, L
+    ( Position 17 25 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 18 1 )
+    ( Indent 2 )
+, L
+    ( Position 18 3 )
+    ( TokSym "Control.Arrow.ArrowList" )
+, L
+    ( Position 18 26 )
+    ( TokOther "," )
+, L
+    ( Position 18 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 19 1 )
+    ( Indent 2 )
+, L
+    ( Position 19 3 )
+    ( TokSym "Control.Arrow.ArrowState" )
+, L
+    ( Position 19 27 )
+    ( TokOther "," )
+, L
+    ( Position 19 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 20 1 )
+    ( Indent 2 )
+, L
+    ( Position 20 3 )
+    ( TokSym "Control.Arrow.ArrowStrict" )
+, L
+    ( Position 20 28 )
+    ( TokOther "," )
+, L
+    ( Position 20 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 21 1 )
+    ( Indent 2 )
+, L
+    ( Position 21 3 )
+    ( TokSym "Control.Arrow.ArrowTree" )
+, L
+    ( Position 21 26 )
+    ( TokOther "," )
+, L
+    ( Position 21 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 22 1 )
+    ( Indent 2 )
+, L
+    ( Position 22 3 )
+    ( TokSym "Control.Arrow.IOListArrow" )
+, L
+    ( Position 22 28 )
+    ( TokOther "," )
+, L
+    ( Position 22 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 23 1 )
+    ( Indent 2 )
+, L
+    ( Position 23 3 )
+    ( TokSym "Control.Arrow.IOStateListArrow" )
+, L
+    ( Position 23 33 )
+    ( TokOther "," )
+, L
+    ( Position 23 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 24 1 )
+    ( Indent 2 )
+, L
+    ( Position 24 3 )
+    ( TokSym "Control.Arrow.ListArrow" )
+, L
+    ( Position 24 26 )
+    ( TokOther "," )
+, L
+    ( Position 24 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 25 1 )
+    ( Indent 2 )
+, L
+    ( Position 25 3 )
+    ( TokSym "Control.Arrow.ListArrows" )
+, L
+    ( Position 25 27 )
+    ( TokOther "," )
+, L
+    ( Position 25 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 26 1 )
+    ( Indent 2 )
+, L
+    ( Position 26 3 )
+    ( TokSym "Control.Arrow.StateListArrow" )
+, L
+    ( Position 26 31 )
+    ( TokOther "," )
+, L
+    ( Position 26 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 27 1 )
+    ( Indent 2 )
+, L
+    ( Position 27 3 )
+    ( TokSym "Control.Monad.MonadStateIO" )
+, L
+    ( Position 27 29 )
+    ( TokOther "," )
+, L
+    ( Position 27 30 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 28 1 )
+    ( Indent 2 )
+, L
+    ( Position 28 3 )
+    ( TokSym "Control.Strategies.DeepSeq" )
+, L
+    ( Position 28 29 )
+    ( TokOther "," )
+, L
+    ( Position 28 30 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 29 1 )
+    ( Indent 2 )
+, L
+    ( Position 29 3 )
+    ( TokSym "Data.AssocList" )
+, L
+    ( Position 29 17 )
+    ( TokOther "," )
+, L
+    ( Position 29 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 30 1 )
+    ( Indent 2 )
+, L
+    ( Position 30 3 )
+    ( TokSym "Data.Char.UTF8" )
+, L
+    ( Position 30 17 )
+    ( TokOther "," )
+, L
+    ( Position 30 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 31 1 )
+    ( Indent 2 )
+, L
+    ( Position 31 3 )
+    ( TokSym "Data.NavTree" )
+, L
+    ( Position 31 15 )
+    ( TokOther "," )
+, L
+    ( Position 31 16 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 32 1 )
+    ( Indent 2 )
+, L
+    ( Position 32 3 )
+    ( TokSym "Data.Tree.Class" )
+, L
+    ( Position 32 18 )
+    ( TokOther "," )
+, L
+    ( Position 32 19 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 33 1 )
+    ( Indent 2 )
+, L
+    ( Position 33 3 )
+    ( TokSym "Data.Tree.NTree.Filter" )
+, L
+    ( Position 33 25 )
+    ( TokOther "," )
+, L
+    ( Position 33 26 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 34 1 )
+    ( Indent 2 )
+, L
+    ( Position 34 3 )
+    ( TokSym "Data.Tree.NTree.TypeDefs" )
+, L
+    ( Position 34 27 )
+    ( TokOther "," )
+, L
+    ( Position 34 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 35 1 )
+    ( Indent 2 )
+, L
+    ( Position 35 3 )
+    ( TokSym "System.PipeOpen" )
+, L
+    ( Position 35 18 )
+    ( TokOther "," )
+, L
+    ( Position 35 19 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 36 1 )
+    ( Indent 2 )
+, L
+    ( Position 36 3 )
+    ( TokSym "Text.XML.HXT.Arrow" )
+, L
+    ( Position 36 21 )
+    ( TokOther "," )
+, L
+    ( Position 36 22 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 37 1 )
+    ( Indent 2 )
+, L
+    ( Position 37 3 )
+    ( TokSym "Text.XML.HXT.Arrow.DocumentInput" )
+, L
+    ( Position 37 35 )
+    ( TokOther "," )
+, L
+    ( Position 37 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 38 1 )
+    ( Indent 2 )
+, L
+    ( Position 38 3 )
+    ( TokSym "Text.XML.HXT.Arrow.DocumentOutput" )
+, L
+    ( Position 38 36 )
+    ( TokOther "," )
+, L
+    ( Position 38 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 39 1 )
+    ( Indent 2 )
+, L
+    ( Position 39 3 )
+    ( TokSym "Text.XML.HXT.Arrow.DOMInterface" )
+, L
+    ( Position 39 34 )
+    ( TokOther "," )
+, L
+    ( Position 39 35 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 40 1 )
+    ( Indent 2 )
+, L
+    ( Position 40 3 )
+    ( TokSym "Text.XML.HXT.Arrow.DTDProcessing" )
+, L
+    ( Position 40 35 )
+    ( TokOther "," )
+, L
+    ( Position 40 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 41 1 )
+    ( Indent 2 )
+, L
+    ( Position 41 3 )
+    ( TokSym "Text.XML.HXT.Arrow.Edit" )
+, L
+    ( Position 41 26 )
+    ( TokOther "," )
+, L
+    ( Position 41 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 42 1 )
+    ( Indent 2 )
+, L
+    ( Position 42 3 )
+    ( TokSym "Text.XML.HXT.Arrow.GeneralEntitySubstitution" )
+, L
+    ( Position 42 47 )
+    ( TokOther "," )
+, L
+    ( Position 42 48 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 43 1 )
+    ( Indent 2 )
+, L
+    ( Position 43 3 )
+    ( TokSym "Text.XML.HXT.Arrow.Namespace" )
+, L
+    ( Position 43 31 )
+    ( TokOther "," )
+, L
+    ( Position 43 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 44 1 )
+    ( Indent 2 )
+, L
+    ( Position 44 3 )
+    ( TokSym "Text.XML.HXT.Arrow.ParserInterface" )
+, L
+    ( Position 44 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 45 1 )
+    ( Indent 2 )
+, L
+    ( Position 45 3 )
+    ( TokSym "Text.XML.HXT.Arrow.Pickle" )
+, L
+    ( Position 45 28 )
+    ( TokOther "," )
+, L
+    ( Position 45 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 46 1 )
+    ( Indent 2 )
+, L
+    ( Position 46 3 )
+    ( TokSym "Text.XML.HXT.Arrow.Pickle.DTD" )
+, L
+    ( Position 46 32 )
+    ( TokOther "," )
+, L
+    ( Position 46 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 47 1 )
+    ( Indent 2 )
+, L
+    ( Position 47 3 )
+    ( TokSym "Text.XML.HXT.Arrow.Pickle.Schema" )
+, L
+    ( Position 47 35 )
+    ( TokOther "," )
+, L
+    ( Position 47 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 48 1 )
+    ( Indent 2 )
+, L
+    ( Position 48 3 )
+    ( TokSym "Text.XML.HXT.Arrow.Pickle.Xml" )
+, L
+    ( Position 48 32 )
+    ( TokOther "," )
+, L
+    ( Position 48 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 49 1 )
+    ( Indent 2 )
+, L
+    ( Position 49 3 )
+    ( TokSym "Text.XML.HXT.Arrow.ProcessDocument" )
+, L
+    ( Position 49 37 )
+    ( TokOther "," )
+, L
+    ( Position 49 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 50 1 )
+    ( Indent 2 )
+, L
+    ( Position 50 3 )
+    ( TokSym "Text.XML.HXT.Arrow.ReadDocument" )
+, L
+    ( Position 50 34 )
+    ( TokOther "," )
+, L
+    ( Position 50 35 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 51 1 )
+    ( Indent 2 )
+, L
+    ( Position 51 3 )
+    ( TokSym "Text.XML.HXT.Arrow.WriteDocument" )
+, L
+    ( Position 51 35 )
+    ( TokOther "," )
+, L
+    ( Position 51 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 52 1 )
+    ( Indent 2 )
+, L
+    ( Position 52 3 )
+    ( TokSym "Text.XML.HXT.Arrow.XmlArrow" )
+, L
+    ( Position 52 30 )
+    ( TokOther "," )
+, L
+    ( Position 52 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 53 1 )
+    ( Indent 2 )
+, L
+    ( Position 53 3 )
+    ( TokSym "Text.XML.HXT.Arrow.XmlIOStateArrow" )
+, L
+    ( Position 53 37 )
+    ( TokOther "," )
+, L
+    ( Position 53 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 54 1 )
+    ( Indent 2 )
+, L
+    ( Position 54 3 )
+    ( TokSym "Text.XML.HXT.Arrow.XmlNode" )
+, L
+    ( Position 54 29 )
+    ( TokOther "," )
+, L
+    ( Position 54 30 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 55 1 )
+    ( Indent 2 )
+, L
+    ( Position 55 3 )
+    ( TokSym "Text.XML.HXT.Arrow.XmlNodeSet" )
+, L
+    ( Position 55 32 )
+    ( TokOther "," )
+, L
+    ( Position 55 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 56 1 )
+    ( Indent 2 )
+, L
+    ( Position 56 3 )
+    ( TokSym "Text.XML.HXT.DOM" )
+, L
+    ( Position 56 19 )
+    ( TokOther "," )
+, L
+    ( Position 56 20 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 57 1 )
+    ( Indent 2 )
+, L
+    ( Position 57 3 )
+    ( TokSym "Text.XML.HXT.DOM.EditFilters" )
+, L
+    ( Position 57 31 )
+    ( TokOther "," )
+, L
+    ( Position 57 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 58 1 )
+    ( Indent 2 )
+, L
+    ( Position 58 3 )
+    ( TokSym "Text.XML.HXT.DOM.FormatXmlTree" )
+, L
+    ( Position 58 33 )
+    ( TokOther "," )
+, L
+    ( Position 58 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 59 1 )
+    ( Indent 2 )
+, L
+    ( Position 59 3 )
+    ( TokSym "Text.XML.HXT.DOM.IsoLatinTables" )
+, L
+    ( Position 59 34 )
+    ( TokOther "," )
+, L
+    ( Position 59 35 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 60 1 )
+    ( Indent 2 )
+, L
+    ( Position 60 3 )
+    ( TokSym "Text.XML.HXT.DOM.Namespace" )
+, L
+    ( Position 60 29 )
+    ( TokOther "," )
+, L
+    ( Position 60 30 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 61 1 )
+    ( Indent 2 )
+, L
+    ( Position 61 3 )
+    ( TokSym "Text.XML.HXT.DOM.NamespaceFilter" )
+, L
+    ( Position 61 35 )
+    ( TokOther "," )
+, L
+    ( Position 61 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 62 1 )
+    ( Indent 2 )
+, L
+    ( Position 62 3 )
+    ( TokSym "Text.XML.HXT.DOM.NamespacePredicates" )
+, L
+    ( Position 62 39 )
+    ( TokOther "," )
+, L
+    ( Position 62 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 63 1 )
+    ( Indent 2 )
+, L
+    ( Position 63 3 )
+    ( TokSym "Text.XML.HXT.DOM.TypeDefs" )
+, L
+    ( Position 63 28 )
+    ( TokOther "," )
+, L
+    ( Position 63 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 64 1 )
+    ( Indent 2 )
+, L
+    ( Position 64 3 )
+    ( TokSym "Text.XML.HXT.DOM.Unicode" )
+, L
+    ( Position 64 27 )
+    ( TokOther "," )
+, L
+    ( Position 64 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 65 1 )
+    ( Indent 2 )
+, L
+    ( Position 65 3 )
+    ( TokSym "Text.XML.HXT.DOM.UTF8Decoding" )
+, L
+    ( Position 65 32 )
+    ( TokOther "," )
+, L
+    ( Position 65 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 66 1 )
+    ( Indent 2 )
+, L
+    ( Position 66 3 )
+    ( TokSym "Text.XML.HXT.DOM.Util" )
+, L
+    ( Position 66 24 )
+    ( TokOther "," )
+, L
+    ( Position 66 25 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 67 1 )
+    ( Indent 2 )
+, L
+    ( Position 67 3 )
+    ( TokSym "Text.XML.HXT.DOM.XmlKeywords" )
+, L
+    ( Position 67 31 )
+    ( TokOther "," )
+, L
+    ( Position 67 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 68 1 )
+    ( Indent 2 )
+, L
+    ( Position 68 3 )
+    ( TokSym "Text.XML.HXT.DOM.XmlOptions" )
+, L
+    ( Position 68 30 )
+    ( TokOther "," )
+, L
+    ( Position 68 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 69 1 )
+    ( Indent 2 )
+, L
+    ( Position 69 3 )
+    ( TokSym "Text.XML.HXT.DOM.XmlState" )
+, L
+    ( Position 69 28 )
+    ( TokOther "," )
+, L
+    ( Position 69 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 70 1 )
+    ( Indent 2 )
+, L
+    ( Position 70 3 )
+    ( TokSym "Text.XML.HXT.DOM.XmlTree" )
+, L
+    ( Position 70 27 )
+    ( TokOther "," )
+, L
+    ( Position 70 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 71 1 )
+    ( Indent 2 )
+, L
+    ( Position 71 3 )
+    ( TokSym "Text.XML.HXT.DOM.XmlTreeFilter" )
+, L
+    ( Position 71 33 )
+    ( TokOther "," )
+, L
+    ( Position 71 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 72 1 )
+    ( Indent 2 )
+, L
+    ( Position 72 3 )
+    ( TokSym "Text.XML.HXT.DOM.XmlTreeFunctions" )
+, L
+    ( Position 72 36 )
+    ( TokOther "," )
+, L
+    ( Position 72 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 73 1 )
+    ( Indent 2 )
+, L
+    ( Position 73 3 )
+    ( TokSym "Text.XML.HXT.DOM.XmlTreeTypes" )
+, L
+    ( Position 73 32 )
+    ( TokOther "," )
+, L
+    ( Position 73 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 74 1 )
+    ( Indent 2 )
+, L
+    ( Position 74 3 )
+    ( TokSym "Text.XML.HXT.IO.GetFILE" )
+, L
+    ( Position 74 26 )
+    ( TokOther "," )
+, L
+    ( Position 74 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 75 1 )
+    ( Indent 2 )
+, L
+    ( Position 75 3 )
+    ( TokSym "Text.XML.HXT.IO.GetHTTPCurl" )
+, L
+    ( Position 75 30 )
+    ( TokOther "," )
+, L
+    ( Position 75 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 76 1 )
+    ( Indent 2 )
+, L
+    ( Position 76 3 )
+    ( TokSym "Text.XML.HXT.IO.GetHTTPNative" )
+, L
+    ( Position 76 32 )
+    ( TokOther "," )
+, L
+    ( Position 76 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 77 1 )
+    ( Indent 2 )
+, L
+    ( Position 77 3 )
+    ( TokSym "Text.XML.HXT.Parser" )
+, L
+    ( Position 77 22 )
+    ( TokOther "," )
+, L
+    ( Position 77 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 78 1 )
+    ( Indent 2 )
+, L
+    ( Position 78 3 )
+    ( TokSym "Text.XML.HXT.Parser.DefaultURI" )
+, L
+    ( Position 78 33 )
+    ( TokOther "," )
+, L
+    ( Position 78 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 79 1 )
+    ( Indent 2 )
+, L
+    ( Position 79 3 )
+    ( TokSym "Text.XML.HXT.Parser.DTDProcessing" )
+, L
+    ( Position 79 36 )
+    ( TokOther "," )
+, L
+    ( Position 79 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 80 1 )
+    ( Indent 2 )
+, L
+    ( Position 80 3 )
+    ( TokSym "Text.XML.HXT.Parser.HtmlParsec" )
+, L
+    ( Position 80 33 )
+    ( TokOther "," )
+, L
+    ( Position 80 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 81 1 )
+    ( Indent 2 )
+, L
+    ( Position 81 3 )
+    ( TokSym "Text.XML.HXT.Parser.HtmlParser" )
+, L
+    ( Position 81 33 )
+    ( TokOther "," )
+, L
+    ( Position 81 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 82 1 )
+    ( Indent 2 )
+, L
+    ( Position 82 3 )
+    ( TokSym "Text.XML.HXT.Parser.MainFunctions" )
+, L
+    ( Position 82 36 )
+    ( TokOther "," )
+, L
+    ( Position 82 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 83 1 )
+    ( Indent 2 )
+, L
+    ( Position 83 3 )
+    ( TokSym "Text.XML.HXT.Parser.ProtocolHandler" )
+, L
+    ( Position 83 38 )
+    ( TokOther "," )
+, L
+    ( Position 83 39 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 84 1 )
+    ( Indent 2 )
+, L
+    ( Position 84 3 )
+    ( TokSym "Text.XML.HXT.Parser.ProtocolHandlerFile" )
+, L
+    ( Position 84 42 )
+    ( TokOther "," )
+, L
+    ( Position 84 43 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 85 1 )
+    ( Indent 2 )
+, L
+    ( Position 85 3 )
+    ( TokSym "Text.XML.HXT.Parser.ProtocolHandlerHttpCurl" )
+, L
+    ( Position 85 46 )
+    ( TokOther "," )
+, L
+    ( Position 85 47 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 86 1 )
+    ( Indent 2 )
+, L
+    ( Position 86 3 )
+    ( TokSym "Text.XML.HXT.Parser.ProtocolHandlerHttpNative" )
+, L
+    ( Position 86 48 )
+    ( TokOther "," )
+, L
+    ( Position 86 49 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 87 1 )
+    ( Indent 2 )
+, L
+    ( Position 87 3 )
+    ( TokSym "Text.XML.HXT.Parser.ProtocolHandlerHttpNativeOrCurl" )
+, L
+    ( Position 87 54 )
+    ( TokOther "," )
+, L
+    ( Position 87 55 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 88 1 )
+    ( Indent 2 )
+, L
+    ( Position 88 3 )
+    ( TokSym "Text.XML.HXT.Parser.ProtocolHandlerUtil" )
+, L
+    ( Position 88 42 )
+    ( TokOther "," )
+, L
+    ( Position 88 43 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 89 1 )
+    ( Indent 2 )
+, L
+    ( Position 89 3 )
+    ( TokSym "Text.XML.HXT.Parser.XmlCharParser" )
+, L
+    ( Position 89 36 )
+    ( TokOther "," )
+, L
+    ( Position 89 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 90 1 )
+    ( Indent 2 )
+, L
+    ( Position 90 3 )
+    ( TokSym "Text.XML.HXT.Parser.XmlDTDParser" )
+, L
+    ( Position 90 35 )
+    ( TokOther "," )
+, L
+    ( Position 90 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 91 1 )
+    ( Indent 2 )
+, L
+    ( Position 91 3 )
+    ( TokSym "Text.XML.HXT.Parser.XmlDTDTokenParser" )
+, L
+    ( Position 91 40 )
+    ( TokOther "," )
+, L
+    ( Position 91 41 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 92 1 )
+    ( Indent 2 )
+, L
+    ( Position 92 3 )
+    ( TokSym "Text.XML.HXT.Parser.XmlInput" )
+, L
+    ( Position 92 31 )
+    ( TokOther "," )
+, L
+    ( Position 92 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 93 1 )
+    ( Indent 2 )
+, L
+    ( Position 93 3 )
+    ( TokSym "Text.XML.HXT.Parser.XmlOutput" )
+, L
+    ( Position 93 32 )
+    ( TokOther "," )
+, L
+    ( Position 93 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 94 1 )
+    ( Indent 2 )
+, L
+    ( Position 94 3 )
+    ( TokSym "Text.XML.HXT.Parser.XmlParsec" )
+, L
+    ( Position 94 32 )
+    ( TokOther "," )
+, L
+    ( Position 94 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 95 1 )
+    ( Indent 2 )
+, L
+    ( Position 95 3 )
+    ( TokSym "Text.XML.HXT.Parser.XmlParser" )
+, L
+    ( Position 95 32 )
+    ( TokOther "," )
+, L
+    ( Position 95 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 96 1 )
+    ( Indent 2 )
+, L
+    ( Position 96 3 )
+    ( TokSym "Text.XML.HXT.Parser.XmlTokenParser" )
+, L
+    ( Position 96 37 )
+    ( TokOther "," )
+, L
+    ( Position 96 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 97 1 )
+    ( Indent 2 )
+, L
+    ( Position 97 3 )
+    ( TokSym "Text.XML.HXT.Validator.AttributeValueValidation" )
+, L
+    ( Position 97 50 )
+    ( TokOther "," )
+, L
+    ( Position 97 51 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 98 1 )
+    ( Indent 2 )
+, L
+    ( Position 98 3 )
+    ( TokSym "Text.XML.HXT.Validator.DocTransformation" )
+, L
+    ( Position 98 43 )
+    ( TokOther "," )
+, L
+    ( Position 98 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 99 1 )
+    ( Indent 2 )
+, L
+    ( Position 99 3 )
+    ( TokSym "Text.XML.HXT.Validator.DocValidation" )
+, L
+    ( Position 99 39 )
+    ( TokOther "," )
+, L
+    ( Position 99 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 100 1 )
+    ( Indent 2 )
+, L
+    ( Position 100 3 )
+    ( TokSym "Text.XML.HXT.Validator.DTDValidation" )
+, L
+    ( Position 100 39 )
+    ( TokOther "," )
+, L
+    ( Position 100 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 101 1 )
+    ( Indent 2 )
+, L
+    ( Position 101 3 )
+    ( TokSym "Text.XML.HXT.Validator.IdValidation" )
+, L
+    ( Position 101 38 )
+    ( TokOther "," )
+, L
+    ( Position 101 39 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 102 1 )
+    ( Indent 2 )
+, L
+    ( Position 102 3 )
+    ( TokSym "Text.XML.HXT.Validator.RE" )
+, L
+    ( Position 102 28 )
+    ( TokOther "," )
+, L
+    ( Position 102 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 103 1 )
+    ( Indent 2 )
+, L
+    ( Position 103 3 )
+    ( TokSym "Text.XML.HXT.Validator.Validation" )
+, L
+    ( Position 103 36 )
+    ( TokOther "," )
+, L
+    ( Position 103 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 104 1 )
+    ( Indent 2 )
+, L
+    ( Position 104 3 )
+    ( TokSym "Text.XML.HXT.Validator.ValidationFilter" )
+, L
+    ( Position 104 42 )
+    ( TokOther "," )
+, L
+    ( Position 104 43 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 105 1 )
+    ( Indent 2 )
+, L
+    ( Position 105 3 )
+    ( TokSym "Text.XML.HXT.Validator.XmlRE" )
+, L
+    ( Position 105 31 )
+    ( TokOther "," )
+, L
+    ( Position 105 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 106 1 )
+    ( Indent 2 )
+, L
+    ( Position 106 3 )
+    ( TokSym "Text.XML.HXT.XPath" )
+, L
+    ( Position 106 21 )
+    ( TokOther "," )
+, L
+    ( Position 106 22 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 107 1 )
+    ( Indent 2 )
+, L
+    ( Position 107 3 )
+    ( TokSym "Text.XML.HXT.XPath.NavTree" )
+, L
+    ( Position 107 29 )
+    ( TokOther "," )
+, L
+    ( Position 107 30 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 108 1 )
+    ( Indent 2 )
+, L
+    ( Position 108 3 )
+    ( TokSym "Text.XML.HXT.XPath.XPathArithmetic" )
+, L
+    ( Position 108 37 )
+    ( TokOther "," )
+, L
+    ( Position 108 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 109 1 )
+    ( Indent 2 )
+, L
+    ( Position 109 3 )
+    ( TokSym "Text.XML.HXT.XPath.XPathDataTypes" )
+, L
+    ( Position 109 36 )
+    ( TokOther "," )
+, L
+    ( Position 109 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 110 1 )
+    ( Indent 2 )
+, L
+    ( Position 110 3 )
+    ( TokSym "Text.XML.HXT.XPath.XPathEval" )
+, L
+    ( Position 110 31 )
+    ( TokOther "," )
+, L
+    ( Position 110 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 111 1 )
+    ( Indent 2 )
+, L
+    ( Position 111 3 )
+    ( TokSym "Text.XML.HXT.XPath.XPathFct" )
+, L
+    ( Position 111 30 )
+    ( TokOther "," )
+, L
+    ( Position 111 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 112 1 )
+    ( Indent 2 )
+, L
+    ( Position 112 3 )
+    ( TokSym "Text.XML.HXT.XPath.XPathKeywords" )
+, L
+    ( Position 112 35 )
+    ( TokOther "," )
+, L
+    ( Position 112 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 113 1 )
+    ( Indent 2 )
+, L
+    ( Position 113 3 )
+    ( TokSym "Text.XML.HXT.XPath.XPathParser" )
+, L
+    ( Position 113 33 )
+    ( TokOther "," )
+, L
+    ( Position 113 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 114 1 )
+    ( Indent 2 )
+, L
+    ( Position 114 3 )
+    ( TokSym "Text.XML.HXT.XPath.XPathToNodeSet" )
+, L
+    ( Position 114 36 )
+    ( TokOther "," )
+, L
+    ( Position 114 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 115 1 )
+    ( Indent 2 )
+, L
+    ( Position 115 3 )
+    ( TokSym "Text.XML.HXT.XPath.XPathToString" )
+, L
+    ( Position 115 35 )
+    ( TokOther "," )
+, L
+    ( Position 115 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 116 1 )
+    ( Indent 2 )
+, L
+    ( Position 116 3 )
+    ( TokSym "Text.XML.HXT.XSLT.Application" )
+, L
+    ( Position 116 32 )
+    ( TokOther "," )
+, L
+    ( Position 116 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 117 1 )
+    ( Indent 2 )
+, L
+    ( Position 117 3 )
+    ( TokSym "Text.XML.HXT.XSLT.Common" )
+, L
+    ( Position 117 27 )
+    ( TokOther "," )
+, L
+    ( Position 117 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 118 1 )
+    ( Indent 2 )
+, L
+    ( Position 118 3 )
+    ( TokSym "Text.XML.HXT.XSLT.Compilation" )
+, L
+    ( Position 118 32 )
+    ( TokOther "," )
+, L
+    ( Position 118 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 119 1 )
+    ( Indent 2 )
+, L
+    ( Position 119 3 )
+    ( TokSym "Text.XML.HXT.XSLT.CompiledStylesheet" )
+, L
+    ( Position 119 39 )
+    ( TokOther "," )
+, L
+    ( Position 119 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 120 1 )
+    ( Indent 2 )
+, L
+    ( Position 120 3 )
+    ( TokSym "Text.XML.HXT.XSLT.Names" )
+, L
+    ( Position 120 26 )
+    ( TokOther "," )
+, L
+    ( Position 120 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 121 1 )
+    ( Indent 2 )
+, L
+    ( Position 121 3 )
+    ( TokSym "Text.XML.HXT.XSLT.XsltArrows" )
+, L
+    ( Position 121 31 )
+    ( TokOther "," )
+, L
+    ( Position 121 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 122 1 )
+    ( Indent 2 )
+, L
+    ( Position 122 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG" )
+, L
+    ( Position 122 23 )
+    ( TokOther "," )
+, L
+    ( Position 122 24 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 123 1 )
+    ( Indent 2 )
+, L
+    ( Position 123 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG.BasicArrows" )
+, L
+    ( Position 123 35 )
+    ( TokOther "," )
+, L
+    ( Position 123 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 124 1 )
+    ( Indent 2 )
+, L
+    ( Position 124 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG.CreatePattern" )
+, L
+    ( Position 124 37 )
+    ( TokOther "," )
+, L
+    ( Position 124 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 125 1 )
+    ( Indent 2 )
+, L
+    ( Position 125 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG.DataTypeLibMysql" )
+, L
+    ( Position 125 40 )
+    ( TokOther "," )
+, L
+    ( Position 125 41 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 126 1 )
+    ( Indent 2 )
+, L
+    ( Position 126 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG.DataTypeLibraries" )
+, L
+    ( Position 126 41 )
+    ( TokOther "," )
+, L
+    ( Position 126 42 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 127 1 )
+    ( Indent 2 )
+, L
+    ( Position 127 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG.DataTypeLibUtils" )
+, L
+    ( Position 127 40 )
+    ( TokOther "," )
+, L
+    ( Position 127 41 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 128 1 )
+    ( Indent 2 )
+, L
+    ( Position 128 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG.DataTypeLibW3C" )
+, L
+    ( Position 128 38 )
+    ( TokOther "," )
+, L
+    ( Position 128 39 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 129 1 )
+    ( Indent 2 )
+, L
+    ( Position 129 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG.DataTypes" )
+, L
+    ( Position 129 33 )
+    ( TokOther "," )
+, L
+    ( Position 129 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 130 1 )
+    ( Indent 2 )
+, L
+    ( Position 130 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG.PatternFunctions" )
+, L
+    ( Position 130 40 )
+    ( TokOther "," )
+, L
+    ( Position 130 41 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 131 1 )
+    ( Indent 2 )
+, L
+    ( Position 131 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG.PatternToString" )
+, L
+    ( Position 131 39 )
+    ( TokOther "," )
+, L
+    ( Position 131 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 132 1 )
+    ( Indent 2 )
+, L
+    ( Position 132 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG.SchemaGrammar" )
+, L
+    ( Position 132 37 )
+    ( TokOther "," )
+, L
+    ( Position 132 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 133 1 )
+    ( Indent 2 )
+, L
+    ( Position 133 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG.Schema" )
+, L
+    ( Position 133 30 )
+    ( TokOther "," )
+, L
+    ( Position 133 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 134 1 )
+    ( Indent 2 )
+, L
+    ( Position 134 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG.Simplification" )
+, L
+    ( Position 134 38 )
+    ( TokOther "," )
+, L
+    ( Position 134 39 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 135 1 )
+    ( Indent 2 )
+, L
+    ( Position 135 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG.Utils" )
+, L
+    ( Position 135 29 )
+    ( TokOther "," )
+, L
+    ( Position 135 30 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 136 1 )
+    ( Indent 2 )
+, L
+    ( Position 136 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG.Validation" )
+, L
+    ( Position 136 34 )
+    ( TokOther "," )
+, L
+    ( Position 136 35 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 137 1 )
+    ( Indent 2 )
+, L
+    ( Position 137 3 )
+    ( TokSym "Text.XML.HXT.RelaxNG.Validator" )
+, L
+    ( Position 137 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 138 1 )
+    ( Indent 0 )
+, L
+    ( Position 138 1 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 138 15 ) Colon
+, L
+    ( Position 138 16 )
+    ( Whitespace " " )
+, L
+    ( Position 138 17 )
+    ( TokSym "src" )
+, L
+    ( Position 138 20 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 139 1 )
+    ( Indent 0 )
+, L
+    ( Position 139 1 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 139 12 ) Colon
+, L
+    ( Position 139 13 )
+    ( Whitespace " " )
+, L
+    ( Position 139 14 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 139 19 )
+    ( Whitespace " " )
+, L
+    ( Position 139 20 )
+    ( TokSym "-O2" )
+, L
+    ( Position 139 23 )
+    ( Whitespace " " )
+, L
+    ( Position 139 24 )
+    ( TokSym "-fglasgow-exts" )
+, L
+    ( Position 139 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 140 1 )
+    ( Comment "-- import-dirs: /usr/lib/ghc-6.6/hxt/imports" )
+, L
+    ( Position 140 45 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 141 1 )
+    ( Comment "-- library-dirs: /usr/lib/ghc-6.6/hxt" )
+, L
+    ( Position 141 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 142 1 )
+    ( Comment "-- hs-libraries: HShxt" )
+, L
+    ( Position 142 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 143 1 )
+    ( Indent 0 )
+, L
+    ( Position 143 1 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 143 14 ) Colon
+, L
+    ( Position 143 15 )
+    ( Whitespace " " )
+, L
+    ( Position 143 16 )
+    ( TokSym "base" )
+, L
+    ( Position 143 20 )
+    ( TokOther "," )
+, L
+    ( Position 143 21 )
+    ( Whitespace " " )
+, L
+    ( Position 143 22 )
+    ( TokSym "haskell98" )
+, L
+    ( Position 143 31 )
+    ( TokOther "," )
+, L
+    ( Position 143 32 )
+    ( Whitespace " " )
+, L
+    ( Position 143 33 )
+    ( TokSym "parsec" )
+, L
+    ( Position 143 39 )
+    ( TokOther "," )
+, L
+    ( Position 143 40 )
+    ( Whitespace " " )
+, L
+    ( Position 143 41 )
+    ( TokSym "HTTP" )
+, L
+    ( Position 143 45 )
+    ( TokOther "," )
+, L
+    ( Position 143 46 )
+    ( Whitespace " " )
+, L
+    ( Position 143 47 )
+    ( TokSym "HUnit" )
+, L
+    ( Position 143 52 )
+    ( TokOther "," )
+, L
+    ( Position 143 53 )
+    ( Whitespace " " )
+, L
+    ( Position 143 54 )
+    ( TokSym "network" )
+, L
+    ( Position 143 61 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 144 1 ) EOF
+]

@@ -1,0 +1,213 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 6 )
+    ( Whitespace "                " )
+, L
+    ( Position 1 22 )
+    ( TokSym "disjoint-set" )
+, L
+    ( Position 1 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 9 )
+    ( Whitespace "             " )
+, L
+    ( Position 2 22 )
+    ( TokSym "0.1" )
+, L
+    ( Position 2 25 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 3 9 ) Colon
+, L
+    ( Position 3 10 )
+    ( Whitespace "            " )
+, L
+    ( Position 3 22 )
+    ( TokSym "Persistent" )
+, L
+    ( Position 3 32 )
+    ( Whitespace " " )
+, L
+    ( Position 3 33 )
+    ( TokSym "disjoint-sets" )
+, L
+    ( Position 3 46 )
+    ( TokOther "," )
+, L
+    ( Position 3 47 )
+    ( Whitespace " " )
+, L
+    ( Position 3 48 )
+    ( TokSym "a.k.a" )
+, L
+    ( Position 3 53 )
+    ( Whitespace " " )
+, L
+    ( Position 3 54 )
+    ( TokSym "union-find." )
+, L
+    ( Position 3 65 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 4 12 ) Colon
+, L
+    ( Position 4 13 )
+    ( Whitespace "         " )
+, L
+    ( Position 4 22 )
+    ( TokSym "This" )
+, L
+    ( Position 4 26 )
+    ( Whitespace " " )
+, L
+    ( Position 4 27 )
+    ( TokSym "is" )
+, L
+    ( Position 4 29 )
+    ( Whitespace " " )
+, L
+    ( Position 4 30 )
+    ( TokSym "a" )
+, L
+    ( Position 4 31 )
+    ( Whitespace " " )
+, L
+    ( Position 4 32 )
+    ( TokSym "persistent" )
+, L
+    ( Position 4 42 )
+    ( Whitespace " " )
+, L
+    ( Position 4 43 )
+    ( TokSym "data" )
+, L
+    ( Position 4 47 )
+    ( Whitespace " " )
+, L
+    ( Position 4 48 )
+    ( TokSym "structure" )
+, L
+    ( Position 4 57 )
+    ( Whitespace " " )
+, L
+    ( Position 4 58 )
+    ( TokSym "for" )
+, L
+    ( Position 4 61 )
+    ( Whitespace " " )
+, L
+    ( Position 4 62 )
+    ( TokSym "disjoint" )
+, L
+    ( Position 4 70 )
+    ( Whitespace " " )
+, L
+    ( Position 4 71 )
+    ( TokSym "sets." )
+, L
+    ( Position 4 76 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 5 1 )
+    ( Indent 21 )
+, L
+    ( Position 5 22 )
+    ( TokSym "." )
+, L
+    ( Position 5 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 6 1 )
+    ( Indent 21 )
+, L
+    ( Position 6 22 )
+    ( TokSym "The" )
+, L
+    ( Position 6 25 )
+    ( Whitespace " " )
+, L
+    ( Position 6 26 )
+    ( TokSym "algorithm" )
+, L
+    ( Position 6 35 )
+    ( Whitespace " " )
+, L
+    ( Position 6 36 )
+    ( TokSym "is" )
+, L
+    ( Position 6 38 )
+    ( Whitespace " " )
+, L
+    ( Position 6 39 )
+    ( TokSym "described" )
+, L
+    ( Position 6 48 )
+    ( Whitespace " " )
+, L
+    ( Position 6 49 )
+    ( TokSym "in" )
+, L
+    ( Position 6 51 )
+    ( Whitespace " " )
+, L
+    ( Position 6 68 )
+    ( LexicalError "
+                         Algorithms" by Cormen, et al. The implementation here
+                         uses both union by rank and path compression. We
+                         incur an O(logn) overhead because of the use of
+                         persistent maps.
+                         .
+                         Data.IntDisjointSet is as strict as possible.
+    License:             LGPL
+    License-file:        LICENSE
+    Author:              Maxwell Sayles <maxwellsayles@gmail.com>
+    Maintainer:          Maxwell Sayles <maxwellsayles@gmail.com>
+    Category:            Data
+    Build-type:          Simple
+    Stability:           stable
+    Homepage:            https://github.com/maxwellsayles/disjoint-set
+    Cabal-version:       >= 1.8
+
+    Library
+      Exposed-modules:   Data.IntDisjointSet
+      Build-depends:     base >= 3 && < 5,
+                         containers >= 0.3,
+                         mtl >= 2,
+                         transformers >= 0.3
+    " )
+, L
+    ( Position 6 52 ) EOF
+]

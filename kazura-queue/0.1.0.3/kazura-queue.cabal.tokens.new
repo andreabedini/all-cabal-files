@@ -1,0 +1,1002 @@
+[ L
+    ( Position 1 1 )
+    ( Comment "-- This file has been generated from package.yaml by hpack version 0.28.2." )
+, L
+    ( Position 1 75 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 2 1 )
+    ( Comment "--" )
+, L
+    ( Position 2 3 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 3 1 )
+    ( Comment "-- see: https://github.com/sol/hpack" )
+, L
+    ( Position 3 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 4 1 )
+    ( Comment "--" )
+, L
+    ( Position 4 3 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 5 1 )
+    ( Comment "-- hash: ce64d904d9dcf6b3df16e486d6230a325fd9480d175e7c84c4a703eee11291b1" )
+, L
+    ( Position 5 74 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 6 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 7 1 )
+    ( Indent 0 )
+, L
+    ( Position 7 1 )
+    ( TokSym "name" )
+, L
+    ( Position 7 5 ) Colon
+, L
+    ( Position 7 6 )
+    ( Whitespace "           " )
+, L
+    ( Position 7 17 )
+    ( TokSym "kazura-queue" )
+, L
+    ( Position 7 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 8 1 )
+    ( Indent 0 )
+, L
+    ( Position 8 1 )
+    ( TokSym "version" )
+, L
+    ( Position 8 8 ) Colon
+, L
+    ( Position 8 9 )
+    ( Whitespace "        " )
+, L
+    ( Position 8 17 )
+    ( TokSym "0.1.0.3" )
+, L
+    ( Position 8 24 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 9 1 )
+    ( Indent 0 )
+, L
+    ( Position 9 1 )
+    ( TokSym "synopsis" )
+, L
+    ( Position 9 9 ) Colon
+, L
+    ( Position 9 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 9 17 )
+    ( TokSym "Fast" )
+, L
+    ( Position 9 21 )
+    ( Whitespace " " )
+, L
+    ( Position 9 22 )
+    ( TokSym "concurrent" )
+, L
+    ( Position 9 32 )
+    ( Whitespace " " )
+, L
+    ( Position 9 33 )
+    ( TokSym "queues" )
+, L
+    ( Position 9 39 )
+    ( Whitespace " " )
+, L
+    ( Position 9 40 )
+    ( TokSym "much" )
+, L
+    ( Position 9 44 )
+    ( Whitespace " " )
+, L
+    ( Position 9 45 )
+    ( TokSym "inspired" )
+, L
+    ( Position 9 53 )
+    ( Whitespace " " )
+, L
+    ( Position 9 54 )
+    ( TokSym "by" )
+, L
+    ( Position 9 56 )
+    ( Whitespace " " )
+, L
+    ( Position 9 57 )
+    ( TokSym "unagi-chan" )
+, L
+    ( Position 9 67 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 10 1 )
+    ( Indent 0 )
+, L
+    ( Position 10 1 )
+    ( TokSym "description" )
+, L
+    ( Position 10 12 ) Colon
+, L
+    ( Position 10 13 )
+    ( Whitespace "    " )
+, L
+    ( Position 10 17 )
+    ( TokOther "\" )
+, L
+    ( Position 10 18 )
+    ( TokStr "kazura-queue\" )
+, L
+    ( Position 10 33 )
+    ( Whitespace " " )
+, L
+    ( Position 10 34 )
+    ( TokSym "provides" )
+, L
+    ( Position 10 42 )
+    ( Whitespace " " )
+, L
+    ( Position 10 43 )
+    ( TokSym "an" )
+, L
+    ( Position 10 45 )
+    ( Whitespace " " )
+, L
+    ( Position 10 46 )
+    ( TokSym "implementation" )
+, L
+    ( Position 10 60 )
+    ( Whitespace " " )
+, L
+    ( Position 10 61 )
+    ( TokSym "of" )
+, L
+    ( Position 10 63 )
+    ( Whitespace " " )
+, L
+    ( Position 10 64 )
+    ( TokSym "FIFO" )
+, L
+    ( Position 10 68 )
+    ( Whitespace " " )
+, L
+    ( Position 10 69 )
+    ( TokSym "queue." )
+, L
+    ( Position 10 75 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 11 1 )
+    ( Indent 16 )
+, L
+    ( Position 11 17 )
+    ( TokSym "It" )
+, L
+    ( Position 11 19 )
+    ( Whitespace " " )
+, L
+    ( Position 11 20 )
+    ( TokSym "is" )
+, L
+    ( Position 11 22 )
+    ( Whitespace " " )
+, L
+    ( Position 11 23 )
+    ( TokSym "faster" )
+, L
+    ( Position 11 29 )
+    ( Whitespace " " )
+, L
+    ( Position 11 30 )
+    ( TokSym "than" )
+, L
+    ( Position 11 34 )
+    ( Whitespace " " )
+, L
+    ( Position 11 35 )
+    ( TokSym "Chan" )
+, L
+    ( Position 11 39 )
+    ( TokOther "," )
+, L
+    ( Position 11 40 )
+    ( Whitespace " " )
+, L
+    ( Position 11 41 )
+    ( TokSym "TQueue" )
+, L
+    ( Position 11 47 )
+    ( Whitespace " " )
+, L
+    ( Position 11 48 )
+    ( TokSym "or" )
+, L
+    ( Position 11 50 )
+    ( Whitespace " " )
+, L
+    ( Position 11 51 )
+    ( TokSym "TChan" )
+, L
+    ( Position 11 56 )
+    ( Whitespace " " )
+, L
+    ( Position 11 57 )
+    ( TokSym "by" )
+, L
+    ( Position 11 59 )
+    ( Whitespace " " )
+, L
+    ( Position 11 60 )
+    ( TokSym "the" )
+, L
+    ( Position 11 63 )
+    ( Whitespace " " )
+, L
+    ( Position 11 64 )
+    ( TokSym "benefit" )
+, L
+    ( Position 11 71 )
+    ( Whitespace " " )
+, L
+    ( Position 11 72 )
+    ( TokSym "of" )
+, L
+    ( Position 11 74 )
+    ( Whitespace " " )
+, L
+    ( Position 11 75 )
+    ( TokSym "fetch-and-add" )
+, L
+    ( Position 11 88 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 12 1 )
+    ( Indent 16 )
+, L
+    ( Position 12 17 )
+    ( TokSym "instruction." )
+, L
+    ( Position 12 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 13 1 )
+    ( Indent 16 )
+, L
+    ( Position 13 17 )
+    ( TokSym "." )
+, L
+    ( Position 13 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 14 1 )
+    ( Indent 16 )
+, L
+    ( Position 14 17 )
+    ( TokSym "Main" )
+, L
+    ( Position 14 21 )
+    ( Whitespace " " )
+, L
+    ( Position 14 22 )
+    ( TokSym "motivation" )
+, L
+    ( Position 14 32 )
+    ( Whitespace " " )
+, L
+    ( Position 14 33 )
+    ( TokSym "of" )
+, L
+    ( Position 14 35 )
+    ( Whitespace " " )
+, L
+    ( Position 14 36 )
+    ( TokSym "this" )
+, L
+    ( Position 14 40 )
+    ( Whitespace " " )
+, L
+    ( Position 14 41 )
+    ( TokSym "package" )
+, L
+    ( Position 14 48 )
+    ( Whitespace " " )
+, L
+    ( Position 14 49 )
+    ( TokSym "is" )
+, L
+    ( Position 14 51 )
+    ( Whitespace " " )
+, L
+    ( Position 14 52 )
+    ( TokSym "to" )
+, L
+    ( Position 14 54 )
+    ( Whitespace " " )
+, L
+    ( Position 14 55 )
+    ( TokSym "solve" )
+, L
+    ( Position 14 60 )
+    ( Whitespace " " )
+, L
+    ( Position 14 61 )
+    ( TokSym "some" )
+, L
+    ( Position 14 65 )
+    ( Whitespace " " )
+, L
+    ( Position 14 66 )
+    ( TokSym "difficulty" )
+, L
+    ( Position 14 76 )
+    ( Whitespace " " )
+, L
+    ( Position 14 77 )
+    ( TokSym "of" )
+, L
+    ( Position 14 79 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 15 1 )
+    ( Indent 16 )
+, L
+    ( Position 15 17 )
+    ( TokStr "unagi-chan" )
+, L
+    ( Position 15 29 )
+    ( Whitespace " " )
+, L
+    ( Position 15 30 )
+    ( TokSym "package." )
+, L
+    ( Position 15 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 16 1 )
+    ( Indent 16 )
+, L
+    ( Position 16 17 )
+    ( TokSym "." )
+, L
+    ( Position 16 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 17 1 )
+    ( Indent 16 )
+, L
+    ( Position 17 17 )
+    ( TokSym "-" )
+, L
+    ( Position 17 18 )
+    ( Whitespace " " )
+, L
+    ( Position 17 19 )
+    ( TokSym "In" )
+, L
+    ( Position 17 21 )
+    ( Whitespace " " )
+, L
+    ( Position 17 22 )
+    ( TokStr "unagi-chan" )
+, L
+    ( Position 17 34 )
+    ( TokOther "," )
+, L
+    ( Position 17 35 )
+    ( Whitespace " " )
+, L
+    ( Position 17 36 )
+    ( TokSym "the" )
+, L
+    ( Position 17 39 )
+    ( Whitespace " " )
+, L
+    ( Position 17 40 )
+    ( TokSym "item" )
+, L
+    ( Position 17 44 )
+    ( Whitespace " " )
+, L
+    ( Position 17 45 )
+    ( TokSym "in" )
+, L
+    ( Position 17 47 )
+    ( Whitespace " " )
+, L
+    ( Position 17 48 )
+    ( TokSym "the" )
+, L
+    ( Position 17 51 )
+    ( Whitespace " " )
+, L
+    ( Position 17 52 )
+    ( TokSym "queue" )
+, L
+    ( Position 17 57 )
+    ( TokOther "/" )
+, L
+    ( Position 17 58 )
+    ( TokSym "chan" )
+, L
+    ( Position 17 62 )
+    ( Whitespace " " )
+, L
+    ( Position 17 63 )
+    ( TokSym "can" )
+, L
+    ( Position 17 66 )
+    ( Whitespace " " )
+, L
+    ( Position 17 67 )
+    ( TokSym "be" )
+, L
+    ( Position 17 69 )
+    ( Whitespace " " )
+, L
+    ( Position 17 70 )
+    ( TokSym "lost" )
+, L
+    ( Position 17 74 )
+    ( Whitespace " " )
+, L
+    ( Position 17 75 )
+    ( TokSym "when" )
+, L
+    ( Position 17 79 )
+    ( Whitespace " " )
+, L
+    ( Position 17 80 )
+    ( TokSym "async" )
+, L
+    ( Position 17 85 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 18 1 )
+    ( Indent 18 )
+, L
+    ( Position 18 19 )
+    ( TokSym "exception" )
+, L
+    ( Position 18 28 )
+    ( Whitespace " " )
+, L
+    ( Position 18 29 )
+    ( TokSym "is" )
+, L
+    ( Position 18 31 )
+    ( Whitespace " " )
+, L
+    ( Position 18 32 )
+    ( TokSym "throwed" )
+, L
+    ( Position 18 39 )
+    ( Whitespace " " )
+, L
+    ( Position 18 40 )
+    ( TokSym "to" )
+, L
+    ( Position 18 42 )
+    ( Whitespace " " )
+, L
+    ( Position 18 43 )
+    ( TokSym "the" )
+, L
+    ( Position 18 46 )
+    ( Whitespace " " )
+, L
+    ( Position 18 47 )
+    ( TokSym "read" )
+, L
+    ( Position 18 51 )
+    ( Whitespace " " )
+, L
+    ( Position 18 52 )
+    ( TokSym "thread" )
+, L
+    ( Position 18 58 )
+    ( Whitespace " " )
+, L
+    ( Position 18 59 )
+    ( TokSym "while" )
+, L
+    ( Position 18 64 )
+    ( Whitespace " " )
+, L
+    ( Position 18 65 )
+    ( TokSym "waiting" )
+, L
+    ( Position 18 72 )
+    ( Whitespace " " )
+, L
+    ( Position 18 73 )
+    ( TokSym "for" )
+, L
+    ( Position 18 76 )
+    ( Whitespace " " )
+, L
+    ( Position 18 77 )
+    ( TokSym "read." )
+, L
+    ( Position 18 82 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 19 1 )
+    ( Indent 18 )
+, L
+    ( Position 19 19 )
+    ( TokOther "(" )
+, L
+    ( Position 19 20 )
+    ( TokSym "Although" )
+, L
+    ( Position 19 28 )
+    ( Whitespace " " )
+, L
+    ( Position 19 29 )
+    ( TokSym "it" )
+, L
+    ( Position 19 31 )
+    ( Whitespace " " )
+, L
+    ( Position 19 32 )
+    ( TokSym "has" )
+, L
+    ( Position 19 35 )
+    ( Whitespace " " )
+, L
+    ( Position 19 36 )
+    ( TokSym "handler" )
+, L
+    ( Position 19 43 )
+    ( Whitespace " " )
+, L
+    ( Position 19 44 )
+    ( TokSym "to" )
+, L
+    ( Position 19 46 )
+    ( Whitespace " " )
+, L
+    ( Position 19 47 )
+    ( TokSym "recover" )
+, L
+    ( Position 19 54 )
+    ( Whitespace " " )
+, L
+    ( Position 19 55 )
+    ( TokSym "lost" )
+, L
+    ( Position 19 59 )
+    ( Whitespace " " )
+, L
+    ( Position 19 60 )
+    ( TokSym "item" )
+, L
+    ( Position 19 64 )
+    ( TokOther "," )
+, L
+    ( Position 19 65 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 20 1 )
+    ( Indent 19 )
+, L
+    ( Position 20 20 )
+    ( TokSym "it" )
+, L
+    ( Position 20 22 )
+    ( Whitespace " " )
+, L
+    ( Position 20 23 )
+    ( TokSym "is" )
+, L
+    ( Position 20 25 )
+    ( Whitespace " " )
+, L
+    ( Position 20 26 )
+    ( TokSym "difficult" )
+, L
+    ( Position 20 35 )
+    ( Whitespace " " )
+, L
+    ( Position 20 36 )
+    ( TokSym "to" )
+, L
+    ( Position 20 38 )
+    ( Whitespace " " )
+, L
+    ( Position 20 39 )
+    ( TokSym "keep" )
+, L
+    ( Position 20 43 )
+    ( Whitespace " " )
+, L
+    ( Position 20 44 )
+    ( TokSym "FIFO" )
+, L
+    ( Position 20 48 )
+    ( Whitespace " " )
+, L
+    ( Position 20 49 )
+    ( TokSym "in" )
+, L
+    ( Position 20 51 )
+    ( Whitespace " " )
+, L
+    ( Position 20 52 )
+    ( TokSym "such" )
+, L
+    ( Position 20 56 )
+    ( Whitespace " " )
+, L
+    ( Position 20 57 )
+    ( TokSym "case" )
+, L
+    ( Position 20 61 )
+    ( TokOther ")" )
+, L
+    ( Position 20 62 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 21 1 )
+    ( Indent 16 )
+, L
+    ( Position 21 17 )
+    ( TokSym "." )
+, L
+    ( Position 21 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 22 1 )
+    ( Indent 16 )
+, L
+    ( Position 22 17 )
+    ( TokSym "-" )
+, L
+    ( Position 22 18 )
+    ( Whitespace " " )
+, L
+    ( Position 22 19 )
+    ( TokSym "In" )
+, L
+    ( Position 22 21 )
+    ( Whitespace " " )
+, L
+    ( Position 22 22 )
+    ( TokStr "unagi-chan" )
+, L
+    ( Position 22 34 )
+    ( TokOther "," )
+, L
+    ( Position 22 35 )
+    ( Whitespace " " )
+, L
+    ( Position 22 36 )
+    ( TokSym "garbage" )
+, L
+    ( Position 22 43 )
+    ( Whitespace " " )
+, L
+    ( Position 22 44 )
+    ( TokSym "items" )
+, L
+    ( Position 22 49 )
+    ( Whitespace " " )
+, L
+    ( Position 22 50 )
+    ( TokSym "of" )
+, L
+    ( Position 22 52 )
+    ( Whitespace " " )
+, L
+    ( Position 22 53 )
+    ( TokSym "the" )
+, L
+    ( Position 22 56 )
+    ( Whitespace " " )
+, L
+    ( Position 22 57 )
+    ( TokSym "queue" )
+, L
+    ( Position 22 62 )
+    ( Whitespace " " )
+, L
+    ( Position 22 63 )
+    ( TokSym "cannot" )
+, L
+    ( Position 22 69 )
+    ( Whitespace " " )
+, L
+    ( Position 22 70 )
+    ( TokSym "be" )
+, L
+    ( Position 22 72 )
+    ( Whitespace " " )
+, L
+    ( Position 22 73 )
+    ( TokSym "collected" )
+, L
+    ( Position 22 82 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 23 1 )
+    ( Indent 18 )
+, L
+    ( Position 23 19 )
+    ( TokSym "immediately." )
+, L
+    ( Position 23 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 24 1 )
+    ( Indent 18 )
+, L
+    ( Position 24 19 )
+    ( TokSym "Since" )
+, L
+    ( Position 24 24 )
+    ( Whitespace " " )
+, L
+    ( Position 24 25 )
+    ( TokSym "the" )
+, L
+    ( Position 24 28 )
+    ( Whitespace " " )
+, L
+    ( Position 24 29 )
+    ( TokSym "buffer" )
+, L
+    ( Position 24 35 )
+    ( Whitespace " " )
+, L
+    ( Position 24 36 )
+    ( TokSym "in" )
+, L
+    ( Position 24 38 )
+    ( Whitespace " " )
+, L
+    ( Position 24 39 )
+    ( TokSym "the" )
+, L
+    ( Position 24 42 )
+    ( Whitespace " " )
+, L
+    ( Position 24 43 )
+    ( TokSym "queue" )
+, L
+    ( Position 24 48 )
+    ( Whitespace " " )
+, L
+    ( Position 24 49 )
+    ( TokSym "has" )
+, L
+    ( Position 24 52 )
+    ( Whitespace " " )
+, L
+    ( Position 24 53 )
+    ( TokSym "the" )
+, L
+    ( Position 24 56 )
+    ( Whitespace " " )
+, L
+    ( Position 24 57 )
+    ( TokSym "reference" )
+, L
+    ( Position 24 66 )
+    ( Whitespace " " )
+, L
+    ( Position 24 67 )
+    ( TokSym "to" )
+, L
+    ( Position 24 69 )
+    ( Whitespace " " )
+, L
+    ( Position 24 70 )
+    ( TokSym "the" )
+, L
+    ( Position 24 73 )
+    ( Whitespace " " )
+, L
+    ( Position 24 74 )
+    ( TokSym "items" )
+, L
+    ( Position 24 79 )
+    ( Whitespace " " )
+, L
+    ( Position 24 80 )
+    ( TokSym "until" )
+, L
+    ( Position 24 85 )
+    ( Whitespace " " )
+, L
+    ( Position 24 86 )
+    ( TokSym "the" )
+, L
+    ( Position 24 89 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 25 1 )
+    ( Indent 18 )
+, L
+    ( Position 25 19 )
+    ( TokSym "buffer" )
+, L
+    ( Position 25 25 )
+    ( Whitespace " " )
+, L
+    ( Position 25 26 )
+    ( TokSym "is" )
+, L
+    ( Position 25 28 )
+    ( Whitespace " " )
+, L
+    ( Position 25 29 )
+    ( TokSym "garbage-collected." )
+, L
+    ( Position 25 47 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 26 1 )
+    ( Indent 16 )
+, L
+    ( Position 26 17 )
+    ( TokSym "." )
+, L
+    ( Position 26 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 27 1 )
+    ( Indent 16 )
+, L
+    ( Position 27 17 )
+    ( TokOther "\" )
+, L
+    ( Position 27 18 )
+    ( TokStr "kazura-queue\" is slightly slower than " )
+, L
+    ( Position 27 59 )
+    ( TokSym "unagi-chan" )
+, L
+    ( Position 27 89 )
+    ( LexicalError "
+                    these issues.
+                    .
+                    \"kazura-queue\" lost broadcast function to improve the second issue.
+                    It means that kazura-queue is not \"Chan\" but is just \"Queue\".
+    category:       Concurrency
+    homepage:       https://github.com/asakamirai/kazura-queue#readme
+    bug-reports:    https://github.com/asakamirai/kazura-queue/issues
+    author:         Asakamirai
+    maintainer:     asakamirai_hackage@towanowa.net
+    copyright:      2016-2018 Asakamirai
+    license:        BSD3
+    license-file:   LICENSE
+    build-type:     Simple
+    cabal-version:  >= 1.10
+    extra-source-files:
+        ChangeLog.md
+        README.md
+
+    source-repository head
+      type: git
+      location: https://github.com/asakamirai/kazura-queue
+
+    library
+      exposed-modules:
+          Control.Concurrent.KazuraQueue
+          Control.Concurrent.WVar
+      other-modules:
+          Paths_kazura_queue
+      hs-source-dirs:
+          src
+      ghc-options: -Wall -O2
+      build-depends:
+          atomic-primops >=0.6
+        , base >=4.7 && <5.0
+        , primitive >=0.5.3
+      default-language: Haskell2010
+
+    test-suite kazura-queue-doctest
+      type: exitcode-stdio-1.0
+      main-is: test/kazura-queue-doctest.hs
+      other-modules:
+          Paths_kazura_queue
+      ghc-options: -Wall -O2 -threaded -rtsopts -with-rtsopts=-N
+      build-depends:
+          QuickCheck >=2.8
+        , atomic-primops >=0.6
+        , base >=4.7 && <5.0
+        , doctest
+        , kazura-queue
+        , primitive >=0.5.3
+      default-language: Haskell2010
+
+    test-suite kazura-queue-test
+      type: exitcode-stdio-1.0
+      main-is: Spec.hs
+      other-modules:
+          KazuraQueueConcurrentSpec
+          KazuraQueueSpec
+          Test.Concurrent
+          Test.Expectations
+          Test.KazuraQueue
+          Test.Util
+          Test.WVar
+          WVarConcurrentSpec
+          WVarSpec
+          Paths_kazura_queue
+      hs-source-dirs:
+          test
+      ghc-options: -Wall -O2 -threaded -rtsopts -with-rtsopts=-N
+      build-depends:
+          HUnit >=1.2
+        , QuickCheck >=2.8
+        , async >=2.0
+        , atomic-primops >=0.6
+        , base >=4.7 && <5.0
+        , containers >=0.5
+        , deepseq >=1.4
+        , exceptions >=0.8
+        , free >=4.12
+        , hspec >=2.1
+        , hspec-expectations >=0.7
+        , kazura-queue
+        , mtl >=2.2
+        , primitive >=0.5.3
+        , transformers >=0.4
+      default-language: Haskell2010
+
+    benchmark kazura-queue-bench
+      type: exitcode-stdio-1.0
+      main-is: Main.hs
+      other-modules:
+          Paths_kazura_queue
+      hs-source-dirs:
+          bench
+      ghc-options: -Wall -O2 -threaded -rtsopts -with-rtsopts=-N
+      build-depends:
+          atomic-primops >=0.6
+        , base >=4.7 && <5.0
+        , criterion >=1.1
+        , kazura-queue
+        , primitive >=0.5.3
+        , stm >=2.4
+      default-language: Haskell2010
+    " )
+, L
+    ( Position 27 69 ) EOF
+]

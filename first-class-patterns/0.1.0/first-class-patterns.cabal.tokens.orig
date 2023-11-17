@@ -1,0 +1,227 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 22 )
+    ( TokSym "first-class-patterns" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 22 )
+    ( TokSym "0.1.0" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Author" )
+, L
+    ( Position 3 7 ) Colon
+, L
+    ( Position 3 22 )
+    ( TokSym "Reiner" )
+, L
+    ( Position 3 29 )
+    ( TokSym "Pope" )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Maintainer" )
+, L
+    ( Position 4 11 ) Colon
+, L
+    ( Position 4 22 )
+    ( TokSym "Reiner" )
+, L
+    ( Position 4 29 )
+    ( TokSym "Pope" )
+, L
+    ( Position 4 34 )
+    ( TokOther "<" )
+, L
+    ( Position 4 35 )
+    ( TokSym "reiner.pope" )
+, L
+    ( Position 4 46 )
+    ( TokOther "@" )
+, L
+    ( Position 4 47 )
+    ( TokSym "gmail.com" )
+, L
+    ( Position 4 56 )
+    ( TokOther ">" )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "License" )
+, L
+    ( Position 5 8 ) Colon
+, L
+    ( Position 5 22 )
+    ( TokSym "BSD3" )
+, L
+    ( Position 6 1 )
+    ( Indent 0 )
+, L
+    ( Position 6 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 6 9 ) Colon
+, L
+    ( Position 6 22 )
+    ( TokSym "First" )
+, L
+    ( Position 6 28 )
+    ( TokSym "class" )
+, L
+    ( Position 6 34 )
+    ( TokSym "patterns" )
+, L
+    ( Position 6 43 )
+    ( TokSym "and" )
+, L
+    ( Position 6 47 )
+    ( TokSym "pattern" )
+, L
+    ( Position 6 55 )
+    ( TokSym "matching" )
+, L
+    ( Position 6 63 )
+    ( TokOther "," )
+, L
+    ( Position 6 65 )
+    ( TokSym "using" )
+, L
+    ( Position 6 71 )
+    ( TokSym "type" )
+, L
+    ( Position 6 76 )
+    ( TokSym "families" )
+, L
+    ( Position 7 1 )
+    ( Indent 0 )
+, L
+    ( Position 7 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 7 12 ) Colon
+, L
+    ( Position 9 1 )
+    ( Indent 1 )
+, L
+    ( Position 9 2 )
+    ( TokSym "This" )
+, L
+    ( Position 9 7 )
+    ( TokSym "package" )
+, L
+    ( Position 9 15 )
+    ( TokSym "implements" )
+, L
+    ( Position 9 26 )
+    ( TokSym "a" )
+, L
+    ( Position 9 28 )
+    ( TokSym "library" )
+, L
+    ( Position 9 36 )
+    ( TokSym "of" )
+, L
+    ( Position 9 39 )
+    ( TokSym "first" )
+, L
+    ( Position 9 45 )
+    ( TokSym "class" )
+, L
+    ( Position 9 51 )
+    ( TokSym "patterns." )
+, L
+    ( Position 9 61 )
+    ( TokSym "The" )
+, L
+    ( Position 10 1 )
+    ( Indent 1 )
+, L
+    ( Position 10 2 )
+    ( TokSym "initial" )
+, L
+    ( Position 10 10 )
+    ( TokSym "basis" )
+, L
+    ( Position 10 16 )
+    ( TokSym "for" )
+, L
+    ( Position 10 20 )
+    ( TokSym "this" )
+, L
+    ( Position 10 25 )
+    ( TokSym "library" )
+, L
+    ( Position 10 33 )
+    ( TokSym "was" )
+, L
+    ( Position 10 37 )
+    ( TokSym "Morten" )
+, L
+    ( Position 10 44 )
+    ( TokSym "Rhiger's" )
+, L
+    ( Position 10 53 )
+    ( TokOther "\" )
+, L
+    ( Position 10 64 )
+    ( LexicalError "
+    \x9pattern combinators\"; the patterns can be used in an almost
+    \x9identical way to those of Morten Rhiger. In a series of blog
+    \x9posts at
+    \x9<http://reinerp.wordpress.com/category/pattern-combinators/>
+    \x9the types of patterns were made more revealing using type
+    \x9families, and a simpler implementation was used which avoids
+    \x9some book-keeping.
+    \x9.
+    \x9The library reimplements most of Haskell's built-in
+    \x9pattern matching facilities, plus some more. The pattern
+    \x9matches of this library are lightweight: when GHC's
+    \x9optimisation is turned on, all overhead should be optimised
+    \x9away, leaving a standard Haskell pattern match.
+
+    Cabal-Version:       >= 1.2.3        
+    Category:            Data
+    Build-Type:          Simple
+    Build-Depends:       base >= 3 && < 5
+    Stability:           experimental
+    Tested-with:         GHC==6.10.3
+    Exposed-modules:     Data.Pattern
+                         Data.Pattern.Base
+                         Data.Pattern.Base.TypeList
+                         Data.Pattern.Base.Tuple
+                         Data.Pattern.Common
+    Other-modules:       Data.Pattern.Base.Difference
+    Extensions:          
+    \x9\x9     TypeFamilies, 
+    \x9\x9     GADTs, 
+    \x9\x9     ScopedTypeVariables, 
+    \x9\x9     TypeOperators, 
+    \x9\x9     EmptyDataDecls, 
+    \x9\x9     Rank2Types, 
+    \x9\x9     GeneralizedNewtypeDeriving, 
+    \x9\x9     FlexibleInstances
+    " )
+, L
+    ( Position 10 54 ) EOF
+]

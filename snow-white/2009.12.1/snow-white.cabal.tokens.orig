@@ -1,0 +1,117 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 23 )
+    ( TokSym "snow-white" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 23 )
+    ( TokSym "2009.12.1" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Build-type" )
+, L
+    ( Position 3 11 ) Colon
+, L
+    ( Position 3 23 )
+    ( TokSym "Simple" )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 4 9 ) Colon
+, L
+    ( Position 4 23 )
+    ( TokSym "encode" )
+, L
+    ( Position 4 30 )
+    ( TokSym "any" )
+, L
+    ( Position 4 34 )
+    ( TokSym "binary" )
+, L
+    ( Position 4 41 )
+    ( TokSym "instance" )
+, L
+    ( Position 4 50 )
+    ( TokSym "to" )
+, L
+    ( Position 4 53 )
+    ( TokSym "white" )
+, L
+    ( Position 4 59 )
+    ( TokSym "space" )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 5 12 ) Colon
+, L
+    ( Position 7 1 )
+    ( Indent 4 )
+, L
+    ( Position 7 5 )
+    ( TokSym "SnowWhite.pack" )
+, L
+    ( Position 7 20 )
+    ( TokStr "hello" )
+, L
+    ( Position 9 1 )
+    ( Indent 4 )
+, L
+    ( Position 9 5 )
+    ( TokOther ">" )
+, L
+    ( Position 12 1 )
+    ( Indent 4 )
+, L
+    ( Position 12 5 )
+    ( TokSym "SnowWhite.unpack" )
+, L
+    ( Position 12 84 )
+    ( LexicalError "\x9 \x9 \x9\x9 \x9    \x9\x9  \x9 \x9 \x9\x9 \x9\x9   \x9\x9 \x9\x9   \x9\x9 \x9\x9\x9\x9"
+
+        > hello
+
+    License:              BSD3
+    License-file:         LICENSE
+    Author:               Wang, Jinjing
+    Maintainer:           Wang, Jinjing <nfjinjing@gmail.com>
+    Build-Depends:        base
+    Cabal-version:        >= 1.2
+    category:             Codec
+    homepage:             http://github.com/nfjinjing/snow-white
+    data-files:           readme.md, changelog.md
+
+    library
+      ghc-options: -Wall
+      build-depends: base >= 4 && < 5, mps, bytestring, binary
+      hs-source-dirs: src/
+      exposed-modules:  
+                        Codec.SnowWhite
+    " )
+, L
+    ( Position 12 22 ) EOF
+]

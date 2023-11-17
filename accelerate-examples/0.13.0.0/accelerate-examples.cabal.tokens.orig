@@ -1,0 +1,4580 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 25 )
+    ( TokSym "accelerate-examples" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 25 )
+    ( TokSym "0.13.0.0" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Cabal-version" )
+, L
+    ( Position 3 14 ) Colon
+, L
+    ( Position 3 25 )
+    ( TokOther ">=" )
+, L
+    ( Position 3 27 )
+    ( TokSym "1.6" )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Tested-with" )
+, L
+    ( Position 4 12 ) Colon
+, L
+    ( Position 4 25 )
+    ( TokSym "GHC" )
+, L
+    ( Position 4 29 )
+    ( TokOther ">=" )
+, L
+    ( Position 4 32 )
+    ( TokSym "7.6" )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "Build-type" )
+, L
+    ( Position 5 11 ) Colon
+, L
+    ( Position 5 25 )
+    ( TokSym "Simple" )
+, L
+    ( Position 7 1 )
+    ( Indent 0 )
+, L
+    ( Position 7 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 7 9 ) Colon
+, L
+    ( Position 7 25 )
+    ( TokSym "Examples" )
+, L
+    ( Position 7 34 )
+    ( TokSym "using" )
+, L
+    ( Position 7 40 )
+    ( TokSym "the" )
+, L
+    ( Position 7 44 )
+    ( TokSym "Accelerate" )
+, L
+    ( Position 7 55 )
+    ( TokSym "library" )
+, L
+    ( Position 8 1 )
+    ( Indent 0 )
+, L
+    ( Position 8 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 8 12 ) Colon
+, L
+    ( Position 9 1 )
+    ( Indent 2 )
+, L
+    ( Position 9 3 )
+    ( TokSym "This" )
+, L
+    ( Position 9 8 )
+    ( TokSym "package" )
+, L
+    ( Position 9 16 )
+    ( TokSym "demonstrates" )
+, L
+    ( Position 9 29 )
+    ( TokSym "a" )
+, L
+    ( Position 9 31 )
+    ( TokSym "number" )
+, L
+    ( Position 9 38 )
+    ( TokSym "of" )
+, L
+    ( Position 9 41 )
+    ( TokSym "computation" )
+, L
+    ( Position 9 53 )
+    ( TokSym "kernels" )
+, L
+    ( Position 9 61 )
+    ( TokSym "and" )
+, L
+    ( Position 9 65 )
+    ( TokSym "applications" )
+, L
+    ( Position 10 1 )
+    ( Indent 2 )
+, L
+    ( Position 10 3 )
+    ( TokSym "showcasing" )
+, L
+    ( Position 10 14 )
+    ( TokSym "the" )
+, L
+    ( Position 10 18 )
+    ( TokOther "/" )
+, L
+    ( Position 10 19 )
+    ( TokSym "Accelerate" )
+, L
+    ( Position 10 29 )
+    ( TokOther "/" )
+, L
+    ( Position 10 31 )
+    ( TokSym "language" )
+, L
+    ( Position 10 40 )
+    ( TokSym "and" )
+, L
+    ( Position 10 44 )
+    ( TokSym "associated" )
+, L
+    ( Position 10 55 )
+    ( TokSym "backend" )
+, L
+    ( Position 10 63 )
+    ( TokSym "implementations." )
+, L
+    ( Position 11 1 )
+    ( Indent 2 )
+, L
+    ( Position 11 3 )
+    ( TokSym "It" )
+, L
+    ( Position 11 6 )
+    ( TokSym "is" )
+, L
+    ( Position 11 9 )
+    ( TokSym "also" )
+, L
+    ( Position 11 14 )
+    ( TokSym "used" )
+, L
+    ( Position 11 19 )
+    ( TokSym "for" )
+, L
+    ( Position 11 23 )
+    ( TokSym "performance" )
+, L
+    ( Position 11 35 )
+    ( TokSym "and" )
+, L
+    ( Position 11 39 )
+    ( TokSym "regression" )
+, L
+    ( Position 11 50 )
+    ( TokSym "testing." )
+, L
+    ( Position 12 1 )
+    ( Indent 2 )
+, L
+    ( Position 12 3 )
+    ( TokSym "." )
+, L
+    ( Position 13 1 )
+    ( Indent 2 )
+, L
+    ( Position 13 3 )
+    ( TokSym "Refer" )
+, L
+    ( Position 13 9 )
+    ( TokSym "to" )
+, L
+    ( Position 13 12 )
+    ( TokSym "the" )
+, L
+    ( Position 13 16 )
+    ( TokSym "main" )
+, L
+    ( Position 13 21 )
+    ( TokOther "/" )
+, L
+    ( Position 13 22 )
+    ( TokSym "Accelerate" )
+, L
+    ( Position 13 32 )
+    ( TokOther "/" )
+, L
+    ( Position 13 34 )
+    ( TokSym "package" )
+, L
+    ( Position 13 42 )
+    ( TokSym "for" )
+, L
+    ( Position 13 46 )
+    ( TokSym "more" )
+, L
+    ( Position 13 51 )
+    ( TokSym "information" )
+, L
+    ( Position 13 62 ) Colon
+, L
+    ( Position 14 1 )
+    ( Indent 2 )
+, L
+    ( Position 14 3 )
+    ( TokOther "<" )
+, L
+    ( Position 14 4 )
+    ( TokSym "http" )
+, L
+    ( Position 14 8 ) Colon
+, L
+    ( Position 14 9 )
+    ( TokOther "//" )
+, L
+    ( Position 14 11 )
+    ( TokSym "hackage.haskell.org" )
+, L
+    ( Position 14 30 )
+    ( TokOther "/" )
+, L
+    ( Position 14 31 )
+    ( TokSym "package" )
+, L
+    ( Position 14 38 )
+    ( TokOther "/" )
+, L
+    ( Position 14 39 )
+    ( TokSym "accelerate" )
+, L
+    ( Position 14 49 )
+    ( TokOther ">" )
+, L
+    ( Position 15 1 )
+    ( Indent 2 )
+, L
+    ( Position 15 3 )
+    ( TokSym "." )
+, L
+    ( Position 17 1 )
+    ( Indent 0 )
+, L
+    ( Position 17 1 )
+    ( TokSym "License" )
+, L
+    ( Position 17 8 ) Colon
+, L
+    ( Position 17 25 )
+    ( TokSym "BSD3" )
+, L
+    ( Position 18 1 )
+    ( Indent 0 )
+, L
+    ( Position 18 1 )
+    ( TokSym "License-file" )
+, L
+    ( Position 18 13 ) Colon
+, L
+    ( Position 18 25 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 19 1 )
+    ( Indent 0 )
+, L
+    ( Position 19 1 )
+    ( TokSym "Author" )
+, L
+    ( Position 19 7 ) Colon
+, L
+    ( Position 19 25 )
+    ( TokSym "The" )
+, L
+    ( Position 19 29 )
+    ( TokSym "Accelerate" )
+, L
+    ( Position 19 40 )
+    ( TokSym "Team" )
+, L
+    ( Position 20 1 )
+    ( Indent 0 )
+, L
+    ( Position 20 1 )
+    ( TokSym "Maintainer" )
+, L
+    ( Position 20 11 ) Colon
+, L
+    ( Position 20 25 )
+    ( TokSym "Trevor" )
+, L
+    ( Position 20 32 )
+    ( TokSym "L." )
+, L
+    ( Position 20 35 )
+    ( TokSym "McDonell" )
+, L
+    ( Position 20 44 )
+    ( TokOther "<" )
+, L
+    ( Position 20 45 )
+    ( TokSym "tmcdonell" )
+, L
+    ( Position 20 54 )
+    ( TokOther "@" )
+, L
+    ( Position 20 55 )
+    ( TokSym "cse.unsw.edu.au" )
+, L
+    ( Position 20 70 )
+    ( TokOther ">" )
+, L
+    ( Position 21 1 )
+    ( Indent 0 )
+, L
+    ( Position 21 1 )
+    ( TokSym "Homepage" )
+, L
+    ( Position 21 9 ) Colon
+, L
+    ( Position 21 25 )
+    ( TokSym "https" )
+, L
+    ( Position 21 30 ) Colon
+, L
+    ( Position 21 31 )
+    ( TokOther "//" )
+, L
+    ( Position 21 33 )
+    ( TokSym "github.com" )
+, L
+    ( Position 21 43 )
+    ( TokOther "/" )
+, L
+    ( Position 21 44 )
+    ( TokSym "AccelerateHS" )
+, L
+    ( Position 21 56 )
+    ( TokOther "/" )
+, L
+    ( Position 21 57 )
+    ( TokSym "accelerate-examples" )
+, L
+    ( Position 22 1 )
+    ( Indent 0 )
+, L
+    ( Position 22 1 )
+    ( TokSym "Bug-reports" )
+, L
+    ( Position 22 12 ) Colon
+, L
+    ( Position 22 25 )
+    ( TokSym "https" )
+, L
+    ( Position 22 30 ) Colon
+, L
+    ( Position 22 31 )
+    ( TokOther "//" )
+, L
+    ( Position 22 33 )
+    ( TokSym "github.com" )
+, L
+    ( Position 22 43 )
+    ( TokOther "/" )
+, L
+    ( Position 22 44 )
+    ( TokSym "AccelerateHS" )
+, L
+    ( Position 22 56 )
+    ( TokOther "/" )
+, L
+    ( Position 22 57 )
+    ( TokSym "accelerate" )
+, L
+    ( Position 22 67 )
+    ( TokOther "/" )
+, L
+    ( Position 22 68 )
+    ( TokSym "issues" )
+, L
+    ( Position 24 1 )
+    ( Indent 0 )
+, L
+    ( Position 24 1 )
+    ( TokSym "Category" )
+, L
+    ( Position 24 9 ) Colon
+, L
+    ( Position 24 25 )
+    ( TokSym "Compilers" )
+, L
+    ( Position 24 34 )
+    ( TokOther "/" )
+, L
+    ( Position 24 35 )
+    ( TokSym "Interpreters" )
+, L
+    ( Position 24 47 )
+    ( TokOther "," )
+, L
+    ( Position 24 49 )
+    ( TokSym "Concurrency" )
+, L
+    ( Position 24 60 )
+    ( TokOther "," )
+, L
+    ( Position 24 62 )
+    ( TokSym "Data" )
+, L
+    ( Position 24 66 )
+    ( TokOther "," )
+, L
+    ( Position 24 68 )
+    ( TokSym "Parallelism" )
+, L
+    ( Position 25 1 )
+    ( Indent 0 )
+, L
+    ( Position 25 1 )
+    ( TokSym "Stability" )
+, L
+    ( Position 25 10 ) Colon
+, L
+    ( Position 25 25 )
+    ( TokSym "Experimental" )
+, L
+    ( Position 27 1 )
+    ( Indent 0 )
+, L
+    ( Position 27 1 )
+    ( TokSym "Flag" )
+, L
+    ( Position 27 6 )
+    ( TokSym "gui" )
+, L
+    ( Position 28 1 )
+    ( Indent 2 )
+, L
+    ( Position 28 3 )
+    ( TokSym "Description" )
+, L
+    ( Position 28 14 ) Colon
+, L
+    ( Position 28 25 )
+    ( TokSym "Enable" )
+, L
+    ( Position 28 32 )
+    ( TokSym "gloss-based" )
+, L
+    ( Position 28 44 )
+    ( TokSym "GUIs" )
+, L
+    ( Position 28 48 )
+    ( TokOther "," )
+, L
+    ( Position 28 50 )
+    ( TokSym "where" )
+, L
+    ( Position 28 56 )
+    ( TokSym "applicable." )
+, L
+    ( Position 28 68 )
+    ( TokSym "If" )
+, L
+    ( Position 28 71 )
+    ( TokSym "not" )
+, L
+    ( Position 29 1 )
+    ( Indent 24 )
+, L
+    ( Position 29 25 )
+    ( TokSym "enabled" )
+, L
+    ( Position 29 32 )
+    ( TokOther "," )
+, L
+    ( Position 29 34 )
+    ( TokSym "the" )
+, L
+    ( Position 29 38 )
+    ( TokSym "application" )
+, L
+    ( Position 29 50 )
+    ( TokSym "always" )
+, L
+    ( Position 29 57 )
+    ( TokSym "runs" )
+, L
+    ( Position 29 62 )
+    ( TokSym "in" )
+, L
+    ( Position 29 65 )
+    ( TokSym "benchmark" )
+, L
+    ( Position 29 75 )
+    ( TokSym "mode." )
+, L
+    ( Position 30 1 )
+    ( Indent 2 )
+, L
+    ( Position 30 3 )
+    ( TokSym "Default" )
+, L
+    ( Position 30 10 ) Colon
+, L
+    ( Position 30 25 )
+    ( TokSym "True" )
+, L
+    ( Position 32 1 )
+    ( Indent 0 )
+, L
+    ( Position 32 1 )
+    ( TokSym "Flag" )
+, L
+    ( Position 32 6 )
+    ( TokSym "cuda" )
+, L
+    ( Position 33 1 )
+    ( Indent 2 )
+, L
+    ( Position 33 3 )
+    ( TokSym "Description" )
+, L
+    ( Position 33 14 ) Colon
+, L
+    ( Position 33 25 )
+    ( TokSym "Enable" )
+, L
+    ( Position 33 32 )
+    ( TokSym "the" )
+, L
+    ( Position 33 36 )
+    ( TokSym "CUDA" )
+, L
+    ( Position 33 41 )
+    ( TokSym "parallel" )
+, L
+    ( Position 33 50 )
+    ( TokSym "backend" )
+, L
+    ( Position 33 58 )
+    ( TokSym "for" )
+, L
+    ( Position 33 62 )
+    ( TokSym "NVIDIA" )
+, L
+    ( Position 33 69 )
+    ( TokSym "GPUs" )
+, L
+    ( Position 34 1 )
+    ( Indent 2 )
+, L
+    ( Position 34 3 )
+    ( TokSym "Default" )
+, L
+    ( Position 34 10 ) Colon
+, L
+    ( Position 34 25 )
+    ( TokSym "True" )
+, L
+    ( Position 36 1 )
+    ( Indent 0 )
+, L
+    ( Position 36 1 )
+    ( TokSym "Flag" )
+, L
+    ( Position 36 6 )
+    ( TokSym "opencl" )
+, L
+    ( Position 37 1 )
+    ( Indent 2 )
+, L
+    ( Position 37 3 )
+    ( TokSym "Description" )
+, L
+    ( Position 37 14 ) Colon
+, L
+    ( Position 37 25 )
+    ( TokSym "Enable" )
+, L
+    ( Position 37 32 )
+    ( TokSym "the" )
+, L
+    ( Position 37 36 )
+    ( TokSym "OpenCL" )
+, L
+    ( Position 37 43 )
+    ( TokSym "parallel" )
+, L
+    ( Position 37 52 )
+    ( TokSym "backend" )
+, L
+    ( Position 38 1 )
+    ( Indent 2 )
+, L
+    ( Position 38 3 )
+    ( TokSym "Default" )
+, L
+    ( Position 38 10 ) Colon
+, L
+    ( Position 38 25 )
+    ( TokSym "False" )
+, L
+    ( Position 44 1 )
+    ( Indent 0 )
+, L
+    ( Position 44 1 )
+    ( TokSym "Executable" )
+, L
+    ( Position 44 12 )
+    ( TokSym "accelerate-quickcheck" )
+, L
+    ( Position 45 1 )
+    ( Indent 2 )
+, L
+    ( Position 45 3 )
+    ( TokSym "Main-is" )
+, L
+    ( Position 45 10 ) Colon
+, L
+    ( Position 45 25 )
+    ( TokSym "Main.hs" )
+, L
+    ( Position 46 1 )
+    ( Indent 2 )
+, L
+    ( Position 46 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 46 17 ) Colon
+, L
+    ( Position 46 25 )
+    ( TokSym "examples" )
+, L
+    ( Position 46 33 )
+    ( TokOther "/" )
+, L
+    ( Position 46 34 )
+    ( TokSym "quickcheck" )
+, L
+    ( Position 46 44 )
+    ( TokOther "/" )
+, L
+    ( Position 48 1 )
+    ( Indent 2 )
+, L
+    ( Position 48 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 48 16 ) Colon
+, L
+    ( Position 48 25 )
+    ( TokSym "Config" )
+, L
+    ( Position 49 1 )
+    ( Indent 24 )
+, L
+    ( Position 49 25 )
+    ( TokSym "Arbitrary.Array" )
+, L
+    ( Position 50 1 )
+    ( Indent 24 )
+, L
+    ( Position 50 25 )
+    ( TokSym "Arbitrary.Shape" )
+, L
+    ( Position 51 1 )
+    ( Indent 24 )
+, L
+    ( Position 51 25 )
+    ( TokSym "Test.Base" )
+, L
+    ( Position 52 1 )
+    ( Indent 24 )
+, L
+    ( Position 52 25 )
+    ( TokSym "Test.IndexSpace" )
+, L
+    ( Position 53 1 )
+    ( Indent 24 )
+, L
+    ( Position 53 25 )
+    ( TokSym "Test.Mapping" )
+, L
+    ( Position 54 1 )
+    ( Indent 24 )
+, L
+    ( Position 54 25 )
+    ( TokSym "Test.PrefixSum" )
+, L
+    ( Position 55 1 )
+    ( Indent 24 )
+, L
+    ( Position 55 25 )
+    ( TokSym "Test.Reduction" )
+, L
+    ( Position 57 1 )
+    ( Indent 2 )
+, L
+    ( Position 57 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 57 14 ) Colon
+, L
+    ( Position 57 25 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 57 31 )
+    ( TokSym "-O2" )
+, L
+    ( Position 58 1 )
+    ( Indent 24 )
+, L
+    ( Position 58 25 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 59 1 )
+    ( Indent 24 )
+, L
+    ( Position 59 25 )
+    ( TokSym "-fpedantic-bottoms" )
+, L
+    ( Position 60 1 )
+    ( Indent 24 )
+, L
+    ( Position 60 25 )
+    ( TokSym "-fno-warn-orphans" )
+, L
+    ( Position 61 1 )
+    ( Indent 24 )
+, L
+    ( Position 61 25 )
+    ( TokSym "-fno-full-laziness" )
+, L
+    ( Position 62 1 )
+    ( Indent 24 )
+, L
+    ( Position 62 25 )
+    ( TokSym "-fno-excess-precision" )
+, L
+    ( Position 64 1 )
+    ( Indent 2 )
+, L
+    ( Position 64 3 )
+    ( TokSym "if" )
+, L
+    ( Position 64 6 )
+    ( TokSym "impl" )
+, L
+    ( Position 64 10 )
+    ( TokOther "(" )
+, L
+    ( Position 64 11 )
+    ( TokSym "ghc" )
+, L
+    ( Position 64 15 )
+    ( TokOther ">=" )
+, L
+    ( Position 64 18 )
+    ( TokSym "7.0" )
+, L
+    ( Position 64 21 )
+    ( TokOther ")" )
+, L
+    ( Position 65 1 )
+    ( Indent 4 )
+, L
+    ( Position 65 5 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 65 16 ) Colon
+, L
+    ( Position 65 25 )
+    ( TokSym "-rtsopts" )
+, L
+    ( Position 67 1 )
+    ( Indent 2 )
+, L
+    ( Position 67 3 )
+    ( TokSym "if" )
+, L
+    ( Position 67 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 67 10 )
+    ( TokOther "(" )
+, L
+    ( Position 67 11 )
+    ( TokSym "cuda" )
+, L
+    ( Position 67 15 )
+    ( TokOther ")" )
+, L
+    ( Position 68 1 )
+    ( Indent 4 )
+, L
+    ( Position 68 5 )
+    ( TokSym "CPP-options" )
+, L
+    ( Position 68 16 ) Colon
+, L
+    ( Position 68 25 )
+    ( TokSym "-DACCELERATE_CUDA_BACKEND" )
+, L
+    ( Position 69 1 )
+    ( Indent 4 )
+, L
+    ( Position 69 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 69 18 ) Colon
+, L
+    ( Position 69 25 )
+    ( TokSym "accelerate-cuda" )
+, L
+    ( Position 69 57 )
+    ( TokOther "==" )
+, L
+    ( Position 69 60 )
+    ( TokSym "0.13." )
+, L
+    ( Position 69 65 )
+    ( TokOther "*," )
+, L
+    ( Position 70 1 )
+    ( Indent 24 )
+, L
+    ( Position 70 25 )
+    ( TokSym "cuda" )
+, L
+    ( Position 70 57 )
+    ( TokOther ">=" )
+, L
+    ( Position 70 60 )
+    ( TokSym "0.5" )
+, L
+    ( Position 70 65 )
+    ( TokOther "&&" )
+, L
+    ( Position 70 68 )
+    ( TokOther "<" )
+, L
+    ( Position 70 70 )
+    ( TokSym "0.6" )
+, L
+    ( Position 72 1 )
+    ( Indent 2 )
+, L
+    ( Position 72 3 )
+    ( TokSym "if" )
+, L
+    ( Position 72 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 72 10 )
+    ( TokOther "(" )
+, L
+    ( Position 72 11 )
+    ( TokSym "opencl" )
+, L
+    ( Position 72 17 )
+    ( TokOther ")" )
+, L
+    ( Position 73 1 )
+    ( Indent 4 )
+, L
+    ( Position 73 5 )
+    ( TokSym "CPP-options" )
+, L
+    ( Position 73 16 ) Colon
+, L
+    ( Position 73 25 )
+    ( TokSym "-DACCELERATE_OPENCL_BACKEND" )
+, L
+    ( Position 74 1 )
+    ( Indent 4 )
+, L
+    ( Position 74 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 74 18 ) Colon
+, L
+    ( Position 74 25 )
+    ( TokSym "accelerate-opencl" )
+, L
+    ( Position 74 57 )
+    ( TokOther "==" )
+, L
+    ( Position 74 60 )
+    ( TokSym "0.1." )
+, L
+    ( Position 74 64 )
+    ( TokOther "*" )
+, L
+    ( Position 76 1 )
+    ( Indent 2 )
+, L
+    ( Position 76 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 76 16 ) Colon
+, L
+    ( Position 76 25 )
+    ( TokSym "accelerate" )
+, L
+    ( Position 76 57 )
+    ( TokOther "==" )
+, L
+    ( Position 76 60 )
+    ( TokSym "0.13." )
+, L
+    ( Position 76 65 )
+    ( TokOther "*," )
+, L
+    ( Position 77 1 )
+    ( Indent 24 )
+, L
+    ( Position 77 25 )
+    ( TokSym "QuickCheck" )
+, L
+    ( Position 77 57 )
+    ( TokOther ">=" )
+, L
+    ( Position 77 60 )
+    ( TokSym "2.0" )
+, L
+    ( Position 77 65 )
+    ( TokOther "&&" )
+, L
+    ( Position 77 68 )
+    ( TokOther "<" )
+, L
+    ( Position 77 70 )
+    ( TokSym "2.6" )
+, L
+    ( Position 77 73 )
+    ( TokOther "," )
+, L
+    ( Position 78 1 )
+    ( Indent 24 )
+, L
+    ( Position 78 25 )
+    ( TokSym "test-framework" )
+, L
+    ( Position 78 57 )
+    ( TokOther ">=" )
+, L
+    ( Position 78 60 )
+    ( TokSym "0.5" )
+, L
+    ( Position 78 65 )
+    ( TokOther "&&" )
+, L
+    ( Position 78 68 )
+    ( TokOther "<" )
+, L
+    ( Position 78 70 )
+    ( TokSym "0.9" )
+, L
+    ( Position 78 73 )
+    ( TokOther "," )
+, L
+    ( Position 79 1 )
+    ( Indent 24 )
+, L
+    ( Position 79 25 )
+    ( TokSym "test-framework-quickcheck2" )
+, L
+    ( Position 79 57 )
+    ( TokOther ">=" )
+, L
+    ( Position 79 60 )
+    ( TokSym "0.2" )
+, L
+    ( Position 79 65 )
+    ( TokOther "&&" )
+, L
+    ( Position 79 68 )
+    ( TokOther "<" )
+, L
+    ( Position 79 70 )
+    ( TokSym "0.4" )
+, L
+    ( Position 79 73 )
+    ( TokOther "," )
+, L
+    ( Position 80 1 )
+    ( Indent 24 )
+, L
+    ( Position 80 25 )
+    ( TokSym "random" )
+, L
+    ( Position 86 1 )
+    ( Indent 0 )
+, L
+    ( Position 86 1 )
+    ( TokSym "Executable" )
+, L
+    ( Position 86 12 )
+    ( TokSym "accelerate-examples" )
+, L
+    ( Position 87 1 )
+    ( Indent 2 )
+, L
+    ( Position 87 3 )
+    ( TokSym "Main-is" )
+, L
+    ( Position 87 10 ) Colon
+, L
+    ( Position 87 25 )
+    ( TokSym "Main.hs" )
+, L
+    ( Position 88 1 )
+    ( Indent 2 )
+, L
+    ( Position 88 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 88 17 ) Colon
+, L
+    ( Position 88 25 )
+    ( TokSym "examples" )
+, L
+    ( Position 88 33 )
+    ( TokOther "/" )
+, L
+    ( Position 88 34 )
+    ( TokSym "tests" )
+, L
+    ( Position 89 1 )
+    ( Indent 24 )
+, L
+    ( Position 89 25 )
+    ( TokSym "examples" )
+, L
+    ( Position 89 33 )
+    ( TokOther "/" )
+, L
+    ( Position 89 34 )
+    ( TokSym "tests" )
+, L
+    ( Position 89 39 )
+    ( TokOther "/" )
+, L
+    ( Position 89 40 )
+    ( TokSym "io" )
+, L
+    ( Position 90 1 )
+    ( Indent 24 )
+, L
+    ( Position 90 25 )
+    ( TokSym "examples" )
+, L
+    ( Position 90 33 )
+    ( TokOther "/" )
+, L
+    ( Position 90 34 )
+    ( TokSym "tests" )
+, L
+    ( Position 90 39 )
+    ( TokOther "/" )
+, L
+    ( Position 90 40 )
+    ( TokSym "image-processing" )
+, L
+    ( Position 91 1 )
+    ( Indent 24 )
+, L
+    ( Position 91 25 )
+    ( TokSym "examples" )
+, L
+    ( Position 91 33 )
+    ( TokOther "/" )
+, L
+    ( Position 91 34 )
+    ( TokSym "tests" )
+, L
+    ( Position 91 39 )
+    ( TokOther "/" )
+, L
+    ( Position 91 40 )
+    ( TokSym "primitives" )
+, L
+    ( Position 92 1 )
+    ( Indent 24 )
+, L
+    ( Position 92 25 )
+    ( TokSym "examples" )
+, L
+    ( Position 92 33 )
+    ( TokOther "/" )
+, L
+    ( Position 92 34 )
+    ( TokSym "tests" )
+, L
+    ( Position 92 39 )
+    ( TokOther "/" )
+, L
+    ( Position 92 40 )
+    ( TokSym "simple" )
+, L
+    ( Position 94 1 )
+    ( Indent 2 )
+, L
+    ( Position 94 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 94 16 ) Colon
+, L
+    ( Position 94 25 )
+    ( TokSym "Benchmark" )
+, L
+    ( Position 94 34 )
+    ( TokOther "," )
+, L
+    ( Position 94 36 )
+    ( TokSym "Config" )
+, L
+    ( Position 94 42 )
+    ( TokOther "," )
+, L
+    ( Position 94 44 )
+    ( TokSym "PGM" )
+, L
+    ( Position 94 47 )
+    ( TokOther "," )
+, L
+    ( Position 94 49 )
+    ( TokSym "Random" )
+, L
+    ( Position 94 55 )
+    ( TokOther "," )
+, L
+    ( Position 94 57 )
+    ( TokSym "Test" )
+, L
+    ( Position 94 61 )
+    ( TokOther "," )
+, L
+    ( Position 94 63 )
+    ( TokSym "Util" )
+, L
+    ( Position 94 67 )
+    ( TokOther "," )
+, L
+    ( Position 94 69 )
+    ( TokSym "Validate" )
+, L
+    ( Position 94 77 )
+    ( TokOther "," )
+, L
+    ( Position 98 1 )
+    ( Indent 24 )
+, L
+    ( Position 98 25 )
+    ( TokSym "Canny" )
+, L
+    ( Position 98 30 )
+    ( TokOther "," )
+, L
+    ( Position 98 32 )
+    ( TokSym "IntegralImage" )
+, L
+    ( Position 98 45 )
+    ( TokOther "," )
+, L
+    ( Position 101 1 )
+    ( Indent 24 )
+, L
+    ( Position 101 25 )
+    ( TokSym "BlockCopy" )
+, L
+    ( Position 101 34 )
+    ( TokOther "," )
+, L
+    ( Position 101 36 )
+    ( TokSym "VectorCopy" )
+, L
+    ( Position 101 46 )
+    ( TokOther "," )
+, L
+    ( Position 104 1 )
+    ( Indent 24 )
+, L
+    ( Position 104 25 )
+    ( TokSym "Backpermute" )
+, L
+    ( Position 104 36 )
+    ( TokOther "," )
+, L
+    ( Position 104 38 )
+    ( TokSym "Fold" )
+, L
+    ( Position 104 42 )
+    ( TokOther "," )
+, L
+    ( Position 104 44 )
+    ( TokSym "FoldSeg" )
+, L
+    ( Position 104 51 )
+    ( TokOther "," )
+, L
+    ( Position 104 53 )
+    ( TokSym "Gather" )
+, L
+    ( Position 104 59 )
+    ( TokOther "," )
+, L
+    ( Position 104 61 )
+    ( TokSym "Map" )
+, L
+    ( Position 104 64 )
+    ( TokOther "," )
+, L
+    ( Position 104 66 )
+    ( TokSym "Permute" )
+, L
+    ( Position 104 73 )
+    ( TokOther "," )
+, L
+    ( Position 104 75 )
+    ( TokSym "ScanSeg" )
+, L
+    ( Position 104 82 )
+    ( TokOther "," )
+, L
+    ( Position 105 1 )
+    ( Indent 24 )
+, L
+    ( Position 105 25 )
+    ( TokSym "Scatter" )
+, L
+    ( Position 105 32 )
+    ( TokOther "," )
+, L
+    ( Position 105 34 )
+    ( TokSym "Stencil" )
+, L
+    ( Position 105 41 )
+    ( TokOther "," )
+, L
+    ( Position 105 43 )
+    ( TokSym "Stencil2" )
+, L
+    ( Position 105 51 )
+    ( TokOther "," )
+, L
+    ( Position 105 53 )
+    ( TokSym "Vector" )
+, L
+    ( Position 105 59 )
+    ( TokOther "," )
+, L
+    ( Position 105 61 )
+    ( TokSym "Zip" )
+, L
+    ( Position 105 64 )
+    ( TokOther "," )
+, L
+    ( Position 105 66 )
+    ( TokSym "ZipWith" )
+, L
+    ( Position 105 73 )
+    ( TokOther "," )
+, L
+    ( Position 108 1 )
+    ( Indent 24 )
+, L
+    ( Position 108 25 )
+    ( TokSym "BlackScholes" )
+, L
+    ( Position 108 37 )
+    ( TokOther "," )
+, L
+    ( Position 108 39 )
+    ( TokSym "DotP" )
+, L
+    ( Position 108 43 )
+    ( TokOther "," )
+, L
+    ( Position 108 45 )
+    ( TokSym "Filter" )
+, L
+    ( Position 108 51 )
+    ( TokOther "," )
+, L
+    ( Position 108 53 )
+    ( TokSym "Radix" )
+, L
+    ( Position 108 58 )
+    ( TokOther "," )
+, L
+    ( Position 108 60 )
+    ( TokSym "SASUM" )
+, L
+    ( Position 108 65 )
+    ( TokOther "," )
+, L
+    ( Position 108 67 )
+    ( TokSym "SAXPY" )
+, L
+    ( Position 108 72 )
+    ( TokOther "," )
+, L
+    ( Position 109 1 )
+    ( Indent 24 )
+, L
+    ( Position 109 25 )
+    ( TokSym "SharingRecovery" )
+, L
+    ( Position 109 40 )
+    ( TokOther "," )
+, L
+    ( Position 109 42 )
+    ( TokSym "SliceExamples" )
+, L
+    ( Position 109 55 )
+    ( TokOther "," )
+, L
+    ( Position 109 57 )
+    ( TokSym "SMVM" )
+, L
+    ( Position 109 61 )
+    ( TokOther "," )
+, L
+    ( Position 109 63 )
+    ( TokSym "SMVM.Matrix" )
+, L
+    ( Position 109 74 )
+    ( TokOther "," )
+, L
+    ( Position 109 76 )
+    ( TokSym "SMVM.MatrixMarket" )
+, L
+    ( Position 112 1 )
+    ( Indent 2 )
+, L
+    ( Position 112 3 )
+    ( TokSym "c-sources" )
+, L
+    ( Position 112 12 ) Colon
+, L
+    ( Position 112 25 )
+    ( TokSym "examples" )
+, L
+    ( Position 112 33 )
+    ( TokOther "/" )
+, L
+    ( Position 112 34 )
+    ( TokSym "tests" )
+, L
+    ( Position 112 39 )
+    ( TokOther "/" )
+, L
+    ( Position 112 40 )
+    ( TokSym "io" )
+, L
+    ( Position 112 42 )
+    ( TokOther "/" )
+, L
+    ( Position 112 43 )
+    ( TokSym "fill_with_values.cpp" )
+, L
+    ( Position 113 1 )
+    ( Indent 2 )
+, L
+    ( Position 113 3 )
+    ( TokSym "extra-libraries" )
+, L
+    ( Position 113 18 ) Colon
+, L
+    ( Position 113 25 )
+    ( TokSym "stdc" )
+, L
+    ( Position 113 29 )
+    ( TokOther "++" )
+, L
+    ( Position 115 1 )
+    ( Indent 2 )
+, L
+    ( Position 115 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 115 14 ) Colon
+, L
+    ( Position 115 25 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 115 31 )
+    ( TokSym "-O2" )
+, L
+    ( Position 115 35 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 115 45 )
+    ( TokSym "-fno-excess-precision" )
+, L
+    ( Position 116 1 )
+    ( Indent 2 )
+, L
+    ( Position 116 3 )
+    ( TokSym "if" )
+, L
+    ( Position 116 6 )
+    ( TokSym "impl" )
+, L
+    ( Position 116 10 )
+    ( TokOther "(" )
+, L
+    ( Position 116 11 )
+    ( TokSym "ghc" )
+, L
+    ( Position 116 15 )
+    ( TokOther ">=" )
+, L
+    ( Position 116 18 )
+    ( TokSym "7.0" )
+, L
+    ( Position 116 21 )
+    ( TokOther ")" )
+, L
+    ( Position 117 1 )
+    ( Indent 4 )
+, L
+    ( Position 117 5 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 117 16 ) Colon
+, L
+    ( Position 117 25 )
+    ( TokSym "-rtsopts" )
+, L
+    ( Position 119 1 )
+    ( Indent 2 )
+, L
+    ( Position 119 3 )
+    ( TokSym "if" )
+, L
+    ( Position 119 6 )
+    ( TokSym "impl" )
+, L
+    ( Position 119 10 )
+    ( TokOther "(" )
+, L
+    ( Position 119 11 )
+    ( TokSym "ghc" )
+, L
+    ( Position 119 15 )
+    ( TokOther ">=" )
+, L
+    ( Position 119 18 )
+    ( TokSym "7.6" )
+, L
+    ( Position 119 21 )
+    ( TokOther ")" )
+, L
+    ( Position 120 1 )
+    ( Indent 4 )
+, L
+    ( Position 120 5 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 120 16 ) Colon
+, L
+    ( Position 120 25 )
+    ( TokSym "-fsimpl-tick-factor" )
+, L
+    ( Position 120 44 )
+    ( TokOther "=" )
+, L
+    ( Position 120 45 )
+    ( TokSym "130" )
+, L
+    ( Position 122 1 )
+    ( Indent 2 )
+, L
+    ( Position 122 3 )
+    ( TokSym "if" )
+, L
+    ( Position 122 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 122 10 )
+    ( TokOther "(" )
+, L
+    ( Position 122 11 )
+    ( TokSym "cuda" )
+, L
+    ( Position 122 15 )
+    ( TokOther ")" )
+, L
+    ( Position 123 1 )
+    ( Indent 4 )
+, L
+    ( Position 123 5 )
+    ( TokSym "CPP-options" )
+, L
+    ( Position 123 16 ) Colon
+, L
+    ( Position 123 25 )
+    ( TokSym "-DACCELERATE_CUDA_BACKEND" )
+, L
+    ( Position 124 1 )
+    ( Indent 4 )
+, L
+    ( Position 124 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 124 18 ) Colon
+, L
+    ( Position 124 25 )
+    ( TokSym "accelerate-cuda" )
+, L
+    ( Position 124 49 )
+    ( TokOther "==" )
+, L
+    ( Position 124 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 124 57 )
+    ( TokOther "*" )
+, L
+    ( Position 126 1 )
+    ( Indent 2 )
+, L
+    ( Position 126 3 )
+    ( TokSym "if" )
+, L
+    ( Position 126 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 126 10 )
+    ( TokOther "(" )
+, L
+    ( Position 126 11 )
+    ( TokSym "opencl" )
+, L
+    ( Position 126 17 )
+    ( TokOther ")" )
+, L
+    ( Position 127 1 )
+    ( Indent 4 )
+, L
+    ( Position 127 5 )
+    ( TokSym "CPP-options" )
+, L
+    ( Position 127 16 ) Colon
+, L
+    ( Position 127 25 )
+    ( TokSym "-DACCELERATE_OPENCL_BACKEND" )
+, L
+    ( Position 128 1 )
+    ( Indent 4 )
+, L
+    ( Position 128 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 128 18 ) Colon
+, L
+    ( Position 128 25 )
+    ( TokSym "accelerate-opencl" )
+, L
+    ( Position 128 49 )
+    ( TokOther "==" )
+, L
+    ( Position 128 52 )
+    ( TokSym "0.1." )
+, L
+    ( Position 128 56 )
+    ( TokOther "*" )
+, L
+    ( Position 130 1 )
+    ( Indent 2 )
+, L
+    ( Position 130 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 130 16 ) Colon
+, L
+    ( Position 130 25 )
+    ( TokSym "accelerate" )
+, L
+    ( Position 130 49 )
+    ( TokOther "==" )
+, L
+    ( Position 130 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 130 57 )
+    ( TokOther "*," )
+, L
+    ( Position 131 1 )
+    ( Indent 24 )
+, L
+    ( Position 131 25 )
+    ( TokSym "accelerate-io" )
+, L
+    ( Position 131 49 )
+    ( TokOther "==" )
+, L
+    ( Position 131 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 131 57 )
+    ( TokOther "*," )
+, L
+    ( Position 132 1 )
+    ( Indent 24 )
+, L
+    ( Position 132 25 )
+    ( TokSym "base" )
+, L
+    ( Position 132 49 )
+    ( TokOther "==" )
+, L
+    ( Position 132 52 )
+    ( TokSym "4." )
+, L
+    ( Position 132 54 )
+    ( TokOther "*," )
+, L
+    ( Position 133 1 )
+    ( Indent 24 )
+, L
+    ( Position 133 25 )
+    ( TokSym "array" )
+, L
+    ( Position 133 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 133 52 )
+    ( TokSym "0.3" )
+, L
+    ( Position 133 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 133 60 )
+    ( TokOther "<" )
+, L
+    ( Position 133 62 )
+    ( TokSym "0.5" )
+, L
+    ( Position 133 65 )
+    ( TokOther "," )
+, L
+    ( Position 134 1 )
+    ( Indent 24 )
+, L
+    ( Position 134 25 )
+    ( TokSym "attoparsec" )
+, L
+    ( Position 134 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 134 52 )
+    ( TokSym "0.10" )
+, L
+    ( Position 134 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 134 60 )
+    ( TokOther "<" )
+, L
+    ( Position 134 62 )
+    ( TokSym "0.11" )
+, L
+    ( Position 134 66 )
+    ( TokOther "," )
+, L
+    ( Position 135 1 )
+    ( Indent 24 )
+, L
+    ( Position 135 25 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 135 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 135 52 )
+    ( TokSym "0.9" )
+, L
+    ( Position 135 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 135 60 )
+    ( TokOther "<" )
+, L
+    ( Position 135 62 )
+    ( TokSym "0.11" )
+, L
+    ( Position 135 66 )
+    ( TokOther "," )
+, L
+    ( Position 136 1 )
+    ( Indent 24 )
+, L
+    ( Position 136 25 )
+    ( TokSym "bytestring-lexing" )
+, L
+    ( Position 136 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 136 52 )
+    ( TokSym "0.2" )
+, L
+    ( Position 136 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 136 60 )
+    ( TokOther "<" )
+, L
+    ( Position 136 62 )
+    ( TokSym "0.5" )
+, L
+    ( Position 136 65 )
+    ( TokOther "," )
+, L
+    ( Position 137 1 )
+    ( Indent 24 )
+, L
+    ( Position 137 25 )
+    ( TokSym "cmdargs" )
+, L
+    ( Position 137 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 137 52 )
+    ( TokSym "0.6" )
+, L
+    ( Position 137 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 137 60 )
+    ( TokOther "<" )
+, L
+    ( Position 137 62 )
+    ( TokSym "0.11" )
+, L
+    ( Position 137 66 )
+    ( TokOther "," )
+, L
+    ( Position 138 1 )
+    ( Indent 24 )
+, L
+    ( Position 138 25 )
+    ( TokSym "criterion" )
+, L
+    ( Position 138 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 138 52 )
+    ( TokSym "0.5" )
+, L
+    ( Position 138 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 138 60 )
+    ( TokOther "<" )
+, L
+    ( Position 138 62 )
+    ( TokSym "0.9" )
+, L
+    ( Position 138 65 )
+    ( TokOther "," )
+, L
+    ( Position 139 1 )
+    ( Indent 24 )
+, L
+    ( Position 139 25 )
+    ( TokSym "deepseq" )
+, L
+    ( Position 139 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 139 52 )
+    ( TokSym "1.1" )
+, L
+    ( Position 139 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 139 60 )
+    ( TokOther "<" )
+, L
+    ( Position 139 62 )
+    ( TokSym "1.4" )
+, L
+    ( Position 139 65 )
+    ( TokOther "," )
+, L
+    ( Position 140 1 )
+    ( Indent 24 )
+, L
+    ( Position 140 25 )
+    ( TokSym "directory" )
+, L
+    ( Position 140 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 140 52 )
+    ( TokSym "1.0" )
+, L
+    ( Position 140 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 140 60 )
+    ( TokOther "<" )
+, L
+    ( Position 140 62 )
+    ( TokSym "1.3" )
+, L
+    ( Position 140 65 )
+    ( TokOther "," )
+, L
+    ( Position 141 1 )
+    ( Indent 24 )
+, L
+    ( Position 141 25 )
+    ( TokSym "filepath" )
+, L
+    ( Position 141 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 141 52 )
+    ( TokSym "1.0" )
+, L
+    ( Position 141 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 141 60 )
+    ( TokOther "<" )
+, L
+    ( Position 141 62 )
+    ( TokSym "1.4" )
+, L
+    ( Position 141 65 )
+    ( TokOther "," )
+, L
+    ( Position 142 1 )
+    ( Indent 24 )
+, L
+    ( Position 142 25 )
+    ( TokSym "hashtables" )
+, L
+    ( Position 142 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 142 52 )
+    ( TokSym "1.0" )
+, L
+    ( Position 142 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 142 60 )
+    ( TokOther "<" )
+, L
+    ( Position 142 62 )
+    ( TokSym "1.2" )
+, L
+    ( Position 142 65 )
+    ( TokOther "," )
+, L
+    ( Position 143 1 )
+    ( Indent 24 )
+, L
+    ( Position 143 25 )
+    ( TokSym "mtl" )
+, L
+    ( Position 143 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 143 52 )
+    ( TokSym "1.1" )
+, L
+    ( Position 143 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 143 60 )
+    ( TokOther "<" )
+, L
+    ( Position 143 62 )
+    ( TokSym "2.2" )
+, L
+    ( Position 143 65 )
+    ( TokOther "," )
+, L
+    ( Position 144 1 )
+    ( Indent 24 )
+, L
+    ( Position 144 25 )
+    ( TokSym "mwc-random" )
+, L
+    ( Position 144 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 144 52 )
+    ( TokSym "0.8" )
+, L
+    ( Position 144 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 144 60 )
+    ( TokOther "<" )
+, L
+    ( Position 144 62 )
+    ( TokSym "0.13" )
+, L
+    ( Position 144 66 )
+    ( TokOther "," )
+, L
+    ( Position 145 1 )
+    ( Indent 24 )
+, L
+    ( Position 145 25 )
+    ( TokSym "pgm" )
+, L
+    ( Position 145 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 145 52 )
+    ( TokSym "0.1" )
+, L
+    ( Position 145 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 145 60 )
+    ( TokOther "<" )
+, L
+    ( Position 145 62 )
+    ( TokSym "0.2" )
+, L
+    ( Position 145 65 )
+    ( TokOther "," )
+, L
+    ( Position 146 1 )
+    ( Indent 24 )
+, L
+    ( Position 146 25 )
+    ( TokSym "pretty" )
+, L
+    ( Position 146 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 146 52 )
+    ( TokSym "1.0" )
+, L
+    ( Position 146 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 146 60 )
+    ( TokOther "<" )
+, L
+    ( Position 146 62 )
+    ( TokSym "1.2" )
+, L
+    ( Position 146 65 )
+    ( TokOther "," )
+, L
+    ( Position 147 1 )
+    ( Indent 24 )
+, L
+    ( Position 147 25 )
+    ( TokSym "repa" )
+, L
+    ( Position 147 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 147 52 )
+    ( TokSym "3.1" )
+, L
+    ( Position 147 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 147 60 )
+    ( TokOther "<" )
+, L
+    ( Position 147 62 )
+    ( TokSym "3.3" )
+, L
+    ( Position 147 65 )
+    ( TokOther "," )
+, L
+    ( Position 148 1 )
+    ( Indent 24 )
+, L
+    ( Position 148 25 )
+    ( TokSym "vector" )
+, L
+    ( Position 148 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 148 52 )
+    ( TokSym "0.7" )
+, L
+    ( Position 148 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 148 60 )
+    ( TokOther "<" )
+, L
+    ( Position 148 62 )
+    ( TokSym "0.11" )
+, L
+    ( Position 148 66 )
+    ( TokOther "," )
+, L
+    ( Position 149 1 )
+    ( Indent 24 )
+, L
+    ( Position 149 25 )
+    ( TokSym "vector-algorithms" )
+, L
+    ( Position 149 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 149 52 )
+    ( TokSym "0.4" )
+, L
+    ( Position 149 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 149 60 )
+    ( TokOther "<" )
+, L
+    ( Position 149 62 )
+    ( TokSym "0.6" )
+, L
+    ( Position 155 1 )
+    ( Indent 0 )
+, L
+    ( Position 155 1 )
+    ( TokSym "Executable" )
+, L
+    ( Position 155 12 )
+    ( TokSym "accelerate-crystal" )
+, L
+    ( Position 156 1 )
+    ( Indent 2 )
+, L
+    ( Position 156 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 156 17 ) Colon
+, L
+    ( Position 156 25 )
+    ( TokSym "examples" )
+, L
+    ( Position 156 33 )
+    ( TokOther "/" )
+, L
+    ( Position 156 34 )
+    ( TokSym "crystal" )
+, L
+    ( Position 156 42 )
+    ( TokSym "lib" )
+, L
+    ( Position 157 1 )
+    ( Indent 2 )
+, L
+    ( Position 157 3 )
+    ( TokSym "Main-is" )
+, L
+    ( Position 157 10 ) Colon
+, L
+    ( Position 157 25 )
+    ( TokSym "Main.hs" )
+, L
+    ( Position 158 1 )
+    ( Indent 2 )
+, L
+    ( Position 158 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 158 16 ) Colon
+, L
+    ( Position 158 25 )
+    ( TokSym "Config" )
+, L
+    ( Position 158 32 )
+    ( TokSym "ParseArgs" )
+, L
+    ( Position 159 1 )
+    ( Indent 2 )
+, L
+    ( Position 159 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 159 14 ) Colon
+, L
+    ( Position 159 25 )
+    ( TokSym "-O2" )
+, L
+    ( Position 159 29 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 159 35 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 160 1 )
+    ( Indent 2 )
+, L
+    ( Position 160 3 )
+    ( TokSym "if" )
+, L
+    ( Position 160 6 )
+    ( TokSym "impl" )
+, L
+    ( Position 160 10 )
+    ( TokOther "(" )
+, L
+    ( Position 160 11 )
+    ( TokSym "ghc" )
+, L
+    ( Position 160 15 )
+    ( TokOther ">=" )
+, L
+    ( Position 160 18 )
+    ( TokSym "7.0" )
+, L
+    ( Position 160 21 )
+    ( TokOther ")" )
+, L
+    ( Position 161 1 )
+    ( Indent 4 )
+, L
+    ( Position 161 5 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 161 16 ) Colon
+, L
+    ( Position 161 25 )
+    ( TokSym "-rtsopts" )
+, L
+    ( Position 163 1 )
+    ( Indent 2 )
+, L
+    ( Position 163 3 )
+    ( TokSym "if" )
+, L
+    ( Position 163 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 163 10 )
+    ( TokOther "(" )
+, L
+    ( Position 163 11 )
+    ( TokSym "gui" )
+, L
+    ( Position 163 14 )
+    ( TokOther ")" )
+, L
+    ( Position 164 1 )
+    ( Indent 4 )
+, L
+    ( Position 164 5 )
+    ( TokSym "CPP-options" )
+, L
+    ( Position 164 16 ) Colon
+, L
+    ( Position 164 25 )
+    ( TokSym "-DACCELERATE_ENABLE_GUI" )
+, L
+    ( Position 166 1 )
+    ( Indent 2 )
+, L
+    ( Position 166 3 )
+    ( TokSym "if" )
+, L
+    ( Position 166 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 166 10 )
+    ( TokOther "(" )
+, L
+    ( Position 166 11 )
+    ( TokSym "cuda" )
+, L
+    ( Position 166 15 )
+    ( TokOther ")" )
+, L
+    ( Position 167 1 )
+    ( Indent 4 )
+, L
+    ( Position 167 5 )
+    ( TokSym "CPP-options" )
+, L
+    ( Position 167 16 ) Colon
+, L
+    ( Position 167 25 )
+    ( TokSym "-DACCELERATE_CUDA_BACKEND" )
+, L
+    ( Position 168 1 )
+    ( Indent 4 )
+, L
+    ( Position 168 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 168 18 ) Colon
+, L
+    ( Position 168 25 )
+    ( TokSym "accelerate-cuda" )
+, L
+    ( Position 168 49 )
+    ( TokOther "==" )
+, L
+    ( Position 168 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 168 57 )
+    ( TokOther "*" )
+, L
+    ( Position 170 1 )
+    ( Indent 2 )
+, L
+    ( Position 170 3 )
+    ( TokSym "if" )
+, L
+    ( Position 170 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 170 10 )
+    ( TokOther "(" )
+, L
+    ( Position 170 11 )
+    ( TokSym "opencl" )
+, L
+    ( Position 170 17 )
+    ( TokOther ")" )
+, L
+    ( Position 171 1 )
+    ( Indent 4 )
+, L
+    ( Position 171 5 )
+    ( TokSym "CPP-options" )
+, L
+    ( Position 171 16 ) Colon
+, L
+    ( Position 171 25 )
+    ( TokSym "-DACCELERATE_OPENCL_BACKEND" )
+, L
+    ( Position 172 1 )
+    ( Indent 4 )
+, L
+    ( Position 172 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 172 18 ) Colon
+, L
+    ( Position 172 25 )
+    ( TokSym "accelerate-opencl" )
+, L
+    ( Position 172 49 )
+    ( TokOther "==" )
+, L
+    ( Position 172 52 )
+    ( TokSym "0.1." )
+, L
+    ( Position 172 56 )
+    ( TokOther "*" )
+, L
+    ( Position 174 1 )
+    ( Indent 2 )
+, L
+    ( Position 174 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 174 16 ) Colon
+, L
+    ( Position 174 25 )
+    ( TokSym "accelerate" )
+, L
+    ( Position 174 49 )
+    ( TokOther "==" )
+, L
+    ( Position 174 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 174 57 )
+    ( TokOther "*," )
+, L
+    ( Position 175 1 )
+    ( Indent 24 )
+, L
+    ( Position 175 25 )
+    ( TokSym "base" )
+, L
+    ( Position 175 49 )
+    ( TokOther "==" )
+, L
+    ( Position 175 52 )
+    ( TokSym "4." )
+, L
+    ( Position 175 54 )
+    ( TokOther "*," )
+, L
+    ( Position 176 1 )
+    ( Indent 24 )
+, L
+    ( Position 176 25 )
+    ( TokSym "criterion" )
+, L
+    ( Position 176 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 176 52 )
+    ( TokSym "0.5" )
+, L
+    ( Position 176 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 176 60 )
+    ( TokOther "<" )
+, L
+    ( Position 176 62 )
+    ( TokSym "0.9" )
+, L
+    ( Position 176 65 )
+    ( TokOther "," )
+, L
+    ( Position 177 1 )
+    ( Indent 24 )
+, L
+    ( Position 177 25 )
+    ( TokSym "fclabels" )
+, L
+    ( Position 177 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 177 52 )
+    ( TokSym "1.0" )
+, L
+    ( Position 177 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 177 60 )
+    ( TokOther "<" )
+, L
+    ( Position 177 62 )
+    ( TokSym "1.2" )
+, L
+    ( Position 177 65 )
+    ( TokOther "," )
+, L
+    ( Position 178 1 )
+    ( Indent 24 )
+, L
+    ( Position 178 25 )
+    ( TokSym "gloss" )
+, L
+    ( Position 178 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 178 52 )
+    ( TokSym "1.7" )
+, L
+    ( Position 178 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 178 60 )
+    ( TokOther "<" )
+, L
+    ( Position 178 62 )
+    ( TokSym "1.8" )
+, L
+    ( Position 184 1 )
+    ( Indent 0 )
+, L
+    ( Position 184 1 )
+    ( TokSym "Executable" )
+, L
+    ( Position 184 12 )
+    ( TokSym "accelerate-canny" )
+, L
+    ( Position 185 1 )
+    ( Indent 2 )
+, L
+    ( Position 185 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 185 17 ) Colon
+, L
+    ( Position 185 25 )
+    ( TokSym "examples" )
+, L
+    ( Position 185 33 )
+    ( TokOther "/" )
+, L
+    ( Position 185 34 )
+    ( TokSym "canny" )
+, L
+    ( Position 185 39 )
+    ( TokOther "/" )
+, L
+    ( Position 185 40 )
+    ( TokSym "src-acc" )
+, L
+    ( Position 185 48 )
+    ( TokSym "lib" )
+, L
+    ( Position 186 1 )
+    ( Indent 2 )
+, L
+    ( Position 186 3 )
+    ( TokSym "Main-is" )
+, L
+    ( Position 186 10 ) Colon
+, L
+    ( Position 186 25 )
+    ( TokSym "Main.hs" )
+, L
+    ( Position 187 1 )
+    ( Indent 2 )
+, L
+    ( Position 187 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 187 16 ) Colon
+, L
+    ( Position 187 25 )
+    ( TokSym "Config" )
+, L
+    ( Position 187 32 )
+    ( TokSym "ParseArgs" )
+, L
+    ( Position 187 42 )
+    ( TokSym "Canny" )
+, L
+    ( Position 187 48 )
+    ( TokSym "Wildfire" )
+, L
+    ( Position 188 1 )
+    ( Indent 2 )
+, L
+    ( Position 188 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 188 14 ) Colon
+, L
+    ( Position 188 25 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 188 31 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 188 41 )
+    ( TokSym "-Odph" )
+, L
+    ( Position 188 47 )
+    ( TokSym "-fllvm" )
+, L
+    ( Position 188 54 )
+    ( TokSym "-optlo-O3" )
+, L
+    ( Position 190 1 )
+    ( Indent 2 )
+, L
+    ( Position 190 3 )
+    ( TokSym "if" )
+, L
+    ( Position 190 6 )
+    ( TokSym "impl" )
+, L
+    ( Position 190 10 )
+    ( TokOther "(" )
+, L
+    ( Position 190 11 )
+    ( TokSym "ghc" )
+, L
+    ( Position 190 15 )
+    ( TokOther ">=" )
+, L
+    ( Position 190 18 )
+    ( TokSym "7.0" )
+, L
+    ( Position 190 21 )
+    ( TokOther ")" )
+, L
+    ( Position 191 1 )
+    ( Indent 4 )
+, L
+    ( Position 191 5 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 191 16 ) Colon
+, L
+    ( Position 191 25 )
+    ( TokSym "-rtsopts" )
+, L
+    ( Position 193 1 )
+    ( Indent 2 )
+, L
+    ( Position 193 3 )
+    ( TokSym "if" )
+, L
+    ( Position 193 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 193 10 )
+    ( TokOther "(" )
+, L
+    ( Position 193 11 )
+    ( TokSym "cuda" )
+, L
+    ( Position 193 15 )
+    ( TokOther ")" )
+, L
+    ( Position 194 1 )
+    ( Indent 4 )
+, L
+    ( Position 194 5 )
+    ( TokSym "CPP-options" )
+, L
+    ( Position 194 16 ) Colon
+, L
+    ( Position 194 25 )
+    ( TokSym "-DACCELERATE_CUDA_BACKEND" )
+, L
+    ( Position 195 1 )
+    ( Indent 4 )
+, L
+    ( Position 195 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 195 18 ) Colon
+, L
+    ( Position 195 25 )
+    ( TokSym "accelerate-cuda" )
+, L
+    ( Position 195 49 )
+    ( TokOther "==" )
+, L
+    ( Position 195 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 195 57 )
+    ( TokOther "*" )
+, L
+    ( Position 197 1 )
+    ( Indent 2 )
+, L
+    ( Position 197 3 )
+    ( TokSym "if" )
+, L
+    ( Position 197 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 197 10 )
+    ( TokOther "(" )
+, L
+    ( Position 197 11 )
+    ( TokSym "opencl" )
+, L
+    ( Position 197 17 )
+    ( TokOther ")" )
+, L
+    ( Position 198 1 )
+    ( Indent 4 )
+, L
+    ( Position 198 5 )
+    ( TokSym "CPP-options" )
+, L
+    ( Position 198 16 ) Colon
+, L
+    ( Position 198 25 )
+    ( TokSym "-DACCELERATE_OPENCL_BACKEND" )
+, L
+    ( Position 199 1 )
+    ( Indent 4 )
+, L
+    ( Position 199 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 199 18 ) Colon
+, L
+    ( Position 199 25 )
+    ( TokSym "accelerate-opencl" )
+, L
+    ( Position 199 49 )
+    ( TokOther "==" )
+, L
+    ( Position 199 52 )
+    ( TokSym "0.1." )
+, L
+    ( Position 199 56 )
+    ( TokOther "*" )
+, L
+    ( Position 201 1 )
+    ( Indent 2 )
+, L
+    ( Position 201 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 201 16 ) Colon
+, L
+    ( Position 201 25 )
+    ( TokSym "accelerate" )
+, L
+    ( Position 201 49 )
+    ( TokOther "==" )
+, L
+    ( Position 201 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 201 57 )
+    ( TokOther "*," )
+, L
+    ( Position 202 1 )
+    ( Indent 24 )
+, L
+    ( Position 202 25 )
+    ( TokSym "accelerate-io" )
+, L
+    ( Position 202 49 )
+    ( TokOther "==" )
+, L
+    ( Position 202 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 202 57 )
+    ( TokOther "*," )
+, L
+    ( Position 203 1 )
+    ( Indent 24 )
+, L
+    ( Position 203 25 )
+    ( TokSym "base" )
+, L
+    ( Position 203 49 )
+    ( TokOther "==" )
+, L
+    ( Position 203 52 )
+    ( TokSym "4." )
+, L
+    ( Position 203 54 )
+    ( TokOther "*," )
+, L
+    ( Position 204 1 )
+    ( Indent 24 )
+, L
+    ( Position 204 25 )
+    ( TokSym "criterion" )
+, L
+    ( Position 204 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 204 52 )
+    ( TokSym "0.5" )
+, L
+    ( Position 204 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 204 60 )
+    ( TokOther "<" )
+, L
+    ( Position 204 62 )
+    ( TokSym "0.9" )
+, L
+    ( Position 204 65 )
+    ( TokOther "," )
+, L
+    ( Position 205 1 )
+    ( Indent 24 )
+, L
+    ( Position 205 25 )
+    ( TokSym "fclabels" )
+, L
+    ( Position 205 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 205 52 )
+    ( TokSym "1.0" )
+, L
+    ( Position 205 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 205 60 )
+    ( TokOther "<" )
+, L
+    ( Position 205 62 )
+    ( TokSym "1.2" )
+, L
+    ( Position 205 65 )
+    ( TokOther "," )
+, L
+    ( Position 206 1 )
+    ( Indent 24 )
+, L
+    ( Position 206 25 )
+    ( TokSym "repa" )
+, L
+    ( Position 206 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 206 52 )
+    ( TokSym "3.1" )
+, L
+    ( Position 206 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 206 60 )
+    ( TokOther "<" )
+, L
+    ( Position 206 62 )
+    ( TokSym "3.3" )
+, L
+    ( Position 206 65 )
+    ( TokOther "," )
+, L
+    ( Position 207 1 )
+    ( Indent 24 )
+, L
+    ( Position 207 25 )
+    ( TokSym "repa-io" )
+, L
+    ( Position 207 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 207 52 )
+    ( TokSym "3.1" )
+, L
+    ( Position 207 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 207 60 )
+    ( TokOther "<" )
+, L
+    ( Position 207 62 )
+    ( TokSym "3.3" )
+, L
+    ( Position 207 65 )
+    ( TokOther "," )
+, L
+    ( Position 208 1 )
+    ( Indent 24 )
+, L
+    ( Position 208 25 )
+    ( TokSym "vector" )
+, L
+    ( Position 208 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 208 52 )
+    ( TokSym "0.7" )
+, L
+    ( Position 208 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 208 60 )
+    ( TokOther "<" )
+, L
+    ( Position 208 62 )
+    ( TokSym "0.11" )
+, L
+    ( Position 214 1 )
+    ( Indent 0 )
+, L
+    ( Position 214 1 )
+    ( TokSym "Executable" )
+, L
+    ( Position 214 12 )
+    ( TokSym "accelerate-mandelbrot" )
+, L
+    ( Position 215 1 )
+    ( Indent 2 )
+, L
+    ( Position 215 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 215 17 ) Colon
+, L
+    ( Position 215 25 )
+    ( TokSym "examples" )
+, L
+    ( Position 215 33 )
+    ( TokOther "/" )
+, L
+    ( Position 215 34 )
+    ( TokSym "mandelbrot" )
+, L
+    ( Position 215 45 )
+    ( TokSym "lib" )
+, L
+    ( Position 216 1 )
+    ( Indent 2 )
+, L
+    ( Position 216 3 )
+    ( TokSym "Main-is" )
+, L
+    ( Position 216 10 ) Colon
+, L
+    ( Position 216 25 )
+    ( TokSym "Main.hs" )
+, L
+    ( Position 217 1 )
+    ( Indent 2 )
+, L
+    ( Position 217 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 217 16 ) Colon
+, L
+    ( Position 217 25 )
+    ( TokSym "Config" )
+, L
+    ( Position 217 32 )
+    ( TokSym "World" )
+, L
+    ( Position 217 38 )
+    ( TokSym "Mandel" )
+, L
+    ( Position 217 45 )
+    ( TokSym "ParseArgs" )
+, L
+    ( Position 218 1 )
+    ( Indent 2 )
+, L
+    ( Position 218 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 218 14 ) Colon
+, L
+    ( Position 218 25 )
+    ( TokSym "-O2" )
+, L
+    ( Position 218 29 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 218 35 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 219 1 )
+    ( Indent 2 )
+, L
+    ( Position 219 3 )
+    ( TokSym "if" )
+, L
+    ( Position 219 6 )
+    ( TokSym "impl" )
+, L
+    ( Position 219 10 )
+    ( TokOther "(" )
+, L
+    ( Position 219 11 )
+    ( TokSym "ghc" )
+, L
+    ( Position 219 15 )
+    ( TokOther ">=" )
+, L
+    ( Position 219 18 )
+    ( TokSym "7.0" )
+, L
+    ( Position 219 21 )
+    ( TokOther ")" )
+, L
+    ( Position 220 1 )
+    ( Indent 4 )
+, L
+    ( Position 220 5 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 220 16 ) Colon
+, L
+    ( Position 220 25 )
+    ( TokSym "-rtsopts" )
+, L
+    ( Position 222 1 )
+    ( Indent 2 )
+, L
+    ( Position 222 3 )
+    ( TokSym "if" )
+, L
+    ( Position 222 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 222 10 )
+    ( TokOther "(" )
+, L
+    ( Position 222 11 )
+    ( TokSym "gui" )
+, L
+    ( Position 222 14 )
+    ( TokOther ")" )
+, L
+    ( Position 223 1 )
+    ( Indent 4 )
+, L
+    ( Position 223 5 )
+    ( TokSym "CPP-options" )
+, L
+    ( Position 223 16 ) Colon
+, L
+    ( Position 223 25 )
+    ( TokSym "-DACCELERATE_ENABLE_GUI" )
+, L
+    ( Position 225 1 )
+    ( Indent 2 )
+, L
+    ( Position 225 3 )
+    ( TokSym "if" )
+, L
+    ( Position 225 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 225 10 )
+    ( TokOther "(" )
+, L
+    ( Position 225 11 )
+    ( TokSym "cuda" )
+, L
+    ( Position 225 15 )
+    ( TokOther ")" )
+, L
+    ( Position 226 1 )
+    ( Indent 4 )
+, L
+    ( Position 226 5 )
+    ( TokSym "CPP-options" )
+, L
+    ( Position 226 16 ) Colon
+, L
+    ( Position 226 25 )
+    ( TokSym "-DACCELERATE_CUDA_BACKEND" )
+, L
+    ( Position 227 1 )
+    ( Indent 4 )
+, L
+    ( Position 227 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 227 18 ) Colon
+, L
+    ( Position 227 25 )
+    ( TokSym "accelerate-cuda" )
+, L
+    ( Position 227 49 )
+    ( TokOther "==" )
+, L
+    ( Position 227 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 227 57 )
+    ( TokOther "*" )
+, L
+    ( Position 229 1 )
+    ( Indent 2 )
+, L
+    ( Position 229 3 )
+    ( TokSym "if" )
+, L
+    ( Position 229 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 229 10 )
+    ( TokOther "(" )
+, L
+    ( Position 229 11 )
+    ( TokSym "opencl" )
+, L
+    ( Position 229 17 )
+    ( TokOther ")" )
+, L
+    ( Position 230 1 )
+    ( Indent 4 )
+, L
+    ( Position 230 5 )
+    ( TokSym "CPP-options" )
+, L
+    ( Position 230 16 ) Colon
+, L
+    ( Position 230 25 )
+    ( TokSym "-DACCELERATE_OPENCL_BACKEND" )
+, L
+    ( Position 231 1 )
+    ( Indent 4 )
+, L
+    ( Position 231 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 231 18 ) Colon
+, L
+    ( Position 231 25 )
+    ( TokSym "accelerate-opencl" )
+, L
+    ( Position 231 49 )
+    ( TokOther "==" )
+, L
+    ( Position 231 52 )
+    ( TokSym "0.1." )
+, L
+    ( Position 231 56 )
+    ( TokOther "*" )
+, L
+    ( Position 233 1 )
+    ( Indent 2 )
+, L
+    ( Position 233 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 233 16 ) Colon
+, L
+    ( Position 233 25 )
+    ( TokSym "accelerate" )
+, L
+    ( Position 233 49 )
+    ( TokOther "==" )
+, L
+    ( Position 233 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 233 57 )
+    ( TokOther "*," )
+, L
+    ( Position 234 1 )
+    ( Indent 24 )
+, L
+    ( Position 234 25 )
+    ( TokSym "base" )
+, L
+    ( Position 234 49 )
+    ( TokOther "==" )
+, L
+    ( Position 234 52 )
+    ( TokSym "4." )
+, L
+    ( Position 234 54 )
+    ( TokOther "*," )
+, L
+    ( Position 235 1 )
+    ( Indent 24 )
+, L
+    ( Position 235 25 )
+    ( TokSym "criterion" )
+, L
+    ( Position 235 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 235 52 )
+    ( TokSym "0.5" )
+, L
+    ( Position 235 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 235 60 )
+    ( TokOther "<" )
+, L
+    ( Position 235 62 )
+    ( TokSym "0.9" )
+, L
+    ( Position 235 65 )
+    ( TokOther "," )
+, L
+    ( Position 236 1 )
+    ( Indent 24 )
+, L
+    ( Position 236 25 )
+    ( TokSym "fclabels" )
+, L
+    ( Position 236 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 236 52 )
+    ( TokSym "1.0" )
+, L
+    ( Position 236 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 236 60 )
+    ( TokOther "<" )
+, L
+    ( Position 236 62 )
+    ( TokSym "1.2" )
+, L
+    ( Position 236 65 )
+    ( TokOther "," )
+, L
+    ( Position 237 1 )
+    ( Indent 24 )
+, L
+    ( Position 237 25 )
+    ( TokSym "gloss" )
+, L
+    ( Position 237 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 237 52 )
+    ( TokSym "1.7" )
+, L
+    ( Position 237 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 237 60 )
+    ( TokOther "<" )
+, L
+    ( Position 237 62 )
+    ( TokSym "1.8" )
+, L
+    ( Position 243 1 )
+    ( Indent 0 )
+, L
+    ( Position 243 1 )
+    ( TokSym "Executable" )
+, L
+    ( Position 243 12 )
+    ( TokSym "accelerate-fluid" )
+, L
+    ( Position 244 1 )
+    ( Indent 2 )
+, L
+    ( Position 244 3 )
+    ( TokSym "Main-is" )
+, L
+    ( Position 244 10 ) Colon
+, L
+    ( Position 244 25 )
+    ( TokSym "Main.hs" )
+, L
+    ( Position 245 1 )
+    ( Indent 2 )
+, L
+    ( Position 245 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 245 17 ) Colon
+, L
+    ( Position 245 25 )
+    ( TokSym "examples" )
+, L
+    ( Position 245 33 )
+    ( TokOther "/" )
+, L
+    ( Position 245 34 )
+    ( TokSym "fluid" )
+, L
+    ( Position 245 39 )
+    ( TokOther "/" )
+, L
+    ( Position 245 40 )
+    ( TokSym "src-acc" )
+, L
+    ( Position 245 48 )
+    ( TokSym "lib" )
+, L
+    ( Position 246 1 )
+    ( Indent 2 )
+, L
+    ( Position 246 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 246 16 ) Colon
+, L
+    ( Position 246 25 )
+    ( TokSym "Config" )
+, L
+    ( Position 247 1 )
+    ( Indent 24 )
+, L
+    ( Position 247 25 )
+    ( TokSym "ParseArgs" )
+, L
+    ( Position 248 1 )
+    ( Indent 24 )
+, L
+    ( Position 248 25 )
+    ( TokSym "Event" )
+, L
+    ( Position 249 1 )
+    ( Indent 24 )
+, L
+    ( Position 249 25 )
+    ( TokSym "Fluid" )
+, L
+    ( Position 250 1 )
+    ( Indent 24 )
+, L
+    ( Position 250 25 )
+    ( TokSym "Type" )
+, L
+    ( Position 251 1 )
+    ( Indent 24 )
+, L
+    ( Position 251 25 )
+    ( TokSym "World" )
+, L
+    ( Position 253 1 )
+    ( Indent 2 )
+, L
+    ( Position 253 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 253 14 ) Colon
+, L
+    ( Position 253 25 )
+    ( TokSym "-O2" )
+, L
+    ( Position 253 29 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 253 35 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 254 1 )
+    ( Indent 2 )
+, L
+    ( Position 254 3 )
+    ( TokSym "if" )
+, L
+    ( Position 254 6 )
+    ( TokSym "impl" )
+, L
+    ( Position 254 10 )
+    ( TokOther "(" )
+, L
+    ( Position 254 11 )
+    ( TokSym "ghc" )
+, L
+    ( Position 254 15 )
+    ( TokOther ">=" )
+, L
+    ( Position 254 18 )
+    ( TokSym "7.0" )
+, L
+    ( Position 254 21 )
+    ( TokOther ")" )
+, L
+    ( Position 255 1 )
+    ( Indent 4 )
+, L
+    ( Position 255 5 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 255 16 ) Colon
+, L
+    ( Position 255 25 )
+    ( TokSym "-rtsopts" )
+, L
+    ( Position 257 1 )
+    ( Indent 2 )
+, L
+    ( Position 257 3 )
+    ( TokSym "if" )
+, L
+    ( Position 257 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 257 10 )
+    ( TokOther "(" )
+, L
+    ( Position 257 11 )
+    ( TokSym "gui" )
+, L
+    ( Position 257 14 )
+    ( TokOther ")" )
+, L
+    ( Position 258 1 )
+    ( Indent 4 )
+, L
+    ( Position 258 5 )
+    ( TokSym "CPP-options" )
+, L
+    ( Position 258 16 ) Colon
+, L
+    ( Position 258 25 )
+    ( TokSym "-DACCELERATE_ENABLE_GUI" )
+, L
+    ( Position 260 1 )
+    ( Indent 2 )
+, L
+    ( Position 260 3 )
+    ( TokSym "if" )
+, L
+    ( Position 260 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 260 10 )
+    ( TokOther "(" )
+, L
+    ( Position 260 11 )
+    ( TokSym "cuda" )
+, L
+    ( Position 260 15 )
+    ( TokOther ")" )
+, L
+    ( Position 261 1 )
+    ( Indent 4 )
+, L
+    ( Position 261 5 )
+    ( TokSym "cpp-options" )
+, L
+    ( Position 261 16 ) Colon
+, L
+    ( Position 261 25 )
+    ( TokSym "-DACCELERATE_CUDA_BACKEND" )
+, L
+    ( Position 262 1 )
+    ( Indent 4 )
+, L
+    ( Position 262 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 262 18 ) Colon
+, L
+    ( Position 262 25 )
+    ( TokSym "accelerate-cuda" )
+, L
+    ( Position 262 49 )
+    ( TokOther "==" )
+, L
+    ( Position 262 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 262 57 )
+    ( TokOther "*" )
+, L
+    ( Position 264 1 )
+    ( Indent 2 )
+, L
+    ( Position 264 3 )
+    ( TokSym "Build-depends" )
+, L
+    ( Position 264 16 ) Colon
+, L
+    ( Position 264 25 )
+    ( TokSym "accelerate" )
+, L
+    ( Position 264 49 )
+    ( TokOther "==" )
+, L
+    ( Position 264 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 264 57 )
+    ( TokOther "*," )
+, L
+    ( Position 265 1 )
+    ( Indent 24 )
+, L
+    ( Position 265 25 )
+    ( TokSym "accelerate-io" )
+, L
+    ( Position 265 49 )
+    ( TokOther "==" )
+, L
+    ( Position 265 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 265 57 )
+    ( TokOther "*," )
+, L
+    ( Position 266 1 )
+    ( Indent 24 )
+, L
+    ( Position 266 25 )
+    ( TokSym "base" )
+, L
+    ( Position 266 49 )
+    ( TokOther "==" )
+, L
+    ( Position 266 52 )
+    ( TokSym "4." )
+, L
+    ( Position 266 54 )
+    ( TokOther "*," )
+, L
+    ( Position 267 1 )
+    ( Indent 24 )
+, L
+    ( Position 267 25 )
+    ( TokSym "bmp" )
+, L
+    ( Position 267 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 267 52 )
+    ( TokSym "1.2" )
+, L
+    ( Position 267 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 267 60 )
+    ( TokOther "<" )
+, L
+    ( Position 267 62 )
+    ( TokSym "1.3" )
+, L
+    ( Position 267 65 )
+    ( TokOther "," )
+, L
+    ( Position 268 1 )
+    ( Indent 24 )
+, L
+    ( Position 268 25 )
+    ( TokSym "criterion" )
+, L
+    ( Position 268 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 268 52 )
+    ( TokSym "0.5" )
+, L
+    ( Position 268 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 268 60 )
+    ( TokOther "<" )
+, L
+    ( Position 268 62 )
+    ( TokSym "0.9" )
+, L
+    ( Position 268 65 )
+    ( TokOther "," )
+, L
+    ( Position 269 1 )
+    ( Indent 24 )
+, L
+    ( Position 269 25 )
+    ( TokSym "fclabels" )
+, L
+    ( Position 269 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 269 52 )
+    ( TokSym "1.0" )
+, L
+    ( Position 269 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 269 60 )
+    ( TokOther "<" )
+, L
+    ( Position 269 62 )
+    ( TokSym "1.2" )
+, L
+    ( Position 269 65 )
+    ( TokOther "," )
+, L
+    ( Position 270 1 )
+    ( Indent 24 )
+, L
+    ( Position 270 25 )
+    ( TokSym "gloss" )
+, L
+    ( Position 270 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 270 52 )
+    ( TokSym "1.7" )
+, L
+    ( Position 270 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 270 60 )
+    ( TokOther "<" )
+, L
+    ( Position 270 62 )
+    ( TokSym "1.8" )
+, L
+    ( Position 276 1 )
+    ( Indent 0 )
+, L
+    ( Position 276 1 )
+    ( TokSym "Executable" )
+, L
+    ( Position 276 12 )
+    ( TokSym "accelerate-nbody" )
+, L
+    ( Position 277 1 )
+    ( Indent 2 )
+, L
+    ( Position 277 3 )
+    ( TokSym "Main-is" )
+, L
+    ( Position 277 10 ) Colon
+, L
+    ( Position 277 25 )
+    ( TokSym "Main.hs" )
+, L
+    ( Position 278 1 )
+    ( Indent 2 )
+, L
+    ( Position 278 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 278 17 ) Colon
+, L
+    ( Position 278 25 )
+    ( TokSym "examples" )
+, L
+    ( Position 278 33 )
+    ( TokOther "/" )
+, L
+    ( Position 278 34 )
+    ( TokSym "n-body" )
+, L
+    ( Position 278 41 )
+    ( TokSym "lib" )
+, L
+    ( Position 279 1 )
+    ( Indent 2 )
+, L
+    ( Position 279 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 279 16 ) Colon
+, L
+    ( Position 279 25 )
+    ( TokSym "Config" )
+, L
+    ( Position 280 1 )
+    ( Indent 24 )
+, L
+    ( Position 280 25 )
+    ( TokSym "ParseArgs" )
+, L
+    ( Position 281 1 )
+    ( Indent 24 )
+, L
+    ( Position 281 25 )
+    ( TokSym "Common.Body" )
+, L
+    ( Position 282 1 )
+    ( Indent 24 )
+, L
+    ( Position 282 25 )
+    ( TokSym "Common.Dump" )
+, L
+    ( Position 283 1 )
+    ( Indent 24 )
+, L
+    ( Position 283 25 )
+    ( TokSym "Common.Tree" )
+, L
+    ( Position 284 1 )
+    ( Indent 24 )
+, L
+    ( Position 284 25 )
+    ( TokSym "Common.Type" )
+, L
+    ( Position 285 1 )
+    ( Indent 24 )
+, L
+    ( Position 285 25 )
+    ( TokSym "Common.Util" )
+, L
+    ( Position 286 1 )
+    ( Indent 24 )
+, L
+    ( Position 286 25 )
+    ( TokSym "Common.World" )
+, L
+    ( Position 287 1 )
+    ( Indent 24 )
+, L
+    ( Position 287 25 )
+    ( TokSym "Gloss.Draw" )
+, L
+    ( Position 288 1 )
+    ( Indent 24 )
+, L
+    ( Position 288 25 )
+    ( TokSym "Gloss.Event" )
+, L
+    ( Position 289 1 )
+    ( Indent 24 )
+, L
+    ( Position 289 25 )
+    ( TokSym "Gloss.Simulate" )
+, L
+    ( Position 290 1 )
+    ( Indent 24 )
+, L
+    ( Position 290 25 )
+    ( TokSym "Random.Array" )
+, L
+    ( Position 291 1 )
+    ( Indent 24 )
+, L
+    ( Position 291 25 )
+    ( TokSym "Random.Position" )
+, L
+    ( Position 292 1 )
+    ( Indent 24 )
+, L
+    ( Position 292 25 )
+    ( TokSym "Solver.BarnsHut" )
+, L
+    ( Position 293 1 )
+    ( Indent 24 )
+, L
+    ( Position 293 25 )
+    ( TokSym "Solver.Naive" )
+, L
+    ( Position 295 1 )
+    ( Indent 2 )
+, L
+    ( Position 295 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 295 14 ) Colon
+, L
+    ( Position 295 25 )
+    ( TokSym "-O2" )
+, L
+    ( Position 295 29 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 295 35 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 296 1 )
+    ( Indent 2 )
+, L
+    ( Position 296 3 )
+    ( TokSym "if" )
+, L
+    ( Position 296 6 )
+    ( TokSym "impl" )
+, L
+    ( Position 296 10 )
+    ( TokOther "(" )
+, L
+    ( Position 296 11 )
+    ( TokSym "ghc" )
+, L
+    ( Position 296 15 )
+    ( TokOther ">=" )
+, L
+    ( Position 296 18 )
+    ( TokSym "7.0" )
+, L
+    ( Position 296 21 )
+    ( TokOther ")" )
+, L
+    ( Position 297 1 )
+    ( Indent 4 )
+, L
+    ( Position 297 5 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 297 16 ) Colon
+, L
+    ( Position 297 25 )
+    ( TokSym "-rtsopts" )
+, L
+    ( Position 299 1 )
+    ( Indent 2 )
+, L
+    ( Position 299 3 )
+    ( TokSym "if" )
+, L
+    ( Position 299 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 299 10 )
+    ( TokOther "(" )
+, L
+    ( Position 299 11 )
+    ( TokSym "gui" )
+, L
+    ( Position 299 14 )
+    ( TokOther ")" )
+, L
+    ( Position 300 1 )
+    ( Indent 4 )
+, L
+    ( Position 300 5 )
+    ( TokSym "cpp-options" )
+, L
+    ( Position 300 16 ) Colon
+, L
+    ( Position 300 25 )
+    ( TokSym "-DACCELERATE_ENABLE_GUI" )
+, L
+    ( Position 302 1 )
+    ( Indent 2 )
+, L
+    ( Position 302 3 )
+    ( TokSym "if" )
+, L
+    ( Position 302 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 302 10 )
+    ( TokOther "(" )
+, L
+    ( Position 302 11 )
+    ( TokSym "cuda" )
+, L
+    ( Position 302 15 )
+    ( TokOther ")" )
+, L
+    ( Position 303 1 )
+    ( Indent 4 )
+, L
+    ( Position 303 5 )
+    ( TokSym "cpp-options" )
+, L
+    ( Position 303 16 ) Colon
+, L
+    ( Position 303 25 )
+    ( TokSym "-DACCELERATE_CUDA_BACKEND" )
+, L
+    ( Position 304 1 )
+    ( Indent 4 )
+, L
+    ( Position 304 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 304 18 ) Colon
+, L
+    ( Position 304 25 )
+    ( TokSym "accelerate-cuda" )
+, L
+    ( Position 304 49 )
+    ( TokOther "==" )
+, L
+    ( Position 304 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 304 57 )
+    ( TokOther "*" )
+, L
+    ( Position 306 1 )
+    ( Indent 2 )
+, L
+    ( Position 306 3 )
+    ( TokSym "Build-depends" )
+, L
+    ( Position 306 16 ) Colon
+, L
+    ( Position 306 25 )
+    ( TokSym "accelerate" )
+, L
+    ( Position 306 49 )
+    ( TokOther "==" )
+, L
+    ( Position 306 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 306 57 )
+    ( TokOther "*," )
+, L
+    ( Position 307 1 )
+    ( Indent 24 )
+, L
+    ( Position 307 25 )
+    ( TokSym "base" )
+, L
+    ( Position 307 49 )
+    ( TokOther "==" )
+, L
+    ( Position 307 52 )
+    ( TokSym "4." )
+, L
+    ( Position 307 54 )
+    ( TokOther "*," )
+, L
+    ( Position 308 1 )
+    ( Indent 24 )
+, L
+    ( Position 308 25 )
+    ( TokSym "criterion" )
+, L
+    ( Position 308 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 308 52 )
+    ( TokSym "0.5" )
+, L
+    ( Position 308 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 308 60 )
+    ( TokOther "<" )
+, L
+    ( Position 308 62 )
+    ( TokSym "0.9" )
+, L
+    ( Position 308 65 )
+    ( TokOther "," )
+, L
+    ( Position 309 1 )
+    ( Indent 24 )
+, L
+    ( Position 309 25 )
+    ( TokSym "fclabels" )
+, L
+    ( Position 309 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 309 52 )
+    ( TokSym "1.0" )
+, L
+    ( Position 309 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 309 60 )
+    ( TokOther "<" )
+, L
+    ( Position 309 62 )
+    ( TokSym "1.2" )
+, L
+    ( Position 309 65 )
+    ( TokOther "," )
+, L
+    ( Position 310 1 )
+    ( Indent 24 )
+, L
+    ( Position 310 25 )
+    ( TokSym "gloss" )
+, L
+    ( Position 310 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 310 52 )
+    ( TokSym "1.7" )
+, L
+    ( Position 310 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 310 60 )
+    ( TokOther "<" )
+, L
+    ( Position 310 62 )
+    ( TokSym "1.8" )
+, L
+    ( Position 316 1 )
+    ( Indent 0 )
+, L
+    ( Position 316 1 )
+    ( TokSym "Executable" )
+, L
+    ( Position 316 12 )
+    ( TokSym "accelerate-smoothlife" )
+, L
+    ( Position 317 1 )
+    ( Indent 2 )
+, L
+    ( Position 317 3 )
+    ( TokSym "Main-is" )
+, L
+    ( Position 317 10 ) Colon
+, L
+    ( Position 317 25 )
+    ( TokSym "Main.hs" )
+, L
+    ( Position 318 1 )
+    ( Indent 2 )
+, L
+    ( Position 318 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 318 17 ) Colon
+, L
+    ( Position 318 25 )
+    ( TokSym "examples" )
+, L
+    ( Position 318 33 )
+    ( TokOther "/" )
+, L
+    ( Position 318 34 )
+    ( TokSym "smoothlife" )
+, L
+    ( Position 318 45 )
+    ( TokSym "lib" )
+, L
+    ( Position 319 1 )
+    ( Indent 2 )
+, L
+    ( Position 319 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 319 16 ) Colon
+, L
+    ( Position 319 25 )
+    ( TokSym "Config" )
+, L
+    ( Position 320 1 )
+    ( Indent 24 )
+, L
+    ( Position 320 25 )
+    ( TokSym "ParseArgs" )
+, L
+    ( Position 321 1 )
+    ( Indent 24 )
+, L
+    ( Position 321 25 )
+    ( TokSym "SmoothLife" )
+, L
+    ( Position 322 1 )
+    ( Indent 24 )
+, L
+    ( Position 322 25 )
+    ( TokSym "Gloss.Draw" )
+, L
+    ( Position 323 1 )
+    ( Indent 24 )
+, L
+    ( Position 323 25 )
+    ( TokSym "Gloss.Event" )
+, L
+    ( Position 324 1 )
+    ( Indent 24 )
+, L
+    ( Position 324 25 )
+    ( TokSym "Gloss.Simulate" )
+, L
+    ( Position 325 1 )
+    ( Indent 24 )
+, L
+    ( Position 325 25 )
+    ( TokSym "Random.Array" )
+, L
+    ( Position 326 1 )
+    ( Indent 24 )
+, L
+    ( Position 326 25 )
+    ( TokSym "Random.Splat" )
+, L
+    ( Position 328 1 )
+    ( Indent 2 )
+, L
+    ( Position 328 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 328 14 ) Colon
+, L
+    ( Position 328 25 )
+    ( TokSym "-O2" )
+, L
+    ( Position 328 29 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 328 35 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 329 1 )
+    ( Indent 2 )
+, L
+    ( Position 329 3 )
+    ( TokSym "if" )
+, L
+    ( Position 329 6 )
+    ( TokSym "impl" )
+, L
+    ( Position 329 10 )
+    ( TokOther "(" )
+, L
+    ( Position 329 11 )
+    ( TokSym "ghc" )
+, L
+    ( Position 329 15 )
+    ( TokOther ">=" )
+, L
+    ( Position 329 18 )
+    ( TokSym "7.0" )
+, L
+    ( Position 329 21 )
+    ( TokOther ")" )
+, L
+    ( Position 330 1 )
+    ( Indent 4 )
+, L
+    ( Position 330 5 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 330 16 ) Colon
+, L
+    ( Position 330 25 )
+    ( TokSym "-rtsopts" )
+, L
+    ( Position 332 1 )
+    ( Indent 2 )
+, L
+    ( Position 332 3 )
+    ( TokSym "if" )
+, L
+    ( Position 332 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 332 10 )
+    ( TokOther "(" )
+, L
+    ( Position 332 11 )
+    ( TokSym "gui" )
+, L
+    ( Position 332 14 )
+    ( TokOther ")" )
+, L
+    ( Position 333 1 )
+    ( Indent 4 )
+, L
+    ( Position 333 5 )
+    ( TokSym "cpp-options" )
+, L
+    ( Position 333 16 ) Colon
+, L
+    ( Position 333 25 )
+    ( TokSym "-DACCELERATE_ENABLE_GUI" )
+, L
+    ( Position 335 1 )
+    ( Indent 2 )
+, L
+    ( Position 335 3 )
+    ( TokSym "if" )
+, L
+    ( Position 335 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 335 10 )
+    ( TokOther "(" )
+, L
+    ( Position 335 11 )
+    ( TokSym "cuda" )
+, L
+    ( Position 335 15 )
+    ( TokOther ")" )
+, L
+    ( Position 336 1 )
+    ( Indent 4 )
+, L
+    ( Position 336 5 )
+    ( TokSym "cpp-options" )
+, L
+    ( Position 336 16 ) Colon
+, L
+    ( Position 336 25 )
+    ( TokSym "-DACCELERATE_CUDA_BACKEND" )
+, L
+    ( Position 337 1 )
+    ( Indent 4 )
+, L
+    ( Position 337 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 337 18 ) Colon
+, L
+    ( Position 337 25 )
+    ( TokSym "accelerate-cuda" )
+, L
+    ( Position 337 49 )
+    ( TokOther "==" )
+, L
+    ( Position 337 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 337 57 )
+    ( TokOther "*" )
+, L
+    ( Position 339 1 )
+    ( Indent 2 )
+, L
+    ( Position 339 3 )
+    ( TokSym "Build-depends" )
+, L
+    ( Position 339 16 ) Colon
+, L
+    ( Position 339 25 )
+    ( TokSym "accelerate" )
+, L
+    ( Position 339 49 )
+    ( TokOther "==" )
+, L
+    ( Position 339 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 339 57 )
+    ( TokOther "*," )
+, L
+    ( Position 340 1 )
+    ( Indent 24 )
+, L
+    ( Position 340 25 )
+    ( TokSym "accelerate-fft" )
+, L
+    ( Position 340 49 )
+    ( TokOther "==" )
+, L
+    ( Position 340 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 340 57 )
+    ( TokOther "*," )
+, L
+    ( Position 341 1 )
+    ( Indent 24 )
+, L
+    ( Position 341 25 )
+    ( TokSym "base" )
+, L
+    ( Position 341 49 )
+    ( TokOther "==" )
+, L
+    ( Position 341 52 )
+    ( TokSym "4." )
+, L
+    ( Position 341 54 )
+    ( TokOther "*," )
+, L
+    ( Position 342 1 )
+    ( Indent 24 )
+, L
+    ( Position 342 25 )
+    ( TokSym "criterion" )
+, L
+    ( Position 342 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 342 52 )
+    ( TokSym "0.5" )
+, L
+    ( Position 342 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 342 60 )
+    ( TokOther "<" )
+, L
+    ( Position 342 62 )
+    ( TokSym "0.9" )
+, L
+    ( Position 342 65 )
+    ( TokOther "," )
+, L
+    ( Position 343 1 )
+    ( Indent 24 )
+, L
+    ( Position 343 25 )
+    ( TokSym "fclabels" )
+, L
+    ( Position 343 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 343 52 )
+    ( TokSym "1.0" )
+, L
+    ( Position 343 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 343 60 )
+    ( TokOther "<" )
+, L
+    ( Position 343 62 )
+    ( TokSym "1.2" )
+, L
+    ( Position 343 65 )
+    ( TokOther "," )
+, L
+    ( Position 344 1 )
+    ( Indent 24 )
+, L
+    ( Position 344 25 )
+    ( TokSym "gloss" )
+, L
+    ( Position 344 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 344 52 )
+    ( TokSym "1.7" )
+, L
+    ( Position 344 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 344 60 )
+    ( TokOther "<" )
+, L
+    ( Position 344 62 )
+    ( TokSym "1.8" )
+, L
+    ( Position 350 1 )
+    ( Indent 0 )
+, L
+    ( Position 350 1 )
+    ( TokSym "Executable" )
+, L
+    ( Position 350 12 )
+    ( TokSym "accelerate-hashcat" )
+, L
+    ( Position 351 1 )
+    ( Indent 2 )
+, L
+    ( Position 351 3 )
+    ( TokSym "Main-is" )
+, L
+    ( Position 351 10 ) Colon
+, L
+    ( Position 351 25 )
+    ( TokSym "Main.hs" )
+, L
+    ( Position 352 1 )
+    ( Indent 2 )
+, L
+    ( Position 352 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 352 17 ) Colon
+, L
+    ( Position 352 25 )
+    ( TokSym "examples" )
+, L
+    ( Position 352 33 )
+    ( TokOther "/" )
+, L
+    ( Position 352 34 )
+    ( TokSym "hashcat" )
+, L
+    ( Position 352 42 )
+    ( TokSym "lib" )
+, L
+    ( Position 353 1 )
+    ( Indent 2 )
+, L
+    ( Position 353 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 353 16 ) Colon
+, L
+    ( Position 353 25 )
+    ( TokSym "Config" )
+, L
+    ( Position 354 1 )
+    ( Indent 24 )
+, L
+    ( Position 354 25 )
+    ( TokSym "ParseArgs" )
+, L
+    ( Position 355 1 )
+    ( Indent 24 )
+, L
+    ( Position 355 25 )
+    ( TokSym "Digest" )
+, L
+    ( Position 356 1 )
+    ( Indent 24 )
+, L
+    ( Position 356 25 )
+    ( TokSym "MD5" )
+, L
+    ( Position 357 1 )
+    ( Indent 24 )
+, L
+    ( Position 357 25 )
+    ( TokSym "Util" )
+, L
+    ( Position 359 1 )
+    ( Indent 2 )
+, L
+    ( Position 359 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 359 14 ) Colon
+, L
+    ( Position 359 25 )
+    ( TokSym "-O2" )
+, L
+    ( Position 359 29 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 359 35 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 360 1 )
+    ( Indent 2 )
+, L
+    ( Position 360 3 )
+    ( TokSym "if" )
+, L
+    ( Position 360 6 )
+    ( TokSym "impl" )
+, L
+    ( Position 360 10 )
+    ( TokOther "(" )
+, L
+    ( Position 360 11 )
+    ( TokSym "ghc" )
+, L
+    ( Position 360 15 )
+    ( TokOther ">=" )
+, L
+    ( Position 360 18 )
+    ( TokSym "7.0" )
+, L
+    ( Position 360 21 )
+    ( TokOther ")" )
+, L
+    ( Position 361 1 )
+    ( Indent 4 )
+, L
+    ( Position 361 5 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 361 16 ) Colon
+, L
+    ( Position 361 25 )
+    ( TokSym "-rtsopts" )
+, L
+    ( Position 363 1 )
+    ( Indent 2 )
+, L
+    ( Position 363 3 )
+    ( TokSym "if" )
+, L
+    ( Position 363 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 363 10 )
+    ( TokOther "(" )
+, L
+    ( Position 363 11 )
+    ( TokSym "cuda" )
+, L
+    ( Position 363 15 )
+    ( TokOther ")" )
+, L
+    ( Position 364 1 )
+    ( Indent 4 )
+, L
+    ( Position 364 5 )
+    ( TokSym "cpp-options" )
+, L
+    ( Position 364 16 ) Colon
+, L
+    ( Position 364 25 )
+    ( TokSym "-DACCELERATE_CUDA_BACKEND" )
+, L
+    ( Position 365 1 )
+    ( Indent 4 )
+, L
+    ( Position 365 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 365 18 ) Colon
+, L
+    ( Position 365 25 )
+    ( TokSym "accelerate-cuda" )
+, L
+    ( Position 365 49 )
+    ( TokOther "==" )
+, L
+    ( Position 365 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 365 57 )
+    ( TokOther "*" )
+, L
+    ( Position 367 1 )
+    ( Indent 2 )
+, L
+    ( Position 367 3 )
+    ( TokSym "Build-depends" )
+, L
+    ( Position 367 16 ) Colon
+, L
+    ( Position 367 25 )
+    ( TokSym "accelerate" )
+, L
+    ( Position 367 49 )
+    ( TokOther "==" )
+, L
+    ( Position 367 52 )
+    ( TokSym "0.13." )
+, L
+    ( Position 367 57 )
+    ( TokOther "*," )
+, L
+    ( Position 368 1 )
+    ( Indent 24 )
+, L
+    ( Position 368 25 )
+    ( TokSym "base" )
+, L
+    ( Position 368 49 )
+    ( TokOther "==" )
+, L
+    ( Position 368 52 )
+    ( TokSym "4." )
+, L
+    ( Position 368 54 )
+    ( TokOther "*," )
+, L
+    ( Position 369 1 )
+    ( Indent 24 )
+, L
+    ( Position 369 25 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 369 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 369 52 )
+    ( TokSym "0.9" )
+, L
+    ( Position 369 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 369 60 )
+    ( TokOther "<" )
+, L
+    ( Position 369 62 )
+    ( TokSym "0.11" )
+, L
+    ( Position 369 66 )
+    ( TokOther "," )
+, L
+    ( Position 370 1 )
+    ( Indent 24 )
+, L
+    ( Position 370 25 )
+    ( TokSym "bytestring-lexing" )
+, L
+    ( Position 370 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 370 52 )
+    ( TokSym "0.2" )
+, L
+    ( Position 370 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 370 60 )
+    ( TokOther "<" )
+, L
+    ( Position 370 62 )
+    ( TokSym "0.5" )
+, L
+    ( Position 370 65 )
+    ( TokOther "," )
+, L
+    ( Position 371 1 )
+    ( Indent 24 )
+, L
+    ( Position 371 25 )
+    ( TokSym "cereal" )
+, L
+    ( Position 371 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 371 52 )
+    ( TokSym "0.3" )
+, L
+    ( Position 371 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 371 60 )
+    ( TokOther "<" )
+, L
+    ( Position 371 62 )
+    ( TokSym "0.4" )
+, L
+    ( Position 371 65 )
+    ( TokOther "," )
+, L
+    ( Position 372 1 )
+    ( Indent 24 )
+, L
+    ( Position 372 25 )
+    ( TokSym "criterion" )
+, L
+    ( Position 372 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 372 52 )
+    ( TokSym "0.5" )
+, L
+    ( Position 372 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 372 60 )
+    ( TokOther "<" )
+, L
+    ( Position 372 62 )
+    ( TokSym "0.9" )
+, L
+    ( Position 372 65 )
+    ( TokOther "," )
+, L
+    ( Position 373 1 )
+    ( Indent 24 )
+, L
+    ( Position 373 25 )
+    ( TokSym "fclabels" )
+, L
+    ( Position 373 49 )
+    ( TokOther ">=" )
+, L
+    ( Position 373 52 )
+    ( TokSym "1.0" )
+, L
+    ( Position 373 57 )
+    ( TokOther "&&" )
+, L
+    ( Position 373 60 )
+    ( TokOther "<" )
+, L
+    ( Position 373 62 )
+    ( TokSym "1.2" )
+, L
+    ( Position 376 1 )
+    ( Indent 0 )
+, L
+    ( Position 376 1 )
+    ( TokSym "source-repository" )
+, L
+    ( Position 376 19 )
+    ( TokSym "head" )
+, L
+    ( Position 377 1 )
+    ( Indent 2 )
+, L
+    ( Position 377 3 )
+    ( TokSym "type" )
+, L
+    ( Position 377 7 ) Colon
+, L
+    ( Position 377 25 )
+    ( TokSym "git" )
+, L
+    ( Position 378 1 )
+    ( Indent 2 )
+, L
+    ( Position 378 3 )
+    ( TokSym "location" )
+, L
+    ( Position 378 11 ) Colon
+, L
+    ( Position 378 25 )
+    ( TokSym "https" )
+, L
+    ( Position 378 30 ) Colon
+, L
+    ( Position 378 31 )
+    ( TokOther "//" )
+, L
+    ( Position 378 33 )
+    ( TokSym "github.com" )
+, L
+    ( Position 378 43 )
+    ( TokOther "/" )
+, L
+    ( Position 378 44 )
+    ( TokSym "AccelerateHS" )
+, L
+    ( Position 378 56 )
+    ( TokOther "/" )
+, L
+    ( Position 378 57 )
+    ( TokSym "accelerate-examples" )
+, L
+    ( Position 382 1 ) EOF
+]

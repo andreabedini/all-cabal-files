@@ -1,0 +1,242 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 6 )
+    ( Whitespace "           " )
+, L
+    ( Position 1 17 )
+    ( TokSym "bff" )
+, L
+    ( Position 1 20 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 9 )
+    ( Whitespace "        " )
+, L
+    ( Position 2 17 )
+    ( TokSym "0.3" )
+, L
+    ( Position 2 20 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "license" )
+, L
+    ( Position 3 8 ) Colon
+, L
+    ( Position 3 9 )
+    ( Whitespace "        " )
+, L
+    ( Position 3 17 )
+    ( TokSym "PublicDomain" )
+, L
+    ( Position 3 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "description" )
+, L
+    ( Position 4 12 ) Colon
+, L
+    ( Position 4 13 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 5 1 )
+    ( Indent 8 )
+, L
+    ( Position 5 9 )
+    ( TokSym "This" )
+, L
+    ( Position 5 13 )
+    ( Whitespace " " )
+, L
+    ( Position 5 14 )
+    ( TokSym "is" )
+, L
+    ( Position 5 16 )
+    ( Whitespace " " )
+, L
+    ( Position 5 17 )
+    ( TokSym "an" )
+, L
+    ( Position 5 19 )
+    ( Whitespace " " )
+, L
+    ( Position 5 20 )
+    ( TokSym "implementation" )
+, L
+    ( Position 5 34 )
+    ( Whitespace " " )
+, L
+    ( Position 5 35 )
+    ( TokSym "of" )
+, L
+    ( Position 5 37 )
+    ( Whitespace " " )
+, L
+    ( Position 5 38 )
+    ( TokSym "the" )
+, L
+    ( Position 5 41 )
+    ( Whitespace " " )
+, L
+    ( Position 5 42 )
+    ( TokSym "ideas" )
+, L
+    ( Position 5 47 )
+    ( Whitespace " " )
+, L
+    ( Position 5 48 )
+    ( TokSym "presented" )
+, L
+    ( Position 5 57 )
+    ( Whitespace " " )
+, L
+    ( Position 5 58 )
+    ( TokSym "in" )
+, L
+    ( Position 5 60 )
+    ( Whitespace " " )
+, L
+    ( Position 5 82 )
+    ( LexicalError "
+            for Free!" (paper at POPL'09) by Janis Voigtlaender.
+            .
+            It also includes an automatic deriver for the Zippable type class.
+            .
+            Using the cabal flag "binaries" will enable the creation of a web frontend
+            to bff, in the form of a CGI program. Make sure you understand the
+            security implications before allowing untrusted access to the script.
+            .
+            Using the cabal flag "stats" will generate programs that collect performance
+            statistics about bff and print them as a table.
+            .
+            Using the cabal flag "render" will generate a program that renders collected
+            performance statistics as PDF files.
+
+    author:         Janis Voigtlaender, Joachim Breitner
+
+    maintainer:     Janis Voigtlaender
+
+    category:       Data
+    synopsis:       Bidirectionalization for Free! (POPL'09)
+
+    build-type:     Simple
+    cabal-version:  >= 1.2
+
+    extra-source-files:
+            QuickCheckTH.hs
+            QuickCheck.hs
+            testcgi.py
+
+    flag binaries
+            description: Build the binaries bff-shell and bff-cgi
+            default: False
+
+    flag stats
+            description: Build the stats-generating and -printing programs
+            default: False
+
+    flag render
+            description: Build the stats-rendering program
+            default: False
+
+    library
+            exposed-modules:
+                    SimpleTree
+                    Data.Zippable
+                    Data.IntMapEq
+                    Data.IntMapOrd
+                    Data.Bff
+            other-modules:
+                    Data.Derive.Zippable
+                    Data.Zippable.Definition
+            build-depends:
+                    base >= 2 && < 4, containers, mtl, template-haskell, category-extras >= 0.53.5, derive >= 0.1.1,
+                    haskell98, bimap >= 0.2.3, unix
+            
+    executable bff-shell
+            main-is:
+                    bff-shell.hs
+            other-modules:
+                    MyInterpret
+            if flag(binaries)
+                    build-depends:
+                            base >= 2 && < 4, directory, hint >= 0.3.2
+                    buildable: True 
+            else
+                    buildable: False
+
+    executable bff-cgi
+            main-is:
+                    bff-cgi.hs
+            other-modules:
+                    MyInterpret
+            if flag(binaries)
+                    build-depends:
+                            base >= 2 && < 4, directory, xhtml, cgi, hint >= 0.3.2, utf8-string
+                    buildable: True 
+            else
+                    buildable: False
+
+    executable bff-stats
+            main-is:
+                    Stats.hs
+            other-modules:
+                    StatsDef
+            if flag(stats)
+                    buildable: True 
+                    build-depends:
+                            benchpress >= 0.2.2.2
+            else
+                    buildable: False
+
+    executable bff-stats-print
+            main-is:
+                    StatsPrint.hs
+            other-modules:
+                    StatsDef
+            if flag(stats)
+                    buildable: True 
+            else
+                    buildable: False
+
+    executable bff-stats-render
+            main-is:
+                    StatsRender.hs
+            other-modules:
+                    StatsDef
+            if flag(render)
+                    buildable: True 
+                    build-depends:
+                            Chart >= 0.12, data-accessor, colour
+            else
+                    buildable: False
+    " )
+, L
+    ( Position 5 61 ) EOF
+]

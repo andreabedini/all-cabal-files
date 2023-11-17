@@ -1,0 +1,1027 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 22 )
+    ( TokSym "FailT" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 22 )
+    ( TokSym "0.1.0.0" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "x-revision" )
+, L
+    ( Position 3 11 ) Colon
+, L
+    ( Position 3 13 )
+    ( TokSym "2" )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "synopsis" )
+, L
+    ( Position 4 9 ) Colon
+, L
+    ( Position 4 22 )
+    ( TokSym "A" )
+, L
+    ( Position 4 24 )
+    ( TokSym "'FailT'" )
+, L
+    ( Position 4 32 )
+    ( TokSym "monad" )
+, L
+    ( Position 4 38 )
+    ( TokSym "transformer" )
+, L
+    ( Position 4 50 )
+    ( TokSym "that" )
+, L
+    ( Position 4 55 )
+    ( TokSym "plays" )
+, L
+    ( Position 4 61 )
+    ( TokSym "well" )
+, L
+    ( Position 4 66 )
+    ( TokSym "with" )
+, L
+    ( Position 4 71 )
+    ( TokSym "'MonadFail'" )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "description" )
+, L
+    ( Position 5 12 ) Colon
+, L
+    ( Position 6 1 )
+    ( Indent 4 )
+, L
+    ( Position 6 5 )
+    ( TokSym "Fail" )
+, L
+    ( Position 6 10 )
+    ( TokSym "gracefully" )
+, L
+    ( Position 6 21 )
+    ( TokSym "when" )
+, L
+    ( Position 6 26 )
+    ( TokSym "stuck" )
+, L
+    ( Position 6 32 )
+    ( TokSym "in" )
+, L
+    ( Position 6 35 )
+    ( TokSym "a" )
+, L
+    ( Position 6 37 )
+    ( TokSym "'MonadFail'" )
+, L
+    ( Position 7 1 )
+    ( Indent 4 )
+, L
+    ( Position 7 5 )
+    ( TokSym "." )
+, L
+    ( Position 8 1 )
+    ( Indent 4 )
+, L
+    ( Position 8 5 )
+    ( TokOther ">>>" )
+, L
+    ( Position 8 9 )
+    ( TokSym "runFailT" )
+, L
+    ( Position 8 18 )
+    ( TokOther "(" )
+, L
+    ( Position 8 19 )
+    ( TokSym "fail" )
+, L
+    ( Position 8 24 )
+    ( TokStr "Failure!?" )
+, L
+    ( Position 8 36 )
+    ( TokOther ">>" )
+, L
+    ( Position 8 39 )
+    ( TokSym "pure" )
+, L
+    ( Position 8 44 )
+    ( TokStr "Success!!" )
+, L
+    ( Position 8 55 )
+    ( TokOther ")" )
+, L
+    ( Position 9 1 )
+    ( Indent 4 )
+, L
+    ( Position 9 5 )
+    ( TokSym "Left" )
+, L
+    ( Position 9 10 )
+    ( TokStr "Failure!?" )
+, L
+    ( Position 10 1 )
+    ( Indent 4 )
+, L
+    ( Position 10 5 )
+    ( TokOther ">>>" )
+, L
+    ( Position 10 9 )
+    ( TokSym "runFailT" )
+, L
+    ( Position 10 18 )
+    ( TokOther "(" )
+, L
+    ( Position 10 19 )
+    ( TokSym "fail" )
+, L
+    ( Position 10 24 )
+    ( TokStr "Failure!?" )
+, L
+    ( Position 10 36 )
+    ( TokOther "<|>" )
+, L
+    ( Position 10 40 )
+    ( TokSym "pure" )
+, L
+    ( Position 10 45 )
+    ( TokStr "Success!!" )
+, L
+    ( Position 10 56 )
+    ( TokOther ")" )
+, L
+    ( Position 11 1 )
+    ( Indent 4 )
+, L
+    ( Position 11 5 )
+    ( TokSym "Right" )
+, L
+    ( Position 11 11 )
+    ( TokStr "Success!!" )
+, L
+    ( Position 12 1 )
+    ( Indent 4 )
+, L
+    ( Position 12 5 )
+    ( TokOther ">>>" )
+, L
+    ( Position 12 9 )
+    ( TokSym "runFailT" )
+, L
+    ( Position 12 18 )
+    ( TokOther "(" )
+, L
+    ( Position 12 19 )
+    ( TokSym "pure" )
+, L
+    ( Position 12 24 )
+    ( TokOther "[" )
+, L
+    ( Position 12 25 )
+    ( TokStr "Success!!" )
+, L
+    ( Position 12 36 )
+    ( TokOther "]" )
+, L
+    ( Position 12 38 )
+    ( TokOther "<>" )
+, L
+    ( Position 12 41 )
+    ( TokSym "fail" )
+, L
+    ( Position 12 46 )
+    ( TokStr "Failure!?" )
+, L
+    ( Position 12 58 )
+    ( TokOther "<>" )
+, L
+    ( Position 12 61 )
+    ( TokSym "pure" )
+, L
+    ( Position 12 66 )
+    ( TokOther "[" )
+, L
+    ( Position 12 67 )
+    ( TokStr "At" )
+, L
+    ( Position 12 71 )
+    ( TokOther "," )
+, L
+    ( Position 12 73 )
+    ( TokStr "Last!" )
+, L
+    ( Position 12 80 )
+    ( TokOther "]" )
+, L
+    ( Position 12 81 )
+    ( TokOther ")" )
+, L
+    ( Position 13 1 )
+    ( Indent 4 )
+, L
+    ( Position 13 5 )
+    ( TokSym "Right" )
+, L
+    ( Position 13 11 )
+    ( TokOther "[" )
+, L
+    ( Position 13 12 )
+    ( TokStr "Success!!" )
+, L
+    ( Position 13 23 )
+    ( TokOther "," )
+, L
+    ( Position 13 24 )
+    ( TokStr "At" )
+, L
+    ( Position 13 28 )
+    ( TokOther "," )
+, L
+    ( Position 13 29 )
+    ( TokStr "Last!" )
+, L
+    ( Position 13 36 )
+    ( TokOther "]" )
+, L
+    ( Position 14 1 )
+    ( Indent 4 )
+, L
+    ( Position 14 5 )
+    ( TokSym "." )
+, L
+    ( Position 17 1 )
+    ( Indent 0 )
+, L
+    ( Position 17 1 )
+    ( TokSym "homepage" )
+, L
+    ( Position 17 9 ) Colon
+, L
+    ( Position 17 22 )
+    ( TokSym "https" )
+, L
+    ( Position 17 27 ) Colon
+, L
+    ( Position 17 28 )
+    ( TokOther "//" )
+, L
+    ( Position 17 30 )
+    ( TokSym "github.com" )
+, L
+    ( Position 17 40 )
+    ( TokOther "/" )
+, L
+    ( Position 17 41 )
+    ( TokSym "lehins" )
+, L
+    ( Position 17 47 )
+    ( TokOther "/" )
+, L
+    ( Position 17 48 )
+    ( TokSym "FailT" )
+, L
+    ( Position 18 1 )
+    ( Indent 0 )
+, L
+    ( Position 18 1 )
+    ( TokSym "license" )
+, L
+    ( Position 18 8 ) Colon
+, L
+    ( Position 18 23 )
+    ( TokSym "BSD3" )
+, L
+    ( Position 19 1 )
+    ( Indent 0 )
+, L
+    ( Position 19 1 )
+    ( TokSym "license-file" )
+, L
+    ( Position 19 13 ) Colon
+, L
+    ( Position 19 23 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 20 1 )
+    ( Indent 0 )
+, L
+    ( Position 20 1 )
+    ( TokSym "author" )
+, L
+    ( Position 20 7 ) Colon
+, L
+    ( Position 20 23 )
+    ( TokSym "Alexey" )
+, L
+    ( Position 20 30 )
+    ( TokSym "Kuleshevich" )
+, L
+    ( Position 21 1 )
+    ( Indent 0 )
+, L
+    ( Position 21 1 )
+    ( TokSym "maintainer" )
+, L
+    ( Position 21 11 ) Colon
+, L
+    ( Position 21 23 )
+    ( TokSym "alexey" )
+, L
+    ( Position 21 29 )
+    ( TokOther "@" )
+, L
+    ( Position 21 30 )
+    ( TokSym "kuleshevi.ch" )
+, L
+    ( Position 22 1 )
+    ( Indent 0 )
+, L
+    ( Position 22 1 )
+    ( TokSym "copyright" )
+, L
+    ( Position 22 10 ) Colon
+, L
+    ( Position 22 23 )
+    ( TokSym "2022-2023" )
+, L
+    ( Position 22 33 )
+    ( TokSym "Alexey" )
+, L
+    ( Position 22 40 )
+    ( TokSym "Kuleshevich" )
+, L
+    ( Position 23 1 )
+    ( Indent 0 )
+, L
+    ( Position 23 1 )
+    ( TokSym "category" )
+, L
+    ( Position 23 9 ) Colon
+, L
+    ( Position 23 23 )
+    ( TokSym "Control" )
+, L
+    ( Position 23 30 )
+    ( TokOther "," )
+, L
+    ( Position 23 32 )
+    ( TokSym "Failure" )
+, L
+    ( Position 24 1 )
+    ( Indent 0 )
+, L
+    ( Position 24 1 )
+    ( TokSym "build-type" )
+, L
+    ( Position 24 11 ) Colon
+, L
+    ( Position 24 23 )
+    ( TokSym "Simple" )
+, L
+    ( Position 25 1 )
+    ( Indent 0 )
+, L
+    ( Position 25 1 )
+    ( TokSym "extra-source-files" )
+, L
+    ( Position 25 19 ) Colon
+, L
+    ( Position 25 23 )
+    ( TokSym "README.md" )
+, L
+    ( Position 26 1 )
+    ( Indent 20 )
+, L
+    ( Position 26 21 )
+    ( TokOther "," )
+, L
+    ( Position 26 23 )
+    ( TokSym "CHANGELOG.md" )
+, L
+    ( Position 27 1 )
+    ( Indent 0 )
+, L
+    ( Position 27 1 )
+    ( TokSym "cabal-version" )
+, L
+    ( Position 27 14 ) Colon
+, L
+    ( Position 27 23 )
+    ( TokSym "1.18" )
+, L
+    ( Position 28 1 )
+    ( Indent 0 )
+, L
+    ( Position 28 1 )
+    ( TokSym "tested-with" )
+, L
+    ( Position 28 12 ) Colon
+, L
+    ( Position 28 23 )
+    ( TokSym "GHC" )
+, L
+    ( Position 28 27 )
+    ( TokOther "==" )
+, L
+    ( Position 28 30 )
+    ( TokSym "8.0.2" )
+, L
+    ( Position 29 1 )
+    ( Indent 20 )
+, L
+    ( Position 29 21 )
+    ( TokOther "," )
+, L
+    ( Position 29 23 )
+    ( TokSym "GHC" )
+, L
+    ( Position 29 27 )
+    ( TokOther "==" )
+, L
+    ( Position 29 30 )
+    ( TokSym "8.2.2" )
+, L
+    ( Position 30 1 )
+    ( Indent 20 )
+, L
+    ( Position 30 21 )
+    ( TokOther "," )
+, L
+    ( Position 30 23 )
+    ( TokSym "GHC" )
+, L
+    ( Position 30 27 )
+    ( TokOther "==" )
+, L
+    ( Position 30 30 )
+    ( TokSym "8.4.4" )
+, L
+    ( Position 31 1 )
+    ( Indent 20 )
+, L
+    ( Position 31 21 )
+    ( TokOther "," )
+, L
+    ( Position 31 23 )
+    ( TokSym "GHC" )
+, L
+    ( Position 31 27 )
+    ( TokOther "==" )
+, L
+    ( Position 31 30 )
+    ( TokSym "8.6.5" )
+, L
+    ( Position 32 1 )
+    ( Indent 20 )
+, L
+    ( Position 32 21 )
+    ( TokOther "," )
+, L
+    ( Position 32 23 )
+    ( TokSym "GHC" )
+, L
+    ( Position 32 27 )
+    ( TokOther "==" )
+, L
+    ( Position 32 30 )
+    ( TokSym "8.8.4" )
+, L
+    ( Position 33 1 )
+    ( Indent 20 )
+, L
+    ( Position 33 21 )
+    ( TokOther "," )
+, L
+    ( Position 33 23 )
+    ( TokSym "GHC" )
+, L
+    ( Position 33 27 )
+    ( TokOther "==" )
+, L
+    ( Position 33 30 )
+    ( TokSym "8.10.7" )
+, L
+    ( Position 34 1 )
+    ( Indent 20 )
+, L
+    ( Position 34 21 )
+    ( TokOther "," )
+, L
+    ( Position 34 23 )
+    ( TokSym "GHC" )
+, L
+    ( Position 34 27 )
+    ( TokOther "==" )
+, L
+    ( Position 34 30 )
+    ( TokSym "9.0.2" )
+, L
+    ( Position 35 1 )
+    ( Indent 20 )
+, L
+    ( Position 35 21 )
+    ( TokOther "," )
+, L
+    ( Position 35 23 )
+    ( TokSym "GHC" )
+, L
+    ( Position 35 27 )
+    ( TokOther "==" )
+, L
+    ( Position 35 30 )
+    ( TokSym "9.2.5" )
+, L
+    ( Position 36 1 )
+    ( Indent 20 )
+, L
+    ( Position 36 21 )
+    ( TokOther "," )
+, L
+    ( Position 36 23 )
+    ( TokSym "GHC" )
+, L
+    ( Position 36 27 )
+    ( TokOther "==" )
+, L
+    ( Position 36 30 )
+    ( TokSym "9.4.4" )
+, L
+    ( Position 38 1 )
+    ( Indent 0 )
+, L
+    ( Position 38 1 )
+    ( TokSym "library" )
+, L
+    ( Position 39 1 )
+    ( Indent 2 )
+, L
+    ( Position 39 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 39 17 ) Colon
+, L
+    ( Position 39 23 )
+    ( TokSym "src" )
+, L
+    ( Position 40 1 )
+    ( Indent 2 )
+, L
+    ( Position 40 3 )
+    ( TokSym "exposed-modules" )
+, L
+    ( Position 40 18 ) Colon
+, L
+    ( Position 40 23 )
+    ( TokSym "Control.Monad.Trans.Fail" )
+, L
+    ( Position 41 1 )
+    ( Indent 20 )
+, L
+    ( Position 41 21 )
+    ( TokOther "," )
+, L
+    ( Position 41 23 )
+    ( TokSym "Control.Monad.Trans.Fail.String" )
+, L
+    ( Position 42 1 )
+    ( Indent 20 )
+, L
+    ( Position 42 21 )
+    ( TokOther "," )
+, L
+    ( Position 42 23 )
+    ( TokSym "Control.Monad.Trans.Fail.Text" )
+, L
+    ( Position 44 1 )
+    ( Indent 2 )
+, L
+    ( Position 44 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 44 16 ) Colon
+, L
+    ( Position 44 23 )
+    ( TokSym "base" )
+, L
+    ( Position 44 28 )
+    ( TokOther ">=" )
+, L
+    ( Position 44 31 )
+    ( TokSym "4.9" )
+, L
+    ( Position 44 35 )
+    ( TokOther "&&" )
+, L
+    ( Position 44 38 )
+    ( TokOther "<" )
+, L
+    ( Position 44 40 )
+    ( TokSym "5" )
+, L
+    ( Position 45 1 )
+    ( Indent 20 )
+, L
+    ( Position 45 21 )
+    ( TokOther "," )
+, L
+    ( Position 45 23 )
+    ( TokSym "exceptions" )
+, L
+    ( Position 46 1 )
+    ( Indent 20 )
+, L
+    ( Position 46 21 )
+    ( TokOther "," )
+, L
+    ( Position 46 23 )
+    ( TokSym "mtl" )
+, L
+    ( Position 47 1 )
+    ( Indent 20 )
+, L
+    ( Position 47 21 )
+    ( TokOther "," )
+, L
+    ( Position 47 23 )
+    ( TokSym "text" )
+, L
+    ( Position 49 1 )
+    ( Indent 2 )
+, L
+    ( Position 49 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 49 19 ) Colon
+, L
+    ( Position 49 23 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 50 1 )
+    ( Indent 2 )
+, L
+    ( Position 50 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 50 14 ) Colon
+, L
+    ( Position 50 23 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 53 1 )
+    ( Indent 0 )
+, L
+    ( Position 53 1 )
+    ( TokSym "test-suite" )
+, L
+    ( Position 53 12 )
+    ( TokSym "doctests" )
+, L
+    ( Position 54 1 )
+    ( Indent 2 )
+, L
+    ( Position 54 3 )
+    ( TokSym "type" )
+, L
+    ( Position 54 7 ) Colon
+, L
+    ( Position 54 23 )
+    ( TokSym "exitcode-stdio-1.0" )
+, L
+    ( Position 55 1 )
+    ( Indent 2 )
+, L
+    ( Position 55 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 55 17 ) Colon
+, L
+    ( Position 55 23 )
+    ( TokSym "tests" )
+, L
+    ( Position 56 1 )
+    ( Indent 2 )
+, L
+    ( Position 56 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 56 10 ) Colon
+, L
+    ( Position 56 23 )
+    ( TokSym "doctests.hs" )
+, L
+    ( Position 57 1 )
+    ( Indent 2 )
+, L
+    ( Position 57 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 57 16 ) Colon
+, L
+    ( Position 57 23 )
+    ( TokSym "base" )
+, L
+    ( Position 58 1 )
+    ( Indent 20 )
+, L
+    ( Position 58 21 )
+    ( TokOther "," )
+, L
+    ( Position 58 23 )
+    ( TokSym "doctest" )
+, L
+    ( Position 58 31 )
+    ( TokOther ">=" )
+, L
+    ( Position 58 34 )
+    ( TokSym "0.15" )
+, L
+    ( Position 59 1 )
+    ( Indent 20 )
+, L
+    ( Position 59 21 )
+    ( TokOther "," )
+, L
+    ( Position 59 23 )
+    ( TokSym "exceptions" )
+, L
+    ( Position 60 1 )
+    ( Indent 20 )
+, L
+    ( Position 60 21 )
+    ( TokOther "," )
+, L
+    ( Position 60 23 )
+    ( TokSym "FailT" )
+, L
+    ( Position 61 1 )
+    ( Indent 2 )
+, L
+    ( Position 61 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 61 19 ) Colon
+, L
+    ( Position 61 23 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 62 1 )
+    ( Indent 2 )
+, L
+    ( Position 62 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 62 14 ) Colon
+, L
+    ( Position 62 22 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 63 1 )
+    ( Indent 21 )
+, L
+    ( Position 63 22 )
+    ( TokSym "-fno-warn-orphans" )
+, L
+    ( Position 64 1 )
+    ( Indent 21 )
+, L
+    ( Position 64 22 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 66 1 )
+    ( Indent 0 )
+, L
+    ( Position 66 1 )
+    ( TokSym "test-suite" )
+, L
+    ( Position 66 12 )
+    ( TokSym "tests" )
+, L
+    ( Position 67 1 )
+    ( Indent 2 )
+, L
+    ( Position 67 3 )
+    ( TokSym "type" )
+, L
+    ( Position 67 7 ) Colon
+, L
+    ( Position 67 23 )
+    ( TokSym "exitcode-stdio-1.0" )
+, L
+    ( Position 68 1 )
+    ( Indent 2 )
+, L
+    ( Position 68 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 68 17 ) Colon
+, L
+    ( Position 68 23 )
+    ( TokSym "tests" )
+, L
+    ( Position 69 1 )
+    ( Indent 2 )
+, L
+    ( Position 69 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 69 10 ) Colon
+, L
+    ( Position 69 23 )
+    ( TokSym "Main.hs" )
+, L
+    ( Position 70 1 )
+    ( Indent 2 )
+, L
+    ( Position 70 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 70 16 ) Colon
+, L
+    ( Position 70 23 )
+    ( TokSym "Test.Control.Monad.Trans.FailSpec" )
+, L
+    ( Position 71 1 )
+    ( Indent 2 )
+, L
+    ( Position 71 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 71 16 ) Colon
+, L
+    ( Position 71 23 )
+    ( TokSym "base" )
+, L
+    ( Position 72 1 )
+    ( Indent 20 )
+, L
+    ( Position 72 21 )
+    ( TokOther "," )
+, L
+    ( Position 72 23 )
+    ( TokSym "FailT" )
+, L
+    ( Position 73 1 )
+    ( Indent 20 )
+, L
+    ( Position 73 21 )
+    ( TokOther "," )
+, L
+    ( Position 73 23 )
+    ( TokSym "hspec" )
+, L
+    ( Position 74 1 )
+    ( Indent 20 )
+, L
+    ( Position 74 21 )
+    ( TokOther "," )
+, L
+    ( Position 74 23 )
+    ( TokSym "mtl" )
+, L
+    ( Position 75 1 )
+    ( Indent 20 )
+, L
+    ( Position 75 21 )
+    ( TokOther "," )
+, L
+    ( Position 75 23 )
+    ( TokSym "QuickCheck" )
+, L
+    ( Position 76 1 )
+    ( Indent 20 )
+, L
+    ( Position 76 21 )
+    ( TokOther "," )
+, L
+    ( Position 76 23 )
+    ( TokSym "quickcheck-classes" )
+, L
+    ( Position 76 42 )
+    ( TokOther ">=" )
+, L
+    ( Position 76 45 )
+    ( TokSym "0.6" )
+, L
+    ( Position 78 1 )
+    ( Indent 2 )
+, L
+    ( Position 78 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 78 19 ) Colon
+, L
+    ( Position 78 23 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 79 1 )
+    ( Indent 2 )
+, L
+    ( Position 79 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 79 14 ) Colon
+, L
+    ( Position 79 23 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 80 1 )
+    ( Indent 22 )
+, L
+    ( Position 80 23 )
+    ( TokSym "-fno-warn-orphans" )
+, L
+    ( Position 81 1 )
+    ( Indent 22 )
+, L
+    ( Position 81 23 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 82 1 )
+    ( Indent 22 )
+, L
+    ( Position 82 23 )
+    ( TokSym "-with-rtsopts" )
+, L
+    ( Position 82 36 )
+    ( TokOther "=-" )
+, L
+    ( Position 82 38 )
+    ( TokSym "N2" )
+, L
+    ( Position 84 1 )
+    ( Indent 0 )
+, L
+    ( Position 84 1 )
+    ( TokSym "source-repository" )
+, L
+    ( Position 84 19 )
+    ( TokSym "head" )
+, L
+    ( Position 85 1 )
+    ( Indent 2 )
+, L
+    ( Position 85 3 )
+    ( TokSym "type" )
+, L
+    ( Position 85 7 ) Colon
+, L
+    ( Position 85 13 )
+    ( TokSym "git" )
+, L
+    ( Position 86 1 )
+    ( Indent 2 )
+, L
+    ( Position 86 3 )
+    ( TokSym "location" )
+, L
+    ( Position 86 11 ) Colon
+, L
+    ( Position 86 13 )
+    ( TokSym "https" )
+, L
+    ( Position 86 18 ) Colon
+, L
+    ( Position 86 19 )
+    ( TokOther "//" )
+, L
+    ( Position 86 21 )
+    ( TokSym "github.com" )
+, L
+    ( Position 86 31 )
+    ( TokOther "/" )
+, L
+    ( Position 86 32 )
+    ( TokSym "lehins" )
+, L
+    ( Position 86 38 )
+    ( TokOther "/" )
+, L
+    ( Position 86 39 )
+    ( TokSym "FailT" )
+, L
+    ( Position 87 1 ) EOF
+]

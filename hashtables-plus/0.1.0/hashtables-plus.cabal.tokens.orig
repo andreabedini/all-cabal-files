@@ -1,0 +1,200 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 2 1 )
+    ( Indent 2 )
+, L
+    ( Position 2 3 )
+    ( TokSym "hashtables-plus" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "version" )
+, L
+    ( Position 3 8 ) Colon
+, L
+    ( Position 4 1 )
+    ( Indent 2 )
+, L
+    ( Position 4 3 )
+    ( TokSym "0.1.0" )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "synopsis" )
+, L
+    ( Position 5 9 ) Colon
+, L
+    ( Position 6 1 )
+    ( Indent 2 )
+, L
+    ( Position 6 3 )
+    ( TokSym "Extensions" )
+, L
+    ( Position 6 14 )
+    ( TokSym "for" )
+, L
+    ( Position 6 18 )
+    ( TokSym "a" )
+, L
+    ( Position 6 20 )
+    ( TokStr "hashtables" )
+, L
+    ( Position 6 33 )
+    ( TokSym "library" )
+, L
+    ( Position 7 1 )
+    ( Indent 0 )
+, L
+    ( Position 7 1 )
+    ( TokSym "description" )
+, L
+    ( Position 7 12 ) Colon
+, L
+    ( Position 8 1 )
+    ( Indent 2 )
+, L
+    ( Position 8 3 )
+    ( TokSym "Provides" )
+, L
+    ( Position 8 12 )
+    ( TokSym "advanced" )
+, L
+    ( Position 8 21 )
+    ( TokSym "data" )
+, L
+    ( Position 8 26 )
+    ( TokSym "structures" )
+, L
+    ( Position 8 37 )
+    ( TokSym "built" )
+, L
+    ( Position 8 43 )
+    ( TokSym "on" )
+, L
+    ( Position 8 46 )
+    ( TokSym "top" )
+, L
+    ( Position 8 50 )
+    ( TokSym "of" )
+, L
+    ( Position 8 53 )
+    ( TokSym "the" )
+, L
+    ( Position 8 57 )
+    ( TokSym "ones" )
+, L
+    ( Position 8 62 )
+    ( TokSym "from" )
+, L
+    ( Position 8 67 )
+    ( TokSym "the" )
+, L
+    ( Position 9 1 )
+    ( Indent 2 )
+, L
+    ( Position 9 3 )
+    ( TokOther "\" )
+, L
+    ( Position 9 4 )
+    ( TokStr "hashtables\" library: multimap, set, " )
+, L
+    ( Position 9 43 )
+    ( TokSym "StableName" )
+, L
+    ( Position 9 72 )
+    ( LexicalError "
+    category:
+      Data, Data Structures
+    homepage:
+      https://github.com/nikita-volkov/hashtables-plus 
+    bug-reports:
+      https://github.com/nikita-volkov/hashtables-plus/issues 
+    author:
+      Nikita Volkov <nikita.y.volkov@mail.ru>
+    maintainer:
+      Nikita Volkov <nikita.y.volkov@mail.ru>
+    copyright:
+      (c) 2014, Nikita Volkov
+    license:
+      MIT
+    license-file:
+      LICENSE
+    build-type:
+      Simple
+    cabal-version:
+      >=1.10
+
+
+    source-repository head
+      type:
+        git
+      location:
+        git://github.com/nikita-volkov/hashtables-plus.git
+
+
+    library
+      hs-source-dirs:
+        library
+      other-modules:
+        HashtablesPlus.Prelude
+      exposed-modules:
+        HashtablesPlus
+        HashtablesPlus.HashRef
+      build-depends:
+        -- data:
+        hashtables == 1.1.*,
+        hashable == 1.2.*,
+        -- debugging:
+        loch-th == 0.2.*,
+        placeholders == 0.1.*,
+        -- general:
+        base >= 4.5 && < 5
+      default-extensions:
+        Arrows
+        BangPatterns
+        ConstraintKinds
+        DataKinds
+        DefaultSignatures
+        DeriveDataTypeable
+        DeriveGeneric
+        EmptyDataDecls
+        FlexibleContexts
+        FlexibleInstances
+        FunctionalDependencies
+        GADTs
+        GeneralizedNewtypeDeriving
+        ImpredicativeTypes
+        LambdaCase
+        LiberalTypeSynonyms
+        MultiParamTypeClasses
+        MultiWayIf
+        NoImplicitPrelude
+        NoMonomorphismRestriction
+        OverloadedStrings
+        PatternGuards
+        QuasiQuotes
+        RankNTypes
+        RecordWildCards
+        ScopedTypeVariables
+        StandaloneDeriving
+        TemplateHaskell
+        TupleSections
+        TypeFamilies
+        TypeOperators
+      default-language:
+        Haskell2010
+    " )
+, L
+    ( Position 9 53 ) EOF
+]

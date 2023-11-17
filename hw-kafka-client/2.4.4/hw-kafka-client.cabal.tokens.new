@@ -1,0 +1,2371 @@
+[ L
+    ( Position 1 1 )
+    ( Comment "-- This file has been generated from package.yaml by hpack version 0.20.0." )
+, L
+    ( Position 1 75 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 2 1 )
+    ( Comment "--" )
+, L
+    ( Position 2 3 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 3 1 )
+    ( Comment "-- see: https://github.com/sol/hpack" )
+, L
+    ( Position 3 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 4 1 )
+    ( Comment "--" )
+, L
+    ( Position 4 3 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 5 1 )
+    ( Comment "-- hash: ae89ef8878b399834f3550efb6ad9b04c27fad1d06d9d22fecfc872a4f0d23c4" )
+, L
+    ( Position 5 74 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 6 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 7 1 )
+    ( Indent 0 )
+, L
+    ( Position 7 1 )
+    ( TokSym "name" )
+, L
+    ( Position 7 5 ) Colon
+, L
+    ( Position 7 6 )
+    ( Whitespace "           " )
+, L
+    ( Position 7 17 )
+    ( TokSym "hw-kafka-client" )
+, L
+    ( Position 7 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 8 1 )
+    ( Indent 0 )
+, L
+    ( Position 8 1 )
+    ( TokSym "version" )
+, L
+    ( Position 8 8 ) Colon
+, L
+    ( Position 8 9 )
+    ( Whitespace "        " )
+, L
+    ( Position 8 17 )
+    ( TokSym "2.4.4" )
+, L
+    ( Position 8 22 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 9 1 )
+    ( Indent 0 )
+, L
+    ( Position 9 1 )
+    ( TokSym "synopsis" )
+, L
+    ( Position 9 9 ) Colon
+, L
+    ( Position 9 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 9 17 )
+    ( TokSym "Kafka" )
+, L
+    ( Position 9 22 )
+    ( Whitespace " " )
+, L
+    ( Position 9 23 )
+    ( TokSym "bindings" )
+, L
+    ( Position 9 31 )
+    ( Whitespace " " )
+, L
+    ( Position 9 32 )
+    ( TokSym "for" )
+, L
+    ( Position 9 35 )
+    ( Whitespace " " )
+, L
+    ( Position 9 36 )
+    ( TokSym "Haskell" )
+, L
+    ( Position 9 43 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 10 1 )
+    ( Indent 0 )
+, L
+    ( Position 10 1 )
+    ( TokSym "description" )
+, L
+    ( Position 10 12 ) Colon
+, L
+    ( Position 10 13 )
+    ( Whitespace "    " )
+, L
+    ( Position 10 17 )
+    ( TokSym "Apache" )
+, L
+    ( Position 10 23 )
+    ( Whitespace " " )
+, L
+    ( Position 10 24 )
+    ( TokSym "Kafka" )
+, L
+    ( Position 10 29 )
+    ( Whitespace " " )
+, L
+    ( Position 10 30 )
+    ( TokSym "bindings" )
+, L
+    ( Position 10 38 )
+    ( Whitespace " " )
+, L
+    ( Position 10 39 )
+    ( TokSym "backed" )
+, L
+    ( Position 10 45 )
+    ( Whitespace " " )
+, L
+    ( Position 10 46 )
+    ( TokSym "by" )
+, L
+    ( Position 10 48 )
+    ( Whitespace " " )
+, L
+    ( Position 10 49 )
+    ( TokSym "the" )
+, L
+    ( Position 10 52 )
+    ( Whitespace " " )
+, L
+    ( Position 10 53 )
+    ( TokSym "librdkafka" )
+, L
+    ( Position 10 63 )
+    ( Whitespace " " )
+, L
+    ( Position 10 64 )
+    ( TokSym "C" )
+, L
+    ( Position 10 65 )
+    ( Whitespace " " )
+, L
+    ( Position 10 66 )
+    ( TokSym "library." )
+, L
+    ( Position 10 74 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 11 1 )
+    ( Indent 16 )
+, L
+    ( Position 11 17 )
+    ( TokSym "." )
+, L
+    ( Position 11 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 12 1 )
+    ( Indent 16 )
+, L
+    ( Position 12 17 )
+    ( TokSym "Features" )
+, L
+    ( Position 12 25 )
+    ( Whitespace " " )
+, L
+    ( Position 12 26 )
+    ( TokSym "include" )
+, L
+    ( Position 12 33 ) Colon
+, L
+    ( Position 12 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 13 1 )
+    ( Indent 16 )
+, L
+    ( Position 13 17 )
+    ( TokSym "." )
+, L
+    ( Position 13 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 14 1 )
+    ( Indent 16 )
+, L
+    ( Position 14 17 )
+    ( TokOther "*" )
+, L
+    ( Position 14 18 )
+    ( Whitespace " " )
+, L
+    ( Position 14 19 )
+    ( TokSym "Consumer" )
+, L
+    ( Position 14 27 )
+    ( Whitespace " " )
+, L
+    ( Position 14 28 )
+    ( TokSym "groups" )
+, L
+    ( Position 14 34 ) Colon
+, L
+    ( Position 14 35 )
+    ( Whitespace " " )
+, L
+    ( Position 14 36 )
+    ( TokSym "auto-rebalancing" )
+, L
+    ( Position 14 52 )
+    ( Whitespace " " )
+, L
+    ( Position 14 53 )
+    ( TokSym "consumers" )
+, L
+    ( Position 14 62 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 15 1 )
+    ( Indent 16 )
+, L
+    ( Position 15 17 )
+    ( TokSym "." )
+, L
+    ( Position 15 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 16 1 )
+    ( Indent 16 )
+, L
+    ( Position 16 17 )
+    ( TokOther "*" )
+, L
+    ( Position 16 18 )
+    ( Whitespace " " )
+, L
+    ( Position 16 19 )
+    ( TokSym "Keyed" )
+, L
+    ( Position 16 24 )
+    ( Whitespace " " )
+, L
+    ( Position 16 25 )
+    ( TokSym "and" )
+, L
+    ( Position 16 28 )
+    ( Whitespace " " )
+, L
+    ( Position 16 29 )
+    ( TokSym "keyless" )
+, L
+    ( Position 16 36 )
+    ( Whitespace " " )
+, L
+    ( Position 16 37 )
+    ( TokSym "messages" )
+, L
+    ( Position 16 45 )
+    ( Whitespace " " )
+, L
+    ( Position 16 46 )
+    ( TokSym "producing" )
+, L
+    ( Position 16 55 )
+    ( TokOther "/" )
+, L
+    ( Position 16 56 )
+    ( TokSym "consuming" )
+, L
+    ( Position 16 65 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 17 1 )
+    ( Indent 16 )
+, L
+    ( Position 17 17 )
+    ( TokSym "." )
+, L
+    ( Position 17 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 18 1 )
+    ( Indent 16 )
+, L
+    ( Position 18 17 )
+    ( TokOther "*" )
+, L
+    ( Position 18 18 )
+    ( Whitespace " " )
+, L
+    ( Position 18 19 )
+    ( TokSym "Batch" )
+, L
+    ( Position 18 24 )
+    ( Whitespace " " )
+, L
+    ( Position 18 25 )
+    ( TokSym "producing" )
+, L
+    ( Position 18 34 )
+    ( Whitespace " " )
+, L
+    ( Position 18 35 )
+    ( TokSym "messages" )
+, L
+    ( Position 18 43 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 19 1 )
+    ( Indent 0 )
+, L
+    ( Position 19 1 )
+    ( TokSym "category" )
+, L
+    ( Position 19 9 ) Colon
+, L
+    ( Position 19 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 19 17 )
+    ( TokSym "Database" )
+, L
+    ( Position 19 25 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 20 1 )
+    ( Indent 0 )
+, L
+    ( Position 20 1 )
+    ( TokSym "homepage" )
+, L
+    ( Position 20 9 ) Colon
+, L
+    ( Position 20 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 20 17 )
+    ( TokSym "https" )
+, L
+    ( Position 20 22 ) Colon
+, L
+    ( Position 20 23 )
+    ( TokOther "//" )
+, L
+    ( Position 20 25 )
+    ( TokSym "github.com" )
+, L
+    ( Position 20 35 )
+    ( TokOther "/" )
+, L
+    ( Position 20 36 )
+    ( TokSym "haskell-works" )
+, L
+    ( Position 20 49 )
+    ( TokOther "/" )
+, L
+    ( Position 20 50 )
+    ( TokSym "hw-kafka-client" )
+, L
+    ( Position 20 65 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 21 1 )
+    ( Indent 0 )
+, L
+    ( Position 21 1 )
+    ( TokSym "bug-reports" )
+, L
+    ( Position 21 12 ) Colon
+, L
+    ( Position 21 13 )
+    ( Whitespace "    " )
+, L
+    ( Position 21 17 )
+    ( TokSym "https" )
+, L
+    ( Position 21 22 ) Colon
+, L
+    ( Position 21 23 )
+    ( TokOther "//" )
+, L
+    ( Position 21 25 )
+    ( TokSym "github.com" )
+, L
+    ( Position 21 35 )
+    ( TokOther "/" )
+, L
+    ( Position 21 36 )
+    ( TokSym "haskell-works" )
+, L
+    ( Position 21 49 )
+    ( TokOther "/" )
+, L
+    ( Position 21 50 )
+    ( TokSym "hw-kafka-client" )
+, L
+    ( Position 21 65 )
+    ( TokOther "/" )
+, L
+    ( Position 21 66 )
+    ( TokSym "issues" )
+, L
+    ( Position 21 72 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 22 1 )
+    ( Indent 0 )
+, L
+    ( Position 22 1 )
+    ( TokSym "author" )
+, L
+    ( Position 22 7 ) Colon
+, L
+    ( Position 22 8 )
+    ( Whitespace "         " )
+, L
+    ( Position 22 17 )
+    ( TokSym "Alexey" )
+, L
+    ( Position 22 23 )
+    ( Whitespace " " )
+, L
+    ( Position 22 24 )
+    ( TokSym "Raga" )
+, L
+    ( Position 22 28 )
+    ( Whitespace " " )
+, L
+    ( Position 22 29 )
+    ( TokOther "<" )
+, L
+    ( Position 22 30 )
+    ( TokSym "alexey.raga" )
+, L
+    ( Position 22 41 )
+    ( TokOther "@" )
+, L
+    ( Position 22 42 )
+    ( TokSym "gmail.com" )
+, L
+    ( Position 22 51 )
+    ( TokOther ">" )
+, L
+    ( Position 22 52 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 23 1 )
+    ( Indent 0 )
+, L
+    ( Position 23 1 )
+    ( TokSym "maintainer" )
+, L
+    ( Position 23 11 ) Colon
+, L
+    ( Position 23 12 )
+    ( Whitespace "     " )
+, L
+    ( Position 23 17 )
+    ( TokSym "Alexey" )
+, L
+    ( Position 23 23 )
+    ( Whitespace " " )
+, L
+    ( Position 23 24 )
+    ( TokSym "Raga" )
+, L
+    ( Position 23 28 )
+    ( Whitespace " " )
+, L
+    ( Position 23 29 )
+    ( TokOther "<" )
+, L
+    ( Position 23 30 )
+    ( TokSym "alexey.raga" )
+, L
+    ( Position 23 41 )
+    ( TokOther "@" )
+, L
+    ( Position 23 42 )
+    ( TokSym "gmail.com" )
+, L
+    ( Position 23 51 )
+    ( TokOther ">" )
+, L
+    ( Position 23 52 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 24 1 )
+    ( Indent 0 )
+, L
+    ( Position 24 1 )
+    ( TokSym "license" )
+, L
+    ( Position 24 8 ) Colon
+, L
+    ( Position 24 9 )
+    ( Whitespace "        " )
+, L
+    ( Position 24 17 )
+    ( TokSym "MIT" )
+, L
+    ( Position 24 20 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 25 1 )
+    ( Indent 0 )
+, L
+    ( Position 25 1 )
+    ( TokSym "license-file" )
+, L
+    ( Position 25 13 ) Colon
+, L
+    ( Position 25 14 )
+    ( Whitespace "   " )
+, L
+    ( Position 25 17 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 25 24 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 26 1 )
+    ( Indent 0 )
+, L
+    ( Position 26 1 )
+    ( TokSym "build-type" )
+, L
+    ( Position 26 11 ) Colon
+, L
+    ( Position 26 12 )
+    ( Whitespace "     " )
+, L
+    ( Position 26 17 )
+    ( TokSym "Simple" )
+, L
+    ( Position 26 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 27 1 )
+    ( Indent 0 )
+, L
+    ( Position 27 1 )
+    ( TokSym "cabal-version" )
+, L
+    ( Position 27 14 ) Colon
+, L
+    ( Position 27 15 )
+    ( Whitespace "  " )
+, L
+    ( Position 27 17 )
+    ( TokOther ">=" )
+, L
+    ( Position 27 19 )
+    ( Whitespace " " )
+, L
+    ( Position 27 20 )
+    ( TokSym "1.10" )
+, L
+    ( Position 27 24 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 28 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 29 1 )
+    ( Indent 0 )
+, L
+    ( Position 29 1 )
+    ( TokSym "extra-source-files" )
+, L
+    ( Position 29 19 ) Colon
+, L
+    ( Position 29 20 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 30 1 )
+    ( Indent 4 )
+, L
+    ( Position 30 5 )
+    ( TokSym "README.md" )
+, L
+    ( Position 30 14 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 31 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 32 1 )
+    ( Indent 0 )
+, L
+    ( Position 32 1 )
+    ( TokSym "source-repository" )
+, L
+    ( Position 32 18 )
+    ( Whitespace " " )
+, L
+    ( Position 32 19 )
+    ( TokSym "head" )
+, L
+    ( Position 32 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 33 1 )
+    ( Indent 2 )
+, L
+    ( Position 33 3 )
+    ( TokSym "type" )
+, L
+    ( Position 33 7 ) Colon
+, L
+    ( Position 33 8 )
+    ( Whitespace " " )
+, L
+    ( Position 33 9 )
+    ( TokSym "git" )
+, L
+    ( Position 33 12 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 34 1 )
+    ( Indent 2 )
+, L
+    ( Position 34 3 )
+    ( TokSym "location" )
+, L
+    ( Position 34 11 ) Colon
+, L
+    ( Position 34 12 )
+    ( Whitespace " " )
+, L
+    ( Position 34 13 )
+    ( TokSym "git" )
+, L
+    ( Position 34 16 ) Colon
+, L
+    ( Position 34 17 )
+    ( TokOther "//" )
+, L
+    ( Position 34 19 )
+    ( TokSym "github.com" )
+, L
+    ( Position 34 29 )
+    ( TokOther "/" )
+, L
+    ( Position 34 30 )
+    ( TokSym "haskell-works" )
+, L
+    ( Position 34 43 )
+    ( TokOther "/" )
+, L
+    ( Position 34 44 )
+    ( TokSym "hw-kafka-client.git" )
+, L
+    ( Position 34 63 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 35 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 36 1 )
+    ( Indent 0 )
+, L
+    ( Position 36 1 )
+    ( TokSym "flag" )
+, L
+    ( Position 36 5 )
+    ( Whitespace " " )
+, L
+    ( Position 36 6 )
+    ( TokSym "examples" )
+, L
+    ( Position 36 14 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 37 1 )
+    ( Indent 2 )
+, L
+    ( Position 37 3 )
+    ( TokSym "description" )
+, L
+    ( Position 37 14 ) Colon
+, L
+    ( Position 37 15 )
+    ( Whitespace " " )
+, L
+    ( Position 37 16 )
+    ( TokSym "Also" )
+, L
+    ( Position 37 20 )
+    ( Whitespace " " )
+, L
+    ( Position 37 21 )
+    ( TokSym "compile" )
+, L
+    ( Position 37 28 )
+    ( Whitespace " " )
+, L
+    ( Position 37 29 )
+    ( TokSym "examples" )
+, L
+    ( Position 37 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 38 1 )
+    ( Indent 2 )
+, L
+    ( Position 38 3 )
+    ( TokSym "manual" )
+, L
+    ( Position 38 9 ) Colon
+, L
+    ( Position 38 10 )
+    ( Whitespace " " )
+, L
+    ( Position 38 11 )
+    ( TokSym "True" )
+, L
+    ( Position 38 15 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 39 1 )
+    ( Indent 2 )
+, L
+    ( Position 39 3 )
+    ( TokSym "default" )
+, L
+    ( Position 39 10 ) Colon
+, L
+    ( Position 39 11 )
+    ( Whitespace " " )
+, L
+    ( Position 39 12 )
+    ( TokSym "False" )
+, L
+    ( Position 39 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 40 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 41 1 )
+    ( Indent 0 )
+, L
+    ( Position 41 1 )
+    ( TokSym "library" )
+, L
+    ( Position 41 8 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 42 1 )
+    ( Indent 2 )
+, L
+    ( Position 42 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 42 17 ) Colon
+, L
+    ( Position 42 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 43 1 )
+    ( Indent 6 )
+, L
+    ( Position 43 7 )
+    ( TokSym "src" )
+, L
+    ( Position 43 10 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 44 1 )
+    ( Indent 2 )
+, L
+    ( Position 44 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 44 14 ) Colon
+, L
+    ( Position 44 15 )
+    ( Whitespace " " )
+, L
+    ( Position 44 16 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 44 21 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 45 1 )
+    ( Indent 2 )
+, L
+    ( Position 45 3 )
+    ( TokSym "extra-libraries" )
+, L
+    ( Position 45 18 ) Colon
+, L
+    ( Position 45 19 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 46 1 )
+    ( Indent 6 )
+, L
+    ( Position 46 7 )
+    ( TokSym "rdkafka" )
+, L
+    ( Position 46 14 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 47 1 )
+    ( Indent 2 )
+, L
+    ( Position 47 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 47 16 ) Colon
+, L
+    ( Position 47 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 48 1 )
+    ( Indent 6 )
+, L
+    ( Position 48 7 )
+    ( TokSym "base" )
+, L
+    ( Position 48 11 )
+    ( Whitespace " " )
+, L
+    ( Position 48 12 )
+    ( TokOther ">=" )
+, L
+    ( Position 48 14 )
+    ( TokSym "4.6" )
+, L
+    ( Position 48 17 )
+    ( Whitespace " " )
+, L
+    ( Position 48 18 )
+    ( TokOther "&&" )
+, L
+    ( Position 48 20 )
+    ( Whitespace " " )
+, L
+    ( Position 48 21 )
+    ( TokOther "<" )
+, L
+    ( Position 48 22 )
+    ( TokSym "5" )
+, L
+    ( Position 48 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 49 1 )
+    ( Indent 4 )
+, L
+    ( Position 49 5 )
+    ( TokOther "," )
+, L
+    ( Position 49 6 )
+    ( Whitespace " " )
+, L
+    ( Position 49 7 )
+    ( TokSym "bifunctors" )
+, L
+    ( Position 49 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 50 1 )
+    ( Indent 4 )
+, L
+    ( Position 50 5 )
+    ( TokOther "," )
+, L
+    ( Position 50 6 )
+    ( Whitespace " " )
+, L
+    ( Position 50 7 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 50 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 51 1 )
+    ( Indent 4 )
+, L
+    ( Position 51 5 )
+    ( TokOther "," )
+, L
+    ( Position 51 6 )
+    ( Whitespace " " )
+, L
+    ( Position 51 7 )
+    ( TokSym "containers" )
+, L
+    ( Position 51 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 52 1 )
+    ( Indent 4 )
+, L
+    ( Position 52 5 )
+    ( TokOther "," )
+, L
+    ( Position 52 6 )
+    ( Whitespace " " )
+, L
+    ( Position 52 7 )
+    ( TokSym "transformers" )
+, L
+    ( Position 52 19 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 53 1 )
+    ( Indent 4 )
+, L
+    ( Position 53 5 )
+    ( TokOther "," )
+, L
+    ( Position 53 6 )
+    ( Whitespace " " )
+, L
+    ( Position 53 7 )
+    ( TokSym "unix" )
+, L
+    ( Position 53 11 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 54 1 )
+    ( Indent 2 )
+, L
+    ( Position 54 3 )
+    ( TokSym "build-tools" )
+, L
+    ( Position 54 14 ) Colon
+, L
+    ( Position 54 15 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 55 1 )
+    ( Indent 6 )
+, L
+    ( Position 55 7 )
+    ( TokSym "c2hs" )
+, L
+    ( Position 55 11 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 56 1 )
+    ( Indent 2 )
+, L
+    ( Position 56 3 )
+    ( TokSym "if" )
+, L
+    ( Position 56 5 )
+    ( Whitespace " " )
+, L
+    ( Position 56 6 )
+    ( TokSym "impl" )
+, L
+    ( Position 56 10 )
+    ( TokOther "(" )
+, L
+    ( Position 56 11 )
+    ( TokSym "ghc" )
+, L
+    ( Position 56 14 )
+    ( Whitespace " " )
+, L
+    ( Position 56 15 )
+    ( TokOther "<" )
+, L
+    ( Position 56 16 )
+    ( TokSym "8.0" )
+, L
+    ( Position 56 19 )
+    ( TokOther ")" )
+, L
+    ( Position 56 20 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 57 1 )
+    ( Indent 4 )
+, L
+    ( Position 57 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 57 18 ) Colon
+, L
+    ( Position 57 19 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 58 1 )
+    ( Indent 8 )
+, L
+    ( Position 58 9 )
+    ( TokSym "semigroups" )
+, L
+    ( Position 58 19 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 59 1 )
+    ( Indent 2 )
+, L
+    ( Position 59 3 )
+    ( TokSym "if" )
+, L
+    ( Position 59 5 )
+    ( Whitespace " " )
+, L
+    ( Position 59 6 )
+    ( TokSym "os" )
+, L
+    ( Position 59 8 )
+    ( TokOther "(" )
+, L
+    ( Position 59 9 )
+    ( TokSym "osx" )
+, L
+    ( Position 59 12 )
+    ( TokOther ")" )
+, L
+    ( Position 59 13 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 60 1 )
+    ( Indent 4 )
+, L
+    ( Position 60 5 )
+    ( TokSym "cpp-options" )
+, L
+    ( Position 60 16 ) Colon
+, L
+    ( Position 60 17 )
+    ( Whitespace " " )
+, L
+    ( Position 60 18 )
+    ( TokSym "-D__attribute__" )
+, L
+    ( Position 60 33 )
+    ( TokOther "(" )
+, L
+    ( Position 60 34 )
+    ( TokSym "A" )
+, L
+    ( Position 60 35 )
+    ( TokOther ")" )
+, L
+    ( Position 60 36 )
+    ( TokOther "=" )
+, L
+    ( Position 60 37 )
+    ( Whitespace " " )
+, L
+    ( Position 60 38 )
+    ( TokSym "-D_Nullable" )
+, L
+    ( Position 60 49 )
+    ( TokOther "=" )
+, L
+    ( Position 60 50 )
+    ( Whitespace " " )
+, L
+    ( Position 60 51 )
+    ( TokSym "-D_Nonnull" )
+, L
+    ( Position 60 61 )
+    ( TokOther "=" )
+, L
+    ( Position 60 62 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 61 1 )
+    ( Indent 2 )
+, L
+    ( Position 61 3 )
+    ( TokSym "exposed-modules" )
+, L
+    ( Position 61 18 ) Colon
+, L
+    ( Position 61 19 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 62 1 )
+    ( Indent 6 )
+, L
+    ( Position 62 7 )
+    ( TokSym "Kafka.Consumer" )
+, L
+    ( Position 62 21 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 63 1 )
+    ( Indent 6 )
+, L
+    ( Position 63 7 )
+    ( TokSym "Kafka.Consumer.ConsumerProperties" )
+, L
+    ( Position 63 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 64 1 )
+    ( Indent 6 )
+, L
+    ( Position 64 7 )
+    ( TokSym "Kafka.Consumer.Subscription" )
+, L
+    ( Position 64 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 65 1 )
+    ( Indent 6 )
+, L
+    ( Position 65 7 )
+    ( TokSym "Kafka.Consumer.Types" )
+, L
+    ( Position 65 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 66 1 )
+    ( Indent 6 )
+, L
+    ( Position 66 7 )
+    ( TokSym "Kafka.Dump" )
+, L
+    ( Position 66 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 67 1 )
+    ( Indent 6 )
+, L
+    ( Position 67 7 )
+    ( TokSym "Kafka.Metadata" )
+, L
+    ( Position 67 21 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 68 1 )
+    ( Indent 6 )
+, L
+    ( Position 68 7 )
+    ( TokSym "Kafka.Producer" )
+, L
+    ( Position 68 21 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 69 1 )
+    ( Indent 6 )
+, L
+    ( Position 69 7 )
+    ( TokSym "Kafka.Producer.ProducerProperties" )
+, L
+    ( Position 69 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 70 1 )
+    ( Indent 6 )
+, L
+    ( Position 70 7 )
+    ( TokSym "Kafka.Producer.Types" )
+, L
+    ( Position 70 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 71 1 )
+    ( Indent 6 )
+, L
+    ( Position 71 7 )
+    ( TokSym "Kafka.Types" )
+, L
+    ( Position 71 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 72 1 )
+    ( Indent 2 )
+, L
+    ( Position 72 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 72 16 ) Colon
+, L
+    ( Position 72 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 73 1 )
+    ( Indent 6 )
+, L
+    ( Position 73 7 )
+    ( TokSym "Kafka.Callbacks" )
+, L
+    ( Position 73 22 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 74 1 )
+    ( Indent 6 )
+, L
+    ( Position 74 7 )
+    ( TokSym "Kafka.Consumer.Callbacks" )
+, L
+    ( Position 74 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 75 1 )
+    ( Indent 6 )
+, L
+    ( Position 75 7 )
+    ( TokSym "Kafka.Consumer.Convert" )
+, L
+    ( Position 75 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 76 1 )
+    ( Indent 6 )
+, L
+    ( Position 76 7 )
+    ( TokSym "Kafka.Internal.CancellationToken" )
+, L
+    ( Position 76 39 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 77 1 )
+    ( Indent 6 )
+, L
+    ( Position 77 7 )
+    ( TokSym "Kafka.Internal.RdKafka" )
+, L
+    ( Position 77 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 78 1 )
+    ( Indent 6 )
+, L
+    ( Position 78 7 )
+    ( TokSym "Kafka.Internal.Setup" )
+, L
+    ( Position 78 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 79 1 )
+    ( Indent 6 )
+, L
+    ( Position 79 7 )
+    ( TokSym "Kafka.Internal.Shared" )
+, L
+    ( Position 79 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 80 1 )
+    ( Indent 6 )
+, L
+    ( Position 80 7 )
+    ( TokSym "Kafka.Producer.Callbacks" )
+, L
+    ( Position 80 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 81 1 )
+    ( Indent 6 )
+, L
+    ( Position 81 7 )
+    ( TokSym "Kafka.Producer.Convert" )
+, L
+    ( Position 81 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 82 1 )
+    ( Indent 6 )
+, L
+    ( Position 82 7 )
+    ( TokSym "Paths_hw_kafka_client" )
+, L
+    ( Position 82 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 83 1 )
+    ( Indent 2 )
+, L
+    ( Position 83 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 83 19 ) Colon
+, L
+    ( Position 83 20 )
+    ( Whitespace " " )
+, L
+    ( Position 83 21 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 83 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 84 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 85 1 )
+    ( Indent 0 )
+, L
+    ( Position 85 1 )
+    ( TokSym "executable" )
+, L
+    ( Position 85 11 )
+    ( Whitespace " " )
+, L
+    ( Position 85 12 )
+    ( TokSym "kafka-client-example" )
+, L
+    ( Position 85 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 86 1 )
+    ( Indent 2 )
+, L
+    ( Position 86 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 86 10 ) Colon
+, L
+    ( Position 86 11 )
+    ( Whitespace " " )
+, L
+    ( Position 86 12 )
+    ( TokSym "Main.hs" )
+, L
+    ( Position 86 19 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 87 1 )
+    ( Indent 2 )
+, L
+    ( Position 87 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 87 17 ) Colon
+, L
+    ( Position 87 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 88 1 )
+    ( Indent 6 )
+, L
+    ( Position 88 7 )
+    ( TokSym "example" )
+, L
+    ( Position 88 14 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 89 1 )
+    ( Indent 2 )
+, L
+    ( Position 89 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 89 14 ) Colon
+, L
+    ( Position 89 15 )
+    ( Whitespace " " )
+, L
+    ( Position 89 16 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 89 25 )
+    ( Whitespace " " )
+, L
+    ( Position 89 26 )
+    ( TokSym "-rtsopts" )
+, L
+    ( Position 89 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 90 1 )
+    ( Indent 2 )
+, L
+    ( Position 90 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 90 16 ) Colon
+, L
+    ( Position 90 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 91 1 )
+    ( Indent 6 )
+, L
+    ( Position 91 7 )
+    ( TokSym "base" )
+, L
+    ( Position 91 11 )
+    ( Whitespace " " )
+, L
+    ( Position 91 12 )
+    ( TokOther ">=" )
+, L
+    ( Position 91 14 )
+    ( TokSym "4.6" )
+, L
+    ( Position 91 17 )
+    ( Whitespace " " )
+, L
+    ( Position 91 18 )
+    ( TokOther "&&" )
+, L
+    ( Position 91 20 )
+    ( Whitespace " " )
+, L
+    ( Position 91 21 )
+    ( TokOther "<" )
+, L
+    ( Position 91 22 )
+    ( TokSym "5" )
+, L
+    ( Position 91 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 92 1 )
+    ( Indent 4 )
+, L
+    ( Position 92 5 )
+    ( TokOther "," )
+, L
+    ( Position 92 6 )
+    ( Whitespace " " )
+, L
+    ( Position 92 7 )
+    ( TokSym "bifunctors" )
+, L
+    ( Position 92 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 93 1 )
+    ( Indent 4 )
+, L
+    ( Position 93 5 )
+    ( TokOther "," )
+, L
+    ( Position 93 6 )
+    ( Whitespace " " )
+, L
+    ( Position 93 7 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 93 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 94 1 )
+    ( Indent 4 )
+, L
+    ( Position 94 5 )
+    ( TokOther "," )
+, L
+    ( Position 94 6 )
+    ( Whitespace " " )
+, L
+    ( Position 94 7 )
+    ( TokSym "containers" )
+, L
+    ( Position 94 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 95 1 )
+    ( Indent 4 )
+, L
+    ( Position 95 5 )
+    ( TokOther "," )
+, L
+    ( Position 95 6 )
+    ( Whitespace " " )
+, L
+    ( Position 95 7 )
+    ( TokSym "hw-kafka-client" )
+, L
+    ( Position 95 22 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 96 1 )
+    ( Indent 4 )
+, L
+    ( Position 96 5 )
+    ( TokOther "," )
+, L
+    ( Position 96 6 )
+    ( Whitespace " " )
+, L
+    ( Position 96 7 )
+    ( TokSym "transformers" )
+, L
+    ( Position 96 19 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 97 1 )
+    ( Indent 4 )
+, L
+    ( Position 97 5 )
+    ( TokOther "," )
+, L
+    ( Position 97 6 )
+    ( Whitespace " " )
+, L
+    ( Position 97 7 )
+    ( TokSym "unix" )
+, L
+    ( Position 97 11 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 98 1 )
+    ( Indent 2 )
+, L
+    ( Position 98 3 )
+    ( TokSym "if" )
+, L
+    ( Position 98 5 )
+    ( Whitespace " " )
+, L
+    ( Position 98 6 )
+    ( TokOther "!" )
+, L
+    ( Position 98 7 )
+    ( TokOther "(" )
+, L
+    ( Position 98 8 )
+    ( TokSym "flag" )
+, L
+    ( Position 98 12 )
+    ( TokOther "(" )
+, L
+    ( Position 98 13 )
+    ( TokSym "examples" )
+, L
+    ( Position 98 21 )
+    ( TokOther ")" )
+, L
+    ( Position 98 22 )
+    ( TokOther ")" )
+, L
+    ( Position 98 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 99 1 )
+    ( Indent 4 )
+, L
+    ( Position 99 5 )
+    ( TokSym "buildable" )
+, L
+    ( Position 99 14 ) Colon
+, L
+    ( Position 99 15 )
+    ( Whitespace " " )
+, L
+    ( Position 99 16 )
+    ( TokSym "False" )
+, L
+    ( Position 99 21 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 100 1 )
+    ( Indent 2 )
+, L
+    ( Position 100 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 100 16 ) Colon
+, L
+    ( Position 100 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 101 1 )
+    ( Indent 6 )
+, L
+    ( Position 101 7 )
+    ( TokSym "ConsumerExample" )
+, L
+    ( Position 101 22 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 102 1 )
+    ( Indent 6 )
+, L
+    ( Position 102 7 )
+    ( TokSym "ProducerExample" )
+, L
+    ( Position 102 22 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 103 1 )
+    ( Indent 6 )
+, L
+    ( Position 103 7 )
+    ( TokSym "Paths_hw_kafka_client" )
+, L
+    ( Position 103 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 104 1 )
+    ( Indent 2 )
+, L
+    ( Position 104 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 104 19 ) Colon
+, L
+    ( Position 104 20 )
+    ( Whitespace " " )
+, L
+    ( Position 104 21 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 104 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 105 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 106 1 )
+    ( Indent 0 )
+, L
+    ( Position 106 1 )
+    ( TokSym "test-suite" )
+, L
+    ( Position 106 11 )
+    ( Whitespace " " )
+, L
+    ( Position 106 12 )
+    ( TokSym "integration-tests" )
+, L
+    ( Position 106 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 107 1 )
+    ( Indent 2 )
+, L
+    ( Position 107 3 )
+    ( TokSym "type" )
+, L
+    ( Position 107 7 ) Colon
+, L
+    ( Position 107 8 )
+    ( Whitespace " " )
+, L
+    ( Position 107 9 )
+    ( TokSym "exitcode-stdio-1.0" )
+, L
+    ( Position 107 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 108 1 )
+    ( Indent 2 )
+, L
+    ( Position 108 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 108 10 ) Colon
+, L
+    ( Position 108 11 )
+    ( Whitespace " " )
+, L
+    ( Position 108 12 )
+    ( TokSym "Spec.hs" )
+, L
+    ( Position 108 19 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 109 1 )
+    ( Indent 2 )
+, L
+    ( Position 109 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 109 17 ) Colon
+, L
+    ( Position 109 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 110 1 )
+    ( Indent 6 )
+, L
+    ( Position 110 7 )
+    ( TokSym "tests-it" )
+, L
+    ( Position 110 15 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 111 1 )
+    ( Indent 2 )
+, L
+    ( Position 111 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 111 14 ) Colon
+, L
+    ( Position 111 15 )
+    ( Whitespace " " )
+, L
+    ( Position 111 16 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 111 21 )
+    ( Whitespace " " )
+, L
+    ( Position 111 22 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 111 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 112 1 )
+    ( Indent 2 )
+, L
+    ( Position 112 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 112 16 ) Colon
+, L
+    ( Position 112 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 113 1 )
+    ( Indent 6 )
+, L
+    ( Position 113 7 )
+    ( TokSym "base" )
+, L
+    ( Position 113 11 )
+    ( Whitespace " " )
+, L
+    ( Position 113 12 )
+    ( TokOther ">=" )
+, L
+    ( Position 113 14 )
+    ( TokSym "4.6" )
+, L
+    ( Position 113 17 )
+    ( Whitespace " " )
+, L
+    ( Position 113 18 )
+    ( TokOther "&&" )
+, L
+    ( Position 113 20 )
+    ( Whitespace " " )
+, L
+    ( Position 113 21 )
+    ( TokOther "<" )
+, L
+    ( Position 113 22 )
+    ( TokSym "5" )
+, L
+    ( Position 113 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 114 1 )
+    ( Indent 4 )
+, L
+    ( Position 114 5 )
+    ( TokOther "," )
+, L
+    ( Position 114 6 )
+    ( Whitespace " " )
+, L
+    ( Position 114 7 )
+    ( TokSym "bifunctors" )
+, L
+    ( Position 114 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 115 1 )
+    ( Indent 4 )
+, L
+    ( Position 115 5 )
+    ( TokOther "," )
+, L
+    ( Position 115 6 )
+    ( Whitespace " " )
+, L
+    ( Position 115 7 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 115 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 116 1 )
+    ( Indent 4 )
+, L
+    ( Position 116 5 )
+    ( TokOther "," )
+, L
+    ( Position 116 6 )
+    ( Whitespace " " )
+, L
+    ( Position 116 7 )
+    ( TokSym "containers" )
+, L
+    ( Position 116 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 117 1 )
+    ( Indent 4 )
+, L
+    ( Position 117 5 )
+    ( TokOther "," )
+, L
+    ( Position 117 6 )
+    ( Whitespace " " )
+, L
+    ( Position 117 7 )
+    ( TokSym "either" )
+, L
+    ( Position 117 13 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 118 1 )
+    ( Indent 4 )
+, L
+    ( Position 118 5 )
+    ( TokOther "," )
+, L
+    ( Position 118 6 )
+    ( Whitespace " " )
+, L
+    ( Position 118 7 )
+    ( TokSym "hspec" )
+, L
+    ( Position 118 12 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 119 1 )
+    ( Indent 4 )
+, L
+    ( Position 119 5 )
+    ( TokOther "," )
+, L
+    ( Position 119 6 )
+    ( Whitespace " " )
+, L
+    ( Position 119 7 )
+    ( TokSym "hw-kafka-client" )
+, L
+    ( Position 119 22 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 120 1 )
+    ( Indent 4 )
+, L
+    ( Position 120 5 )
+    ( TokOther "," )
+, L
+    ( Position 120 6 )
+    ( Whitespace " " )
+, L
+    ( Position 120 7 )
+    ( TokSym "monad-loops" )
+, L
+    ( Position 120 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 121 1 )
+    ( Indent 2 )
+, L
+    ( Position 121 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 121 16 ) Colon
+, L
+    ( Position 121 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 122 1 )
+    ( Indent 6 )
+, L
+    ( Position 122 7 )
+    ( TokSym "Kafka.IntegrationSpec" )
+, L
+    ( Position 122 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 123 1 )
+    ( Indent 6 )
+, L
+    ( Position 123 7 )
+    ( TokSym "Kafka.TestEnv" )
+, L
+    ( Position 123 20 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 124 1 )
+    ( Indent 6 )
+, L
+    ( Position 124 7 )
+    ( TokSym "Paths_hw_kafka_client" )
+, L
+    ( Position 124 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 125 1 )
+    ( Indent 2 )
+, L
+    ( Position 125 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 125 19 ) Colon
+, L
+    ( Position 125 20 )
+    ( Whitespace " " )
+, L
+    ( Position 125 21 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 125 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 126 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 127 1 )
+    ( Indent 0 )
+, L
+    ( Position 127 1 )
+    ( TokSym "test-suite" )
+, L
+    ( Position 127 11 )
+    ( Whitespace " " )
+, L
+    ( Position 127 12 )
+    ( TokSym "tests" )
+, L
+    ( Position 127 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 128 1 )
+    ( Indent 2 )
+, L
+    ( Position 128 3 )
+    ( TokSym "type" )
+, L
+    ( Position 128 7 ) Colon
+, L
+    ( Position 128 8 )
+    ( Whitespace " " )
+, L
+    ( Position 128 9 )
+    ( TokSym "exitcode-stdio-1.0" )
+, L
+    ( Position 128 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 129 1 )
+    ( Indent 2 )
+, L
+    ( Position 129 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 129 10 ) Colon
+, L
+    ( Position 129 11 )
+    ( Whitespace " " )
+, L
+    ( Position 129 12 )
+    ( TokSym "Spec.hs" )
+, L
+    ( Position 129 19 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 130 1 )
+    ( Indent 2 )
+, L
+    ( Position 130 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 130 17 ) Colon
+, L
+    ( Position 130 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 131 1 )
+    ( Indent 6 )
+, L
+    ( Position 131 7 )
+    ( TokSym "tests" )
+, L
+    ( Position 131 12 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 132 1 )
+    ( Indent 2 )
+, L
+    ( Position 132 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 132 14 ) Colon
+, L
+    ( Position 132 15 )
+    ( Whitespace " " )
+, L
+    ( Position 132 16 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 132 21 )
+    ( Whitespace " " )
+, L
+    ( Position 132 22 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 132 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 133 1 )
+    ( Indent 2 )
+, L
+    ( Position 133 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 133 16 ) Colon
+, L
+    ( Position 133 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 134 1 )
+    ( Indent 6 )
+, L
+    ( Position 134 7 )
+    ( TokSym "base" )
+, L
+    ( Position 134 11 )
+    ( Whitespace " " )
+, L
+    ( Position 134 12 )
+    ( TokOther ">=" )
+, L
+    ( Position 134 14 )
+    ( TokSym "4.6" )
+, L
+    ( Position 134 17 )
+    ( Whitespace " " )
+, L
+    ( Position 134 18 )
+    ( TokOther "&&" )
+, L
+    ( Position 134 20 )
+    ( Whitespace " " )
+, L
+    ( Position 134 21 )
+    ( TokOther "<" )
+, L
+    ( Position 134 22 )
+    ( TokSym "5" )
+, L
+    ( Position 134 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 135 1 )
+    ( Indent 4 )
+, L
+    ( Position 135 5 )
+    ( TokOther "," )
+, L
+    ( Position 135 6 )
+    ( Whitespace " " )
+, L
+    ( Position 135 7 )
+    ( TokSym "bifunctors" )
+, L
+    ( Position 135 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 136 1 )
+    ( Indent 4 )
+, L
+    ( Position 136 5 )
+    ( TokOther "," )
+, L
+    ( Position 136 6 )
+    ( Whitespace " " )
+, L
+    ( Position 136 7 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 136 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 137 1 )
+    ( Indent 4 )
+, L
+    ( Position 137 5 )
+    ( TokOther "," )
+, L
+    ( Position 137 6 )
+    ( Whitespace " " )
+, L
+    ( Position 137 7 )
+    ( TokSym "containers" )
+, L
+    ( Position 137 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 138 1 )
+    ( Indent 4 )
+, L
+    ( Position 138 5 )
+    ( TokOther "," )
+, L
+    ( Position 138 6 )
+    ( Whitespace " " )
+, L
+    ( Position 138 7 )
+    ( TokSym "either" )
+, L
+    ( Position 138 13 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 139 1 )
+    ( Indent 4 )
+, L
+    ( Position 139 5 )
+    ( TokOther "," )
+, L
+    ( Position 139 6 )
+    ( Whitespace " " )
+, L
+    ( Position 139 7 )
+    ( TokSym "hspec" )
+, L
+    ( Position 139 12 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 140 1 )
+    ( Indent 4 )
+, L
+    ( Position 140 5 )
+    ( TokOther "," )
+, L
+    ( Position 140 6 )
+    ( Whitespace " " )
+, L
+    ( Position 140 7 )
+    ( TokSym "hw-kafka-client" )
+, L
+    ( Position 140 22 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 141 1 )
+    ( Indent 4 )
+, L
+    ( Position 141 5 )
+    ( TokOther "," )
+, L
+    ( Position 141 6 )
+    ( Whitespace " " )
+, L
+    ( Position 141 7 )
+    ( TokSym "monad-loops" )
+, L
+    ( Position 141 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 142 1 )
+    ( Indent 2 )
+, L
+    ( Position 142 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 142 16 ) Colon
+, L
+    ( Position 142 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 143 1 )
+    ( Indent 6 )
+, L
+    ( Position 143 7 )
+    ( TokSym "Kafka.Consumer.ConsumerRecordMapSpec" )
+, L
+    ( Position 143 43 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 144 1 )
+    ( Indent 6 )
+, L
+    ( Position 144 7 )
+    ( TokSym "Kafka.Consumer.ConsumerRecordTraverseSpec" )
+, L
+    ( Position 144 48 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 145 1 )
+    ( Indent 6 )
+, L
+    ( Position 145 7 )
+    ( TokSym "Paths_hw_kafka_client" )
+, L
+    ( Position 145 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 146 1 )
+    ( Indent 2 )
+, L
+    ( Position 146 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 146 19 ) Colon
+, L
+    ( Position 146 20 )
+    ( Whitespace " " )
+, L
+    ( Position 146 21 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 146 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 147 1 ) EOF
+]

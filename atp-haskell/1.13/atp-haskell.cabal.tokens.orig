@@ -1,0 +1,238 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 19 )
+    ( TokSym "atp-haskell" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 19 )
+    ( TokSym "1.13" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 3 9 ) Colon
+, L
+    ( Position 3 19 )
+    ( TokSym "Translation" )
+, L
+    ( Position 3 31 )
+    ( TokSym "from" )
+, L
+    ( Position 3 36 )
+    ( TokSym "Ocaml" )
+, L
+    ( Position 3 42 )
+    ( TokSym "to" )
+, L
+    ( Position 3 45 )
+    ( TokSym "Haskell" )
+, L
+    ( Position 3 53 )
+    ( TokSym "of" )
+, L
+    ( Position 3 56 )
+    ( TokSym "John" )
+, L
+    ( Position 3 61 )
+    ( TokSym "Harrison's" )
+, L
+    ( Position 3 72 )
+    ( TokSym "ATP" )
+, L
+    ( Position 3 76 )
+    ( TokSym "code" )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 4 12 ) Colon
+, L
+    ( Position 4 19 )
+    ( TokSym "This" )
+, L
+    ( Position 4 24 )
+    ( TokSym "package" )
+, L
+    ( Position 4 32 )
+    ( TokSym "is" )
+, L
+    ( Position 4 35 )
+    ( TokSym "a" )
+, L
+    ( Position 4 37 )
+    ( TokSym "liberal" )
+, L
+    ( Position 4 45 )
+    ( TokSym "translation" )
+, L
+    ( Position 4 57 )
+    ( TokSym "from" )
+, L
+    ( Position 4 62 )
+    ( TokSym "OCaml" )
+, L
+    ( Position 4 68 )
+    ( TokSym "to" )
+, L
+    ( Position 4 71 )
+    ( TokSym "Haskell" )
+, L
+    ( Position 4 79 )
+    ( TokSym "of" )
+, L
+    ( Position 5 1 )
+    ( Indent 18 )
+, L
+    ( Position 5 19 )
+    ( TokSym "the" )
+, L
+    ( Position 5 23 )
+    ( TokSym "automated" )
+, L
+    ( Position 5 33 )
+    ( TokSym "theorem" )
+, L
+    ( Position 5 41 )
+    ( TokSym "prover" )
+, L
+    ( Position 5 48 )
+    ( TokSym "written" )
+, L
+    ( Position 5 56 )
+    ( TokSym "in" )
+, L
+    ( Position 5 59 )
+    ( TokSym "OCaml" )
+, L
+    ( Position 5 65 )
+    ( TokSym "in" )
+, L
+    ( Position 6 1 )
+    ( Indent 18 )
+, L
+    ( Position 6 19 )
+    ( TokSym "John" )
+, L
+    ( Position 6 24 )
+    ( TokSym "Harrison's" )
+, L
+    ( Position 6 35 )
+    ( TokSym "book" )
+, L
+    ( Position 6 70 )
+    ( LexicalError "
+                      Reasoning".  Click on module ATP below for an overview.
+    Homepage:         https://github.com/seereason/atp-haskell
+    License:          BSD3
+    License-File:     LICENSE.txt
+    Author:           John Harrison
+    Maintainer:       David Fox <dsf@seereason.com>
+    Bug-Reports:      https://github.com/seereason/atp-haskell/issues
+    Category:         Logic, Theorem Provers
+    Cabal-version:    >= 1.9
+    Build-Type:       Simple
+    Extra-Source-Files: tests/Extra.hs, .travis.yml, .ghci
+    Tested-With:      GHC == 7.10.3, GHC == 7.11.*
+
+    Source-Repository head
+      type: git
+      location: https://github.com/seereason/atp-haskell
+
+    Library
+      Build-Depends:
+        applicative-extras,
+        base >= 4.8 && < 5,
+        containers,
+        HUnit,
+        mtl,
+        parsec,
+        pretty >= 1.1.2,
+        template-haskell,
+        time
+      GHC-options: -Wall -O2
+      Hs-Source-Dirs: src
+      Exposed-Modules:
+        Data.Logic.ATP
+        Data.Logic.ATP.Lib
+        Data.Logic.ATP.Pretty
+        Data.Logic.ATP.Formulas
+        Data.Logic.ATP.Term
+        Data.Logic.ATP.Apply
+        Data.Logic.ATP.Equate
+        --
+        Data.Logic.ATP.Lit
+        Data.Logic.ATP.LitWrapper
+        Data.Logic.ATP.Prop
+        Data.Logic.ATP.PropExamples
+        Data.Logic.ATP.DefCNF
+        Data.Logic.ATP.DP
+        -- Data.Logic.ATP.Stal
+        -- Data.Logic.ATP.BDD
+        Data.Logic.ATP.Quantified
+        Data.Logic.ATP.Parser
+        Data.Logic.ATP.FOL
+        Data.Logic.ATP.ParserTests
+        Data.Logic.ATP.Skolem
+        Data.Logic.ATP.Herbrand
+        Data.Logic.ATP.Unif
+        Data.Logic.ATP.Tableaux
+        Data.Logic.ATP.Resolution
+        Data.Logic.ATP.Prolog
+        Data.Logic.ATP.Meson
+        -- Data.Logic.ATP.Skolems
+        Data.Logic.ATP.Equal
+        -- Data.Logic.ATP.Cong
+        -- Data.Logic.ATP.Rewrite
+        -- Data.Logic.ATP.Order
+        -- Data.Logic.ATP.Completion
+        -- Data.Logic.ATP.Eqelim
+        -- Data.Logic.ATP.Paramodulation
+        --
+        -- Data.Logic.ATP.Decidable
+        -- Data.Logic.ATP.Qelim
+        -- Data.Logic.ATP.Cooper
+        -- Data.Logic.ATP.Complex
+        -- Data.Logic.ATP.Real
+        -- Data.Logic.ATP.Grobner
+        -- Data.Logic.ATP.Geom
+        -- Data.Logic.ATP.Interpolation
+        -- Data.Logic.ATP.Combining
+
+        -- Data.Logic.ATP.Lcf
+        -- Data.Logic.ATP.Lcfprop
+        -- Data.Logic.ATP.Folderived
+        -- Data.Logic.ATP.Lcffol
+        -- Data.Logic.ATP.Tactics
+
+        -- Data.Logic.ATP.Limitations
+
+    Test-Suite atp-haskell-tests
+      Type: exitcode-stdio-1.0
+      Hs-Source-Dirs: tests
+      Main-Is: Main.hs
+      Build-Depends: atp-haskell, base, containers, HUnit, time
+      GHC-options: -Wall -O2
+    " )
+, L
+    ( Position 6 40 ) EOF
+]

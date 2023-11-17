@@ -1,0 +1,1960 @@
+[ L
+    ( Position 1 1 )
+    ( Comment "-- Copyright (c) 2012-2014 NVIDIA Corporation.  All rights reserved." )
+, L
+    ( Position 1 69 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 2 1 )
+    ( Comment "--" )
+, L
+    ( Position 2 3 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 3 1 )
+    ( Comment "-- Permission is hereby granted, free of charge, to any person obtaining a copy" )
+, L
+    ( Position 3 80 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 4 1 )
+    ( Comment "-- of this software and associated documentation files (the "Software"), to deal" )
+, L
+    ( Position 4 81 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 5 1 )
+    ( Comment "-- in the Software without restriction, including without limitation the rights" )
+, L
+    ( Position 5 80 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 6 1 )
+    ( Comment "-- to use, copy, modify, merge, publish, distribute, sublicense, and/or sell" )
+, L
+    ( Position 6 77 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 7 1 )
+    ( Comment "-- copies of the Software, and to permit persons to whom the Software is" )
+, L
+    ( Position 7 73 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 8 1 )
+    ( Comment "-- furnished to do so, subject to the following conditions:" )
+, L
+    ( Position 8 60 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 9 1 )
+    ( Comment "--" )
+, L
+    ( Position 9 3 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 10 1 )
+    ( Comment "-- The above copyright notice and this permission notice shall be included in" )
+, L
+    ( Position 10 78 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 11 1 )
+    ( Comment "-- all copies or substantial portions of the Software." )
+, L
+    ( Position 11 55 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 12 1 )
+    ( Comment "--" )
+, L
+    ( Position 12 3 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 13 1 )
+    ( Comment "-- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR" )
+, L
+    ( Position 13 78 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 14 1 )
+    ( Comment "-- IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY," )
+, L
+    ( Position 14 76 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 15 1 )
+    ( Comment "-- FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE" )
+, L
+    ( Position 15 79 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 16 1 )
+    ( Comment "-- AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER" )
+, L
+    ( Position 16 74 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 17 1 )
+    ( Comment "-- LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM," )
+, L
+    ( Position 17 81 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 18 1 )
+    ( Comment "-- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE" )
+, L
+    ( Position 18 81 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 19 1 )
+    ( Comment "-- SOFTWARE." )
+, L
+    ( Position 19 13 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 20 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 21 1 )
+    ( Indent 0 )
+, L
+    ( Position 21 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 21 5 ) Colon
+, L
+    ( Position 21 6 )
+    ( Whitespace "                           " )
+, L
+    ( Position 21 33 )
+    ( TokSym "libnvvm" )
+, L
+    ( Position 21 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 22 1 )
+    ( Indent 0 )
+, L
+    ( Position 22 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 22 8 ) Colon
+, L
+    ( Position 22 9 )
+    ( Whitespace "                        " )
+, L
+    ( Position 22 33 )
+    ( TokSym "1.0.0" )
+, L
+    ( Position 22 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 23 1 )
+    ( Indent 0 )
+, L
+    ( Position 23 1 )
+    ( TokSym "License" )
+, L
+    ( Position 23 8 ) Colon
+, L
+    ( Position 23 9 )
+    ( Whitespace "                        " )
+, L
+    ( Position 23 33 )
+    ( TokSym "MIT" )
+, L
+    ( Position 23 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 24 1 )
+    ( Indent 0 )
+, L
+    ( Position 24 1 )
+    ( TokSym "License-file" )
+, L
+    ( Position 24 13 ) Colon
+, L
+    ( Position 24 14 )
+    ( Whitespace "                   " )
+, L
+    ( Position 24 33 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 24 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 25 1 )
+    ( Indent 0 )
+, L
+    ( Position 25 1 )
+    ( TokSym "Copyright" )
+, L
+    ( Position 25 10 ) Colon
+, L
+    ( Position 25 11 )
+    ( Whitespace "                      " )
+, L
+    ( Position 25 33 )
+    ( TokSym "Copyright" )
+, L
+    ( Position 25 42 )
+    ( Whitespace " " )
+, L
+    ( Position 25 43 )
+    ( TokOther "(" )
+, L
+    ( Position 25 44 )
+    ( TokSym "c" )
+, L
+    ( Position 25 45 )
+    ( TokOther ")" )
+, L
+    ( Position 25 46 )
+    ( Whitespace " " )
+, L
+    ( Position 25 47 )
+    ( TokSym "2012-2014" )
+, L
+    ( Position 25 56 )
+    ( Whitespace " " )
+, L
+    ( Position 25 57 )
+    ( TokSym "NVIDIA" )
+, L
+    ( Position 25 63 )
+    ( Whitespace " " )
+, L
+    ( Position 25 64 )
+    ( TokSym "Corporation." )
+, L
+    ( Position 25 76 )
+    ( Whitespace "  " )
+, L
+    ( Position 25 78 )
+    ( TokSym "All" )
+, L
+    ( Position 25 81 )
+    ( Whitespace " " )
+, L
+    ( Position 25 82 )
+    ( TokSym "rights" )
+, L
+    ( Position 25 88 )
+    ( Whitespace " " )
+, L
+    ( Position 25 89 )
+    ( TokSym "reserved." )
+, L
+    ( Position 25 98 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 26 1 )
+    ( Indent 0 )
+, L
+    ( Position 26 1 )
+    ( TokSym "Author" )
+, L
+    ( Position 26 7 ) Colon
+, L
+    ( Position 26 8 )
+    ( Whitespace "                         " )
+, L
+    ( Position 26 33 )
+    ( TokSym "Sean" )
+, L
+    ( Position 26 37 )
+    ( Whitespace " " )
+, L
+    ( Position 26 38 )
+    ( TokSym "Lee" )
+, L
+    ( Position 26 41 )
+    ( TokOther "," )
+, L
+    ( Position 26 42 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 27 1 )
+    ( Indent 32 )
+, L
+    ( Position 27 33 )
+    ( TokSym "Trevor" )
+, L
+    ( Position 27 39 )
+    ( Whitespace " " )
+, L
+    ( Position 27 40 )
+    ( TokSym "McDonell" )
+, L
+    ( Position 27 48 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 28 1 )
+    ( Indent 0 )
+, L
+    ( Position 28 1 )
+    ( TokSym "Maintainer" )
+, L
+    ( Position 28 11 ) Colon
+, L
+    ( Position 28 12 )
+    ( Whitespace "                     " )
+, L
+    ( Position 28 33 )
+    ( TokSym "Sean" )
+, L
+    ( Position 28 37 )
+    ( Whitespace " " )
+, L
+    ( Position 28 38 )
+    ( TokSym "Lee" )
+, L
+    ( Position 28 41 )
+    ( Whitespace " " )
+, L
+    ( Position 28 42 )
+    ( TokOther "<" )
+, L
+    ( Position 28 43 )
+    ( TokSym "selee" )
+, L
+    ( Position 28 48 )
+    ( TokOther "@" )
+, L
+    ( Position 28 49 )
+    ( TokSym "nvidia.com" )
+, L
+    ( Position 28 59 )
+    ( TokOther ">" )
+, L
+    ( Position 28 60 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 29 1 )
+    ( Indent 0 )
+, L
+    ( Position 29 1 )
+    ( TokSym "Build-type" )
+, L
+    ( Position 29 11 ) Colon
+, L
+    ( Position 29 12 )
+    ( Whitespace "                     " )
+, L
+    ( Position 29 33 )
+    ( TokSym "Simple" )
+, L
+    ( Position 29 39 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 30 1 )
+    ( Indent 0 )
+, L
+    ( Position 30 1 )
+    ( TokSym "Category" )
+, L
+    ( Position 30 9 ) Colon
+, L
+    ( Position 30 10 )
+    ( Whitespace "                       " )
+, L
+    ( Position 30 33 )
+    ( TokSym "Foreign" )
+, L
+    ( Position 30 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 31 1 )
+    ( Indent 0 )
+, L
+    ( Position 31 1 )
+    ( TokSym "Stability" )
+, L
+    ( Position 31 10 ) Colon
+, L
+    ( Position 31 11 )
+    ( Whitespace "                      " )
+, L
+    ( Position 31 33 )
+    ( TokSym "Experimental" )
+, L
+    ( Position 31 45 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 32 1 )
+    ( Indent 0 )
+, L
+    ( Position 32 1 )
+    ( TokSym "Homepage" )
+, L
+    ( Position 32 9 ) Colon
+, L
+    ( Position 32 10 )
+    ( Whitespace "                       " )
+, L
+    ( Position 32 33 )
+    ( TokSym "https" )
+, L
+    ( Position 32 38 ) Colon
+, L
+    ( Position 32 39 )
+    ( TokOther "//" )
+, L
+    ( Position 32 41 )
+    ( TokSym "github.com" )
+, L
+    ( Position 32 51 )
+    ( TokOther "/" )
+, L
+    ( Position 32 52 )
+    ( TokSym "nvidia-compiler-sdk" )
+, L
+    ( Position 32 71 )
+    ( TokOther "/" )
+, L
+    ( Position 32 72 )
+    ( TokSym "hsnvvm" )
+, L
+    ( Position 32 78 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 33 1 )
+    ( Indent 0 )
+, L
+    ( Position 33 1 )
+    ( TokSym "Bug-reports" )
+, L
+    ( Position 33 12 ) Colon
+, L
+    ( Position 33 13 )
+    ( Whitespace "                    " )
+, L
+    ( Position 33 33 )
+    ( TokSym "https" )
+, L
+    ( Position 33 38 ) Colon
+, L
+    ( Position 33 39 )
+    ( TokOther "//" )
+, L
+    ( Position 33 41 )
+    ( TokSym "github.com" )
+, L
+    ( Position 33 51 )
+    ( TokOther "/" )
+, L
+    ( Position 33 52 )
+    ( TokSym "nvidia-compiler-sdk" )
+, L
+    ( Position 33 71 )
+    ( TokOther "/" )
+, L
+    ( Position 33 72 )
+    ( TokSym "hsnvvm" )
+, L
+    ( Position 33 78 )
+    ( TokOther "/" )
+, L
+    ( Position 33 79 )
+    ( TokSym "issues" )
+, L
+    ( Position 33 85 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 34 1 )
+    ( Indent 0 )
+, L
+    ( Position 34 1 )
+    ( TokSym "Cabal-version" )
+, L
+    ( Position 34 14 ) Colon
+, L
+    ( Position 34 15 )
+    ( Whitespace "                  " )
+, L
+    ( Position 34 33 )
+    ( TokOther ">=" )
+, L
+    ( Position 34 35 )
+    ( Whitespace " " )
+, L
+    ( Position 34 36 )
+    ( TokSym "1.18" )
+, L
+    ( Position 34 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 35 1 )
+    ( Indent 0 )
+, L
+    ( Position 35 1 )
+    ( TokSym "Tested-with" )
+, L
+    ( Position 35 12 ) Colon
+, L
+    ( Position 35 13 )
+    ( Whitespace "                    " )
+, L
+    ( Position 35 33 )
+    ( TokSym "GHC" )
+, L
+    ( Position 35 36 )
+    ( Whitespace " " )
+, L
+    ( Position 35 37 )
+    ( TokOther "==" )
+, L
+    ( Position 35 39 )
+    ( Whitespace " " )
+, L
+    ( Position 35 40 )
+    ( TokSym "7.6." )
+, L
+    ( Position 35 44 )
+    ( TokOther "*" )
+, L
+    ( Position 35 45 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 36 1 )
+    ( Indent 0 )
+, L
+    ( Position 36 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 36 9 ) Colon
+, L
+    ( Position 36 10 )
+    ( Whitespace "                       " )
+, L
+    ( Position 36 33 )
+    ( TokSym "FFI" )
+, L
+    ( Position 36 36 )
+    ( Whitespace " " )
+, L
+    ( Position 36 37 )
+    ( TokSym "binding" )
+, L
+    ( Position 36 44 )
+    ( Whitespace " " )
+, L
+    ( Position 36 45 )
+    ( TokSym "to" )
+, L
+    ( Position 36 47 )
+    ( Whitespace " " )
+, L
+    ( Position 36 48 )
+    ( TokSym "libNVVM" )
+, L
+    ( Position 36 55 )
+    ( TokOther "," )
+, L
+    ( Position 36 56 )
+    ( Whitespace " " )
+, L
+    ( Position 36 57 )
+    ( TokSym "a" )
+, L
+    ( Position 36 58 )
+    ( Whitespace " " )
+, L
+    ( Position 36 59 )
+    ( TokSym "compiler" )
+, L
+    ( Position 36 67 )
+    ( Whitespace " " )
+, L
+    ( Position 36 68 )
+    ( TokSym "SDK" )
+, L
+    ( Position 36 71 )
+    ( Whitespace " " )
+, L
+    ( Position 36 72 )
+    ( TokSym "component" )
+, L
+    ( Position 36 81 )
+    ( Whitespace " " )
+, L
+    ( Position 36 82 )
+    ( TokSym "from" )
+, L
+    ( Position 36 86 )
+    ( Whitespace " " )
+, L
+    ( Position 36 87 )
+    ( TokSym "NVIDIA" )
+, L
+    ( Position 36 93 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 37 1 )
+    ( Indent 0 )
+, L
+    ( Position 37 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 37 12 ) Colon
+, L
+    ( Position 37 13 )
+    ( Whitespace "                    " )
+, L
+    ( Position 37 33 )
+    ( TokSym "FFI" )
+, L
+    ( Position 37 36 )
+    ( Whitespace " " )
+, L
+    ( Position 37 37 )
+    ( TokSym "binding" )
+, L
+    ( Position 37 44 )
+    ( Whitespace " " )
+, L
+    ( Position 37 45 )
+    ( TokSym "to" )
+, L
+    ( Position 37 47 )
+    ( Whitespace " " )
+, L
+    ( Position 37 48 )
+    ( TokSym "libNVVM" )
+, L
+    ( Position 37 55 )
+    ( TokOther "," )
+, L
+    ( Position 37 56 )
+    ( Whitespace " " )
+, L
+    ( Position 37 57 )
+    ( TokSym "a" )
+, L
+    ( Position 37 58 )
+    ( Whitespace " " )
+, L
+    ( Position 37 59 )
+    ( TokSym "compiler" )
+, L
+    ( Position 37 67 )
+    ( Whitespace " " )
+, L
+    ( Position 37 68 )
+    ( TokSym "SDK" )
+, L
+    ( Position 37 71 )
+    ( Whitespace " " )
+, L
+    ( Position 37 72 )
+    ( TokSym "component" )
+, L
+    ( Position 37 81 )
+    ( Whitespace " " )
+, L
+    ( Position 37 82 )
+    ( TokSym "from" )
+, L
+    ( Position 37 86 )
+    ( Whitespace " " )
+, L
+    ( Position 37 87 )
+    ( TokSym "NVIDIA" )
+, L
+    ( Position 37 93 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 38 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 39 1 )
+    ( Indent 0 )
+, L
+    ( Position 39 1 )
+    ( TokSym "Extra-source-files" )
+, L
+    ( Position 39 19 ) Colon
+, L
+    ( Position 39 20 )
+    ( Whitespace "             " )
+, L
+    ( Position 39 33 )
+    ( TokSym "cbits" )
+, L
+    ( Position 39 38 )
+    ( TokOther "/" )
+, L
+    ( Position 39 39 )
+    ( TokSym "stubs.h" )
+, L
+    ( Position 39 46 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 40 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 41 1 )
+    ( Indent 0 )
+, L
+    ( Position 41 1 )
+    ( TokSym "Library" )
+, L
+    ( Position 41 8 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 42 1 )
+    ( Indent 2 )
+, L
+    ( Position 42 3 )
+    ( TokSym "Exposed-modules" )
+, L
+    ( Position 42 18 ) Colon
+, L
+    ( Position 42 19 )
+    ( Whitespace "              " )
+, L
+    ( Position 42 33 )
+    ( TokSym "Foreign.LibNVVM" )
+, L
+    ( Position 42 48 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 43 1 )
+    ( Indent 32 )
+, L
+    ( Position 43 33 )
+    ( TokSym "Foreign.LibNVVM.Compile" )
+, L
+    ( Position 43 56 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 44 1 )
+    ( Indent 32 )
+, L
+    ( Position 44 33 )
+    ( TokSym "Foreign.LibNVVM.Error" )
+, L
+    ( Position 44 54 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 45 1 )
+    ( Indent 32 )
+, L
+    ( Position 45 33 )
+    ( TokSym "Foreign.LibNVVM.Info" )
+, L
+    ( Position 45 53 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 46 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 47 1 )
+    ( Indent 2 )
+, L
+    ( Position 47 3 )
+    ( TokSym "Other-modules" )
+, L
+    ( Position 47 16 ) Colon
+, L
+    ( Position 47 17 )
+    ( Whitespace "                " )
+, L
+    ( Position 47 33 )
+    ( TokSym "Foreign.LibNVVM.Internal" )
+, L
+    ( Position 47 57 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 48 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 49 1 )
+    ( Indent 2 )
+, L
+    ( Position 49 3 )
+    ( TokSym "Include-dirs" )
+, L
+    ( Position 49 15 ) Colon
+, L
+    ( Position 49 16 )
+    ( Whitespace "                 " )
+, L
+    ( Position 49 33 )
+    ( TokSym "." )
+, L
+    ( Position 49 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 50 1 )
+    ( Indent 2 )
+, L
+    ( Position 50 3 )
+    ( TokSym "Includes" )
+, L
+    ( Position 50 11 ) Colon
+, L
+    ( Position 50 12 )
+    ( Whitespace "                     " )
+, L
+    ( Position 50 33 )
+    ( TokSym "nvvm.h" )
+, L
+    ( Position 50 39 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 51 1 )
+    ( Indent 2 )
+, L
+    ( Position 51 3 )
+    ( TokSym "Extra-Libraries" )
+, L
+    ( Position 51 18 ) Colon
+, L
+    ( Position 51 19 )
+    ( Whitespace "              " )
+, L
+    ( Position 51 33 )
+    ( TokSym "nvvm" )
+, L
+    ( Position 51 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 52 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 53 1 )
+    ( Indent 2 )
+, L
+    ( Position 53 3 )
+    ( TokSym "if" )
+, L
+    ( Position 53 5 )
+    ( Whitespace " " )
+, L
+    ( Position 53 6 )
+    ( TokSym "os" )
+, L
+    ( Position 53 8 )
+    ( TokOther "(" )
+, L
+    ( Position 53 9 )
+    ( TokSym "darwin" )
+, L
+    ( Position 53 15 )
+    ( TokOther ")" )
+, L
+    ( Position 53 16 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 54 1 )
+    ( Indent 4 )
+, L
+    ( Position 54 5 )
+    ( TokSym "CC-options" )
+, L
+    ( Position 54 15 ) Colon
+, L
+    ( Position 54 16 )
+    ( Whitespace "                 " )
+, L
+    ( Position 54 33 )
+    ( TokSym "-U__BLOCKS__" )
+, L
+    ( Position 54 45 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 55 1 )
+    ( Indent 4 )
+, L
+    ( Position 55 5 )
+    ( TokSym "Include-dirs" )
+, L
+    ( Position 55 17 ) Colon
+, L
+    ( Position 55 18 )
+    ( Whitespace "               " )
+, L
+    ( Position 55 33 )
+    ( TokOther "/" )
+, L
+    ( Position 55 34 )
+    ( TokSym "usr" )
+, L
+    ( Position 55 37 )
+    ( TokOther "/" )
+, L
+    ( Position 55 38 )
+    ( TokSym "local" )
+, L
+    ( Position 55 43 )
+    ( TokOther "/" )
+, L
+    ( Position 55 44 )
+    ( TokSym "cuda" )
+, L
+    ( Position 55 48 )
+    ( TokOther "/" )
+, L
+    ( Position 55 49 )
+    ( TokSym "nvvm" )
+, L
+    ( Position 55 53 )
+    ( TokOther "/" )
+, L
+    ( Position 55 54 )
+    ( TokSym "include" )
+, L
+    ( Position 55 61 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 56 1 )
+    ( Indent 4 )
+, L
+    ( Position 56 5 )
+    ( TokSym "Extra-lib-dirs" )
+, L
+    ( Position 56 19 ) Colon
+, L
+    ( Position 56 20 )
+    ( Whitespace "             " )
+, L
+    ( Position 56 33 )
+    ( TokOther "/" )
+, L
+    ( Position 56 34 )
+    ( TokSym "usr" )
+, L
+    ( Position 56 37 )
+    ( TokOther "/" )
+, L
+    ( Position 56 38 )
+    ( TokSym "local" )
+, L
+    ( Position 56 43 )
+    ( TokOther "/" )
+, L
+    ( Position 56 44 )
+    ( TokSym "cuda" )
+, L
+    ( Position 56 48 )
+    ( TokOther "/" )
+, L
+    ( Position 56 49 )
+    ( TokSym "nvvm" )
+, L
+    ( Position 56 53 )
+    ( TokOther "/" )
+, L
+    ( Position 56 54 )
+    ( TokSym "lib" )
+, L
+    ( Position 56 57 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 57 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 58 1 )
+    ( Indent 2 )
+, L
+    ( Position 58 3 )
+    ( TokSym "if" )
+, L
+    ( Position 58 5 )
+    ( Whitespace " " )
+, L
+    ( Position 58 6 )
+    ( TokSym "os" )
+, L
+    ( Position 58 8 )
+    ( TokOther "(" )
+, L
+    ( Position 58 9 )
+    ( TokSym "linux" )
+, L
+    ( Position 58 14 )
+    ( TokOther ")" )
+, L
+    ( Position 58 15 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 59 1 )
+    ( Indent 4 )
+, L
+    ( Position 59 5 )
+    ( TokSym "Include-dirs" )
+, L
+    ( Position 59 17 ) Colon
+, L
+    ( Position 59 18 )
+    ( Whitespace "               " )
+, L
+    ( Position 59 33 )
+    ( TokOther "/" )
+, L
+    ( Position 59 34 )
+    ( TokSym "usr" )
+, L
+    ( Position 59 37 )
+    ( TokOther "/" )
+, L
+    ( Position 59 38 )
+    ( TokSym "local" )
+, L
+    ( Position 59 43 )
+    ( TokOther "/" )
+, L
+    ( Position 59 44 )
+    ( TokSym "cuda" )
+, L
+    ( Position 59 48 )
+    ( TokOther "/" )
+, L
+    ( Position 59 49 )
+    ( TokSym "nvvm" )
+, L
+    ( Position 59 53 )
+    ( TokOther "/" )
+, L
+    ( Position 59 54 )
+    ( TokSym "include" )
+, L
+    ( Position 59 61 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 60 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 61 1 )
+    ( Indent 4 )
+, L
+    ( Position 61 5 )
+    ( TokSym "if" )
+, L
+    ( Position 61 7 )
+    ( Whitespace " " )
+, L
+    ( Position 61 8 )
+    ( TokSym "arch" )
+, L
+    ( Position 61 12 )
+    ( TokOther "(" )
+, L
+    ( Position 61 13 )
+    ( TokSym "i386" )
+, L
+    ( Position 61 17 )
+    ( TokOther ")" )
+, L
+    ( Position 61 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 62 1 )
+    ( Indent 6 )
+, L
+    ( Position 62 7 )
+    ( TokSym "Extra-lib-dirs" )
+, L
+    ( Position 62 21 ) Colon
+, L
+    ( Position 62 22 )
+    ( Whitespace "           " )
+, L
+    ( Position 62 33 )
+    ( TokOther "/" )
+, L
+    ( Position 62 34 )
+    ( TokSym "usr" )
+, L
+    ( Position 62 37 )
+    ( TokOther "/" )
+, L
+    ( Position 62 38 )
+    ( TokSym "local" )
+, L
+    ( Position 62 43 )
+    ( TokOther "/" )
+, L
+    ( Position 62 44 )
+    ( TokSym "cuda" )
+, L
+    ( Position 62 48 )
+    ( TokOther "/" )
+, L
+    ( Position 62 49 )
+    ( TokSym "nvvm" )
+, L
+    ( Position 62 53 )
+    ( TokOther "/" )
+, L
+    ( Position 62 54 )
+    ( TokSym "lib" )
+, L
+    ( Position 62 57 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 63 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 64 1 )
+    ( Indent 4 )
+, L
+    ( Position 64 5 )
+    ( TokSym "if" )
+, L
+    ( Position 64 7 )
+    ( Whitespace " " )
+, L
+    ( Position 64 8 )
+    ( TokSym "arch" )
+, L
+    ( Position 64 12 )
+    ( TokOther "(" )
+, L
+    ( Position 64 13 )
+    ( TokSym "x86_64" )
+, L
+    ( Position 64 19 )
+    ( TokOther ")" )
+, L
+    ( Position 64 20 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 65 1 )
+    ( Indent 6 )
+, L
+    ( Position 65 7 )
+    ( TokSym "Extra-lib-dirs" )
+, L
+    ( Position 65 21 ) Colon
+, L
+    ( Position 65 22 )
+    ( Whitespace "           " )
+, L
+    ( Position 65 33 )
+    ( TokOther "/" )
+, L
+    ( Position 65 34 )
+    ( TokSym "usr" )
+, L
+    ( Position 65 37 )
+    ( TokOther "/" )
+, L
+    ( Position 65 38 )
+    ( TokSym "local" )
+, L
+    ( Position 65 43 )
+    ( TokOther "/" )
+, L
+    ( Position 65 44 )
+    ( TokSym "cuda" )
+, L
+    ( Position 65 48 )
+    ( TokOther "/" )
+, L
+    ( Position 65 49 )
+    ( TokSym "nvvm" )
+, L
+    ( Position 65 53 )
+    ( TokOther "/" )
+, L
+    ( Position 65 54 )
+    ( TokSym "lib64" )
+, L
+    ( Position 65 59 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 66 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 67 1 )
+    ( Indent 2 )
+, L
+    ( Position 67 3 )
+    ( TokSym "GHC-options" )
+, L
+    ( Position 67 14 ) Colon
+, L
+    ( Position 67 15 )
+    ( Whitespace "                  " )
+, L
+    ( Position 67 33 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 67 38 )
+    ( Whitespace " " )
+, L
+    ( Position 67 39 )
+    ( TokSym "-O2" )
+, L
+    ( Position 67 42 )
+    ( Whitespace " " )
+, L
+    ( Position 67 43 )
+    ( TokSym "-fwarn-tabs" )
+, L
+    ( Position 67 54 )
+    ( Whitespace " " )
+, L
+    ( Position 67 55 )
+    ( TokSym "-funbox-strict-fields" )
+, L
+    ( Position 67 76 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 68 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 69 1 )
+    ( Indent 2 )
+, L
+    ( Position 69 3 )
+    ( TokSym "Build-tools" )
+, L
+    ( Position 69 14 ) Colon
+, L
+    ( Position 69 15 )
+    ( Whitespace "                  " )
+, L
+    ( Position 69 33 )
+    ( TokSym "c2hs" )
+, L
+    ( Position 69 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 70 1 )
+    ( Indent 2 )
+, L
+    ( Position 70 3 )
+    ( TokSym "Build-depends" )
+, L
+    ( Position 70 16 ) Colon
+, L
+    ( Position 70 17 )
+    ( Whitespace "                " )
+, L
+    ( Position 70 33 )
+    ( TokSym "base" )
+, L
+    ( Position 70 37 )
+    ( Whitespace "                        " )
+, L
+    ( Position 70 61 )
+    ( TokOther ">=" )
+, L
+    ( Position 70 63 )
+    ( Whitespace " " )
+, L
+    ( Position 70 64 )
+    ( TokSym "4" )
+, L
+    ( Position 70 65 )
+    ( Whitespace " " )
+, L
+    ( Position 70 66 )
+    ( TokOther "&&" )
+, L
+    ( Position 70 68 )
+    ( Whitespace " " )
+, L
+    ( Position 70 69 )
+    ( TokOther "<" )
+, L
+    ( Position 70 70 )
+    ( Whitespace " " )
+, L
+    ( Position 70 71 )
+    ( TokSym "5" )
+, L
+    ( Position 70 72 )
+    ( TokOther "," )
+, L
+    ( Position 70 73 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 71 1 )
+    ( Indent 32 )
+, L
+    ( Position 71 33 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 71 43 )
+    ( Whitespace "                  " )
+, L
+    ( Position 71 61 )
+    ( TokOther ">=" )
+, L
+    ( Position 71 63 )
+    ( Whitespace " " )
+, L
+    ( Position 71 64 )
+    ( TokSym "0.9" )
+, L
+    ( Position 71 67 )
+    ( TokOther "," )
+, L
+    ( Position 71 68 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 72 1 )
+    ( Indent 32 )
+, L
+    ( Position 72 33 )
+    ( TokSym "cuda" )
+, L
+    ( Position 72 37 )
+    ( Whitespace "                        " )
+, L
+    ( Position 72 61 )
+    ( TokOther ">=" )
+, L
+    ( Position 72 63 )
+    ( Whitespace " " )
+, L
+    ( Position 72 64 )
+    ( TokSym "0.5" )
+, L
+    ( Position 72 67 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 73 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 74 1 )
+    ( Indent 2 )
+, L
+    ( Position 74 3 )
+    ( TokSym "Default-language" )
+, L
+    ( Position 74 19 ) Colon
+, L
+    ( Position 74 20 )
+    ( Whitespace "             " )
+, L
+    ( Position 74 33 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 74 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 75 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 76 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 77 1 )
+    ( Indent 0 )
+, L
+    ( Position 77 1 )
+    ( TokSym "Test-suite" )
+, L
+    ( Position 77 11 )
+    ( Whitespace " " )
+, L
+    ( Position 77 12 )
+    ( TokSym "test-simple" )
+, L
+    ( Position 77 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 78 1 )
+    ( Indent 2 )
+, L
+    ( Position 78 3 )
+    ( TokSym "Main-is" )
+, L
+    ( Position 78 10 ) Colon
+, L
+    ( Position 78 11 )
+    ( Whitespace "                      " )
+, L
+    ( Position 78 33 )
+    ( TokSym "Simple.hs" )
+, L
+    ( Position 78 42 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 79 1 )
+    ( Indent 2 )
+, L
+    ( Position 79 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 79 17 ) Colon
+, L
+    ( Position 79 18 )
+    ( Whitespace "               " )
+, L
+    ( Position 79 33 )
+    ( TokSym "Test" )
+, L
+    ( Position 79 37 )
+    ( TokOther "/" )
+, L
+    ( Position 79 38 )
+    ( TokSym "simple" )
+, L
+    ( Position 79 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 80 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 81 1 )
+    ( Indent 2 )
+, L
+    ( Position 81 3 )
+    ( TokSym "Build-depends" )
+, L
+    ( Position 81 16 ) Colon
+, L
+    ( Position 81 17 )
+    ( Whitespace "                " )
+, L
+    ( Position 81 33 )
+    ( TokSym "libnvvm" )
+, L
+    ( Position 81 40 )
+    ( TokOther "," )
+, L
+    ( Position 81 41 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 82 1 )
+    ( Indent 32 )
+, L
+    ( Position 82 33 )
+    ( TokSym "base" )
+, L
+    ( Position 82 37 )
+    ( Whitespace "                        " )
+, L
+    ( Position 82 61 )
+    ( TokOther ">=" )
+, L
+    ( Position 82 63 )
+    ( Whitespace " " )
+, L
+    ( Position 82 64 )
+    ( TokSym "4" )
+, L
+    ( Position 82 65 )
+    ( Whitespace " " )
+, L
+    ( Position 82 66 )
+    ( TokOther "&&" )
+, L
+    ( Position 82 68 )
+    ( Whitespace " " )
+, L
+    ( Position 82 69 )
+    ( TokOther "<" )
+, L
+    ( Position 82 70 )
+    ( Whitespace " " )
+, L
+    ( Position 82 71 )
+    ( TokSym "5" )
+, L
+    ( Position 82 72 )
+    ( TokOther "," )
+, L
+    ( Position 82 73 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 83 1 )
+    ( Indent 32 )
+, L
+    ( Position 83 33 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 83 43 )
+    ( Whitespace "                  " )
+, L
+    ( Position 83 61 )
+    ( TokOther ">=" )
+, L
+    ( Position 83 63 )
+    ( Whitespace " " )
+, L
+    ( Position 83 64 )
+    ( TokSym "0.9" )
+, L
+    ( Position 83 67 )
+    ( TokOther "," )
+, L
+    ( Position 83 68 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 84 1 )
+    ( Indent 32 )
+, L
+    ( Position 84 33 )
+    ( TokSym "test-framework" )
+, L
+    ( Position 84 47 )
+    ( Whitespace "              " )
+, L
+    ( Position 84 61 )
+    ( TokOther ">=" )
+, L
+    ( Position 84 63 )
+    ( Whitespace " " )
+, L
+    ( Position 84 64 )
+    ( TokSym "0.2" )
+, L
+    ( Position 84 67 )
+    ( TokOther "," )
+, L
+    ( Position 84 68 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 85 1 )
+    ( Indent 32 )
+, L
+    ( Position 85 33 )
+    ( TokSym "test-framework-hunit" )
+, L
+    ( Position 85 53 )
+    ( Whitespace "        " )
+, L
+    ( Position 85 61 )
+    ( TokOther ">=" )
+, L
+    ( Position 85 63 )
+    ( Whitespace " " )
+, L
+    ( Position 85 64 )
+    ( TokSym "0.2" )
+, L
+    ( Position 85 67 )
+    ( TokOther "," )
+, L
+    ( Position 85 68 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 86 1 )
+    ( Indent 32 )
+, L
+    ( Position 86 33 )
+    ( TokSym "Cabal" )
+, L
+    ( Position 86 38 )
+    ( Whitespace "                       " )
+, L
+    ( Position 86 61 )
+    ( TokOther ">=" )
+, L
+    ( Position 86 63 )
+    ( Whitespace " " )
+, L
+    ( Position 86 64 )
+    ( TokSym "1.10.1" )
+, L
+    ( Position 86 70 )
+    ( TokOther "," )
+, L
+    ( Position 86 71 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 87 1 )
+    ( Indent 32 )
+, L
+    ( Position 87 33 )
+    ( TokSym "HUnit" )
+, L
+    ( Position 87 38 )
+    ( Whitespace "                       " )
+, L
+    ( Position 87 61 )
+    ( TokOther ">=" )
+, L
+    ( Position 87 63 )
+    ( Whitespace " " )
+, L
+    ( Position 87 64 )
+    ( TokSym "1.2" )
+, L
+    ( Position 87 67 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 88 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 89 1 )
+    ( Indent 2 )
+, L
+    ( Position 89 3 )
+    ( TokSym "Type" )
+, L
+    ( Position 89 7 ) Colon
+, L
+    ( Position 89 8 )
+    ( Whitespace "                         " )
+, L
+    ( Position 89 33 )
+    ( TokSym "exitcode-stdio-1.0" )
+, L
+    ( Position 89 51 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 90 1 )
+    ( Indent 2 )
+, L
+    ( Position 90 3 )
+    ( TokSym "GHC-options" )
+, L
+    ( Position 90 14 ) Colon
+, L
+    ( Position 90 15 )
+    ( Whitespace "                  " )
+, L
+    ( Position 90 33 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 90 38 )
+    ( Whitespace " " )
+, L
+    ( Position 90 39 )
+    ( TokSym "-O2" )
+, L
+    ( Position 90 42 )
+    ( Whitespace " " )
+, L
+    ( Position 90 43 )
+    ( TokSym "-fwarn-tabs" )
+, L
+    ( Position 90 54 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 91 1 )
+    ( Indent 2 )
+, L
+    ( Position 91 3 )
+    ( TokSym "Default-language" )
+, L
+    ( Position 91 19 ) Colon
+, L
+    ( Position 91 20 )
+    ( Whitespace "             " )
+, L
+    ( Position 91 33 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 91 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 92 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 93 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 94 1 )
+    ( Comment "-- Disable due to a libNVVM parsing error bug of the DataLayout field" )
+, L
+    ( Position 94 70 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 95 1 )
+    ( Comment "--" )
+, L
+    ( Position 95 3 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 96 1 )
+    ( Comment "-- Test-suite test-llvmgen" )
+, L
+    ( Position 96 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 97 1 )
+    ( Comment "--   Main-is:                     LLVMGen.hs" )
+, L
+    ( Position 97 45 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 98 1 )
+    ( Comment "--   Other-modules:               HelloWorld" )
+, L
+    ( Position 98 45 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 99 1 )
+    ( Comment "--   hs-source-dirs:              Test/llvm-gen" )
+, L
+    ( Position 99 48 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 100 1 )
+    ( Comment "--" )
+, L
+    ( Position 100 3 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 101 1 )
+    ( Comment "--   Build-depends:               libnvvm," )
+, L
+    ( Position 101 43 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 102 1 )
+    ( Comment "--                                base                        >= 4 && < 5," )
+, L
+    ( Position 102 75 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 103 1 )
+    ( Comment "--                                bytestring                  >= 0.9," )
+, L
+    ( Position 103 70 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 104 1 )
+    ( Comment "--                                containers                  >= 0.5," )
+, L
+    ( Position 104 70 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 105 1 )
+    ( Comment "--                                cuda                        >= 0.5," )
+, L
+    ( Position 105 70 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 106 1 )
+    ( Comment "--                                llvm-general                == 3.2.*," )
+, L
+    ( Position 106 72 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 107 1 )
+    ( Comment "--                                llvm-general-pure           == 3.2.*," )
+, L
+    ( Position 107 72 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 108 1 )
+    ( Comment "--                                mtl                         >= 2.0" )
+, L
+    ( Position 108 69 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 109 1 )
+    ( Comment "--" )
+, L
+    ( Position 109 3 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 110 1 )
+    ( Comment "--   Type:                        exitcode-stdio-1.0" )
+, L
+    ( Position 110 53 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 111 1 )
+    ( Comment "--   GHC-options:                 -Wall -O2 -fwarn-tabs" )
+, L
+    ( Position 111 56 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 112 1 )
+    ( Comment "--   Default-language:            Haskell2010" )
+, L
+    ( Position 112 46 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 113 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 114 1 )
+    ( Indent 0 )
+, L
+    ( Position 114 1 )
+    ( TokSym "Source-repository" )
+, L
+    ( Position 114 18 )
+    ( Whitespace " " )
+, L
+    ( Position 114 19 )
+    ( TokSym "head" )
+, L
+    ( Position 114 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 115 1 )
+    ( Indent 2 )
+, L
+    ( Position 115 3 )
+    ( TokSym "Type" )
+, L
+    ( Position 115 7 ) Colon
+, L
+    ( Position 115 8 )
+    ( Whitespace "                         " )
+, L
+    ( Position 115 33 )
+    ( TokSym "git" )
+, L
+    ( Position 115 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 116 1 )
+    ( Indent 2 )
+, L
+    ( Position 116 3 )
+    ( TokSym "Location" )
+, L
+    ( Position 116 11 ) Colon
+, L
+    ( Position 116 12 )
+    ( Whitespace "                     " )
+, L
+    ( Position 116 33 )
+    ( TokSym "https" )
+, L
+    ( Position 116 38 ) Colon
+, L
+    ( Position 116 39 )
+    ( TokOther "//" )
+, L
+    ( Position 116 41 )
+    ( TokSym "github.com" )
+, L
+    ( Position 116 51 )
+    ( TokOther "/" )
+, L
+    ( Position 116 52 )
+    ( TokSym "nvidia-compiler-sdk" )
+, L
+    ( Position 116 71 )
+    ( TokOther "/" )
+, L
+    ( Position 116 72 )
+    ( TokSym "hsnvvm.git" )
+, L
+    ( Position 116 82 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 117 1 ) EOF
+]

@@ -1,0 +1,733 @@
+[ L
+    ( Position 1 1 )
+    ( Comment "----------------------------------------------------------------" )
+, L
+    ( Position 1 65 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 2 1 )
+    ( Comment "-- wren ng thornton <wren@community.haskell.org>    ~ 2008.08.17" )
+, L
+    ( Position 2 65 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 3 1 )
+    ( Comment "----------------------------------------------------------------" )
+, L
+    ( Position 3 65 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 4 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 5 5 ) Colon
+, L
+    ( Position 5 6 )
+    ( Whitespace "           " )
+, L
+    ( Position 5 17 )
+    ( TokSym "logfloat" )
+, L
+    ( Position 5 25 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 6 1 )
+    ( Indent 0 )
+, L
+    ( Position 6 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 6 8 ) Colon
+, L
+    ( Position 6 9 )
+    ( Whitespace "        " )
+, L
+    ( Position 6 17 )
+    ( TokSym "0.8.6" )
+, L
+    ( Position 6 22 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 7 1 )
+    ( Indent 0 )
+, L
+    ( Position 7 1 )
+    ( TokSym "Cabal-Version" )
+, L
+    ( Position 7 14 ) Colon
+, L
+    ( Position 7 15 )
+    ( Whitespace "  " )
+, L
+    ( Position 7 17 )
+    ( TokOther ">=" )
+, L
+    ( Position 7 19 )
+    ( Whitespace " " )
+, L
+    ( Position 7 20 )
+    ( TokSym "1.2" )
+, L
+    ( Position 7 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 8 1 )
+    ( Indent 0 )
+, L
+    ( Position 8 1 )
+    ( TokSym "Build-Type" )
+, L
+    ( Position 8 11 ) Colon
+, L
+    ( Position 8 12 )
+    ( Whitespace "     " )
+, L
+    ( Position 8 17 )
+    ( TokSym "Simple" )
+, L
+    ( Position 8 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 9 1 )
+    ( Indent 0 )
+, L
+    ( Position 9 1 )
+    ( TokSym "Stability" )
+, L
+    ( Position 9 10 ) Colon
+, L
+    ( Position 9 11 )
+    ( Whitespace "      " )
+, L
+    ( Position 9 17 )
+    ( TokSym "stable" )
+, L
+    ( Position 9 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 10 1 )
+    ( Indent 0 )
+, L
+    ( Position 10 1 )
+    ( TokSym "Copyright" )
+, L
+    ( Position 10 10 ) Colon
+, L
+    ( Position 10 11 )
+    ( Whitespace "      " )
+, L
+    ( Position 10 17 )
+    ( TokSym "Copyright" )
+, L
+    ( Position 10 26 )
+    ( Whitespace " " )
+, L
+    ( Position 10 27 )
+    ( TokOther "(" )
+, L
+    ( Position 10 28 )
+    ( TokSym "c" )
+, L
+    ( Position 10 29 )
+    ( TokOther ")" )
+, L
+    ( Position 10 30 )
+    ( Whitespace " " )
+, L
+    ( Position 10 31 )
+    ( TokSym "2007--2008" )
+, L
+    ( Position 10 41 )
+    ( Whitespace " " )
+, L
+    ( Position 10 42 )
+    ( TokSym "wren" )
+, L
+    ( Position 10 46 )
+    ( Whitespace " " )
+, L
+    ( Position 10 47 )
+    ( TokSym "ng" )
+, L
+    ( Position 10 49 )
+    ( Whitespace " " )
+, L
+    ( Position 10 50 )
+    ( TokSym "thornton" )
+, L
+    ( Position 10 58 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 11 1 )
+    ( Indent 0 )
+, L
+    ( Position 11 1 )
+    ( TokSym "License" )
+, L
+    ( Position 11 8 ) Colon
+, L
+    ( Position 11 9 )
+    ( Whitespace "        " )
+, L
+    ( Position 11 17 )
+    ( TokSym "BSD3" )
+, L
+    ( Position 11 21 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 12 1 )
+    ( Indent 0 )
+, L
+    ( Position 12 1 )
+    ( TokSym "License-File" )
+, L
+    ( Position 12 13 ) Colon
+, L
+    ( Position 12 14 )
+    ( Whitespace "   " )
+, L
+    ( Position 12 17 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 12 24 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 13 1 )
+    ( Indent 0 )
+, L
+    ( Position 13 1 )
+    ( TokSym "Author" )
+, L
+    ( Position 13 7 ) Colon
+, L
+    ( Position 13 8 )
+    ( Whitespace "         " )
+, L
+    ( Position 13 17 )
+    ( TokSym "wren" )
+, L
+    ( Position 13 21 )
+    ( Whitespace " " )
+, L
+    ( Position 13 22 )
+    ( TokSym "ng" )
+, L
+    ( Position 13 24 )
+    ( Whitespace " " )
+, L
+    ( Position 13 25 )
+    ( TokSym "thornton" )
+, L
+    ( Position 13 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 14 1 )
+    ( Indent 0 )
+, L
+    ( Position 14 1 )
+    ( TokSym "Maintainer" )
+, L
+    ( Position 14 11 ) Colon
+, L
+    ( Position 14 12 )
+    ( Whitespace "     " )
+, L
+    ( Position 14 17 )
+    ( TokSym "wren" )
+, L
+    ( Position 14 21 )
+    ( TokOther "@" )
+, L
+    ( Position 14 22 )
+    ( TokSym "community.haskell.org" )
+, L
+    ( Position 14 43 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 15 1 )
+    ( Indent 0 )
+, L
+    ( Position 15 1 )
+    ( TokSym "Homepage" )
+, L
+    ( Position 15 9 ) Colon
+, L
+    ( Position 15 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 15 17 )
+    ( TokSym "http" )
+, L
+    ( Position 15 21 ) Colon
+, L
+    ( Position 15 22 )
+    ( TokOther "//" )
+, L
+    ( Position 15 24 )
+    ( TokSym "code.haskell.org" )
+, L
+    ( Position 15 40 )
+    ( TokOther "/~" )
+, L
+    ( Position 15 42 )
+    ( TokSym "wren" )
+, L
+    ( Position 15 46 )
+    ( TokOther "/" )
+, L
+    ( Position 15 47 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 16 1 )
+    ( Indent 0 )
+, L
+    ( Position 16 1 )
+    ( TokSym "Category" )
+, L
+    ( Position 16 9 ) Colon
+, L
+    ( Position 16 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 16 17 )
+    ( TokSym "Data" )
+, L
+    ( Position 16 21 )
+    ( TokOther "," )
+, L
+    ( Position 16 22 )
+    ( Whitespace " " )
+, L
+    ( Position 16 23 )
+    ( TokSym "Math" )
+, L
+    ( Position 16 27 )
+    ( TokOther "," )
+, L
+    ( Position 16 28 )
+    ( Whitespace " " )
+, L
+    ( Position 16 29 )
+    ( TokSym "Natural" )
+, L
+    ( Position 16 36 )
+    ( Whitespace " " )
+, L
+    ( Position 16 37 )
+    ( TokSym "Language" )
+, L
+    ( Position 16 45 )
+    ( Whitespace " " )
+, L
+    ( Position 16 46 )
+    ( TokSym "Processing" )
+, L
+    ( Position 16 56 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 17 1 )
+    ( Indent 0 )
+, L
+    ( Position 17 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 17 9 ) Colon
+, L
+    ( Position 17 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 17 17 )
+    ( TokSym "Log-domain" )
+, L
+    ( Position 17 27 )
+    ( Whitespace " " )
+, L
+    ( Position 17 28 )
+    ( TokSym "floating" )
+, L
+    ( Position 17 36 )
+    ( Whitespace " " )
+, L
+    ( Position 17 37 )
+    ( TokSym "point" )
+, L
+    ( Position 17 42 )
+    ( Whitespace " " )
+, L
+    ( Position 17 43 )
+    ( TokSym "numbers" )
+, L
+    ( Position 17 50 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 18 1 )
+    ( Indent 0 )
+, L
+    ( Position 18 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 18 12 ) Colon
+, L
+    ( Position 18 13 )
+    ( Whitespace "    " )
+, L
+    ( Position 18 17 )
+    ( TokSym "This" )
+, L
+    ( Position 18 21 )
+    ( Whitespace " " )
+, L
+    ( Position 18 22 )
+    ( TokSym "module" )
+, L
+    ( Position 18 28 )
+    ( Whitespace " " )
+, L
+    ( Position 18 29 )
+    ( TokSym "presents" )
+, L
+    ( Position 18 37 )
+    ( Whitespace " " )
+, L
+    ( Position 18 38 )
+    ( TokSym "a" )
+, L
+    ( Position 18 39 )
+    ( Whitespace " " )
+, L
+    ( Position 18 40 )
+    ( TokSym "class" )
+, L
+    ( Position 18 45 )
+    ( Whitespace " " )
+, L
+    ( Position 18 46 )
+    ( TokSym "for" )
+, L
+    ( Position 18 49 )
+    ( Whitespace " " )
+, L
+    ( Position 18 50 )
+    ( TokSym "storing" )
+, L
+    ( Position 18 57 )
+    ( Whitespace " " )
+, L
+    ( Position 18 58 )
+    ( TokSym "numbers" )
+, L
+    ( Position 18 65 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 19 1 )
+    ( Indent 16 )
+, L
+    ( Position 19 17 )
+    ( TokSym "in" )
+, L
+    ( Position 19 19 )
+    ( Whitespace " " )
+, L
+    ( Position 19 20 )
+    ( TokSym "the" )
+, L
+    ( Position 19 23 )
+    ( Whitespace " " )
+, L
+    ( Position 19 24 )
+    ( TokSym "log-domain." )
+, L
+    ( Position 19 35 )
+    ( Whitespace " " )
+, L
+    ( Position 19 36 )
+    ( TokSym "The" )
+, L
+    ( Position 19 39 )
+    ( Whitespace " " )
+, L
+    ( Position 19 40 )
+    ( TokSym "main" )
+, L
+    ( Position 19 44 )
+    ( Whitespace " " )
+, L
+    ( Position 19 45 )
+    ( TokSym "reason" )
+, L
+    ( Position 19 51 )
+    ( Whitespace " " )
+, L
+    ( Position 19 52 )
+    ( TokSym "for" )
+, L
+    ( Position 19 55 )
+    ( Whitespace " " )
+, L
+    ( Position 19 56 )
+    ( TokSym "doing" )
+, L
+    ( Position 19 61 )
+    ( Whitespace " " )
+, L
+    ( Position 19 62 )
+    ( TokSym "this" )
+, L
+    ( Position 19 66 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 20 1 )
+    ( Indent 16 )
+, L
+    ( Position 20 17 )
+    ( TokSym "is" )
+, L
+    ( Position 20 19 )
+    ( Whitespace " " )
+, L
+    ( Position 20 20 )
+    ( TokSym "to" )
+, L
+    ( Position 20 22 )
+    ( Whitespace " " )
+, L
+    ( Position 20 23 )
+    ( TokSym "prevent" )
+, L
+    ( Position 20 30 )
+    ( Whitespace " " )
+, L
+    ( Position 20 31 )
+    ( TokSym "underflow" )
+, L
+    ( Position 20 40 )
+    ( Whitespace " " )
+, L
+    ( Position 20 41 )
+    ( TokSym "when" )
+, L
+    ( Position 20 45 )
+    ( Whitespace " " )
+, L
+    ( Position 20 46 )
+    ( TokSym "multiplying" )
+, L
+    ( Position 20 57 )
+    ( Whitespace " " )
+, L
+    ( Position 20 58 )
+    ( TokSym "many" )
+, L
+    ( Position 20 62 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 21 1 )
+    ( Indent 16 )
+, L
+    ( Position 21 17 )
+    ( TokSym "probabilities" )
+, L
+    ( Position 21 30 )
+    ( Whitespace " " )
+, L
+    ( Position 21 31 )
+    ( TokSym "as" )
+, L
+    ( Position 21 33 )
+    ( Whitespace " " )
+, L
+    ( Position 21 34 )
+    ( TokSym "is" )
+, L
+    ( Position 21 36 )
+    ( Whitespace " " )
+, L
+    ( Position 21 37 )
+    ( TokSym "done" )
+, L
+    ( Position 21 41 )
+    ( Whitespace " " )
+, L
+    ( Position 21 42 )
+    ( TokSym "in" )
+, L
+    ( Position 21 44 )
+    ( Whitespace " " )
+, L
+    ( Position 21 45 )
+    ( TokSym "Hidden" )
+, L
+    ( Position 21 51 )
+    ( Whitespace " " )
+, L
+    ( Position 21 52 )
+    ( TokSym "Markov" )
+, L
+    ( Position 21 58 )
+    ( Whitespace " " )
+, L
+    ( Position 21 59 )
+    ( TokSym "Models." )
+, L
+    ( Position 21 66 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 22 1 )
+    ( Indent 16 )
+, L
+    ( Position 22 17 )
+    ( TokSym "It" )
+, L
+    ( Position 22 19 )
+    ( Whitespace " " )
+, L
+    ( Position 22 20 )
+    ( TokSym "is" )
+, L
+    ( Position 22 22 )
+    ( Whitespace " " )
+, L
+    ( Position 22 23 )
+    ( TokSym "also" )
+, L
+    ( Position 22 27 )
+    ( Whitespace " " )
+, L
+    ( Position 22 28 )
+    ( TokSym "helpful" )
+, L
+    ( Position 22 35 )
+    ( Whitespace " " )
+, L
+    ( Position 22 36 )
+    ( TokSym "for" )
+, L
+    ( Position 22 39 )
+    ( Whitespace " " )
+, L
+    ( Position 22 40 )
+    ( TokSym "preventing" )
+, L
+    ( Position 22 50 )
+    ( Whitespace " " )
+, L
+    ( Position 22 51 )
+    ( TokSym "overflow." )
+, L
+    ( Position 22 60 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 23 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 24 1 )
+    ( Indent 0 )
+, L
+    ( Position 24 1 )
+    ( TokSym "Library" )
+, L
+    ( Position 24 8 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 25 1 )
+    ( Indent 4 )
+, L
+    ( Position 25 5 )
+    ( TokSym "Exposed-Modules" )
+, L
+    ( Position 25 20 ) Colon
+, L
+    ( Position 25 21 )
+    ( Whitespace " " )
+, L
+    ( Position 25 22 )
+    ( TokSym "Data.Number.LogFloat" )
+, L
+    ( Position 25 42 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 26 1 )
+    ( Indent 19 )
+, L
+    ( Position 26 20 )
+    ( TokOther "," )
+, L
+    ( Position 26 21 )
+    ( Whitespace " " )
+, L
+    ( Position 26 22 )
+    ( TokSym "Data.Number.Transfinite" )
+, L
+    ( Position 26 45 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 27 1 )
+    ( Indent 4 )
+, L
+    ( Position 27 5 )
+    ( TokSym "Build-Depends" )
+, L
+    ( Position 27 18 ) Colon
+, L
+    ( Position 27 19 )
+    ( Whitespace "   " )
+, L
+    ( Position 27 22 )
+    ( TokSym "base" )
+, L
+    ( Position 27 26 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 28 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 29 1 )
+    ( Comment "----------------------------------------------------------------" )
+, L
+    ( Position 29 65 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 30 1 )
+    ( Comment "----------------------------------------------------------- fin." )
+, L
+    ( Position 30 65 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 31 1 ) EOF
+]

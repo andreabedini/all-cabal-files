@@ -1,0 +1,986 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 22 )
+    ( TokSym "network-bitcoin" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 22 )
+    ( TokSym "1.2.2" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 3 9 ) Colon
+, L
+    ( Position 3 22 )
+    ( TokSym "An" )
+, L
+    ( Position 3 25 )
+    ( TokSym "interface" )
+, L
+    ( Position 3 35 )
+    ( TokSym "to" )
+, L
+    ( Position 3 38 )
+    ( TokSym "bitcoind." )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 4 12 ) Colon
+, L
+    ( Position 5 1 )
+    ( Indent 4 )
+, L
+    ( Position 5 5 )
+    ( TokSym "This" )
+, L
+    ( Position 5 10 )
+    ( TokSym "can" )
+, L
+    ( Position 5 14 )
+    ( TokSym "be" )
+, L
+    ( Position 5 17 )
+    ( TokSym "used" )
+, L
+    ( Position 5 22 )
+    ( TokSym "to" )
+, L
+    ( Position 5 25 )
+    ( TokSym "send" )
+, L
+    ( Position 5 30 )
+    ( TokSym "Bitcoins" )
+, L
+    ( Position 5 38 )
+    ( TokOther "," )
+, L
+    ( Position 5 40 )
+    ( TokSym "query" )
+, L
+    ( Position 5 46 )
+    ( TokSym "balances" )
+, L
+    ( Position 5 54 )
+    ( TokOther "," )
+, L
+    ( Position 5 56 )
+    ( TokSym "etc." )
+, L
+    ( Position 5 62 )
+    ( TokSym "It" )
+, L
+    ( Position 6 1 )
+    ( Indent 4 )
+, L
+    ( Position 6 5 )
+    ( TokSym "requires" )
+, L
+    ( Position 6 14 )
+    ( TokSym "the" )
+, L
+    ( Position 6 18 )
+    ( TokSym "Bitcoin" )
+, L
+    ( Position 6 26 )
+    ( TokSym "daemon" )
+, L
+    ( Position 6 33 )
+    ( TokSym "to" )
+, L
+    ( Position 6 36 )
+    ( TokSym "be" )
+, L
+    ( Position 6 39 )
+    ( TokSym "running" )
+, L
+    ( Position 6 47 )
+    ( TokSym "and" )
+, L
+    ( Position 6 51 )
+    ( TokSym "accessible" )
+, L
+    ( Position 6 62 )
+    ( TokSym "via" )
+, L
+    ( Position 7 1 )
+    ( Indent 4 )
+, L
+    ( Position 7 5 )
+    ( TokSym "HTTP." )
+, L
+    ( Position 8 1 )
+    ( Indent 4 )
+, L
+    ( Position 8 5 )
+    ( TokSym "." )
+, L
+    ( Position 9 1 )
+    ( Indent 4 )
+, L
+    ( Position 9 5 )
+    ( TokOther ">" )
+, L
+    ( Position 9 7 )
+    ( TokSym "import" )
+, L
+    ( Position 9 14 )
+    ( TokSym "Network.Bitcoin" )
+, L
+    ( Position 10 1 )
+    ( Indent 4 )
+, L
+    ( Position 10 5 )
+    ( TokOther ">" )
+, L
+    ( Position 11 1 )
+    ( Indent 4 )
+, L
+    ( Position 11 5 )
+    ( TokOther ">" )
+, L
+    ( Position 11 7 )
+    ( TokSym "main" )
+, L
+    ( Position 11 12 )
+    ( TokOther "=" )
+, L
+    ( Position 11 14 )
+    ( TokSym "do" )
+, L
+    ( Position 12 1 )
+    ( Indent 4 )
+, L
+    ( Position 12 5 )
+    ( TokOther ">" )
+, L
+    ( Position 12 10 )
+    ( TokSym "balance" )
+, L
+    ( Position 12 18 )
+    ( TokOther "<-" )
+, L
+    ( Position 12 21 )
+    ( TokSym "getBalance" )
+, L
+    ( Position 12 32 )
+    ( TokSym "auth" )
+, L
+    ( Position 13 1 )
+    ( Indent 4 )
+, L
+    ( Position 13 5 )
+    ( TokOther ">" )
+, L
+    ( Position 13 10 )
+    ( TokSym "putStrLn" )
+, L
+    ( Position 13 19 )
+    ( TokOther "$" )
+, L
+    ( Position 13 21 )
+    ( TokSym "show" )
+, L
+    ( Position 13 26 )
+    ( TokSym "balance" )
+, L
+    ( Position 13 34 )
+    ( TokOther "++" )
+, L
+    ( Position 13 37 )
+    ( TokStr " BTC" )
+, L
+    ( Position 14 1 )
+    ( Indent 4 )
+, L
+    ( Position 14 5 )
+    ( TokOther ">" )
+, L
+    ( Position 14 8 )
+    ( TokSym "where" )
+, L
+    ( Position 15 1 )
+    ( Indent 4 )
+, L
+    ( Position 15 5 )
+    ( TokOther ">" )
+, L
+    ( Position 15 10 )
+    ( TokSym "auth" )
+, L
+    ( Position 15 15 )
+    ( TokOther "=" )
+, L
+    ( Position 15 17 )
+    ( TokSym "Auth" )
+, L
+    ( Position 15 22 )
+    ( TokStr "http://127.0.0.1:8332" )
+, L
+    ( Position 15 46 )
+    ( TokStr "user" )
+, L
+    ( Position 15 53 )
+    ( TokStr "password" )
+, L
+    ( Position 16 1 )
+    ( Indent 4 )
+, L
+    ( Position 16 5 )
+    ( TokSym "." )
+, L
+    ( Position 17 1 )
+    ( Indent 4 )
+, L
+    ( Position 17 5 )
+    ( TokSym "To" )
+, L
+    ( Position 17 8 )
+    ( TokSym "learn" )
+, L
+    ( Position 17 14 )
+    ( TokSym "more" )
+, L
+    ( Position 17 19 )
+    ( TokSym "about" )
+, L
+    ( Position 17 25 )
+    ( TokSym "Bitcoin" )
+, L
+    ( Position 17 32 )
+    ( TokOther "," )
+, L
+    ( Position 17 34 )
+    ( TokSym "see" )
+, L
+    ( Position 17 38 )
+    ( TokOther "<" )
+, L
+    ( Position 17 39 )
+    ( TokSym "http" )
+, L
+    ( Position 17 43 ) Colon
+, L
+    ( Position 17 44 )
+    ( TokOther "//" )
+, L
+    ( Position 17 46 )
+    ( TokSym "www.bitcoin.org" )
+, L
+    ( Position 17 61 )
+    ( TokOther ">." )
+, L
+    ( Position 18 1 )
+    ( Indent 0 )
+, L
+    ( Position 18 1 )
+    ( TokSym "License" )
+, L
+    ( Position 18 8 ) Colon
+, L
+    ( Position 18 22 )
+    ( TokSym "BSD3" )
+, L
+    ( Position 19 1 )
+    ( Indent 0 )
+, L
+    ( Position 19 1 )
+    ( TokSym "License-file" )
+, L
+    ( Position 19 13 ) Colon
+, L
+    ( Position 19 22 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 20 1 )
+    ( Indent 0 )
+, L
+    ( Position 20 1 )
+    ( TokSym "Author" )
+, L
+    ( Position 20 7 ) Colon
+, L
+    ( Position 20 22 )
+    ( TokSym "Michael" )
+, L
+    ( Position 20 30 )
+    ( TokSym "Hendricks" )
+, L
+    ( Position 20 40 )
+    ( TokOther "<" )
+, L
+    ( Position 20 41 )
+    ( TokSym "michael" )
+, L
+    ( Position 20 48 )
+    ( TokOther "@" )
+, L
+    ( Position 20 49 )
+    ( TokSym "ndrix.org" )
+, L
+    ( Position 20 58 )
+    ( TokOther ">" )
+, L
+    ( Position 21 1 )
+    ( Indent 21 )
+, L
+    ( Position 21 22 )
+    ( TokSym "Clark" )
+, L
+    ( Position 21 28 )
+    ( TokSym "Gaebel" )
+, L
+    ( Position 21 35 )
+    ( TokOther "<" )
+, L
+    ( Position 21 36 )
+    ( TokSym "cgaebel" )
+, L
+    ( Position 21 43 )
+    ( TokOther "@" )
+, L
+    ( Position 21 44 )
+    ( TokSym "uwaterloo.ca" )
+, L
+    ( Position 21 56 )
+    ( TokOther ">" )
+, L
+    ( Position 22 1 )
+    ( Indent 0 )
+, L
+    ( Position 22 1 )
+    ( TokSym "Maintainer" )
+, L
+    ( Position 22 11 ) Colon
+, L
+    ( Position 22 22 )
+    ( TokSym "Clark" )
+, L
+    ( Position 22 28 )
+    ( TokSym "Gaebel" )
+, L
+    ( Position 22 35 )
+    ( TokOther "<" )
+, L
+    ( Position 22 36 )
+    ( TokSym "cgaebel" )
+, L
+    ( Position 22 43 )
+    ( TokOther "@" )
+, L
+    ( Position 22 44 )
+    ( TokSym "uwaterloo.ca" )
+, L
+    ( Position 22 56 )
+    ( TokOther ">" )
+, L
+    ( Position 23 1 )
+    ( Indent 0 )
+, L
+    ( Position 23 1 )
+    ( TokSym "Stability" )
+, L
+    ( Position 23 10 ) Colon
+, L
+    ( Position 23 22 )
+    ( TokSym "experimental" )
+, L
+    ( Position 24 1 )
+    ( Indent 0 )
+, L
+    ( Position 24 1 )
+    ( TokSym "Homepage" )
+, L
+    ( Position 24 9 ) Colon
+, L
+    ( Position 24 22 )
+    ( TokSym "http" )
+, L
+    ( Position 24 26 ) Colon
+, L
+    ( Position 24 27 )
+    ( TokOther "//" )
+, L
+    ( Position 24 29 )
+    ( TokSym "github.com" )
+, L
+    ( Position 24 39 )
+    ( TokOther "/" )
+, L
+    ( Position 24 40 )
+    ( TokSym "wowus" )
+, L
+    ( Position 24 45 )
+    ( TokOther "/" )
+, L
+    ( Position 24 46 )
+    ( TokSym "network-bitcoin" )
+, L
+    ( Position 25 1 )
+    ( Indent 0 )
+, L
+    ( Position 25 1 )
+    ( TokSym "Bug-reports" )
+, L
+    ( Position 25 12 ) Colon
+, L
+    ( Position 25 22 )
+    ( TokSym "http" )
+, L
+    ( Position 25 26 ) Colon
+, L
+    ( Position 25 27 )
+    ( TokOther "//" )
+, L
+    ( Position 25 29 )
+    ( TokSym "github.com" )
+, L
+    ( Position 25 39 )
+    ( TokOther "/" )
+, L
+    ( Position 25 40 )
+    ( TokSym "wowus" )
+, L
+    ( Position 25 45 )
+    ( TokOther "/" )
+, L
+    ( Position 25 46 )
+    ( TokSym "network-bitcoin" )
+, L
+    ( Position 25 61 )
+    ( TokOther "/" )
+, L
+    ( Position 25 62 )
+    ( TokSym "issues" )
+, L
+    ( Position 26 1 )
+    ( Indent 0 )
+, L
+    ( Position 26 1 )
+    ( TokSym "Copyright" )
+, L
+    ( Position 26 10 ) Colon
+, L
+    ( Position 26 22 )
+    ( TokSym "2012" )
+, L
+    ( Position 26 27 )
+    ( TokSym "Michael" )
+, L
+    ( Position 26 35 )
+    ( TokSym "Hendricks" )
+, L
+    ( Position 26 45 )
+    ( TokOther "<" )
+, L
+    ( Position 26 46 )
+    ( TokSym "michael" )
+, L
+    ( Position 26 53 )
+    ( TokOther "@" )
+, L
+    ( Position 26 54 )
+    ( TokSym "ndrix.org" )
+, L
+    ( Position 26 63 )
+    ( TokOther ">" )
+, L
+    ( Position 27 1 )
+    ( Indent 21 )
+, L
+    ( Position 27 22 )
+    ( TokSym "2012" )
+, L
+    ( Position 27 27 )
+    ( TokSym "Clark" )
+, L
+    ( Position 27 33 )
+    ( TokSym "Gaebel" )
+, L
+    ( Position 27 40 )
+    ( TokOther "<" )
+, L
+    ( Position 27 41 )
+    ( TokSym "cgaebel" )
+, L
+    ( Position 27 48 )
+    ( TokOther "@" )
+, L
+    ( Position 27 49 )
+    ( TokSym "uwaterloo.ca" )
+, L
+    ( Position 27 61 )
+    ( TokOther ">" )
+, L
+    ( Position 28 1 )
+    ( Indent 0 )
+, L
+    ( Position 28 1 )
+    ( TokSym "Stability" )
+, L
+    ( Position 28 10 ) Colon
+, L
+    ( Position 28 22 )
+    ( TokSym "experimental" )
+, L
+    ( Position 29 1 )
+    ( Indent 0 )
+, L
+    ( Position 29 1 )
+    ( TokSym "Homepage" )
+, L
+    ( Position 29 9 ) Colon
+, L
+    ( Position 29 22 )
+    ( TokSym "http" )
+, L
+    ( Position 29 26 ) Colon
+, L
+    ( Position 29 27 )
+    ( TokOther "//" )
+, L
+    ( Position 29 29 )
+    ( TokSym "github.com" )
+, L
+    ( Position 29 39 )
+    ( TokOther "/" )
+, L
+    ( Position 29 40 )
+    ( TokSym "mndrix" )
+, L
+    ( Position 29 46 )
+    ( TokOther "/" )
+, L
+    ( Position 29 47 )
+    ( TokSym "network-bitcoin" )
+, L
+    ( Position 30 1 )
+    ( Indent 0 )
+, L
+    ( Position 30 1 )
+    ( TokSym "Bug-reports" )
+, L
+    ( Position 30 12 ) Colon
+, L
+    ( Position 30 22 )
+    ( TokSym "http" )
+, L
+    ( Position 30 26 ) Colon
+, L
+    ( Position 30 27 )
+    ( TokOther "//" )
+, L
+    ( Position 30 29 )
+    ( TokSym "github.com" )
+, L
+    ( Position 30 39 )
+    ( TokOther "/" )
+, L
+    ( Position 30 40 )
+    ( TokSym "wowus" )
+, L
+    ( Position 30 45 )
+    ( TokOther "/" )
+, L
+    ( Position 30 46 )
+    ( TokSym "network-bitcoin" )
+, L
+    ( Position 30 61 )
+    ( TokOther "/" )
+, L
+    ( Position 30 62 )
+    ( TokSym "issues" )
+, L
+    ( Position 31 1 )
+    ( Indent 0 )
+, L
+    ( Position 31 1 )
+    ( TokSym "Category" )
+, L
+    ( Position 31 9 ) Colon
+, L
+    ( Position 31 22 )
+    ( TokSym "Network" )
+, L
+    ( Position 32 1 )
+    ( Indent 0 )
+, L
+    ( Position 32 1 )
+    ( TokSym "Build-type" )
+, L
+    ( Position 32 11 ) Colon
+, L
+    ( Position 32 22 )
+    ( TokSym "Simple" )
+, L
+    ( Position 33 1 )
+    ( Indent 0 )
+, L
+    ( Position 33 1 )
+    ( TokSym "Cabal-version" )
+, L
+    ( Position 33 14 ) Colon
+, L
+    ( Position 33 22 )
+    ( TokOther ">=" )
+, L
+    ( Position 33 24 )
+    ( TokSym "1.8" )
+, L
+    ( Position 34 1 )
+    ( Indent 0 )
+, L
+    ( Position 34 1 )
+    ( TokSym "tested-with" )
+, L
+    ( Position 34 12 ) Colon
+, L
+    ( Position 34 22 )
+    ( TokSym "GHC" )
+, L
+    ( Position 34 26 )
+    ( TokOther "==" )
+, L
+    ( Position 34 28 )
+    ( TokSym "7.4.1" )
+, L
+    ( Position 34 33 )
+    ( TokOther "," )
+, L
+    ( Position 34 35 )
+    ( TokSym "GHC" )
+, L
+    ( Position 34 39 )
+    ( TokOther "==" )
+, L
+    ( Position 34 41 )
+    ( TokSym "7.6.2" )
+, L
+    ( Position 34 46 )
+    ( TokOther "," )
+, L
+    ( Position 34 48 )
+    ( TokSym "GHC" )
+, L
+    ( Position 34 52 )
+    ( TokOther "==" )
+, L
+    ( Position 34 54 )
+    ( TokSym "7.6.3" )
+, L
+    ( Position 36 1 )
+    ( Indent 0 )
+, L
+    ( Position 36 1 )
+    ( TokSym "Library" )
+, L
+    ( Position 37 1 )
+    ( Indent 2 )
+, L
+    ( Position 37 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 37 17 ) Colon
+, L
+    ( Position 37 19 )
+    ( TokSym "src" )
+, L
+    ( Position 38 1 )
+    ( Indent 2 )
+, L
+    ( Position 38 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 38 14 ) Colon
+, L
+    ( Position 38 16 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 40 1 )
+    ( Indent 2 )
+, L
+    ( Position 40 3 )
+    ( TokSym "Exposed-modules" )
+, L
+    ( Position 40 18 ) Colon
+, L
+    ( Position 41 1 )
+    ( Indent 4 )
+, L
+    ( Position 41 5 )
+    ( TokSym "Network.Bitcoin" )
+, L
+    ( Position 42 1 )
+    ( Indent 4 )
+, L
+    ( Position 42 5 )
+    ( TokSym "Network.Bitcoin.BlockChain" )
+, L
+    ( Position 43 1 )
+    ( Indent 4 )
+, L
+    ( Position 43 5 )
+    ( TokSym "Network.Bitcoin.Dump" )
+, L
+    ( Position 44 1 )
+    ( Indent 4 )
+, L
+    ( Position 44 5 )
+    ( TokSym "Network.Bitcoin.Internal" )
+, L
+    ( Position 45 1 )
+    ( Indent 4 )
+, L
+    ( Position 45 5 )
+    ( TokSym "Network.Bitcoin.Mining" )
+, L
+    ( Position 46 1 )
+    ( Indent 4 )
+, L
+    ( Position 46 5 )
+    ( TokSym "Network.Bitcoin.Net" )
+, L
+    ( Position 47 1 )
+    ( Indent 4 )
+, L
+    ( Position 47 5 )
+    ( TokSym "Network.Bitcoin.RawTransaction" )
+, L
+    ( Position 48 1 )
+    ( Indent 4 )
+, L
+    ( Position 48 5 )
+    ( TokSym "Network.Bitcoin.Types" )
+, L
+    ( Position 49 1 )
+    ( Indent 4 )
+, L
+    ( Position 49 5 )
+    ( TokSym "Network.Bitcoin.Wallet" )
+, L
+    ( Position 51 1 )
+    ( Indent 2 )
+, L
+    ( Position 51 3 )
+    ( TokSym "Build-depends" )
+, L
+    ( Position 51 16 ) Colon
+, L
+    ( Position 52 1 )
+    ( Indent 4 )
+, L
+    ( Position 52 5 )
+    ( TokSym "aeson" )
+, L
+    ( Position 52 11 )
+    ( TokOther "==" )
+, L
+    ( Position 52 14 )
+    ( TokSym "0.6." )
+, L
+    ( Position 52 18 )
+    ( TokOther "*," )
+, L
+    ( Position 53 1 )
+    ( Indent 4 )
+, L
+    ( Position 53 5 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 53 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 53 19 )
+    ( TokSym "0.9" )
+, L
+    ( Position 53 23 )
+    ( TokOther "&&" )
+, L
+    ( Position 53 26 )
+    ( TokOther "<" )
+, L
+    ( Position 53 28 )
+    ( TokSym "0.11" )
+, L
+    ( Position 53 32 )
+    ( TokOther "," )
+, L
+    ( Position 54 1 )
+    ( Indent 4 )
+, L
+    ( Position 54 5 )
+    ( TokSym "attoparsec" )
+, L
+    ( Position 54 16 )
+    ( TokOther "==" )
+, L
+    ( Position 54 19 )
+    ( TokSym "0.10." )
+, L
+    ( Position 54 24 )
+    ( TokOther "*," )
+, L
+    ( Position 55 1 )
+    ( Indent 4 )
+, L
+    ( Position 55 5 )
+    ( TokSym "unordered-containers" )
+, L
+    ( Position 55 26 )
+    ( TokOther ">=" )
+, L
+    ( Position 55 29 )
+    ( TokSym "0.2" )
+, L
+    ( Position 55 32 )
+    ( TokOther "," )
+, L
+    ( Position 56 1 )
+    ( Indent 4 )
+, L
+    ( Position 56 5 )
+    ( TokSym "HTTP" )
+, L
+    ( Position 56 10 )
+    ( TokOther ">=" )
+, L
+    ( Position 56 13 )
+    ( TokSym "4000" )
+, L
+    ( Position 56 17 )
+    ( TokOther "," )
+, L
+    ( Position 57 1 )
+    ( Indent 4 )
+, L
+    ( Position 57 5 )
+    ( TokSym "network" )
+, L
+    ( Position 57 13 )
+    ( TokOther ">=" )
+, L
+    ( Position 57 16 )
+    ( TokSym "2.3" )
+, L
+    ( Position 57 19 )
+    ( TokOther "," )
+, L
+    ( Position 58 1 )
+    ( Indent 4 )
+, L
+    ( Position 58 5 )
+    ( TokSym "text" )
+, L
+    ( Position 58 10 )
+    ( TokOther ">=" )
+, L
+    ( Position 58 13 )
+    ( TokSym "0.11" )
+, L
+    ( Position 58 17 )
+    ( TokOther "," )
+, L
+    ( Position 59 1 )
+    ( Indent 4 )
+, L
+    ( Position 59 5 )
+    ( TokSym "vector" )
+, L
+    ( Position 59 12 )
+    ( TokOther ">=" )
+, L
+    ( Position 59 15 )
+    ( TokSym "0.10" )
+, L
+    ( Position 59 19 )
+    ( TokOther "," )
+, L
+    ( Position 60 1 )
+    ( Indent 4 )
+, L
+    ( Position 60 5 )
+    ( TokSym "base" )
+, L
+    ( Position 60 10 )
+    ( TokOther "==" )
+, L
+    ( Position 60 13 )
+    ( TokSym "4." )
+, L
+    ( Position 60 15 )
+    ( TokOther "*" )
+, L
+    ( Position 62 1 )
+    ( Indent 0 )
+, L
+    ( Position 62 1 )
+    ( TokSym "Source-repository" )
+, L
+    ( Position 62 19 )
+    ( TokSym "head" )
+, L
+    ( Position 63 1 )
+    ( Indent 4 )
+, L
+    ( Position 63 5 )
+    ( TokSym "type" )
+, L
+    ( Position 63 9 ) Colon
+, L
+    ( Position 63 11 )
+    ( TokSym "git" )
+, L
+    ( Position 64 1 )
+    ( Indent 4 )
+, L
+    ( Position 64 5 )
+    ( TokSym "location" )
+, L
+    ( Position 64 13 ) Colon
+, L
+    ( Position 64 15 )
+    ( TokSym "git" )
+, L
+    ( Position 64 18 ) Colon
+, L
+    ( Position 64 19 )
+    ( TokOther "//" )
+, L
+    ( Position 64 21 )
+    ( TokSym "github.com" )
+, L
+    ( Position 64 31 )
+    ( TokOther "/" )
+, L
+    ( Position 64 32 )
+    ( TokSym "wowus" )
+, L
+    ( Position 64 37 )
+    ( TokOther "/" )
+, L
+    ( Position 64 38 )
+    ( TokSym "network-bitcoin.git" )
+, L
+    ( Position 65 1 ) EOF
+]

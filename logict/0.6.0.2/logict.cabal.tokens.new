@@ -1,0 +1,212 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 6 )
+    ( Whitespace "                   " )
+, L
+    ( Position 1 25 )
+    ( TokSym "logict" )
+, L
+    ( Position 1 31 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 9 )
+    ( Whitespace "                " )
+, L
+    ( Position 2 25 )
+    ( TokSym "0.6.0.2" )
+, L
+    ( Position 2 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "x-revision" )
+, L
+    ( Position 3 11 ) Colon
+, L
+    ( Position 3 12 )
+    ( Whitespace " " )
+, L
+    ( Position 3 13 )
+    ( TokSym "1" )
+, L
+    ( Position 3 14 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "description" )
+, L
+    ( Position 4 12 ) Colon
+, L
+    ( Position 4 13 )
+    ( Whitespace "            " )
+, L
+    ( Position 4 25 )
+    ( TokSym "A" )
+, L
+    ( Position 4 26 )
+    ( Whitespace " " )
+, L
+    ( Position 4 27 )
+    ( TokSym "continuation-based" )
+, L
+    ( Position 4 45 )
+    ( TokOther "," )
+, L
+    ( Position 4 46 )
+    ( Whitespace " " )
+, L
+    ( Position 4 47 )
+    ( TokSym "backtracking" )
+, L
+    ( Position 4 59 )
+    ( TokOther "," )
+, L
+    ( Position 4 60 )
+    ( Whitespace " " )
+, L
+    ( Position 4 61 )
+    ( TokSym "logic" )
+, L
+    ( Position 4 66 )
+    ( Whitespace " " )
+, L
+    ( Position 4 67 )
+    ( TokSym "programming" )
+, L
+    ( Position 4 78 )
+    ( Whitespace " " )
+, L
+    ( Position 4 79 )
+    ( TokSym "monad." )
+, L
+    ( Position 4 85 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 5 1 )
+    ( Indent 24 )
+, L
+    ( Position 5 25 )
+    ( TokSym "An" )
+, L
+    ( Position 5 27 )
+    ( Whitespace " " )
+, L
+    ( Position 5 28 )
+    ( TokSym "adaptation" )
+, L
+    ( Position 5 38 )
+    ( Whitespace " " )
+, L
+    ( Position 5 39 )
+    ( TokSym "of" )
+, L
+    ( Position 5 41 )
+    ( Whitespace " " )
+, L
+    ( Position 5 42 )
+    ( TokSym "the" )
+, L
+    ( Position 5 45 )
+    ( Whitespace " " )
+, L
+    ( Position 5 46 )
+    ( TokSym "two-continuation" )
+, L
+    ( Position 5 62 )
+    ( Whitespace " " )
+, L
+    ( Position 5 63 )
+    ( TokSym "implementation" )
+, L
+    ( Position 5 77 )
+    ( Whitespace " " )
+, L
+    ( Position 5 78 )
+    ( TokSym "found" )
+, L
+    ( Position 5 83 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 6 1 )
+    ( Indent 24 )
+, L
+    ( Position 6 25 )
+    ( TokSym "in" )
+, L
+    ( Position 6 27 )
+    ( Whitespace " " )
+, L
+    ( Position 6 28 )
+    ( TokSym "the" )
+, L
+    ( Position 6 31 )
+    ( Whitespace " " )
+, L
+    ( Position 6 32 )
+    ( TokSym "paper" )
+, L
+    ( Position 6 37 )
+    ( Whitespace " " )
+, L
+    ( Position 6 82 )
+    ( LexicalError "\xd
+                            Monad Transformers" available here:\xd
+                            <http://okmij.org/ftp/papers/LogicT.pdf>\xd
+    synopsis:               A backtracking logic-programming monad.\xd
+    category:               Control\xd
+    license:                BSD3\xd
+    license-file:           LICENSE\xd
+    copyright:              Copyright (c) 2007-2014, Dan Doel,\xd
+                            Copyright (c) 2011-2013, Edward Kmett,\xd
+                            Copyright (c) 2014, Roman Cheplyaka\xd
+    author:                 Dan Doel\xd
+    maintainer:             dan.doel@gmail.com\xd
+    homepage:               http://code.haskell.org/~dolio/\xd
+    cabal-version:          >= 1.9.2\xd
+    tested-with:            GHC\xd
+    build-type:             Simple\xd
+    \xd
+    source-repository head\xd
+      type:     darcs\xd
+      location: http://hub.darcs.net/dolio/logict\xd
+    \xd
+    library\xd
+      build-depends:          base >=2 && < 4.13, mtl>=2 && <2.3\xd
+    \xd
+      exposed-modules:        Control.Monad.Logic,\xd
+                              Control.Monad.Logic.Class\xd
+      extensions:             MultiParamTypeClasses,\xd
+                              UndecidableInstances,\xd
+                              Rank2Types,\xd
+                              FlexibleInstances\xd
+      ghc-options:            -O2 -Wall\xd
+    " )
+, L
+    ( Position 6 38 ) EOF
+]

@@ -1,0 +1,3512 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 2 1 )
+    ( Indent 2 )
+, L
+    ( Position 2 3 )
+    ( TokSym "hasql-postgres" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "version" )
+, L
+    ( Position 3 8 ) Colon
+, L
+    ( Position 4 1 )
+    ( Indent 2 )
+, L
+    ( Position 4 3 )
+    ( TokSym "0.6.0" )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "synopsis" )
+, L
+    ( Position 5 9 ) Colon
+, L
+    ( Position 6 1 )
+    ( Indent 2 )
+, L
+    ( Position 6 3 )
+    ( TokSym "A" )
+, L
+    ( Position 6 5 )
+    ( TokStr "PostgreSQL" )
+, L
+    ( Position 6 18 )
+    ( TokSym "backend" )
+, L
+    ( Position 6 26 )
+    ( TokSym "for" )
+, L
+    ( Position 6 30 )
+    ( TokSym "the" )
+, L
+    ( Position 6 34 )
+    ( TokStr "hasql" )
+, L
+    ( Position 6 42 )
+    ( TokSym "library" )
+, L
+    ( Position 7 1 )
+    ( Indent 0 )
+, L
+    ( Position 7 1 )
+    ( TokSym "description" )
+, L
+    ( Position 7 12 ) Colon
+, L
+    ( Position 8 1 )
+    ( Indent 2 )
+, L
+    ( Position 8 3 )
+    ( TokSym "This" )
+, L
+    ( Position 8 8 )
+    ( TokSym "library" )
+, L
+    ( Position 8 16 )
+    ( TokSym "provides" )
+, L
+    ( Position 8 25 )
+    ( TokSym "a" )
+, L
+    ( Position 8 27 )
+    ( TokOther "\" )
+, L
+    ( Position 8 28 )
+    ( TokStr "PostgreSQL\" )
+, L
+    ( Position 8 42 )
+    ( TokSym "driver" )
+, L
+    ( Position 8 49 )
+    ( TokSym "for" )
+, L
+    ( Position 9 1 )
+    ( Indent 2 )
+, L
+    ( Position 9 3 )
+    ( TokOther "<" )
+, L
+    ( Position 9 4 )
+    ( TokSym "http" )
+, L
+    ( Position 9 8 ) Colon
+, L
+    ( Position 9 9 )
+    ( TokOther "//" )
+, L
+    ( Position 9 11 )
+    ( TokSym "hackage.haskell.org" )
+, L
+    ( Position 9 30 )
+    ( TokOther "/" )
+, L
+    ( Position 9 31 )
+    ( TokSym "package" )
+, L
+    ( Position 9 38 )
+    ( TokOther "/" )
+, L
+    ( Position 9 39 )
+    ( TokSym "hasql" )
+, L
+    ( Position 9 45 )
+    ( TokSym "the" )
+, L
+    ( Position 9 49 )
+    ( TokStr "hasql" )
+, L
+    ( Position 9 57 )
+    ( TokSym "library" )
+, L
+    ( Position 9 64 )
+    ( TokOther ">." )
+, L
+    ( Position 10 1 )
+    ( Indent 2 )
+, L
+    ( Position 10 3 )
+    ( TokSym "." )
+, L
+    ( Position 11 1 )
+    ( Indent 2 )
+, L
+    ( Position 11 3 )
+    ( TokSym "It" )
+, L
+    ( Position 11 6 )
+    ( TokSym "supports" )
+, L
+    ( Position 11 15 )
+    ( TokSym "all" )
+, L
+    ( Position 11 19 )
+    ( TokSym "Postgres" )
+, L
+    ( Position 11 28 )
+    ( TokSym "versions" )
+, L
+    ( Position 11 37 )
+    ( TokSym "starting" )
+, L
+    ( Position 11 46 )
+    ( TokSym "from" )
+, L
+    ( Position 11 51 )
+    ( TokSym "8.3" )
+, L
+    ( Position 12 1 )
+    ( Indent 2 )
+, L
+    ( Position 12 3 )
+    ( TokSym "and" )
+, L
+    ( Position 12 7 )
+    ( TokSym "is" )
+, L
+    ( Position 12 10 )
+    ( TokSym "tested" )
+, L
+    ( Position 12 17 )
+    ( TokSym "against" )
+, L
+    ( Position 12 25 )
+    ( TokSym "8.3" )
+, L
+    ( Position 12 28 )
+    ( TokOther "," )
+, L
+    ( Position 12 30 )
+    ( TokSym "9.3" )
+, L
+    ( Position 12 34 )
+    ( TokSym "and" )
+, L
+    ( Position 12 38 )
+    ( TokSym "9.4" )
+, L
+    ( Position 13 1 )
+    ( Indent 2 )
+, L
+    ( Position 13 3 )
+    ( TokSym "with" )
+, L
+    ( Position 13 8 )
+    ( TokSym "the" )
+, L
+    ( Position 13 12 )
+    ( TokOther "@" )
+, L
+    ( Position 13 13 )
+    ( TokSym "integer_datetimes" )
+, L
+    ( Position 13 30 )
+    ( TokOther "@" )
+, L
+    ( Position 13 32 )
+    ( TokSym "setting" )
+, L
+    ( Position 13 40 )
+    ( TokSym "off" )
+, L
+    ( Position 13 44 )
+    ( TokSym "and" )
+, L
+    ( Position 13 48 )
+    ( TokSym "on." )
+, L
+    ( Position 14 1 )
+    ( Indent 2 )
+, L
+    ( Position 14 3 )
+    ( TokSym "." )
+, L
+    ( Position 15 1 )
+    ( Indent 2 )
+, L
+    ( Position 15 3 )
+    ( TokSym "According" )
+, L
+    ( Position 15 13 )
+    ( TokSym "to" )
+, L
+    ( Position 15 16 )
+    ( TokSym "the" )
+, L
+    ( Position 15 20 )
+    ( TokSym "included" )
+, L
+    ( Position 15 29 )
+    ( TokSym "benchmarks" )
+, L
+    ( Position 15 39 )
+    ( TokOther "," )
+, L
+    ( Position 16 1 )
+    ( Indent 2 )
+, L
+    ( Position 16 3 )
+    ( TokSym "it" )
+, L
+    ( Position 16 6 )
+    ( TokSym "performs" )
+, L
+    ( Position 16 15 )
+    ( TokSym "up" )
+, L
+    ( Position 16 18 )
+    ( TokSym "to" )
+, L
+    ( Position 16 21 )
+    ( TokSym "2x" )
+, L
+    ( Position 16 24 )
+    ( TokSym "faster" )
+, L
+    ( Position 16 31 )
+    ( TokSym "than" )
+, L
+    ( Position 16 36 )
+    ( TokOther "\" )
+, L
+    ( Position 16 37 )
+    ( TokStr "postgresql-simple\" )
+, L
+    ( Position 16 58 )
+    ( TokSym "and" )
+, L
+    ( Position 17 1 )
+    ( Indent 2 )
+, L
+    ( Position 17 3 )
+    ( TokSym "up" )
+, L
+    ( Position 17 6 )
+    ( TokSym "to" )
+, L
+    ( Position 17 9 )
+    ( TokSym "7x" )
+, L
+    ( Position 17 12 )
+    ( TokSym "faster" )
+, L
+    ( Position 17 19 )
+    ( TokSym "than" )
+, L
+    ( Position 17 24 )
+    ( TokOther "\" )
+, L
+    ( Position 17 25 )
+    ( TokStr "HDBC\" )
+, L
+    ( Position 17 32 )
+    ( TokSym "." )
+, L
+    ( Position 18 1 )
+    ( Indent 2 )
+, L
+    ( Position 18 3 )
+    ( TokSym "You" )
+, L
+    ( Position 18 7 )
+    ( TokSym "can" )
+, L
+    ( Position 18 11 )
+    ( TokSym "read" )
+, L
+    ( Position 18 16 )
+    ( TokSym "up" )
+, L
+    ( Position 19 1 )
+    ( Indent 2 )
+, L
+    ( Position 19 3 )
+    ( TokOther "<" )
+, L
+    ( Position 19 4 )
+    ( TokSym "http" )
+, L
+    ( Position 19 8 ) Colon
+, L
+    ( Position 19 9 )
+    ( TokOther "//" )
+, L
+    ( Position 19 11 )
+    ( TokSym "nikita-volkov.github.io" )
+, L
+    ( Position 19 34 )
+    ( TokOther "/" )
+, L
+    ( Position 19 35 )
+    ( TokSym "hasql-benchmarks" )
+, L
+    ( Position 19 51 )
+    ( TokOther "/" )
+, L
+    ( Position 19 53 )
+    ( TokSym "a" )
+, L
+    ( Position 19 55 )
+    ( TokSym "post" )
+, L
+    ( Position 19 60 )
+    ( TokSym "with" )
+, L
+    ( Position 19 65 )
+    ( TokSym "analysis" )
+, L
+    ( Position 19 74 )
+    ( TokSym "of" )
+, L
+    ( Position 19 77 )
+    ( TokSym "those" )
+, L
+    ( Position 19 83 )
+    ( TokSym "benchmarks" )
+, L
+    ( Position 19 93 )
+    ( TokOther ">." )
+, L
+    ( Position 20 1 )
+    ( Indent 0 )
+, L
+    ( Position 20 1 )
+    ( TokSym "category" )
+, L
+    ( Position 20 9 ) Colon
+, L
+    ( Position 21 1 )
+    ( Indent 2 )
+, L
+    ( Position 21 3 )
+    ( TokSym "Database" )
+, L
+    ( Position 22 1 )
+    ( Indent 0 )
+, L
+    ( Position 22 1 )
+    ( TokSym "homepage" )
+, L
+    ( Position 22 9 ) Colon
+, L
+    ( Position 23 1 )
+    ( Indent 2 )
+, L
+    ( Position 23 3 )
+    ( TokSym "https" )
+, L
+    ( Position 23 8 ) Colon
+, L
+    ( Position 23 9 )
+    ( TokOther "//" )
+, L
+    ( Position 23 11 )
+    ( TokSym "github.com" )
+, L
+    ( Position 23 21 )
+    ( TokOther "/" )
+, L
+    ( Position 23 22 )
+    ( TokSym "nikita-volkov" )
+, L
+    ( Position 23 35 )
+    ( TokOther "/" )
+, L
+    ( Position 23 36 )
+    ( TokSym "hasql-postgres" )
+, L
+    ( Position 24 1 )
+    ( Indent 0 )
+, L
+    ( Position 24 1 )
+    ( TokSym "bug-reports" )
+, L
+    ( Position 24 12 ) Colon
+, L
+    ( Position 25 1 )
+    ( Indent 2 )
+, L
+    ( Position 25 3 )
+    ( TokSym "https" )
+, L
+    ( Position 25 8 ) Colon
+, L
+    ( Position 25 9 )
+    ( TokOther "//" )
+, L
+    ( Position 25 11 )
+    ( TokSym "github.com" )
+, L
+    ( Position 25 21 )
+    ( TokOther "/" )
+, L
+    ( Position 25 22 )
+    ( TokSym "nikita-volkov" )
+, L
+    ( Position 25 35 )
+    ( TokOther "/" )
+, L
+    ( Position 25 36 )
+    ( TokSym "hasql-postgres" )
+, L
+    ( Position 25 50 )
+    ( TokOther "/" )
+, L
+    ( Position 25 51 )
+    ( TokSym "issues" )
+, L
+    ( Position 26 1 )
+    ( Indent 0 )
+, L
+    ( Position 26 1 )
+    ( TokSym "author" )
+, L
+    ( Position 26 7 ) Colon
+, L
+    ( Position 27 1 )
+    ( Indent 2 )
+, L
+    ( Position 27 3 )
+    ( TokSym "Nikita" )
+, L
+    ( Position 27 10 )
+    ( TokSym "Volkov" )
+, L
+    ( Position 27 17 )
+    ( TokOther "<" )
+, L
+    ( Position 27 18 )
+    ( TokSym "nikita.y.volkov" )
+, L
+    ( Position 27 33 )
+    ( TokOther "@" )
+, L
+    ( Position 27 34 )
+    ( TokSym "mail.ru" )
+, L
+    ( Position 27 41 )
+    ( TokOther ">" )
+, L
+    ( Position 28 1 )
+    ( Indent 0 )
+, L
+    ( Position 28 1 )
+    ( TokSym "maintainer" )
+, L
+    ( Position 28 11 ) Colon
+, L
+    ( Position 29 1 )
+    ( Indent 2 )
+, L
+    ( Position 29 3 )
+    ( TokSym "Nikita" )
+, L
+    ( Position 29 10 )
+    ( TokSym "Volkov" )
+, L
+    ( Position 29 17 )
+    ( TokOther "<" )
+, L
+    ( Position 29 18 )
+    ( TokSym "nikita.y.volkov" )
+, L
+    ( Position 29 33 )
+    ( TokOther "@" )
+, L
+    ( Position 29 34 )
+    ( TokSym "mail.ru" )
+, L
+    ( Position 29 41 )
+    ( TokOther ">" )
+, L
+    ( Position 30 1 )
+    ( Indent 0 )
+, L
+    ( Position 30 1 )
+    ( TokSym "copyright" )
+, L
+    ( Position 30 10 ) Colon
+, L
+    ( Position 31 1 )
+    ( Indent 2 )
+, L
+    ( Position 31 3 )
+    ( TokOther "(" )
+, L
+    ( Position 31 4 )
+    ( TokSym "c" )
+, L
+    ( Position 31 5 )
+    ( TokOther ")" )
+, L
+    ( Position 31 7 )
+    ( TokSym "2014" )
+, L
+    ( Position 31 11 )
+    ( TokOther "," )
+, L
+    ( Position 31 13 )
+    ( TokSym "Nikita" )
+, L
+    ( Position 31 20 )
+    ( TokSym "Volkov" )
+, L
+    ( Position 32 1 )
+    ( Indent 0 )
+, L
+    ( Position 32 1 )
+    ( TokSym "license" )
+, L
+    ( Position 32 8 ) Colon
+, L
+    ( Position 33 1 )
+    ( Indent 2 )
+, L
+    ( Position 33 3 )
+    ( TokSym "MIT" )
+, L
+    ( Position 34 1 )
+    ( Indent 0 )
+, L
+    ( Position 34 1 )
+    ( TokSym "license-file" )
+, L
+    ( Position 34 13 ) Colon
+, L
+    ( Position 35 1 )
+    ( Indent 2 )
+, L
+    ( Position 35 3 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 36 1 )
+    ( Indent 0 )
+, L
+    ( Position 36 1 )
+    ( TokSym "build-type" )
+, L
+    ( Position 36 11 ) Colon
+, L
+    ( Position 37 1 )
+    ( Indent 2 )
+, L
+    ( Position 37 3 )
+    ( TokSym "Simple" )
+, L
+    ( Position 38 1 )
+    ( Indent 0 )
+, L
+    ( Position 38 1 )
+    ( TokSym "cabal-version" )
+, L
+    ( Position 38 14 ) Colon
+, L
+    ( Position 39 1 )
+    ( Indent 2 )
+, L
+    ( Position 39 3 )
+    ( TokOther ">=" )
+, L
+    ( Position 39 5 )
+    ( TokSym "1.10" )
+, L
+    ( Position 42 1 )
+    ( Indent 0 )
+, L
+    ( Position 42 1 )
+    ( TokSym "source-repository" )
+, L
+    ( Position 42 19 )
+    ( TokSym "head" )
+, L
+    ( Position 43 1 )
+    ( Indent 2 )
+, L
+    ( Position 43 3 )
+    ( TokSym "type" )
+, L
+    ( Position 43 7 ) Colon
+, L
+    ( Position 44 1 )
+    ( Indent 4 )
+, L
+    ( Position 44 5 )
+    ( TokSym "git" )
+, L
+    ( Position 45 1 )
+    ( Indent 2 )
+, L
+    ( Position 45 3 )
+    ( TokSym "location" )
+, L
+    ( Position 45 11 ) Colon
+, L
+    ( Position 46 1 )
+    ( Indent 4 )
+, L
+    ( Position 46 5 )
+    ( TokSym "git" )
+, L
+    ( Position 46 8 ) Colon
+, L
+    ( Position 46 9 )
+    ( TokOther "//" )
+, L
+    ( Position 46 11 )
+    ( TokSym "github.com" )
+, L
+    ( Position 46 21 )
+    ( TokOther "/" )
+, L
+    ( Position 46 22 )
+    ( TokSym "nikita-volkov" )
+, L
+    ( Position 46 35 )
+    ( TokOther "/" )
+, L
+    ( Position 46 36 )
+    ( TokSym "hasql-postgres.git" )
+, L
+    ( Position 49 1 )
+    ( Indent 0 )
+, L
+    ( Position 49 1 )
+    ( TokSym "library" )
+, L
+    ( Position 50 1 )
+    ( Indent 2 )
+, L
+    ( Position 50 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 50 17 ) Colon
+, L
+    ( Position 51 1 )
+    ( Indent 4 )
+, L
+    ( Position 51 5 )
+    ( TokSym "library" )
+, L
+    ( Position 52 1 )
+    ( Indent 2 )
+, L
+    ( Position 52 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 52 14 ) Colon
+, L
+    ( Position 53 1 )
+    ( Indent 4 )
+, L
+    ( Position 53 5 )
+    ( TokSym "-funbox-strict-fields" )
+, L
+    ( Position 54 1 )
+    ( Indent 2 )
+, L
+    ( Position 54 3 )
+    ( TokSym "default-extensions" )
+, L
+    ( Position 54 21 ) Colon
+, L
+    ( Position 55 1 )
+    ( Indent 4 )
+, L
+    ( Position 55 5 )
+    ( TokSym "Arrows" )
+, L
+    ( Position 55 11 )
+    ( TokOther "," )
+, L
+    ( Position 55 13 )
+    ( TokSym "BangPatterns" )
+, L
+    ( Position 55 25 )
+    ( TokOther "," )
+, L
+    ( Position 55 27 )
+    ( TokSym "ConstraintKinds" )
+, L
+    ( Position 55 42 )
+    ( TokOther "," )
+, L
+    ( Position 55 44 )
+    ( TokSym "DataKinds" )
+, L
+    ( Position 55 53 )
+    ( TokOther "," )
+, L
+    ( Position 55 55 )
+    ( TokSym "DefaultSignatures" )
+, L
+    ( Position 55 72 )
+    ( TokOther "," )
+, L
+    ( Position 55 74 )
+    ( TokSym "DeriveDataTypeable" )
+, L
+    ( Position 55 92 )
+    ( TokOther "," )
+, L
+    ( Position 55 94 )
+    ( TokSym "DeriveFunctor" )
+, L
+    ( Position 55 107 )
+    ( TokOther "," )
+, L
+    ( Position 55 109 )
+    ( TokSym "DeriveGeneric" )
+, L
+    ( Position 55 122 )
+    ( TokOther "," )
+, L
+    ( Position 55 124 )
+    ( TokSym "EmptyDataDecls" )
+, L
+    ( Position 55 138 )
+    ( TokOther "," )
+, L
+    ( Position 55 140 )
+    ( TokSym "FlexibleContexts" )
+, L
+    ( Position 55 156 )
+    ( TokOther "," )
+, L
+    ( Position 55 158 )
+    ( TokSym "FlexibleInstances" )
+, L
+    ( Position 55 175 )
+    ( TokOther "," )
+, L
+    ( Position 55 177 )
+    ( TokSym "FunctionalDependencies" )
+, L
+    ( Position 55 199 )
+    ( TokOther "," )
+, L
+    ( Position 55 201 )
+    ( TokSym "GADTs" )
+, L
+    ( Position 55 206 )
+    ( TokOther "," )
+, L
+    ( Position 55 208 )
+    ( TokSym "GeneralizedNewtypeDeriving" )
+, L
+    ( Position 55 234 )
+    ( TokOther "," )
+, L
+    ( Position 55 236 )
+    ( TokSym "ImpredicativeTypes" )
+, L
+    ( Position 55 254 )
+    ( TokOther "," )
+, L
+    ( Position 55 256 )
+    ( TokSym "LambdaCase" )
+, L
+    ( Position 55 266 )
+    ( TokOther "," )
+, L
+    ( Position 55 268 )
+    ( TokSym "LiberalTypeSynonyms" )
+, L
+    ( Position 55 287 )
+    ( TokOther "," )
+, L
+    ( Position 55 289 )
+    ( TokSym "MagicHash" )
+, L
+    ( Position 55 298 )
+    ( TokOther "," )
+, L
+    ( Position 55 300 )
+    ( TokSym "MultiParamTypeClasses" )
+, L
+    ( Position 55 321 )
+    ( TokOther "," )
+, L
+    ( Position 55 323 )
+    ( TokSym "MultiWayIf" )
+, L
+    ( Position 55 333 )
+    ( TokOther "," )
+, L
+    ( Position 55 335 )
+    ( TokSym "NoImplicitPrelude" )
+, L
+    ( Position 55 352 )
+    ( TokOther "," )
+, L
+    ( Position 55 354 )
+    ( TokSym "NoMonomorphismRestriction" )
+, L
+    ( Position 55 379 )
+    ( TokOther "," )
+, L
+    ( Position 55 381 )
+    ( TokSym "OverloadedStrings" )
+, L
+    ( Position 55 398 )
+    ( TokOther "," )
+, L
+    ( Position 55 400 )
+    ( TokSym "PatternGuards" )
+, L
+    ( Position 55 413 )
+    ( TokOther "," )
+, L
+    ( Position 55 415 )
+    ( TokSym "ParallelListComp" )
+, L
+    ( Position 55 431 )
+    ( TokOther "," )
+, L
+    ( Position 55 433 )
+    ( TokSym "QuasiQuotes" )
+, L
+    ( Position 55 444 )
+    ( TokOther "," )
+, L
+    ( Position 55 446 )
+    ( TokSym "RankNTypes" )
+, L
+    ( Position 55 456 )
+    ( TokOther "," )
+, L
+    ( Position 55 458 )
+    ( TokSym "RecordWildCards" )
+, L
+    ( Position 55 473 )
+    ( TokOther "," )
+, L
+    ( Position 55 475 )
+    ( TokSym "ScopedTypeVariables" )
+, L
+    ( Position 55 494 )
+    ( TokOther "," )
+, L
+    ( Position 55 496 )
+    ( TokSym "StandaloneDeriving" )
+, L
+    ( Position 55 514 )
+    ( TokOther "," )
+, L
+    ( Position 55 516 )
+    ( TokSym "TemplateHaskell" )
+, L
+    ( Position 55 531 )
+    ( TokOther "," )
+, L
+    ( Position 55 533 )
+    ( TokSym "TupleSections" )
+, L
+    ( Position 55 546 )
+    ( TokOther "," )
+, L
+    ( Position 55 548 )
+    ( TokSym "TypeFamilies" )
+, L
+    ( Position 55 560 )
+    ( TokOther "," )
+, L
+    ( Position 55 562 )
+    ( TokSym "TypeOperators" )
+, L
+    ( Position 55 575 )
+    ( TokOther "," )
+, L
+    ( Position 55 577 )
+    ( TokSym "UnboxedTuples" )
+, L
+    ( Position 56 1 )
+    ( Indent 2 )
+, L
+    ( Position 56 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 56 19 ) Colon
+, L
+    ( Position 57 1 )
+    ( Indent 4 )
+, L
+    ( Position 57 5 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 58 1 )
+    ( Indent 2 )
+, L
+    ( Position 58 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 58 16 ) Colon
+, L
+    ( Position 59 1 )
+    ( Indent 4 )
+, L
+    ( Position 59 5 )
+    ( TokSym "Hasql.Postgres.Prelude" )
+, L
+    ( Position 60 1 )
+    ( Indent 4 )
+, L
+    ( Position 60 5 )
+    ( TokSym "Hasql.Postgres.ErrorCode" )
+, L
+    ( Position 61 1 )
+    ( Indent 4 )
+, L
+    ( Position 61 5 )
+    ( TokSym "Hasql.Postgres.PTI" )
+, L
+    ( Position 62 1 )
+    ( Indent 4 )
+, L
+    ( Position 62 5 )
+    ( TokSym "Hasql.Postgres.Mapping" )
+, L
+    ( Position 63 1 )
+    ( Indent 4 )
+, L
+    ( Position 63 5 )
+    ( TokSym "Hasql.Postgres.Statement" )
+, L
+    ( Position 64 1 )
+    ( Indent 4 )
+, L
+    ( Position 64 5 )
+    ( TokSym "Hasql.Postgres.StatementPreparer" )
+, L
+    ( Position 65 1 )
+    ( Indent 4 )
+, L
+    ( Position 65 5 )
+    ( TokSym "Hasql.Postgres.TemplateConverter" )
+, L
+    ( Position 66 1 )
+    ( Indent 4 )
+, L
+    ( Position 66 5 )
+    ( TokSym "Hasql.Postgres.TemplateConverter.Parser" )
+, L
+    ( Position 67 1 )
+    ( Indent 4 )
+, L
+    ( Position 67 5 )
+    ( TokSym "Hasql.Postgres.ResultHandler" )
+, L
+    ( Position 68 1 )
+    ( Indent 4 )
+, L
+    ( Position 68 5 )
+    ( TokSym "Hasql.Postgres.Connector" )
+, L
+    ( Position 69 1 )
+    ( Indent 4 )
+, L
+    ( Position 69 5 )
+    ( TokSym "Hasql.Postgres.ResultParser" )
+, L
+    ( Position 70 1 )
+    ( Indent 2 )
+, L
+    ( Position 70 3 )
+    ( TokSym "exposed-modules" )
+, L
+    ( Position 70 18 ) Colon
+, L
+    ( Position 71 1 )
+    ( Indent 4 )
+, L
+    ( Position 71 5 )
+    ( TokSym "Hasql.Postgres" )
+, L
+    ( Position 72 1 )
+    ( Indent 2 )
+, L
+    ( Position 72 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 72 16 ) Colon
+, L
+    ( Position 74 1 )
+    ( Indent 4 )
+, L
+    ( Position 74 5 )
+    ( TokSym "template-haskell" )
+, L
+    ( Position 74 22 )
+    ( TokOther "==" )
+, L
+    ( Position 74 25 )
+    ( TokSym "2." )
+, L
+    ( Position 74 27 )
+    ( TokOther "*," )
+, L
+    ( Position 76 1 )
+    ( Indent 4 )
+, L
+    ( Position 76 5 )
+    ( TokSym "attoparsec" )
+, L
+    ( Position 76 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 76 19 )
+    ( TokSym "0.10" )
+, L
+    ( Position 76 24 )
+    ( TokOther "&&" )
+, L
+    ( Position 76 27 )
+    ( TokOther "<" )
+, L
+    ( Position 76 29 )
+    ( TokSym "0.13" )
+, L
+    ( Position 76 33 )
+    ( TokOther "," )
+, L
+    ( Position 78 1 )
+    ( Indent 4 )
+, L
+    ( Position 78 5 )
+    ( TokSym "hasql-backend" )
+, L
+    ( Position 78 19 )
+    ( TokOther "==" )
+, L
+    ( Position 78 22 )
+    ( TokSym "0.1." )
+, L
+    ( Position 78 26 )
+    ( TokOther "*," )
+, L
+    ( Position 79 1 )
+    ( Indent 4 )
+, L
+    ( Position 79 5 )
+    ( TokSym "postgresql-binary" )
+, L
+    ( Position 79 23 )
+    ( TokOther "==" )
+, L
+    ( Position 79 26 )
+    ( TokSym "0.5." )
+, L
+    ( Position 79 30 )
+    ( TokOther "*," )
+, L
+    ( Position 80 1 )
+    ( Indent 4 )
+, L
+    ( Position 80 5 )
+    ( TokSym "postgresql-libpq" )
+, L
+    ( Position 80 22 )
+    ( TokOther "==" )
+, L
+    ( Position 80 25 )
+    ( TokSym "0.9." )
+, L
+    ( Position 80 29 )
+    ( TokOther "*," )
+, L
+    ( Position 82 1 )
+    ( Indent 4 )
+, L
+    ( Position 82 5 )
+    ( TokSym "uuid" )
+, L
+    ( Position 82 10 )
+    ( TokOther "==" )
+, L
+    ( Position 82 13 )
+    ( TokSym "1.3." )
+, L
+    ( Position 82 17 )
+    ( TokOther "*," )
+, L
+    ( Position 83 1 )
+    ( Indent 4 )
+, L
+    ( Position 83 5 )
+    ( TokSym "vector" )
+, L
+    ( Position 83 12 )
+    ( TokOther "==" )
+, L
+    ( Position 83 15 )
+    ( TokSym "0.10." )
+, L
+    ( Position 83 20 )
+    ( TokOther "*," )
+, L
+    ( Position 84 1 )
+    ( Indent 4 )
+, L
+    ( Position 84 5 )
+    ( TokSym "time" )
+, L
+    ( Position 84 10 )
+    ( TokOther ">=" )
+, L
+    ( Position 84 13 )
+    ( TokSym "1.4" )
+, L
+    ( Position 84 17 )
+    ( TokOther "&&" )
+, L
+    ( Position 84 20 )
+    ( TokOther "<" )
+, L
+    ( Position 84 22 )
+    ( TokSym "1.6" )
+, L
+    ( Position 84 25 )
+    ( TokOther "," )
+, L
+    ( Position 85 1 )
+    ( Indent 4 )
+, L
+    ( Position 85 5 )
+    ( TokSym "hashtables" )
+, L
+    ( Position 85 16 )
+    ( TokOther "==" )
+, L
+    ( Position 85 19 )
+    ( TokSym "1.1." )
+, L
+    ( Position 85 23 )
+    ( TokOther "*," )
+, L
+    ( Position 86 1 )
+    ( Indent 4 )
+, L
+    ( Position 86 5 )
+    ( TokSym "scientific" )
+, L
+    ( Position 86 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 86 19 )
+    ( TokSym "0.2" )
+, L
+    ( Position 86 23 )
+    ( TokOther "&&" )
+, L
+    ( Position 86 26 )
+    ( TokOther "<" )
+, L
+    ( Position 86 28 )
+    ( TokSym "0.4" )
+, L
+    ( Position 86 31 )
+    ( TokOther "," )
+, L
+    ( Position 87 1 )
+    ( Indent 4 )
+, L
+    ( Position 87 5 )
+    ( TokSym "text" )
+, L
+    ( Position 87 10 )
+    ( TokOther ">=" )
+, L
+    ( Position 87 13 )
+    ( TokSym "1" )
+, L
+    ( Position 87 15 )
+    ( TokOther "&&" )
+, L
+    ( Position 87 18 )
+    ( TokOther "<" )
+, L
+    ( Position 87 20 )
+    ( TokSym "1.3" )
+, L
+    ( Position 87 23 )
+    ( TokOther "," )
+, L
+    ( Position 88 1 )
+    ( Indent 4 )
+, L
+    ( Position 88 5 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 88 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 88 19 )
+    ( TokSym "0.10" )
+, L
+    ( Position 88 24 )
+    ( TokOther "&&" )
+, L
+    ( Position 88 27 )
+    ( TokOther "<" )
+, L
+    ( Position 88 29 )
+    ( TokSym "0.11" )
+, L
+    ( Position 88 33 )
+    ( TokOther "," )
+, L
+    ( Position 89 1 )
+    ( Indent 4 )
+, L
+    ( Position 89 5 )
+    ( TokSym "hashable" )
+, L
+    ( Position 89 14 )
+    ( TokOther ">=" )
+, L
+    ( Position 89 17 )
+    ( TokSym "1.1" )
+, L
+    ( Position 89 21 )
+    ( TokOther "&&" )
+, L
+    ( Position 89 24 )
+    ( TokOther "<" )
+, L
+    ( Position 89 26 )
+    ( TokSym "1.3" )
+, L
+    ( Position 89 29 )
+    ( TokOther "," )
+, L
+    ( Position 91 1 )
+    ( Indent 4 )
+, L
+    ( Position 91 5 )
+    ( TokSym "either" )
+, L
+    ( Position 91 12 )
+    ( TokOther "==" )
+, L
+    ( Position 91 15 )
+    ( TokSym "4." )
+, L
+    ( Position 91 17 )
+    ( TokOther "*," )
+, L
+    ( Position 92 1 )
+    ( Indent 4 )
+, L
+    ( Position 92 5 )
+    ( TokSym "list-t" )
+, L
+    ( Position 92 12 )
+    ( TokOther ">=" )
+, L
+    ( Position 92 15 )
+    ( TokSym "0.2.3" )
+, L
+    ( Position 92 21 )
+    ( TokOther "&&" )
+, L
+    ( Position 92 24 )
+    ( TokOther "<" )
+, L
+    ( Position 92 26 )
+    ( TokSym "0.3" )
+, L
+    ( Position 92 29 )
+    ( TokOther "," )
+, L
+    ( Position 94 1 )
+    ( Indent 4 )
+, L
+    ( Position 94 5 )
+    ( TokSym "loch-th" )
+, L
+    ( Position 94 13 )
+    ( TokOther "==" )
+, L
+    ( Position 94 16 )
+    ( TokSym "0.2." )
+, L
+    ( Position 94 20 )
+    ( TokOther "*," )
+, L
+    ( Position 95 1 )
+    ( Indent 4 )
+, L
+    ( Position 95 5 )
+    ( TokSym "placeholders" )
+, L
+    ( Position 95 18 )
+    ( TokOther "==" )
+, L
+    ( Position 95 21 )
+    ( TokSym "0.1." )
+, L
+    ( Position 95 25 )
+    ( TokOther "*," )
+, L
+    ( Position 97 1 )
+    ( Indent 4 )
+, L
+    ( Position 97 5 )
+    ( TokSym "mtl-prelude" )
+, L
+    ( Position 97 17 )
+    ( TokOther "<" )
+, L
+    ( Position 97 19 )
+    ( TokSym "3" )
+, L
+    ( Position 97 20 )
+    ( TokOther "," )
+, L
+    ( Position 98 1 )
+    ( Indent 4 )
+, L
+    ( Position 98 5 )
+    ( TokSym "base-prelude" )
+, L
+    ( Position 98 18 )
+    ( TokOther ">=" )
+, L
+    ( Position 98 21 )
+    ( TokSym "0.1.3" )
+, L
+    ( Position 98 27 )
+    ( TokOther "&&" )
+, L
+    ( Position 98 30 )
+    ( TokOther "<" )
+, L
+    ( Position 98 32 )
+    ( TokSym "0.2" )
+, L
+    ( Position 98 35 )
+    ( TokOther "," )
+, L
+    ( Position 99 1 )
+    ( Indent 4 )
+, L
+    ( Position 99 5 )
+    ( TokSym "base" )
+, L
+    ( Position 99 10 )
+    ( TokOther ">=" )
+, L
+    ( Position 99 13 )
+    ( TokSym "4.5" )
+, L
+    ( Position 99 17 )
+    ( TokOther "&&" )
+, L
+    ( Position 99 20 )
+    ( TokOther "<" )
+, L
+    ( Position 99 22 )
+    ( TokSym "4.8" )
+, L
+    ( Position 102 1 )
+    ( Indent 0 )
+, L
+    ( Position 102 1 )
+    ( TokSym "test-suite" )
+, L
+    ( Position 102 12 )
+    ( TokSym "library-tests" )
+, L
+    ( Position 103 1 )
+    ( Indent 2 )
+, L
+    ( Position 103 3 )
+    ( TokSym "type" )
+, L
+    ( Position 103 7 ) Colon
+, L
+    ( Position 104 1 )
+    ( Indent 4 )
+, L
+    ( Position 104 5 )
+    ( TokSym "exitcode-stdio-1.0" )
+, L
+    ( Position 105 1 )
+    ( Indent 2 )
+, L
+    ( Position 105 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 105 17 ) Colon
+, L
+    ( Position 106 1 )
+    ( Indent 4 )
+, L
+    ( Position 106 5 )
+    ( TokSym "library-tests" )
+, L
+    ( Position 107 1 )
+    ( Indent 4 )
+, L
+    ( Position 107 5 )
+    ( TokSym "library" )
+, L
+    ( Position 108 1 )
+    ( Indent 2 )
+, L
+    ( Position 108 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 108 10 ) Colon
+, L
+    ( Position 109 1 )
+    ( Indent 4 )
+, L
+    ( Position 109 5 )
+    ( TokSym "Main.hs" )
+, L
+    ( Position 110 1 )
+    ( Indent 2 )
+, L
+    ( Position 110 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 110 14 ) Colon
+, L
+    ( Position 111 1 )
+    ( Indent 4 )
+, L
+    ( Position 111 5 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 112 1 )
+    ( Indent 4 )
+, L
+    ( Position 112 5 )
+    ( TokStr "-with-rtsopts=-N" )
+, L
+    ( Position 113 1 )
+    ( Indent 4 )
+, L
+    ( Position 113 5 )
+    ( TokSym "-funbox-strict-fields" )
+, L
+    ( Position 114 1 )
+    ( Indent 2 )
+, L
+    ( Position 114 3 )
+    ( TokSym "default-extensions" )
+, L
+    ( Position 114 21 ) Colon
+, L
+    ( Position 115 1 )
+    ( Indent 4 )
+, L
+    ( Position 115 5 )
+    ( TokSym "Arrows" )
+, L
+    ( Position 115 11 )
+    ( TokOther "," )
+, L
+    ( Position 115 13 )
+    ( TokSym "BangPatterns" )
+, L
+    ( Position 115 25 )
+    ( TokOther "," )
+, L
+    ( Position 115 27 )
+    ( TokSym "ConstraintKinds" )
+, L
+    ( Position 115 42 )
+    ( TokOther "," )
+, L
+    ( Position 115 44 )
+    ( TokSym "DataKinds" )
+, L
+    ( Position 115 53 )
+    ( TokOther "," )
+, L
+    ( Position 115 55 )
+    ( TokSym "DefaultSignatures" )
+, L
+    ( Position 115 72 )
+    ( TokOther "," )
+, L
+    ( Position 115 74 )
+    ( TokSym "DeriveDataTypeable" )
+, L
+    ( Position 115 92 )
+    ( TokOther "," )
+, L
+    ( Position 115 94 )
+    ( TokSym "DeriveFunctor" )
+, L
+    ( Position 115 107 )
+    ( TokOther "," )
+, L
+    ( Position 115 109 )
+    ( TokSym "DeriveGeneric" )
+, L
+    ( Position 115 122 )
+    ( TokOther "," )
+, L
+    ( Position 115 124 )
+    ( TokSym "EmptyDataDecls" )
+, L
+    ( Position 115 138 )
+    ( TokOther "," )
+, L
+    ( Position 115 140 )
+    ( TokSym "FlexibleContexts" )
+, L
+    ( Position 115 156 )
+    ( TokOther "," )
+, L
+    ( Position 115 158 )
+    ( TokSym "FlexibleInstances" )
+, L
+    ( Position 115 175 )
+    ( TokOther "," )
+, L
+    ( Position 115 177 )
+    ( TokSym "FunctionalDependencies" )
+, L
+    ( Position 115 199 )
+    ( TokOther "," )
+, L
+    ( Position 115 201 )
+    ( TokSym "GADTs" )
+, L
+    ( Position 115 206 )
+    ( TokOther "," )
+, L
+    ( Position 115 208 )
+    ( TokSym "GeneralizedNewtypeDeriving" )
+, L
+    ( Position 115 234 )
+    ( TokOther "," )
+, L
+    ( Position 115 236 )
+    ( TokSym "ImpredicativeTypes" )
+, L
+    ( Position 115 254 )
+    ( TokOther "," )
+, L
+    ( Position 115 256 )
+    ( TokSym "LambdaCase" )
+, L
+    ( Position 115 266 )
+    ( TokOther "," )
+, L
+    ( Position 115 268 )
+    ( TokSym "LiberalTypeSynonyms" )
+, L
+    ( Position 115 287 )
+    ( TokOther "," )
+, L
+    ( Position 115 289 )
+    ( TokSym "MagicHash" )
+, L
+    ( Position 115 298 )
+    ( TokOther "," )
+, L
+    ( Position 115 300 )
+    ( TokSym "MultiParamTypeClasses" )
+, L
+    ( Position 115 321 )
+    ( TokOther "," )
+, L
+    ( Position 115 323 )
+    ( TokSym "MultiWayIf" )
+, L
+    ( Position 115 333 )
+    ( TokOther "," )
+, L
+    ( Position 115 335 )
+    ( TokSym "NoImplicitPrelude" )
+, L
+    ( Position 115 352 )
+    ( TokOther "," )
+, L
+    ( Position 115 354 )
+    ( TokSym "NoMonomorphismRestriction" )
+, L
+    ( Position 115 379 )
+    ( TokOther "," )
+, L
+    ( Position 115 381 )
+    ( TokSym "OverloadedStrings" )
+, L
+    ( Position 115 398 )
+    ( TokOther "," )
+, L
+    ( Position 115 400 )
+    ( TokSym "PatternGuards" )
+, L
+    ( Position 115 413 )
+    ( TokOther "," )
+, L
+    ( Position 115 415 )
+    ( TokSym "ParallelListComp" )
+, L
+    ( Position 115 431 )
+    ( TokOther "," )
+, L
+    ( Position 115 433 )
+    ( TokSym "QuasiQuotes" )
+, L
+    ( Position 115 444 )
+    ( TokOther "," )
+, L
+    ( Position 115 446 )
+    ( TokSym "RankNTypes" )
+, L
+    ( Position 115 456 )
+    ( TokOther "," )
+, L
+    ( Position 115 458 )
+    ( TokSym "RecordWildCards" )
+, L
+    ( Position 115 473 )
+    ( TokOther "," )
+, L
+    ( Position 115 475 )
+    ( TokSym "ScopedTypeVariables" )
+, L
+    ( Position 115 494 )
+    ( TokOther "," )
+, L
+    ( Position 115 496 )
+    ( TokSym "StandaloneDeriving" )
+, L
+    ( Position 115 514 )
+    ( TokOther "," )
+, L
+    ( Position 115 516 )
+    ( TokSym "TemplateHaskell" )
+, L
+    ( Position 115 531 )
+    ( TokOther "," )
+, L
+    ( Position 115 533 )
+    ( TokSym "TupleSections" )
+, L
+    ( Position 115 546 )
+    ( TokOther "," )
+, L
+    ( Position 115 548 )
+    ( TokSym "TypeFamilies" )
+, L
+    ( Position 115 560 )
+    ( TokOther "," )
+, L
+    ( Position 115 562 )
+    ( TokSym "TypeOperators" )
+, L
+    ( Position 115 575 )
+    ( TokOther "," )
+, L
+    ( Position 115 577 )
+    ( TokSym "UnboxedTuples" )
+, L
+    ( Position 116 1 )
+    ( Indent 2 )
+, L
+    ( Position 116 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 116 19 ) Colon
+, L
+    ( Position 117 1 )
+    ( Indent 4 )
+, L
+    ( Position 117 5 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 118 1 )
+    ( Indent 2 )
+, L
+    ( Position 118 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 118 16 ) Colon
+, L
+    ( Position 120 1 )
+    ( Indent 4 )
+, L
+    ( Position 120 5 )
+    ( TokSym "HTF" )
+, L
+    ( Position 120 9 )
+    ( TokOther "==" )
+, L
+    ( Position 120 12 )
+    ( TokSym "0.12." )
+, L
+    ( Position 120 17 )
+    ( TokOther "*," )
+, L
+    ( Position 121 1 )
+    ( Indent 4 )
+, L
+    ( Position 121 5 )
+    ( TokSym "quickcheck-instances" )
+, L
+    ( Position 121 26 )
+    ( TokOther "==" )
+, L
+    ( Position 121 29 )
+    ( TokSym "0.3." )
+, L
+    ( Position 121 33 )
+    ( TokOther "*," )
+, L
+    ( Position 122 1 )
+    ( Indent 4 )
+, L
+    ( Position 122 5 )
+    ( TokSym "QuickCheck" )
+, L
+    ( Position 122 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 122 19 )
+    ( TokSym "2.6" )
+, L
+    ( Position 122 23 )
+    ( TokOther "&&" )
+, L
+    ( Position 122 26 )
+    ( TokOther "<" )
+, L
+    ( Position 122 28 )
+    ( TokSym "2.8" )
+, L
+    ( Position 122 31 )
+    ( TokOther "," )
+, L
+    ( Position 124 1 )
+    ( Indent 4 )
+, L
+    ( Position 124 5 )
+    ( TokSym "template-haskell" )
+, L
+    ( Position 124 22 )
+    ( TokOther "==" )
+, L
+    ( Position 124 25 )
+    ( TokSym "2." )
+, L
+    ( Position 124 27 )
+    ( TokOther "*," )
+, L
+    ( Position 126 1 )
+    ( Indent 4 )
+, L
+    ( Position 126 5 )
+    ( TokSym "attoparsec" )
+, L
+    ( Position 126 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 126 19 )
+    ( TokSym "0.10" )
+, L
+    ( Position 126 24 )
+    ( TokOther "&&" )
+, L
+    ( Position 126 27 )
+    ( TokOther "<" )
+, L
+    ( Position 126 29 )
+    ( TokSym "0.13" )
+, L
+    ( Position 126 33 )
+    ( TokOther "," )
+, L
+    ( Position 128 1 )
+    ( Indent 4 )
+, L
+    ( Position 128 5 )
+    ( TokSym "hasql" )
+, L
+    ( Position 128 11 )
+    ( TokOther ">=" )
+, L
+    ( Position 128 14 )
+    ( TokSym "0.1.4" )
+, L
+    ( Position 128 20 )
+    ( TokOther "&&" )
+, L
+    ( Position 128 23 )
+    ( TokOther "<" )
+, L
+    ( Position 128 25 )
+    ( TokSym "0.2" )
+, L
+    ( Position 128 28 )
+    ( TokOther "," )
+, L
+    ( Position 129 1 )
+    ( Indent 4 )
+, L
+    ( Position 129 5 )
+    ( TokSym "postgresql-binary" )
+, L
+    ( Position 129 23 )
+    ( TokOther "==" )
+, L
+    ( Position 129 26 )
+    ( TokSym "0.5." )
+, L
+    ( Position 129 30 )
+    ( TokOther "*," )
+, L
+    ( Position 130 1 )
+    ( Indent 4 )
+, L
+    ( Position 130 5 )
+    ( TokSym "postgresql-libpq" )
+, L
+    ( Position 130 22 )
+    ( TokOther "==" )
+, L
+    ( Position 130 25 )
+    ( TokSym "0.9." )
+, L
+    ( Position 130 29 )
+    ( TokOther "*," )
+, L
+    ( Position 132 1 )
+    ( Indent 4 )
+, L
+    ( Position 132 5 )
+    ( TokSym "uuid" )
+, L
+    ( Position 132 10 )
+    ( TokOther "==" )
+, L
+    ( Position 132 13 )
+    ( TokSym "1.3." )
+, L
+    ( Position 132 17 )
+    ( TokOther "*," )
+, L
+    ( Position 133 1 )
+    ( Indent 4 )
+, L
+    ( Position 133 5 )
+    ( TokSym "vector" )
+, L
+    ( Position 133 12 )
+    ( TokOther "==" )
+, L
+    ( Position 133 15 )
+    ( TokSym "0.10." )
+, L
+    ( Position 133 20 )
+    ( TokOther "*," )
+, L
+    ( Position 134 1 )
+    ( Indent 4 )
+, L
+    ( Position 134 5 )
+    ( TokSym "time" )
+, L
+    ( Position 134 10 )
+    ( TokOther ">=" )
+, L
+    ( Position 134 13 )
+    ( TokSym "1.4" )
+, L
+    ( Position 134 17 )
+    ( TokOther "&&" )
+, L
+    ( Position 134 20 )
+    ( TokOther "<" )
+, L
+    ( Position 134 22 )
+    ( TokSym "1.6" )
+, L
+    ( Position 134 25 )
+    ( TokOther "," )
+, L
+    ( Position 135 1 )
+    ( Indent 4 )
+, L
+    ( Position 135 5 )
+    ( TokSym "hashtables" )
+, L
+    ( Position 135 16 )
+    ( TokOther "==" )
+, L
+    ( Position 135 19 )
+    ( TokSym "1.1." )
+, L
+    ( Position 135 23 )
+    ( TokOther "*," )
+, L
+    ( Position 136 1 )
+    ( Indent 4 )
+, L
+    ( Position 136 5 )
+    ( TokSym "scientific" )
+, L
+    ( Position 136 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 136 19 )
+    ( TokSym "0.2" )
+, L
+    ( Position 136 23 )
+    ( TokOther "&&" )
+, L
+    ( Position 136 26 )
+    ( TokOther "<" )
+, L
+    ( Position 136 28 )
+    ( TokSym "0.4" )
+, L
+    ( Position 136 31 )
+    ( TokOther "," )
+, L
+    ( Position 137 1 )
+    ( Indent 4 )
+, L
+    ( Position 137 5 )
+    ( TokSym "text" )
+, L
+    ( Position 137 10 )
+    ( TokOther ">=" )
+, L
+    ( Position 137 13 )
+    ( TokSym "1" )
+, L
+    ( Position 137 15 )
+    ( TokOther "&&" )
+, L
+    ( Position 137 18 )
+    ( TokOther "<" )
+, L
+    ( Position 137 20 )
+    ( TokSym "1.3" )
+, L
+    ( Position 137 23 )
+    ( TokOther "," )
+, L
+    ( Position 138 1 )
+    ( Indent 4 )
+, L
+    ( Position 138 5 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 138 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 138 19 )
+    ( TokSym "0.10" )
+, L
+    ( Position 138 24 )
+    ( TokOther "&&" )
+, L
+    ( Position 138 27 )
+    ( TokOther "<" )
+, L
+    ( Position 138 29 )
+    ( TokSym "0.11" )
+, L
+    ( Position 138 33 )
+    ( TokOther "," )
+, L
+    ( Position 139 1 )
+    ( Indent 4 )
+, L
+    ( Position 139 5 )
+    ( TokSym "hashable" )
+, L
+    ( Position 139 14 )
+    ( TokOther ">=" )
+, L
+    ( Position 139 17 )
+    ( TokSym "1.1" )
+, L
+    ( Position 139 21 )
+    ( TokOther "&&" )
+, L
+    ( Position 139 24 )
+    ( TokOther "<" )
+, L
+    ( Position 139 26 )
+    ( TokSym "1.3" )
+, L
+    ( Position 139 29 )
+    ( TokOther "," )
+, L
+    ( Position 141 1 )
+    ( Indent 4 )
+, L
+    ( Position 141 5 )
+    ( TokSym "either" )
+, L
+    ( Position 141 12 )
+    ( TokOther "==" )
+, L
+    ( Position 141 15 )
+    ( TokSym "4." )
+, L
+    ( Position 141 17 )
+    ( TokOther "*," )
+, L
+    ( Position 142 1 )
+    ( Indent 4 )
+, L
+    ( Position 142 5 )
+    ( TokSym "list-t" )
+, L
+    ( Position 142 12 )
+    ( TokOther ">=" )
+, L
+    ( Position 142 15 )
+    ( TokSym "0.2.3" )
+, L
+    ( Position 142 21 )
+    ( TokOther "&&" )
+, L
+    ( Position 142 24 )
+    ( TokOther "<" )
+, L
+    ( Position 142 26 )
+    ( TokSym "0.3" )
+, L
+    ( Position 142 29 )
+    ( TokOther "," )
+, L
+    ( Position 144 1 )
+    ( Indent 4 )
+, L
+    ( Position 144 5 )
+    ( TokSym "loch-th" )
+, L
+    ( Position 144 13 )
+    ( TokOther "==" )
+, L
+    ( Position 144 16 )
+    ( TokSym "0.2." )
+, L
+    ( Position 144 20 )
+    ( TokOther "*," )
+, L
+    ( Position 145 1 )
+    ( Indent 4 )
+, L
+    ( Position 145 5 )
+    ( TokSym "placeholders" )
+, L
+    ( Position 145 18 )
+    ( TokOther "==" )
+, L
+    ( Position 145 21 )
+    ( TokSym "0.1." )
+, L
+    ( Position 145 25 )
+    ( TokOther "*," )
+, L
+    ( Position 147 1 )
+    ( Indent 4 )
+, L
+    ( Position 147 5 )
+    ( TokSym "mtl-prelude" )
+, L
+    ( Position 147 17 )
+    ( TokOther "<" )
+, L
+    ( Position 147 19 )
+    ( TokSym "3" )
+, L
+    ( Position 147 20 )
+    ( TokOther "," )
+, L
+    ( Position 148 1 )
+    ( Indent 4 )
+, L
+    ( Position 148 5 )
+    ( TokSym "base-prelude" )
+, L
+    ( Position 148 18 )
+    ( TokOther ">=" )
+, L
+    ( Position 148 21 )
+    ( TokSym "0.1.3" )
+, L
+    ( Position 148 27 )
+    ( TokOther "&&" )
+, L
+    ( Position 148 30 )
+    ( TokOther "<" )
+, L
+    ( Position 148 32 )
+    ( TokSym "0.2" )
+, L
+    ( Position 148 35 )
+    ( TokOther "," )
+, L
+    ( Position 149 1 )
+    ( Indent 4 )
+, L
+    ( Position 149 5 )
+    ( TokSym "base" )
+, L
+    ( Position 149 10 )
+    ( TokOther ">=" )
+, L
+    ( Position 149 13 )
+    ( TokSym "4.5" )
+, L
+    ( Position 149 17 )
+    ( TokOther "&&" )
+, L
+    ( Position 149 20 )
+    ( TokOther "<" )
+, L
+    ( Position 149 22 )
+    ( TokSym "4.8" )
+, L
+    ( Position 152 1 )
+    ( Indent 0 )
+, L
+    ( Position 152 1 )
+    ( TokSym "test-suite" )
+, L
+    ( Position 152 12 )
+    ( TokSym "tests" )
+, L
+    ( Position 153 1 )
+    ( Indent 2 )
+, L
+    ( Position 153 3 )
+    ( TokSym "type" )
+, L
+    ( Position 153 7 ) Colon
+, L
+    ( Position 154 1 )
+    ( Indent 4 )
+, L
+    ( Position 154 5 )
+    ( TokSym "exitcode-stdio-1.0" )
+, L
+    ( Position 155 1 )
+    ( Indent 2 )
+, L
+    ( Position 155 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 155 17 ) Colon
+, L
+    ( Position 156 1 )
+    ( Indent 4 )
+, L
+    ( Position 156 5 )
+    ( TokSym "tests" )
+, L
+    ( Position 157 1 )
+    ( Indent 2 )
+, L
+    ( Position 157 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 157 10 ) Colon
+, L
+    ( Position 158 1 )
+    ( Indent 4 )
+, L
+    ( Position 158 5 )
+    ( TokSym "Main.hs" )
+, L
+    ( Position 159 1 )
+    ( Indent 2 )
+, L
+    ( Position 159 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 159 14 ) Colon
+, L
+    ( Position 160 1 )
+    ( Indent 4 )
+, L
+    ( Position 160 5 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 161 1 )
+    ( Indent 4 )
+, L
+    ( Position 161 5 )
+    ( TokStr "-with-rtsopts=-N" )
+, L
+    ( Position 162 1 )
+    ( Indent 4 )
+, L
+    ( Position 162 5 )
+    ( TokSym "-funbox-strict-fields" )
+, L
+    ( Position 163 1 )
+    ( Indent 2 )
+, L
+    ( Position 163 3 )
+    ( TokSym "default-extensions" )
+, L
+    ( Position 163 21 ) Colon
+, L
+    ( Position 164 1 )
+    ( Indent 4 )
+, L
+    ( Position 164 5 )
+    ( TokSym "Arrows" )
+, L
+    ( Position 164 11 )
+    ( TokOther "," )
+, L
+    ( Position 164 13 )
+    ( TokSym "BangPatterns" )
+, L
+    ( Position 164 25 )
+    ( TokOther "," )
+, L
+    ( Position 164 27 )
+    ( TokSym "ConstraintKinds" )
+, L
+    ( Position 164 42 )
+    ( TokOther "," )
+, L
+    ( Position 164 44 )
+    ( TokSym "DataKinds" )
+, L
+    ( Position 164 53 )
+    ( TokOther "," )
+, L
+    ( Position 164 55 )
+    ( TokSym "DefaultSignatures" )
+, L
+    ( Position 164 72 )
+    ( TokOther "," )
+, L
+    ( Position 164 74 )
+    ( TokSym "DeriveDataTypeable" )
+, L
+    ( Position 164 92 )
+    ( TokOther "," )
+, L
+    ( Position 164 94 )
+    ( TokSym "DeriveFunctor" )
+, L
+    ( Position 164 107 )
+    ( TokOther "," )
+, L
+    ( Position 164 109 )
+    ( TokSym "DeriveGeneric" )
+, L
+    ( Position 164 122 )
+    ( TokOther "," )
+, L
+    ( Position 164 124 )
+    ( TokSym "EmptyDataDecls" )
+, L
+    ( Position 164 138 )
+    ( TokOther "," )
+, L
+    ( Position 164 140 )
+    ( TokSym "FlexibleContexts" )
+, L
+    ( Position 164 156 )
+    ( TokOther "," )
+, L
+    ( Position 164 158 )
+    ( TokSym "FlexibleInstances" )
+, L
+    ( Position 164 175 )
+    ( TokOther "," )
+, L
+    ( Position 164 177 )
+    ( TokSym "FunctionalDependencies" )
+, L
+    ( Position 164 199 )
+    ( TokOther "," )
+, L
+    ( Position 164 201 )
+    ( TokSym "GADTs" )
+, L
+    ( Position 164 206 )
+    ( TokOther "," )
+, L
+    ( Position 164 208 )
+    ( TokSym "GeneralizedNewtypeDeriving" )
+, L
+    ( Position 164 234 )
+    ( TokOther "," )
+, L
+    ( Position 164 236 )
+    ( TokSym "ImpredicativeTypes" )
+, L
+    ( Position 164 254 )
+    ( TokOther "," )
+, L
+    ( Position 164 256 )
+    ( TokSym "LambdaCase" )
+, L
+    ( Position 164 266 )
+    ( TokOther "," )
+, L
+    ( Position 164 268 )
+    ( TokSym "LiberalTypeSynonyms" )
+, L
+    ( Position 164 287 )
+    ( TokOther "," )
+, L
+    ( Position 164 289 )
+    ( TokSym "MagicHash" )
+, L
+    ( Position 164 298 )
+    ( TokOther "," )
+, L
+    ( Position 164 300 )
+    ( TokSym "MultiParamTypeClasses" )
+, L
+    ( Position 164 321 )
+    ( TokOther "," )
+, L
+    ( Position 164 323 )
+    ( TokSym "MultiWayIf" )
+, L
+    ( Position 164 333 )
+    ( TokOther "," )
+, L
+    ( Position 164 335 )
+    ( TokSym "NoImplicitPrelude" )
+, L
+    ( Position 164 352 )
+    ( TokOther "," )
+, L
+    ( Position 164 354 )
+    ( TokSym "NoMonomorphismRestriction" )
+, L
+    ( Position 164 379 )
+    ( TokOther "," )
+, L
+    ( Position 164 381 )
+    ( TokSym "OverloadedStrings" )
+, L
+    ( Position 164 398 )
+    ( TokOther "," )
+, L
+    ( Position 164 400 )
+    ( TokSym "PatternGuards" )
+, L
+    ( Position 164 413 )
+    ( TokOther "," )
+, L
+    ( Position 164 415 )
+    ( TokSym "ParallelListComp" )
+, L
+    ( Position 164 431 )
+    ( TokOther "," )
+, L
+    ( Position 164 433 )
+    ( TokSym "QuasiQuotes" )
+, L
+    ( Position 164 444 )
+    ( TokOther "," )
+, L
+    ( Position 164 446 )
+    ( TokSym "RankNTypes" )
+, L
+    ( Position 164 456 )
+    ( TokOther "," )
+, L
+    ( Position 164 458 )
+    ( TokSym "RecordWildCards" )
+, L
+    ( Position 164 473 )
+    ( TokOther "," )
+, L
+    ( Position 164 475 )
+    ( TokSym "ScopedTypeVariables" )
+, L
+    ( Position 164 494 )
+    ( TokOther "," )
+, L
+    ( Position 164 496 )
+    ( TokSym "StandaloneDeriving" )
+, L
+    ( Position 164 514 )
+    ( TokOther "," )
+, L
+    ( Position 164 516 )
+    ( TokSym "TemplateHaskell" )
+, L
+    ( Position 164 531 )
+    ( TokOther "," )
+, L
+    ( Position 164 533 )
+    ( TokSym "TupleSections" )
+, L
+    ( Position 164 546 )
+    ( TokOther "," )
+, L
+    ( Position 164 548 )
+    ( TokSym "TypeFamilies" )
+, L
+    ( Position 164 560 )
+    ( TokOther "," )
+, L
+    ( Position 164 562 )
+    ( TokSym "TypeOperators" )
+, L
+    ( Position 164 575 )
+    ( TokOther "," )
+, L
+    ( Position 164 577 )
+    ( TokSym "UnboxedTuples" )
+, L
+    ( Position 165 1 )
+    ( Indent 2 )
+, L
+    ( Position 165 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 165 19 ) Colon
+, L
+    ( Position 166 1 )
+    ( Indent 4 )
+, L
+    ( Position 166 5 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 167 1 )
+    ( Indent 2 )
+, L
+    ( Position 167 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 167 16 ) Colon
+, L
+    ( Position 168 1 )
+    ( Indent 4 )
+, L
+    ( Position 168 5 )
+    ( TokSym "hasql-postgres" )
+, L
+    ( Position 168 19 )
+    ( TokOther "," )
+, L
+    ( Position 169 1 )
+    ( Indent 4 )
+, L
+    ( Position 169 5 )
+    ( TokSym "hasql-backend" )
+, L
+    ( Position 169 18 )
+    ( TokOther "," )
+, L
+    ( Position 170 1 )
+    ( Indent 4 )
+, L
+    ( Position 170 5 )
+    ( TokSym "hasql" )
+, L
+    ( Position 170 11 )
+    ( TokOther ">=" )
+, L
+    ( Position 170 14 )
+    ( TokSym "0.1.4" )
+, L
+    ( Position 170 20 )
+    ( TokOther "&&" )
+, L
+    ( Position 170 23 )
+    ( TokOther "<" )
+, L
+    ( Position 170 25 )
+    ( TokSym "0.2" )
+, L
+    ( Position 170 28 )
+    ( TokOther "," )
+, L
+    ( Position 172 1 )
+    ( Indent 4 )
+, L
+    ( Position 172 5 )
+    ( TokSym "HTF" )
+, L
+    ( Position 172 9 )
+    ( TokOther "==" )
+, L
+    ( Position 172 12 )
+    ( TokSym "0.12." )
+, L
+    ( Position 172 17 )
+    ( TokOther "*," )
+, L
+    ( Position 173 1 )
+    ( Indent 4 )
+, L
+    ( Position 173 5 )
+    ( TokSym "quickcheck-instances" )
+, L
+    ( Position 173 26 )
+    ( TokOther "==" )
+, L
+    ( Position 173 29 )
+    ( TokSym "0.3." )
+, L
+    ( Position 173 33 )
+    ( TokOther "*," )
+, L
+    ( Position 174 1 )
+    ( Indent 4 )
+, L
+    ( Position 174 5 )
+    ( TokSym "QuickCheck" )
+, L
+    ( Position 174 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 174 19 )
+    ( TokSym "2.6" )
+, L
+    ( Position 174 23 )
+    ( TokOther "&&" )
+, L
+    ( Position 174 26 )
+    ( TokOther "<" )
+, L
+    ( Position 174 28 )
+    ( TokSym "2.8" )
+, L
+    ( Position 174 31 )
+    ( TokOther "," )
+, L
+    ( Position 176 1 )
+    ( Indent 4 )
+, L
+    ( Position 176 5 )
+    ( TokSym "SafeSemaphore" )
+, L
+    ( Position 176 19 )
+    ( TokOther "==" )
+, L
+    ( Position 176 22 )
+    ( TokSym "0.10." )
+, L
+    ( Position 176 27 )
+    ( TokOther "*," )
+, L
+    ( Position 177 1 )
+    ( Indent 4 )
+, L
+    ( Position 177 5 )
+    ( TokSym "slave-thread" )
+, L
+    ( Position 177 18 )
+    ( TokOther "==" )
+, L
+    ( Position 177 21 )
+    ( TokSym "0.1." )
+, L
+    ( Position 177 25 )
+    ( TokOther "*," )
+, L
+    ( Position 179 1 )
+    ( Indent 4 )
+, L
+    ( Position 179 5 )
+    ( TokSym "vector" )
+, L
+    ( Position 179 12 )
+    ( TokOther "==" )
+, L
+    ( Position 179 15 )
+    ( TokSym "0.10." )
+, L
+    ( Position 179 20 )
+    ( TokOther "*," )
+, L
+    ( Position 180 1 )
+    ( Indent 4 )
+, L
+    ( Position 180 5 )
+    ( TokSym "old-locale" )
+, L
+    ( Position 180 16 )
+    ( TokOther "==" )
+, L
+    ( Position 180 19 )
+    ( TokSym "1.0." )
+, L
+    ( Position 180 23 )
+    ( TokOther "*," )
+, L
+    ( Position 181 1 )
+    ( Indent 4 )
+, L
+    ( Position 181 5 )
+    ( TokSym "time" )
+, L
+    ( Position 181 10 )
+    ( TokOther ">=" )
+, L
+    ( Position 181 13 )
+    ( TokSym "1.4" )
+, L
+    ( Position 181 17 )
+    ( TokOther "&&" )
+, L
+    ( Position 181 20 )
+    ( TokOther "<" )
+, L
+    ( Position 181 22 )
+    ( TokSym "1.6" )
+, L
+    ( Position 181 25 )
+    ( TokOther "," )
+, L
+    ( Position 182 1 )
+    ( Indent 4 )
+, L
+    ( Position 182 5 )
+    ( TokSym "scientific" )
+, L
+    ( Position 182 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 182 19 )
+    ( TokSym "0.2" )
+, L
+    ( Position 182 23 )
+    ( TokOther "&&" )
+, L
+    ( Position 182 26 )
+    ( TokOther "<" )
+, L
+    ( Position 182 28 )
+    ( TokSym "0.4" )
+, L
+    ( Position 182 31 )
+    ( TokOther "," )
+, L
+    ( Position 183 1 )
+    ( Indent 4 )
+, L
+    ( Position 183 5 )
+    ( TokSym "text" )
+, L
+    ( Position 183 10 )
+    ( TokOther ">=" )
+, L
+    ( Position 183 13 )
+    ( TokSym "1" )
+, L
+    ( Position 183 15 )
+    ( TokOther "&&" )
+, L
+    ( Position 183 18 )
+    ( TokOther "<" )
+, L
+    ( Position 183 20 )
+    ( TokSym "1.3" )
+, L
+    ( Position 183 23 )
+    ( TokOther "," )
+, L
+    ( Position 184 1 )
+    ( Indent 4 )
+, L
+    ( Position 184 5 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 184 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 184 19 )
+    ( TokSym "0.10" )
+, L
+    ( Position 184 24 )
+    ( TokOther "&&" )
+, L
+    ( Position 184 27 )
+    ( TokOther "<" )
+, L
+    ( Position 184 29 )
+    ( TokSym "0.11" )
+, L
+    ( Position 184 33 )
+    ( TokOther "," )
+, L
+    ( Position 185 1 )
+    ( Indent 4 )
+, L
+    ( Position 185 5 )
+    ( TokSym "hashable" )
+, L
+    ( Position 185 14 )
+    ( TokOther ">=" )
+, L
+    ( Position 185 17 )
+    ( TokSym "1.1" )
+, L
+    ( Position 185 21 )
+    ( TokOther "&&" )
+, L
+    ( Position 185 24 )
+    ( TokOther "<" )
+, L
+    ( Position 185 26 )
+    ( TokSym "1.3" )
+, L
+    ( Position 185 29 )
+    ( TokOther "," )
+, L
+    ( Position 187 1 )
+    ( Indent 4 )
+, L
+    ( Position 187 5 )
+    ( TokSym "list-t" )
+, L
+    ( Position 187 12 )
+    ( TokOther "==" )
+, L
+    ( Position 187 15 )
+    ( TokSym "0.2." )
+, L
+    ( Position 187 19 )
+    ( TokOther "*," )
+, L
+    ( Position 188 1 )
+    ( Indent 4 )
+, L
+    ( Position 188 5 )
+    ( TokSym "mtl-prelude" )
+, L
+    ( Position 188 17 )
+    ( TokOther "<" )
+, L
+    ( Position 188 19 )
+    ( TokSym "3" )
+, L
+    ( Position 188 20 )
+    ( TokOther "," )
+, L
+    ( Position 189 1 )
+    ( Indent 4 )
+, L
+    ( Position 189 5 )
+    ( TokSym "base-prelude" )
+, L
+    ( Position 189 18 )
+    ( TokOther ">=" )
+, L
+    ( Position 189 21 )
+    ( TokSym "0.1.3" )
+, L
+    ( Position 189 27 )
+    ( TokOther "&&" )
+, L
+    ( Position 189 30 )
+    ( TokOther "<" )
+, L
+    ( Position 189 32 )
+    ( TokSym "0.2" )
+, L
+    ( Position 189 35 )
+    ( TokOther "," )
+, L
+    ( Position 190 1 )
+    ( Indent 4 )
+, L
+    ( Position 190 5 )
+    ( TokSym "base" )
+, L
+    ( Position 190 10 )
+    ( TokOther ">=" )
+, L
+    ( Position 190 13 )
+    ( TokSym "4.5" )
+, L
+    ( Position 190 17 )
+    ( TokOther "&&" )
+, L
+    ( Position 190 20 )
+    ( TokOther "<" )
+, L
+    ( Position 190 22 )
+    ( TokSym "4.8" )
+, L
+    ( Position 193 1 )
+    ( Indent 0 )
+, L
+    ( Position 193 1 )
+    ( TokSym "benchmark" )
+, L
+    ( Position 193 11 )
+    ( TokSym "competition" )
+, L
+    ( Position 194 1 )
+    ( Indent 2 )
+, L
+    ( Position 194 3 )
+    ( TokSym "type" )
+, L
+    ( Position 194 7 ) Colon
+, L
+    ( Position 195 1 )
+    ( Indent 4 )
+, L
+    ( Position 195 5 )
+    ( TokSym "exitcode-stdio-1.0" )
+, L
+    ( Position 196 1 )
+    ( Indent 2 )
+, L
+    ( Position 196 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 196 17 ) Colon
+, L
+    ( Position 197 1 )
+    ( Indent 4 )
+, L
+    ( Position 197 5 )
+    ( TokSym "competition" )
+, L
+    ( Position 198 1 )
+    ( Indent 2 )
+, L
+    ( Position 198 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 198 10 ) Colon
+, L
+    ( Position 199 1 )
+    ( Indent 4 )
+, L
+    ( Position 199 5 )
+    ( TokSym "Main.hs" )
+, L
+    ( Position 200 1 )
+    ( Indent 2 )
+, L
+    ( Position 200 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 200 14 ) Colon
+, L
+    ( Position 201 1 )
+    ( Indent 4 )
+, L
+    ( Position 201 5 )
+    ( TokSym "-O2" )
+, L
+    ( Position 202 1 )
+    ( Indent 4 )
+, L
+    ( Position 202 5 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 203 1 )
+    ( Indent 4 )
+, L
+    ( Position 203 5 )
+    ( TokStr "-with-rtsopts=-N" )
+, L
+    ( Position 204 1 )
+    ( Indent 4 )
+, L
+    ( Position 204 5 )
+    ( TokSym "-funbox-strict-fields" )
+, L
+    ( Position 205 1 )
+    ( Indent 2 )
+, L
+    ( Position 205 3 )
+    ( TokSym "default-extensions" )
+, L
+    ( Position 205 21 ) Colon
+, L
+    ( Position 206 1 )
+    ( Indent 4 )
+, L
+    ( Position 206 5 )
+    ( TokSym "Arrows" )
+, L
+    ( Position 206 11 )
+    ( TokOther "," )
+, L
+    ( Position 206 13 )
+    ( TokSym "BangPatterns" )
+, L
+    ( Position 206 25 )
+    ( TokOther "," )
+, L
+    ( Position 206 27 )
+    ( TokSym "ConstraintKinds" )
+, L
+    ( Position 206 42 )
+    ( TokOther "," )
+, L
+    ( Position 206 44 )
+    ( TokSym "DataKinds" )
+, L
+    ( Position 206 53 )
+    ( TokOther "," )
+, L
+    ( Position 206 55 )
+    ( TokSym "DefaultSignatures" )
+, L
+    ( Position 206 72 )
+    ( TokOther "," )
+, L
+    ( Position 206 74 )
+    ( TokSym "DeriveDataTypeable" )
+, L
+    ( Position 206 92 )
+    ( TokOther "," )
+, L
+    ( Position 206 94 )
+    ( TokSym "DeriveFunctor" )
+, L
+    ( Position 206 107 )
+    ( TokOther "," )
+, L
+    ( Position 206 109 )
+    ( TokSym "DeriveGeneric" )
+, L
+    ( Position 206 122 )
+    ( TokOther "," )
+, L
+    ( Position 206 124 )
+    ( TokSym "EmptyDataDecls" )
+, L
+    ( Position 206 138 )
+    ( TokOther "," )
+, L
+    ( Position 206 140 )
+    ( TokSym "FlexibleContexts" )
+, L
+    ( Position 206 156 )
+    ( TokOther "," )
+, L
+    ( Position 206 158 )
+    ( TokSym "FlexibleInstances" )
+, L
+    ( Position 206 175 )
+    ( TokOther "," )
+, L
+    ( Position 206 177 )
+    ( TokSym "FunctionalDependencies" )
+, L
+    ( Position 206 199 )
+    ( TokOther "," )
+, L
+    ( Position 206 201 )
+    ( TokSym "GADTs" )
+, L
+    ( Position 206 206 )
+    ( TokOther "," )
+, L
+    ( Position 206 208 )
+    ( TokSym "GeneralizedNewtypeDeriving" )
+, L
+    ( Position 206 234 )
+    ( TokOther "," )
+, L
+    ( Position 206 236 )
+    ( TokSym "ImpredicativeTypes" )
+, L
+    ( Position 206 254 )
+    ( TokOther "," )
+, L
+    ( Position 206 256 )
+    ( TokSym "LambdaCase" )
+, L
+    ( Position 206 266 )
+    ( TokOther "," )
+, L
+    ( Position 206 268 )
+    ( TokSym "LiberalTypeSynonyms" )
+, L
+    ( Position 206 287 )
+    ( TokOther "," )
+, L
+    ( Position 206 289 )
+    ( TokSym "MagicHash" )
+, L
+    ( Position 206 298 )
+    ( TokOther "," )
+, L
+    ( Position 206 300 )
+    ( TokSym "MultiParamTypeClasses" )
+, L
+    ( Position 206 321 )
+    ( TokOther "," )
+, L
+    ( Position 206 323 )
+    ( TokSym "MultiWayIf" )
+, L
+    ( Position 206 333 )
+    ( TokOther "," )
+, L
+    ( Position 206 335 )
+    ( TokSym "NoImplicitPrelude" )
+, L
+    ( Position 206 352 )
+    ( TokOther "," )
+, L
+    ( Position 206 354 )
+    ( TokSym "NoMonomorphismRestriction" )
+, L
+    ( Position 206 379 )
+    ( TokOther "," )
+, L
+    ( Position 206 381 )
+    ( TokSym "OverloadedStrings" )
+, L
+    ( Position 206 398 )
+    ( TokOther "," )
+, L
+    ( Position 206 400 )
+    ( TokSym "PatternGuards" )
+, L
+    ( Position 206 413 )
+    ( TokOther "," )
+, L
+    ( Position 206 415 )
+    ( TokSym "ParallelListComp" )
+, L
+    ( Position 206 431 )
+    ( TokOther "," )
+, L
+    ( Position 206 433 )
+    ( TokSym "QuasiQuotes" )
+, L
+    ( Position 206 444 )
+    ( TokOther "," )
+, L
+    ( Position 206 446 )
+    ( TokSym "RankNTypes" )
+, L
+    ( Position 206 456 )
+    ( TokOther "," )
+, L
+    ( Position 206 458 )
+    ( TokSym "RecordWildCards" )
+, L
+    ( Position 206 473 )
+    ( TokOther "," )
+, L
+    ( Position 206 475 )
+    ( TokSym "ScopedTypeVariables" )
+, L
+    ( Position 206 494 )
+    ( TokOther "," )
+, L
+    ( Position 206 496 )
+    ( TokSym "StandaloneDeriving" )
+, L
+    ( Position 206 514 )
+    ( TokOther "," )
+, L
+    ( Position 206 516 )
+    ( TokSym "TemplateHaskell" )
+, L
+    ( Position 206 531 )
+    ( TokOther "," )
+, L
+    ( Position 206 533 )
+    ( TokSym "TupleSections" )
+, L
+    ( Position 206 546 )
+    ( TokOther "," )
+, L
+    ( Position 206 548 )
+    ( TokSym "TypeFamilies" )
+, L
+    ( Position 206 560 )
+    ( TokOther "," )
+, L
+    ( Position 206 562 )
+    ( TokSym "TypeOperators" )
+, L
+    ( Position 206 575 )
+    ( TokOther "," )
+, L
+    ( Position 206 577 )
+    ( TokSym "UnboxedTuples" )
+, L
+    ( Position 207 1 )
+    ( Indent 2 )
+, L
+    ( Position 207 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 207 19 ) Colon
+, L
+    ( Position 208 1 )
+    ( Indent 4 )
+, L
+    ( Position 208 5 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 209 1 )
+    ( Indent 2 )
+, L
+    ( Position 209 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 209 16 ) Colon
+, L
+    ( Position 210 1 )
+    ( Indent 4 )
+, L
+    ( Position 210 5 )
+    ( TokSym "HDBC" )
+, L
+    ( Position 210 10 )
+    ( TokOther "==" )
+, L
+    ( Position 210 13 )
+    ( TokSym "2.4." )
+, L
+    ( Position 210 17 )
+    ( TokOther "*," )
+, L
+    ( Position 211 1 )
+    ( Indent 4 )
+, L
+    ( Position 211 5 )
+    ( TokSym "HDBC-postgresql" )
+, L
+    ( Position 211 21 )
+    ( TokOther "==" )
+, L
+    ( Position 211 24 )
+    ( TokSym "2.3." )
+, L
+    ( Position 211 28 )
+    ( TokOther "*," )
+, L
+    ( Position 212 1 )
+    ( Indent 4 )
+, L
+    ( Position 212 5 )
+    ( TokSym "postgresql-simple" )
+, L
+    ( Position 212 23 )
+    ( TokOther "==" )
+, L
+    ( Position 212 26 )
+    ( TokSym "0.4." )
+, L
+    ( Position 212 30 )
+    ( TokOther "*," )
+, L
+    ( Position 213 1 )
+    ( Indent 4 )
+, L
+    ( Position 213 5 )
+    ( TokSym "hasql-postgres" )
+, L
+    ( Position 213 19 )
+    ( TokOther "," )
+, L
+    ( Position 214 1 )
+    ( Indent 4 )
+, L
+    ( Position 214 5 )
+    ( TokSym "hasql-backend" )
+, L
+    ( Position 214 18 )
+    ( TokOther "," )
+, L
+    ( Position 215 1 )
+    ( Indent 4 )
+, L
+    ( Position 215 5 )
+    ( TokSym "hasql" )
+, L
+    ( Position 215 11 )
+    ( TokOther ">=" )
+, L
+    ( Position 215 14 )
+    ( TokSym "0.1.4" )
+, L
+    ( Position 215 20 )
+    ( TokOther "&&" )
+, L
+    ( Position 215 23 )
+    ( TokOther "<" )
+, L
+    ( Position 215 25 )
+    ( TokSym "0.2" )
+, L
+    ( Position 215 28 )
+    ( TokOther "," )
+, L
+    ( Position 217 1 )
+    ( Indent 4 )
+, L
+    ( Position 217 5 )
+    ( TokSym "QuickCheck" )
+, L
+    ( Position 217 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 217 19 )
+    ( TokSym "2.6" )
+, L
+    ( Position 217 23 )
+    ( TokOther "&&" )
+, L
+    ( Position 217 26 )
+    ( TokOther "<" )
+, L
+    ( Position 217 28 )
+    ( TokSym "2.8" )
+, L
+    ( Position 217 31 )
+    ( TokOther "," )
+, L
+    ( Position 218 1 )
+    ( Indent 4 )
+, L
+    ( Position 218 5 )
+    ( TokSym "quickcheck-instances" )
+, L
+    ( Position 218 26 )
+    ( TokOther "==" )
+, L
+    ( Position 218 29 )
+    ( TokSym "0.3." )
+, L
+    ( Position 218 33 )
+    ( TokOther "*," )
+, L
+    ( Position 220 1 )
+    ( Indent 4 )
+, L
+    ( Position 220 5 )
+    ( TokSym "criterion-plus" )
+, L
+    ( Position 220 20 )
+    ( TokOther "==" )
+, L
+    ( Position 220 23 )
+    ( TokSym "0.1." )
+, L
+    ( Position 220 27 )
+    ( TokOther "*," )
+, L
+    ( Position 222 1 )
+    ( Indent 4 )
+, L
+    ( Position 222 5 )
+    ( TokSym "vector" )
+, L
+    ( Position 222 12 )
+    ( TokOther "==" )
+, L
+    ( Position 222 15 )
+    ( TokSym "0.10." )
+, L
+    ( Position 222 20 )
+    ( TokOther "*," )
+, L
+    ( Position 223 1 )
+    ( Indent 4 )
+, L
+    ( Position 223 5 )
+    ( TokSym "time" )
+, L
+    ( Position 223 10 )
+    ( TokOther ">=" )
+, L
+    ( Position 223 13 )
+    ( TokSym "1.4" )
+, L
+    ( Position 223 17 )
+    ( TokOther "&&" )
+, L
+    ( Position 223 20 )
+    ( TokOther "<" )
+, L
+    ( Position 223 22 )
+    ( TokSym "1.6" )
+, L
+    ( Position 223 25 )
+    ( TokOther "," )
+, L
+    ( Position 224 1 )
+    ( Indent 4 )
+, L
+    ( Position 224 5 )
+    ( TokSym "text" )
+, L
+    ( Position 224 10 )
+    ( TokOther ">=" )
+, L
+    ( Position 224 13 )
+    ( TokSym "1" )
+, L
+    ( Position 224 15 )
+    ( TokOther "&&" )
+, L
+    ( Position 224 18 )
+    ( TokOther "<" )
+, L
+    ( Position 224 20 )
+    ( TokSym "1.3" )
+, L
+    ( Position 224 23 )
+    ( TokOther "," )
+, L
+    ( Position 225 1 )
+    ( Indent 4 )
+, L
+    ( Position 225 5 )
+    ( TokSym "scientific" )
+, L
+    ( Position 225 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 225 19 )
+    ( TokSym "0.2" )
+, L
+    ( Position 225 23 )
+    ( TokOther "&&" )
+, L
+    ( Position 225 26 )
+    ( TokOther "<" )
+, L
+    ( Position 225 28 )
+    ( TokSym "0.4" )
+, L
+    ( Position 225 31 )
+    ( TokOther "," )
+, L
+    ( Position 227 1 )
+    ( Indent 4 )
+, L
+    ( Position 227 5 )
+    ( TokSym "monad-control" )
+, L
+    ( Position 227 19 )
+    ( TokOther "==" )
+, L
+    ( Position 227 22 )
+    ( TokSym "0.3." )
+, L
+    ( Position 227 26 )
+    ( TokOther "*," )
+, L
+    ( Position 228 1 )
+    ( Indent 4 )
+, L
+    ( Position 228 5 )
+    ( TokSym "deepseq" )
+, L
+    ( Position 228 13 )
+    ( TokOther "==" )
+, L
+    ( Position 228 16 )
+    ( TokSym "1.3." )
+, L
+    ( Position 228 20 )
+    ( TokOther "*," )
+, L
+    ( Position 229 1 )
+    ( Indent 4 )
+, L
+    ( Position 229 5 )
+    ( TokSym "list-t" )
+, L
+    ( Position 229 12 )
+    ( TokOther "==" )
+, L
+    ( Position 229 15 )
+    ( TokSym "0.2." )
+, L
+    ( Position 229 19 )
+    ( TokOther "*," )
+, L
+    ( Position 230 1 )
+    ( Indent 4 )
+, L
+    ( Position 230 5 )
+    ( TokSym "mtl-prelude" )
+, L
+    ( Position 230 17 )
+    ( TokOther "<" )
+, L
+    ( Position 230 19 )
+    ( TokSym "3" )
+, L
+    ( Position 230 20 )
+    ( TokOther "," )
+, L
+    ( Position 231 1 )
+    ( Indent 4 )
+, L
+    ( Position 231 5 )
+    ( TokSym "base-prelude" )
+, L
+    ( Position 231 18 )
+    ( TokOther ">=" )
+, L
+    ( Position 231 21 )
+    ( TokSym "0.1.3" )
+, L
+    ( Position 231 27 )
+    ( TokOther "&&" )
+, L
+    ( Position 231 30 )
+    ( TokOther "<" )
+, L
+    ( Position 231 32 )
+    ( TokSym "0.2" )
+, L
+    ( Position 231 35 )
+    ( TokOther "," )
+, L
+    ( Position 232 1 )
+    ( Indent 4 )
+, L
+    ( Position 232 5 )
+    ( TokSym "base" )
+, L
+    ( Position 232 10 )
+    ( TokOther ">=" )
+, L
+    ( Position 232 13 )
+    ( TokSym "4.5" )
+, L
+    ( Position 232 17 )
+    ( TokOther "&&" )
+, L
+    ( Position 232 20 )
+    ( TokOther "<" )
+, L
+    ( Position 232 22 )
+    ( TokSym "4.8" )
+, L
+    ( Position 234 1 ) EOF
+]

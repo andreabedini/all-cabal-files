@@ -1,0 +1,212 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 18 )
+    ( TokSym "equivalence" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 18 )
+    ( TokSym "0.1.1" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "License" )
+, L
+    ( Position 3 8 ) Colon
+, L
+    ( Position 3 18 )
+    ( TokSym "BSD3" )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "License-File" )
+, L
+    ( Position 4 13 ) Colon
+, L
+    ( Position 4 18 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "Author" )
+, L
+    ( Position 5 7 ) Colon
+, L
+    ( Position 5 18 )
+    ( TokSym "Patrick" )
+, L
+    ( Position 5 26 )
+    ( TokSym "Bahr" )
+, L
+    ( Position 5 31 )
+    ( TokOther "<" )
+, L
+    ( Position 5 32 )
+    ( TokSym "paba" )
+, L
+    ( Position 5 36 )
+    ( TokOther "@" )
+, L
+    ( Position 5 37 )
+    ( TokSym "diku.dk" )
+, L
+    ( Position 5 44 )
+    ( TokOther ">" )
+, L
+    ( Position 6 1 )
+    ( Indent 0 )
+, L
+    ( Position 6 1 )
+    ( TokSym "Maintainer" )
+, L
+    ( Position 6 11 ) Colon
+, L
+    ( Position 6 18 )
+    ( TokSym "Patrick" )
+, L
+    ( Position 6 26 )
+    ( TokSym "Bahr" )
+, L
+    ( Position 6 31 )
+    ( TokOther "<" )
+, L
+    ( Position 6 32 )
+    ( TokSym "paba" )
+, L
+    ( Position 6 36 )
+    ( TokOther "@" )
+, L
+    ( Position 6 37 )
+    ( TokSym "diku.dk" )
+, L
+    ( Position 6 44 )
+    ( TokOther ">" )
+, L
+    ( Position 7 1 )
+    ( Indent 0 )
+, L
+    ( Position 7 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 7 9 ) Colon
+, L
+    ( Position 7 18 )
+    ( TokSym "Maintaining" )
+, L
+    ( Position 7 30 )
+    ( TokSym "an" )
+, L
+    ( Position 7 33 )
+    ( TokSym "equivalence" )
+, L
+    ( Position 7 45 )
+    ( TokSym "relation" )
+, L
+    ( Position 7 54 )
+    ( TokSym "implemented" )
+, L
+    ( Position 7 66 )
+    ( TokSym "as" )
+, L
+    ( Position 7 69 )
+    ( TokSym "union-find" )
+, L
+    ( Position 7 80 )
+    ( TokSym "using" )
+, L
+    ( Position 7 86 )
+    ( TokSym "STT." )
+, L
+    ( Position 8 1 )
+    ( Indent 0 )
+, L
+    ( Position 8 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 8 12 ) Colon
+, L
+    ( Position 9 1 )
+    ( Indent 2 )
+, L
+    ( Position 9 3 )
+    ( TokSym "This" )
+, L
+    ( Position 9 8 )
+    ( TokSym "is" )
+, L
+    ( Position 9 11 )
+    ( TokSym "an" )
+, L
+    ( Position 9 14 )
+    ( TokSym "implementation" )
+, L
+    ( Position 9 29 )
+    ( TokSym "of" )
+, L
+    ( Position 9 32 )
+    ( TokSym "Tarjan's" )
+, L
+    ( Position 9 41 )
+    ( TokSym "Union-Find" )
+, L
+    ( Position 9 52 )
+    ( TokSym "algorithm" )
+, L
+    ( Position 9 62 )
+    ( TokOther "(" )
+, L
+    ( Position 9 63 )
+    ( TokSym "Robert" )
+, L
+    ( Position 10 1 )
+    ( Indent 2 )
+, L
+    ( Position 10 3 )
+    ( TokSym "E." )
+, L
+    ( Position 10 6 )
+    ( TokSym "Tarjan." )
+, L
+    ( Position 10 60 )
+    ( LexicalError "
+      Algorithm", JACM 22(2), 1975) in order to maintain an equivalence
+      relation. 
+      
+      This implementation is a port of the /union-find/ package using the
+      ST monad transformer (instead of the IO monad).
+    Category:        Algorithms, Data
+    Stability:       provisional
+    Build-Type:      Simple
+    Cabal-Version:   >= 1.6
+
+    Library
+      Build-Depends:
+        base >= 4 && < 5, containers, mtl, STMonadTrans
+      Exposed-Modules:
+        Data.Equivalence.STT,
+        Data.Equivalence.Monad
+      Hs-Source-Dirs: src
+
+    " )
+, L
+    ( Position 10 14 ) EOF
+]

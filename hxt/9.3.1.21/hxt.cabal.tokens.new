@@ -1,0 +1,6383 @@
+[ L
+    ( Position 1 1 )
+    ( Comment "-- arch-tag: Haskell XML Toolbox main description file" )
+, L
+    ( Position 1 55 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 2 5 ) Colon
+, L
+    ( Position 2 6 )
+    ( Whitespace "           " )
+, L
+    ( Position 2 17 )
+    ( TokSym "hxt" )
+, L
+    ( Position 2 20 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 3 8 ) Colon
+, L
+    ( Position 3 9 )
+    ( Whitespace "        " )
+, L
+    ( Position 3 17 )
+    ( TokSym "9.3.1.21" )
+, L
+    ( Position 3 25 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 4 9 ) Colon
+, L
+    ( Position 4 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 4 17 )
+    ( TokSym "A" )
+, L
+    ( Position 4 18 )
+    ( Whitespace " " )
+, L
+    ( Position 4 19 )
+    ( TokSym "collection" )
+, L
+    ( Position 4 29 )
+    ( Whitespace " " )
+, L
+    ( Position 4 30 )
+    ( TokSym "of" )
+, L
+    ( Position 4 32 )
+    ( Whitespace " " )
+, L
+    ( Position 4 33 )
+    ( TokSym "tools" )
+, L
+    ( Position 4 38 )
+    ( Whitespace " " )
+, L
+    ( Position 4 39 )
+    ( TokSym "for" )
+, L
+    ( Position 4 42 )
+    ( Whitespace " " )
+, L
+    ( Position 4 43 )
+    ( TokSym "processing" )
+, L
+    ( Position 4 53 )
+    ( Whitespace " " )
+, L
+    ( Position 4 54 )
+    ( TokSym "XML" )
+, L
+    ( Position 4 57 )
+    ( Whitespace " " )
+, L
+    ( Position 4 58 )
+    ( TokSym "with" )
+, L
+    ( Position 4 62 )
+    ( Whitespace " " )
+, L
+    ( Position 4 63 )
+    ( TokSym "Haskell." )
+, L
+    ( Position 4 71 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 5 12 ) Colon
+, L
+    ( Position 5 13 )
+    ( Whitespace "    " )
+, L
+    ( Position 5 17 )
+    ( TokSym "The" )
+, L
+    ( Position 5 20 )
+    ( Whitespace " " )
+, L
+    ( Position 5 21 )
+    ( TokSym "Haskell" )
+, L
+    ( Position 5 28 )
+    ( Whitespace " " )
+, L
+    ( Position 5 29 )
+    ( TokSym "XML" )
+, L
+    ( Position 5 32 )
+    ( Whitespace " " )
+, L
+    ( Position 5 33 )
+    ( TokSym "Toolbox" )
+, L
+    ( Position 5 40 )
+    ( Whitespace " " )
+, L
+    ( Position 5 41 )
+    ( TokSym "bases" )
+, L
+    ( Position 5 46 )
+    ( Whitespace " " )
+, L
+    ( Position 5 47 )
+    ( TokSym "on" )
+, L
+    ( Position 5 49 )
+    ( Whitespace " " )
+, L
+    ( Position 5 50 )
+    ( TokSym "the" )
+, L
+    ( Position 5 53 )
+    ( Whitespace " " )
+, L
+    ( Position 5 54 )
+    ( TokSym "ideas" )
+, L
+    ( Position 5 59 )
+    ( Whitespace " " )
+, L
+    ( Position 5 60 )
+    ( TokSym "of" )
+, L
+    ( Position 5 62 )
+    ( Whitespace " " )
+, L
+    ( Position 5 63 )
+    ( TokSym "HaXml" )
+, L
+    ( Position 5 68 )
+    ( Whitespace " " )
+, L
+    ( Position 5 69 )
+    ( TokSym "and" )
+, L
+    ( Position 5 72 )
+    ( Whitespace " " )
+, L
+    ( Position 5 73 )
+    ( TokSym "HXML" )
+, L
+    ( Position 5 77 )
+    ( TokOther "," )
+, L
+    ( Position 5 78 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 6 1 )
+    ( Indent 16 )
+, L
+    ( Position 6 17 )
+    ( TokSym "but" )
+, L
+    ( Position 6 20 )
+    ( Whitespace " " )
+, L
+    ( Position 6 21 )
+    ( TokSym "introduces" )
+, L
+    ( Position 6 31 )
+    ( Whitespace " " )
+, L
+    ( Position 6 32 )
+    ( TokSym "a" )
+, L
+    ( Position 6 33 )
+    ( Whitespace " " )
+, L
+    ( Position 6 34 )
+    ( TokSym "more" )
+, L
+    ( Position 6 38 )
+    ( Whitespace " " )
+, L
+    ( Position 6 39 )
+    ( TokSym "general" )
+, L
+    ( Position 6 46 )
+    ( Whitespace " " )
+, L
+    ( Position 6 47 )
+    ( TokSym "approach" )
+, L
+    ( Position 6 55 )
+    ( Whitespace " " )
+, L
+    ( Position 6 56 )
+    ( TokSym "for" )
+, L
+    ( Position 6 59 )
+    ( Whitespace " " )
+, L
+    ( Position 6 60 )
+    ( TokSym "processing" )
+, L
+    ( Position 6 70 )
+    ( Whitespace " " )
+, L
+    ( Position 6 71 )
+    ( TokSym "XML" )
+, L
+    ( Position 6 74 )
+    ( Whitespace " " )
+, L
+    ( Position 6 75 )
+    ( TokSym "with" )
+, L
+    ( Position 6 79 )
+    ( Whitespace " " )
+, L
+    ( Position 6 80 )
+    ( TokSym "Haskell." )
+, L
+    ( Position 6 88 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 7 1 )
+    ( Indent 16 )
+, L
+    ( Position 7 17 )
+    ( TokSym "The" )
+, L
+    ( Position 7 20 )
+    ( Whitespace " " )
+, L
+    ( Position 7 21 )
+    ( TokSym "Haskell" )
+, L
+    ( Position 7 28 )
+    ( Whitespace " " )
+, L
+    ( Position 7 29 )
+    ( TokSym "XML" )
+, L
+    ( Position 7 32 )
+    ( Whitespace " " )
+, L
+    ( Position 7 33 )
+    ( TokSym "Toolbox" )
+, L
+    ( Position 7 40 )
+    ( Whitespace " " )
+, L
+    ( Position 7 41 )
+    ( TokSym "uses" )
+, L
+    ( Position 7 45 )
+    ( Whitespace " " )
+, L
+    ( Position 7 46 )
+    ( TokSym "a" )
+, L
+    ( Position 7 47 )
+    ( Whitespace " " )
+, L
+    ( Position 7 48 )
+    ( TokSym "generic" )
+, L
+    ( Position 7 55 )
+    ( Whitespace " " )
+, L
+    ( Position 7 56 )
+    ( TokSym "data" )
+, L
+    ( Position 7 60 )
+    ( Whitespace " " )
+, L
+    ( Position 7 61 )
+    ( TokSym "model" )
+, L
+    ( Position 7 66 )
+    ( Whitespace " " )
+, L
+    ( Position 7 67 )
+    ( TokSym "for" )
+, L
+    ( Position 7 70 )
+    ( Whitespace " " )
+, L
+    ( Position 7 71 )
+    ( TokSym "representing" )
+, L
+    ( Position 7 83 )
+    ( Whitespace " " )
+, L
+    ( Position 7 84 )
+    ( TokSym "XML" )
+, L
+    ( Position 7 87 )
+    ( Whitespace " " )
+, L
+    ( Position 7 88 )
+    ( TokSym "documents" )
+, L
+    ( Position 7 97 )
+    ( TokOther "," )
+, L
+    ( Position 7 98 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 8 1 )
+    ( Indent 16 )
+, L
+    ( Position 8 17 )
+    ( TokSym "including" )
+, L
+    ( Position 8 26 )
+    ( Whitespace " " )
+, L
+    ( Position 8 27 )
+    ( TokSym "the" )
+, L
+    ( Position 8 30 )
+    ( Whitespace " " )
+, L
+    ( Position 8 31 )
+    ( TokSym "DTD" )
+, L
+    ( Position 8 34 )
+    ( Whitespace " " )
+, L
+    ( Position 8 35 )
+    ( TokSym "subset" )
+, L
+    ( Position 8 41 )
+    ( Whitespace " " )
+, L
+    ( Position 8 42 )
+    ( TokSym "and" )
+, L
+    ( Position 8 45 )
+    ( Whitespace " " )
+, L
+    ( Position 8 46 )
+    ( TokSym "the" )
+, L
+    ( Position 8 49 )
+    ( Whitespace " " )
+, L
+    ( Position 8 50 )
+    ( TokSym "document" )
+, L
+    ( Position 8 58 )
+    ( Whitespace " " )
+, L
+    ( Position 8 59 )
+    ( TokSym "subset" )
+, L
+    ( Position 8 65 )
+    ( TokOther "," )
+, L
+    ( Position 8 66 )
+    ( Whitespace " " )
+, L
+    ( Position 8 67 )
+    ( TokSym "in" )
+, L
+    ( Position 8 69 )
+    ( Whitespace " " )
+, L
+    ( Position 8 70 )
+    ( TokSym "Haskell." )
+, L
+    ( Position 8 78 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 9 1 )
+    ( Indent 16 )
+, L
+    ( Position 9 17 )
+    ( TokSym "It" )
+, L
+    ( Position 9 19 )
+    ( Whitespace " " )
+, L
+    ( Position 9 20 )
+    ( TokSym "contains" )
+, L
+    ( Position 9 28 )
+    ( Whitespace " " )
+, L
+    ( Position 9 29 )
+    ( TokSym "a" )
+, L
+    ( Position 9 30 )
+    ( Whitespace " " )
+, L
+    ( Position 9 31 )
+    ( TokSym "validating" )
+, L
+    ( Position 9 41 )
+    ( Whitespace " " )
+, L
+    ( Position 9 42 )
+    ( TokSym "XML" )
+, L
+    ( Position 9 45 )
+    ( Whitespace " " )
+, L
+    ( Position 9 46 )
+    ( TokSym "parser" )
+, L
+    ( Position 9 52 )
+    ( TokOther "," )
+, L
+    ( Position 9 53 )
+    ( Whitespace " " )
+, L
+    ( Position 9 54 )
+    ( TokSym "a" )
+, L
+    ( Position 9 55 )
+    ( Whitespace " " )
+, L
+    ( Position 9 56 )
+    ( TokSym "HTML" )
+, L
+    ( Position 9 60 )
+    ( Whitespace " " )
+, L
+    ( Position 9 61 )
+    ( TokSym "parser" )
+, L
+    ( Position 9 67 )
+    ( TokOther "," )
+, L
+    ( Position 9 68 )
+    ( Whitespace " " )
+, L
+    ( Position 9 69 )
+    ( TokSym "namespace" )
+, L
+    ( Position 9 78 )
+    ( Whitespace " " )
+, L
+    ( Position 9 79 )
+    ( TokSym "support" )
+, L
+    ( Position 9 86 )
+    ( TokOther "," )
+, L
+    ( Position 9 87 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 10 1 )
+    ( Indent 16 )
+, L
+    ( Position 10 17 )
+    ( TokSym "an" )
+, L
+    ( Position 10 19 )
+    ( Whitespace " " )
+, L
+    ( Position 10 20 )
+    ( TokSym "XPath" )
+, L
+    ( Position 10 25 )
+    ( Whitespace " " )
+, L
+    ( Position 10 26 )
+    ( TokSym "expression" )
+, L
+    ( Position 10 36 )
+    ( Whitespace " " )
+, L
+    ( Position 10 37 )
+    ( TokSym "evaluator" )
+, L
+    ( Position 10 46 )
+    ( TokOther "," )
+, L
+    ( Position 10 47 )
+    ( Whitespace " " )
+, L
+    ( Position 10 48 )
+    ( TokSym "an" )
+, L
+    ( Position 10 50 )
+    ( Whitespace " " )
+, L
+    ( Position 10 51 )
+    ( TokSym "XSLT" )
+, L
+    ( Position 10 55 )
+    ( Whitespace " " )
+, L
+    ( Position 10 56 )
+    ( TokSym "library" )
+, L
+    ( Position 10 63 )
+    ( TokOther "," )
+, L
+    ( Position 10 64 )
+    ( Whitespace " " )
+, L
+    ( Position 10 65 )
+    ( TokSym "a" )
+, L
+    ( Position 10 66 )
+    ( Whitespace " " )
+, L
+    ( Position 10 67 )
+    ( TokSym "RelaxNG" )
+, L
+    ( Position 10 74 )
+    ( Whitespace " " )
+, L
+    ( Position 10 75 )
+    ( TokSym "schema" )
+, L
+    ( Position 10 81 )
+    ( Whitespace " " )
+, L
+    ( Position 10 82 )
+    ( TokSym "validator" )
+, L
+    ( Position 10 91 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 11 1 )
+    ( Indent 16 )
+, L
+    ( Position 11 17 )
+    ( TokSym "and" )
+, L
+    ( Position 11 20 )
+    ( Whitespace " " )
+, L
+    ( Position 11 21 )
+    ( TokSym "funtions" )
+, L
+    ( Position 11 29 )
+    ( Whitespace " " )
+, L
+    ( Position 11 30 )
+    ( TokSym "for" )
+, L
+    ( Position 11 33 )
+    ( Whitespace " " )
+, L
+    ( Position 11 34 )
+    ( TokSym "serialization" )
+, L
+    ( Position 11 47 )
+    ( Whitespace " " )
+, L
+    ( Position 11 48 )
+    ( TokSym "and" )
+, L
+    ( Position 11 51 )
+    ( Whitespace " " )
+, L
+    ( Position 11 52 )
+    ( TokSym "deserialization" )
+, L
+    ( Position 11 67 )
+    ( Whitespace " " )
+, L
+    ( Position 11 68 )
+    ( TokSym "of" )
+, L
+    ( Position 11 70 )
+    ( Whitespace " " )
+, L
+    ( Position 11 71 )
+    ( TokSym "user" )
+, L
+    ( Position 11 75 )
+    ( Whitespace " " )
+, L
+    ( Position 11 76 )
+    ( TokSym "defined" )
+, L
+    ( Position 11 83 )
+    ( Whitespace " " )
+, L
+    ( Position 11 84 )
+    ( TokSym "data." )
+, L
+    ( Position 11 89 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 12 1 )
+    ( Indent 16 )
+, L
+    ( Position 12 17 )
+    ( TokSym "The" )
+, L
+    ( Position 12 20 )
+    ( Whitespace " " )
+, L
+    ( Position 12 21 )
+    ( TokSym "library" )
+, L
+    ( Position 12 28 )
+    ( Whitespace " " )
+, L
+    ( Position 12 29 )
+    ( TokSym "makes" )
+, L
+    ( Position 12 34 )
+    ( Whitespace " " )
+, L
+    ( Position 12 35 )
+    ( TokSym "extensive" )
+, L
+    ( Position 12 44 )
+    ( Whitespace " " )
+, L
+    ( Position 12 45 )
+    ( TokSym "use" )
+, L
+    ( Position 12 48 )
+    ( Whitespace " " )
+, L
+    ( Position 12 49 )
+    ( TokSym "of" )
+, L
+    ( Position 12 51 )
+    ( Whitespace " " )
+, L
+    ( Position 12 52 )
+    ( TokSym "the" )
+, L
+    ( Position 12 55 )
+    ( Whitespace " " )
+, L
+    ( Position 12 56 )
+    ( TokSym "arrow" )
+, L
+    ( Position 12 61 )
+    ( Whitespace " " )
+, L
+    ( Position 12 62 )
+    ( TokSym "approach" )
+, L
+    ( Position 12 70 )
+    ( Whitespace " " )
+, L
+    ( Position 12 71 )
+    ( TokSym "for" )
+, L
+    ( Position 12 74 )
+    ( Whitespace " " )
+, L
+    ( Position 12 75 )
+    ( TokSym "processing" )
+, L
+    ( Position 12 85 )
+    ( Whitespace " " )
+, L
+    ( Position 12 86 )
+    ( TokSym "XML." )
+, L
+    ( Position 12 90 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 13 1 )
+    ( Indent 16 )
+, L
+    ( Position 13 17 )
+    ( TokSym "Since" )
+, L
+    ( Position 13 22 )
+    ( Whitespace " " )
+, L
+    ( Position 13 23 )
+    ( TokSym "version" )
+, L
+    ( Position 13 30 )
+    ( Whitespace " " )
+, L
+    ( Position 13 31 )
+    ( TokSym "9" )
+, L
+    ( Position 13 32 )
+    ( Whitespace " " )
+, L
+    ( Position 13 33 )
+    ( TokSym "the" )
+, L
+    ( Position 13 36 )
+    ( Whitespace " " )
+, L
+    ( Position 13 37 )
+    ( TokSym "toolbox" )
+, L
+    ( Position 13 44 )
+    ( Whitespace " " )
+, L
+    ( Position 13 45 )
+    ( TokSym "is" )
+, L
+    ( Position 13 47 )
+    ( Whitespace " " )
+, L
+    ( Position 13 48 )
+    ( TokSym "partitioned" )
+, L
+    ( Position 13 59 )
+    ( Whitespace " " )
+, L
+    ( Position 13 60 )
+    ( TokSym "into" )
+, L
+    ( Position 13 64 )
+    ( Whitespace " " )
+, L
+    ( Position 13 65 )
+    ( TokSym "various" )
+, L
+    ( Position 13 72 )
+    ( Whitespace " " )
+, L
+    ( Position 13 73 )
+    ( TokOther "(" )
+, L
+    ( Position 13 74 )
+    ( TokSym "sub-" )
+, L
+    ( Position 13 78 )
+    ( TokOther ")" )
+, L
+    ( Position 13 79 )
+    ( TokSym "packages." )
+, L
+    ( Position 13 88 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 14 1 )
+    ( Indent 16 )
+, L
+    ( Position 14 17 )
+    ( TokSym "This" )
+, L
+    ( Position 14 21 )
+    ( Whitespace " " )
+, L
+    ( Position 14 22 )
+    ( TokSym "package" )
+, L
+    ( Position 14 29 )
+    ( Whitespace " " )
+, L
+    ( Position 14 30 )
+    ( TokSym "contains" )
+, L
+    ( Position 14 38 )
+    ( Whitespace " " )
+, L
+    ( Position 14 39 )
+    ( TokSym "the" )
+, L
+    ( Position 14 42 )
+    ( Whitespace " " )
+, L
+    ( Position 14 43 )
+    ( TokSym "core" )
+, L
+    ( Position 14 47 )
+    ( Whitespace " " )
+, L
+    ( Position 14 48 )
+    ( TokSym "functionality" )
+, L
+    ( Position 14 61 )
+    ( TokOther "," )
+, L
+    ( Position 14 62 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 15 1 )
+    ( Indent 16 )
+, L
+    ( Position 15 17 )
+    ( TokSym "hxt-curl" )
+, L
+    ( Position 15 25 )
+    ( TokOther "," )
+, L
+    ( Position 15 26 )
+    ( Whitespace " " )
+, L
+    ( Position 15 27 )
+    ( TokSym "hxt-tagsoup" )
+, L
+    ( Position 15 38 )
+    ( TokOther "," )
+, L
+    ( Position 15 39 )
+    ( Whitespace " " )
+, L
+    ( Position 15 40 )
+    ( TokSym "hxt-relaxng" )
+, L
+    ( Position 15 51 )
+    ( TokOther "," )
+, L
+    ( Position 15 52 )
+    ( Whitespace " " )
+, L
+    ( Position 15 53 )
+    ( TokSym "hxt-xpath" )
+, L
+    ( Position 15 62 )
+    ( TokOther "," )
+, L
+    ( Position 15 63 )
+    ( Whitespace " " )
+, L
+    ( Position 15 64 )
+    ( TokSym "hxt-xslt" )
+, L
+    ( Position 15 72 )
+    ( TokOther "," )
+, L
+    ( Position 15 73 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 16 1 )
+    ( Indent 16 )
+, L
+    ( Position 16 17 )
+    ( TokSym "hxt-regex-xmlschema" )
+, L
+    ( Position 16 36 )
+    ( Whitespace " " )
+, L
+    ( Position 16 37 )
+    ( TokSym "contain" )
+, L
+    ( Position 16 44 )
+    ( Whitespace " " )
+, L
+    ( Position 16 45 )
+    ( TokSym "the" )
+, L
+    ( Position 16 48 )
+    ( Whitespace " " )
+, L
+    ( Position 16 49 )
+    ( TokSym "extensions." )
+, L
+    ( Position 16 60 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 17 1 )
+    ( Indent 16 )
+, L
+    ( Position 17 17 )
+    ( TokSym "hxt-unicode" )
+, L
+    ( Position 17 28 )
+    ( Whitespace " " )
+, L
+    ( Position 17 29 )
+    ( TokSym "contains" )
+, L
+    ( Position 17 37 )
+    ( Whitespace " " )
+, L
+    ( Position 17 38 )
+    ( TokSym "encoding" )
+, L
+    ( Position 17 46 )
+    ( Whitespace " " )
+, L
+    ( Position 17 47 )
+    ( TokSym "and" )
+, L
+    ( Position 17 50 )
+    ( Whitespace " " )
+, L
+    ( Position 17 51 )
+    ( TokSym "decoding" )
+, L
+    ( Position 17 59 )
+    ( Whitespace " " )
+, L
+    ( Position 17 60 )
+    ( TokSym "functions" )
+, L
+    ( Position 17 69 )
+    ( TokOther "," )
+, L
+    ( Position 17 70 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 18 1 )
+    ( Indent 16 )
+, L
+    ( Position 18 17 )
+    ( TokSym "hxt-charproperties" )
+, L
+    ( Position 18 35 )
+    ( Whitespace " " )
+, L
+    ( Position 18 36 )
+    ( TokSym "char" )
+, L
+    ( Position 18 40 )
+    ( Whitespace " " )
+, L
+    ( Position 18 41 )
+    ( TokSym "properties" )
+, L
+    ( Position 18 51 )
+    ( Whitespace " " )
+, L
+    ( Position 18 52 )
+    ( TokSym "for" )
+, L
+    ( Position 18 55 )
+    ( Whitespace " " )
+, L
+    ( Position 18 56 )
+    ( TokSym "unicode" )
+, L
+    ( Position 18 63 )
+    ( Whitespace " " )
+, L
+    ( Position 18 64 )
+    ( TokSym "and" )
+, L
+    ( Position 18 67 )
+    ( Whitespace " " )
+, L
+    ( Position 18 68 )
+    ( TokSym "XML." )
+, L
+    ( Position 18 72 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 19 1 )
+    ( Indent 16 )
+, L
+    ( Position 19 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 19 24 )
+    ( Whitespace " " )
+, L
+    ( Position 19 25 )
+    ( TokSym "from" )
+, L
+    ( Position 19 29 )
+    ( Whitespace " " )
+, L
+    ( Position 19 30 )
+    ( TokSym "9.3.1.20" )
+, L
+    ( Position 19 38 ) Colon
+, L
+    ( Position 19 39 )
+    ( Whitespace " " )
+, L
+    ( Position 19 40 )
+    ( TokSym "ghc" )
+, L
+    ( Position 19 43 )
+    ( Whitespace " " )
+, L
+    ( Position 19 44 )
+    ( TokSym "8.10" )
+, L
+    ( Position 19 48 )
+    ( Whitespace " " )
+, L
+    ( Position 19 49 )
+    ( TokSym "and" )
+, L
+    ( Position 19 52 )
+    ( Whitespace " " )
+, L
+    ( Position 19 53 )
+    ( TokSym "9.0" )
+, L
+    ( Position 19 56 )
+    ( Whitespace " " )
+, L
+    ( Position 19 57 )
+    ( TokSym "compatibility" )
+, L
+    ( Position 19 70 )
+    ( TokOther "," )
+, L
+    ( Position 19 71 )
+    ( Whitespace " " )
+, L
+    ( Position 19 72 )
+    ( TokSym "tuple" )
+, L
+    ( Position 19 77 )
+    ( Whitespace " " )
+, L
+    ( Position 19 78 )
+    ( TokSym "picker" )
+, L
+    ( Position 19 84 )
+    ( Whitespace " " )
+, L
+    ( Position 19 85 )
+    ( TokSym "up" )
+, L
+    ( Position 19 87 )
+    ( Whitespace " " )
+, L
+    ( Position 19 88 )
+    ( TokSym "to" )
+, L
+    ( Position 19 90 )
+    ( Whitespace " " )
+, L
+    ( Position 19 91 )
+    ( TokSym "24-tuples" )
+, L
+    ( Position 19 100 )
+    ( TokOther "," )
+, L
+    ( Position 19 101 )
+    ( Whitespace " " )
+, L
+    ( Position 19 102 )
+    ( TokSym "Either" )
+, L
+    ( Position 19 108 )
+    ( Whitespace " " )
+, L
+    ( Position 19 109 )
+    ( TokSym "instance" )
+, L
+    ( Position 19 117 )
+    ( Whitespace " " )
+, L
+    ( Position 19 118 )
+    ( TokSym "for" )
+, L
+    ( Position 19 121 )
+    ( Whitespace " " )
+, L
+    ( Position 19 122 )
+    ( TokSym "xpickle" )
+, L
+    ( Position 19 129 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 20 1 )
+    ( Indent 16 )
+, L
+    ( Position 20 17 )
+    ( TokSym "." )
+, L
+    ( Position 20 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 21 1 )
+    ( Indent 16 )
+, L
+    ( Position 21 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 21 24 )
+    ( Whitespace " " )
+, L
+    ( Position 21 25 )
+    ( TokSym "from" )
+, L
+    ( Position 21 29 )
+    ( Whitespace " " )
+, L
+    ( Position 21 30 )
+    ( TokSym "9.3.1.19" )
+, L
+    ( Position 21 38 ) Colon
+, L
+    ( Position 21 39 )
+    ( Whitespace " " )
+, L
+    ( Position 21 40 )
+    ( TokSym "ghc-8.8.2" )
+, L
+    ( Position 21 49 )
+    ( Whitespace " " )
+, L
+    ( Position 21 50 )
+    ( TokSym "compatibility" )
+, L
+    ( Position 21 63 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 22 1 )
+    ( Indent 16 )
+, L
+    ( Position 22 17 )
+    ( TokSym "." )
+, L
+    ( Position 22 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 23 1 )
+    ( Indent 16 )
+, L
+    ( Position 23 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 23 24 )
+    ( Whitespace " " )
+, L
+    ( Position 23 25 )
+    ( TokSym "from" )
+, L
+    ( Position 23 29 )
+    ( Whitespace " " )
+, L
+    ( Position 23 30 )
+    ( TokSym "9.3.1.15" )
+, L
+    ( Position 23 38 ) Colon
+, L
+    ( Position 23 39 )
+    ( Whitespace " " )
+, L
+    ( Position 23 40 )
+    ( TokSym "Bug" )
+, L
+    ( Position 23 43 )
+    ( Whitespace " " )
+, L
+    ( Position 23 44 )
+    ( TokSym "in" )
+, L
+    ( Position 23 46 )
+    ( Whitespace " " )
+, L
+    ( Position 23 47 )
+    ( TokSym "quoting" )
+, L
+    ( Position 23 54 )
+    ( Whitespace " " )
+, L
+    ( Position 23 55 )
+    ( TokSym "PI" )
+, L
+    ( Position 23 57 )
+    ( Whitespace " " )
+, L
+    ( Position 23 58 )
+    ( TokSym "instructions" )
+, L
+    ( Position 23 70 )
+    ( Whitespace " " )
+, L
+    ( Position 23 71 )
+    ( TokSym "in" )
+, L
+    ( Position 23 73 )
+    ( Whitespace " " )
+, L
+    ( Position 23 74 )
+    ( TokSym "showXmlTrees" )
+, L
+    ( Position 23 86 )
+    ( Whitespace " " )
+, L
+    ( Position 23 87 )
+    ( TokSym "fixed" )
+, L
+    ( Position 23 92 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 24 1 )
+    ( Indent 16 )
+, L
+    ( Position 24 17 )
+    ( TokSym "." )
+, L
+    ( Position 24 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 25 1 )
+    ( Indent 16 )
+, L
+    ( Position 25 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 25 24 )
+    ( Whitespace " " )
+, L
+    ( Position 25 25 )
+    ( TokSym "from" )
+, L
+    ( Position 25 29 )
+    ( Whitespace " " )
+, L
+    ( Position 25 30 )
+    ( TokSym "9.3.1.14" )
+, L
+    ( Position 25 38 ) Colon
+, L
+    ( Position 25 39 )
+    ( Whitespace " " )
+, L
+    ( Position 25 40 )
+    ( TokSym "For" )
+, L
+    ( Position 25 43 )
+    ( Whitespace " " )
+, L
+    ( Position 25 44 )
+    ( TokSym "ghc-7.10" )
+, L
+    ( Position 25 52 )
+    ( Whitespace " " )
+, L
+    ( Position 25 53 )
+    ( TokSym "network-uri" )
+, L
+    ( Position 25 64 )
+    ( Whitespace " " )
+, L
+    ( Position 25 65 )
+    ( TokSym "is" )
+, L
+    ( Position 25 67 )
+    ( Whitespace " " )
+, L
+    ( Position 25 68 )
+    ( TokSym "automatically" )
+, L
+    ( Position 25 81 )
+    ( Whitespace " " )
+, L
+    ( Position 25 82 )
+    ( TokSym "selected" )
+, L
+    ( Position 25 90 )
+    ( Whitespace " " )
+, L
+    ( Position 25 91 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 26 1 )
+    ( Indent 16 )
+, L
+    ( Position 26 17 )
+    ( TokSym "." )
+, L
+    ( Position 26 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 27 1 )
+    ( Indent 16 )
+, L
+    ( Position 27 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 27 24 )
+    ( Whitespace " " )
+, L
+    ( Position 27 25 )
+    ( TokSym "from" )
+, L
+    ( Position 27 29 )
+    ( Whitespace " " )
+, L
+    ( Position 27 30 )
+    ( TokSym "9.3.1.13" )
+, L
+    ( Position 27 38 ) Colon
+, L
+    ( Position 27 39 )
+    ( Whitespace " " )
+, L
+    ( Position 27 40 )
+    ( TokSym "ghc-7.10" )
+, L
+    ( Position 27 48 )
+    ( Whitespace " " )
+, L
+    ( Position 27 49 )
+    ( TokSym "compatibility" )
+, L
+    ( Position 27 62 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 28 1 )
+    ( Indent 16 )
+, L
+    ( Position 28 17 )
+    ( TokSym "." )
+, L
+    ( Position 28 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 29 1 )
+    ( Indent 16 )
+, L
+    ( Position 29 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 29 24 )
+    ( Whitespace " " )
+, L
+    ( Position 29 25 )
+    ( TokSym "from" )
+, L
+    ( Position 29 29 )
+    ( Whitespace " " )
+, L
+    ( Position 29 30 )
+    ( TokSym "9.3.1.12" )
+, L
+    ( Position 29 38 ) Colon
+, L
+    ( Position 29 39 )
+    ( Whitespace " " )
+, L
+    ( Position 29 40 )
+    ( TokSym "Bug" )
+, L
+    ( Position 29 43 )
+    ( Whitespace " " )
+, L
+    ( Position 29 44 )
+    ( TokSym "when" )
+, L
+    ( Position 29 48 )
+    ( Whitespace " " )
+, L
+    ( Position 29 49 )
+    ( TokSym "unpickling" )
+, L
+    ( Position 29 59 )
+    ( Whitespace " " )
+, L
+    ( Position 29 60 )
+    ( TokSym "an" )
+, L
+    ( Position 29 62 )
+    ( Whitespace " " )
+, L
+    ( Position 29 63 )
+    ( TokSym "empty" )
+, L
+    ( Position 29 68 )
+    ( Whitespace " " )
+, L
+    ( Position 29 69 )
+    ( TokSym "attribute" )
+, L
+    ( Position 29 78 )
+    ( Whitespace " " )
+, L
+    ( Position 29 79 )
+    ( TokSym "value" )
+, L
+    ( Position 29 84 )
+    ( Whitespace " " )
+, L
+    ( Position 29 85 )
+    ( TokSym "removed" )
+, L
+    ( Position 29 92 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 30 1 )
+    ( Indent 16 )
+, L
+    ( Position 30 17 )
+    ( TokSym "." )
+, L
+    ( Position 30 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 31 1 )
+    ( Indent 16 )
+, L
+    ( Position 31 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 31 24 )
+    ( Whitespace " " )
+, L
+    ( Position 31 25 )
+    ( TokSym "from" )
+, L
+    ( Position 31 29 )
+    ( Whitespace " " )
+, L
+    ( Position 31 30 )
+    ( TokSym "9.3.1.11" )
+, L
+    ( Position 31 38 ) Colon
+, L
+    ( Position 31 39 )
+    ( Whitespace " " )
+, L
+    ( Position 31 40 )
+    ( TokSym "Bug" )
+, L
+    ( Position 31 43 )
+    ( Whitespace " " )
+, L
+    ( Position 31 44 )
+    ( TokSym "fix" )
+, L
+    ( Position 31 47 )
+    ( Whitespace " " )
+, L
+    ( Position 31 48 )
+    ( TokSym "in" )
+, L
+    ( Position 31 50 )
+    ( Whitespace " " )
+, L
+    ( Position 31 51 )
+    ( TokSym "haddock" )
+, L
+    ( Position 31 58 )
+    ( Whitespace " " )
+, L
+    ( Position 31 59 )
+    ( TokSym "comments" )
+, L
+    ( Position 31 67 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 32 1 )
+    ( Indent 16 )
+, L
+    ( Position 32 17 )
+    ( TokSym "." )
+, L
+    ( Position 32 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 33 1 )
+    ( Indent 16 )
+, L
+    ( Position 33 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 33 24 )
+    ( Whitespace " " )
+, L
+    ( Position 33 25 )
+    ( TokSym "from" )
+, L
+    ( Position 33 29 )
+    ( Whitespace " " )
+, L
+    ( Position 33 30 )
+    ( TokSym "9.3.1.10" )
+, L
+    ( Position 33 38 ) Colon
+, L
+    ( Position 33 39 )
+    ( Whitespace " " )
+, L
+    ( Position 33 40 )
+    ( TokSym "Bug" )
+, L
+    ( Position 33 43 )
+    ( Whitespace " " )
+, L
+    ( Position 33 44 )
+    ( TokSym "in" )
+, L
+    ( Position 33 46 )
+    ( Whitespace " " )
+, L
+    ( Position 33 47 )
+    ( TokSym "DTD" )
+, L
+    ( Position 33 50 )
+    ( Whitespace " " )
+, L
+    ( Position 33 51 )
+    ( TokSym "validation" )
+, L
+    ( Position 33 61 )
+    ( TokOther "," )
+, L
+    ( Position 33 62 )
+    ( Whitespace " " )
+, L
+    ( Position 33 63 )
+    ( TokSym "space" )
+, L
+    ( Position 33 68 )
+    ( Whitespace " " )
+, L
+    ( Position 33 69 )
+    ( TokSym "and" )
+, L
+    ( Position 33 72 )
+    ( Whitespace " " )
+, L
+    ( Position 33 73 )
+    ( TokSym "time" )
+, L
+    ( Position 33 77 )
+    ( Whitespace " " )
+, L
+    ( Position 33 78 )
+    ( TokSym "leak" )
+, L
+    ( Position 33 82 )
+    ( Whitespace " " )
+, L
+    ( Position 33 83 )
+    ( TokSym "in" )
+, L
+    ( Position 33 85 )
+    ( Whitespace " " )
+, L
+    ( Position 33 86 )
+    ( TokSym "delta" )
+, L
+    ( Position 33 91 )
+    ( Whitespace " " )
+, L
+    ( Position 33 92 )
+    ( TokSym "removed" )
+, L
+    ( Position 33 99 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 34 1 )
+    ( Indent 16 )
+, L
+    ( Position 34 17 )
+    ( TokSym "." )
+, L
+    ( Position 34 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 35 1 )
+    ( Indent 16 )
+, L
+    ( Position 35 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 35 24 )
+    ( Whitespace " " )
+, L
+    ( Position 35 25 )
+    ( TokSym "from" )
+, L
+    ( Position 35 29 )
+    ( Whitespace " " )
+, L
+    ( Position 35 30 )
+    ( TokSym "9.3.1.9" )
+, L
+    ( Position 35 37 ) Colon
+, L
+    ( Position 35 38 )
+    ( Whitespace " " )
+, L
+    ( Position 35 39 )
+    ( TokSym "lower" )
+, L
+    ( Position 35 44 )
+    ( Whitespace " " )
+, L
+    ( Position 35 45 )
+    ( TokSym "bound" )
+, L
+    ( Position 35 50 )
+    ( Whitespace " " )
+, L
+    ( Position 35 51 )
+    ( TokSym "of" )
+, L
+    ( Position 35 53 )
+    ( Whitespace " " )
+, L
+    ( Position 35 54 )
+    ( TokSym "mtl" )
+, L
+    ( Position 35 57 )
+    ( Whitespace " " )
+, L
+    ( Position 35 58 )
+    ( TokSym "dependency" )
+, L
+    ( Position 35 68 )
+    ( Whitespace " " )
+, L
+    ( Position 35 69 )
+    ( TokSym "lowered" )
+, L
+    ( Position 35 76 )
+    ( Whitespace " " )
+, L
+    ( Position 35 77 )
+    ( TokSym "to" )
+, L
+    ( Position 35 79 )
+    ( Whitespace " " )
+, L
+    ( Position 35 80 )
+    ( TokSym "2.0.1" )
+, L
+    ( Position 35 85 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 36 1 )
+    ( Indent 16 )
+, L
+    ( Position 36 17 )
+    ( TokSym "." )
+, L
+    ( Position 36 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 37 1 )
+    ( Indent 16 )
+, L
+    ( Position 37 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 37 24 )
+    ( Whitespace " " )
+, L
+    ( Position 37 25 )
+    ( TokSym "from" )
+, L
+    ( Position 37 29 )
+    ( Whitespace " " )
+, L
+    ( Position 37 30 )
+    ( TokSym "9.3.1.8" )
+, L
+    ( Position 37 37 ) Colon
+, L
+    ( Position 37 38 )
+    ( Whitespace " " )
+, L
+    ( Position 37 39 )
+    ( TokSym "Bug" )
+, L
+    ( Position 37 42 )
+    ( Whitespace " " )
+, L
+    ( Position 37 43 )
+    ( TokSym "in" )
+, L
+    ( Position 37 45 )
+    ( Whitespace " " )
+, L
+    ( Position 37 46 )
+    ( TokSym "hread" )
+, L
+    ( Position 37 51 )
+    ( Whitespace " " )
+, L
+    ( Position 37 52 )
+    ( TokSym "removed" )
+, L
+    ( Position 37 59 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 38 1 )
+    ( Indent 16 )
+, L
+    ( Position 38 17 )
+    ( TokSym "." )
+, L
+    ( Position 38 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 39 1 )
+    ( Indent 16 )
+, L
+    ( Position 39 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 39 24 )
+    ( Whitespace " " )
+, L
+    ( Position 39 25 )
+    ( TokSym "from" )
+, L
+    ( Position 39 29 )
+    ( Whitespace " " )
+, L
+    ( Position 39 30 )
+    ( TokSym "9.3.1.7" )
+, L
+    ( Position 39 37 ) Colon
+, L
+    ( Position 39 38 )
+    ( Whitespace " " )
+, L
+    ( Position 39 39 )
+    ( TokSym "Foldable" )
+, L
+    ( Position 39 47 )
+    ( Whitespace " " )
+, L
+    ( Position 39 48 )
+    ( TokSym "and" )
+, L
+    ( Position 39 51 )
+    ( Whitespace " " )
+, L
+    ( Position 39 52 )
+    ( TokSym "Traversable" )
+, L
+    ( Position 39 63 )
+    ( Whitespace " " )
+, L
+    ( Position 39 64 )
+    ( TokSym "instances" )
+, L
+    ( Position 39 73 )
+    ( Whitespace " " )
+, L
+    ( Position 39 74 )
+    ( TokSym "for" )
+, L
+    ( Position 39 77 )
+    ( Whitespace " " )
+, L
+    ( Position 39 78 )
+    ( TokSym "NTree" )
+, L
+    ( Position 39 83 )
+    ( Whitespace " " )
+, L
+    ( Position 39 84 )
+    ( TokSym "added" )
+, L
+    ( Position 39 89 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 40 1 )
+    ( Indent 16 )
+, L
+    ( Position 40 17 )
+    ( TokSym "Control.Except" )
+, L
+    ( Position 40 31 )
+    ( Whitespace " " )
+, L
+    ( Position 40 32 )
+    ( TokSym "used" )
+, L
+    ( Position 40 36 )
+    ( Whitespace " " )
+, L
+    ( Position 40 37 )
+    ( TokSym "instead" )
+, L
+    ( Position 40 44 )
+    ( Whitespace " " )
+, L
+    ( Position 40 45 )
+    ( TokSym "of" )
+, L
+    ( Position 40 47 )
+    ( Whitespace " " )
+, L
+    ( Position 40 48 )
+    ( TokSym "deprecated" )
+, L
+    ( Position 40 58 )
+    ( Whitespace " " )
+, L
+    ( Position 40 59 )
+    ( TokSym "Control.Error" )
+, L
+    ( Position 40 72 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 41 1 )
+    ( Indent 16 )
+, L
+    ( Position 41 17 )
+    ( TokSym "." )
+, L
+    ( Position 41 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 42 1 )
+    ( Indent 16 )
+, L
+    ( Position 42 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 42 24 )
+    ( Whitespace " " )
+, L
+    ( Position 42 25 )
+    ( TokSym "from" )
+, L
+    ( Position 42 29 )
+    ( Whitespace " " )
+, L
+    ( Position 42 30 )
+    ( TokSym "9.3.1.6" )
+, L
+    ( Position 42 37 ) Colon
+, L
+    ( Position 42 38 )
+    ( Whitespace " " )
+, L
+    ( Position 42 39 )
+    ( TokSym "canonicalize" )
+, L
+    ( Position 42 51 )
+    ( Whitespace " " )
+, L
+    ( Position 42 52 )
+    ( TokSym "added" )
+, L
+    ( Position 42 57 )
+    ( Whitespace " " )
+, L
+    ( Position 42 58 )
+    ( TokSym "in" )
+, L
+    ( Position 42 60 )
+    ( Whitespace " " )
+, L
+    ( Position 42 61 )
+    ( TokSym "hread" )
+, L
+    ( Position 42 66 )
+    ( Whitespace " " )
+, L
+    ( Position 42 67 )
+    ( TokSym "and" )
+, L
+    ( Position 42 70 )
+    ( Whitespace " " )
+, L
+    ( Position 42 71 )
+    ( TokSym "hreadDoc" )
+, L
+    ( Position 42 79 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 43 1 )
+    ( Indent 16 )
+, L
+    ( Position 43 17 )
+    ( TokSym "." )
+, L
+    ( Position 43 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 44 1 )
+    ( Indent 16 )
+, L
+    ( Position 44 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 44 24 )
+    ( Whitespace " " )
+, L
+    ( Position 44 25 )
+    ( TokSym "from" )
+, L
+    ( Position 44 29 )
+    ( Whitespace " " )
+, L
+    ( Position 44 30 )
+    ( TokSym "9.3.1.4" )
+, L
+    ( Position 44 37 ) Colon
+, L
+    ( Position 44 38 )
+    ( Whitespace " " )
+, L
+    ( Position 44 39 )
+    ( TokSym "conditionally" )
+, L
+    ( Position 44 52 )
+    ( Whitespace " " )
+, L
+    ( Position 44 53 )
+    ( TokOther "(" )
+, L
+    ( Position 44 54 )
+    ( TokSym "no" )
+, L
+    ( Position 44 56 )
+    ( Whitespace " " )
+, L
+    ( Position 44 57 )
+    ( TokSym "default" )
+, L
+    ( Position 44 64 )
+    ( TokOther ")" )
+, L
+    ( Position 44 65 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 45 1 )
+    ( Indent 16 )
+, L
+    ( Position 45 17 )
+    ( TokSym "dependency" )
+, L
+    ( Position 45 27 )
+    ( Whitespace " " )
+, L
+    ( Position 45 28 )
+    ( TokSym "from" )
+, L
+    ( Position 45 32 )
+    ( Whitespace " " )
+, L
+    ( Position 45 33 )
+    ( TokSym "networt" )
+, L
+    ( Position 45 40 )
+    ( Whitespace " " )
+, L
+    ( Position 45 41 )
+    ( TokSym "changed" )
+, L
+    ( Position 45 48 )
+    ( Whitespace " " )
+, L
+    ( Position 45 49 )
+    ( TokSym "to" )
+, L
+    ( Position 45 51 )
+    ( Whitespace " " )
+, L
+    ( Position 45 52 )
+    ( TokSym "network-uri" )
+, L
+    ( Position 45 63 )
+    ( Whitespace " " )
+, L
+    ( Position 45 64 )
+    ( TokSym "with" )
+, L
+    ( Position 45 68 )
+    ( Whitespace " " )
+, L
+    ( Position 45 69 )
+    ( TokSym "flag" )
+, L
+    ( Position 45 73 )
+    ( Whitespace " " )
+, L
+    ( Position 45 74 )
+    ( TokStr "network-uri" )
+, L
+    ( Position 45 87 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 46 1 )
+    ( Indent 16 )
+, L
+    ( Position 46 17 )
+    ( TokSym "." )
+, L
+    ( Position 46 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 47 1 )
+    ( Indent 16 )
+, L
+    ( Position 47 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 47 24 )
+    ( Whitespace " " )
+, L
+    ( Position 47 25 )
+    ( TokSym "from" )
+, L
+    ( Position 47 29 )
+    ( Whitespace " " )
+, L
+    ( Position 47 30 )
+    ( TokSym "9.3.1.3" )
+, L
+    ( Position 47 37 ) Colon
+, L
+    ( Position 47 38 )
+    ( Whitespace " " )
+, L
+    ( Position 47 39 )
+    ( TokSym "warnings" )
+, L
+    ( Position 47 47 )
+    ( Whitespace " " )
+, L
+    ( Position 47 48 )
+    ( TokSym "from" )
+, L
+    ( Position 47 52 )
+    ( Whitespace " " )
+, L
+    ( Position 47 53 )
+    ( TokSym "ghc-7.8.1" )
+, L
+    ( Position 47 62 )
+    ( Whitespace " " )
+, L
+    ( Position 47 63 )
+    ( TokSym "removed" )
+, L
+    ( Position 47 70 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 48 1 )
+    ( Indent 16 )
+, L
+    ( Position 48 17 )
+    ( TokSym "." )
+, L
+    ( Position 48 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 49 1 )
+    ( Indent 16 )
+, L
+    ( Position 49 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 49 24 )
+    ( Whitespace " " )
+, L
+    ( Position 49 25 )
+    ( TokSym "from" )
+, L
+    ( Position 49 29 )
+    ( Whitespace " " )
+, L
+    ( Position 49 30 )
+    ( TokSym "9.3.1.2" )
+, L
+    ( Position 49 37 ) Colon
+, L
+    ( Position 49 38 )
+    ( Whitespace " " )
+, L
+    ( Position 49 39 )
+    ( TokSym "https" )
+, L
+    ( Position 49 44 )
+    ( Whitespace " " )
+, L
+    ( Position 49 45 )
+    ( TokSym "as" )
+, L
+    ( Position 49 47 )
+    ( Whitespace " " )
+, L
+    ( Position 49 48 )
+    ( TokSym "protocol" )
+, L
+    ( Position 49 56 )
+    ( Whitespace " " )
+, L
+    ( Position 49 57 )
+    ( TokSym "added" )
+, L
+    ( Position 49 62 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 50 1 )
+    ( Indent 16 )
+, L
+    ( Position 50 17 )
+    ( TokSym "." )
+, L
+    ( Position 50 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 51 1 )
+    ( Indent 16 )
+, L
+    ( Position 51 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 51 24 )
+    ( Whitespace " " )
+, L
+    ( Position 51 25 )
+    ( TokSym "from" )
+, L
+    ( Position 51 29 )
+    ( Whitespace " " )
+, L
+    ( Position 51 30 )
+    ( TokSym "9.3.1.1" )
+, L
+    ( Position 51 37 ) Colon
+, L
+    ( Position 51 38 )
+    ( Whitespace " " )
+, L
+    ( Position 51 39 )
+    ( TokSym "new" )
+, L
+    ( Position 51 42 )
+    ( Whitespace " " )
+, L
+    ( Position 51 43 )
+    ( TokSym "parser" )
+, L
+    ( Position 51 49 )
+    ( Whitespace " " )
+, L
+    ( Position 51 50 )
+    ( TokSym "xreadDoc" )
+, L
+    ( Position 51 58 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 52 1 )
+    ( Indent 16 )
+, L
+    ( Position 52 17 )
+    ( TokSym "." )
+, L
+    ( Position 52 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 53 1 )
+    ( Indent 16 )
+, L
+    ( Position 53 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 53 24 )
+    ( Whitespace " " )
+, L
+    ( Position 53 25 )
+    ( TokSym "from" )
+, L
+    ( Position 53 29 )
+    ( Whitespace " " )
+, L
+    ( Position 53 30 )
+    ( TokSym "9.3.1.0" )
+, L
+    ( Position 53 37 ) Colon
+, L
+    ( Position 53 38 )
+    ( Whitespace " " )
+, L
+    ( Position 53 39 )
+    ( TokSym "in" )
+, L
+    ( Position 53 41 )
+    ( Whitespace " " )
+, L
+    ( Position 53 42 )
+    ( TokSym "readString" )
+, L
+    ( Position 53 52 )
+    ( Whitespace " " )
+, L
+    ( Position 53 53 )
+    ( TokSym "all" )
+, L
+    ( Position 53 56 )
+    ( Whitespace " " )
+, L
+    ( Position 53 57 )
+    ( TokSym "input" )
+, L
+    ( Position 53 62 )
+    ( Whitespace " " )
+, L
+    ( Position 53 63 )
+    ( TokSym "decoding" )
+, L
+    ( Position 53 71 )
+    ( Whitespace " " )
+, L
+    ( Position 53 72 )
+    ( TokSym "switched" )
+, L
+    ( Position 53 80 )
+    ( Whitespace " " )
+, L
+    ( Position 53 81 )
+    ( TokSym "off" )
+, L
+    ( Position 53 84 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 54 1 )
+    ( Indent 16 )
+, L
+    ( Position 54 17 )
+    ( TokSym "." )
+, L
+    ( Position 54 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 55 1 )
+    ( Indent 16 )
+, L
+    ( Position 55 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 55 24 )
+    ( Whitespace " " )
+, L
+    ( Position 55 25 )
+    ( TokSym "from" )
+, L
+    ( Position 55 29 )
+    ( Whitespace " " )
+, L
+    ( Position 55 30 )
+    ( TokSym "9.3.0.1" )
+, L
+    ( Position 55 37 ) Colon
+, L
+    ( Position 55 38 )
+    ( Whitespace " " )
+, L
+    ( Position 55 39 )
+    ( TokSym "lower" )
+, L
+    ( Position 55 44 )
+    ( Whitespace " " )
+, L
+    ( Position 55 45 )
+    ( TokSym "bound" )
+, L
+    ( Position 55 50 )
+    ( Whitespace " " )
+, L
+    ( Position 55 51 )
+    ( TokSym "for" )
+, L
+    ( Position 55 54 )
+    ( Whitespace " " )
+, L
+    ( Position 55 55 )
+    ( TokSym "network" )
+, L
+    ( Position 55 62 )
+    ( Whitespace " " )
+, L
+    ( Position 55 63 )
+    ( TokSym "set" )
+, L
+    ( Position 55 66 )
+    ( Whitespace " " )
+, L
+    ( Position 55 67 )
+    ( TokSym "to" )
+, L
+    ( Position 55 69 )
+    ( Whitespace " " )
+, L
+    ( Position 55 70 )
+    ( TokSym "be" )
+, L
+    ( Position 55 72 )
+    ( Whitespace " " )
+, L
+    ( Position 55 73 )
+    ( TokOther ">=" )
+, L
+    ( Position 55 75 )
+    ( Whitespace " " )
+, L
+    ( Position 55 76 )
+    ( TokSym "2.4" )
+, L
+    ( Position 55 79 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 56 1 )
+    ( Indent 16 )
+, L
+    ( Position 56 17 )
+    ( TokSym "." )
+, L
+    ( Position 56 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 57 1 )
+    ( Indent 16 )
+, L
+    ( Position 57 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 57 24 )
+    ( Whitespace " " )
+, L
+    ( Position 57 25 )
+    ( TokSym "from" )
+, L
+    ( Position 57 29 )
+    ( Whitespace " " )
+, L
+    ( Position 57 30 )
+    ( TokSym "9.3.0" )
+, L
+    ( Position 57 35 ) Colon
+, L
+    ( Position 57 36 )
+    ( Whitespace " " )
+, L
+    ( Position 57 37 )
+    ( TokSym "upper" )
+, L
+    ( Position 57 42 )
+    ( Whitespace " " )
+, L
+    ( Position 57 43 )
+    ( TokSym "bound" )
+, L
+    ( Position 57 48 )
+    ( Whitespace " " )
+, L
+    ( Position 57 49 )
+    ( TokSym "for" )
+, L
+    ( Position 57 52 )
+    ( Whitespace " " )
+, L
+    ( Position 57 53 )
+    ( TokSym "network" )
+, L
+    ( Position 57 60 )
+    ( Whitespace " " )
+, L
+    ( Position 57 61 )
+    ( TokSym "set" )
+, L
+    ( Position 57 64 )
+    ( Whitespace " " )
+, L
+    ( Position 57 65 )
+    ( TokSym "to" )
+, L
+    ( Position 57 67 )
+    ( Whitespace " " )
+, L
+    ( Position 57 68 )
+    ( TokSym "be" )
+, L
+    ( Position 57 70 )
+    ( Whitespace " " )
+, L
+    ( Position 57 71 )
+    ( TokOther "<" )
+, L
+    ( Position 57 72 )
+    ( Whitespace " " )
+, L
+    ( Position 57 73 )
+    ( TokSym "2.4" )
+, L
+    ( Position 57 76 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 58 1 )
+    ( Indent 16 )
+, L
+    ( Position 58 17 )
+    ( TokOther "(" )
+, L
+    ( Position 58 18 )
+    ( TokSym "URI" )
+, L
+    ( Position 58 21 )
+    ( Whitespace " " )
+, L
+    ( Position 58 22 )
+    ( TokSym "signatures" )
+, L
+    ( Position 58 32 )
+    ( Whitespace " " )
+, L
+    ( Position 58 33 )
+    ( TokSym "changed" )
+, L
+    ( Position 58 40 )
+    ( Whitespace " " )
+, L
+    ( Position 58 41 )
+    ( TokSym "in" )
+, L
+    ( Position 58 43 )
+    ( Whitespace " " )
+, L
+    ( Position 58 44 )
+    ( TokSym "2.4" )
+, L
+    ( Position 58 47 )
+    ( TokOther ")" )
+, L
+    ( Position 58 48 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 59 1 )
+    ( Indent 16 )
+, L
+    ( Position 59 17 )
+    ( TokSym "." )
+, L
+    ( Position 59 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 60 1 )
+    ( Indent 16 )
+, L
+    ( Position 60 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 60 24 )
+    ( Whitespace " " )
+, L
+    ( Position 60 25 )
+    ( TokSym "from" )
+, L
+    ( Position 60 29 )
+    ( Whitespace " " )
+, L
+    ( Position 60 30 )
+    ( TokSym "9.2.2" )
+, L
+    ( Position 60 35 ) Colon
+, L
+    ( Position 60 36 )
+    ( Whitespace " " )
+, L
+    ( Position 60 37 )
+    ( TokSym "XMLSchema" )
+, L
+    ( Position 60 46 )
+    ( Whitespace " " )
+, L
+    ( Position 60 47 )
+    ( TokSym "validation" )
+, L
+    ( Position 60 57 )
+    ( Whitespace " " )
+, L
+    ( Position 60 58 )
+    ( TokSym "integrated" )
+, L
+    ( Position 60 68 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 61 1 )
+    ( Indent 16 )
+, L
+    ( Position 61 17 )
+    ( TokSym "." )
+, L
+    ( Position 61 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 62 1 )
+    ( Indent 16 )
+, L
+    ( Position 62 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 62 24 )
+    ( Whitespace " " )
+, L
+    ( Position 62 25 )
+    ( TokSym "from" )
+, L
+    ( Position 62 29 )
+    ( Whitespace " " )
+, L
+    ( Position 62 30 )
+    ( TokSym "9.2.1" )
+, L
+    ( Position 62 35 ) Colon
+, L
+    ( Position 62 36 )
+    ( Whitespace " " )
+, L
+    ( Position 62 37 )
+    ( TokSym "user" )
+, L
+    ( Position 62 41 )
+    ( Whitespace " " )
+, L
+    ( Position 62 42 )
+    ( TokSym "defined" )
+, L
+    ( Position 62 49 )
+    ( Whitespace " " )
+, L
+    ( Position 62 50 )
+    ( TokSym "mime" )
+, L
+    ( Position 62 54 )
+    ( Whitespace " " )
+, L
+    ( Position 62 55 )
+    ( TokSym "type" )
+, L
+    ( Position 62 59 )
+    ( Whitespace " " )
+, L
+    ( Position 62 60 )
+    ( TokSym "handlers" )
+, L
+    ( Position 62 68 )
+    ( Whitespace " " )
+, L
+    ( Position 62 69 )
+    ( TokSym "added" )
+, L
+    ( Position 62 74 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 63 1 )
+    ( Indent 16 )
+, L
+    ( Position 63 17 )
+    ( TokSym "." )
+, L
+    ( Position 63 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 64 1 )
+    ( Indent 16 )
+, L
+    ( Position 64 17 )
+    ( TokSym "Changes" )
+, L
+    ( Position 64 24 )
+    ( Whitespace " " )
+, L
+    ( Position 64 25 )
+    ( TokSym "from" )
+, L
+    ( Position 64 29 )
+    ( Whitespace " " )
+, L
+    ( Position 64 30 )
+    ( TokSym "9.2.0" )
+, L
+    ( Position 64 35 ) Colon
+, L
+    ( Position 64 36 )
+    ( Whitespace " " )
+, L
+    ( Position 64 37 )
+    ( TokSym "New" )
+, L
+    ( Position 64 40 )
+    ( Whitespace " " )
+, L
+    ( Position 64 41 )
+    ( TokSym "warnings" )
+, L
+    ( Position 64 49 )
+    ( Whitespace " " )
+, L
+    ( Position 64 50 )
+    ( TokSym "from" )
+, L
+    ( Position 64 54 )
+    ( Whitespace " " )
+, L
+    ( Position 64 55 )
+    ( TokSym "ghc-7.4" )
+, L
+    ( Position 64 62 )
+    ( Whitespace " " )
+, L
+    ( Position 64 63 )
+    ( TokSym "removed" )
+, L
+    ( Position 64 70 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 65 1 )
+    ( Indent 0 )
+, L
+    ( Position 65 1 )
+    ( TokSym "License" )
+, L
+    ( Position 65 8 ) Colon
+, L
+    ( Position 65 9 )
+    ( Whitespace "        " )
+, L
+    ( Position 65 17 )
+    ( TokSym "MIT" )
+, L
+    ( Position 65 20 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 66 1 )
+    ( Indent 0 )
+, L
+    ( Position 66 1 )
+    ( TokSym "License-file" )
+, L
+    ( Position 66 13 ) Colon
+, L
+    ( Position 66 14 )
+    ( Whitespace "   " )
+, L
+    ( Position 66 17 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 66 24 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 67 1 )
+    ( Indent 0 )
+, L
+    ( Position 67 1 )
+    ( TokSym "Author" )
+, L
+    ( Position 67 7 ) Colon
+, L
+    ( Position 67 8 )
+    ( Whitespace "         " )
+, L
+    ( Position 67 17 )
+    ( TokSym "Uwe" )
+, L
+    ( Position 67 20 )
+    ( Whitespace " " )
+, L
+    ( Position 67 21 )
+    ( TokSym "Schmidt" )
+, L
+    ( Position 67 28 )
+    ( TokOther "," )
+, L
+    ( Position 67 29 )
+    ( Whitespace " " )
+, L
+    ( Position 67 30 )
+    ( TokSym "Martin" )
+, L
+    ( Position 67 36 )
+    ( Whitespace " " )
+, L
+    ( Position 67 37 )
+    ( TokSym "Schmidt" )
+, L
+    ( Position 67 44 )
+    ( TokOther "," )
+, L
+    ( Position 67 45 )
+    ( Whitespace " " )
+, L
+    ( Position 67 46 )
+    ( TokSym "Torben" )
+, L
+    ( Position 67 52 )
+    ( Whitespace " " )
+, L
+    ( Position 67 53 )
+    ( TokSym "Kuseler" )
+, L
+    ( Position 67 60 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 68 1 )
+    ( Indent 0 )
+, L
+    ( Position 68 1 )
+    ( TokSym "Maintainer" )
+, L
+    ( Position 68 11 ) Colon
+, L
+    ( Position 68 12 )
+    ( Whitespace "     " )
+, L
+    ( Position 68 17 )
+    ( TokSym "Uwe" )
+, L
+    ( Position 68 20 )
+    ( Whitespace " " )
+, L
+    ( Position 68 21 )
+    ( TokSym "Schmidt" )
+, L
+    ( Position 68 28 )
+    ( Whitespace " " )
+, L
+    ( Position 68 29 )
+    ( TokOther "<" )
+, L
+    ( Position 68 30 )
+    ( TokSym "uwe" )
+, L
+    ( Position 68 33 )
+    ( TokOther "@" )
+, L
+    ( Position 68 34 )
+    ( TokSym "fh-wedel.de" )
+, L
+    ( Position 68 45 )
+    ( TokOther ">" )
+, L
+    ( Position 68 46 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 69 1 )
+    ( Indent 0 )
+, L
+    ( Position 69 1 )
+    ( TokSym "Stability" )
+, L
+    ( Position 69 10 ) Colon
+, L
+    ( Position 69 11 )
+    ( Whitespace "      " )
+, L
+    ( Position 69 17 )
+    ( TokSym "Stable" )
+, L
+    ( Position 69 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 70 1 )
+    ( Indent 0 )
+, L
+    ( Position 70 1 )
+    ( TokSym "Category" )
+, L
+    ( Position 70 9 ) Colon
+, L
+    ( Position 70 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 70 17 )
+    ( TokSym "XML" )
+, L
+    ( Position 70 20 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 71 1 )
+    ( Indent 0 )
+, L
+    ( Position 71 1 )
+    ( TokSym "Homepage" )
+, L
+    ( Position 71 9 ) Colon
+, L
+    ( Position 71 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 71 17 )
+    ( TokSym "https" )
+, L
+    ( Position 71 22 ) Colon
+, L
+    ( Position 71 23 )
+    ( TokOther "//" )
+, L
+    ( Position 71 25 )
+    ( TokSym "github.com" )
+, L
+    ( Position 71 35 )
+    ( TokOther "/" )
+, L
+    ( Position 71 36 )
+    ( TokSym "UweSchmidt" )
+, L
+    ( Position 71 46 )
+    ( TokOther "/" )
+, L
+    ( Position 71 47 )
+    ( TokSym "hxt" )
+, L
+    ( Position 71 50 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 72 1 )
+    ( Indent 0 )
+, L
+    ( Position 72 1 )
+    ( TokSym "Copyright" )
+, L
+    ( Position 72 10 ) Colon
+, L
+    ( Position 72 11 )
+    ( Whitespace "      " )
+, L
+    ( Position 72 17 )
+    ( TokSym "Copyright" )
+, L
+    ( Position 72 26 )
+    ( Whitespace " " )
+, L
+    ( Position 72 27 )
+    ( TokOther "(" )
+, L
+    ( Position 72 28 )
+    ( TokSym "c" )
+, L
+    ( Position 72 29 )
+    ( TokOther ")" )
+, L
+    ( Position 72 30 )
+    ( Whitespace " " )
+, L
+    ( Position 72 31 )
+    ( TokSym "2005-2019" )
+, L
+    ( Position 72 40 )
+    ( Whitespace " " )
+, L
+    ( Position 72 41 )
+    ( TokSym "Uwe" )
+, L
+    ( Position 72 44 )
+    ( Whitespace " " )
+, L
+    ( Position 72 45 )
+    ( TokSym "Schmidt" )
+, L
+    ( Position 72 52 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 73 1 )
+    ( Indent 0 )
+, L
+    ( Position 73 1 )
+    ( TokSym "Build-type" )
+, L
+    ( Position 73 11 ) Colon
+, L
+    ( Position 73 12 )
+    ( Whitespace "     " )
+, L
+    ( Position 73 17 )
+    ( TokSym "Simple" )
+, L
+    ( Position 73 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 74 1 )
+    ( Indent 0 )
+, L
+    ( Position 74 1 )
+    ( TokSym "Cabal-version" )
+, L
+    ( Position 74 14 ) Colon
+, L
+    ( Position 74 15 )
+    ( Whitespace "  " )
+, L
+    ( Position 74 17 )
+    ( TokOther ">=" )
+, L
+    ( Position 74 19 )
+    ( TokSym "1.10" )
+, L
+    ( Position 74 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 75 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 76 1 )
+    ( Indent 0 )
+, L
+    ( Position 76 1 )
+    ( TokSym "extra-source-files" )
+, L
+    ( Position 76 19 ) Colon
+, L
+    ( Position 76 20 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 77 1 )
+    ( Indent 1 )
+, L
+    ( Position 77 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 77 10 )
+    ( TokOther "/" )
+, L
+    ( Position 77 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 77 17 )
+    ( TokOther "/" )
+, L
+    ( Position 77 18 )
+    ( TokSym "absurls" )
+, L
+    ( Position 77 25 )
+    ( TokOther "/" )
+, L
+    ( Position 77 26 )
+    ( TokSym "AbsURIs.hs" )
+, L
+    ( Position 77 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 78 1 )
+    ( Indent 1 )
+, L
+    ( Position 78 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 78 10 )
+    ( TokOther "/" )
+, L
+    ( Position 78 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 78 17 )
+    ( TokOther "/" )
+, L
+    ( Position 78 18 )
+    ( TokSym "absurls" )
+, L
+    ( Position 78 25 )
+    ( TokOther "/" )
+, L
+    ( Position 78 26 )
+    ( TokSym "lousy.html" )
+, L
+    ( Position 78 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 79 1 )
+    ( Indent 1 )
+, L
+    ( Position 79 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 79 10 )
+    ( TokOther "/" )
+, L
+    ( Position 79 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 79 17 )
+    ( TokOther "/" )
+, L
+    ( Position 79 18 )
+    ( TokSym "absurls" )
+, L
+    ( Position 79 25 )
+    ( TokOther "/" )
+, L
+    ( Position 79 26 )
+    ( TokSym "Makefile" )
+, L
+    ( Position 79 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 80 1 )
+    ( Indent 1 )
+, L
+    ( Position 80 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 80 10 )
+    ( TokOther "/" )
+, L
+    ( Position 80 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 80 17 )
+    ( TokOther "/" )
+, L
+    ( Position 80 18 )
+    ( TokSym "absurls" )
+, L
+    ( Position 80 25 )
+    ( TokOther "/" )
+, L
+    ( Position 80 26 )
+    ( TokSym "ProcessDocument.hs" )
+, L
+    ( Position 80 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 81 1 )
+    ( Indent 1 )
+, L
+    ( Position 81 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 81 10 )
+    ( TokOther "/" )
+, L
+    ( Position 81 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 81 17 )
+    ( TokOther "/" )
+, L
+    ( Position 81 18 )
+    ( TokSym "AGentleIntroductionToHXT" )
+, L
+    ( Position 81 42 )
+    ( TokOther "/." )
+, L
+    ( Position 81 44 )
+    ( TokSym "ghci" )
+, L
+    ( Position 81 48 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 82 1 )
+    ( Indent 1 )
+, L
+    ( Position 82 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 82 10 )
+    ( TokOther "/" )
+, L
+    ( Position 82 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 82 17 )
+    ( TokOther "/" )
+, L
+    ( Position 82 18 )
+    ( TokSym "AGentleIntroductionToHXT" )
+, L
+    ( Position 82 42 )
+    ( TokOther "/" )
+, L
+    ( Position 82 43 )
+    ( TokSym "Makefile" )
+, L
+    ( Position 82 51 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 83 1 )
+    ( Indent 1 )
+, L
+    ( Position 83 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 83 10 )
+    ( TokOther "/" )
+, L
+    ( Position 83 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 83 17 )
+    ( TokOther "/" )
+, L
+    ( Position 83 18 )
+    ( TokSym "AGentleIntroductionToHXT" )
+, L
+    ( Position 83 42 )
+    ( TokOther "/" )
+, L
+    ( Position 83 43 )
+    ( TokSym "PicklerExample" )
+, L
+    ( Position 83 57 )
+    ( TokOther "/" )
+, L
+    ( Position 83 58 )
+    ( TokSym "Baseball.hs" )
+, L
+    ( Position 83 69 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 84 1 )
+    ( Indent 1 )
+, L
+    ( Position 84 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 84 10 )
+    ( TokOther "/" )
+, L
+    ( Position 84 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 84 17 )
+    ( TokOther "/" )
+, L
+    ( Position 84 18 )
+    ( TokSym "AGentleIntroductionToHXT" )
+, L
+    ( Position 84 42 )
+    ( TokOther "/" )
+, L
+    ( Position 84 43 )
+    ( TokSym "PicklerExample" )
+, L
+    ( Position 84 57 )
+    ( TokOther "/" )
+, L
+    ( Position 84 58 )
+    ( TokSym "Makefile" )
+, L
+    ( Position 84 66 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 85 1 )
+    ( Indent 1 )
+, L
+    ( Position 85 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 85 10 )
+    ( TokOther "/" )
+, L
+    ( Position 85 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 85 17 )
+    ( TokOther "/" )
+, L
+    ( Position 85 18 )
+    ( TokSym "AGentleIntroductionToHXT" )
+, L
+    ( Position 85 42 )
+    ( TokOther "/" )
+, L
+    ( Position 85 43 )
+    ( TokSym "PicklerExample" )
+, L
+    ( Position 85 57 )
+    ( TokOther "/" )
+, L
+    ( Position 85 58 )
+    ( TokSym "new-simple2.xml" )
+, L
+    ( Position 85 73 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 86 1 )
+    ( Indent 1 )
+, L
+    ( Position 86 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 86 10 )
+    ( TokOther "/" )
+, L
+    ( Position 86 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 86 17 )
+    ( TokOther "/" )
+, L
+    ( Position 86 18 )
+    ( TokSym "AGentleIntroductionToHXT" )
+, L
+    ( Position 86 42 )
+    ( TokOther "/" )
+, L
+    ( Position 86 43 )
+    ( TokSym "PicklerExample" )
+, L
+    ( Position 86 57 )
+    ( TokOther "/" )
+, L
+    ( Position 86 58 )
+    ( TokSym "simple2.xml" )
+, L
+    ( Position 86 69 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 87 1 )
+    ( Indent 1 )
+, L
+    ( Position 87 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 87 10 )
+    ( TokOther "/" )
+, L
+    ( Position 87 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 87 17 )
+    ( TokOther "/" )
+, L
+    ( Position 87 18 )
+    ( TokSym "AGentleIntroductionToHXT" )
+, L
+    ( Position 87 42 )
+    ( TokOther "/" )
+, L
+    ( Position 87 43 )
+    ( TokSym "SimpleExamples.hs" )
+, L
+    ( Position 87 60 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 88 1 )
+    ( Indent 1 )
+, L
+    ( Position 88 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 88 10 )
+    ( TokOther "/" )
+, L
+    ( Position 88 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 88 17 )
+    ( TokOther "/" )
+, L
+    ( Position 88 18 )
+    ( TokSym "dtd2hxt" )
+, L
+    ( Position 88 25 )
+    ( TokOther "/" )
+, L
+    ( Position 88 26 )
+    ( TokSym "DTDtoHXT.hs" )
+, L
+    ( Position 88 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 89 1 )
+    ( Indent 1 )
+, L
+    ( Position 89 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 89 10 )
+    ( TokOther "/" )
+, L
+    ( Position 89 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 89 17 )
+    ( TokOther "/" )
+, L
+    ( Position 89 18 )
+    ( TokSym "dtd2hxt" )
+, L
+    ( Position 89 25 )
+    ( TokOther "/." )
+, L
+    ( Position 89 27 )
+    ( TokSym "ghci" )
+, L
+    ( Position 89 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 90 1 )
+    ( Indent 1 )
+, L
+    ( Position 90 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 90 10 )
+    ( TokOther "/" )
+, L
+    ( Position 90 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 90 17 )
+    ( TokOther "/" )
+, L
+    ( Position 90 18 )
+    ( TokSym "dtd2hxt" )
+, L
+    ( Position 90 25 )
+    ( TokOther "/" )
+, L
+    ( Position 90 26 )
+    ( TokSym "Makefile" )
+, L
+    ( Position 90 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 91 1 )
+    ( Indent 1 )
+, L
+    ( Position 91 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 91 10 )
+    ( TokOther "/" )
+, L
+    ( Position 91 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 91 17 )
+    ( TokOther "/" )
+, L
+    ( Position 91 18 )
+    ( TokSym "HelloWorld" )
+, L
+    ( Position 91 28 )
+    ( TokOther "/" )
+, L
+    ( Position 91 29 )
+    ( TokSym "bye.xml" )
+, L
+    ( Position 91 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 92 1 )
+    ( Indent 1 )
+, L
+    ( Position 92 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 92 10 )
+    ( TokOther "/" )
+, L
+    ( Position 92 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 92 17 )
+    ( TokOther "/" )
+, L
+    ( Position 92 18 )
+    ( TokSym "HelloWorld" )
+, L
+    ( Position 92 28 )
+    ( TokOther "/" )
+, L
+    ( Position 92 29 )
+    ( TokSym "HelloWorld.hs" )
+, L
+    ( Position 92 42 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 93 1 )
+    ( Indent 1 )
+, L
+    ( Position 93 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 93 10 )
+    ( TokOther "/" )
+, L
+    ( Position 93 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 93 17 )
+    ( TokOther "/" )
+, L
+    ( Position 93 18 )
+    ( TokSym "HelloWorld" )
+, L
+    ( Position 93 28 )
+    ( TokOther "/" )
+, L
+    ( Position 93 29 )
+    ( TokSym "hello.xml" )
+, L
+    ( Position 93 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 94 1 )
+    ( Indent 1 )
+, L
+    ( Position 94 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 94 10 )
+    ( TokOther "/" )
+, L
+    ( Position 94 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 94 17 )
+    ( TokOther "/" )
+, L
+    ( Position 94 18 )
+    ( TokSym "HelloWorld" )
+, L
+    ( Position 94 28 )
+    ( TokOther "/" )
+, L
+    ( Position 94 29 )
+    ( TokSym "Makefile" )
+, L
+    ( Position 94 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 95 1 )
+    ( Indent 1 )
+, L
+    ( Position 95 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 95 10 )
+    ( TokOther "/" )
+, L
+    ( Position 95 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 95 17 )
+    ( TokOther "/" )
+, L
+    ( Position 95 18 )
+    ( TokSym "HelloWorld" )
+, L
+    ( Position 95 28 )
+    ( TokOther "/" )
+, L
+    ( Position 95 29 )
+    ( TokSym "Mini.hs" )
+, L
+    ( Position 95 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 96 1 )
+    ( Indent 1 )
+, L
+    ( Position 96 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 96 10 )
+    ( TokOther "/" )
+, L
+    ( Position 96 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 96 17 )
+    ( TokOther "/" )
+, L
+    ( Position 96 18 )
+    ( TokSym "hparser" )
+, L
+    ( Position 96 25 )
+    ( TokOther "/" )
+, L
+    ( Position 96 26 )
+    ( TokSym "emptyElements.html" )
+, L
+    ( Position 96 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 97 1 )
+    ( Indent 1 )
+, L
+    ( Position 97 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 97 10 )
+    ( TokOther "/" )
+, L
+    ( Position 97 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 97 17 )
+    ( TokOther "/" )
+, L
+    ( Position 97 18 )
+    ( TokSym "hparser" )
+, L
+    ( Position 97 25 )
+    ( TokOther "/" )
+, L
+    ( Position 97 26 )
+    ( TokSym "example1.xml" )
+, L
+    ( Position 97 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 98 1 )
+    ( Indent 1 )
+, L
+    ( Position 98 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 98 10 )
+    ( TokOther "/" )
+, L
+    ( Position 98 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 98 17 )
+    ( TokOther "/" )
+, L
+    ( Position 98 18 )
+    ( TokSym "hparser" )
+, L
+    ( Position 98 25 )
+    ( TokOther "/" )
+, L
+    ( Position 98 26 )
+    ( TokSym "example1CRLF.xml" )
+, L
+    ( Position 98 42 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 99 1 )
+    ( Indent 1 )
+, L
+    ( Position 99 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 99 10 )
+    ( TokOther "/" )
+, L
+    ( Position 99 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 99 17 )
+    ( TokOther "/" )
+, L
+    ( Position 99 18 )
+    ( TokSym "hparser" )
+, L
+    ( Position 99 25 )
+    ( TokOther "/" )
+, L
+    ( Position 99 26 )
+    ( TokSym "HXmlParser.hs" )
+, L
+    ( Position 99 39 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 100 1 )
+    ( Indent 1 )
+, L
+    ( Position 100 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 100 10 )
+    ( TokOther "/" )
+, L
+    ( Position 100 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 100 17 )
+    ( TokOther "/" )
+, L
+    ( Position 100 18 )
+    ( TokSym "hparser" )
+, L
+    ( Position 100 25 )
+    ( TokOther "/" )
+, L
+    ( Position 100 26 )
+    ( TokSym "invalid1.xml" )
+, L
+    ( Position 100 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 101 1 )
+    ( Indent 1 )
+, L
+    ( Position 101 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 101 10 )
+    ( TokOther "/" )
+, L
+    ( Position 101 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 101 17 )
+    ( TokOther "/" )
+, L
+    ( Position 101 18 )
+    ( TokSym "hparser" )
+, L
+    ( Position 101 25 )
+    ( TokOther "/" )
+, L
+    ( Position 101 26 )
+    ( TokSym "invalid2.rng" )
+, L
+    ( Position 101 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 102 1 )
+    ( Indent 1 )
+, L
+    ( Position 102 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 102 10 )
+    ( TokOther "/" )
+, L
+    ( Position 102 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 102 17 )
+    ( TokOther "/" )
+, L
+    ( Position 102 18 )
+    ( TokSym "hparser" )
+, L
+    ( Position 102 25 )
+    ( TokOther "/" )
+, L
+    ( Position 102 26 )
+    ( TokSym "invalid3.rng" )
+, L
+    ( Position 102 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 103 1 )
+    ( Indent 1 )
+, L
+    ( Position 103 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 103 10 )
+    ( TokOther "/" )
+, L
+    ( Position 103 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 103 17 )
+    ( TokOther "/" )
+, L
+    ( Position 103 18 )
+    ( TokSym "hparser" )
+, L
+    ( Position 103 25 )
+    ( TokOther "/" )
+, L
+    ( Position 103 26 )
+    ( TokSym "invalid.xml" )
+, L
+    ( Position 103 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 104 1 )
+    ( Indent 1 )
+, L
+    ( Position 104 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 104 10 )
+    ( TokOther "/" )
+, L
+    ( Position 104 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 104 17 )
+    ( TokOther "/" )
+, L
+    ( Position 104 18 )
+    ( TokSym "hparser" )
+, L
+    ( Position 104 25 )
+    ( TokOther "/" )
+, L
+    ( Position 104 26 )
+    ( TokSym "lousy.html" )
+, L
+    ( Position 104 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 105 1 )
+    ( Indent 1 )
+, L
+    ( Position 105 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 105 10 )
+    ( TokOther "/" )
+, L
+    ( Position 105 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 105 17 )
+    ( TokOther "/" )
+, L
+    ( Position 105 18 )
+    ( TokSym "hparser" )
+, L
+    ( Position 105 25 )
+    ( TokOther "/" )
+, L
+    ( Position 105 26 )
+    ( TokSym "Makefile" )
+, L
+    ( Position 105 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 106 1 )
+    ( Indent 1 )
+, L
+    ( Position 106 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 106 10 )
+    ( TokOther "/" )
+, L
+    ( Position 106 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 106 17 )
+    ( TokOther "/" )
+, L
+    ( Position 106 18 )
+    ( TokSym "hparser" )
+, L
+    ( Position 106 25 )
+    ( TokOther "/" )
+, L
+    ( Position 106 26 )
+    ( TokSym "namespace0.xml" )
+, L
+    ( Position 106 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 107 1 )
+    ( Indent 1 )
+, L
+    ( Position 107 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 107 10 )
+    ( TokOther "/" )
+, L
+    ( Position 107 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 107 17 )
+    ( TokOther "/" )
+, L
+    ( Position 107 18 )
+    ( TokSym "hparser" )
+, L
+    ( Position 107 25 )
+    ( TokOther "/" )
+, L
+    ( Position 107 26 )
+    ( TokSym "namespace1.xml" )
+, L
+    ( Position 107 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 108 1 )
+    ( Indent 1 )
+, L
+    ( Position 108 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 108 10 )
+    ( TokOther "/" )
+, L
+    ( Position 108 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 108 17 )
+    ( TokOther "/" )
+, L
+    ( Position 108 18 )
+    ( TokSym "hparser" )
+, L
+    ( Position 108 25 )
+    ( TokOther "/" )
+, L
+    ( Position 108 26 )
+    ( TokSym "valid1.rng" )
+, L
+    ( Position 108 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 109 1 )
+    ( Indent 1 )
+, L
+    ( Position 109 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 109 10 )
+    ( TokOther "/" )
+, L
+    ( Position 109 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 109 17 )
+    ( TokOther "/" )
+, L
+    ( Position 109 18 )
+    ( TokSym "hparser" )
+, L
+    ( Position 109 25 )
+    ( TokOther "/" )
+, L
+    ( Position 109 26 )
+    ( TokSym "valid1.xml" )
+, L
+    ( Position 109 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 110 1 )
+    ( Indent 1 )
+, L
+    ( Position 110 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 110 10 )
+    ( TokOther "/" )
+, L
+    ( Position 110 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 110 17 )
+    ( TokOther "/" )
+, L
+    ( Position 110 18 )
+    ( TokSym "performance" )
+, L
+    ( Position 110 29 )
+    ( TokOther "/" )
+, L
+    ( Position 110 30 )
+    ( TokSym "GenDoc.hs" )
+, L
+    ( Position 110 39 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 111 1 )
+    ( Indent 1 )
+, L
+    ( Position 111 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 111 10 )
+    ( TokOther "/" )
+, L
+    ( Position 111 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 111 17 )
+    ( TokOther "/" )
+, L
+    ( Position 111 18 )
+    ( TokSym "performance" )
+, L
+    ( Position 111 29 )
+    ( TokOther "/" )
+, L
+    ( Position 111 30 )
+    ( TokSym "Makefile" )
+, L
+    ( Position 111 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 112 1 )
+    ( Indent 1 )
+, L
+    ( Position 112 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 112 10 )
+    ( TokOther "/" )
+, L
+    ( Position 112 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 112 17 )
+    ( TokOther "/" )
+, L
+    ( Position 112 18 )
+    ( TokSym "pickle" )
+, L
+    ( Position 112 24 )
+    ( TokOther "/" )
+, L
+    ( Position 112 25 )
+    ( TokSym "Makefile" )
+, L
+    ( Position 112 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 113 1 )
+    ( Indent 1 )
+, L
+    ( Position 113 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 113 10 )
+    ( TokOther "/" )
+, L
+    ( Position 113 11 )
+    ( TokSym "arrows" )
+, L
+    ( Position 113 17 )
+    ( TokOther "/" )
+, L
+    ( Position 113 18 )
+    ( TokSym "pickle" )
+, L
+    ( Position 113 24 )
+    ( TokOther "/" )
+, L
+    ( Position 113 25 )
+    ( TokSym "PickleTest.hs" )
+, L
+    ( Position 113 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 114 1 )
+    ( Indent 1 )
+, L
+    ( Position 114 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 114 10 )
+    ( TokOther "/" )
+, L
+    ( Position 114 11 )
+    ( TokSym "xhtml" )
+, L
+    ( Position 114 16 )
+    ( TokOther "/" )
+, L
+    ( Position 114 17 )
+    ( TokSym "tmp.xml" )
+, L
+    ( Position 114 24 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 115 1 )
+    ( Indent 1 )
+, L
+    ( Position 115 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 115 10 )
+    ( TokOther "/" )
+, L
+    ( Position 115 11 )
+    ( TokSym "xhtml" )
+, L
+    ( Position 115 16 )
+    ( TokOther "/" )
+, L
+    ( Position 115 17 )
+    ( TokSym "xhtml1-frameset.dtd" )
+, L
+    ( Position 115 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 116 1 )
+    ( Indent 1 )
+, L
+    ( Position 116 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 116 10 )
+    ( TokOther "/" )
+, L
+    ( Position 116 11 )
+    ( TokSym "xhtml" )
+, L
+    ( Position 116 16 )
+    ( TokOther "/" )
+, L
+    ( Position 116 17 )
+    ( TokSym "xhtml1-strict.dtd" )
+, L
+    ( Position 116 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 117 1 )
+    ( Indent 1 )
+, L
+    ( Position 117 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 117 10 )
+    ( TokOther "/" )
+, L
+    ( Position 117 11 )
+    ( TokSym "xhtml" )
+, L
+    ( Position 117 16 )
+    ( TokOther "/" )
+, L
+    ( Position 117 17 )
+    ( TokSym "xhtml1-transitional.dtd" )
+, L
+    ( Position 117 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 118 1 )
+    ( Indent 1 )
+, L
+    ( Position 118 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 118 10 )
+    ( TokOther "/" )
+, L
+    ( Position 118 11 )
+    ( TokSym "xhtml" )
+, L
+    ( Position 118 16 )
+    ( TokOther "/" )
+, L
+    ( Position 118 17 )
+    ( TokSym "xhtml-lat1.ent" )
+, L
+    ( Position 118 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 119 1 )
+    ( Indent 1 )
+, L
+    ( Position 119 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 119 10 )
+    ( TokOther "/" )
+, L
+    ( Position 119 11 )
+    ( TokSym "xhtml" )
+, L
+    ( Position 119 16 )
+    ( TokOther "/" )
+, L
+    ( Position 119 17 )
+    ( TokSym "xhtml-special.ent" )
+, L
+    ( Position 119 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 120 1 )
+    ( Indent 1 )
+, L
+    ( Position 120 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 120 10 )
+    ( TokOther "/" )
+, L
+    ( Position 120 11 )
+    ( TokSym "xhtml" )
+, L
+    ( Position 120 16 )
+    ( TokOther "/" )
+, L
+    ( Position 120 17 )
+    ( TokSym "xhtml-symbol.ent" )
+, L
+    ( Position 120 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 121 1 )
+    ( Indent 1 )
+, L
+    ( Position 121 2 )
+    ( TokSym "examples" )
+, L
+    ( Position 121 10 )
+    ( TokOther "/" )
+, L
+    ( Position 121 11 )
+    ( TokSym "xhtml" )
+, L
+    ( Position 121 16 )
+    ( TokOther "/" )
+, L
+    ( Position 121 17 )
+    ( TokSym "xhtml.xml" )
+, L
+    ( Position 121 26 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 122 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 123 1 )
+    ( Indent 0 )
+, L
+    ( Position 123 1 )
+    ( TokSym "flag" )
+, L
+    ( Position 123 5 )
+    ( Whitespace " " )
+, L
+    ( Position 123 6 )
+    ( TokSym "network-uri" )
+, L
+    ( Position 123 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 124 1 )
+    ( Indent 2 )
+, L
+    ( Position 124 3 )
+    ( TokSym "description" )
+, L
+    ( Position 124 14 ) Colon
+, L
+    ( Position 124 15 )
+    ( Whitespace " " )
+, L
+    ( Position 124 16 )
+    ( TokSym "Get" )
+, L
+    ( Position 124 19 )
+    ( Whitespace " " )
+, L
+    ( Position 124 20 )
+    ( TokSym "Network.URI" )
+, L
+    ( Position 124 31 )
+    ( Whitespace " " )
+, L
+    ( Position 124 32 )
+    ( TokSym "from" )
+, L
+    ( Position 124 36 )
+    ( Whitespace " " )
+, L
+    ( Position 124 37 )
+    ( TokSym "the" )
+, L
+    ( Position 124 40 )
+    ( Whitespace " " )
+, L
+    ( Position 124 41 )
+    ( TokSym "network-uri" )
+, L
+    ( Position 124 52 )
+    ( Whitespace " " )
+, L
+    ( Position 124 53 )
+    ( TokSym "package" )
+, L
+    ( Position 124 60 )
+    ( TokOther "," )
+, L
+    ( Position 124 61 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 125 1 )
+    ( Indent 15 )
+, L
+    ( Position 125 16 )
+    ( TokSym "with" )
+, L
+    ( Position 125 20 )
+    ( Whitespace " " )
+, L
+    ( Position 125 21 )
+    ( TokSym "ghc" )
+, L
+    ( Position 125 24 )
+    ( Whitespace " " )
+, L
+    ( Position 125 25 )
+    ( TokOther "<" )
+, L
+    ( Position 125 26 )
+    ( Whitespace "  " )
+, L
+    ( Position 125 28 )
+    ( TokSym "7.10" )
+, L
+    ( Position 125 32 )
+    ( Whitespace " " )
+, L
+    ( Position 125 33 )
+    ( TokSym "default" )
+, L
+    ( Position 125 40 )
+    ( Whitespace " " )
+, L
+    ( Position 125 41 )
+    ( TokSym "is" )
+, L
+    ( Position 125 43 )
+    ( Whitespace " " )
+, L
+    ( Position 125 44 )
+    ( TokSym "False" )
+, L
+    ( Position 125 49 )
+    ( TokOther "," )
+, L
+    ( Position 125 50 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 126 1 )
+    ( Indent 15 )
+, L
+    ( Position 126 16 )
+    ( TokSym "with" )
+, L
+    ( Position 126 20 )
+    ( Whitespace " " )
+, L
+    ( Position 126 21 )
+    ( TokSym "ghc" )
+, L
+    ( Position 126 24 )
+    ( Whitespace " " )
+, L
+    ( Position 126 25 )
+    ( TokOther ">=" )
+, L
+    ( Position 126 27 )
+    ( Whitespace " " )
+, L
+    ( Position 126 28 )
+    ( TokSym "7.10" )
+, L
+    ( Position 126 32 )
+    ( Whitespace " " )
+, L
+    ( Position 126 33 )
+    ( TokSym "default" )
+, L
+    ( Position 126 40 )
+    ( Whitespace " " )
+, L
+    ( Position 126 41 )
+    ( TokSym "is" )
+, L
+    ( Position 126 43 )
+    ( Whitespace " " )
+, L
+    ( Position 126 44 )
+    ( TokSym "True" )
+, L
+    ( Position 126 48 )
+    ( Whitespace " " )
+, L
+    ( Position 126 49 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 127 1 )
+    ( Indent 2 )
+, L
+    ( Position 127 3 )
+    ( TokSym "default" )
+, L
+    ( Position 127 10 ) Colon
+, L
+    ( Position 127 11 )
+    ( Whitespace " " )
+, L
+    ( Position 127 12 )
+    ( TokSym "False" )
+, L
+    ( Position 127 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 128 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 129 1 )
+    ( Indent 0 )
+, L
+    ( Position 129 1 )
+    ( TokSym "flag" )
+, L
+    ( Position 129 5 )
+    ( Whitespace " " )
+, L
+    ( Position 129 6 )
+    ( TokSym "profile" )
+, L
+    ( Position 129 13 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 130 1 )
+    ( Indent 2 )
+, L
+    ( Position 130 3 )
+    ( TokSym "description" )
+, L
+    ( Position 130 14 ) Colon
+, L
+    ( Position 130 15 )
+    ( Whitespace " " )
+, L
+    ( Position 130 16 )
+    ( TokSym "turn" )
+, L
+    ( Position 130 20 )
+    ( Whitespace " " )
+, L
+    ( Position 130 21 )
+    ( TokSym "profiling" )
+, L
+    ( Position 130 30 )
+    ( Whitespace " " )
+, L
+    ( Position 130 31 )
+    ( TokSym "on" )
+, L
+    ( Position 130 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 131 1 )
+    ( Indent 2 )
+, L
+    ( Position 131 3 )
+    ( TokSym "default" )
+, L
+    ( Position 131 10 ) Colon
+, L
+    ( Position 131 11 )
+    ( Whitespace " " )
+, L
+    ( Position 131 12 )
+    ( TokSym "False" )
+, L
+    ( Position 131 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 132 1 )
+    ( Whitespace "                                          
+    " )
+, L
+    ( Position 133 1 )
+    ( Indent 0 )
+, L
+    ( Position 133 1 )
+    ( TokSym "library" )
+, L
+    ( Position 133 8 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 134 1 )
+    ( Indent 1 )
+, L
+    ( Position 134 2 )
+    ( TokSym "exposed-modules" )
+, L
+    ( Position 134 17 ) Colon
+, L
+    ( Position 134 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 135 1 )
+    ( Indent 2 )
+, L
+    ( Position 135 3 )
+    ( TokSym "Control.Arrow.ArrowExc" )
+, L
+    ( Position 135 25 )
+    ( TokOther "," )
+, L
+    ( Position 135 26 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 136 1 )
+    ( Indent 2 )
+, L
+    ( Position 136 3 )
+    ( TokSym "Control.Arrow.ArrowIO" )
+, L
+    ( Position 136 24 )
+    ( TokOther "," )
+, L
+    ( Position 136 25 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 137 1 )
+    ( Indent 2 )
+, L
+    ( Position 137 3 )
+    ( TokSym "Control.Arrow.ArrowIf" )
+, L
+    ( Position 137 24 )
+    ( TokOther "," )
+, L
+    ( Position 137 25 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 138 1 )
+    ( Indent 2 )
+, L
+    ( Position 138 3 )
+    ( TokSym "Control.Arrow.ArrowList" )
+, L
+    ( Position 138 26 )
+    ( TokOther "," )
+, L
+    ( Position 138 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 139 1 )
+    ( Indent 2 )
+, L
+    ( Position 139 3 )
+    ( TokSym "Control.Arrow.ArrowNF" )
+, L
+    ( Position 139 24 )
+    ( TokOther "," )
+, L
+    ( Position 139 25 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 140 1 )
+    ( Indent 2 )
+, L
+    ( Position 140 3 )
+    ( TokSym "Control.Arrow.ArrowNavigatableTree" )
+, L
+    ( Position 140 37 )
+    ( TokOther "," )
+, L
+    ( Position 140 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 141 1 )
+    ( Indent 2 )
+, L
+    ( Position 141 3 )
+    ( TokSym "Control.Arrow.ArrowState" )
+, L
+    ( Position 141 27 )
+    ( TokOther "," )
+, L
+    ( Position 141 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 142 1 )
+    ( Indent 2 )
+, L
+    ( Position 142 3 )
+    ( TokSym "Control.Arrow.ArrowTree" )
+, L
+    ( Position 142 26 )
+    ( TokOther "," )
+, L
+    ( Position 142 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 143 1 )
+    ( Indent 2 )
+, L
+    ( Position 143 3 )
+    ( TokSym "Control.Arrow.IOListArrow" )
+, L
+    ( Position 143 28 )
+    ( TokOther "," )
+, L
+    ( Position 143 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 144 1 )
+    ( Indent 2 )
+, L
+    ( Position 144 3 )
+    ( TokSym "Control.Arrow.IOStateListArrow" )
+, L
+    ( Position 144 33 )
+    ( TokOther "," )
+, L
+    ( Position 144 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 145 1 )
+    ( Indent 2 )
+, L
+    ( Position 145 3 )
+    ( TokSym "Control.Arrow.ListArrow" )
+, L
+    ( Position 145 26 )
+    ( TokOther "," )
+, L
+    ( Position 145 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 146 1 )
+    ( Indent 2 )
+, L
+    ( Position 146 3 )
+    ( TokSym "Control.Arrow.ListArrows" )
+, L
+    ( Position 146 27 )
+    ( TokOther "," )
+, L
+    ( Position 146 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 147 1 )
+    ( Indent 2 )
+, L
+    ( Position 147 3 )
+    ( TokSym "Control.Arrow.NTreeEdit" )
+, L
+    ( Position 147 26 )
+    ( TokOther "," )
+, L
+    ( Position 147 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 148 1 )
+    ( Indent 2 )
+, L
+    ( Position 148 3 )
+    ( TokSym "Control.Arrow.StateListArrow" )
+, L
+    ( Position 148 31 )
+    ( TokOther "," )
+, L
+    ( Position 148 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 149 1 )
+    ( Indent 2 )
+, L
+    ( Position 149 3 )
+    ( TokSym "Control.FlatSeq" )
+, L
+    ( Position 149 18 )
+    ( TokOther "," )
+, L
+    ( Position 149 19 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 150 1 )
+    ( Indent 2 )
+, L
+    ( Position 150 3 )
+    ( TokSym "Data.AssocList" )
+, L
+    ( Position 150 17 )
+    ( TokOther "," )
+, L
+    ( Position 150 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 151 1 )
+    ( Indent 2 )
+, L
+    ( Position 151 3 )
+    ( TokSym "Data.Atom" )
+, L
+    ( Position 151 12 )
+    ( TokOther "," )
+, L
+    ( Position 151 13 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 152 1 )
+    ( Indent 2 )
+, L
+    ( Position 152 3 )
+    ( TokSym "Data.Function.Selector" )
+, L
+    ( Position 152 25 )
+    ( TokOther "," )
+, L
+    ( Position 152 26 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 153 1 )
+    ( Indent 2 )
+, L
+    ( Position 153 3 )
+    ( TokSym "Data.Tree.Class" )
+, L
+    ( Position 153 18 )
+    ( TokOther "," )
+, L
+    ( Position 153 19 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 154 1 )
+    ( Indent 2 )
+, L
+    ( Position 154 3 )
+    ( TokSym "Data.Tree.NTree.TypeDefs" )
+, L
+    ( Position 154 27 )
+    ( TokOther "," )
+, L
+    ( Position 154 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 155 1 )
+    ( Indent 2 )
+, L
+    ( Position 155 3 )
+    ( TokSym "Data.Tree.NTree.Edit" )
+, L
+    ( Position 155 23 )
+    ( TokOther "," )
+, L
+    ( Position 155 24 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 156 1 )
+    ( Indent 2 )
+, L
+    ( Position 156 3 )
+    ( TokSym "Data.Tree.NTree.Zipper.TypeDefs" )
+, L
+    ( Position 156 34 )
+    ( TokOther "," )
+, L
+    ( Position 156 35 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 157 1 )
+    ( Indent 2 )
+, L
+    ( Position 157 3 )
+    ( TokSym "Data.Tree.NavigatableTree.Class" )
+, L
+    ( Position 157 34 )
+    ( TokOther "," )
+, L
+    ( Position 157 35 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 158 1 )
+    ( Indent 2 )
+, L
+    ( Position 158 3 )
+    ( TokSym "Data.Tree.NavigatableTree.XPathAxis" )
+, L
+    ( Position 158 38 )
+    ( TokOther "," )
+, L
+    ( Position 158 39 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 159 1 )
+    ( Indent 2 )
+, L
+    ( Position 159 3 )
+    ( TokSym "Text.XML.HXT.Arrow.Binary" )
+, L
+    ( Position 159 28 )
+    ( TokOther "," )
+, L
+    ( Position 159 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 160 1 )
+    ( Indent 2 )
+, L
+    ( Position 160 3 )
+    ( TokSym "Text.XML.HXT.Arrow.DTDProcessing" )
+, L
+    ( Position 160 35 )
+    ( TokOther "," )
+, L
+    ( Position 160 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 161 1 )
+    ( Indent 2 )
+, L
+    ( Position 161 3 )
+    ( TokSym "Text.XML.HXT.Arrow.DocumentInput" )
+, L
+    ( Position 161 35 )
+    ( TokOther "," )
+, L
+    ( Position 161 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 162 1 )
+    ( Indent 2 )
+, L
+    ( Position 162 3 )
+    ( TokSym "Text.XML.HXT.Arrow.DocumentOutput" )
+, L
+    ( Position 162 36 )
+    ( TokOther "," )
+, L
+    ( Position 162 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 163 1 )
+    ( Indent 2 )
+, L
+    ( Position 163 3 )
+    ( TokSym "Text.XML.HXT.Arrow.Edit" )
+, L
+    ( Position 163 26 )
+    ( TokOther "," )
+, L
+    ( Position 163 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 164 1 )
+    ( Indent 2 )
+, L
+    ( Position 164 3 )
+    ( TokSym "Text.XML.HXT.Arrow.GeneralEntitySubstitution" )
+, L
+    ( Position 164 47 )
+    ( TokOther "," )
+, L
+    ( Position 164 48 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 165 1 )
+    ( Indent 2 )
+, L
+    ( Position 165 3 )
+    ( TokSym "Text.XML.HXT.Arrow.Namespace" )
+, L
+    ( Position 165 31 )
+    ( TokOther "," )
+, L
+    ( Position 165 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 166 1 )
+    ( Indent 2 )
+, L
+    ( Position 166 3 )
+    ( TokSym "Text.XML.HXT.Arrow.ParserInterface" )
+, L
+    ( Position 166 37 )
+    ( TokOther "," )
+, L
+    ( Position 166 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 167 1 )
+    ( Indent 2 )
+, L
+    ( Position 167 3 )
+    ( TokSym "Text.XML.HXT.Arrow.Pickle" )
+, L
+    ( Position 167 28 )
+    ( TokOther "," )
+, L
+    ( Position 167 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 168 1 )
+    ( Indent 2 )
+, L
+    ( Position 168 3 )
+    ( TokSym "Text.XML.HXT.Arrow.Pickle.DTD" )
+, L
+    ( Position 168 32 )
+    ( TokOther "," )
+, L
+    ( Position 168 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 169 1 )
+    ( Indent 2 )
+, L
+    ( Position 169 3 )
+    ( TokSym "Text.XML.HXT.Arrow.Pickle.Schema" )
+, L
+    ( Position 169 35 )
+    ( TokOther "," )
+, L
+    ( Position 169 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 170 1 )
+    ( Indent 2 )
+, L
+    ( Position 170 3 )
+    ( TokSym "Text.XML.HXT.Arrow.Pickle.Xml" )
+, L
+    ( Position 170 32 )
+    ( TokOther "," )
+, L
+    ( Position 170 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 171 1 )
+    ( Indent 2 )
+, L
+    ( Position 171 3 )
+    ( TokSym "Text.XML.HXT.Arrow.ProcessDocument" )
+, L
+    ( Position 171 37 )
+    ( TokOther "," )
+, L
+    ( Position 171 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 172 1 )
+    ( Indent 2 )
+, L
+    ( Position 172 3 )
+    ( TokSym "Text.XML.HXT.Arrow.ReadDocument" )
+, L
+    ( Position 172 34 )
+    ( TokOther "," )
+, L
+    ( Position 172 35 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 173 1 )
+    ( Indent 2 )
+, L
+    ( Position 173 3 )
+    ( TokSym "Text.XML.HXT.Arrow.WriteDocument" )
+, L
+    ( Position 173 35 )
+    ( TokOther "," )
+, L
+    ( Position 173 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 174 1 )
+    ( Indent 2 )
+, L
+    ( Position 174 3 )
+    ( TokSym "Text.XML.HXT.Arrow.XmlArrow" )
+, L
+    ( Position 174 30 )
+    ( TokOther "," )
+, L
+    ( Position 174 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 175 1 )
+    ( Indent 2 )
+, L
+    ( Position 175 3 )
+    ( TokSym "Text.XML.HXT.Arrow.XmlOptions" )
+, L
+    ( Position 175 32 )
+    ( TokOther "," )
+, L
+    ( Position 175 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 176 1 )
+    ( Indent 2 )
+, L
+    ( Position 176 3 )
+    ( TokSym "Text.XML.HXT.Arrow.XmlRegex" )
+, L
+    ( Position 176 30 )
+    ( TokOther "," )
+, L
+    ( Position 176 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 177 1 )
+    ( Indent 2 )
+, L
+    ( Position 177 3 )
+    ( TokSym "Text.XML.HXT.Arrow.XmlState" )
+, L
+    ( Position 177 30 )
+    ( TokOther "," )
+, L
+    ( Position 177 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 178 1 )
+    ( Indent 2 )
+, L
+    ( Position 178 3 )
+    ( TokSym "Text.XML.HXT.Arrow.XmlState.ErrorHandling" )
+, L
+    ( Position 178 44 )
+    ( TokOther "," )
+, L
+    ( Position 178 45 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 179 1 )
+    ( Indent 2 )
+, L
+    ( Position 179 3 )
+    ( TokSym "Text.XML.HXT.Arrow.XmlState.MimeTypeTable" )
+, L
+    ( Position 179 44 )
+    ( TokOther "," )
+, L
+    ( Position 179 45 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 180 1 )
+    ( Indent 2 )
+, L
+    ( Position 180 3 )
+    ( TokSym "Text.XML.HXT.Arrow.XmlState.RunIOStateArrow" )
+, L
+    ( Position 180 46 )
+    ( TokOther "," )
+, L
+    ( Position 180 47 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 181 1 )
+    ( Indent 2 )
+, L
+    ( Position 181 3 )
+    ( TokSym "Text.XML.HXT.Arrow.XmlState.TraceHandling" )
+, L
+    ( Position 181 44 )
+    ( TokOther "," )
+, L
+    ( Position 181 45 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 182 1 )
+    ( Indent 2 )
+, L
+    ( Position 182 3 )
+    ( TokSym "Text.XML.HXT.Arrow.XmlState.TypeDefs" )
+, L
+    ( Position 182 39 )
+    ( TokOther "," )
+, L
+    ( Position 182 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 183 1 )
+    ( Indent 2 )
+, L
+    ( Position 183 3 )
+    ( TokSym "Text.XML.HXT.Arrow.XmlState.URIHandling" )
+, L
+    ( Position 183 42 )
+    ( TokOther "," )
+, L
+    ( Position 183 43 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 184 1 )
+    ( Indent 2 )
+, L
+    ( Position 184 3 )
+    ( TokSym "Text.XML.HXT.Arrow.XmlState.SystemConfig" )
+, L
+    ( Position 184 43 )
+    ( TokOther "," )
+, L
+    ( Position 184 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 185 1 )
+    ( Indent 2 )
+, L
+    ( Position 185 3 )
+    ( TokSym "Text.XML.HXT.Core" )
+, L
+    ( Position 185 20 )
+    ( TokOther "," )
+, L
+    ( Position 185 21 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 186 1 )
+    ( Indent 2 )
+, L
+    ( Position 186 3 )
+    ( TokSym "Text.XML.HXT.DOM.FormatXmlTree" )
+, L
+    ( Position 186 33 )
+    ( TokOther "," )
+, L
+    ( Position 186 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 187 1 )
+    ( Indent 2 )
+, L
+    ( Position 187 3 )
+    ( TokSym "Text.XML.HXT.DOM.Interface" )
+, L
+    ( Position 187 29 )
+    ( TokOther "," )
+, L
+    ( Position 187 30 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 188 1 )
+    ( Indent 2 )
+, L
+    ( Position 188 3 )
+    ( TokSym "Text.XML.HXT.DOM.MimeTypeDefaults" )
+, L
+    ( Position 188 36 )
+    ( TokOther "," )
+, L
+    ( Position 188 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 189 1 )
+    ( Indent 2 )
+, L
+    ( Position 189 3 )
+    ( TokSym "Text.XML.HXT.DOM.MimeTypes" )
+, L
+    ( Position 189 29 )
+    ( TokOther "," )
+, L
+    ( Position 189 30 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 190 1 )
+    ( Indent 2 )
+, L
+    ( Position 190 3 )
+    ( TokSym "Text.XML.HXT.DOM.QualifiedName" )
+, L
+    ( Position 190 33 )
+    ( TokOther "," )
+, L
+    ( Position 190 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 191 1 )
+    ( Indent 2 )
+, L
+    ( Position 191 3 )
+    ( TokSym "Text.XML.HXT.DOM.ShowXml" )
+, L
+    ( Position 191 27 )
+    ( TokOther "," )
+, L
+    ( Position 191 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 192 1 )
+    ( Indent 2 )
+, L
+    ( Position 192 3 )
+    ( TokSym "Text.XML.HXT.DOM.TypeDefs" )
+, L
+    ( Position 192 28 )
+    ( TokOther "," )
+, L
+    ( Position 192 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 193 1 )
+    ( Indent 2 )
+, L
+    ( Position 193 3 )
+    ( TokSym "Text.XML.HXT.DOM.Util" )
+, L
+    ( Position 193 24 )
+    ( TokOther "," )
+, L
+    ( Position 193 25 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 194 1 )
+    ( Indent 2 )
+, L
+    ( Position 194 3 )
+    ( TokSym "Text.XML.HXT.DOM.XmlKeywords" )
+, L
+    ( Position 194 31 )
+    ( TokOther "," )
+, L
+    ( Position 194 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 195 1 )
+    ( Indent 2 )
+, L
+    ( Position 195 3 )
+    ( TokSym "Text.XML.HXT.DOM.XmlNode" )
+, L
+    ( Position 195 27 )
+    ( TokOther "," )
+, L
+    ( Position 195 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 196 1 )
+    ( Indent 2 )
+, L
+    ( Position 196 3 )
+    ( TokSym "Text.XML.HXT.DTDValidation.AttributeValueValidation" )
+, L
+    ( Position 196 54 )
+    ( TokOther "," )
+, L
+    ( Position 196 55 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 197 1 )
+    ( Indent 2 )
+, L
+    ( Position 197 3 )
+    ( TokSym "Text.XML.HXT.DTDValidation.DTDValidation" )
+, L
+    ( Position 197 43 )
+    ( TokOther "," )
+, L
+    ( Position 197 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 198 1 )
+    ( Indent 2 )
+, L
+    ( Position 198 3 )
+    ( TokSym "Text.XML.HXT.DTDValidation.DocTransformation" )
+, L
+    ( Position 198 47 )
+    ( TokOther "," )
+, L
+    ( Position 198 48 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 199 1 )
+    ( Indent 2 )
+, L
+    ( Position 199 3 )
+    ( TokSym "Text.XML.HXT.DTDValidation.DocValidation" )
+, L
+    ( Position 199 43 )
+    ( TokOther "," )
+, L
+    ( Position 199 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 200 1 )
+    ( Indent 2 )
+, L
+    ( Position 200 3 )
+    ( TokSym "Text.XML.HXT.DTDValidation.IdValidation" )
+, L
+    ( Position 200 42 )
+    ( TokOther "," )
+, L
+    ( Position 200 43 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 201 1 )
+    ( Indent 2 )
+, L
+    ( Position 201 3 )
+    ( TokSym "Text.XML.HXT.DTDValidation.RE" )
+, L
+    ( Position 201 32 )
+    ( TokOther "," )
+, L
+    ( Position 201 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 202 1 )
+    ( Indent 2 )
+, L
+    ( Position 202 3 )
+    ( TokSym "Text.XML.HXT.DTDValidation.TypeDefs" )
+, L
+    ( Position 202 38 )
+    ( TokOther "," )
+, L
+    ( Position 202 39 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 203 1 )
+    ( Indent 2 )
+, L
+    ( Position 203 3 )
+    ( TokSym "Text.XML.HXT.DTDValidation.Validation" )
+, L
+    ( Position 203 40 )
+    ( TokOther "," )
+, L
+    ( Position 203 41 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 204 1 )
+    ( Indent 2 )
+, L
+    ( Position 204 3 )
+    ( TokSym "Text.XML.HXT.DTDValidation.XmlRE" )
+, L
+    ( Position 204 35 )
+    ( TokOther "," )
+, L
+    ( Position 204 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 205 1 )
+    ( Indent 2 )
+, L
+    ( Position 205 3 )
+    ( TokSym "Text.XML.HXT.IO.GetFILE" )
+, L
+    ( Position 205 26 )
+    ( TokOther "," )
+, L
+    ( Position 205 27 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 206 1 )
+    ( Indent 2 )
+, L
+    ( Position 206 3 )
+    ( TokSym "Text.XML.HXT.Parser.HtmlParsec" )
+, L
+    ( Position 206 33 )
+    ( TokOther "," )
+, L
+    ( Position 206 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 207 1 )
+    ( Indent 2 )
+, L
+    ( Position 207 3 )
+    ( TokSym "Text.XML.HXT.Parser.ProtocolHandlerUtil" )
+, L
+    ( Position 207 42 )
+    ( TokOther "," )
+, L
+    ( Position 207 43 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 208 1 )
+    ( Indent 2 )
+, L
+    ( Position 208 3 )
+    ( TokSym "Text.XML.HXT.Parser.XhtmlEntities" )
+, L
+    ( Position 208 36 )
+    ( TokOther "," )
+, L
+    ( Position 208 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 209 1 )
+    ( Indent 2 )
+, L
+    ( Position 209 3 )
+    ( TokSym "Text.XML.HXT.Parser.XmlCharParser" )
+, L
+    ( Position 209 36 )
+    ( TokOther "," )
+, L
+    ( Position 209 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 210 1 )
+    ( Indent 2 )
+, L
+    ( Position 210 3 )
+    ( TokSym "Text.XML.HXT.Parser.XmlDTDParser" )
+, L
+    ( Position 210 35 )
+    ( TokOther "," )
+, L
+    ( Position 210 36 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 211 1 )
+    ( Indent 2 )
+, L
+    ( Position 211 3 )
+    ( TokSym "Text.XML.HXT.Parser.XmlDTDTokenParser" )
+, L
+    ( Position 211 40 )
+    ( TokOther "," )
+, L
+    ( Position 211 41 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 212 1 )
+    ( Indent 2 )
+, L
+    ( Position 212 3 )
+    ( TokSym "Text.XML.HXT.Parser.XmlEntities" )
+, L
+    ( Position 212 34 )
+    ( TokOther "," )
+, L
+    ( Position 212 35 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 213 1 )
+    ( Indent 2 )
+, L
+    ( Position 213 3 )
+    ( TokSym "Text.XML.HXT.Parser.XmlParsec" )
+, L
+    ( Position 213 32 )
+    ( TokOther "," )
+, L
+    ( Position 213 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 214 1 )
+    ( Indent 2 )
+, L
+    ( Position 214 3 )
+    ( TokSym "Text.XML.HXT.Parser.XmlTokenParser" )
+, L
+    ( Position 214 37 )
+    ( TokOther "," )
+, L
+    ( Position 214 38 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 215 1 )
+    ( Indent 2 )
+, L
+    ( Position 215 3 )
+    ( TokSym "Text.XML.HXT.XMLSchema.DataTypeLibW3CNames" )
+, L
+    ( Position 215 45 )
+    ( TokOther "," )
+, L
+    ( Position 215 46 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 216 1 )
+    ( Indent 2 )
+, L
+    ( Position 216 3 )
+    ( TokSym "Text.XML.HXT.Version" )
+, L
+    ( Position 216 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 217 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 218 1 )
+    ( Indent 1 )
+, L
+    ( Position 218 2 )
+    ( TokSym "default-language" )
+, L
+    ( Position 218 18 ) Colon
+, L
+    ( Position 218 19 )
+    ( Whitespace " " )
+, L
+    ( Position 218 20 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 218 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 219 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 220 1 )
+    ( Indent 1 )
+, L
+    ( Position 220 2 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 220 16 ) Colon
+, L
+    ( Position 220 17 )
+    ( Whitespace " " )
+, L
+    ( Position 220 18 )
+    ( TokSym "src" )
+, L
+    ( Position 220 21 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 221 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 222 1 )
+    ( Indent 1 )
+, L
+    ( Position 222 2 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 222 13 ) Colon
+, L
+    ( Position 222 14 )
+    ( Whitespace " " )
+, L
+    ( Position 222 15 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 222 20 )
+    ( Whitespace " " )
+, L
+    ( Position 222 21 )
+    ( TokSym "-fwarn-tabs" )
+, L
+    ( Position 222 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 223 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 224 1 )
+    ( Indent 1 )
+, L
+    ( Position 224 2 )
+    ( TokSym "if" )
+, L
+    ( Position 224 4 )
+    ( Whitespace " " )
+, L
+    ( Position 224 5 )
+    ( TokSym "flag" )
+, L
+    ( Position 224 9 )
+    ( TokOther "(" )
+, L
+    ( Position 224 10 )
+    ( TokSym "profile" )
+, L
+    ( Position 224 17 )
+    ( TokOther ")" )
+, L
+    ( Position 224 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 225 1 )
+    ( Indent 3 )
+, L
+    ( Position 225 4 )
+    ( TokSym "ghc-prof-options" )
+, L
+    ( Position 225 20 ) Colon
+, L
+    ( Position 225 21 )
+    ( Whitespace " " )
+, L
+    ( Position 225 22 )
+    ( TokSym "-caf-all" )
+, L
+    ( Position 225 30 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 226 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 227 1 )
+    ( Indent 1 )
+, L
+    ( Position 227 2 )
+    ( TokSym "default-extensions" )
+, L
+    ( Position 227 20 ) Colon
+, L
+    ( Position 227 21 )
+    ( Whitespace " " )
+, L
+    ( Position 227 22 )
+    ( TokSym "MultiParamTypeClasses" )
+, L
+    ( Position 227 43 )
+    ( Whitespace " " )
+, L
+    ( Position 227 44 )
+    ( TokSym "DeriveDataTypeable" )
+, L
+    ( Position 227 62 )
+    ( Whitespace " " )
+, L
+    ( Position 227 63 )
+    ( TokSym "FunctionalDependencies" )
+, L
+    ( Position 227 85 )
+    ( Whitespace " " )
+, L
+    ( Position 227 86 )
+    ( TokSym "FlexibleInstances" )
+, L
+    ( Position 227 103 )
+    ( Whitespace " " )
+, L
+    ( Position 227 104 )
+    ( TokSym "CPP" )
+, L
+    ( Position 227 107 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 228 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 229 1 )
+    ( Indent 1 )
+, L
+    ( Position 229 2 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 229 15 ) Colon
+, L
+    ( Position 229 16 )
+    ( Whitespace " " )
+, L
+    ( Position 229 17 )
+    ( TokSym "base" )
+, L
+    ( Position 229 21 )
+    ( Whitespace "       " )
+, L
+    ( Position 229 28 )
+    ( TokOther ">=" )
+, L
+    ( Position 229 30 )
+    ( Whitespace " " )
+, L
+    ( Position 229 31 )
+    ( TokSym "4" )
+, L
+    ( Position 229 32 )
+    ( Whitespace "     " )
+, L
+    ( Position 229 37 )
+    ( TokOther "&&" )
+, L
+    ( Position 229 39 )
+    ( Whitespace " " )
+, L
+    ( Position 229 40 )
+    ( TokOther "<" )
+, L
+    ( Position 229 41 )
+    ( Whitespace " " )
+, L
+    ( Position 229 42 )
+    ( TokSym "5" )
+, L
+    ( Position 229 43 )
+    ( TokOther "," )
+, L
+    ( Position 229 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 230 1 )
+    ( Indent 16 )
+, L
+    ( Position 230 17 )
+    ( TokSym "containers" )
+, L
+    ( Position 230 27 )
+    ( Whitespace " " )
+, L
+    ( Position 230 28 )
+    ( TokOther ">=" )
+, L
+    ( Position 230 30 )
+    ( Whitespace " " )
+, L
+    ( Position 230 31 )
+    ( TokSym "0.2" )
+, L
+    ( Position 230 34 )
+    ( TokOther "," )
+, L
+    ( Position 230 35 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 231 1 )
+    ( Indent 16 )
+, L
+    ( Position 231 17 )
+    ( TokSym "directory" )
+, L
+    ( Position 231 26 )
+    ( Whitespace "  " )
+, L
+    ( Position 231 28 )
+    ( TokOther ">=" )
+, L
+    ( Position 231 30 )
+    ( Whitespace " " )
+, L
+    ( Position 231 31 )
+    ( TokSym "1" )
+, L
+    ( Position 231 32 )
+    ( TokOther "," )
+, L
+    ( Position 231 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 232 1 )
+    ( Indent 16 )
+, L
+    ( Position 232 17 )
+    ( TokSym "filepath" )
+, L
+    ( Position 232 25 )
+    ( Whitespace "   " )
+, L
+    ( Position 232 28 )
+    ( TokOther ">=" )
+, L
+    ( Position 232 30 )
+    ( Whitespace " " )
+, L
+    ( Position 232 31 )
+    ( TokSym "1" )
+, L
+    ( Position 232 32 )
+    ( TokOther "," )
+, L
+    ( Position 232 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 233 1 )
+    ( Indent 16 )
+, L
+    ( Position 233 17 )
+    ( TokSym "parsec" )
+, L
+    ( Position 233 23 )
+    ( Whitespace "     " )
+, L
+    ( Position 233 28 )
+    ( TokOther ">=" )
+, L
+    ( Position 233 30 )
+    ( Whitespace " " )
+, L
+    ( Position 233 31 )
+    ( TokSym "2.1" )
+, L
+    ( Position 233 34 )
+    ( Whitespace "   " )
+, L
+    ( Position 233 37 )
+    ( TokOther "&&" )
+, L
+    ( Position 233 39 )
+    ( Whitespace " " )
+, L
+    ( Position 233 40 )
+    ( TokOther "<" )
+, L
+    ( Position 233 41 )
+    ( Whitespace " " )
+, L
+    ( Position 233 42 )
+    ( TokSym "4" )
+, L
+    ( Position 233 43 )
+    ( TokOther "," )
+, L
+    ( Position 233 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 234 1 )
+    ( Indent 16 )
+, L
+    ( Position 234 17 )
+    ( TokSym "mtl" )
+, L
+    ( Position 234 20 )
+    ( Whitespace "        " )
+, L
+    ( Position 234 28 )
+    ( TokOther ">=" )
+, L
+    ( Position 234 30 )
+    ( Whitespace " " )
+, L
+    ( Position 234 31 )
+    ( TokSym "2.0.1" )
+, L
+    ( Position 234 36 )
+    ( Whitespace " " )
+, L
+    ( Position 234 37 )
+    ( TokOther "&&" )
+, L
+    ( Position 234 39 )
+    ( Whitespace " " )
+, L
+    ( Position 234 40 )
+    ( TokOther "<" )
+, L
+    ( Position 234 41 )
+    ( Whitespace " " )
+, L
+    ( Position 234 42 )
+    ( TokSym "3" )
+, L
+    ( Position 234 43 )
+    ( TokOther "," )
+, L
+    ( Position 234 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 235 1 )
+    ( Indent 16 )
+, L
+    ( Position 235 17 )
+    ( TokSym "deepseq" )
+, L
+    ( Position 235 24 )
+    ( Whitespace "    " )
+, L
+    ( Position 235 28 )
+    ( TokOther ">=" )
+, L
+    ( Position 235 30 )
+    ( Whitespace " " )
+, L
+    ( Position 235 31 )
+    ( TokSym "1.1" )
+, L
+    ( Position 235 34 )
+    ( TokOther "," )
+, L
+    ( Position 235 35 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 236 1 )
+    ( Indent 16 )
+, L
+    ( Position 236 17 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 236 27 )
+    ( Whitespace " " )
+, L
+    ( Position 236 28 )
+    ( TokOther ">=" )
+, L
+    ( Position 236 30 )
+    ( Whitespace " " )
+, L
+    ( Position 236 31 )
+    ( TokSym "0.9" )
+, L
+    ( Position 236 34 )
+    ( TokOther "," )
+, L
+    ( Position 236 35 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 237 1 )
+    ( Indent 16 )
+, L
+    ( Position 237 17 )
+    ( TokSym "binary" )
+, L
+    ( Position 237 23 )
+    ( Whitespace "     " )
+, L
+    ( Position 237 28 )
+    ( TokOther ">=" )
+, L
+    ( Position 237 30 )
+    ( Whitespace " " )
+, L
+    ( Position 237 31 )
+    ( TokSym "0.5" )
+, L
+    ( Position 237 34 )
+    ( TokOther "," )
+, L
+    ( Position 237 35 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 238 1 )
+    ( Indent 16 )
+, L
+    ( Position 238 17 )
+    ( TokSym "hxt-charproperties" )
+, L
+    ( Position 238 35 )
+    ( Whitespace "  " )
+, L
+    ( Position 238 37 )
+    ( TokOther ">=" )
+, L
+    ( Position 238 39 )
+    ( Whitespace " " )
+, L
+    ( Position 238 40 )
+    ( TokSym "9.1" )
+, L
+    ( Position 238 43 )
+    ( TokOther "," )
+, L
+    ( Position 238 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 239 1 )
+    ( Indent 16 )
+, L
+    ( Position 239 17 )
+    ( TokSym "hxt-unicode" )
+, L
+    ( Position 239 28 )
+    ( Whitespace "         " )
+, L
+    ( Position 239 37 )
+    ( TokOther ">=" )
+, L
+    ( Position 239 39 )
+    ( Whitespace " " )
+, L
+    ( Position 239 40 )
+    ( TokSym "9.0.1" )
+, L
+    ( Position 239 45 )
+    ( TokOther "," )
+, L
+    ( Position 239 46 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 240 1 )
+    ( Indent 16 )
+, L
+    ( Position 240 17 )
+    ( TokSym "hxt-regex-xmlschema" )
+, L
+    ( Position 240 36 )
+    ( Whitespace " " )
+, L
+    ( Position 240 37 )
+    ( TokOther ">=" )
+, L
+    ( Position 240 39 )
+    ( Whitespace " " )
+, L
+    ( Position 240 40 )
+    ( TokSym "9.2" )
+, L
+    ( Position 240 43 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 241 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 242 1 )
+    ( Indent 1 )
+, L
+    ( Position 242 2 )
+    ( TokSym "if" )
+, L
+    ( Position 242 4 )
+    ( Whitespace " " )
+, L
+    ( Position 242 5 )
+    ( TokSym "flag" )
+, L
+    ( Position 242 9 )
+    ( TokOther "(" )
+, L
+    ( Position 242 10 )
+    ( TokSym "network-uri" )
+, L
+    ( Position 242 21 )
+    ( TokOther ")" )
+, L
+    ( Position 242 22 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 243 1 )
+    ( Indent 3 )
+, L
+    ( Position 243 4 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 243 17 ) Colon
+, L
+    ( Position 243 18 )
+    ( Whitespace " " )
+, L
+    ( Position 243 19 )
+    ( TokSym "network-uri" )
+, L
+    ( Position 243 30 )
+    ( Whitespace " " )
+, L
+    ( Position 243 31 )
+    ( TokOther ">=" )
+, L
+    ( Position 243 33 )
+    ( Whitespace " " )
+, L
+    ( Position 243 34 )
+    ( TokSym "2.6" )
+, L
+    ( Position 243 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 244 1 )
+    ( Indent 1 )
+, L
+    ( Position 244 2 )
+    ( TokSym "else" )
+, L
+    ( Position 244 6 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 245 1 )
+    ( Indent 3 )
+, L
+    ( Position 245 4 )
+    ( TokSym "if" )
+, L
+    ( Position 245 6 )
+    ( Whitespace " " )
+, L
+    ( Position 245 7 )
+    ( TokSym "impl" )
+, L
+    ( Position 245 11 )
+    ( TokOther "(" )
+, L
+    ( Position 245 12 )
+    ( TokSym "ghc" )
+, L
+    ( Position 245 15 )
+    ( Whitespace " " )
+, L
+    ( Position 245 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 245 18 )
+    ( Whitespace " " )
+, L
+    ( Position 245 19 )
+    ( TokSym "7.10" )
+, L
+    ( Position 245 23 )
+    ( TokOther ")" )
+, L
+    ( Position 245 24 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 246 1 )
+    ( Indent 5 )
+, L
+    ( Position 246 6 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 246 19 ) Colon
+, L
+    ( Position 246 20 )
+    ( Whitespace " " )
+, L
+    ( Position 246 21 )
+    ( TokSym "network-uri" )
+, L
+    ( Position 246 32 )
+    ( Whitespace " " )
+, L
+    ( Position 246 33 )
+    ( TokOther ">=" )
+, L
+    ( Position 246 35 )
+    ( Whitespace " " )
+, L
+    ( Position 246 36 )
+    ( TokSym "2.6" )
+, L
+    ( Position 246 39 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 247 1 )
+    ( Indent 3 )
+, L
+    ( Position 247 4 )
+    ( TokSym "else" )
+, L
+    ( Position 247 8 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 248 1 )
+    ( Indent 5 )
+, L
+    ( Position 248 6 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 248 19 ) Colon
+, L
+    ( Position 248 20 )
+    ( Whitespace " " )
+, L
+    ( Position 248 21 )
+    ( TokSym "network" )
+, L
+    ( Position 248 28 )
+    ( Whitespace " " )
+, L
+    ( Position 248 29 )
+    ( TokOther ">=" )
+, L
+    ( Position 248 31 )
+    ( Whitespace " " )
+, L
+    ( Position 248 32 )
+    ( TokSym "2.4" )
+, L
+    ( Position 248 35 )
+    ( Whitespace " " )
+, L
+    ( Position 248 36 )
+    ( TokOther "&&" )
+, L
+    ( Position 248 38 )
+    ( Whitespace " " )
+, L
+    ( Position 248 39 )
+    ( TokOther "<" )
+, L
+    ( Position 248 40 )
+    ( Whitespace " " )
+, L
+    ( Position 248 41 )
+    ( TokSym "2.6" )
+, L
+    ( Position 248 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 249 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 250 1 )
+    ( Indent 0 )
+, L
+    ( Position 250 1 )
+    ( TokSym "Source-Repository" )
+, L
+    ( Position 250 18 )
+    ( Whitespace " " )
+, L
+    ( Position 250 19 )
+    ( TokSym "head" )
+, L
+    ( Position 250 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 251 1 )
+    ( Indent 2 )
+, L
+    ( Position 251 3 )
+    ( TokSym "Type" )
+, L
+    ( Position 251 7 ) Colon
+, L
+    ( Position 251 8 )
+    ( Whitespace "     " )
+, L
+    ( Position 251 13 )
+    ( TokSym "git" )
+, L
+    ( Position 251 16 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 252 1 )
+    ( Indent 2 )
+, L
+    ( Position 252 3 )
+    ( TokSym "Location" )
+, L
+    ( Position 252 11 ) Colon
+, L
+    ( Position 252 12 )
+    ( Whitespace " " )
+, L
+    ( Position 252 13 )
+    ( TokSym "git" )
+, L
+    ( Position 252 16 ) Colon
+, L
+    ( Position 252 17 )
+    ( TokOther "//" )
+, L
+    ( Position 252 19 )
+    ( TokSym "github.com" )
+, L
+    ( Position 252 29 )
+    ( TokOther "/" )
+, L
+    ( Position 252 30 )
+    ( TokSym "UweSchmidt" )
+, L
+    ( Position 252 40 )
+    ( TokOther "/" )
+, L
+    ( Position 252 41 )
+    ( TokSym "hxt.git" )
+, L
+    ( Position 252 48 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 253 1 ) EOF
+]

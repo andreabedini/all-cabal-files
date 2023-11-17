@@ -1,0 +1,127 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 22 )
+    ( TokSym "no-buffering-workaround" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 22 )
+    ( TokSym "0.1.0.0" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "synopsis" )
+, L
+    ( Position 3 9 ) Colon
+, L
+    ( Position 3 22 )
+    ( TokSym "Workaround" )
+, L
+    ( Position 3 33 )
+    ( TokSym "for" )
+, L
+    ( Position 3 37 )
+    ( TokSym "GHC" )
+, L
+    ( Position 3 41 )
+    ( TokSym "bug" )
+, L
+    ( Position 3 45 )
+    ( TokOther "#" )
+, L
+    ( Position 3 46 )
+    ( TokSym "2189." )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "description" )
+, L
+    ( Position 4 12 ) Colon
+, L
+    ( Position 4 22 )
+    ( TokSym "This" )
+, L
+    ( Position 4 27 )
+    ( TokSym "package" )
+, L
+    ( Position 4 35 )
+    ( TokSym "exists" )
+, L
+    ( Position 4 42 )
+    ( TokSym "as" )
+, L
+    ( Position 4 45 )
+    ( TokSym "a" )
+, L
+    ( Position 4 47 )
+    ( TokSym "workaround" )
+, L
+    ( Position 4 58 )
+    ( TokSym "for" )
+, L
+    ( Position 4 62 )
+    ( TokSym "GHC" )
+, L
+    ( Position 4 66 )
+    ( TokSym "bug" )
+, L
+    ( Position 4 70 )
+    ( TokOther "#" )
+, L
+    ( Position 4 71 )
+    ( TokSym "2189" )
+, L
+    ( Position 4 75 )
+    ( TokOther "," )
+, L
+    ( Position 4 77 )
+    ( TokOther "\" )
+, L
+    ( Position 4 99 )
+    ( LexicalError "
+                         NoBuffering@ doesn't work on Windows\". It provides functionality for reading
+                         from standard input without buffering, in a way that works under GHC on
+                         Windows as well as other configurations. This is useful for key-driven console
+                         applications such as roguelikes.
+    homepage:            http://github.com/arotenberg/no-buffering-workaround#readme
+    license:             Apache-2.0
+    license-file:        LICENSE
+    author:              Aaron Rotenberg
+    maintainer:          adrotenberg (at) gmail.com
+    copyright:           2015 Aaron Rotenberg
+    category:            Console
+    build-type:          Simple
+    -- extra-source-files:
+    cabal-version:       >=1.10
+
+    library
+      hs-source-dirs:      src
+      exposed-modules:     System.IO.NoBufferingWorkaround
+      build-depends:       base >= 4.7 && < 5
+      default-language:    Haskell2010
+      other-extensions:    CPP
+
+    source-repository head
+      type:     git
+      location: https://github.com/arotenberg/no-buffering-workaround
+    " )
+, L
+    ( Position 4 78 ) EOF
+]

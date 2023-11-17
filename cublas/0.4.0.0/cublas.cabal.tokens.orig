@@ -1,0 +1,967 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 25 )
+    ( TokSym "cublas" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 25 )
+    ( TokSym "0.4.0.0" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "synopsis" )
+, L
+    ( Position 3 9 ) Colon
+, L
+    ( Position 3 25 )
+    ( TokSym "FFI" )
+, L
+    ( Position 3 29 )
+    ( TokSym "bindings" )
+, L
+    ( Position 3 38 )
+    ( TokSym "to" )
+, L
+    ( Position 3 41 )
+    ( TokSym "the" )
+, L
+    ( Position 3 45 )
+    ( TokSym "CUDA" )
+, L
+    ( Position 3 50 )
+    ( TokSym "BLAS" )
+, L
+    ( Position 3 55 )
+    ( TokSym "library" )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "description" )
+, L
+    ( Position 4 12 ) Colon
+, L
+    ( Position 5 1 )
+    ( Indent 4 )
+, L
+    ( Position 5 5 )
+    ( TokSym "The" )
+, L
+    ( Position 5 9 )
+    ( TokSym "cuBLAS" )
+, L
+    ( Position 5 16 )
+    ( TokSym "library" )
+, L
+    ( Position 5 24 )
+    ( TokSym "is" )
+, L
+    ( Position 5 27 )
+    ( TokSym "an" )
+, L
+    ( Position 5 30 )
+    ( TokSym "implementation" )
+, L
+    ( Position 5 45 )
+    ( TokSym "of" )
+, L
+    ( Position 5 48 )
+    ( TokSym "BLAS" )
+, L
+    ( Position 5 53 )
+    ( TokOther "(" )
+, L
+    ( Position 5 54 )
+    ( TokSym "Basic" )
+, L
+    ( Position 5 60 )
+    ( TokSym "Linear" )
+, L
+    ( Position 5 67 )
+    ( TokSym "Algebra" )
+, L
+    ( Position 6 1 )
+    ( Indent 4 )
+, L
+    ( Position 6 5 )
+    ( TokSym "Subprograms" )
+, L
+    ( Position 6 16 )
+    ( TokOther ")" )
+, L
+    ( Position 6 18 )
+    ( TokSym "for" )
+, L
+    ( Position 6 22 )
+    ( TokSym "NVIDIA" )
+, L
+    ( Position 6 29 )
+    ( TokSym "GPUs." )
+, L
+    ( Position 6 35 )
+    ( TokSym "This" )
+, L
+    ( Position 6 40 )
+    ( TokSym "package" )
+, L
+    ( Position 6 48 )
+    ( TokSym "provides" )
+, L
+    ( Position 6 57 )
+    ( TokSym "FFI" )
+, L
+    ( Position 6 61 )
+    ( TokSym "bindings" )
+, L
+    ( Position 6 70 )
+    ( TokSym "to" )
+, L
+    ( Position 6 73 )
+    ( TokSym "the" )
+, L
+    ( Position 7 1 )
+    ( Indent 4 )
+, L
+    ( Position 7 5 )
+    ( TokSym "functions" )
+, L
+    ( Position 7 15 )
+    ( TokSym "of" )
+, L
+    ( Position 7 18 )
+    ( TokSym "the" )
+, L
+    ( Position 7 22 )
+    ( TokSym "cuBLAS" )
+, L
+    ( Position 7 29 )
+    ( TokSym "library." )
+, L
+    ( Position 7 38 )
+    ( TokSym "You" )
+, L
+    ( Position 7 42 )
+    ( TokSym "will" )
+, L
+    ( Position 7 47 )
+    ( TokSym "need" )
+, L
+    ( Position 7 52 )
+    ( TokSym "to" )
+, L
+    ( Position 7 55 )
+    ( TokSym "install" )
+, L
+    ( Position 7 63 )
+    ( TokSym "the" )
+, L
+    ( Position 7 67 )
+    ( TokSym "CUDA" )
+, L
+    ( Position 7 72 )
+    ( TokSym "driver" )
+, L
+    ( Position 8 1 )
+    ( Indent 4 )
+, L
+    ( Position 8 5 )
+    ( TokSym "and" )
+, L
+    ( Position 8 9 )
+    ( TokSym "developer" )
+, L
+    ( Position 8 19 )
+    ( TokSym "toolkit" )
+, L
+    ( Position 8 26 ) Colon
+, L
+    ( Position 9 1 )
+    ( Indent 4 )
+, L
+    ( Position 9 5 )
+    ( TokSym "." )
+, L
+    ( Position 10 1 )
+    ( Indent 4 )
+, L
+    ( Position 10 5 )
+    ( TokOther "<" )
+, L
+    ( Position 10 6 )
+    ( TokSym "http" )
+, L
+    ( Position 10 10 ) Colon
+, L
+    ( Position 10 11 )
+    ( TokOther "//" )
+, L
+    ( Position 10 13 )
+    ( TokSym "developer.nvidia.com" )
+, L
+    ( Position 10 33 )
+    ( TokOther "/" )
+, L
+    ( Position 10 34 )
+    ( TokSym "cuda-downloads" )
+, L
+    ( Position 10 48 )
+    ( TokOther ">" )
+, L
+    ( Position 11 1 )
+    ( Indent 4 )
+, L
+    ( Position 11 5 )
+    ( TokSym "." )
+, L
+    ( Position 12 1 )
+    ( Indent 4 )
+, L
+    ( Position 12 5 )
+    ( TokSym "See" )
+, L
+    ( Position 12 9 )
+    ( TokSym "the" )
+, L
+    ( Position 12 13 )
+    ( TokOther "<" )
+, L
+    ( Position 12 14 )
+    ( TokSym "https" )
+, L
+    ( Position 12 19 ) Colon
+, L
+    ( Position 12 20 )
+    ( TokOther "//" )
+, L
+    ( Position 12 22 )
+    ( TokSym "travis-ci.org" )
+, L
+    ( Position 12 35 )
+    ( TokOther "/" )
+, L
+    ( Position 12 36 )
+    ( TokSym "tmcdonell" )
+, L
+    ( Position 12 45 )
+    ( TokOther "/" )
+, L
+    ( Position 12 46 )
+    ( TokSym "cublas" )
+, L
+    ( Position 12 53 )
+    ( TokSym "travis-ci.org" )
+, L
+    ( Position 12 66 )
+    ( TokOther ">" )
+, L
+    ( Position 12 68 )
+    ( TokSym "build" )
+, L
+    ( Position 12 74 )
+    ( TokSym "matrix" )
+, L
+    ( Position 13 1 )
+    ( Indent 4 )
+, L
+    ( Position 13 5 )
+    ( TokSym "for" )
+, L
+    ( Position 13 9 )
+    ( TokSym "tested" )
+, L
+    ( Position 13 16 )
+    ( TokSym "CUDA" )
+, L
+    ( Position 13 21 )
+    ( TokSym "library" )
+, L
+    ( Position 13 29 )
+    ( TokSym "versions." )
+, L
+    ( Position 15 1 )
+    ( Indent 0 )
+, L
+    ( Position 15 1 )
+    ( TokSym "license" )
+, L
+    ( Position 15 8 ) Colon
+, L
+    ( Position 15 25 )
+    ( TokSym "BSD3" )
+, L
+    ( Position 16 1 )
+    ( Indent 0 )
+, L
+    ( Position 16 1 )
+    ( TokSym "license-file" )
+, L
+    ( Position 16 13 ) Colon
+, L
+    ( Position 16 25 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 17 1 )
+    ( Indent 0 )
+, L
+    ( Position 17 1 )
+    ( TokSym "author" )
+, L
+    ( Position 17 7 ) Colon
+, L
+    ( Position 17 25 )
+    ( TokSym "Trevor" )
+, L
+    ( Position 17 32 )
+    ( TokSym "L." )
+, L
+    ( Position 17 35 )
+    ( TokSym "McDonell" )
+, L
+    ( Position 17 43 )
+    ( TokOther "," )
+, L
+    ( Position 17 45 )
+    ( TokSym "Ben" )
+, L
+    ( Position 17 49 )
+    ( TokSym "Sherman" )
+, L
+    ( Position 18 1 )
+    ( Indent 0 )
+, L
+    ( Position 18 1 )
+    ( TokSym "maintainer" )
+, L
+    ( Position 18 11 ) Colon
+, L
+    ( Position 18 25 )
+    ( TokSym "Trevor" )
+, L
+    ( Position 18 32 )
+    ( TokSym "L." )
+, L
+    ( Position 18 35 )
+    ( TokSym "McDonell" )
+, L
+    ( Position 18 44 )
+    ( TokOther "<" )
+, L
+    ( Position 18 45 )
+    ( TokSym "tmcdonell" )
+, L
+    ( Position 18 54 )
+    ( TokOther "@" )
+, L
+    ( Position 18 55 )
+    ( TokSym "cse.unsw.edu.au" )
+, L
+    ( Position 18 70 )
+    ( TokOther ">" )
+, L
+    ( Position 19 1 )
+    ( Indent 0 )
+, L
+    ( Position 19 1 )
+    ( TokSym "copyright" )
+, L
+    ( Position 19 10 ) Colon
+, L
+    ( Position 19 25 )
+    ( TokSym "Copyright" )
+, L
+    ( Position 19 35 )
+    ( TokOther "(" )
+, L
+    ( Position 19 36 )
+    ( TokSym "c" )
+, L
+    ( Position 19 37 )
+    ( TokOther ")" )
+, L
+    ( Position 19 39 )
+    ( TokOther "[" )
+, L
+    ( Position 19 40 )
+    ( TokSym "2012..2017" )
+, L
+    ( Position 19 50 )
+    ( TokOther "]" )
+, L
+    ( Position 19 51 )
+    ( TokSym "." )
+, L
+    ( Position 19 53 )
+    ( TokSym "Trevor" )
+, L
+    ( Position 19 60 )
+    ( TokSym "L." )
+, L
+    ( Position 19 63 )
+    ( TokSym "McDonell" )
+, L
+    ( Position 19 72 )
+    ( TokOther "<" )
+, L
+    ( Position 19 73 )
+    ( TokSym "tmcdonell" )
+, L
+    ( Position 19 82 )
+    ( TokOther "@" )
+, L
+    ( Position 19 83 )
+    ( TokSym "cse.unsw.edu.au" )
+, L
+    ( Position 19 98 )
+    ( TokOther ">," )
+, L
+    ( Position 19 101 )
+    ( TokSym "Ben" )
+, L
+    ( Position 19 105 )
+    ( TokSym "Sherman" )
+, L
+    ( Position 19 113 )
+    ( TokOther "<" )
+, L
+    ( Position 19 114 )
+    ( TokSym "benmsherman" )
+, L
+    ( Position 19 125 )
+    ( TokOther "@" )
+, L
+    ( Position 19 126 )
+    ( TokSym "gmail.com" )
+, L
+    ( Position 19 135 )
+    ( TokOther ">" )
+, L
+    ( Position 20 1 )
+    ( Indent 0 )
+, L
+    ( Position 20 1 )
+    ( TokSym "category" )
+, L
+    ( Position 20 9 ) Colon
+, L
+    ( Position 20 25 )
+    ( TokSym "Foreign" )
+, L
+    ( Position 21 1 )
+    ( Indent 0 )
+, L
+    ( Position 21 1 )
+    ( TokSym "cabal-version" )
+, L
+    ( Position 21 14 ) Colon
+, L
+    ( Position 21 25 )
+    ( TokOther ">=" )
+, L
+    ( Position 21 27 )
+    ( TokSym "1.8" )
+, L
+    ( Position 23 1 )
+    ( Indent 0 )
+, L
+    ( Position 23 1 )
+    ( TokSym "build-type" )
+, L
+    ( Position 23 11 ) Colon
+, L
+    ( Position 23 25 )
+    ( TokSym "Custom" )
+, L
+    ( Position 24 1 )
+    ( Indent 0 )
+, L
+    ( Position 24 1 )
+    ( TokSym "extra-tmp-files" )
+, L
+    ( Position 24 16 ) Colon
+, L
+    ( Position 24 25 )
+    ( TokSym "cublas.buildinfo.generated" )
+, L
+    ( Position 25 1 )
+    ( Indent 0 )
+, L
+    ( Position 25 1 )
+    ( TokSym "extra-source-files" )
+, L
+    ( Position 25 19 ) Colon
+, L
+    ( Position 26 1 )
+    ( Indent 2 )
+, L
+    ( Position 26 3 )
+    ( TokSym "README.md" )
+, L
+    ( Position 27 1 )
+    ( Indent 2 )
+, L
+    ( Position 27 3 )
+    ( TokSym "CHANGELOG.md" )
+, L
+    ( Position 28 1 )
+    ( Indent 2 )
+, L
+    ( Position 28 3 )
+    ( TokSym "cbits" )
+, L
+    ( Position 28 8 )
+    ( TokOther "/" )
+, L
+    ( Position 28 9 )
+    ( TokSym "stubs.h" )
+, L
+    ( Position 30 1 )
+    ( Indent 0 )
+, L
+    ( Position 30 1 )
+    ( TokSym "custom-setup" )
+, L
+    ( Position 31 1 )
+    ( Indent 2 )
+, L
+    ( Position 31 3 )
+    ( TokSym "setup-depends" )
+, L
+    ( Position 31 16 ) Colon
+, L
+    ( Position 32 1 )
+    ( Indent 6 )
+, L
+    ( Position 32 7 )
+    ( TokSym "base" )
+, L
+    ( Position 32 25 )
+    ( TokOther ">=" )
+, L
+    ( Position 32 28 )
+    ( TokSym "4.6" )
+, L
+    ( Position 33 1 )
+    ( Indent 4 )
+, L
+    ( Position 33 5 )
+    ( TokOther "," )
+, L
+    ( Position 33 7 )
+    ( TokSym "Cabal" )
+, L
+    ( Position 33 25 )
+    ( TokOther ">=" )
+, L
+    ( Position 33 28 )
+    ( TokSym "1.22" )
+, L
+    ( Position 34 1 )
+    ( Indent 4 )
+, L
+    ( Position 34 5 )
+    ( TokOther "," )
+, L
+    ( Position 34 7 )
+    ( TokSym "cuda" )
+, L
+    ( Position 34 25 )
+    ( TokOther ">=" )
+, L
+    ( Position 34 28 )
+    ( TokSym "0.8" )
+, L
+    ( Position 35 1 )
+    ( Indent 4 )
+, L
+    ( Position 35 5 )
+    ( TokOther "," )
+, L
+    ( Position 35 7 )
+    ( TokSym "directory" )
+, L
+    ( Position 35 25 )
+    ( TokOther ">=" )
+, L
+    ( Position 35 28 )
+    ( TokSym "1.0" )
+, L
+    ( Position 36 1 )
+    ( Indent 4 )
+, L
+    ( Position 36 5 )
+    ( TokOther "," )
+, L
+    ( Position 36 7 )
+    ( TokSym "filepath" )
+, L
+    ( Position 36 25 )
+    ( TokOther ">=" )
+, L
+    ( Position 36 28 )
+    ( TokSym "1.0" )
+, L
+    ( Position 38 1 )
+    ( Indent 0 )
+, L
+    ( Position 38 1 )
+    ( TokSym "library" )
+, L
+    ( Position 39 1 )
+    ( Indent 2 )
+, L
+    ( Position 39 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 39 17 ) Colon
+, L
+    ( Position 39 25 )
+    ( TokSym "." )
+, L
+    ( Position 40 1 )
+    ( Indent 2 )
+, L
+    ( Position 40 3 )
+    ( TokSym "include-dirs" )
+, L
+    ( Position 40 15 ) Colon
+, L
+    ( Position 40 25 )
+    ( TokSym "." )
+, L
+    ( Position 42 1 )
+    ( Indent 2 )
+, L
+    ( Position 42 3 )
+    ( TokSym "exposed-modules" )
+, L
+    ( Position 42 18 ) Colon
+, L
+    ( Position 43 1 )
+    ( Indent 6 )
+, L
+    ( Position 43 7 )
+    ( TokSym "Foreign.CUDA.BLAS" )
+, L
+    ( Position 44 1 )
+    ( Indent 6 )
+, L
+    ( Position 44 7 )
+    ( TokSym "Foreign.CUDA.BLAS.Context" )
+, L
+    ( Position 45 1 )
+    ( Indent 6 )
+, L
+    ( Position 45 7 )
+    ( TokSym "Foreign.CUDA.BLAS.Error" )
+, L
+    ( Position 46 1 )
+    ( Indent 6 )
+, L
+    ( Position 46 7 )
+    ( TokSym "Foreign.CUDA.BLAS.Level1" )
+, L
+    ( Position 47 1 )
+    ( Indent 6 )
+, L
+    ( Position 47 7 )
+    ( TokSym "Foreign.CUDA.BLAS.Level2" )
+, L
+    ( Position 48 1 )
+    ( Indent 6 )
+, L
+    ( Position 48 7 )
+    ( TokSym "Foreign.CUDA.BLAS.Level3" )
+, L
+    ( Position 49 1 )
+    ( Indent 6 )
+, L
+    ( Position 49 7 )
+    ( TokSym "Foreign.CUDA.BLAS.Stream" )
+, L
+    ( Position 51 1 )
+    ( Indent 2 )
+, L
+    ( Position 51 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 51 16 ) Colon
+, L
+    ( Position 52 1 )
+    ( Indent 6 )
+, L
+    ( Position 52 7 )
+    ( TokSym "Foreign.CUDA.BLAS.Internal.C2HS" )
+, L
+    ( Position 53 1 )
+    ( Indent 6 )
+, L
+    ( Position 53 7 )
+    ( TokSym "Foreign.CUDA.BLAS.Internal.Types" )
+, L
+    ( Position 55 1 )
+    ( Indent 2 )
+, L
+    ( Position 55 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 55 16 ) Colon
+, L
+    ( Position 56 1 )
+    ( Indent 6 )
+, L
+    ( Position 56 7 )
+    ( TokSym "base" )
+, L
+    ( Position 56 41 )
+    ( TokOther "==" )
+, L
+    ( Position 56 44 )
+    ( TokSym "4." )
+, L
+    ( Position 56 46 )
+    ( TokOther "*" )
+, L
+    ( Position 57 1 )
+    ( Indent 4 )
+, L
+    ( Position 57 5 )
+    ( TokOther "," )
+, L
+    ( Position 57 7 )
+    ( TokSym "cuda" )
+, L
+    ( Position 57 41 )
+    ( TokOther ">=" )
+, L
+    ( Position 57 44 )
+    ( TokSym "0.8" )
+, L
+    ( Position 58 1 )
+    ( Indent 4 )
+, L
+    ( Position 58 5 )
+    ( TokOther "," )
+, L
+    ( Position 58 7 )
+    ( TokSym "half" )
+, L
+    ( Position 58 41 )
+    ( TokOther ">=" )
+, L
+    ( Position 58 44 )
+    ( TokSym "0.1" )
+, L
+    ( Position 59 1 )
+    ( Indent 4 )
+, L
+    ( Position 59 5 )
+    ( TokOther "," )
+, L
+    ( Position 59 7 )
+    ( TokSym "storable-complex" )
+, L
+    ( Position 59 41 )
+    ( TokOther ">=" )
+, L
+    ( Position 59 44 )
+    ( TokSym "0.2" )
+, L
+    ( Position 60 1 )
+    ( Indent 4 )
+, L
+    ( Position 60 5 )
+    ( TokOther "," )
+, L
+    ( Position 60 7 )
+    ( TokSym "template-haskell" )
+, L
+    ( Position 62 1 )
+    ( Indent 2 )
+, L
+    ( Position 62 3 )
+    ( TokSym "build-tools" )
+, L
+    ( Position 62 14 ) Colon
+, L
+    ( Position 63 1 )
+    ( Indent 6 )
+, L
+    ( Position 63 7 )
+    ( TokSym "c2hs" )
+, L
+    ( Position 63 41 )
+    ( TokOther ">=" )
+, L
+    ( Position 63 44 )
+    ( TokSym "0.16" )
+, L
+    ( Position 65 1 )
+    ( Indent 2 )
+, L
+    ( Position 65 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 65 14 ) Colon
+, L
+    ( Position 66 1 )
+    ( Indent 6 )
+, L
+    ( Position 66 7 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 67 1 )
+    ( Indent 6 )
+, L
+    ( Position 67 7 )
+    ( TokSym "-O2" )
+, L
+    ( Position 68 1 )
+    ( Indent 6 )
+, L
+    ( Position 68 7 )
+    ( TokSym "-funbox-strict-fields" )
+, L
+    ( Position 69 1 )
+    ( Indent 6 )
+, L
+    ( Position 69 7 )
+    ( TokSym "-fwarn-tabs" )
+, L
+    ( Position 70 1 )
+    ( Indent 6 )
+, L
+    ( Position 70 7 )
+    ( TokSym "-fno-warn-unused-imports" )
+, L
+    ( Position 72 1 )
+    ( Indent 0 )
+, L
+    ( Position 72 1 )
+    ( TokSym "source-repository" )
+, L
+    ( Position 72 19 )
+    ( TokSym "head" )
+, L
+    ( Position 73 1 )
+    ( Indent 4 )
+, L
+    ( Position 73 5 )
+    ( TokSym "type" )
+, L
+    ( Position 73 9 ) Colon
+, L
+    ( Position 73 25 )
+    ( TokSym "git" )
+, L
+    ( Position 74 1 )
+    ( Indent 4 )
+, L
+    ( Position 74 5 )
+    ( TokSym "location" )
+, L
+    ( Position 74 13 ) Colon
+, L
+    ( Position 74 25 )
+    ( TokSym "https" )
+, L
+    ( Position 74 30 ) Colon
+, L
+    ( Position 74 31 )
+    ( TokOther "//" )
+, L
+    ( Position 74 33 )
+    ( TokSym "github.com" )
+, L
+    ( Position 74 43 )
+    ( TokOther "/" )
+, L
+    ( Position 74 44 )
+    ( TokSym "tmcdonell" )
+, L
+    ( Position 74 53 )
+    ( TokOther "/" )
+, L
+    ( Position 74 54 )
+    ( TokSym "cublas" )
+, L
+    ( Position 76 1 )
+    ( Indent 0 )
+, L
+    ( Position 76 1 )
+    ( TokSym "source-repository" )
+, L
+    ( Position 76 19 )
+    ( TokSym "this" )
+, L
+    ( Position 77 1 )
+    ( Indent 4 )
+, L
+    ( Position 77 5 )
+    ( TokSym "type" )
+, L
+    ( Position 77 9 ) Colon
+, L
+    ( Position 77 25 )
+    ( TokSym "git" )
+, L
+    ( Position 78 1 )
+    ( Indent 4 )
+, L
+    ( Position 78 5 )
+    ( TokSym "location" )
+, L
+    ( Position 78 13 ) Colon
+, L
+    ( Position 78 25 )
+    ( TokSym "https" )
+, L
+    ( Position 78 30 ) Colon
+, L
+    ( Position 78 31 )
+    ( TokOther "//" )
+, L
+    ( Position 78 33 )
+    ( TokSym "github.com" )
+, L
+    ( Position 78 43 )
+    ( TokOther "/" )
+, L
+    ( Position 78 44 )
+    ( TokSym "tmcdonell" )
+, L
+    ( Position 78 53 )
+    ( TokOther "/" )
+, L
+    ( Position 78 54 )
+    ( TokSym "cublas" )
+, L
+    ( Position 79 1 )
+    ( Indent 4 )
+, L
+    ( Position 79 5 )
+    ( TokSym "tag" )
+, L
+    ( Position 79 8 ) Colon
+, L
+    ( Position 79 25 )
+    ( TokSym "0.4.0.0" )
+, L
+    ( Position 82 1 ) EOF
+]

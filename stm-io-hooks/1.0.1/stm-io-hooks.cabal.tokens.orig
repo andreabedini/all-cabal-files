@@ -1,0 +1,884 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 17 )
+    ( TokSym "stm-io-hooks" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 2 9 ) Colon
+, L
+    ( Position 2 17 )
+    ( TokSym "STM" )
+, L
+    ( Position 2 21 )
+    ( TokSym "with" )
+, L
+    ( Position 2 26 )
+    ( TokSym "IO" )
+, L
+    ( Position 2 29 )
+    ( TokSym "hooks" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 3 12 ) Colon
+, L
+    ( Position 4 1 )
+    ( Indent 4 )
+, L
+    ( Position 4 5 )
+    ( TokSym "This" )
+, L
+    ( Position 4 10 )
+    ( TokSym "library" )
+, L
+    ( Position 4 18 )
+    ( TokSym "provides" )
+, L
+    ( Position 4 27 )
+    ( TokSym "a" )
+, L
+    ( Position 4 29 )
+    ( TokSym "Software" )
+, L
+    ( Position 4 38 )
+    ( TokSym "Transactional" )
+, L
+    ( Position 4 52 )
+    ( TokSym "Memory" )
+, L
+    ( Position 4 59 )
+    ( TokOther "(" )
+, L
+    ( Position 4 60 )
+    ( TokSym "STM" )
+, L
+    ( Position 4 63 )
+    ( TokOther ")" )
+, L
+    ( Position 4 65 )
+    ( TokSym "monad" )
+, L
+    ( Position 4 71 )
+    ( TokSym "with" )
+, L
+    ( Position 4 76 )
+    ( TokSym "commit" )
+, L
+    ( Position 4 83 )
+    ( TokSym "and" )
+, L
+    ( Position 4 87 )
+    ( TokSym "retry" )
+, L
+    ( Position 4 93 )
+    ( TokSym "IO" )
+, L
+    ( Position 4 96 )
+    ( TokSym "hooks." )
+, L
+    ( Position 5 1 )
+    ( Indent 4 )
+, L
+    ( Position 5 5 )
+    ( TokSym "A" )
+, L
+    ( Position 5 7 )
+    ( TokSym "retry-action" )
+, L
+    ( Position 5 20 )
+    ( TokSym "is" )
+, L
+    ( Position 5 23 )
+    ( TokSym "run" )
+, L
+    ( Position 5 27 )
+    ( TokOther "(" )
+, L
+    ( Position 5 28 )
+    ( TokSym "at" )
+, L
+    ( Position 5 31 )
+    ( TokSym "least" )
+, L
+    ( Position 5 37 )
+    ( TokSym "once" )
+, L
+    ( Position 5 41 )
+    ( TokOther ")" )
+, L
+    ( Position 5 43 )
+    ( TokSym "if" )
+, L
+    ( Position 5 46 )
+    ( TokSym "the" )
+, L
+    ( Position 5 50 )
+    ( TokSym "transaction" )
+, L
+    ( Position 5 62 )
+    ( TokSym "retries" )
+, L
+    ( Position 5 69 )
+    ( TokOther "," )
+, L
+    ( Position 5 71 )
+    ( TokSym "while" )
+, L
+    ( Position 5 77 )
+    ( TokSym "commit-actions" )
+, L
+    ( Position 5 92 )
+    ( TokSym "are" )
+, L
+    ( Position 6 1 )
+    ( Indent 4 )
+, L
+    ( Position 6 5 )
+    ( TokSym "executed" )
+, L
+    ( Position 6 14 )
+    ( TokSym "iff" )
+, L
+    ( Position 6 18 )
+    ( TokSym "the" )
+, L
+    ( Position 6 22 )
+    ( TokSym "transaction" )
+, L
+    ( Position 6 34 )
+    ( TokSym "commits." )
+, L
+    ( Position 6 43 )
+    ( TokSym "The" )
+, L
+    ( Position 6 47 )
+    ( TokSym "AdvSTM" )
+, L
+    ( Position 6 54 )
+    ( TokSym "monad" )
+, L
+    ( Position 6 60 )
+    ( TokSym "also" )
+, L
+    ( Position 6 65 )
+    ( TokSym "gives" )
+, L
+    ( Position 6 71 )
+    ( TokSym "some" )
+, L
+    ( Position 6 76 )
+    ( TokSym "atomicity" )
+, L
+    ( Position 7 1 )
+    ( Indent 4 )
+, L
+    ( Position 7 5 )
+    ( TokSym "guarantees" )
+, L
+    ( Position 7 16 )
+    ( TokSym "for" )
+, L
+    ( Position 7 20 )
+    ( TokSym "commit-actions" )
+, L
+    ( Position 7 34 ) Colon
+, L
+    ( Position 8 1 )
+    ( Indent 4 )
+, L
+    ( Position 8 5 )
+    ( TokSym "." )
+, L
+    ( Position 9 1 )
+    ( Indent 4 )
+, L
+    ( Position 9 5 )
+    ( TokOther "*" )
+, L
+    ( Position 9 7 )
+    ( TokSym "When" )
+, L
+    ( Position 9 12 )
+    ( TokSym "a" )
+, L
+    ( Position 9 14 )
+    ( TokSym "TVar" )
+, L
+    ( Position 9 19 )
+    ( TokSym "is" )
+, L
+    ( Position 9 22 )
+    ( TokSym "modified" )
+, L
+    ( Position 9 31 )
+    ( TokSym "in" )
+, L
+    ( Position 9 34 )
+    ( TokSym "a" )
+, L
+    ( Position 9 36 )
+    ( TokSym "transaction" )
+, L
+    ( Position 9 48 )
+    ( TokSym "and" )
+, L
+    ( Position 9 52 )
+    ( TokSym "this" )
+, L
+    ( Position 9 57 )
+    ( TokSym "transaction" )
+, L
+    ( Position 9 69 )
+    ( TokSym "commits" )
+, L
+    ( Position 9 76 )
+    ( TokOther "," )
+, L
+    ( Position 10 1 )
+    ( Indent 4 )
+, L
+    ( Position 10 5 )
+    ( TokSym "the" )
+, L
+    ( Position 10 9 )
+    ( TokSym "update" )
+, L
+    ( Position 10 16 )
+    ( TokSym "remains" )
+, L
+    ( Position 10 24 )
+    ( TokSym "invisible" )
+, L
+    ( Position 10 34 )
+    ( TokSym "to" )
+, L
+    ( Position 10 37 )
+    ( TokSym "other" )
+, L
+    ( Position 10 43 )
+    ( TokSym "threads" )
+, L
+    ( Position 10 51 )
+    ( TokSym "until" )
+, L
+    ( Position 10 57 )
+    ( TokSym "the" )
+, L
+    ( Position 10 61 )
+    ( TokSym "corresponding" )
+, L
+    ( Position 11 1 )
+    ( Indent 4 )
+, L
+    ( Position 11 5 )
+    ( TokSym "onCommit" )
+, L
+    ( Position 11 14 )
+    ( TokSym "action" )
+, L
+    ( Position 11 21 )
+    ( TokSym "is" )
+, L
+    ( Position 11 24 )
+    ( TokSym "run." )
+, L
+    ( Position 12 1 )
+    ( Indent 4 )
+, L
+    ( Position 12 5 )
+    ( TokSym "." )
+, L
+    ( Position 13 1 )
+    ( Indent 4 )
+, L
+    ( Position 13 5 )
+    ( TokOther "*" )
+, L
+    ( Position 13 7 )
+    ( TokSym "If" )
+, L
+    ( Position 13 10 )
+    ( TokSym "the" )
+, L
+    ( Position 13 14 )
+    ( TokSym "onCommit" )
+, L
+    ( Position 13 23 )
+    ( TokSym "action" )
+, L
+    ( Position 13 30 )
+    ( TokSym "throws" )
+, L
+    ( Position 13 37 )
+    ( TokSym "an" )
+, L
+    ( Position 13 40 )
+    ( TokSym "exception" )
+, L
+    ( Position 13 49 )
+    ( TokOther "," )
+, L
+    ( Position 13 51 )
+    ( TokSym "the" )
+, L
+    ( Position 13 55 )
+    ( TokSym "original" )
+, L
+    ( Position 13 64 )
+    ( TokSym "values" )
+, L
+    ( Position 13 71 )
+    ( TokSym "of" )
+, L
+    ( Position 14 1 )
+    ( Indent 4 )
+, L
+    ( Position 14 5 )
+    ( TokSym "the" )
+, L
+    ( Position 14 9 )
+    ( TokSym "modified" )
+, L
+    ( Position 14 18 )
+    ( TokSym "TVars" )
+, L
+    ( Position 14 24 )
+    ( TokSym "are" )
+, L
+    ( Position 14 28 )
+    ( TokSym "restored." )
+, L
+    ( Position 15 1 )
+    ( Indent 4 )
+, L
+    ( Position 15 5 )
+    ( TokSym "." )
+, L
+    ( Position 16 1 )
+    ( Indent 4 )
+, L
+    ( Position 16 5 )
+    ( TokSym "Note" )
+, L
+    ( Position 16 9 ) Colon
+, L
+    ( Position 16 11 )
+    ( TokSym "The" )
+, L
+    ( Position 16 15 )
+    ( TokSym "package" )
+, L
+    ( Position 16 23 )
+    ( TokSym "can" )
+, L
+    ( Position 16 27 )
+    ( TokSym "be" )
+, L
+    ( Position 16 30 )
+    ( TokSym "used" )
+, L
+    ( Position 16 35 )
+    ( TokSym "as" )
+, L
+    ( Position 16 38 )
+    ( TokSym "a" )
+, L
+    ( Position 16 40 )
+    ( TokSym "drop-in" )
+, L
+    ( Position 16 48 )
+    ( TokSym "replacement" )
+, L
+    ( Position 16 60 )
+    ( TokSym "for" )
+, L
+    ( Position 17 1 )
+    ( Indent 4 )
+, L
+    ( Position 17 5 )
+    ( TokSym "'Control.Concurrent.STM'." )
+, L
+    ( Position 18 1 )
+    ( Indent 4 )
+, L
+    ( Position 18 5 )
+    ( TokSym "." )
+, L
+    ( Position 19 1 )
+    ( Indent 4 )
+, L
+    ( Position 19 5 )
+    ( TokSym "Feedback" )
+, L
+    ( Position 19 14 )
+    ( TokSym "is" )
+, L
+    ( Position 19 17 )
+    ( TokSym "welcome" )
+, L
+    ( Position 19 24 )
+    ( TokOther "!" )
+, L
+    ( Position 21 1 )
+    ( Indent 0 )
+, L
+    ( Position 21 1 )
+    ( TokSym "Category" )
+, L
+    ( Position 21 9 ) Colon
+, L
+    ( Position 21 17 )
+    ( TokSym "Concurrency" )
+, L
+    ( Position 22 1 )
+    ( Indent 0 )
+, L
+    ( Position 22 1 )
+    ( TokSym "Stability" )
+, L
+    ( Position 22 10 ) Colon
+, L
+    ( Position 22 17 )
+    ( TokSym "experimental" )
+, L
+    ( Position 23 1 )
+    ( Indent 0 )
+, L
+    ( Position 23 1 )
+    ( TokSym "Author" )
+, L
+    ( Position 23 7 ) Colon
+, L
+    ( Position 23 17 )
+    ( TokSym "Peter" )
+, L
+    ( Position 23 23 )
+    ( TokSym "Robinson" )
+, L
+    ( Position 23 32 )
+    ( TokSym "2009-2014" )
+, L
+    ( Position 23 41 )
+    ( TokOther "," )
+, L
+    ( Position 23 43 )
+    ( TokSym "Chris" )
+, L
+    ( Position 23 49 )
+    ( TokSym "Kuklewicz" )
+, L
+    ( Position 23 59 )
+    ( TokSym "2006" )
+, L
+    ( Position 24 1 )
+    ( Indent 0 )
+, L
+    ( Position 24 1 )
+    ( TokSym "Maintainer" )
+, L
+    ( Position 24 11 ) Colon
+, L
+    ( Position 24 17 )
+    ( TokSym "Peter" )
+, L
+    ( Position 24 23 )
+    ( TokSym "Robinson" )
+, L
+    ( Position 24 32 )
+    ( TokOther "<" )
+, L
+    ( Position 24 33 )
+    ( TokSym "thaldyron" )
+, L
+    ( Position 24 42 )
+    ( TokOther "@" )
+, L
+    ( Position 24 43 )
+    ( TokSym "gmail.com" )
+, L
+    ( Position 24 52 )
+    ( TokOther ">" )
+, L
+    ( Position 25 1 )
+    ( Indent 0 )
+, L
+    ( Position 25 1 )
+    ( TokSym "License" )
+, L
+    ( Position 25 8 ) Colon
+, L
+    ( Position 25 17 )
+    ( TokSym "BSD3" )
+, L
+    ( Position 26 1 )
+    ( Indent 0 )
+, L
+    ( Position 26 1 )
+    ( TokSym "License-file" )
+, L
+    ( Position 26 13 ) Colon
+, L
+    ( Position 26 17 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 27 1 )
+    ( Indent 0 )
+, L
+    ( Position 27 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 27 8 ) Colon
+, L
+    ( Position 27 17 )
+    ( TokSym "1.0.1" )
+, L
+    ( Position 28 1 )
+    ( Indent 0 )
+, L
+    ( Position 28 1 )
+    ( TokSym "x-revision" )
+, L
+    ( Position 28 11 ) Colon
+, L
+    ( Position 28 13 )
+    ( TokSym "1" )
+, L
+    ( Position 30 1 )
+    ( Indent 0 )
+, L
+    ( Position 30 1 )
+    ( TokSym "Build-type" )
+, L
+    ( Position 30 11 ) Colon
+, L
+    ( Position 30 17 )
+    ( TokSym "Simple" )
+, L
+    ( Position 31 1 )
+    ( Indent 0 )
+, L
+    ( Position 31 1 )
+    ( TokSym "Cabal-Version" )
+, L
+    ( Position 31 14 ) Colon
+, L
+    ( Position 31 17 )
+    ( TokOther ">=" )
+, L
+    ( Position 31 20 )
+    ( TokSym "1.6" )
+, L
+    ( Position 33 1 )
+    ( Indent 0 )
+, L
+    ( Position 33 1 )
+    ( TokSym "source-repository" )
+, L
+    ( Position 33 19 )
+    ( TokSym "head" )
+, L
+    ( Position 34 1 )
+    ( Indent 2 )
+, L
+    ( Position 34 3 )
+    ( TokSym "type" )
+, L
+    ( Position 34 7 ) Colon
+, L
+    ( Position 34 9 )
+    ( TokSym "git" )
+, L
+    ( Position 35 1 )
+    ( Indent 2 )
+, L
+    ( Position 35 3 )
+    ( TokSym "location" )
+, L
+    ( Position 35 11 ) Colon
+, L
+    ( Position 35 13 )
+    ( TokSym "https" )
+, L
+    ( Position 35 18 ) Colon
+, L
+    ( Position 35 19 )
+    ( TokOther "//" )
+, L
+    ( Position 35 21 )
+    ( TokSym "github.com" )
+, L
+    ( Position 35 31 )
+    ( TokOther "/" )
+, L
+    ( Position 35 32 )
+    ( TokSym "thaldyron" )
+, L
+    ( Position 35 41 )
+    ( TokOther "/" )
+, L
+    ( Position 35 42 )
+    ( TokSym "stm-io-hooks" )
+, L
+    ( Position 37 1 )
+    ( Indent 0 )
+, L
+    ( Position 37 1 )
+    ( TokSym "library" )
+, L
+    ( Position 38 1 )
+    ( Indent 4 )
+, L
+    ( Position 38 5 )
+    ( TokSym "Exposed-Modules" )
+, L
+    ( Position 38 20 ) Colon
+, L
+    ( Position 38 24 )
+    ( TokSym "Control.Monad.AdvSTM" )
+, L
+    ( Position 39 1 )
+    ( Indent 23 )
+, L
+    ( Position 39 24 )
+    ( TokSym "Control.Concurrent.AdvSTM" )
+, L
+    ( Position 40 1 )
+    ( Indent 23 )
+, L
+    ( Position 40 24 )
+    ( TokSym "Control.Concurrent.AdvSTM.TMVar" )
+, L
+    ( Position 41 1 )
+    ( Indent 23 )
+, L
+    ( Position 41 24 )
+    ( TokSym "Control.Concurrent.AdvSTM.TVar" )
+, L
+    ( Position 42 1 )
+    ( Indent 23 )
+, L
+    ( Position 42 24 )
+    ( TokSym "Control.Concurrent.AdvSTM.TArray" )
+, L
+    ( Position 43 1 )
+    ( Indent 23 )
+, L
+    ( Position 43 24 )
+    ( TokSym "Control.Concurrent.AdvSTM.TChan" )
+, L
+    ( Position 45 1 )
+    ( Indent 4 )
+, L
+    ( Position 45 5 )
+    ( TokSym "Other-Modules" )
+, L
+    ( Position 45 18 ) Colon
+, L
+    ( Position 45 20 )
+    ( TokSym "Control.Monad.AdvSTM.Def" )
+, L
+    ( Position 46 1 )
+    ( Indent 19 )
+, L
+    ( Position 46 20 )
+    ( TokSym "Control.Monad.AdvSTM.Class" )
+, L
+    ( Position 48 1 )
+    ( Indent 4 )
+, L
+    ( Position 48 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 48 18 ) Colon
+, L
+    ( Position 48 21 )
+    ( TokSym "base" )
+, L
+    ( Position 48 32 )
+    ( TokOther ">=" )
+, L
+    ( Position 48 35 )
+    ( TokSym "4" )
+, L
+    ( Position 48 37 )
+    ( TokOther "&&" )
+, L
+    ( Position 48 40 )
+    ( TokOther "<" )
+, L
+    ( Position 48 42 )
+    ( TokSym "4.8" )
+, L
+    ( Position 49 1 )
+    ( Indent 19 )
+, L
+    ( Position 49 20 )
+    ( TokOther "," )
+, L
+    ( Position 49 21 )
+    ( TokSym "stm" )
+, L
+    ( Position 49 32 )
+    ( TokOther ">=" )
+, L
+    ( Position 49 35 )
+    ( TokSym "2.1.1.2" )
+, L
+    ( Position 49 43 )
+    ( TokOther "&&" )
+, L
+    ( Position 49 46 )
+    ( TokOther "<" )
+, L
+    ( Position 49 48 )
+    ( TokSym "2.5" )
+, L
+    ( Position 50 1 )
+    ( Indent 19 )
+, L
+    ( Position 50 20 )
+    ( TokOther "," )
+, L
+    ( Position 50 21 )
+    ( TokSym "array" )
+, L
+    ( Position 50 32 )
+    ( TokOther ">=" )
+, L
+    ( Position 50 35 )
+    ( TokSym "0.2.0.0" )
+, L
+    ( Position 50 43 )
+    ( TokOther "&&" )
+, L
+    ( Position 50 46 )
+    ( TokOther "<" )
+, L
+    ( Position 50 48 )
+    ( TokSym "0.6" )
+, L
+    ( Position 51 1 )
+    ( Indent 19 )
+, L
+    ( Position 51 20 )
+    ( TokOther "," )
+, L
+    ( Position 51 21 )
+    ( TokSym "containers" )
+, L
+    ( Position 51 32 )
+    ( TokOther ">=" )
+, L
+    ( Position 51 35 )
+    ( TokSym "0.2.0.0" )
+, L
+    ( Position 51 43 )
+    ( TokOther "&&" )
+, L
+    ( Position 51 46 )
+    ( TokOther "<" )
+, L
+    ( Position 51 48 )
+    ( TokSym "0.6" )
+, L
+    ( Position 52 1 )
+    ( Indent 19 )
+, L
+    ( Position 52 20 )
+    ( TokOther "," )
+, L
+    ( Position 52 21 )
+    ( TokSym "mtl" )
+, L
+    ( Position 52 32 )
+    ( TokOther ">=" )
+, L
+    ( Position 52 35 )
+    ( TokSym "1.1.0.2" )
+, L
+    ( Position 52 43 )
+    ( TokOther "&&" )
+, L
+    ( Position 52 46 )
+    ( TokOther "<" )
+, L
+    ( Position 52 48 )
+    ( TokSym "2.3" )
+, L
+    ( Position 54 1 )
+    ( Indent 4 )
+, L
+    ( Position 54 5 )
+    ( TokSym "extensions" )
+, L
+    ( Position 54 15 ) Colon
+, L
+    ( Position 54 20 )
+    ( TokSym "MultiParamTypeClasses" )
+, L
+    ( Position 55 1 )
+    ( Indent 19 )
+, L
+    ( Position 55 20 )
+    ( TokSym "FunctionalDependencies" )
+, L
+    ( Position 56 1 )
+    ( Indent 19 )
+, L
+    ( Position 56 20 )
+    ( TokSym "FlexibleInstances" )
+, L
+    ( Position 57 1 )
+    ( Indent 19 )
+, L
+    ( Position 57 20 )
+    ( TokSym "GeneralizedNewtypeDeriving" )
+, L
+    ( Position 58 1 )
+    ( Indent 19 )
+, L
+    ( Position 58 20 )
+    ( TokSym "ScopedTypeVariables" )
+, L
+    ( Position 59 1 )
+    ( Indent 19 )
+, L
+    ( Position 59 20 )
+    ( TokSym "DeriveDataTypeable" )
+, L
+    ( Position 60 1 )
+    ( Indent 19 )
+, L
+    ( Position 60 20 )
+    ( TokSym "RankNTypes" )
+, L
+    ( Position 61 1 )
+    ( Indent 19 )
+, L
+    ( Position 61 20 )
+    ( TokSym "ExistentialQuantification" )
+, L
+    ( Position 62 1 )
+    ( Indent 19 )
+, L
+    ( Position 62 20 )
+    ( TokSym "UndecidableInstances" )
+, L
+    ( Position 65 1 ) EOF
+]

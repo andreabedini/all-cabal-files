@@ -1,0 +1,1501 @@
+[ L
+    ( Position 1 1 )
+    ( Comment "-- "happlets-lib-gtk.cabal" build configuration for this project." )
+, L
+    ( Position 1 66 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 2 1 )
+    ( Comment "--" )
+, L
+    ( Position 2 3 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 3 1 )
+    ( Comment "-- Copyright (C) 2017-2018  Ramin Honary." )
+, L
+    ( Position 3 42 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 4 1 )
+    ( Comment "--" )
+, L
+    ( Position 4 3 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 5 1 )
+    ( Comment "-- "happlets-gtk" is free software: you can redistribute it and/or modify" )
+, L
+    ( Position 5 74 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 6 1 )
+    ( Comment "-- it under the terms of the GNU Affero General Public License (AGPL) as" )
+, L
+    ( Position 6 73 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 7 1 )
+    ( Comment "-- published by the Free Software Foundation." )
+, L
+    ( Position 7 46 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 8 1 )
+    ( Comment "--" )
+, L
+    ( Position 8 3 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 9 1 )
+    ( Comment "-- "happlets-lib-gtk" is distributed in the hope that it will be useful," )
+, L
+    ( Position 9 73 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 10 1 )
+    ( Comment "-- but WITHOUT ANY WARRANTY; without even the implied warranty of" )
+, L
+    ( Position 10 66 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 11 1 )
+    ( Comment "-- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE." )
+, L
+    ( Position 11 56 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 12 1 )
+    ( Comment "-- See the GNU Affero General Public License for more details." )
+, L
+    ( Position 12 63 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 13 1 )
+    ( Comment "--" )
+, L
+    ( Position 13 3 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 14 1 )
+    ( Comment "-- You should have received a copy of the GNU General Public License" )
+, L
+    ( Position 14 69 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 15 1 )
+    ( Comment "-- along with this program (see the file called "LICENSE"). If not, see" )
+, L
+    ( Position 15 72 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 16 1 )
+    ( Comment "-- <http://www.gnu.org/licenses/agpl.html>." )
+, L
+    ( Position 16 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 17 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 18 1 )
+    ( Indent 0 )
+, L
+    ( Position 18 1 )
+    ( TokSym "NAME" )
+, L
+    ( Position 18 5 ) Colon
+, L
+    ( Position 18 6 )
+    ( Whitespace "           " )
+, L
+    ( Position 18 17 )
+    ( TokSym "happlets-lib-gtk" )
+, L
+    ( Position 18 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 19 1 )
+    ( Indent 0 )
+, L
+    ( Position 19 1 )
+    ( TokSym "VERSION" )
+, L
+    ( Position 19 8 ) Colon
+, L
+    ( Position 19 9 )
+    ( Whitespace "        " )
+, L
+    ( Position 19 17 )
+    ( TokSym "0.1.0.0" )
+, L
+    ( Position 19 24 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 20 1 )
+    ( Indent 0 )
+, L
+    ( Position 20 1 )
+    ( TokSym "AUTHOR" )
+, L
+    ( Position 20 7 ) Colon
+, L
+    ( Position 20 8 )
+    ( Whitespace "         " )
+, L
+    ( Position 20 17 )
+    ( TokSym "Ramin" )
+, L
+    ( Position 20 22 )
+    ( Whitespace " " )
+, L
+    ( Position 20 23 )
+    ( TokSym "Honary" )
+, L
+    ( Position 20 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 21 1 )
+    ( Indent 0 )
+, L
+    ( Position 21 1 )
+    ( TokSym "COPYRIGHT" )
+, L
+    ( Position 21 10 ) Colon
+, L
+    ( Position 21 11 )
+    ( Whitespace "      " )
+, L
+    ( Position 21 17 )
+    ( TokOther "(" )
+, L
+    ( Position 21 18 )
+    ( TokSym "C" )
+, L
+    ( Position 21 19 )
+    ( TokOther ")" )
+, L
+    ( Position 21 20 )
+    ( Whitespace " " )
+, L
+    ( Position 21 21 )
+    ( TokSym "2017-2018" )
+, L
+    ( Position 21 30 )
+    ( Whitespace " " )
+, L
+    ( Position 21 31 )
+    ( TokSym "Ramin" )
+, L
+    ( Position 21 36 )
+    ( Whitespace " " )
+, L
+    ( Position 21 37 )
+    ( TokSym "Honary" )
+, L
+    ( Position 21 43 )
+    ( TokOther "," )
+, L
+    ( Position 21 44 )
+    ( Whitespace " " )
+, L
+    ( Position 21 45 )
+    ( TokSym "all" )
+, L
+    ( Position 21 48 )
+    ( Whitespace " " )
+, L
+    ( Position 21 49 )
+    ( TokSym "rights" )
+, L
+    ( Position 21 55 )
+    ( Whitespace " " )
+, L
+    ( Position 21 56 )
+    ( TokSym "reserved." )
+, L
+    ( Position 21 65 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 22 1 )
+    ( Indent 0 )
+, L
+    ( Position 22 1 )
+    ( TokSym "MAINTAINER" )
+, L
+    ( Position 22 11 ) Colon
+, L
+    ( Position 22 12 )
+    ( Whitespace "     " )
+, L
+    ( Position 22 17 )
+    ( TokSym "RaminHAL9001" )
+, L
+    ( Position 22 29 )
+    ( TokOther "@" )
+, L
+    ( Position 22 30 )
+    ( TokSym "gmail.com" )
+, L
+    ( Position 22 39 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 23 1 )
+    ( Indent 0 )
+, L
+    ( Position 23 1 )
+    ( TokSym "HOMEPAGE" )
+, L
+    ( Position 23 9 ) Colon
+, L
+    ( Position 23 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 23 17 )
+    ( TokSym "https" )
+, L
+    ( Position 23 22 ) Colon
+, L
+    ( Position 23 23 )
+    ( TokOther "//" )
+, L
+    ( Position 23 25 )
+    ( TokSym "github.com" )
+, L
+    ( Position 23 35 )
+    ( TokOther "/" )
+, L
+    ( Position 23 36 )
+    ( TokSym "RaminHAL9001" )
+, L
+    ( Position 23 48 )
+    ( TokOther "/" )
+, L
+    ( Position 23 49 )
+    ( TokSym "happlets-lib-gtk" )
+, L
+    ( Position 23 65 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 24 1 )
+    ( Indent 0 )
+, L
+    ( Position 24 1 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 24 8 ) Colon
+, L
+    ( Position 24 9 )
+    ( Whitespace "        " )
+, L
+    ( Position 24 17 )
+    ( TokSym "AGPL" )
+, L
+    ( Position 24 21 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 25 1 )
+    ( Indent 0 )
+, L
+    ( Position 25 1 )
+    ( TokSym "LICENSE-FILE" )
+, L
+    ( Position 25 13 ) Colon
+, L
+    ( Position 25 14 )
+    ( Whitespace "   " )
+, L
+    ( Position 25 17 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 25 24 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 26 1 )
+    ( Indent 0 )
+, L
+    ( Position 26 1 )
+    ( TokSym "BUILD-TYPE" )
+, L
+    ( Position 26 11 ) Colon
+, L
+    ( Position 26 12 )
+    ( Whitespace "     " )
+, L
+    ( Position 26 17 )
+    ( TokSym "Simple" )
+, L
+    ( Position 26 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 27 1 )
+    ( Indent 0 )
+, L
+    ( Position 27 1 )
+    ( TokSym "CABAL-VERSION" )
+, L
+    ( Position 27 14 ) Colon
+, L
+    ( Position 27 15 )
+    ( Whitespace "  " )
+, L
+    ( Position 27 17 )
+    ( TokOther ">=" )
+, L
+    ( Position 27 19 )
+    ( Whitespace " " )
+, L
+    ( Position 27 20 )
+    ( TokSym "1.18" )
+, L
+    ( Position 27 24 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 28 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 29 1 )
+    ( Indent 0 )
+, L
+    ( Position 29 1 )
+    ( TokSym "CATEGORY" )
+, L
+    ( Position 29 9 ) Colon
+, L
+    ( Position 29 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 29 17 )
+    ( TokSym "GUI" )
+, L
+    ( Position 29 20 )
+    ( TokOther "," )
+, L
+    ( Position 29 21 )
+    ( Whitespace " " )
+, L
+    ( Position 29 22 )
+    ( TokSym "Game" )
+, L
+    ( Position 29 26 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 30 1 )
+    ( Indent 0 )
+, L
+    ( Position 30 1 )
+    ( TokSym "SYNOPSIS" )
+, L
+    ( Position 30 9 ) Colon
+, L
+    ( Position 30 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 30 17 )
+    ( TokSym "The" )
+, L
+    ( Position 30 20 )
+    ( Whitespace " " )
+, L
+    ( Position 30 21 )
+    ( TokStr "Haskell Applets" )
+, L
+    ( Position 30 38 )
+    ( Whitespace " " )
+, L
+    ( Position 30 39 )
+    ( TokSym "Gtk" )
+, L
+    ( Position 30 42 )
+    ( TokOther "+" )
+, L
+    ( Position 30 43 )
+    ( Whitespace " " )
+, L
+    ( Position 30 44 )
+    ( TokSym "ver." )
+, L
+    ( Position 30 48 )
+    ( Whitespace " " )
+, L
+    ( Position 30 49 )
+    ( TokSym "2" )
+, L
+    ( Position 30 50 )
+    ( Whitespace " " )
+, L
+    ( Position 30 51 )
+    ( TokSym "back-end" )
+, L
+    ( Position 30 59 )
+    ( Whitespace " " )
+, L
+    ( Position 30 60 )
+    ( TokSym "for" )
+, L
+    ( Position 30 63 )
+    ( Whitespace " " )
+, L
+    ( Position 30 64 )
+    ( TokStr "happlets" )
+, L
+    ( Position 30 74 )
+    ( TokSym "." )
+, L
+    ( Position 30 75 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 31 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 32 1 )
+    ( Indent 0 )
+, L
+    ( Position 32 1 )
+    ( TokSym "DESCRIPTION" )
+, L
+    ( Position 32 12 ) Colon
+, L
+    ( Position 32 13 )
+    ( Whitespace "   " )
+, L
+    ( Position 32 16 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 33 1 )
+    ( Indent 4 )
+, L
+    ( Position 33 5 )
+    ( TokSym "." )
+, L
+    ( Position 33 6 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 34 1 )
+    ( Indent 4 )
+, L
+    ( Position 34 5 )
+    ( TokOther "*" )
+, L
+    ( Position 34 6 )
+    ( TokSym "WARNING" )
+, L
+    ( Position 34 13 ) Colon
+, L
+    ( Position 34 14 )
+    ( TokOther "*" )
+, L
+    ( Position 34 15 )
+    ( Whitespace " " )
+, L
+    ( Position 34 16 )
+    ( TokSym "There" )
+, L
+    ( Position 34 21 )
+    ( Whitespace " " )
+, L
+    ( Position 34 22 )
+    ( TokSym "are" )
+, L
+    ( Position 34 25 )
+    ( Whitespace " " )
+, L
+    ( Position 34 26 )
+    ( TokSym "still" )
+, L
+    ( Position 34 31 )
+    ( Whitespace " " )
+, L
+    ( Position 34 32 )
+    ( TokSym "some" )
+, L
+    ( Position 34 36 )
+    ( Whitespace " " )
+, L
+    ( Position 34 37 )
+    ( TokSym "known" )
+, L
+    ( Position 34 42 )
+    ( Whitespace " " )
+, L
+    ( Position 34 43 )
+    ( TokSym "bugs" )
+, L
+    ( Position 34 47 )
+    ( Whitespace " " )
+, L
+    ( Position 34 48 )
+    ( TokSym "in" )
+, L
+    ( Position 34 50 )
+    ( Whitespace " " )
+, L
+    ( Position 34 51 )
+    ( TokSym "this" )
+, L
+    ( Position 34 55 )
+    ( Whitespace " " )
+, L
+    ( Position 34 56 )
+    ( TokSym "package" )
+, L
+    ( Position 34 63 )
+    ( TokOther "," )
+, L
+    ( Position 34 64 )
+    ( Whitespace " " )
+, L
+    ( Position 34 65 )
+    ( TokSym "it" )
+, L
+    ( Position 34 67 )
+    ( Whitespace " " )
+, L
+    ( Position 34 68 )
+    ( TokSym "is" )
+, L
+    ( Position 34 70 )
+    ( Whitespace " " )
+, L
+    ( Position 34 71 )
+    ( TokSym "being" )
+, L
+    ( Position 34 76 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 35 1 )
+    ( Indent 4 )
+, L
+    ( Position 35 5 )
+    ( TokSym "uploaded" )
+, L
+    ( Position 35 13 )
+    ( Whitespace " " )
+, L
+    ( Position 35 14 )
+    ( TokSym "to" )
+, L
+    ( Position 35 16 )
+    ( Whitespace " " )
+, L
+    ( Position 35 17 )
+    ( TokSym "Hackage" )
+, L
+    ( Position 35 24 )
+    ( Whitespace " " )
+, L
+    ( Position 35 25 )
+    ( TokSym "for" )
+, L
+    ( Position 35 28 )
+    ( Whitespace " " )
+, L
+    ( Position 35 29 )
+    ( TokSym "evaluation" )
+, L
+    ( Position 35 39 )
+    ( Whitespace " " )
+, L
+    ( Position 35 40 )
+    ( TokSym "purposes" )
+, L
+    ( Position 35 48 )
+    ( Whitespace " " )
+, L
+    ( Position 35 49 )
+    ( TokSym "only." )
+, L
+    ( Position 35 54 )
+    ( Whitespace " " )
+, L
+    ( Position 35 55 )
+    ( TokSym "Although" )
+, L
+    ( Position 35 63 )
+    ( Whitespace " " )
+, L
+    ( Position 35 64 )
+    ( TokSym "it" )
+, L
+    ( Position 35 66 )
+    ( Whitespace " " )
+, L
+    ( Position 35 67 )
+    ( TokSym "is" )
+, L
+    ( Position 35 69 )
+    ( Whitespace " " )
+, L
+    ( Position 35 70 )
+    ( TokSym "being" )
+, L
+    ( Position 35 75 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 36 1 )
+    ( Indent 4 )
+, L
+    ( Position 36 5 )
+    ( TokSym "actively" )
+, L
+    ( Position 36 13 )
+    ( Whitespace " " )
+, L
+    ( Position 36 14 )
+    ( TokSym "developed" )
+, L
+    ( Position 36 23 )
+    ( TokOther "," )
+, L
+    ( Position 36 24 )
+    ( Whitespace " " )
+, L
+    ( Position 36 25 )
+    ( TokSym "there" )
+, L
+    ( Position 36 30 )
+    ( Whitespace " " )
+, L
+    ( Position 36 31 )
+    ( TokSym "is" )
+, L
+    ( Position 36 33 )
+    ( Whitespace " " )
+, L
+    ( Position 36 34 )
+    ( TokSym "no" )
+, L
+    ( Position 36 36 )
+    ( Whitespace " " )
+, L
+    ( Position 36 37 )
+    ( TokSym "release" )
+, L
+    ( Position 36 44 )
+    ( Whitespace " " )
+, L
+    ( Position 36 45 )
+    ( TokSym "schedule" )
+, L
+    ( Position 36 53 )
+    ( Whitespace " " )
+, L
+    ( Position 36 54 )
+    ( TokSym "for" )
+, L
+    ( Position 36 57 )
+    ( Whitespace " " )
+, L
+    ( Position 36 58 )
+    ( TokSym "a" )
+, L
+    ( Position 36 59 )
+    ( Whitespace " " )
+, L
+    ( Position 36 60 )
+    ( TokSym "production-ready" )
+, L
+    ( Position 36 76 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 37 1 )
+    ( Indent 4 )
+, L
+    ( Position 37 5 )
+    ( TokSym "version" )
+, L
+    ( Position 37 12 )
+    ( Whitespace " " )
+, L
+    ( Position 37 13 )
+    ( TokSym "of" )
+, L
+    ( Position 37 15 )
+    ( Whitespace " " )
+, L
+    ( Position 37 16 )
+    ( TokSym "this" )
+, L
+    ( Position 37 20 )
+    ( Whitespace " " )
+, L
+    ( Position 37 21 )
+    ( TokSym "package." )
+, L
+    ( Position 37 29 )
+    ( Whitespace " " )
+, L
+    ( Position 37 30 )
+    ( TokSym "Contributions" )
+, L
+    ( Position 37 43 )
+    ( Whitespace " " )
+, L
+    ( Position 37 44 )
+    ( TokSym "to" )
+, L
+    ( Position 37 46 )
+    ( Whitespace " " )
+, L
+    ( Position 37 47 )
+    ( TokSym "the" )
+, L
+    ( Position 37 50 )
+    ( Whitespace " " )
+, L
+    ( Position 37 51 )
+    ( TokSym "repository" )
+, L
+    ( Position 37 61 )
+    ( Whitespace " " )
+, L
+    ( Position 37 62 )
+    ( TokSym "on" )
+, L
+    ( Position 37 64 )
+    ( Whitespace " " )
+, L
+    ( Position 37 65 )
+    ( TokSym "GitHub" )
+, L
+    ( Position 37 71 )
+    ( Whitespace " " )
+, L
+    ( Position 37 72 )
+    ( TokSym "are" )
+, L
+    ( Position 37 75 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 38 1 )
+    ( Indent 4 )
+, L
+    ( Position 38 5 )
+    ( TokSym "welcome." )
+, L
+    ( Position 38 13 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 39 1 )
+    ( Indent 4 )
+, L
+    ( Position 39 5 )
+    ( TokSym "." )
+, L
+    ( Position 39 6 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 40 1 )
+    ( Indent 4 )
+, L
+    ( Position 40 5 )
+    ( TokSym "This" )
+, L
+    ( Position 40 9 )
+    ( Whitespace " " )
+, L
+    ( Position 40 10 )
+    ( TokSym "packages" )
+, L
+    ( Position 40 18 )
+    ( Whitespace " " )
+, L
+    ( Position 40 19 )
+    ( TokSym "provides" )
+, L
+    ( Position 40 27 )
+    ( Whitespace " " )
+, L
+    ( Position 40 28 )
+    ( TokSym "the" )
+, L
+    ( Position 40 31 )
+    ( Whitespace " " )
+, L
+    ( Position 40 32 )
+    ( TokSym "Gtk" )
+, L
+    ( Position 40 35 )
+    ( TokOther "+" )
+, L
+    ( Position 40 36 )
+    ( Whitespace " " )
+, L
+    ( Position 40 37 )
+    ( TokSym "v2" )
+, L
+    ( Position 40 39 )
+    ( Whitespace " " )
+, L
+    ( Position 40 40 )
+    ( TokSym "back-end" )
+, L
+    ( Position 40 48 )
+    ( Whitespace " " )
+, L
+    ( Position 40 49 )
+    ( TokSym "to" )
+, L
+    ( Position 40 51 )
+    ( Whitespace " " )
+, L
+    ( Position 40 52 )
+    ( TokSym "the" )
+, L
+    ( Position 40 55 )
+    ( Whitespace " " )
+, L
+    ( Position 40 56 )
+    ( TokStr "happlets" )
+, L
+    ( Position 40 66 )
+    ( Whitespace " " )
+, L
+    ( Position 40 67 )
+    ( TokSym "GUI" )
+, L
+    ( Position 40 70 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 41 1 )
+    ( Indent 4 )
+, L
+    ( Position 41 5 )
+    ( TokSym "framework." )
+, L
+    ( Position 41 15 )
+    ( Whitespace " " )
+, L
+    ( Position 41 16 )
+    ( TokSym "To" )
+, L
+    ( Position 41 18 )
+    ( Whitespace " " )
+, L
+    ( Position 41 19 )
+    ( TokSym "create" )
+, L
+    ( Position 41 25 )
+    ( Whitespace " " )
+, L
+    ( Position 41 26 )
+    ( TokSym "a" )
+, L
+    ( Position 41 27 )
+    ( Whitespace " " )
+, L
+    ( Position 41 28 )
+    ( TokSym "Gtk" )
+, L
+    ( Position 41 31 )
+    ( TokOther "+" )
+, L
+    ( Position 41 32 )
+    ( Whitespace " " )
+, L
+    ( Position 41 33 )
+    ( TokSym "applet" )
+, L
+    ( Position 41 39 )
+    ( TokOther "," )
+, L
+    ( Position 41 40 )
+    ( Whitespace " " )
+, L
+    ( Position 41 41 )
+    ( TokSym "import" )
+, L
+    ( Position 41 47 )
+    ( Whitespace " " )
+, L
+    ( Position 41 48 )
+    ( TokSym "the" )
+, L
+    ( Position 41 51 )
+    ( Whitespace " " )
+, L
+    ( Position 41 52 )
+    ( TokStr "Happlets.Lib.Gtk" )
+, L
+    ( Position 41 70 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 42 1 )
+    ( Indent 4 )
+, L
+    ( Position 42 5 )
+    ( TokSym "module." )
+, L
+    ( Position 42 12 )
+    ( Whitespace " " )
+, L
+    ( Position 42 13 )
+    ( TokStr "Happlets.Lib.Gtk" )
+, L
+    ( Position 42 31 )
+    ( Whitespace " " )
+, L
+    ( Position 42 32 )
+    ( TokSym "re-exports" )
+, L
+    ( Position 42 42 )
+    ( Whitespace " " )
+, L
+    ( Position 42 43 )
+    ( TokSym "the" )
+, L
+    ( Position 42 46 )
+    ( Whitespace " " )
+, L
+    ( Position 42 47 )
+    ( TokStr "Happlets" )
+, L
+    ( Position 42 57 )
+    ( Whitespace " " )
+, L
+    ( Position 42 58 )
+    ( TokSym "module" )
+, L
+    ( Position 42 64 )
+    ( TokOther "," )
+, L
+    ( Position 42 65 )
+    ( Whitespace " " )
+, L
+    ( Position 42 66 )
+    ( TokSym "so" )
+, L
+    ( Position 42 68 )
+    ( Whitespace " " )
+, L
+    ( Position 42 69 )
+    ( TokSym "you" )
+, L
+    ( Position 42 72 )
+    ( Whitespace " " )
+, L
+    ( Position 42 73 )
+    ( TokSym "can" )
+, L
+    ( Position 42 76 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 43 1 )
+    ( Indent 4 )
+, L
+    ( Position 43 5 )
+    ( TokSym "use" )
+, L
+    ( Position 43 8 )
+    ( Whitespace " " )
+, L
+    ( Position 43 9 )
+    ( TokSym "all" )
+, L
+    ( Position 43 12 )
+    ( Whitespace " " )
+, L
+    ( Position 43 13 )
+    ( TokSym "of" )
+, L
+    ( Position 43 15 )
+    ( Whitespace " " )
+, L
+    ( Position 43 16 )
+    ( TokSym "the" )
+, L
+    ( Position 43 19 )
+    ( Whitespace " " )
+, L
+    ( Position 43 20 )
+    ( TokSym "primitives" )
+, L
+    ( Position 43 30 )
+    ( Whitespace " " )
+, L
+    ( Position 43 31 )
+    ( TokSym "provided" )
+, L
+    ( Position 43 39 )
+    ( Whitespace " " )
+, L
+    ( Position 43 40 )
+    ( TokSym "by" )
+, L
+    ( Position 43 42 )
+    ( Whitespace " " )
+, L
+    ( Position 43 43 )
+    ( TokSym "the" )
+, L
+    ( Position 43 46 )
+    ( Whitespace " " )
+, L
+    ( Position 43 47 )
+    ( TokStr "Happlets" )
+, L
+    ( Position 43 57 )
+    ( Whitespace " " )
+, L
+    ( Position 43 58 )
+    ( TokSym "module" )
+, L
+    ( Position 43 64 )
+    ( Whitespace " " )
+, L
+    ( Position 43 65 )
+    ( TokSym "to" )
+, L
+    ( Position 43 67 )
+    ( Whitespace " " )
+, L
+    ( Position 43 68 )
+    ( TokSym "construct" )
+, L
+    ( Position 43 77 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 44 1 )
+    ( Indent 4 )
+, L
+    ( Position 44 5 )
+    ( TokSym "your" )
+, L
+    ( Position 44 9 )
+    ( Whitespace " " )
+, L
+    ( Position 44 10 )
+    ( TokSym "applet." )
+, L
+    ( Position 44 17 )
+    ( Whitespace " " )
+, L
+    ( Position 44 18 )
+    ( TokSym "In" )
+, L
+    ( Position 44 20 )
+    ( Whitespace " " )
+, L
+    ( Position 44 21 )
+    ( TokSym "your" )
+, L
+    ( Position 44 25 )
+    ( Whitespace " " )
+, L
+    ( Position 44 26 )
+    ( TokStr "main" )
+, L
+    ( Position 44 32 )
+    ( Whitespace " " )
+, L
+    ( Position 44 33 )
+    ( TokSym "function" )
+, L
+    ( Position 44 41 )
+    ( TokOther "," )
+, L
+    ( Position 44 42 )
+    ( Whitespace " " )
+, L
+    ( Position 44 43 )
+    ( TokSym "launch" )
+, L
+    ( Position 44 49 )
+    ( Whitespace " " )
+, L
+    ( Position 44 50 )
+    ( TokSym "the" )
+, L
+    ( Position 44 53 )
+    ( Whitespace " " )
+, L
+    ( Position 44 54 )
+    ( TokSym "main" )
+, L
+    ( Position 44 58 )
+    ( Whitespace " " )
+, L
+    ( Position 44 59 )
+    ( TokSym "event" )
+, L
+    ( Position 44 64 )
+    ( Whitespace " " )
+, L
+    ( Position 44 65 )
+    ( TokSym "loop" )
+, L
+    ( Position 44 69 )
+    ( Whitespace " " )
+, L
+    ( Position 44 70 )
+    ( TokSym "by" )
+, L
+    ( Position 44 72 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 45 1 )
+    ( Indent 4 )
+, L
+    ( Position 45 5 )
+    ( TokSym "passing" )
+, L
+    ( Position 45 12 )
+    ( Whitespace " " )
+, L
+    ( Position 45 13 )
+    ( TokSym "the" )
+, L
+    ( Position 45 16 )
+    ( Whitespace " " )
+, L
+    ( Position 45 17 )
+    ( TokSym "'Happlets.Lib.Gtk.gtkHapplet'" )
+, L
+    ( Position 45 46 )
+    ( Whitespace " " )
+, L
+    ( Position 45 47 )
+    ( TokSym "function" )
+, L
+    ( Position 45 55 )
+    ( Whitespace " " )
+, L
+    ( Position 45 56 )
+    ( TokSym "as" )
+, L
+    ( Position 45 58 )
+    ( Whitespace " " )
+, L
+    ( Position 45 59 )
+    ( TokSym "the" )
+, L
+    ( Position 45 62 )
+    ( Whitespace " " )
+, L
+    ( Position 45 63 )
+    ( TokStr "Provider" )
+, L
+    ( Position 45 73 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 46 1 )
+    ( Indent 4 )
+, L
+    ( Position 46 5 )
+    ( TokSym "either" )
+, L
+    ( Position 46 11 )
+    ( Whitespace " " )
+, L
+    ( Position 46 12 )
+    ( TokSym "to" )
+, L
+    ( Position 46 14 )
+    ( Whitespace " " )
+, L
+    ( Position 46 15 )
+    ( TokSym "the" )
+, L
+    ( Position 46 18 )
+    ( Whitespace " " )
+, L
+    ( Position 46 19 )
+    ( TokSym "'Happlets.Initialize.happlet'" )
+, L
+    ( Position 46 48 )
+    ( Whitespace " " )
+, L
+    ( Position 46 49 )
+    ( TokSym "function" )
+, L
+    ( Position 46 57 )
+    ( Whitespace " " )
+, L
+    ( Position 46 58 )
+    ( TokSym "or" )
+, L
+    ( Position 46 60 )
+    ( Whitespace " " )
+, L
+    ( Position 46 61 )
+    ( TokSym "to" )
+, L
+    ( Position 46 63 )
+    ( Whitespace " " )
+, L
+    ( Position 46 64 )
+    ( TokSym "the" )
+, L
+    ( Position 46 67 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 47 1 )
+    ( Indent 4 )
+, L
+    ( Position 47 5 )
+    ( TokSym "'Happlets.Initialize.simpleHapplet'" )
+, L
+    ( Position 47 40 )
+    ( Whitespace " " )
+, L
+    ( Position 47 41 )
+    ( TokSym "function." )
+, L
+    ( Position 47 50 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 48 1 )
+    ( Indent 4 )
+, L
+    ( Position 48 5 )
+    ( TokSym "." )
+, L
+    ( Position 48 6 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 49 1 )
+    ( Indent 4 )
+, L
+    ( Position 49 5 )
+    ( TokSym "For" )
+, L
+    ( Position 49 8 )
+    ( Whitespace " " )
+, L
+    ( Position 49 9 )
+    ( TokSym "an" )
+, L
+    ( Position 49 11 )
+    ( Whitespace " " )
+, L
+    ( Position 49 12 )
+    ( TokSym "example" )
+, L
+    ( Position 49 19 )
+    ( Whitespace " " )
+, L
+    ( Position 49 20 )
+    ( TokSym "of" )
+, L
+    ( Position 49 22 )
+    ( Whitespace " " )
+, L
+    ( Position 49 23 )
+    ( TokSym "how" )
+, L
+    ( Position 49 26 )
+    ( Whitespace " " )
+, L
+    ( Position 49 27 )
+    ( TokSym "to" )
+, L
+    ( Position 49 29 )
+    ( Whitespace " " )
+, L
+    ( Position 49 30 )
+    ( TokSym "program" )
+, L
+    ( Position 49 37 )
+    ( Whitespace " " )
+, L
+    ( Position 49 38 )
+    ( TokSym "your" )
+, L
+    ( Position 49 42 )
+    ( Whitespace " " )
+, L
+    ( Position 49 43 )
+    ( TokSym "own" )
+, L
+    ( Position 49 46 )
+    ( Whitespace " " )
+, L
+    ( Position 49 47 )
+    ( TokSym "Happlet" )
+, L
+    ( Position 49 54 )
+    ( TokOther "," )
+, L
+    ( Position 49 55 )
+    ( Whitespace " " )
+, L
+    ( Position 49 56 )
+    ( TokSym "run" )
+, L
+    ( Position 49 59 )
+    ( Whitespace " " )
+, L
+    ( Position 49 60 )
+    ( TokSym "the" )
+, L
+    ( Position 49 63 )
+    ( Whitespace " " )
+, L
+    ( Position 49 70 )
+    ( LexicalError "
+        configure" command with the "--enable-tests" flag set. This will build
+        the "Happlets.Lib.Gtk.TestSuite" executable program. Refer to the source
+        code for "TestSuite" to see how the application is structured.
+        .
+        The goal of the Happlets project is to allow you to create very simple,
+        thread-safe applications that contain nothing more than a single window
+        with a drawing canvas that can respond to user input events, like mouse
+        clicks, key-presses, or frame animation events. The intention is to
+        create a minimal programming platform for small, single-purpose
+        graphical applications which simply displays some interactive graphic,
+        for example a plot of some data, or a simple game. Naturally, the
+        Happlet program can be arbitrarily complex, but it may be better to
+        consider other, FRP-based solutions if managing events becomes too
+        difficult.
+        .
+
+    Library {
+
+      HS-SOURCE-DIRS:    src
+      DEFAULT-LANGUAGE:  Haskell2010
+
+      GHC-OPTIONS:  -Wall
+        -fno-warn-name-shadowing
+        -fno-warn-unused-do-bind
+
+      EXPOSED-MODULES:
+        Happlets.Lib.Gtk
+
+      BUILD-DEPENDS:
+        cairo                >=0.13.3.0 && <0.14.0.0,
+        diagrams-cairo       >=1.4      && <2.0,
+        diagrams-core        >=1.4      && <2.0,
+        diagrams-lib         >=1.4.0.0  && <2.0.0.0,
+        glib                 >=0.12.0.0 && <0.14.0.0,
+        gtk                  >=0.13.0   && <0.15.0,
+        happlets             >=0.1.0.0  && <1.0.0.0,
+        lens                 >=4.0.0.0  && <5.0.0.0,
+        linear               >=1.20.0   && <2.0.0.0,
+        mtl                  >=2.2.0    && <=2.2.1,
+        pango                >=0.13.4.0 && <0.14.0.0,
+        semigroups           >=0.16.0   && <0.19.0,
+        text                 >=1.1.1.4  && <=2.0.0.0,
+        time                 >=1.4.0.0  && <=1.6.0.0,
+        base                 >=4.7      && <4.9
+
+      DEFAULT-EXTENSIONS:
+        DeriveDataTypeable
+        DeriveFunctor
+        ExistentialQuantification
+        FlexibleContexts
+        FlexibleInstances
+        FunctionalDependencies
+        GeneralizedNewtypeDeriving
+        ImplicitParams
+        LambdaCase
+        MultiParamTypeClasses
+        OverloadedStrings
+        RankNTypes
+        ScopedTypeVariables
+        StandaloneDeriving
+    }
+
+    Test-suite happlets-lib-gtk-test {
+
+      TYPE:              exitcode-stdio-1.0
+      MAIN-IS:           Happlets/Lib/Gtk/TestSuite.hs
+      HS-SOURCE-DIRS:    src
+      DEFAULT-LANGUAGE:  Haskell2010
+
+      GHC-OPTIONS:  -threaded  -Wall
+        -fno-warn-name-shadowing
+        -fno-warn-unused-do-bind
+        -main-is Happlets.Lib.Gtk.TestSuite
+
+      OTHER-MODULES:
+        Happlets.Lib.Gtk
+
+      BUILD-DEPENDS:
+    --    bytestring           >=0.10.0.0 && <1.0.0.0,
+        cairo                >=0.13.3.0 && <0.14.0.0,
+    --    colour               >=2.0.0    && <3.0.0,
+    --    containers           >=0.5.5.0  && <=0.5.7.0,
+        diagrams-cairo       >=1.4      && <2.0,
+        diagrams-core        >=1.4      && <2.0,
+        diagrams-lib         >=1.4.0.0  && <2.0.0.0,
+        glib                 >=0.12.0.0 && <0.14.0.0,
+        gtk                  >=0.13.0   && <0.15.0,
+        happlets             >=0.1.0.0  && <1.0.0.0,
+        lens                 >=4.0.0.0  && <5.0.0.0,
+        linear               >=1.20.0   && <2.0.0.0,
+        mtl                  >=2.2.0    && <=2.2.1,
+        semigroups           >=0.16.0   && <0.19.0,
+        text                 >=1.1.1.4  && <=2.0.0.0,
+        time                 >=1.4.0.0  && <=1.6.0.0,
+    --    transformers         >=0.3.0.0  && <=0.4.3.0,
+    --    unix                 >=2.7.0.0  && <=2.8.0.0,
+        base                 >=4.7      && <4.9
+
+      DEFAULT-EXTENSIONS:
+        DeriveDataTypeable
+        DeriveFunctor
+        ExistentialQuantification
+        FlexibleContexts
+        FlexibleInstances
+        FunctionalDependencies
+        GeneralizedNewtypeDeriving
+        ImplicitParams
+        LambdaCase
+        MultiParamTypeClasses
+        OverloadedStrings
+        RankNTypes
+        ScopedTypeVariables
+        StandaloneDeriving
+    }
+    " )
+, L
+    ( Position 49 64 ) EOF
+]

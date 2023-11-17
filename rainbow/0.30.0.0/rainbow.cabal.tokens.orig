@@ -1,0 +1,273 @@
+[ L
+    ( Position 7 1 )
+    ( Indent 0 )
+, L
+    ( Position 7 1 )
+    ( TokSym "name" )
+, L
+    ( Position 7 5 ) Colon
+, L
+    ( Position 7 17 )
+    ( TokSym "rainbow" )
+, L
+    ( Position 8 1 )
+    ( Indent 0 )
+, L
+    ( Position 8 1 )
+    ( TokSym "version" )
+, L
+    ( Position 8 8 ) Colon
+, L
+    ( Position 8 17 )
+    ( TokSym "0.30.0.0" )
+, L
+    ( Position 9 1 )
+    ( Indent 0 )
+, L
+    ( Position 9 1 )
+    ( TokSym "synopsis" )
+, L
+    ( Position 9 9 ) Colon
+, L
+    ( Position 9 17 )
+    ( TokSym "Print" )
+, L
+    ( Position 9 23 )
+    ( TokSym "text" )
+, L
+    ( Position 9 28 )
+    ( TokSym "to" )
+, L
+    ( Position 9 31 )
+    ( TokSym "terminal" )
+, L
+    ( Position 9 40 )
+    ( TokSym "with" )
+, L
+    ( Position 9 45 )
+    ( TokSym "colors" )
+, L
+    ( Position 9 52 )
+    ( TokSym "and" )
+, L
+    ( Position 9 56 )
+    ( TokSym "effects" )
+, L
+    ( Position 10 1 )
+    ( Indent 0 )
+, L
+    ( Position 10 1 )
+    ( TokSym "category" )
+, L
+    ( Position 10 9 ) Colon
+, L
+    ( Position 10 17 )
+    ( TokSym "System" )
+, L
+    ( Position 11 1 )
+    ( Indent 0 )
+, L
+    ( Position 11 1 )
+    ( TokSym "stability" )
+, L
+    ( Position 11 10 ) Colon
+, L
+    ( Position 11 17 )
+    ( TokSym "Experimental" )
+, L
+    ( Position 12 1 )
+    ( Indent 0 )
+, L
+    ( Position 12 1 )
+    ( TokSym "homepage" )
+, L
+    ( Position 12 9 ) Colon
+, L
+    ( Position 12 17 )
+    ( TokSym "https" )
+, L
+    ( Position 12 22 ) Colon
+, L
+    ( Position 12 23 )
+    ( TokOther "//" )
+, L
+    ( Position 12 25 )
+    ( TokSym "www.github.com" )
+, L
+    ( Position 12 39 )
+    ( TokOther "/" )
+, L
+    ( Position 12 40 )
+    ( TokSym "massysett" )
+, L
+    ( Position 12 49 )
+    ( TokOther "/" )
+, L
+    ( Position 12 50 )
+    ( TokSym "rainbow" )
+, L
+    ( Position 13 1 )
+    ( Indent 0 )
+, L
+    ( Position 13 1 )
+    ( TokSym "bug-reports" )
+, L
+    ( Position 13 12 ) Colon
+, L
+    ( Position 13 17 )
+    ( TokSym "https" )
+, L
+    ( Position 13 22 ) Colon
+, L
+    ( Position 13 23 )
+    ( TokOther "//" )
+, L
+    ( Position 13 25 )
+    ( TokSym "www.github.com" )
+, L
+    ( Position 13 39 )
+    ( TokOther "/" )
+, L
+    ( Position 13 40 )
+    ( TokSym "massysett" )
+, L
+    ( Position 13 49 )
+    ( TokOther "/" )
+, L
+    ( Position 13 50 )
+    ( TokSym "rainbow" )
+, L
+    ( Position 13 57 )
+    ( TokOther "/" )
+, L
+    ( Position 13 58 )
+    ( TokSym "issues" )
+, L
+    ( Position 13 65 )
+    ( LexicalError "
+    author:         Omari Norman
+    maintainer:     omari@smileystation.com
+    copyright:      Copyright 2013-2018 Omari Norman
+    license:        BSD3
+    license-file:   LICENSE
+    build-type:     Simple
+    cabal-version:  >= 1.10
+
+    source-repository head
+      type: git
+      location: https://github.com/massysett/rainbow
+
+    library
+      hs-source-dirs:
+          lib
+      other-extensions: TemplateHaskell
+      ghc-options: -Wall
+      build-depends:
+          base >=4.11 && <5
+        , bytestring
+        , lens-simple
+        , process
+        , text
+      exposed-modules:
+          Rainbow
+          Rainbow.Translate
+          Rainbow.Types
+      other-modules:
+          Paths_rainbow
+      default-language: Haskell2010
+
+    test-suite colorTest
+      type: exitcode-stdio-1.0
+      main-is: colorTest.hs
+      hs-source-dirs:
+          lib
+          tests
+      other-extensions: TemplateHaskell
+      ghc-options: -Wall
+      build-depends:
+          QuickCheck
+        , base >=4.11 && <5
+        , bytestring
+        , lens-simple
+        , process
+        , text
+      other-modules:
+          Rainbow
+          Rainbow.Translate
+          Rainbow.Types
+          Rainbow.QuickCheck
+          Paths_rainbow
+      default-language: Haskell2010
+
+    test-suite rainbow-instances
+      type: exitcode-stdio-1.0
+      main-is: rainbow-instances.hs
+      hs-source-dirs:
+          lib
+          tests
+      other-extensions: TemplateHaskell
+      ghc-options: -Wall
+      build-depends:
+          QuickCheck
+        , base >=4.11 && <5
+        , bytestring
+        , lens-simple
+        , process
+        , text
+      other-modules:
+          Rainbow
+          Rainbow.Translate
+          Rainbow.Types
+          Rainbow.QuickCheck
+          Paths_rainbow
+      default-language: Haskell2010
+
+    test-suite test256color
+      type: exitcode-stdio-1.0
+      main-is: test256color.hs
+      hs-source-dirs:
+          lib
+          tests
+      other-extensions: TemplateHaskell
+      ghc-options: -Wall
+      build-depends:
+          QuickCheck
+        , base >=4.11 && <5
+        , bytestring
+        , lens-simple
+        , process
+        , text
+      other-modules:
+          Rainbow
+          Rainbow.Translate
+          Rainbow.Types
+          Rainbow.QuickCheck
+          Paths_rainbow
+      default-language: Haskell2010
+
+    test-suite test8color
+      type: exitcode-stdio-1.0
+      main-is: test8color.hs
+      hs-source-dirs:
+          lib
+          tests
+      other-extensions: TemplateHaskell
+      ghc-options: -Wall
+      build-depends:
+          QuickCheck
+        , base >=4.11 && <5
+        , bytestring
+        , lens-simple
+        , process
+        , text
+      other-modules:
+          Rainbow
+          Rainbow.Translate
+          Rainbow.Types
+          Rainbow.QuickCheck
+          Paths_rainbow
+      default-language: Haskell2010
+    " )
+, L
+    ( Position 13 64 ) EOF
+]

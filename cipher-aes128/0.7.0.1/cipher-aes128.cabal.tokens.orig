@@ -1,0 +1,1369 @@
+[ L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "name" )
+, L
+    ( Position 4 5 ) Colon
+, L
+    ( Position 4 22 )
+    ( TokSym "cipher-aes128" )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "version" )
+, L
+    ( Position 5 8 ) Colon
+, L
+    ( Position 5 22 )
+    ( TokSym "0.7.0.1" )
+, L
+    ( Position 6 1 )
+    ( Indent 0 )
+, L
+    ( Position 6 1 )
+    ( TokSym "synopsis" )
+, L
+    ( Position 6 9 ) Colon
+, L
+    ( Position 6 22 )
+    ( TokSym "AES" )
+, L
+    ( Position 6 26 )
+    ( TokSym "and" )
+, L
+    ( Position 6 30 )
+    ( TokSym "common" )
+, L
+    ( Position 6 37 )
+    ( TokSym "modes" )
+, L
+    ( Position 6 43 )
+    ( TokSym "using" )
+, L
+    ( Position 6 49 )
+    ( TokSym "AES-NI" )
+, L
+    ( Position 6 56 )
+    ( TokSym "when" )
+, L
+    ( Position 6 61 )
+    ( TokSym "available." )
+, L
+    ( Position 7 1 )
+    ( Indent 0 )
+, L
+    ( Position 7 1 )
+    ( TokSym "description" )
+, L
+    ( Position 7 12 ) Colon
+, L
+    ( Position 7 22 )
+    ( TokSym "Cipher-aes128" )
+, L
+    ( Position 7 36 )
+    ( TokSym "is" )
+, L
+    ( Position 7 39 )
+    ( TokSym "an" )
+, L
+    ( Position 7 42 )
+    ( TokSym "implementation" )
+, L
+    ( Position 7 57 )
+    ( TokSym "of" )
+, L
+    ( Position 7 60 )
+    ( TokSym "AES" )
+, L
+    ( Position 7 64 )
+    ( TokSym "and" )
+, L
+    ( Position 7 68 )
+    ( TokSym "common" )
+, L
+    ( Position 7 75 )
+    ( TokSym "modes" )
+, L
+    ( Position 7 81 )
+    ( TokSym "of" )
+, L
+    ( Position 7 84 )
+    ( TokSym "operation." )
+, L
+    ( Position 7 96 )
+    ( TokSym "It" )
+, L
+    ( Position 7 99 )
+    ( TokSym "borrows" )
+, L
+    ( Position 7 107 )
+    ( TokSym "Hanquez's" )
+, L
+    ( Position 7 117 )
+    ( TokSym "C" )
+, L
+    ( Position 7 119 )
+    ( TokSym "AES" )
+, L
+    ( Position 7 123 )
+    ( TokSym "code" )
+, L
+    ( Position 7 128 )
+    ( TokOther "(" )
+, L
+    ( Position 7 129 )
+    ( TokSym "see" )
+, L
+    ( Position 7 133 )
+    ( TokSym "'cipher-aes'" )
+, L
+    ( Position 7 145 )
+    ( TokOther ")" )
+, L
+    ( Position 7 147 )
+    ( TokSym "but" )
+, L
+    ( Position 8 1 )
+    ( Indent 21 )
+, L
+    ( Position 8 22 )
+    ( TokSym "is" )
+, L
+    ( Position 8 25 )
+    ( TokSym "unique" )
+, L
+    ( Position 8 32 )
+    ( TokSym "due" )
+, L
+    ( Position 8 36 )
+    ( TokSym "to" )
+, L
+    ( Position 8 39 )
+    ( TokSym "including" )
+, L
+    ( Position 8 49 )
+    ( TokSym "compile-time" )
+, L
+    ( Position 8 62 )
+    ( TokSym "detection" )
+, L
+    ( Position 8 72 )
+    ( TokSym "of" )
+, L
+    ( Position 9 1 )
+    ( Indent 21 )
+, L
+    ( Position 9 22 )
+    ( TokSym "NI" )
+, L
+    ( Position 9 25 )
+    ( TokSym "compiler" )
+, L
+    ( Position 9 34 )
+    ( TokSym "support" )
+, L
+    ( Position 9 41 )
+    ( TokOther "," )
+, L
+    ( Position 9 43 )
+    ( TokSym "a" )
+, L
+    ( Position 9 45 )
+    ( TokSym "slightly" )
+, L
+    ( Position 9 54 )
+    ( TokSym "more" )
+, L
+    ( Position 9 59 )
+    ( TokSym "functional" )
+, L
+    ( Position 9 70 )
+    ( TokSym "interface" )
+, L
+    ( Position 10 1 )
+    ( Indent 21 )
+, L
+    ( Position 10 22 )
+    ( TokSym "for" )
+, L
+    ( Position 10 26 )
+    ( TokSym "GCM" )
+, L
+    ( Position 10 30 )
+    ( TokSym "operations" )
+, L
+    ( Position 10 40 )
+    ( TokOther "," )
+, L
+    ( Position 10 42 )
+    ( TokSym "exposure" )
+, L
+    ( Position 10 51 )
+    ( TokSym "of" )
+, L
+    ( Position 10 54 )
+    ( TokSym "'Ptr'" )
+, L
+    ( Position 10 60 )
+    ( TokSym "based" )
+, L
+    ( Position 10 66 )
+    ( TokSym "operations" )
+, L
+    ( Position 10 77 )
+    ( TokSym "via" )
+, L
+    ( Position 10 81 )
+    ( TokSym "the" )
+, L
+    ( Position 10 85 )
+    ( TokSym ".Internal" )
+, L
+    ( Position 10 95 )
+    ( TokSym "module" )
+, L
+    ( Position 10 101 )
+    ( TokOther "," )
+, L
+    ( Position 10 103 )
+    ( TokSym "and" )
+, L
+    ( Position 10 107 )
+    ( TokSym "build-in" )
+, L
+    ( Position 10 116 )
+    ( TokSym "crypto-api" )
+, L
+    ( Position 10 127 )
+    ( TokSym "support." )
+, L
+    ( Position 11 1 )
+    ( Indent 21 )
+, L
+    ( Position 11 22 )
+    ( TokSym "Cipher-aes128" )
+, L
+    ( Position 11 36 )
+    ( TokSym "was" )
+, L
+    ( Position 11 40 )
+    ( TokSym "originally" )
+, L
+    ( Position 11 51 )
+    ( TokSym "developed" )
+, L
+    ( Position 11 61 )
+    ( TokSym "as" )
+, L
+    ( Position 11 64 )
+    ( TokStr "'cipher-aes' plus trampolines" )
+, L
+    ( Position 11 95 )
+    ( TokOther "," )
+, L
+    ( Position 11 97 )
+    ( TokSym "which" )
+, L
+    ( Position 11 103 )
+    ( TokSym "has" )
+, L
+    ( Position 11 107 )
+    ( TokSym "since" )
+, L
+    ( Position 11 113 )
+    ( TokSym "been" )
+, L
+    ( Position 11 118 )
+    ( TokSym "adopted" )
+, L
+    ( Position 11 126 )
+    ( TokSym "into" )
+, L
+    ( Position 11 131 )
+    ( TokSym "cipher-aes." )
+, L
+    ( Position 12 1 )
+    ( Indent 0 )
+, L
+    ( Position 12 1 )
+    ( TokSym "license" )
+, L
+    ( Position 12 8 ) Colon
+, L
+    ( Position 12 22 )
+    ( TokSym "BSD3" )
+, L
+    ( Position 13 1 )
+    ( Indent 0 )
+, L
+    ( Position 13 1 )
+    ( TokSym "license-file" )
+, L
+    ( Position 13 13 ) Colon
+, L
+    ( Position 13 22 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 14 1 )
+    ( Indent 0 )
+, L
+    ( Position 14 1 )
+    ( TokSym "author" )
+, L
+    ( Position 14 7 ) Colon
+, L
+    ( Position 14 22 )
+    ( TokSym "Thomas" )
+, L
+    ( Position 14 29 )
+    ( TokSym "M." )
+, L
+    ( Position 14 32 )
+    ( TokSym "DuBuisson" )
+, L
+    ( Position 14 41 )
+    ( TokOther "," )
+, L
+    ( Position 14 43 )
+    ( TokSym "Vincent" )
+, L
+    ( Position 14 51 )
+    ( TokSym "Hanquez" )
+, L
+    ( Position 14 59 )
+    ( TokOther "(" )
+, L
+    ( Position 14 60 )
+    ( TokSym "See" )
+, L
+    ( Position 14 64 )
+    ( TokSym "AUTHORS" )
+, L
+    ( Position 14 72 )
+    ( TokSym "file" )
+, L
+    ( Position 14 76 )
+    ( TokOther ")" )
+, L
+    ( Position 15 1 )
+    ( Indent 0 )
+, L
+    ( Position 15 1 )
+    ( TokSym "maintainer" )
+, L
+    ( Position 15 11 ) Colon
+, L
+    ( Position 15 22 )
+    ( TokSym "thomas.dubuisson" )
+, L
+    ( Position 15 38 )
+    ( TokOther "@" )
+, L
+    ( Position 15 39 )
+    ( TokSym "gmail.com" )
+, L
+    ( Position 16 1 )
+    ( Indent 0 )
+, L
+    ( Position 16 1 )
+    ( TokSym "copyright" )
+, L
+    ( Position 16 10 ) Colon
+, L
+    ( Position 16 22 )
+    ( TokSym "Thomas" )
+, L
+    ( Position 16 29 )
+    ( TokSym "M." )
+, L
+    ( Position 16 32 )
+    ( TokSym "DuBuisson" )
+, L
+    ( Position 17 1 )
+    ( Indent 0 )
+, L
+    ( Position 17 1 )
+    ( TokSym "category" )
+, L
+    ( Position 17 9 ) Colon
+, L
+    ( Position 17 22 )
+    ( TokSym "Cryptography" )
+, L
+    ( Position 18 1 )
+    ( Indent 0 )
+, L
+    ( Position 18 1 )
+    ( TokSym "homepage" )
+, L
+    ( Position 18 9 ) Colon
+, L
+    ( Position 18 22 )
+    ( TokSym "https" )
+, L
+    ( Position 18 27 ) Colon
+, L
+    ( Position 18 28 )
+    ( TokOther "//" )
+, L
+    ( Position 18 30 )
+    ( TokSym "github.com" )
+, L
+    ( Position 18 40 )
+    ( TokOther "/" )
+, L
+    ( Position 18 41 )
+    ( TokSym "TomMD" )
+, L
+    ( Position 18 46 )
+    ( TokOther "/" )
+, L
+    ( Position 18 47 )
+    ( TokSym "cipher-aes128" )
+, L
+    ( Position 19 1 )
+    ( Indent 0 )
+, L
+    ( Position 19 1 )
+    ( TokSym "bug-reports" )
+, L
+    ( Position 19 12 ) Colon
+, L
+    ( Position 19 22 )
+    ( TokSym "https" )
+, L
+    ( Position 19 27 ) Colon
+, L
+    ( Position 19 28 )
+    ( TokOther "//" )
+, L
+    ( Position 19 30 )
+    ( TokSym "github.com" )
+, L
+    ( Position 19 40 )
+    ( TokOther "/" )
+, L
+    ( Position 19 41 )
+    ( TokSym "TomMD" )
+, L
+    ( Position 19 46 )
+    ( TokOther "/" )
+, L
+    ( Position 19 47 )
+    ( TokSym "cipher-aes128" )
+, L
+    ( Position 19 60 )
+    ( TokOther "/" )
+, L
+    ( Position 19 61 )
+    ( TokSym "issues" )
+, L
+    ( Position 20 1 )
+    ( Indent 0 )
+, L
+    ( Position 20 1 )
+    ( TokSym "build-type" )
+, L
+    ( Position 20 11 ) Colon
+, L
+    ( Position 20 22 )
+    ( TokSym "Custom" )
+, L
+    ( Position 23 1 )
+    ( Indent 0 )
+, L
+    ( Position 23 1 )
+    ( TokSym "cabal-version" )
+, L
+    ( Position 23 14 ) Colon
+, L
+    ( Position 23 22 )
+    ( TokOther ">=" )
+, L
+    ( Position 23 24 )
+    ( TokSym "1.12" )
+, L
+    ( Position 25 1 )
+    ( Indent 0 )
+, L
+    ( Position 25 1 )
+    ( TokSym "extra-source-files" )
+, L
+    ( Position 25 19 ) Colon
+, L
+    ( Position 25 27 )
+    ( TokOther "./" )
+, L
+    ( Position 25 29 )
+    ( TokSym "cbits" )
+, L
+    ( Position 25 34 )
+    ( TokOther "/*." )
+, L
+    ( Position 25 37 )
+    ( TokSym "h" )
+, L
+    ( Position 25 38 )
+    ( TokOther "," )
+, L
+    ( Position 25 40 )
+    ( TokOther "./" )
+, L
+    ( Position 25 42 )
+    ( TokSym "cbits" )
+, L
+    ( Position 25 47 )
+    ( TokOther "/*." )
+, L
+    ( Position 25 50 )
+    ( TokSym "c" )
+, L
+    ( Position 26 1 )
+    ( Indent 24 )
+, L
+    ( Position 26 25 )
+    ( TokOther "," )
+, L
+    ( Position 26 27 )
+    ( TokSym "AUTHORS" )
+, L
+    ( Position 27 1 )
+    ( Indent 24 )
+, L
+    ( Position 27 25 )
+    ( TokOther "," )
+, L
+    ( Position 27 27 )
+    ( TokSym "cbits" )
+, L
+    ( Position 27 32 )
+    ( TokOther "/" )
+, L
+    ( Position 27 33 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 28 1 )
+    ( Indent 0 )
+, L
+    ( Position 28 1 )
+    ( TokSym "flag" )
+, L
+    ( Position 28 6 )
+    ( TokSym "test" )
+, L
+    ( Position 29 1 )
+    ( Indent 2 )
+, L
+    ( Position 29 3 )
+    ( TokSym "description" )
+, L
+    ( Position 29 14 ) Colon
+, L
+    ( Position 29 16 )
+    ( TokSym "Build" )
+, L
+    ( Position 29 22 )
+    ( TokSym "a" )
+, L
+    ( Position 29 24 )
+    ( TokSym "program" )
+, L
+    ( Position 29 32 )
+    ( TokSym "to" )
+, L
+    ( Position 29 35 )
+    ( TokSym "test" )
+, L
+    ( Position 29 40 )
+    ( TokSym "the" )
+, L
+    ( Position 29 44 )
+    ( TokSym "AES" )
+, L
+    ( Position 29 48 )
+    ( TokSym "implementation" )
+, L
+    ( Position 30 1 )
+    ( Indent 2 )
+, L
+    ( Position 30 3 )
+    ( TokSym "default" )
+, L
+    ( Position 30 10 ) Colon
+, L
+    ( Position 30 12 )
+    ( TokSym "False" )
+, L
+    ( Position 32 1 )
+    ( Indent 0 )
+, L
+    ( Position 32 1 )
+    ( TokSym "flag" )
+, L
+    ( Position 32 6 )
+    ( TokSym "halvm" )
+, L
+    ( Position 33 1 )
+    ( Indent 4 )
+, L
+    ( Position 33 5 )
+    ( TokSym "description" )
+, L
+    ( Position 33 16 ) Colon
+, L
+    ( Position 33 18 )
+    ( TokSym "The" )
+, L
+    ( Position 33 22 )
+    ( TokSym "HaLVM" )
+, L
+    ( Position 33 28 )
+    ( TokSym "target" )
+, L
+    ( Position 34 1 )
+    ( Indent 4 )
+, L
+    ( Position 34 5 )
+    ( TokSym "default" )
+, L
+    ( Position 34 12 ) Colon
+, L
+    ( Position 34 14 )
+    ( TokSym "False" )
+, L
+    ( Position 36 1 )
+    ( Indent 0 )
+, L
+    ( Position 36 1 )
+    ( TokSym "library" )
+, L
+    ( Position 37 1 )
+    ( Indent 2 )
+, L
+    ( Position 37 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 37 19 ) Colon
+, L
+    ( Position 37 24 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 38 1 )
+    ( Indent 2 )
+, L
+    ( Position 38 3 )
+    ( TokSym "exposed-modules" )
+, L
+    ( Position 38 18 ) Colon
+, L
+    ( Position 38 24 )
+    ( TokSym "Crypto.Cipher.AES128" )
+, L
+    ( Position 38 44 )
+    ( TokOther "," )
+, L
+    ( Position 38 46 )
+    ( TokSym "Crypto.Cipher.AES128.Internal" )
+, L
+    ( Position 39 1 )
+    ( Indent 2 )
+, L
+    ( Position 39 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 39 16 ) Colon
+, L
+    ( Position 39 24 )
+    ( TokSym "base" )
+, L
+    ( Position 39 29 )
+    ( TokOther ">=" )
+, L
+    ( Position 39 31 )
+    ( TokSym "4.2" )
+, L
+    ( Position 39 35 )
+    ( TokOther "&&" )
+, L
+    ( Position 39 38 )
+    ( TokOther "<" )
+, L
+    ( Position 39 40 )
+    ( TokSym "5" )
+, L
+    ( Position 39 41 )
+    ( TokOther "," )
+, L
+    ( Position 40 1 )
+    ( Indent 23 )
+, L
+    ( Position 40 24 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 40 35 )
+    ( TokOther ">=" )
+, L
+    ( Position 40 38 )
+    ( TokSym "0.10.2" )
+, L
+    ( Position 40 44 )
+    ( TokOther "," )
+, L
+    ( Position 41 1 )
+    ( Indent 23 )
+, L
+    ( Position 41 24 )
+    ( TokSym "crypto-api" )
+, L
+    ( Position 41 35 )
+    ( TokOther ">=" )
+, L
+    ( Position 41 38 )
+    ( TokSym "0.13" )
+, L
+    ( Position 41 42 )
+    ( TokOther "," )
+, L
+    ( Position 42 1 )
+    ( Indent 23 )
+, L
+    ( Position 42 24 )
+    ( TokSym "tagged" )
+, L
+    ( Position 42 30 )
+    ( TokOther "," )
+, L
+    ( Position 43 1 )
+    ( Indent 23 )
+, L
+    ( Position 43 24 )
+    ( TokSym "cereal" )
+, L
+    ( Position 44 1 )
+    ( Indent 2 )
+, L
+    ( Position 44 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 44 14 ) Colon
+, L
+    ( Position 44 24 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 44 30 )
+    ( TokSym "-O2" )
+, L
+    ( Position 46 1 )
+    ( Indent 2 )
+, L
+    ( Position 46 3 )
+    ( TokSym "c-sources" )
+, L
+    ( Position 46 12 ) Colon
+, L
+    ( Position 46 24 )
+    ( TokOther "./" )
+, L
+    ( Position 46 26 )
+    ( TokSym "cbits" )
+, L
+    ( Position 46 31 )
+    ( TokOther "/" )
+, L
+    ( Position 46 32 )
+    ( TokSym "aes.c" )
+, L
+    ( Position 47 1 )
+    ( Indent 21 )
+, L
+    ( Position 47 22 )
+    ( TokOther "," )
+, L
+    ( Position 47 24 )
+    ( TokOther "./" )
+, L
+    ( Position 47 26 )
+    ( TokSym "cbits" )
+, L
+    ( Position 47 31 )
+    ( TokOther "/" )
+, L
+    ( Position 47 32 )
+    ( TokSym "aes_generic.c" )
+, L
+    ( Position 48 1 )
+    ( Indent 21 )
+, L
+    ( Position 48 22 )
+    ( TokOther "," )
+, L
+    ( Position 48 24 )
+    ( TokOther "./" )
+, L
+    ( Position 48 26 )
+    ( TokSym "cbits" )
+, L
+    ( Position 48 31 )
+    ( TokOther "/" )
+, L
+    ( Position 48 32 )
+    ( TokSym "aes_x86ni.c" )
+, L
+    ( Position 49 1 )
+    ( Indent 21 )
+, L
+    ( Position 49 22 )
+    ( TokOther "," )
+, L
+    ( Position 49 24 )
+    ( TokOther "./" )
+, L
+    ( Position 49 26 )
+    ( TokSym "cbits" )
+, L
+    ( Position 49 31 )
+    ( TokOther "/" )
+, L
+    ( Position 49 32 )
+    ( TokSym "cpu.c" )
+, L
+    ( Position 50 1 )
+    ( Indent 21 )
+, L
+    ( Position 50 22 )
+    ( TokOther "," )
+, L
+    ( Position 50 24 )
+    ( TokOther "./" )
+, L
+    ( Position 50 26 )
+    ( TokSym "cbits" )
+, L
+    ( Position 50 31 )
+    ( TokOther "/" )
+, L
+    ( Position 50 32 )
+    ( TokSym "gf.c" )
+, L
+    ( Position 51 1 )
+    ( Indent 2 )
+, L
+    ( Position 51 3 )
+    ( TokSym "include-dirs" )
+, L
+    ( Position 51 15 ) Colon
+, L
+    ( Position 51 24 )
+    ( TokSym "cbits" )
+, L
+    ( Position 51 29 )
+    ( TokOther "/" )
+, L
+    ( Position 52 1 )
+    ( Indent 2 )
+, L
+    ( Position 52 3 )
+    ( TokSym "cc-options" )
+, L
+    ( Position 52 13 ) Colon
+, L
+    ( Position 53 1 )
+    ( Indent 2 )
+, L
+    ( Position 53 3 )
+    ( TokSym "if" )
+, L
+    ( Position 53 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 53 10 )
+    ( TokOther "(" )
+, L
+    ( Position 53 11 )
+    ( TokSym "halvm" )
+, L
+    ( Position 53 16 )
+    ( TokOther ")" )
+, L
+    ( Position 54 1 )
+    ( Indent 4 )
+, L
+    ( Position 54 5 )
+    ( TokSym "cc-options" )
+, L
+    ( Position 54 15 ) Colon
+, L
+    ( Position 54 17 )
+    ( TokSym "-maes" )
+, L
+    ( Position 54 23 )
+    ( TokSym "-mpclmul" )
+, L
+    ( Position 54 32 )
+    ( TokSym "-mssse3" )
+, L
+    ( Position 54 40 )
+    ( TokSym "-DWITH_AESNI" )
+, L
+    ( Position 55 1 )
+    ( Indent 4 )
+, L
+    ( Position 55 5 )
+    ( TokSym "cpp-options" )
+, L
+    ( Position 55 16 ) Colon
+, L
+    ( Position 55 18 )
+    ( TokSym "-DWITH_AESNI" )
+, L
+    ( Position 55 31 )
+    ( TokSym "-maes" )
+, L
+    ( Position 55 37 )
+    ( TokSym "-mpclmul" )
+, L
+    ( Position 55 46 )
+    ( TokSym "-mssse3" )
+, L
+    ( Position 58 1 )
+    ( Indent 0 )
+, L
+    ( Position 58 1 )
+    ( TokSym "source-repository" )
+, L
+    ( Position 58 19 )
+    ( TokSym "head" )
+, L
+    ( Position 59 1 )
+    ( Indent 2 )
+, L
+    ( Position 59 3 )
+    ( TokSym "type" )
+, L
+    ( Position 59 7 ) Colon
+, L
+    ( Position 59 17 )
+    ( TokSym "git" )
+, L
+    ( Position 60 1 )
+    ( Indent 2 )
+, L
+    ( Position 60 3 )
+    ( TokSym "location" )
+, L
+    ( Position 60 11 ) Colon
+, L
+    ( Position 60 17 )
+    ( TokSym "https" )
+, L
+    ( Position 60 22 ) Colon
+, L
+    ( Position 60 23 )
+    ( TokOther "//" )
+, L
+    ( Position 60 25 )
+    ( TokSym "github.com" )
+, L
+    ( Position 60 35 )
+    ( TokOther "/" )
+, L
+    ( Position 60 36 )
+    ( TokSym "TomMD" )
+, L
+    ( Position 60 41 )
+    ( TokOther "/" )
+, L
+    ( Position 60 42 )
+    ( TokSym "cipher-aes128" )
+, L
+    ( Position 62 1 )
+    ( Indent 0 )
+, L
+    ( Position 62 1 )
+    ( TokSym "benchmark" )
+, L
+    ( Position 62 11 )
+    ( TokSym "bench" )
+, L
+    ( Position 63 1 )
+    ( Indent 2 )
+, L
+    ( Position 63 3 )
+    ( TokSym "type" )
+, L
+    ( Position 63 7 ) Colon
+, L
+    ( Position 63 17 )
+    ( TokSym "exitcode-stdio-1.0" )
+, L
+    ( Position 64 1 )
+    ( Indent 2 )
+, L
+    ( Position 64 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 64 17 ) Colon
+, L
+    ( Position 64 25 )
+    ( TokSym "." )
+, L
+    ( Position 64 27 )
+    ( TokSym "Benchmark" )
+, L
+    ( Position 65 1 )
+    ( Indent 2 )
+, L
+    ( Position 65 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 65 10 ) Colon
+, L
+    ( Position 65 25 )
+    ( TokSym "bench.hs" )
+, L
+    ( Position 66 1 )
+    ( Indent 2 )
+, L
+    ( Position 66 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 66 16 ) Colon
+, L
+    ( Position 66 25 )
+    ( TokSym "base" )
+, L
+    ( Position 66 30 )
+    ( TokOther "<" )
+, L
+    ( Position 66 32 )
+    ( TokSym "5" )
+, L
+    ( Position 66 33 )
+    ( TokOther "," )
+, L
+    ( Position 66 35 )
+    ( TokSym "criterion" )
+, L
+    ( Position 66 44 )
+    ( TokOther "," )
+, L
+    ( Position 66 46 )
+    ( TokSym "crypto-api" )
+, L
+    ( Position 66 56 )
+    ( TokOther "," )
+, L
+    ( Position 66 58 )
+    ( TokSym "entropy" )
+, L
+    ( Position 66 65 )
+    ( TokOther "," )
+, L
+    ( Position 66 67 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 66 77 )
+    ( TokOther "," )
+, L
+    ( Position 66 79 )
+    ( TokSym "tagged" )
+, L
+    ( Position 66 85 )
+    ( TokOther "," )
+, L
+    ( Position 66 87 )
+    ( TokSym "cereal" )
+, L
+    ( Position 66 93 )
+    ( TokOther "," )
+, L
+    ( Position 66 95 )
+    ( TokSym "cipher-aes" )
+, L
+    ( Position 67 1 )
+    ( Indent 2 )
+, L
+    ( Position 67 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 67 14 ) Colon
+, L
+    ( Position 67 25 )
+    ( TokSym "-O2" )
+, L
+    ( Position 68 1 )
+    ( Indent 2 )
+, L
+    ( Position 68 3 )
+    ( TokSym "include-dirs" )
+, L
+    ( Position 68 15 ) Colon
+, L
+    ( Position 68 24 )
+    ( TokSym "cbits" )
+, L
+    ( Position 69 1 )
+    ( Indent 2 )
+, L
+    ( Position 69 3 )
+    ( TokSym "c-sources" )
+, L
+    ( Position 69 12 ) Colon
+, L
+    ( Position 69 24 )
+    ( TokOther "./" )
+, L
+    ( Position 69 26 )
+    ( TokSym "cbits" )
+, L
+    ( Position 69 31 )
+    ( TokOther "/" )
+, L
+    ( Position 69 32 )
+    ( TokSym "aes.c" )
+, L
+    ( Position 70 1 )
+    ( Indent 21 )
+, L
+    ( Position 70 22 )
+    ( TokOther "," )
+, L
+    ( Position 70 24 )
+    ( TokOther "./" )
+, L
+    ( Position 70 26 )
+    ( TokSym "cbits" )
+, L
+    ( Position 70 31 )
+    ( TokOther "/" )
+, L
+    ( Position 70 32 )
+    ( TokSym "aes_generic.c" )
+, L
+    ( Position 71 1 )
+    ( Indent 21 )
+, L
+    ( Position 71 22 )
+    ( TokOther "," )
+, L
+    ( Position 71 24 )
+    ( TokOther "./" )
+, L
+    ( Position 71 26 )
+    ( TokSym "cbits" )
+, L
+    ( Position 71 31 )
+    ( TokOther "/" )
+, L
+    ( Position 71 32 )
+    ( TokSym "aes_x86ni.c" )
+, L
+    ( Position 72 1 )
+    ( Indent 21 )
+, L
+    ( Position 72 22 )
+    ( TokOther "," )
+, L
+    ( Position 72 24 )
+    ( TokOther "./" )
+, L
+    ( Position 72 26 )
+    ( TokSym "cbits" )
+, L
+    ( Position 72 31 )
+    ( TokOther "/" )
+, L
+    ( Position 72 32 )
+    ( TokSym "cpu.c" )
+, L
+    ( Position 73 1 )
+    ( Indent 21 )
+, L
+    ( Position 73 22 )
+    ( TokOther "," )
+, L
+    ( Position 73 24 )
+    ( TokOther "./" )
+, L
+    ( Position 73 26 )
+    ( TokSym "cbits" )
+, L
+    ( Position 73 31 )
+    ( TokOther "/" )
+, L
+    ( Position 73 32 )
+    ( TokSym "gf.c" )
+, L
+    ( Position 74 1 )
+    ( Indent 2 )
+, L
+    ( Position 74 3 )
+    ( TokSym "cc-options" )
+, L
+    ( Position 74 13 ) Colon
+, L
+    ( Position 74 24 )
+    ( TokSym "-mssse3" )
+, L
+    ( Position 74 32 )
+    ( TokSym "-maes" )
+, L
+    ( Position 74 38 )
+    ( TokSym "-mpclmul" )
+, L
+    ( Position 76 1 )
+    ( Indent 0 )
+, L
+    ( Position 76 1 )
+    ( TokSym "Executable" )
+, L
+    ( Position 76 12 )
+    ( TokSym "aes128_test" )
+, L
+    ( Position 77 1 )
+    ( Indent 2 )
+, L
+    ( Position 77 3 )
+    ( TokSym "if" )
+, L
+    ( Position 77 6 )
+    ( TokOther "!" )
+, L
+    ( Position 77 7 )
+    ( TokSym "flag" )
+, L
+    ( Position 77 11 )
+    ( TokOther "(" )
+, L
+    ( Position 77 12 )
+    ( TokSym "test" )
+, L
+    ( Position 77 16 )
+    ( TokOther ")" )
+, L
+    ( Position 78 1 )
+    ( Indent 4 )
+, L
+    ( Position 78 5 )
+    ( TokSym "buildable" )
+, L
+    ( Position 78 14 ) Colon
+, L
+    ( Position 78 16 )
+    ( TokSym "False" )
+, L
+    ( Position 79 1 )
+    ( Indent 2 )
+, L
+    ( Position 79 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 79 10 ) Colon
+, L
+    ( Position 79 12 )
+    ( TokSym "Test" )
+, L
+    ( Position 79 16 )
+    ( TokOther "/" )
+, L
+    ( Position 79 17 )
+    ( TokSym "test.hs" )
+, L
+    ( Position 80 1 )
+    ( Indent 2 )
+, L
+    ( Position 80 3 )
+    ( TokSym "if" )
+, L
+    ( Position 80 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 80 10 )
+    ( TokOther "(" )
+, L
+    ( Position 80 11 )
+    ( TokSym "test" )
+, L
+    ( Position 80 15 )
+    ( TokOther ")" )
+, L
+    ( Position 81 1 )
+    ( Indent 4 )
+, L
+    ( Position 81 5 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 81 18 ) Colon
+, L
+    ( Position 81 23 )
+    ( TokSym "base" )
+, L
+    ( Position 82 1 )
+    ( Indent 20 )
+, L
+    ( Position 82 21 )
+    ( TokOther "," )
+, L
+    ( Position 82 23 )
+    ( TokSym "crypto-api-tests" )
+, L
+    ( Position 83 1 )
+    ( Indent 20 )
+, L
+    ( Position 83 21 )
+    ( TokOther "," )
+, L
+    ( Position 83 23 )
+    ( TokSym "test-framework" )
+, L
+    ( Position 84 1 )
+    ( Indent 20 )
+, L
+    ( Position 84 21 )
+    ( TokOther "," )
+, L
+    ( Position 84 23 )
+    ( TokSym "cipher-aes128" )
+, L
+    ( Position 85 1 )
+    ( Indent 20 )
+, L
+    ( Position 85 21 )
+    ( TokOther "," )
+, L
+    ( Position 85 23 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 85 34 )
+    ( TokOther ">=" )
+, L
+    ( Position 85 37 )
+    ( TokSym "0.10.2" )
+, L
+    ( Position 86 1 )
+    ( Indent 20 )
+, L
+    ( Position 86 21 )
+    ( TokOther "," )
+, L
+    ( Position 86 23 )
+    ( TokSym "tagged" )
+, L
+    ( Position 86 29 )
+    ( TokOther "," )
+, L
+    ( Position 86 31 )
+    ( TokSym "cereal" )
+, L
+    ( Position 86 37 )
+    ( TokOther "," )
+, L
+    ( Position 86 39 )
+    ( TokSym "crypto-api" )
+, L
+    ( Position 87 1 ) EOF
+]

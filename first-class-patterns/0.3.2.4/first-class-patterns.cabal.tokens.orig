@@ -1,0 +1,270 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 22 )
+    ( TokSym "first-class-patterns" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 22 )
+    ( TokSym "0.3.2.4" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Author" )
+, L
+    ( Position 3 7 ) Colon
+, L
+    ( Position 3 22 )
+    ( TokSym "Reiner" )
+, L
+    ( Position 3 29 )
+    ( TokSym "Pope" )
+, L
+    ( Position 3 33 )
+    ( TokOther "," )
+, L
+    ( Position 3 35 )
+    ( TokSym "Brent" )
+, L
+    ( Position 3 41 )
+    ( TokSym "Yorgey" )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Maintainer" )
+, L
+    ( Position 4 11 ) Colon
+, L
+    ( Position 4 22 )
+    ( TokSym "Kowainik" )
+, L
+    ( Position 4 31 )
+    ( TokOther "<" )
+, L
+    ( Position 4 32 )
+    ( TokSym "xrom.xkov" )
+, L
+    ( Position 4 41 )
+    ( TokOther "@" )
+, L
+    ( Position 4 42 )
+    ( TokSym "gmail.com" )
+, L
+    ( Position 4 51 )
+    ( TokOther ">" )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "License" )
+, L
+    ( Position 5 8 ) Colon
+, L
+    ( Position 5 22 )
+    ( TokSym "BSD3" )
+, L
+    ( Position 6 1 )
+    ( Indent 0 )
+, L
+    ( Position 6 1 )
+    ( TokSym "License-file" )
+, L
+    ( Position 6 13 ) Colon
+, L
+    ( Position 6 22 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 7 1 )
+    ( Indent 0 )
+, L
+    ( Position 7 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 7 9 ) Colon
+, L
+    ( Position 7 22 )
+    ( TokSym "First" )
+, L
+    ( Position 7 28 )
+    ( TokSym "class" )
+, L
+    ( Position 7 34 )
+    ( TokSym "patterns" )
+, L
+    ( Position 7 43 )
+    ( TokSym "and" )
+, L
+    ( Position 7 47 )
+    ( TokSym "pattern" )
+, L
+    ( Position 7 55 )
+    ( TokSym "matching" )
+, L
+    ( Position 7 63 )
+    ( TokOther "," )
+, L
+    ( Position 7 65 )
+    ( TokSym "using" )
+, L
+    ( Position 7 71 )
+    ( TokSym "type" )
+, L
+    ( Position 7 76 )
+    ( TokSym "families" )
+, L
+    ( Position 8 1 )
+    ( Indent 0 )
+, L
+    ( Position 8 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 8 12 ) Colon
+, L
+    ( Position 10 1 )
+    ( Indent 2 )
+, L
+    ( Position 10 3 )
+    ( TokSym "This" )
+, L
+    ( Position 10 8 )
+    ( TokSym "package" )
+, L
+    ( Position 10 16 )
+    ( TokSym "implements" )
+, L
+    ( Position 10 27 )
+    ( TokSym "a" )
+, L
+    ( Position 10 29 )
+    ( TokSym "library" )
+, L
+    ( Position 10 37 )
+    ( TokSym "of" )
+, L
+    ( Position 10 40 )
+    ( TokSym "first" )
+, L
+    ( Position 10 46 )
+    ( TokSym "class" )
+, L
+    ( Position 10 52 )
+    ( TokSym "patterns." )
+, L
+    ( Position 10 62 )
+    ( TokSym "The" )
+, L
+    ( Position 11 1 )
+    ( Indent 2 )
+, L
+    ( Position 11 3 )
+    ( TokSym "initial" )
+, L
+    ( Position 11 11 )
+    ( TokSym "basis" )
+, L
+    ( Position 11 17 )
+    ( TokSym "for" )
+, L
+    ( Position 11 21 )
+    ( TokSym "this" )
+, L
+    ( Position 11 26 )
+    ( TokSym "library" )
+, L
+    ( Position 11 34 )
+    ( TokSym "was" )
+, L
+    ( Position 11 38 )
+    ( TokSym "Morten" )
+, L
+    ( Position 11 45 )
+    ( TokSym "Rhiger's" )
+, L
+    ( Position 11 54 )
+    ( TokOther "\" )
+, L
+    ( Position 11 65 )
+    ( LexicalError "
+      pattern combinators\"; the patterns can be used in an almost
+      identical way to those of Morten Rhiger. In a series of blog
+      posts at
+      <http://reinerp.wordpress.com/category/pattern-combinators/>
+      the types of patterns were made more revealing using type
+      families, and a simpler implementation was used which avoids
+      some book-keeping.
+      .
+      The library reimplements most of Haskell's built-in
+      pattern matching facilities, plus some more. The pattern
+      matches of this library are lightweight: when GHC's
+      optimisation is turned on, all overhead should be optimised
+      away, leaving a standard Haskell pattern match.
+      .
+      If you're just reading the documentation for this library for
+      the first time, start with "Data.Pattern".
+
+    Cabal-Version:       2.0
+    Category:            Data, Pattern
+    Build-Type:          Simple
+    Stability:           experimental
+    homepage:            https://github.com/kowainik/first-class-patterns
+    bug-reports:         https://github.com/kowainik/first-class-patterns/issues
+    tested-with:         GHC == 8.2.2
+                       , GHC == 8.4.3
+    extra-doc-files:     README.md
+                       , CHANGES.md
+
+    source-repository head
+      type:                 git
+      location:             git://github.com/kowainik/first-class-patterns.git
+
+    library
+      Build-Depends:
+        base >= 4.5 && < 5,
+        transformers >= 0.1.0 && < 0.6
+      Exposed-modules:     Data.Pattern
+                           Data.Pattern.Base
+                           Data.Pattern.Base.TypeList
+                           Data.Pattern.Base.Tuple
+                           Data.Pattern.Common
+      Other-modules:       Data.Pattern.Base.Difference
+
+      default-extensions:  EmptyDataDecls
+                           FlexibleInstances
+                           GeneralizedNewtypeDeriving
+                           GADTs
+                           Rank2Types
+                           ScopedTypeVariables
+                           TypeFamilies
+                           TypeOperators
+
+      default-language:    Haskell2010
+
+      -- necessary to get all the patterns properly inlined. Note that putting
+      -- {-# INLINE #-} pragmas every doesn't seem to work, due to some subtlety
+      -- of the inliner.
+      -- TODO: test with recent ghc versions and check this
+      ghc-options:
+                         -funfolding-use-threshold=1000
+                         -funfolding-creation-threshold=1000
+    " )
+, L
+    ( Position 11 55 ) EOF
+]

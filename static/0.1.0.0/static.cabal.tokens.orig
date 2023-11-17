@@ -1,0 +1,2767 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Cabal-Version" )
+, L
+    ( Position 1 14 ) Colon
+, L
+    ( Position 1 22 )
+    ( TokSym "3.0" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 2 5 ) Colon
+, L
+    ( Position 2 22 )
+    ( TokSym "static" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 3 8 ) Colon
+, L
+    ( Position 3 22 )
+    ( TokSym "0.1.0.0" )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 4 9 ) Colon
+, L
+    ( Position 4 22 )
+    ( TokSym "Type-safe" )
+, L
+    ( Position 4 32 )
+    ( TokSym "and" )
+, L
+    ( Position 4 36 )
+    ( TokSym "interoperable" )
+, L
+    ( Position 4 50 )
+    ( TokSym "static" )
+, L
+    ( Position 4 57 )
+    ( TokSym "values" )
+, L
+    ( Position 4 64 )
+    ( TokSym "and" )
+, L
+    ( Position 4 68 )
+    ( TokSym "closures" )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 5 12 ) Colon
+, L
+    ( Position 6 1 )
+    ( Indent 2 )
+, L
+    ( Position 6 3 )
+    ( TokSym "Serialise" )
+, L
+    ( Position 6 13 )
+    ( TokSym "closures" )
+, L
+    ( Position 6 22 )
+    ( TokSym "in" )
+, L
+    ( Position 6 25 )
+    ( TokSym "a" )
+, L
+    ( Position 6 27 )
+    ( TokSym "type-safe" )
+, L
+    ( Position 6 37 )
+    ( TokSym "way" )
+, L
+    ( Position 6 41 )
+    ( TokSym "that" )
+, L
+    ( Position 6 46 )
+    ( TokSym "interoperates" )
+, L
+    ( Position 6 60 )
+    ( TokSym "across" )
+, L
+    ( Position 6 67 )
+    ( TokSym "binaries." )
+, L
+    ( Position 8 1 )
+    ( Indent 2 )
+, L
+    ( Position 8 3 )
+    ( TokSym "This" )
+, L
+    ( Position 8 8 )
+    ( TokSym "package" )
+, L
+    ( Position 8 16 )
+    ( TokSym "is" )
+, L
+    ( Position 8 19 )
+    ( TokSym "inspired" )
+, L
+    ( Position 8 28 )
+    ( TokSym "by" )
+, L
+    ( Position 8 31 )
+    ( TokOther "@" )
+, L
+    ( Position 8 32 )
+    ( TokSym "distributed-static" )
+, L
+    ( Position 8 50 )
+    ( TokOther "@" )
+, L
+    ( Position 8 52 )
+    ( TokSym "and" )
+, L
+    ( Position 8 56 )
+    ( TokSym "GHC's" )
+, L
+    ( Position 8 62 )
+    ( TokOther "/" )
+, L
+    ( Position 8 63 )
+    ( TokSym "static" )
+, L
+    ( Position 8 70 )
+    ( TokSym "pointers" )
+, L
+    ( Position 8 78 )
+    ( TokOther "/" )
+, L
+    ( Position 9 1 )
+    ( Indent 2 )
+, L
+    ( Position 9 3 )
+    ( TokSym "in" )
+, L
+    ( Position 9 6 )
+    ( TokOther "@" )
+, L
+    ( Position 9 7 )
+    ( TokSym "GHC.StaticPtr" )
+, L
+    ( Position 9 20 )
+    ( TokOther "@," )
+, L
+    ( Position 9 23 )
+    ( TokSym "which" )
+, L
+    ( Position 9 29 )
+    ( TokSym "came" )
+, L
+    ( Position 9 34 )
+    ( TokSym "out" )
+, L
+    ( Position 9 38 )
+    ( TokSym "of" )
+, L
+    ( Position 9 41 )
+    ( TokSym "the" )
+, L
+    ( Position 9 45 )
+    ( TokSym "same" )
+, L
+    ( Position 9 50 )
+    ( TokSym "research." )
+, L
+    ( Position 9 60 )
+    ( TokSym "However" )
+, L
+    ( Position 9 67 )
+    ( TokOther "," )
+, L
+    ( Position 9 69 )
+    ( TokSym "we" )
+, L
+    ( Position 9 72 )
+    ( TokSym "make" )
+, L
+    ( Position 10 1 )
+    ( Indent 2 )
+, L
+    ( Position 10 3 )
+    ( TokSym "some" )
+, L
+    ( Position 10 8 )
+    ( TokSym "significantly-different" )
+, L
+    ( Position 10 32 )
+    ( TokSym "design" )
+, L
+    ( Position 10 39 )
+    ( TokSym "choices" )
+, L
+    ( Position 10 46 )
+    ( TokOther "," )
+, L
+    ( Position 10 48 )
+    ( TokSym "described" )
+, L
+    ( Position 10 58 )
+    ( TokSym "below." )
+, L
+    ( Position 12 1 )
+    ( Indent 2 )
+, L
+    ( Position 12 3 )
+    ( TokSym "GHC" )
+, L
+    ( Position 12 7 )
+    ( TokSym "made" )
+, L
+    ( Position 12 12 )
+    ( TokSym "the" )
+, L
+    ( Position 12 16 )
+    ( TokSym "design" )
+, L
+    ( Position 12 23 )
+    ( TokSym "choice" )
+, L
+    ( Position 12 30 )
+    ( TokSym "to" )
+, L
+    ( Position 12 33 )
+    ( TokSym "focus" )
+, L
+    ( Position 12 39 )
+    ( TokSym "on" )
+, L
+    ( Position 12 42 )
+    ( TokSym "guaranteeing" )
+, L
+    ( Position 12 55 )
+    ( TokSym "that" )
+, L
+    ( Position 12 60 )
+    ( TokSym "static" )
+, L
+    ( Position 12 67 )
+    ( TokSym "values" )
+, L
+    ( Position 12 74 )
+    ( TokSym "could" )
+, L
+    ( Position 13 1 )
+    ( Indent 2 )
+, L
+    ( Position 13 3 )
+    ( TokSym "be" )
+, L
+    ( Position 13 6 )
+    ( TokSym "passed" )
+, L
+    ( Position 13 13 )
+    ( TokSym "between" )
+, L
+    ( Position 13 21 )
+    ( TokSym "nodes" )
+, L
+    ( Position 13 27 )
+    ( TokSym "if" )
+, L
+    ( Position 13 30 )
+    ( TokSym "they" )
+, L
+    ( Position 13 35 )
+    ( TokSym "were" )
+, L
+    ( Position 13 40 )
+    ( TokSym "running" )
+, L
+    ( Position 13 48 )
+    ( TokSym "the" )
+, L
+    ( Position 13 52 )
+    ( TokSym "exact" )
+, L
+    ( Position 13 58 )
+    ( TokSym "same" )
+, L
+    ( Position 13 63 )
+    ( TokSym "binary" )
+, L
+    ( Position 13 69 )
+    ( TokOther "," )
+, L
+    ( Position 13 71 )
+    ( TokSym "since" )
+, L
+    ( Position 14 1 )
+    ( Indent 2 )
+, L
+    ( Position 14 3 )
+    ( TokSym "they" )
+, L
+    ( Position 14 8 )
+    ( TokSym "are" )
+, L
+    ( Position 14 12 )
+    ( TokSym "indexed" )
+, L
+    ( Position 14 20 )
+    ( TokSym "by" )
+, L
+    ( Position 14 23 )
+    ( TokSym "64-bit" )
+, L
+    ( Position 14 30 )
+    ( TokSym "integers" )
+, L
+    ( Position 14 39 )
+    ( TokSym "automatically-generated" )
+, L
+    ( Position 14 63 )
+    ( TokSym "by" )
+, L
+    ( Position 14 66 )
+    ( TokSym "the" )
+, L
+    ( Position 14 70 )
+    ( TokSym "compiler." )
+, L
+    ( Position 15 1 )
+    ( Indent 2 )
+, L
+    ( Position 15 3 )
+    ( TokOther "@" )
+, L
+    ( Position 15 4 )
+    ( TokSym "distributed-static" )
+, L
+    ( Position 15 22 )
+    ( TokOther "@" )
+, L
+    ( Position 15 24 )
+    ( TokSym "attempts" )
+, L
+    ( Position 15 33 )
+    ( TokSym "to" )
+, L
+    ( Position 15 36 )
+    ( TokSym "support" )
+, L
+    ( Position 15 44 )
+    ( TokSym "the" )
+, L
+    ( Position 15 48 )
+    ( TokSym "same" )
+, L
+    ( Position 15 53 )
+    ( TokSym "source" )
+, L
+    ( Position 15 60 )
+    ( TokSym "program" )
+, L
+    ( Position 15 68 )
+    ( TokSym "compiled" )
+, L
+    ( Position 15 77 )
+    ( TokSym "by" )
+, L
+    ( Position 16 1 )
+    ( Indent 2 )
+, L
+    ( Position 16 3 )
+    ( TokSym "different" )
+, L
+    ( Position 16 13 )
+    ( TokSym "versions" )
+, L
+    ( Position 16 22 )
+    ( TokSym "of" )
+, L
+    ( Position 16 25 )
+    ( TokSym "GHC." )
+, L
+    ( Position 16 30 )
+    ( TokSym "As" )
+, L
+    ( Position 16 33 )
+    ( TokSym "part" )
+, L
+    ( Position 16 38 )
+    ( TokSym "of" )
+, L
+    ( Position 16 41 )
+    ( TokSym "this" )
+, L
+    ( Position 16 46 )
+    ( TokSym "effort" )
+, L
+    ( Position 16 53 )
+    ( TokSym "to" )
+, L
+    ( Position 16 56 )
+    ( TokSym "preserve" )
+, L
+    ( Position 16 65 )
+    ( TokSym "stability" )
+, L
+    ( Position 16 74 )
+    ( TokOther "," )
+, L
+    ( Position 16 76 )
+    ( TokSym "one" )
+, L
+    ( Position 17 1 )
+    ( Indent 2 )
+, L
+    ( Position 17 3 )
+    ( TokSym "must" )
+, L
+    ( Position 17 8 )
+    ( TokSym "pass" )
+, L
+    ( Position 17 13 )
+    ( TokSym "in" )
+, L
+    ( Position 17 16 )
+    ( TokSym "a" )
+, L
+    ( Position 17 18 )
+    ( TokSym "table" )
+, L
+    ( Position 17 24 )
+    ( TokOther "(" )
+, L
+    ( Position 17 25 )
+    ( TokSym "'RemoteTable'" )
+, L
+    ( Position 17 38 )
+    ( TokOther ")" )
+, L
+    ( Position 17 40 )
+    ( TokSym "whose" )
+, L
+    ( Position 17 46 )
+    ( TokSym "keys" )
+, L
+    ( Position 17 51 )
+    ( TokSym "represent" )
+, L
+    ( Position 17 61 )
+    ( TokSym "the" )
+, L
+    ( Position 17 65 )
+    ( TokSym "stability" )
+, L
+    ( Position 17 74 )
+    ( TokOther "," )
+, L
+    ( Position 17 76 )
+    ( TokSym "and" )
+, L
+    ( Position 18 1 )
+    ( Indent 2 )
+, L
+    ( Position 18 3 )
+    ( TokSym "whose" )
+, L
+    ( Position 18 9 )
+    ( TokSym "values" )
+, L
+    ( Position 18 16 )
+    ( TokSym "are" )
+, L
+    ( Position 18 20 )
+    ( TokSym "resolved" )
+, L
+    ( Position 18 29 )
+    ( TokSym "potentially" )
+, L
+    ( Position 18 41 )
+    ( TokSym "differently" )
+, L
+    ( Position 18 53 )
+    ( TokSym "across" )
+, L
+    ( Position 18 60 )
+    ( TokSym "compiler" )
+, L
+    ( Position 18 69 )
+    ( TokSym "versions." )
+, L
+    ( Position 20 1 )
+    ( Indent 2 )
+, L
+    ( Position 20 3 )
+    ( TokSym "The" )
+, L
+    ( Position 20 7 )
+    ( TokSym "need" )
+, L
+    ( Position 20 12 )
+    ( TokSym "for" )
+, L
+    ( Position 20 16 )
+    ( TokSym "the" )
+, L
+    ( Position 20 20 )
+    ( TokSym "caller" )
+, L
+    ( Position 20 27 )
+    ( TokSym "to" )
+, L
+    ( Position 20 30 )
+    ( TokSym "pass" )
+, L
+    ( Position 20 35 )
+    ( TokSym "in" )
+, L
+    ( Position 20 38 )
+    ( TokSym "a" )
+, L
+    ( Position 20 40 )
+    ( TokSym "'RemoteTable'" )
+, L
+    ( Position 20 54 )
+    ( TokSym "is" )
+, L
+    ( Position 20 57 )
+    ( TokSym "seen" )
+, L
+    ( Position 20 62 )
+    ( TokSym "as" )
+, L
+    ( Position 20 65 )
+    ( TokSym "a" )
+, L
+    ( Position 20 67 )
+    ( TokSym "liability" )
+, L
+    ( Position 20 76 )
+    ( TokOther "," )
+, L
+    ( Position 20 78 )
+    ( TokSym "so" )
+, L
+    ( Position 21 1 )
+    ( Indent 2 )
+, L
+    ( Position 21 3 )
+    ( TokSym "two" )
+, L
+    ( Position 21 7 )
+    ( TokSym "subsequent" )
+, L
+    ( Position 21 18 )
+    ( TokSym "packages" )
+, L
+    ( Position 21 27 )
+    ( TokOther "@" )
+, L
+    ( Position 21 28 )
+    ( TokSym "distributed-closure" )
+, L
+    ( Position 21 47 )
+    ( TokOther "@" )
+, L
+    ( Position 21 49 )
+    ( TokSym "and" )
+, L
+    ( Position 21 53 )
+    ( TokOther "@" )
+, L
+    ( Position 21 54 )
+    ( TokSym "static-closure" )
+, L
+    ( Position 21 68 )
+    ( TokOther "@" )
+, L
+    ( Position 21 70 )
+    ( TokSym "take" )
+, L
+    ( Position 21 75 )
+    ( TokSym "the" )
+, L
+    ( Position 22 1 )
+    ( Indent 2 )
+, L
+    ( Position 22 3 )
+    ( TokSym "opposite" )
+, L
+    ( Position 22 12 )
+    ( TokSym "approach" )
+, L
+    ( Position 22 20 )
+    ( TokOther "," )
+, L
+    ( Position 22 22 )
+    ( TokSym "ripping" )
+, L
+    ( Position 22 30 )
+    ( TokSym "out" )
+, L
+    ( Position 22 34 )
+    ( TokSym "the" )
+, L
+    ( Position 22 38 )
+    ( TokSym "'RemoteTable'" )
+, L
+    ( Position 22 52 )
+    ( TokSym "but" )
+, L
+    ( Position 22 56 )
+    ( TokSym "doubling" )
+, L
+    ( Position 22 65 )
+    ( TokSym "down" )
+, L
+    ( Position 22 70 )
+    ( TokSym "on" )
+, L
+    ( Position 22 73 )
+    ( TokSym "GHC's" )
+, L
+    ( Position 23 1 )
+    ( Indent 2 )
+, L
+    ( Position 23 3 )
+    ( TokSym "choice" )
+, L
+    ( Position 23 10 )
+    ( TokSym "to" )
+, L
+    ( Position 23 13 )
+    ( TokSym "guarantee" )
+, L
+    ( Position 23 23 )
+    ( TokSym "compatibility" )
+, L
+    ( Position 23 37 )
+    ( TokSym "only" )
+, L
+    ( Position 23 42 )
+    ( TokSym "across" )
+, L
+    ( Position 23 49 )
+    ( TokSym "different" )
+, L
+    ( Position 23 59 )
+    ( TokSym "processes" )
+, L
+    ( Position 23 69 )
+    ( TokSym "running" )
+, L
+    ( Position 23 77 )
+    ( TokSym "the" )
+, L
+    ( Position 24 1 )
+    ( Indent 2 )
+, L
+    ( Position 24 3 )
+    ( TokSym "exact" )
+, L
+    ( Position 24 9 )
+    ( TokSym "same" )
+, L
+    ( Position 24 14 )
+    ( TokSym "binary" )
+, L
+    ( Position 24 21 )
+    ( TokSym "program." )
+, L
+    ( Position 24 30 )
+    ( TokSym "Their" )
+, L
+    ( Position 24 36 )
+    ( TokSym "uses" )
+, L
+    ( Position 24 41 )
+    ( TokSym "cases" )
+, L
+    ( Position 24 47 )
+    ( TokSym "are" )
+, L
+    ( Position 24 51 )
+    ( TokSym "focused" )
+, L
+    ( Position 24 59 )
+    ( TokSym "around" )
+, L
+    ( Position 24 66 )
+    ( TokSym "compute" )
+, L
+    ( Position 25 1 )
+    ( Indent 2 )
+, L
+    ( Position 25 3 )
+    ( TokSym "clusters" )
+, L
+    ( Position 25 12 )
+    ( TokSym "and" )
+, L
+    ( Position 25 16 )
+    ( TokSym "other" )
+, L
+    ( Position 25 22 )
+    ( TokSym "forms" )
+, L
+    ( Position 25 28 )
+    ( TokSym "of" )
+, L
+    ( Position 25 31 )
+    ( TokSym "centralised" )
+, L
+    ( Position 25 43 )
+    ( TokSym "distributed" )
+, L
+    ( Position 25 55 )
+    ( TokSym "computing" )
+, L
+    ( Position 25 64 )
+    ( TokOther "," )
+, L
+    ( Position 25 66 )
+    ( TokSym "where" )
+, L
+    ( Position 25 72 )
+    ( TokSym "this" )
+, L
+    ( Position 25 77 )
+    ( TokSym "is" )
+, L
+    ( Position 26 1 )
+    ( Indent 2 )
+, L
+    ( Position 26 3 )
+    ( TokSym "easy" )
+, L
+    ( Position 26 8 )
+    ( TokSym "to" )
+, L
+    ( Position 26 11 )
+    ( TokSym "achieve" )
+, L
+    ( Position 26 19 )
+    ( TokSym "and" )
+, L
+    ( Position 26 23 )
+    ( TokSym "not" )
+, L
+    ( Position 26 27 )
+    ( TokSym "a" )
+, L
+    ( Position 26 29 )
+    ( TokSym "problem." )
+, L
+    ( Position 28 1 )
+    ( Indent 2 )
+, L
+    ( Position 28 3 )
+    ( TokSym "Sometimes" )
+, L
+    ( Position 28 13 )
+    ( TokSym "security" )
+, L
+    ( Position 28 22 )
+    ( TokSym "is" )
+, L
+    ( Position 28 25 )
+    ( TokSym "cited" )
+, L
+    ( Position 28 31 )
+    ( TokSym "as" )
+, L
+    ( Position 28 34 )
+    ( TokSym "a" )
+, L
+    ( Position 28 36 )
+    ( TokSym "reason" )
+, L
+    ( Position 28 43 )
+    ( TokSym "to" )
+, L
+    ( Position 28 46 )
+    ( TokSym "have" )
+, L
+    ( Position 28 51 )
+    ( TokSym "this" )
+, L
+    ( Position 28 56 )
+    ( TokSym "restriction" )
+, L
+    ( Position 28 67 )
+    ( TokOther "," )
+, L
+    ( Position 28 69 )
+    ( TokSym "but" )
+, L
+    ( Position 28 73 )
+    ( TokSym "this" )
+, L
+    ( Position 28 78 )
+    ( TokSym "is" )
+, L
+    ( Position 29 1 )
+    ( Indent 2 )
+, L
+    ( Position 29 3 )
+    ( TokSym "a" )
+, L
+    ( Position 29 5 )
+    ( TokOther "/" )
+, L
+    ( Position 29 6 )
+    ( TokSym "bogus" )
+, L
+    ( Position 29 12 )
+    ( TokSym "argument" )
+, L
+    ( Position 29 20 )
+    ( TokOther "/." )
+, L
+    ( Position 29 23 )
+    ( TokStr "Guarantee compatibility only across same binary" )
+, L
+    ( Position 29 73 )
+    ( TokSym "means" )
+, L
+    ( Position 30 1 )
+    ( Indent 2 )
+, L
+    ( Position 30 3 )
+    ( TokStr "same binary => compatibility" )
+, L
+    ( Position 30 34 )
+    ( TokSym "whereas" )
+, L
+    ( Position 30 42 )
+    ( TokSym "the" )
+, L
+    ( Position 30 46 )
+    ( TokSym "bogus" )
+, L
+    ( Position 30 52 )
+    ( TokSym "security" )
+, L
+    ( Position 30 61 )
+    ( TokSym "argument" )
+, L
+    ( Position 30 70 )
+    ( TokSym "depends" )
+, L
+    ( Position 30 78 )
+    ( TokSym "on" )
+, L
+    ( Position 31 1 )
+    ( Indent 2 )
+, L
+    ( Position 31 3 )
+    ( TokStr "compatibility => same binary" )
+, L
+    ( Position 31 33 )
+    ( TokOther "," )
+, L
+    ( Position 31 35 )
+    ( TokSym "which" )
+, L
+    ( Position 31 41 )
+    ( TokSym "is" )
+, L
+    ( Position 31 44 )
+    ( TokSym "not" )
+, L
+    ( Position 31 48 )
+    ( TokSym "true" )
+, L
+    ( Position 31 53 )
+    ( TokSym "-" )
+, L
+    ( Position 31 55 )
+    ( TokSym "anyone" )
+, L
+    ( Position 31 62 )
+    ( TokSym "who" )
+, L
+    ( Position 31 66 )
+    ( TokSym "analyses" )
+, L
+    ( Position 31 75 )
+    ( TokSym "your" )
+, L
+    ( Position 32 1 )
+    ( Indent 2 )
+, L
+    ( Position 32 3 )
+    ( TokSym "binary" )
+, L
+    ( Position 32 10 )
+    ( TokSym "will" )
+, L
+    ( Position 32 15 )
+    ( TokSym "know" )
+, L
+    ( Position 32 20 )
+    ( TokSym "which" )
+, L
+    ( Position 32 26 )
+    ( TokSym "numbers" )
+, L
+    ( Position 32 34 )
+    ( TokSym "to" )
+, L
+    ( Position 32 37 )
+    ( TokSym "spoof" )
+, L
+    ( Position 32 42 )
+    ( TokOther "," )
+, L
+    ( Position 32 44 )
+    ( TokSym "to" )
+, L
+    ( Position 32 47 )
+    ( TokSym "convince" )
+, L
+    ( Position 32 56 )
+    ( TokSym "your" )
+, L
+    ( Position 32 61 )
+    ( TokSym "program" )
+, L
+    ( Position 32 69 )
+    ( TokSym "via" )
+, L
+    ( Position 32 73 )
+    ( TokSym "this" )
+, L
+    ( Position 33 1 )
+    ( Indent 2 )
+, L
+    ( Position 33 3 )
+    ( TokSym "interface" )
+, L
+    ( Position 33 13 )
+    ( TokSym "that" )
+, L
+    ( Position 33 18 )
+    ( TokSym "they" )
+, L
+    ( Position 33 23 )
+    ( TokSym "are" )
+, L
+    ( Position 33 27 )
+    ( TokStr "running the same code" )
+, L
+    ( Position 33 50 )
+    ( TokSym "." )
+, L
+    ( Position 33 52 )
+    ( TokSym "Guaranteeing" )
+, L
+    ( Position 33 65 )
+    ( TokStr "same binary" )
+, L
+    ( Position 34 1 )
+    ( Indent 2 )
+, L
+    ( Position 34 3 )
+    ( TokSym "in" )
+, L
+    ( Position 34 6 )
+    ( TokSym "an" )
+, L
+    ( Position 34 9 )
+    ( TokSym "adversial" )
+, L
+    ( Position 34 19 )
+    ( TokSym "setting" )
+, L
+    ( Position 34 27 )
+    ( TokSym "is" )
+, L
+    ( Position 34 30 )
+    ( TokSym "in" )
+, L
+    ( Position 34 33 )
+    ( TokSym "fact" )
+, L
+    ( Position 34 38 )
+    ( TokSym "extremely" )
+, L
+    ( Position 34 48 )
+    ( TokSym "hard" )
+, L
+    ( Position 34 53 )
+    ( TokSym "and" )
+, L
+    ( Position 34 57 )
+    ( TokSym "cannot" )
+, L
+    ( Position 34 64 )
+    ( TokSym "be" )
+, L
+    ( Position 34 67 )
+    ( TokSym "achieved" )
+, L
+    ( Position 35 1 )
+    ( Indent 2 )
+, L
+    ( Position 35 3 )
+    ( TokSym "perfectly;" )
+, L
+    ( Position 35 14 )
+    ( TokSym "in" )
+, L
+    ( Position 35 17 )
+    ( TokSym "the" )
+, L
+    ( Position 35 21 )
+    ( TokSym "real-world" )
+, L
+    ( Position 35 32 )
+    ( TokSym "it" )
+, L
+    ( Position 35 35 )
+    ( TokSym "can" )
+, L
+    ( Position 35 39 )
+    ( TokSym "only" )
+, L
+    ( Position 35 44 )
+    ( TokSym "be" )
+, L
+    ( Position 35 47 )
+    ( TokSym "approximated" )
+, L
+    ( Position 35 59 )
+    ( TokOther "," )
+, L
+    ( Position 35 61 )
+    ( TokSym "and" )
+, L
+    ( Position 35 65 )
+    ( TokSym "should" )
+, L
+    ( Position 35 72 )
+    ( TokSym "be" )
+, L
+    ( Position 35 75 )
+    ( TokSym "done" )
+, L
+    ( Position 36 1 )
+    ( Indent 2 )
+, L
+    ( Position 36 3 )
+    ( TokSym "so" )
+, L
+    ( Position 36 6 )
+    ( TokSym "via" )
+, L
+    ( Position 36 10 )
+    ( TokSym "mechanisms" )
+, L
+    ( Position 36 21 )
+    ( TokSym "designed" )
+, L
+    ( Position 36 30 )
+    ( TokSym "for" )
+, L
+    ( Position 36 34 )
+    ( TokSym "it" )
+, L
+    ( Position 36 36 )
+    ( TokOther "," )
+, L
+    ( Position 36 38 )
+    ( TokSym "not" )
+, L
+    ( Position 36 42 )
+    ( TokSym "via" )
+, L
+    ( Position 36 46 )
+    ( TokSym "numbers" )
+, L
+    ( Position 36 54 )
+    ( TokSym "that" )
+, L
+    ( Position 36 59 )
+    ( TokSym "are" )
+, L
+    ( Position 36 63 )
+    ( TokSym "slightly" )
+, L
+    ( Position 36 72 )
+    ( TokSym "hard" )
+, L
+    ( Position 36 77 )
+    ( TokSym "to" )
+, L
+    ( Position 37 1 )
+    ( Indent 2 )
+, L
+    ( Position 37 3 )
+    ( TokSym "brute" )
+, L
+    ( Position 37 9 )
+    ( TokSym "force" )
+, L
+    ( Position 37 15 )
+    ( TokSym "at" )
+, L
+    ( Position 37 18 )
+    ( TokSym "best" )
+, L
+    ( Position 37 23 )
+    ( TokSym "and" )
+, L
+    ( Position 37 27 )
+    ( TokSym "trivial" )
+, L
+    ( Position 37 35 )
+    ( TokSym "to" )
+, L
+    ( Position 37 38 )
+    ( TokSym "find" )
+, L
+    ( Position 37 43 )
+    ( TokSym "out" )
+, L
+    ( Position 37 47 )
+    ( TokSym "at" )
+, L
+    ( Position 37 50 )
+    ( TokSym "worst." )
+, L
+    ( Position 39 1 )
+    ( Indent 2 )
+, L
+    ( Position 39 3 )
+    ( TokSym "This" )
+, L
+    ( Position 39 8 )
+    ( TokSym "package" )
+, L
+    ( Position 39 16 )
+    ( TokSym "makes" )
+, L
+    ( Position 39 22 )
+    ( TokSym "the" )
+, L
+    ( Position 39 26 )
+    ( TokOther "/" )
+, L
+    ( Position 39 27 )
+    ( TokSym "opposite" )
+, L
+    ( Position 39 35 )
+    ( TokOther "/" )
+, L
+    ( Position 39 37 )
+    ( TokSym "choice" )
+, L
+    ( Position 39 43 )
+    ( TokOther "," )
+, L
+    ( Position 39 45 )
+    ( TokSym "intended" )
+, L
+    ( Position 39 54 )
+    ( TokSym "for" )
+, L
+    ( Position 39 58 )
+    ( TokSym "less" )
+, L
+    ( Position 39 63 )
+    ( TokSym "restricted" )
+, L
+    ( Position 39 74 )
+    ( TokSym "and" )
+, L
+    ( Position 40 1 )
+    ( Indent 2 )
+, L
+    ( Position 40 3 )
+    ( TokSym "more" )
+, L
+    ( Position 40 8 )
+    ( TokSym "open" )
+, L
+    ( Position 40 13 )
+    ( TokSym "distributed" )
+, L
+    ( Position 40 25 )
+    ( TokSym "computing" )
+, L
+    ( Position 40 35 )
+    ( TokSym "environments" )
+, L
+    ( Position 40 48 )
+    ( TokSym "such" )
+, L
+    ( Position 40 53 )
+    ( TokSym "as" )
+, L
+    ( Position 40 56 )
+    ( TokSym "the" )
+, L
+    ( Position 40 60 )
+    ( TokSym "internet" )
+, L
+    ( Position 40 69 )
+    ( TokSym "and" )
+, L
+    ( Position 41 1 )
+    ( Indent 2 )
+, L
+    ( Position 41 3 )
+    ( TokSym "decentralised" )
+, L
+    ( Position 41 17 )
+    ( TokSym "protocols." )
+, L
+    ( Position 41 28 )
+    ( TokSym "In" )
+, L
+    ( Position 41 31 )
+    ( TokSym "these" )
+, L
+    ( Position 41 37 )
+    ( TokSym "contexts" )
+, L
+    ( Position 41 45 )
+    ( TokOther "," )
+, L
+    ( Position 41 47 )
+    ( TokSym "the" )
+, L
+    ( Position 41 51 )
+    ( TokSym "requirement" )
+, L
+    ( Position 41 63 )
+    ( TokSym "of" )
+, L
+    ( Position 41 66 )
+    ( TokSym "running" )
+, L
+    ( Position 41 74 )
+    ( TokSym "the" )
+, L
+    ( Position 42 1 )
+    ( Indent 2 )
+, L
+    ( Position 42 3 )
+    ( TokSym "exact" )
+, L
+    ( Position 42 9 )
+    ( TokSym "same" )
+, L
+    ( Position 42 14 )
+    ( TokSym "binary" )
+, L
+    ( Position 42 21 )
+    ( TokSym "program" )
+, L
+    ( Position 42 29 )
+    ( TokSym "is" )
+, L
+    ( Position 42 32 )
+    ( TokSym "impossible" )
+, L
+    ( Position 42 43 )
+    ( TokSym "to" )
+, L
+    ( Position 42 46 )
+    ( TokSym "achieve" )
+, L
+    ( Position 42 54 )
+    ( TokSym "in" )
+, L
+    ( Position 42 57 )
+    ( TokSym "practise." )
+, L
+    ( Position 42 67 )
+    ( TokSym "Furthermore" )
+, L
+    ( Position 42 78 )
+    ( TokOther "," )
+, L
+    ( Position 43 1 )
+    ( Indent 2 )
+, L
+    ( Position 43 3 )
+    ( TokSym "we" )
+, L
+    ( Position 43 6 )
+    ( TokSym "see" )
+, L
+    ( Position 43 10 )
+    ( TokSym "it" )
+, L
+    ( Position 43 13 )
+    ( TokSym "as" )
+, L
+    ( Position 43 16 )
+    ( TokSym "an" )
+, L
+    ( Position 43 19 )
+    ( TokOther "/" )
+, L
+    ( Position 43 20 )
+    ( TokSym "advantage" )
+, L
+    ( Position 43 29 )
+    ( TokOther "/" )
+, L
+    ( Position 43 31 )
+    ( TokSym "that" )
+, L
+    ( Position 43 36 )
+    ( TokSym "code" )
+, L
+    ( Position 43 41 )
+    ( TokSym "does" )
+, L
+    ( Position 43 46 )
+    ( TokSym "not" )
+, L
+    ( Position 43 50 )
+    ( TokSym "need" )
+, L
+    ( Position 43 55 )
+    ( TokSym "to" )
+, L
+    ( Position 43 58 )
+    ( TokSym "be" )
+, L
+    ( Position 43 61 )
+    ( TokSym "exactly" )
+, L
+    ( Position 43 69 )
+    ( TokSym "the" )
+, L
+    ( Position 43 73 )
+    ( TokSym "same" )
+, L
+    ( Position 43 78 )
+    ( TokSym "-" )
+, L
+    ( Position 44 1 )
+    ( Indent 2 )
+, L
+    ( Position 44 3 )
+    ( TokSym "for" )
+, L
+    ( Position 44 7 )
+    ( TokSym "example" )
+, L
+    ( Position 44 14 )
+    ( TokOther "," )
+, L
+    ( Position 44 16 )
+    ( TokSym "one" )
+, L
+    ( Position 44 20 )
+    ( TokSym "can" )
+, L
+    ( Position 44 24 )
+    ( TokSym "serialise" )
+, L
+    ( Position 44 34 )
+    ( TokSym "a" )
+, L
+    ( Position 44 36 )
+    ( TokSym "closure" )
+, L
+    ( Position 44 44 )
+    ( TokSym "and" )
+, L
+    ( Position 44 48 )
+    ( TokSym "its" )
+, L
+    ( Position 44 52 )
+    ( TokSym "inputs" )
+, L
+    ( Position 44 58 )
+    ( TokOther "," )
+, L
+    ( Position 44 60 )
+    ( TokOther "/" )
+, L
+    ( Position 44 61 )
+    ( TokSym "upgrade" )
+, L
+    ( Position 44 69 )
+    ( TokSym "your" )
+, L
+    ( Position 44 74 )
+    ( TokSym "code" )
+, L
+    ( Position 44 78 )
+    ( TokOther "/," )
+, L
+    ( Position 45 1 )
+    ( Indent 2 )
+, L
+    ( Position 45 3 )
+    ( TokSym "then" )
+, L
+    ( Position 45 8 )
+    ( TokSym "resume" )
+, L
+    ( Position 45 15 )
+    ( TokSym "running" )
+, L
+    ( Position 45 23 )
+    ( TokSym "the" )
+, L
+    ( Position 45 27 )
+    ( TokSym "closure" )
+, L
+    ( Position 45 35 )
+    ( TokSym "on" )
+, L
+    ( Position 45 38 )
+    ( TokSym "the" )
+, L
+    ( Position 45 42 )
+    ( TokSym "same" )
+, L
+    ( Position 45 47 )
+    ( TokSym "deserialised" )
+, L
+    ( Position 45 60 )
+    ( TokSym "input" )
+, L
+    ( Position 45 66 )
+    ( TokSym "arguments" )
+, L
+    ( Position 45 76 )
+    ( TokSym "but" )
+, L
+    ( Position 46 1 )
+    ( Indent 2 )
+, L
+    ( Position 46 3 )
+    ( TokSym "with" )
+, L
+    ( Position 46 8 )
+    ( TokSym "a" )
+, L
+    ( Position 46 10 )
+    ( TokSym "bugfixed" )
+, L
+    ( Position 46 19 )
+    ( TokSym "closure." )
+, L
+    ( Position 46 28 )
+    ( TokSym "The" )
+, L
+    ( Position 46 32 )
+    ( TokSym "necessity" )
+, L
+    ( Position 46 42 )
+    ( TokSym "to" )
+, L
+    ( Position 46 45 )
+    ( TokSym "pass" )
+, L
+    ( Position 46 50 )
+    ( TokSym "in" )
+, L
+    ( Position 46 53 )
+    ( TokSym "an" )
+, L
+    ( Position 46 56 )
+    ( TokSym "explicit" )
+, L
+    ( Position 46 65 )
+    ( TokSym "'RemoteTable'" )
+, L
+    ( Position 47 1 )
+    ( Indent 2 )
+, L
+    ( Position 47 3 )
+    ( TokOther "(" )
+, L
+    ( Position 47 4 )
+    ( TokSym "here" )
+, L
+    ( Position 47 9 )
+    ( TokSym "simply" )
+, L
+    ( Position 47 16 )
+    ( TokSym "called" )
+, L
+    ( Position 47 23 )
+    ( TokSym "'staticTab'" )
+, L
+    ( Position 47 34 )
+    ( TokOther ")" )
+, L
+    ( Position 47 36 )
+    ( TokSym "is" )
+, L
+    ( Position 47 39 )
+    ( TokSym "not" )
+, L
+    ( Position 47 43 )
+    ( TokSym "a" )
+, L
+    ( Position 47 45 )
+    ( TokSym "liability" )
+, L
+    ( Position 47 54 )
+    ( TokOther "," )
+, L
+    ( Position 47 56 )
+    ( TokSym "but" )
+, L
+    ( Position 47 60 )
+    ( TokSym "a" )
+, L
+    ( Position 47 62 )
+    ( TokSym "useful" )
+, L
+    ( Position 47 69 )
+    ( TokSym "tool" )
+, L
+    ( Position 47 74 )
+    ( TokSym "to" )
+, L
+    ( Position 48 1 )
+    ( Indent 2 )
+, L
+    ( Position 48 3 )
+    ( TokSym "represent" )
+, L
+    ( Position 48 13 )
+    ( TokSym "high-level" )
+, L
+    ( Position 48 24 )
+    ( TokSym "compatibility" )
+, L
+    ( Position 48 38 )
+    ( TokSym "and" )
+, L
+    ( Position 48 42 )
+    ( TokSym "interoperability." )
+, L
+    ( Position 48 60 )
+    ( TokSym "Two" )
+, L
+    ( Position 48 64 )
+    ( TokSym "nodes" )
+, L
+    ( Position 48 70 )
+    ( TokSym "with" )
+, L
+    ( Position 48 75 )
+    ( TokSym "the" )
+, L
+    ( Position 49 1 )
+    ( Indent 2 )
+, L
+    ( Position 49 3 )
+    ( TokSym "same" )
+, L
+    ( Position 49 8 )
+    ( TokSym "keys" )
+, L
+    ( Position 49 13 )
+    ( TokSym "in" )
+, L
+    ( Position 49 16 )
+    ( TokSym "their" )
+, L
+    ( Position 49 22 )
+    ( TokSym "'staticTab's" )
+, L
+    ( Position 49 34 )
+    ( TokOther "," )
+, L
+    ( Position 49 36 )
+    ( TokSym "know" )
+, L
+    ( Position 49 41 )
+    ( TokSym "that" )
+, L
+    ( Position 49 46 )
+    ( TokSym "they" )
+, L
+    ( Position 49 51 )
+    ( TokSym "can" )
+, L
+    ( Position 49 55 )
+    ( TokSym "talk" )
+, L
+    ( Position 49 60 )
+    ( TokSym "to" )
+, L
+    ( Position 49 63 )
+    ( TokSym "each" )
+, L
+    ( Position 49 68 )
+    ( TokSym "other" )
+, L
+    ( Position 50 1 )
+    ( Indent 2 )
+, L
+    ( Position 50 3 )
+    ( TokSym "interoperably" )
+, L
+    ( Position 50 17 )
+    ( TokSym "even" )
+, L
+    ( Position 50 22 )
+    ( TokSym "if" )
+, L
+    ( Position 50 25 )
+    ( TokSym "their" )
+, L
+    ( Position 50 31 )
+    ( TokSym "implementations" )
+, L
+    ( Position 50 47 )
+    ( TokSym "differ" )
+, L
+    ( Position 50 54 )
+    ( TokSym "significantly." )
+, L
+    ( Position 50 69 )
+    ( TokSym "One" )
+, L
+    ( Position 50 73 )
+    ( TokSym "node" )
+, L
+    ( Position 51 1 )
+    ( Indent 2 )
+, L
+    ( Position 51 3 )
+    ( TokSym "that" )
+, L
+    ( Position 51 8 )
+    ( TokSym "wishes" )
+, L
+    ( Position 51 15 )
+    ( TokSym "to" )
+, L
+    ( Position 51 18 )
+    ( TokSym "talk" )
+, L
+    ( Position 51 23 )
+    ( TokSym "to" )
+, L
+    ( Position 51 26 )
+    ( TokSym "different" )
+, L
+    ( Position 51 36 )
+    ( TokSym "nodes" )
+, L
+    ( Position 51 42 )
+    ( TokSym "running" )
+, L
+    ( Position 51 50 )
+    ( TokSym "different" )
+, L
+    ( Position 51 60 )
+    ( TokSym "minor" )
+, L
+    ( Position 51 66 )
+    ( TokSym "versions" )
+, L
+    ( Position 51 75 )
+    ( TokSym "of" )
+, L
+    ( Position 52 1 )
+    ( Indent 2 )
+, L
+    ( Position 52 3 )
+    ( TokSym "the" )
+, L
+    ( Position 52 7 )
+    ( TokSym "same" )
+, L
+    ( Position 52 12 )
+    ( TokSym "protocol" )
+, L
+    ( Position 52 20 )
+    ( TokOther "," )
+, L
+    ( Position 52 22 )
+    ( TokSym "could" )
+, L
+    ( Position 52 28 )
+    ( TokSym "instantiate" )
+, L
+    ( Position 52 40 )
+    ( TokSym "two" )
+, L
+    ( Position 52 44 )
+    ( TokSym "different" )
+, L
+    ( Position 52 54 )
+    ( TokSym "'staticTab's" )
+, L
+    ( Position 52 67 )
+    ( TokSym "with" )
+, L
+    ( Position 52 72 )
+    ( TokSym "the" )
+, L
+    ( Position 52 76 )
+    ( TokSym "same" )
+, L
+    ( Position 53 1 )
+    ( Indent 2 )
+, L
+    ( Position 53 3 )
+    ( TokSym "keys" )
+, L
+    ( Position 53 8 )
+    ( TokSym "but" )
+, L
+    ( Position 53 12 )
+    ( TokSym "different" )
+, L
+    ( Position 53 22 )
+    ( TokSym "implementations" )
+, L
+    ( Position 53 37 )
+    ( TokOther "," )
+, L
+    ( Position 53 39 )
+    ( TokSym "to" )
+, L
+    ( Position 53 42 )
+    ( TokSym "handle" )
+, L
+    ( Position 53 49 )
+    ( TokSym "behavioural" )
+, L
+    ( Position 53 61 )
+    ( TokSym "nuances" )
+, L
+    ( Position 53 69 )
+    ( TokSym "between" )
+, L
+    ( Position 53 77 )
+    ( TokSym "the" )
+, L
+    ( Position 54 1 )
+    ( Indent 2 )
+, L
+    ( Position 54 3 )
+    ( TokSym "minor" )
+, L
+    ( Position 54 9 )
+    ( TokSym "versions." )
+, L
+    ( Position 54 19 )
+    ( TokSym "In" )
+, L
+    ( Position 54 22 )
+    ( TokSym "general" )
+, L
+    ( Position 54 29 )
+    ( TokOther "," )
+, L
+    ( Position 54 31 )
+    ( TokSym "it's" )
+, L
+    ( Position 54 36 )
+    ( TokSym "a" )
+, L
+    ( Position 54 38 )
+    ( TokSym "useful" )
+, L
+    ( Position 54 45 )
+    ( TokSym "bit" )
+, L
+    ( Position 54 49 )
+    ( TokSym "of" )
+, L
+    ( Position 54 52 )
+    ( TokSym "metadata" )
+, L
+    ( Position 54 61 )
+    ( TokSym "to" )
+, L
+    ( Position 54 64 )
+    ( TokSym "keep" )
+, L
+    ( Position 54 69 )
+    ( TokSym "around" )
+, L
+    ( Position 54 76 )
+    ( TokSym "in" )
+, L
+    ( Position 55 1 )
+    ( Indent 2 )
+, L
+    ( Position 55 3 )
+    ( TokSym "your" )
+, L
+    ( Position 55 8 )
+    ( TokSym "program" )
+, L
+    ( Position 55 16 )
+    ( TokSym "code" )
+, L
+    ( Position 55 20 )
+    ( TokOther "," )
+, L
+    ( Position 55 22 )
+    ( TokSym "and" )
+, L
+    ( Position 55 26 )
+    ( TokSym "can" )
+, L
+    ( Position 55 30 )
+    ( TokSym "help" )
+, L
+    ( Position 55 35 )
+    ( TokSym "you" )
+, L
+    ( Position 55 39 )
+    ( TokSym "perform" )
+, L
+    ( Position 55 47 )
+    ( TokSym "smooth" )
+, L
+    ( Position 55 54 )
+    ( TokSym "upgrades" )
+, L
+    ( Position 55 63 )
+    ( TokSym "of" )
+, L
+    ( Position 55 66 )
+    ( TokSym "a" )
+, L
+    ( Position 56 1 )
+    ( Indent 2 )
+, L
+    ( Position 56 3 )
+    ( TokSym "non-centralised" )
+, L
+    ( Position 56 19 )
+    ( TokSym "networking" )
+, L
+    ( Position 56 30 )
+    ( TokSym "protocol" )
+, L
+    ( Position 56 39 )
+    ( TokSym "more" )
+, L
+    ( Position 56 44 )
+    ( TokSym "easily." )
+, L
+    ( Position 58 1 )
+    ( Indent 2 )
+, L
+    ( Position 58 3 )
+    ( TokSym "There" )
+, L
+    ( Position 58 9 )
+    ( TokSym "are" )
+, L
+    ( Position 58 13 )
+    ( TokSym "also" )
+, L
+    ( Position 58 18 )
+    ( TokSym "a" )
+, L
+    ( Position 58 20 )
+    ( TokSym "few" )
+, L
+    ( Position 58 24 )
+    ( TokSym "technical" )
+, L
+    ( Position 58 34 )
+    ( TokSym "differences" )
+, L
+    ( Position 58 46 )
+    ( TokSym "between" )
+, L
+    ( Position 58 54 )
+    ( TokSym "this" )
+, L
+    ( Position 58 59 )
+    ( TokSym "and" )
+, L
+    ( Position 59 1 )
+    ( Indent 2 )
+, L
+    ( Position 59 3 )
+    ( TokOther "@" )
+, L
+    ( Position 59 4 )
+    ( TokSym "distributed-static" )
+, L
+    ( Position 59 22 )
+    ( TokOther "@," )
+, L
+    ( Position 59 25 )
+    ( TokSym "some" )
+, L
+    ( Position 59 30 )
+    ( TokSym "of" )
+, L
+    ( Position 59 33 )
+    ( TokSym "which" )
+, L
+    ( Position 59 39 )
+    ( TokSym "could" )
+, L
+    ( Position 59 45 )
+    ( TokSym "be" )
+, L
+    ( Position 59 48 )
+    ( TokSym "re-adopted" )
+, L
+    ( Position 59 59 )
+    ( TokSym "there" )
+, L
+    ( Position 59 65 )
+    ( TokSym "too" )
+, L
+    ( Position 59 68 ) Colon
+, L
+    ( Position 61 1 )
+    ( Indent 2 )
+, L
+    ( Position 61 3 )
+    ( TokOther "*" )
+, L
+    ( Position 61 7 )
+    ( TokSym "We" )
+, L
+    ( Position 61 10 )
+    ( TokSym "use" )
+, L
+    ( Position 61 14 )
+    ( TokSym "dependent-types" )
+, L
+    ( Position 61 30 )
+    ( TokSym "and" )
+, L
+    ( Position 61 34 )
+    ( TokSym "type-level" )
+, L
+    ( Position 61 45 )
+    ( TokSym "programming" )
+, L
+    ( Position 61 57 )
+    ( TokSym "to" )
+, L
+    ( Position 61 60 )
+    ( TokSym "guarantee" )
+, L
+    ( Position 61 70 )
+    ( TokSym "type" )
+, L
+    ( Position 62 1 )
+    ( Indent 6 )
+, L
+    ( Position 62 7 )
+    ( TokSym "safety" )
+, L
+    ( Position 62 13 )
+    ( TokOther "," )
+, L
+    ( Position 62 15 )
+    ( TokSym "rather" )
+, L
+    ( Position 62 22 )
+    ( TokSym "than" )
+, L
+    ( Position 62 27 )
+    ( TokSym "'Rank1Dynamic'." )
+, L
+    ( Position 62 43 )
+    ( TokSym "This" )
+, L
+    ( Position 62 48 )
+    ( TokSym "enables" )
+, L
+    ( Position 62 56 )
+    ( TokSym "us" )
+, L
+    ( Position 62 59 )
+    ( TokSym "to" )
+, L
+    ( Position 62 62 )
+    ( TokSym "store" )
+, L
+    ( Position 62 68 )
+    ( TokSym "all" )
+, L
+    ( Position 62 72 )
+    ( TokSym "possible" )
+, L
+    ( Position 63 1 )
+    ( Indent 6 )
+, L
+    ( Position 63 7 )
+    ( TokSym "closure" )
+, L
+    ( Position 63 15 )
+    ( TokSym "types" )
+, L
+    ( Position 63 21 )
+    ( TokSym "instead" )
+, L
+    ( Position 63 29 )
+    ( TokSym "of" )
+, L
+    ( Position 63 32 )
+    ( TokSym "just" )
+, L
+    ( Position 63 37 )
+    ( TokSym "rank-1" )
+, L
+    ( Position 63 44 )
+    ( TokSym "polymorphic" )
+, L
+    ( Position 63 56 )
+    ( TokSym "functions" )
+, L
+    ( Position 63 65 )
+    ( TokOther "," )
+, L
+    ( Position 63 67 )
+    ( TokSym "including" )
+, L
+    ( Position 63 77 )
+    ( TokSym "but" )
+, L
+    ( Position 64 1 )
+    ( Indent 6 )
+, L
+    ( Position 64 7 )
+    ( TokSym "not" )
+, L
+    ( Position 64 11 )
+    ( TokSym "limited" )
+, L
+    ( Position 64 19 )
+    ( TokSym "to" )
+, L
+    ( Position 64 21 ) Colon
+, L
+    ( Position 64 23 )
+    ( TokSym "rank-n" )
+, L
+    ( Position 64 30 )
+    ( TokSym "functions" )
+, L
+    ( Position 64 39 )
+    ( TokOther "," )
+, L
+    ( Position 64 41 )
+    ( TokSym "functions" )
+, L
+    ( Position 64 51 )
+    ( TokSym "with" )
+, L
+    ( Position 64 56 )
+    ( TokSym "constraints" )
+, L
+    ( Position 64 67 )
+    ( TokOther "," )
+, L
+    ( Position 64 69 )
+    ( TokSym "those" )
+, L
+    ( Position 64 75 )
+    ( TokSym "using" )
+, L
+    ( Position 65 1 )
+    ( Indent 6 )
+, L
+    ( Position 65 7 )
+    ( TokSym "higher-kinded" )
+, L
+    ( Position 65 21 )
+    ( TokSym "types" )
+, L
+    ( Position 65 26 )
+    ( TokOther "," )
+, L
+    ( Position 65 28 )
+    ( TokSym "etc." )
+, L
+    ( Position 67 1 )
+    ( Indent 2 )
+, L
+    ( Position 67 3 )
+    ( TokOther "*" )
+, L
+    ( Position 67 7 )
+    ( TokSym "Our" )
+, L
+    ( Position 67 11 )
+    ( TokSym "serialisation" )
+, L
+    ( Position 67 25 )
+    ( TokSym "typeclasses" )
+, L
+    ( Position 67 37 )
+    ( TokSym "are" )
+, L
+    ( Position 67 41 )
+    ( TokSym "designed" )
+, L
+    ( Position 67 50 )
+    ( TokSym "to" )
+, L
+    ( Position 67 53 )
+    ( TokSym "interoperate" )
+, L
+    ( Position 67 66 )
+    ( TokSym "with" )
+, L
+    ( Position 67 71 )
+    ( TokSym "many" )
+, L
+    ( Position 68 1 )
+    ( Indent 6 )
+, L
+    ( Position 68 7 )
+    ( TokSym "different" )
+, L
+    ( Position 68 17 )
+    ( TokSym "serialisation" )
+, L
+    ( Position 68 31 )
+    ( TokSym "frameworks." )
+, L
+    ( Position 68 43 )
+    ( TokSym "Instances" )
+, L
+    ( Position 68 53 )
+    ( TokSym "for" )
+, L
+    ( Position 68 57 )
+    ( TokSym "'Data.Binary'" )
+, L
+    ( Position 68 71 )
+    ( TokSym "and" )
+, L
+    ( Position 69 1 )
+    ( Indent 6 )
+, L
+    ( Position 69 7 )
+    ( TokSym "'Codec.Serialise'" )
+, L
+    ( Position 69 25 )
+    ( TokSym "are" )
+, L
+    ( Position 69 29 )
+    ( TokSym "provided" )
+, L
+    ( Position 69 38 )
+    ( TokSym "here" )
+, L
+    ( Position 69 43 )
+    ( TokSym "for" )
+, L
+    ( Position 69 47 )
+    ( TokSym "convenience." )
+, L
+    ( Position 71 1 )
+    ( Indent 2 )
+, L
+    ( Position 71 3 )
+    ( TokOther "*" )
+, L
+    ( Position 71 7 )
+    ( TokSym "We" )
+, L
+    ( Position 71 10 )
+    ( TokSym "have" )
+, L
+    ( Position 71 15 )
+    ( TokSym "additional" )
+, L
+    ( Position 71 26 )
+    ( TokSym "Template" )
+, L
+    ( Position 71 35 )
+    ( TokSym "Haskell" )
+, L
+    ( Position 71 43 )
+    ( TokSym "splices" )
+, L
+    ( Position 71 51 )
+    ( TokSym "that" )
+, L
+    ( Position 71 56 )
+    ( TokSym "support" )
+, L
+    ( Position 71 64 )
+    ( TokSym "creating" )
+, L
+    ( Position 71 73 )
+    ( TokSym "static" )
+, L
+    ( Position 72 1 )
+    ( Indent 6 )
+, L
+    ( Position 72 7 )
+    ( TokSym "values" )
+, L
+    ( Position 72 14 )
+    ( TokSym "from" )
+, L
+    ( Position 72 19 )
+    ( TokSym "top-level" )
+, L
+    ( Position 72 29 )
+    ( TokSym "definitions" )
+, L
+    ( Position 72 41 )
+    ( TokSym "that" )
+, L
+    ( Position 72 46 )
+    ( TokSym "must" )
+, L
+    ( Position 72 51 )
+    ( TokSym "refer" )
+, L
+    ( Position 72 57 )
+    ( TokSym "to" )
+, L
+    ( Position 72 60 )
+    ( TokSym "other" )
+, L
+    ( Position 72 66 )
+    ( TokSym "static" )
+, L
+    ( Position 72 73 )
+    ( TokSym "values" )
+, L
+    ( Position 72 79 )
+    ( TokOther "," )
+, L
+    ( Position 73 1 )
+    ( Indent 6 )
+, L
+    ( Position 73 7 )
+    ( TokSym "whether" )
+, L
+    ( Position 73 15 )
+    ( TokSym "they" )
+, L
+    ( Position 73 20 )
+    ( TokSym "be" )
+, L
+    ( Position 73 23 )
+    ( TokSym "recursive" )
+, L
+    ( Position 73 33 )
+    ( TokSym "or" )
+, L
+    ( Position 73 36 )
+    ( TokSym "mutually-recursive" )
+, L
+    ( Position 73 55 )
+    ( TokSym "or" )
+, L
+    ( Position 73 58 )
+    ( TokSym "neither." )
+, L
+    ( Position 73 67 )
+    ( TokSym "This" )
+, L
+    ( Position 73 72 )
+    ( TokSym "is" )
+, L
+    ( Position 74 1 )
+    ( Indent 6 )
+, L
+    ( Position 74 7 )
+    ( TokSym "achieved" )
+, L
+    ( Position 74 16 )
+    ( TokSym "using" )
+, L
+    ( Position 74 22 )
+    ( TokSym "an" )
+, L
+    ( Position 74 25 )
+    ( TokSym "implementation" )
+, L
+    ( Position 74 40 )
+    ( TokSym "of" )
+, L
+    ( Position 74 43 )
+    ( TokOther "@" )
+, L
+    ( Position 74 44 )
+    ( TokSym "mfix" )
+, L
+    ( Position 74 48 )
+    ( TokOther "@" )
+, L
+    ( Position 74 50 )
+    ( TokSym "for" )
+, L
+    ( Position 74 54 )
+    ( TokSym "the" )
+, L
+    ( Position 74 58 )
+    ( TokOther "@" )
+, L
+    ( Position 74 59 )
+    ( TokSym "Q" )
+, L
+    ( Position 74 60 )
+    ( TokOther "@" )
+, L
+    ( Position 74 62 )
+    ( TokSym "monad." )
+, L
+    ( Position 76 1 )
+    ( Indent 2 )
+, L
+    ( Position 76 3 )
+    ( TokSym "We" )
+, L
+    ( Position 76 6 )
+    ( TokSym "did" )
+, L
+    ( Position 76 10 )
+    ( TokOther "/" )
+, L
+    ( Position 76 11 )
+    ( TokSym "not" )
+, L
+    ( Position 76 14 )
+    ( TokOther "/" )
+, L
+    ( Position 76 16 )
+    ( TokSym "implement" )
+, L
+    ( Position 76 26 )
+    ( TokSym "the" )
+, L
+    ( Position 76 30 )
+    ( TokSym "ability" )
+, L
+    ( Position 76 38 )
+    ( TokSym "to" )
+, L
+    ( Position 76 41 )
+    ( TokSym "compose" )
+, L
+    ( Position 76 49 )
+    ( TokSym "static" )
+, L
+    ( Position 76 56 )
+    ( TokSym "references." )
+, L
+    ( Position 76 68 )
+    ( TokSym "The" )
+, L
+    ( Position 76 72 )
+    ( TokSym "main" )
+, L
+    ( Position 77 1 )
+    ( Indent 2 )
+, L
+    ( Position 77 3 )
+    ( TokSym "reason" )
+, L
+    ( Position 77 10 )
+    ( TokSym "is" )
+, L
+    ( Position 77 13 )
+    ( TokSym "that" )
+, L
+    ( Position 77 17 )
+    ( TokOther "," )
+, L
+    ( Position 77 19 )
+    ( TokSym "in" )
+, L
+    ( Position 77 22 )
+    ( TokSym "our" )
+, L
+    ( Position 77 26 )
+    ( TokSym "view" )
+, L
+    ( Position 77 30 )
+    ( TokOther "," )
+, L
+    ( Position 77 32 )
+    ( TokSym "the" )
+, L
+    ( Position 77 36 )
+    ( TokOther "/" )
+, L
+    ( Position 77 37 )
+    ( TokSym "purpose" )
+, L
+    ( Position 77 44 )
+    ( TokOther "/" )
+, L
+    ( Position 77 46 )
+    ( TokSym "of" )
+, L
+    ( Position 77 49 )
+    ( TokSym "static" )
+, L
+    ( Position 77 56 )
+    ( TokSym "closures" )
+, L
+    ( Position 77 65 )
+    ( TokSym "is" )
+, L
+    ( Position 77 68 )
+    ( TokSym "to" )
+, L
+    ( Position 77 71 )
+    ( TokSym "represent" )
+, L
+    ( Position 78 1 )
+    ( Indent 2 )
+, L
+    ( Position 78 3 )
+    ( TokSym "which" )
+, L
+    ( Position 78 9 )
+    ( TokSym "top-level" )
+, L
+    ( Position 78 19 )
+    ( TokSym "tasks" )
+, L
+    ( Position 78 25 )
+    ( TokSym "to" )
+, L
+    ( Position 78 28 )
+    ( TokSym "execute" )
+, L
+    ( Position 78 35 )
+    ( TokOther "," )
+, L
+    ( Position 78 37 )
+    ( TokSym "and" )
+, L
+    ( Position 78 41 )
+    ( TokSym "the" )
+, L
+    ( Position 78 45 )
+    ( TokSym "inputs" )
+, L
+    ( Position 78 52 )
+    ( TokSym "to" )
+, L
+    ( Position 78 55 )
+    ( TokSym "execute" )
+, L
+    ( Position 78 63 )
+    ( TokSym "it" )
+, L
+    ( Position 78 66 )
+    ( TokSym "on." )
+, L
+    ( Position 78 70 )
+    ( TokSym "This" )
+, L
+    ( Position 78 75 )
+    ( TokSym "is" )
+, L
+    ( Position 79 1 )
+    ( Indent 2 )
+, L
+    ( Position 79 3 )
+    ( TokSym "the" )
+, L
+    ( Position 79 7 )
+    ( TokOther "/" )
+, L
+    ( Position 79 8 )
+    ( TokSym "interface" )
+, L
+    ( Position 79 17 )
+    ( TokOther "/" )
+, L
+    ( Position 79 19 )
+    ( TokSym "or" )
+, L
+    ( Position 79 22 )
+    ( TokOther "/" )
+, L
+    ( Position 79 23 )
+    ( TokSym "contract" )
+, L
+    ( Position 79 31 )
+    ( TokOther "/" )
+, L
+    ( Position 79 33 )
+    ( TokSym "of" )
+, L
+    ( Position 79 36 )
+    ( TokSym "this" )
+, L
+    ( Position 79 41 )
+    ( TokSym "concept." )
+, L
+    ( Position 79 50 )
+    ( TokOther "/" )
+, L
+    ( Position 79 51 )
+    ( TokSym "How" )
+, L
+    ( Position 79 55 )
+    ( TokSym "you" )
+, L
+    ( Position 79 59 )
+    ( TokSym "run" )
+, L
+    ( Position 79 62 )
+    ( TokOther "/" )
+, L
+    ( Position 79 64 )
+    ( TokSym "the" )
+, L
+    ( Position 79 68 )
+    ( TokSym "task" )
+, L
+    ( Position 79 73 )
+    ( TokSym "is" )
+, L
+    ( Position 79 76 )
+    ( TokSym "an" )
+, L
+    ( Position 80 1 )
+    ( Indent 2 )
+, L
+    ( Position 80 3 )
+    ( TokSym "implementation" )
+, L
+    ( Position 80 18 )
+    ( TokSym "detail" )
+, L
+    ( Position 80 24 )
+    ( TokOther "," )
+, L
+    ( Position 80 26 )
+    ( TokSym "and" )
+, L
+    ( Position 80 30 )
+    ( TokSym "as" )
+, L
+    ( Position 80 33 )
+    ( TokSym "discussed" )
+, L
+    ( Position 80 43 )
+    ( TokSym "above" )
+, L
+    ( Position 80 48 )
+    ( TokOther "," )
+, L
+    ( Position 80 50 )
+    ( TokSym "this" )
+, L
+    ( Position 80 55 )
+    ( TokSym "might" )
+, L
+    ( Position 80 61 )
+    ( TokSym "be" )
+, L
+    ( Position 80 64 )
+    ( TokSym "different" )
+, L
+    ( Position 80 74 )
+    ( TokSym "across" )
+, L
+    ( Position 81 1 )
+    ( Indent 2 )
+, L
+    ( Position 81 3 )
+    ( TokSym "different" )
+, L
+    ( Position 81 13 )
+    ( TokSym "machines" )
+, L
+    ( Position 81 22 )
+    ( TokSym "or" )
+, L
+    ( Position 81 25 )
+    ( TokSym "as" )
+, L
+    ( Position 81 28 )
+    ( TokSym "time" )
+, L
+    ( Position 81 33 )
+    ( TokSym "passes" )
+, L
+    ( Position 81 40 )
+    ( TokSym "and" )
+, L
+    ( Position 81 44 )
+    ( TokSym "we" )
+, L
+    ( Position 81 47 )
+    ( TokSym "upgrade" )
+, L
+    ( Position 81 55 )
+    ( TokSym "the" )
+, L
+    ( Position 81 59 )
+    ( TokSym "code." )
+, L
+    ( Position 81 65 )
+    ( TokSym "Therefore" )
+, L
+    ( Position 81 75 )
+    ( TokSym "it" )
+, L
+    ( Position 82 1 )
+    ( Indent 2 )
+, L
+    ( Position 82 3 )
+    ( TokSym "makes" )
+, L
+    ( Position 82 9 )
+    ( TokSym "no" )
+, L
+    ( Position 82 12 )
+    ( TokSym "sense" )
+, L
+    ( Position 82 18 )
+    ( TokSym "to" )
+, L
+    ( Position 82 21 )
+    ( TokSym "serialise" )
+, L
+    ( Position 82 31 )
+    ( TokSym "a" )
+, L
+    ( Position 82 33 )
+    ( TokSym "representation" )
+, L
+    ( Position 82 48 )
+    ( TokSym "of" )
+, L
+    ( Position 82 80 )
+    ( LexicalError "
+      closure B and closure C", because it is irrelevant to the /interface/.
+
+      If your /interface/ is actually "run arbitrary user-defined code" (e.g. in a
+      VM or EDSL evaluator) then it would indeed make sense to support composition,
+      but then you should define your own AST, evaluator, and serialiser for this;
+      and pass the ASTs around as regular runtime values, not static values.
+      Supporting arbitrary ASTs like this is outside of the scope of this library.
+
+      Further, in Haskell there are many ways of applying values not just @(_ :: a
+      -> b) (_ :: a) :: b@, e.g. with constraints, with a combination of static and
+      non-static arguments, with type applications, and so on. Only the simple form
+      @(_ :: a -> b) (_ :: a) :: b@ is likely to be interoperable across multiple
+      languages. Supporting AST statics would therefore unnecessarily restrict how
+      we can implement the behaviour of a static closure in our chosen language.
+
+      See unit tests for example usage, e.g.
+      <https://github.com/infinity0/hs-static/tree/master/test/Control/Static/UnitTests.hs UnitTests>
+    Homepage:            https://github.com/infinity0/hs-static
+    Bug-Reports:         https://github.com/infinity0/hs-static/issues
+    License:             GPL-3.0-or-later
+    License-File:        LICENSE.GPL-3
+    Author:              Ximin Luo
+    Maintainer:          infinity0@pwned.gg
+    Copyright:           2020 Ximin Luo
+    Category:            Control, Static, Closure
+    Tested-With:         GHC >= 8.8.3
+    Extra-Source-Files:  CHANGELOG.md
+
+    Source-Repository head
+      Type: git
+      Location: https://github.com/infinity0/hs-static
+
+    Flag dev
+      Description: Set compile flags for development
+      Default:     False
+      Manual:      True
+
+    Common generic
+      Default-Language: Haskell2010
+      Build-Depends: base >= 4 && < 5,
+      GHC-Options:
+        -Wall
+        -Wno-unused-matches
+        -Wredundant-constraints
+        -Wincomplete-record-updates
+        -Wincomplete-uni-patterns
+      if flag(dev)
+        GHC-Options:
+          -Werror
+          -O2
+        -- some optimisations cause memory leaks; switch on -O2 and profiling so we
+        -- can detect this during development so it doesn't cause surprises later
+        GHC-Prof-Options:
+          -fprof-auto
+
+    Library
+      Import: generic
+      Build-Depends:
+          constraints
+        , text
+        , singletons
+        -- for serialisation
+        , binary
+        , bytestring
+        , serialise
+        -- Control.Static.TH
+        , template-haskell
+      HS-Source-Dirs: src
+      Exposed-Modules:
+          Control.Static
+        , Control.Static.Common
+        , Control.Static.Closure
+        , Control.Static.Serialise
+        , Control.Static.Static
+        , Control.Static.TH
+
+    Test-Suite doctests
+      Import: generic
+      GHC-Options: -threaded
+      Build-Depends:
+          doctest
+        , static
+      HS-Source-Dirs: test
+      Type: exitcode-stdio-1.0
+      Main-Is: DocTests.hs
+
+    Test-Suite unit
+      Import: generic
+      GHC-Options: -threaded
+      Build-Depends:
+          tasty
+        , tasty-quickcheck
+        , tasty-hunit
+        , checkers
+        , static
+        , lens
+        , mtl
+        , transformers
+      HS-Source-Dirs: test
+      Type: exitcode-stdio-1.0
+      Main-Is: UnitTests.hs
+      Other-Modules:
+        Control.Static.UnitTests
+    " )
+, L
+    ( Position 82 51 ) EOF
+]

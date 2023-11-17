@@ -1,0 +1,173 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 9 )
+    ( TokSym "DeepArrow" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 11 )
+    ( TokSym "0.0" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 3 9 ) Colon
+, L
+    ( Position 3 12 )
+    ( TokSym "Arrows" )
+, L
+    ( Position 3 19 )
+    ( TokSym "for" )
+, L
+    ( Position 3 23 )
+    ( TokStr "deep application" )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Category" )
+, L
+    ( Position 4 9 ) Colon
+, L
+    ( Position 4 25 )
+    ( TokSym "Composition" )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 5 12 ) Colon
+, L
+    ( Position 6 1 )
+    ( Indent 2 )
+, L
+    ( Position 6 3 )
+    ( TokSym "This" )
+, L
+    ( Position 6 8 )
+    ( TokSym "library" )
+, L
+    ( Position 6 16 )
+    ( TokSym "provides" )
+, L
+    ( Position 6 25 )
+    ( TokSym "a" )
+, L
+    ( Position 6 27 )
+    ( TokSym "framework" )
+, L
+    ( Position 6 37 )
+    ( TokSym "for" )
+, L
+    ( Position 6 41 )
+    ( TokSym "type-directed" )
+, L
+    ( Position 6 55 )
+    ( TokSym "composition" )
+, L
+    ( Position 6 67 )
+    ( TokSym "of" )
+, L
+    ( Position 6 70 )
+    ( TokSym "value" )
+, L
+    ( Position 7 1 )
+    ( Indent 2 )
+, L
+    ( Position 7 3 )
+    ( TokSym "editors" )
+, L
+    ( Position 7 11 )
+    ( TokOther "(" )
+, L
+    ( Position 7 12 )
+    ( TokSym "non-syntactic" )
+, L
+    ( Position 7 26 )
+    ( TokSym "transformations" )
+, L
+    ( Position 7 41 )
+    ( TokOther ")" )
+, L
+    ( Position 7 42 )
+    ( TokSym "." )
+, L
+    ( Position 7 45 )
+    ( TokSym "The" )
+, L
+    ( Position 7 49 )
+    ( TokSym "tools" )
+, L
+    ( Position 7 55 )
+    ( TokSym "enable" )
+, L
+    ( Position 7 62 )
+    ( TokOther "\" )
+, L
+    ( Position 7 77 )
+    ( LexicalError "\xd
+      application\" in two senses: deep application of functions and\xd
+      application of deep functions.  These tools generalize beyond values and\xd
+      functions, via the @DeepArrow@ subclass of the @Arrow@ type class.\xd
+      .\xd
+      For more information see:\xd
+      .\xd
+      * The project wiki page <http://haskell.org/haskellwiki/DeepArrow>\xd
+      .\xd
+      * Application of deep arrows for composable interfaces in the TV library:\xd
+        <http://haskell.org/haskellwiki/TV>\xd
+      .\xd
+      * The motivating idea and paper "Functional Programming by Interacting\xd
+        with Tangible Values": <http://conal.net/papers/Eros>\xd
+      .\xd
+      This page and the module documentation pages have links to colorized\xd
+      source code and to wiki pages where you can read and contribute /user\xd
+      comments/.  Enjoy!\xd
+      .\xd
+      The primary module is "Control.Arrow.DeepArrow".  Examples in\xd
+      "Control.Arrow.DeepArrow.Examples".\xd
+      .\xd
+      /Note/: Many of the type signatures use infix type operators (as in\xd
+      @a~>b@), a recent extension to GHC.  In reading the documentation and\xd
+      code, be aware that infix operators bind more tightly than @->@.\xd
+      .\xd
+      &#169; 2007 by Conal Elliott (<http://conal.net>); BSD3 license.\xd
+    Author:\x9\x9\x9Conal Elliott <conal@conal.net>\xd
+    Maintainer:\x9\x9conal@conal.net\xd
+    Homepage:\x9\x9http://haskell.org/haskellwiki/DeepArrow\xd
+    Package-Url:\x9\x9http://darcs.haskell.org/packages/DeepArrow\xd
+    License:\x9\x9BSD3\xd
+    Stability:\x9\x9experimental\xd
+    Copyright:\x9\x9(c) 2007 by Conal Elliott\xd
+    Hs-Source-Dirs:\x9\x9src\xd
+    Build-Depends:\x9\x9base, mtl\xd
+    Extensions:             CPP, UndecidableInstances\xd
+    Exposed-Modules:\xd
+                            Control.Arrow.DeepArrow\xd
+                            Data.Tupler\xd
+                            Data.FunArr\xd
+                            Control.Arrow.DeepArrow.Examples\xd
+    ghc-options:\x9\x9-O -Wall\xd
+    " )
+, L
+    ( Position 7 63 ) EOF
+]

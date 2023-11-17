@@ -1,0 +1,130 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 22 )
+    ( TokSym "vacuum-opengl" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 22 )
+    ( TokSym "0.0.1" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 3 9 ) Colon
+, L
+    ( Position 3 22 )
+    ( TokSym "Visualize" )
+, L
+    ( Position 3 32 )
+    ( TokSym "live" )
+, L
+    ( Position 3 37 )
+    ( TokSym "Haskell" )
+, L
+    ( Position 3 45 )
+    ( TokSym "data" )
+, L
+    ( Position 3 50 )
+    ( TokSym "structures" )
+, L
+    ( Position 3 61 )
+    ( TokSym "using" )
+, L
+    ( Position 3 67 )
+    ( TokSym "vacuum" )
+, L
+    ( Position 3 73 )
+    ( TokOther "," )
+, L
+    ( Position 3 75 )
+    ( TokSym "graphviz" )
+, L
+    ( Position 3 84 )
+    ( TokSym "and" )
+, L
+    ( Position 3 88 )
+    ( TokSym "OpenGL." )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 4 12 ) Colon
+, L
+    ( Position 4 22 )
+    ( LexicalError "\x7fVisualize live Haskell data structures using vacuum, graphviz and OpenGL.
+                         Intended as an easier-to-build alternative (no large dependency chain)
+                         to vacuum-cairo. Because of severe problems with GHCi+GLUT, it is 
+                         implemented using a client-server architecture.
+    License:             PublicDomain
+    License-file:        LICENSE
+    Author:              Balazs Komuves
+    Maintainer:          bkomuves (plus) hackage (at) gmail (dot) com
+    Homepage:            http://code.haskell.org/~bkomuves/
+    Stability:           Experimental
+    Category:            Development
+    Tested-With:         GHC == 6.10.1 
+    Cabal-Version:       >= 1.2
+    Build-Type:          Simple
+
+    Flag base4
+      Description: Base v4 
+
+    Executable vacuum-opengl-server
+      if flag(base4)
+        Build-Depends:        base >= 4 && < 5, directory, process, network
+        cpp-options:          -DBASE_MAJOR_VERSION=4
+      else
+        Build-Depends:        base >= 3 && < 4, directory, process, network
+        cpp-options:          -DBASE_MAJOR_VERSION=3
+
+      Build-Depends:       stb-image >= 0.1.3, OpenGL >= 2.2, GLUT >= 2.1
+        
+      Main-is:             ServerMain.hs
+      Other-Modules:       System.Vacuum.OpenGL.Server
+      
+      Hs-Source-Dirs:      .
+      Extensions:          CPP
+      cpp-options:         -DVACUUM_OPENGL_DEFAULTPORT=55961
+      ghc-options:         -Wall -threaded
+
+    Library
+      if flag(base4)
+        Build-Depends:        base >= 4 && < 5, pretty, network
+        cpp-options:          -DBASE_MAJOR_VERSION=4
+      else
+        Build-Depends:        base >= 3 && < 4, pretty, network
+        cpp-options:          -DBASE_MAJOR_VERSION=3
+
+      Build-Depends:       vacuum >= 0.0.90
+        
+      Exposed-Modules:     System.Vacuum.OpenGL.Client,
+                           System.Vacuum.OpenGL
+      
+      Hs-Source-Dirs:      .
+      Extensions:          CPP
+      cpp-options:         -DVACUUM_OPENGL_DEFAULTPORT=55961
+      ghc-options:         -Wall 
+    " )
+, L
+    ( Position 4 22 ) EOF
+]

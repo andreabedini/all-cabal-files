@@ -1,0 +1,236 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 7 )
+    ( TokSym "Cardinality" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 2 9 ) Colon
+, L
+    ( Position 2 11 )
+    ( TokSym "Measure" )
+, L
+    ( Position 2 19 )
+    ( TokSym "container" )
+, L
+    ( Position 2 29 )
+    ( TokSym "capacity." )
+, L
+    ( Position 2 39 )
+    ( TokSym "Use" )
+, L
+    ( Position 2 43 )
+    ( TokSym "it" )
+, L
+    ( Position 2 46 )
+    ( TokSym "to" )
+, L
+    ( Position 2 49 )
+    ( TokSym "safely" )
+, L
+    ( Position 2 56 )
+    ( TokSym "change" )
+, L
+    ( Position 2 63 )
+    ( TokSym "container." )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 3 12 ) Colon
+, L
+    ( Position 4 1 )
+    ( Indent 8 )
+, L
+    ( Position 4 9 )
+    ( TokSym "This" )
+, L
+    ( Position 4 14 )
+    ( TokSym "module" )
+, L
+    ( Position 4 21 )
+    ( TokSym "introduces" )
+, L
+    ( Position 4 32 )
+    ( TokSym "typeclasses" )
+, L
+    ( Position 5 1 )
+    ( Indent 8 )
+, L
+    ( Position 5 9 )
+    ( TokSym "." )
+, L
+    ( Position 6 1 )
+    ( Indent 8 )
+, L
+    ( Position 6 9 )
+    ( TokOther "*" )
+, L
+    ( Position 6 11 )
+    ( TokOther "@" )
+, L
+    ( Position 6 12 )
+    ( TokSym "HasCard" )
+, L
+    ( Position 6 19 )
+    ( TokOther "@" )
+, L
+    ( Position 6 21 )
+    ( TokOther "=" )
+, L
+    ( Position 6 23 )
+    ( TokOther "\" )
+, L
+    ( Position 6 24 )
+    ( TokStr "Has cardinality\". In other words, \" )
+, L
+    ( Position 6 62 )
+    ( TokSym "it's" )
+, L
+    ( Position 6 67 )
+    ( TokSym "possible" )
+, L
+    ( Position 6 76 )
+    ( TokSym "to" )
+, L
+    ( Position 7 1 )
+    ( Indent 8 )
+, L
+    ( Position 7 9 )
+    ( TokSym "measure" )
+, L
+    ( Position 7 17 )
+    ( TokSym "current" )
+, L
+    ( Position 7 25 )
+    ( TokSym "count" )
+, L
+    ( Position 7 31 )
+    ( TokSym "of" )
+, L
+    ( Position 7 34 )
+    ( TokSym "elements" )
+, L
+    ( Position 7 43 )
+    ( TokSym "for" )
+, L
+    ( Position 7 47 )
+    ( TokSym "this" )
+, L
+    ( Position 7 52 )
+    ( TokSym "container" )
+, L
+    ( Position 7 61 )
+    ( TokOther "\" )
+, L
+    ( Position 7 63 )
+    ( LexicalError "
+            .
+            * @HasCardT@ = \"Has cardinality (for container types of kind 
+            @(* -> *)@)\". In other words, \"it's possible to measure
+            current count of elements for this container (for container types of
+            kind @(* -> *)@)\"
+            .
+            * @HasCardConstr@ = \"Has cardinality constraint\". In other words, 
+            \"there is a capacity constraint for this container\".
+            .
+            * @HasCardConstrT@ = \"Has cardinality constraint (for container types 
+            of kind @(* -> *)@)\".
+            In other words, \"there is a capacity constraint for this container type
+            of kind @(* -> *)@\".
+            .
+            * @HasCardUCT@ = \"Has cardinality-unsafe container transform\".
+            Define transform that may thow an error, if contents of @from@ don't 
+            fit in @to@ .
+            .
+            * @HasCardUCT_T@ = \"Has cardinality-unsafe container 
+            transform (for container types of kind @(* -> *)@)\".
+            Same thing as @HasCardUCT@, but for containers of kind @(* -> *)@.
+            .
+            No, it's not about playing cards. It's about cardinalities. 
+            Wikipedia: \"/In mathematics, the cardinality of a set is a measure of 
+            the number of elements of the set. For example, the set A = {2, 4, 6}
+            contains 3 elements, and therefore A has a cardinality of 3./\"
+            In this package I dare to extend the definition a bit to 
+            \"/C. is a measure of the number of elements in a container/\"
+            .
+            Usual containers are (together with their cardinality ranges): 
+            .
+            * @Identity a@ (1 element)
+            .
+            * @Maybe a@ (0..1 element)
+            .
+            * @[a]@ (0..inf elements)
+            .
+            * @Map k e@ (0..inf elements)
+            . 
+            I extended this to the folowing list:
+            .
+            * @EmptySet a@ (0 elements)
+            .
+            * @Identity a@ (1 element)
+            .
+            * @Maybe a@ (0..1 element)
+            .
+            * @[a]@ (0..inf elements)
+            .
+            * @NeverEmptyList a@ (1..inf elements)
+            .
+            * @Map k e@ (0..inf elements)
+            .
+            Typeclass @HasCardUCT@ together with function @sContTrans@ 
+            (safe container transform) provides a facility to safely change 
+            container from one to another keepeng the content. If content doesn't 
+            fit to target container, @Nothing@ is returned. However, when 
+            transforming from list @[a]@ to @(Maybe a)@ it won't check list length
+            further first 2 elements. The complexity and power of this package is 
+            that it provides a facility to /lazily/ evaluate amount of content in
+            the container.
+    Version: 0.1
+    Copyright: Copyright (c) 2010 Andrejs Sisojevs
+    License: LGPL
+    License-File: COPYRIGHT
+    Author: Andrejs Sisojevs <andrejs.sisojevs@nextmail.ru>
+    Maintainer: Andrejs Sisojevs <andrejs.sisojevs@nextmail.ru>
+    Stability: experimental
+    Category: Data
+    Tested-With: GHC == 6.10.4
+    Cabal-Version: >= 1.6
+    Build-Type: Simple
+
+    Extra-Source-Files:
+        COPYRIGHT
+        COPYING
+        doinst.sh
+        examples/CardinalityRangeCompareTest.hs
+        examples/ContainerTransformsTests.hs
+        examples/HelloWorld.hs
+    Library
+        Build-Depends:
+            base >= 4 && < 5, containers, mtl
+        Exposed-Modules:
+            Data.Cardinality
+            Data.CardinalityRange
+            Data.EmptySet
+            Data.Intersectable
+            Data.NeverEmptyList
+        Extensions:
+            DeriveDataTypeable
+    " )
+, L
+    ( Position 7 62 ) EOF
+]

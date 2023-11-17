@@ -1,0 +1,196 @@
+[ L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "name" )
+, L
+    ( Position 5 5 ) Colon
+, L
+    ( Position 5 22 )
+    ( TokSym "mars" )
+, L
+    ( Position 13 1 )
+    ( Indent 0 )
+, L
+    ( Position 13 1 )
+    ( TokSym "version" )
+, L
+    ( Position 13 8 ) Colon
+, L
+    ( Position 13 22 )
+    ( TokSym "0.1.0.4" )
+, L
+    ( Position 16 1 )
+    ( Indent 0 )
+, L
+    ( Position 16 1 )
+    ( TokSym "synopsis" )
+, L
+    ( Position 16 9 ) Colon
+, L
+    ( Position 16 22 )
+    ( TokSym "Generates" )
+, L
+    ( Position 16 32 )
+    ( TokSym "mountainous" )
+, L
+    ( Position 16 44 )
+    ( TokSym "terrain" )
+, L
+    ( Position 16 52 )
+    ( TokSym "using" )
+, L
+    ( Position 16 58 )
+    ( TokSym "a" )
+, L
+    ( Position 16 60 )
+    ( TokSym "random" )
+, L
+    ( Position 16 67 )
+    ( TokSym "walk" )
+, L
+    ( Position 16 72 )
+    ( TokSym "algorithm." )
+, L
+    ( Position 19 1 )
+    ( Indent 0 )
+, L
+    ( Position 19 1 )
+    ( TokSym "description" )
+, L
+    ( Position 19 12 ) Colon
+, L
+    ( Position 20 1 )
+    ( Indent 2 )
+, L
+    ( Position 20 3 )
+    ( TokSym "Provides" )
+, L
+    ( Position 20 12 )
+    ( TokSym "functions" )
+, L
+    ( Position 20 22 )
+    ( TokSym "for" )
+, L
+    ( Position 20 26 )
+    ( TokSym "generating" )
+, L
+    ( Position 20 37 )
+    ( TokSym "mountain-like" )
+, L
+    ( Position 20 51 )
+    ( TokSym "terrain" )
+, L
+    ( Position 20 59 )
+    ( TokSym "structure" )
+, L
+    ( Position 20 69 )
+    ( TokSym "using" )
+, L
+    ( Position 20 75 )
+    ( TokSym "a" )
+, L
+    ( Position 21 1 )
+    ( Indent 2 )
+, L
+    ( Position 21 3 )
+    ( TokSym "random" )
+, L
+    ( Position 21 10 )
+    ( TokSym "walk" )
+, L
+    ( Position 21 15 )
+    ( TokSym "algorithm." )
+, L
+    ( Position 21 26 )
+    ( TokSym "Inspired" )
+, L
+    ( Position 21 35 )
+    ( TokSym "by" )
+, L
+    ( Position 21 38 )
+    ( TokSym "Pickover's" )
+, L
+    ( Position 21 49 )
+    ( TokSym "1998" )
+, L
+    ( Position 21 54 )
+    ( TokSym "article" )
+, L
+    ( Position 21 62 )
+    ( TokOther "\" )
+, L
+    ( Position 21 72 )
+    ( LexicalError "
+      on Mars\". The data can be output as an ascii-format PLY file, or viewed
+      \"overhead\" as an intensity graph. The PLY file can be loaded into a 3D
+      modeling program such as Blender.
+
+    -- URL for the project homepage or repository.
+    homepage:            https://qlfiles.net
+
+    -- The license under which the package is released.
+    license:             GPL-3
+
+    -- The file containing the license text.
+    license-file:        LICENSE
+
+    -- The package author(s).
+    author:              Christopher Howard
+
+    -- An email address to which users can send suggestions, bug reports, and 
+    -- patches.
+    maintainer:          ch.howard@zoho.com
+
+    -- A copyright notice.
+    -- copyright:           
+
+    category:            Graphics
+
+    build-type:          Simple
+
+    -- Extra files to be distributed with the package, such as examples or a 
+    -- README.
+    -- extra-source-files:  
+
+    -- Constraint on the version of Cabal needed to build this package.
+    cabal-version:       >=1.10
+
+
+    library
+      -- Modules exported by the library.
+      exposed-modules:     Graphics.Mars.Display2D
+                           , Graphics.Mars.Example
+                           , Graphics.Mars.Paint
+                           , Graphics.Mars.Ply
+                           , Graphics.Mars.Graph
+      
+      -- Modules included in this library but not exported.
+      other-modules:       Graphics.Mars.Walk
+                           , Graphics.Mars.ReaderStateRandom
+                           , Graphics.Mars.Stamp
+                           , Graphics.Mars.Array
+      
+      -- LANGUAGE extensions used by modules in this package.
+      other-extensions:    GeneralizedNewtypeDeriving
+      
+      -- Other library packages from which modules are imported.
+      build-depends:       base >=4.6 && <4.10
+                           , gloss >=1.7 && <1.10
+                           , random >=1.0 && <1.2
+                           , MonadRandom >=0.4 && <0.5
+                           , mtl >=2.2 && <2.3
+                           , array >=0.4 && <0.6
+                           , bytestring >=0.10 && <0.11
+                           , colour >=2.3 && <2.4
+      
+      -- Directories containing source files.
+      -- hs-source-dirs:      
+      
+      -- Base language which the package is written in.
+      default-language:    Haskell2010
+      " )
+, L
+    ( Position 21 63 ) EOF
+]

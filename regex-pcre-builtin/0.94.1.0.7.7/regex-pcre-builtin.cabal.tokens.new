@@ -1,0 +1,1975 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 6 )
+    ( Whitespace "                   " )
+, L
+    ( Position 1 25 )
+    ( TokSym "regex-pcre-builtin" )
+, L
+    ( Position 1 43 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 2 1 )
+    ( Comment "-- Keep the Version below in sync with ./Text/Regex/PCRE.hs value getVersion_Text_Regex_PCRE :: Version" )
+, L
+    ( Position 2 104 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 3 8 ) Colon
+, L
+    ( Position 3 9 )
+    ( Whitespace "                " )
+, L
+    ( Position 3 25 )
+    ( TokSym "0.94.1.0.7.7" )
+, L
+    ( Position 3 37 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Cabal-Version" )
+, L
+    ( Position 4 14 ) Colon
+, L
+    ( Position 4 15 )
+    ( Whitespace "          " )
+, L
+    ( Position 4 25 )
+    ( TokOther ">=" )
+, L
+    ( Position 4 27 )
+    ( TokSym "1.2.3" )
+, L
+    ( Position 4 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "License" )
+, L
+    ( Position 5 8 ) Colon
+, L
+    ( Position 5 9 )
+    ( Whitespace "                " )
+, L
+    ( Position 5 25 )
+    ( TokSym "BSD3" )
+, L
+    ( Position 5 29 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 6 1 )
+    ( Indent 0 )
+, L
+    ( Position 6 1 )
+    ( TokSym "License-File" )
+, L
+    ( Position 6 13 ) Colon
+, L
+    ( Position 6 14 )
+    ( Whitespace "           " )
+, L
+    ( Position 6 25 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 6 32 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 7 1 )
+    ( Indent 0 )
+, L
+    ( Position 7 1 )
+    ( TokSym "Copyright" )
+, L
+    ( Position 7 10 ) Colon
+, L
+    ( Position 7 11 )
+    ( Whitespace "              " )
+, L
+    ( Position 7 25 )
+    ( TokSym "Copyright" )
+, L
+    ( Position 7 34 )
+    ( Whitespace " " )
+, L
+    ( Position 7 35 )
+    ( TokOther "(" )
+, L
+    ( Position 7 36 )
+    ( TokSym "c" )
+, L
+    ( Position 7 37 )
+    ( TokOther ")" )
+, L
+    ( Position 7 38 )
+    ( Whitespace " " )
+, L
+    ( Position 7 39 )
+    ( TokSym "2006" )
+, L
+    ( Position 7 43 )
+    ( TokOther "," )
+, L
+    ( Position 7 44 )
+    ( Whitespace " " )
+, L
+    ( Position 7 45 )
+    ( TokSym "Christopher" )
+, L
+    ( Position 7 56 )
+    ( Whitespace " " )
+, L
+    ( Position 7 57 )
+    ( TokSym "Kuklewicz" )
+, L
+    ( Position 7 66 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 8 1 )
+    ( Indent 0 )
+, L
+    ( Position 8 1 )
+    ( TokSym "Author" )
+, L
+    ( Position 8 7 ) Colon
+, L
+    ( Position 8 8 )
+    ( Whitespace "                 " )
+, L
+    ( Position 8 25 )
+    ( TokSym "Christopher" )
+, L
+    ( Position 8 36 )
+    ( Whitespace " " )
+, L
+    ( Position 8 37 )
+    ( TokSym "Kuklewicz" )
+, L
+    ( Position 8 46 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 9 1 )
+    ( Indent 0 )
+, L
+    ( Position 9 1 )
+    ( TokSym "Maintainer" )
+, L
+    ( Position 9 11 ) Colon
+, L
+    ( Position 9 12 )
+    ( Whitespace "             " )
+, L
+    ( Position 9 25 )
+    ( TokSym "TextRegexLazy" )
+, L
+    ( Position 9 38 )
+    ( TokOther "@" )
+, L
+    ( Position 9 39 )
+    ( TokSym "personal.mightyreason.com" )
+, L
+    ( Position 9 64 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 10 1 )
+    ( Indent 0 )
+, L
+    ( Position 10 1 )
+    ( TokSym "Stability" )
+, L
+    ( Position 10 10 ) Colon
+, L
+    ( Position 10 11 )
+    ( Whitespace "              " )
+, L
+    ( Position 10 25 )
+    ( TokSym "Seems" )
+, L
+    ( Position 10 30 )
+    ( Whitespace " " )
+, L
+    ( Position 10 31 )
+    ( TokSym "to" )
+, L
+    ( Position 10 33 )
+    ( Whitespace " " )
+, L
+    ( Position 10 34 )
+    ( TokSym "work" )
+, L
+    ( Position 10 38 )
+    ( TokOther "," )
+, L
+    ( Position 10 39 )
+    ( Whitespace " " )
+, L
+    ( Position 10 40 )
+    ( TokSym "passes" )
+, L
+    ( Position 10 46 )
+    ( Whitespace " " )
+, L
+    ( Position 10 47 )
+    ( TokSym "a" )
+, L
+    ( Position 10 48 )
+    ( Whitespace " " )
+, L
+    ( Position 10 49 )
+    ( TokSym "few" )
+, L
+    ( Position 10 52 )
+    ( Whitespace " " )
+, L
+    ( Position 10 53 )
+    ( TokSym "tests" )
+, L
+    ( Position 10 58 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 11 1 )
+    ( Indent 0 )
+, L
+    ( Position 11 1 )
+    ( TokSym "Homepage" )
+, L
+    ( Position 11 9 ) Colon
+, L
+    ( Position 11 10 )
+    ( Whitespace "               " )
+, L
+    ( Position 11 25 )
+    ( TokSym "http" )
+, L
+    ( Position 11 29 ) Colon
+, L
+    ( Position 11 30 )
+    ( TokOther "//" )
+, L
+    ( Position 11 32 )
+    ( TokSym "sourceforge.net" )
+, L
+    ( Position 11 47 )
+    ( TokOther "/" )
+, L
+    ( Position 11 48 )
+    ( TokSym "projects" )
+, L
+    ( Position 11 56 )
+    ( TokOther "/" )
+, L
+    ( Position 11 57 )
+    ( TokSym "lazy-regex" )
+, L
+    ( Position 11 67 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 12 1 )
+    ( Indent 0 )
+, L
+    ( Position 12 1 )
+    ( TokSym "Package-URL" )
+, L
+    ( Position 12 12 ) Colon
+, L
+    ( Position 12 13 )
+    ( Whitespace "            " )
+, L
+    ( Position 12 25 )
+    ( TokSym "http" )
+, L
+    ( Position 12 29 ) Colon
+, L
+    ( Position 12 30 )
+    ( TokOther "//" )
+, L
+    ( Position 12 32 )
+    ( TokSym "darcs.haskell.org" )
+, L
+    ( Position 12 49 )
+    ( TokOther "/" )
+, L
+    ( Position 12 50 )
+    ( TokSym "packages" )
+, L
+    ( Position 12 58 )
+    ( TokOther "/" )
+, L
+    ( Position 12 59 )
+    ( TokSym "regex-unstable" )
+, L
+    ( Position 12 73 )
+    ( TokOther "/" )
+, L
+    ( Position 12 74 )
+    ( TokSym "regex-pcre" )
+, L
+    ( Position 12 84 )
+    ( TokOther "/" )
+, L
+    ( Position 12 85 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 13 1 )
+    ( Indent 0 )
+, L
+    ( Position 13 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 13 9 ) Colon
+, L
+    ( Position 13 10 )
+    ( Whitespace "               " )
+, L
+    ( Position 13 25 )
+    ( TokSym "Replaces" )
+, L
+    ( Position 13 33 )
+    ( TokOther "/" )
+, L
+    ( Position 13 34 )
+    ( TokSym "Enhances" )
+, L
+    ( Position 13 42 )
+    ( Whitespace " " )
+, L
+    ( Position 13 43 )
+    ( TokSym "Text.Regex" )
+, L
+    ( Position 13 53 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 14 1 )
+    ( Indent 0 )
+, L
+    ( Position 14 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 14 12 ) Colon
+, L
+    ( Position 14 13 )
+    ( Whitespace "            " )
+, L
+    ( Position 14 25 )
+    ( TokSym "The" )
+, L
+    ( Position 14 28 )
+    ( Whitespace " " )
+, L
+    ( Position 14 29 )
+    ( TokSym "PCRE" )
+, L
+    ( Position 14 33 )
+    ( Whitespace " " )
+, L
+    ( Position 14 34 )
+    ( TokSym "backend" )
+, L
+    ( Position 14 41 )
+    ( Whitespace " " )
+, L
+    ( Position 14 42 )
+    ( TokSym "to" )
+, L
+    ( Position 14 44 )
+    ( Whitespace " " )
+, L
+    ( Position 14 45 )
+    ( TokSym "accompany" )
+, L
+    ( Position 14 54 )
+    ( Whitespace " " )
+, L
+    ( Position 14 55 )
+    ( TokSym "regex-base" )
+, L
+    ( Position 14 65 )
+    ( TokOther "," )
+, L
+    ( Position 14 66 )
+    ( Whitespace " " )
+, L
+    ( Position 14 67 )
+    ( TokSym "see" )
+, L
+    ( Position 14 70 )
+    ( Whitespace " " )
+, L
+    ( Position 14 71 )
+    ( TokSym "www.pcre.org" )
+, L
+    ( Position 14 83 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 15 1 )
+    ( Indent 0 )
+, L
+    ( Position 15 1 )
+    ( TokSym "Category" )
+, L
+    ( Position 15 9 ) Colon
+, L
+    ( Position 15 10 )
+    ( Whitespace "               " )
+, L
+    ( Position 15 25 )
+    ( TokSym "Text" )
+, L
+    ( Position 15 29 )
+    ( TokOther "," )
+, L
+    ( Position 15 30 )
+    ( Whitespace " " )
+, L
+    ( Position 15 31 )
+    ( TokSym "Pugs" )
+, L
+    ( Position 15 35 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 16 1 )
+    ( Indent 0 )
+, L
+    ( Position 16 1 )
+    ( TokSym "Tested-With" )
+, L
+    ( Position 16 12 ) Colon
+, L
+    ( Position 16 13 )
+    ( Whitespace "            " )
+, L
+    ( Position 16 25 )
+    ( TokSym "GHC" )
+, L
+    ( Position 16 28 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 17 1 )
+    ( Indent 0 )
+, L
+    ( Position 17 1 )
+    ( TokSym "Build-Type" )
+, L
+    ( Position 17 11 ) Colon
+, L
+    ( Position 17 12 )
+    ( Whitespace "             " )
+, L
+    ( Position 17 25 )
+    ( TokSym "Simple" )
+, L
+    ( Position 17 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 18 1 )
+    ( Indent 0 )
+, L
+    ( Position 18 1 )
+    ( TokSym "Extra-source-files" )
+, L
+    ( Position 18 19 ) Colon
+, L
+    ( Position 18 20 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 19 1 )
+    ( Indent 4 )
+, L
+    ( Position 19 5 )
+    ( TokSym "pcre" )
+, L
+    ( Position 19 9 )
+    ( TokOther "/" )
+, L
+    ( Position 19 10 )
+    ( TokSym "config.h" )
+, L
+    ( Position 19 18 )
+    ( Whitespace " " )
+, L
+    ( Position 19 19 )
+    ( TokSym "pcre" )
+, L
+    ( Position 19 23 )
+    ( TokOther "/" )
+, L
+    ( Position 19 24 )
+    ( TokSym "pcre_globals.c" )
+, L
+    ( Position 19 38 )
+    ( Whitespace " " )
+, L
+    ( Position 19 39 )
+    ( TokSym "pcre" )
+, L
+    ( Position 19 43 )
+    ( TokOther "/" )
+, L
+    ( Position 19 44 )
+    ( TokSym "pcre_study.c" )
+, L
+    ( Position 19 56 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 20 1 )
+    ( Indent 4 )
+, L
+    ( Position 20 5 )
+    ( TokSym "pcre" )
+, L
+    ( Position 20 9 )
+    ( TokOther "/" )
+, L
+    ( Position 20 10 )
+    ( TokSym "pcrecpparg.h" )
+, L
+    ( Position 20 22 )
+    ( Whitespace " " )
+, L
+    ( Position 20 23 )
+    ( TokSym "pcre" )
+, L
+    ( Position 20 27 )
+    ( TokOther "/" )
+, L
+    ( Position 20 28 )
+    ( TokSym "dftables.c" )
+, L
+    ( Position 20 38 )
+    ( Whitespace " " )
+, L
+    ( Position 20 39 )
+    ( TokSym "pcre" )
+, L
+    ( Position 20 43 )
+    ( TokOther "/" )
+, L
+    ( Position 20 44 )
+    ( TokSym "pcre_info.c" )
+, L
+    ( Position 20 55 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 21 1 )
+    ( Indent 4 )
+, L
+    ( Position 21 5 )
+    ( TokSym "pcre" )
+, L
+    ( Position 21 9 )
+    ( TokOther "/" )
+, L
+    ( Position 21 10 )
+    ( TokSym "pcre_tables.c" )
+, L
+    ( Position 21 23 )
+    ( Whitespace " " )
+, L
+    ( Position 21 24 )
+    ( TokSym "pcre" )
+, L
+    ( Position 21 28 )
+    ( TokOther "/" )
+, L
+    ( Position 21 29 )
+    ( TokSym "pcredemo.c" )
+, L
+    ( Position 21 39 )
+    ( Whitespace " " )
+, L
+    ( Position 21 40 )
+    ( TokSym "pcre" )
+, L
+    ( Position 21 44 )
+    ( TokOther "/" )
+, L
+    ( Position 21 45 )
+    ( TokSym "pcre.h" )
+, L
+    ( Position 21 51 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 22 1 )
+    ( Indent 4 )
+, L
+    ( Position 22 5 )
+    ( TokSym "pcre" )
+, L
+    ( Position 22 9 )
+    ( TokOther "/" )
+, L
+    ( Position 22 10 )
+    ( TokSym "pcre_internal.h" )
+, L
+    ( Position 22 25 )
+    ( Whitespace " " )
+, L
+    ( Position 22 26 )
+    ( TokSym "pcre" )
+, L
+    ( Position 22 30 )
+    ( TokOther "/" )
+, L
+    ( Position 22 31 )
+    ( TokSym "pcre_try_flipped.c" )
+, L
+    ( Position 22 49 )
+    ( Whitespace " " )
+, L
+    ( Position 22 50 )
+    ( TokSym "pcre" )
+, L
+    ( Position 22 54 )
+    ( TokOther "/" )
+, L
+    ( Position 22 55 )
+    ( TokSym "pcregrep.c" )
+, L
+    ( Position 22 65 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 23 1 )
+    ( Indent 4 )
+, L
+    ( Position 23 5 )
+    ( TokSym "pcre" )
+, L
+    ( Position 23 9 )
+    ( TokOther "/" )
+, L
+    ( Position 23 10 )
+    ( TokSym "pcre_compile.c" )
+, L
+    ( Position 23 24 )
+    ( Whitespace " " )
+, L
+    ( Position 23 25 )
+    ( TokSym "pcre" )
+, L
+    ( Position 23 29 )
+    ( TokOther "/" )
+, L
+    ( Position 23 30 )
+    ( TokSym "pcre_maketables.c" )
+, L
+    ( Position 23 47 )
+    ( Whitespace " " )
+, L
+    ( Position 23 48 )
+    ( TokSym "pcre" )
+, L
+    ( Position 23 52 )
+    ( TokOther "/" )
+, L
+    ( Position 23 53 )
+    ( TokSym "pcre_ucp_searchfuncs.c" )
+, L
+    ( Position 23 75 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 24 1 )
+    ( Indent 4 )
+, L
+    ( Position 24 5 )
+    ( TokSym "pcre" )
+, L
+    ( Position 24 9 )
+    ( TokOther "/" )
+, L
+    ( Position 24 10 )
+    ( TokSym "pcreposix.c" )
+, L
+    ( Position 24 21 )
+    ( Whitespace " " )
+, L
+    ( Position 24 22 )
+    ( TokSym "pcre" )
+, L
+    ( Position 24 26 )
+    ( TokOther "/" )
+, L
+    ( Position 24 27 )
+    ( TokSym "pcre_config.c" )
+, L
+    ( Position 24 40 )
+    ( Whitespace " " )
+, L
+    ( Position 24 41 )
+    ( TokSym "pcre" )
+, L
+    ( Position 24 45 )
+    ( TokOther "/" )
+, L
+    ( Position 24 46 )
+    ( TokSym "pcre_newline.c" )
+, L
+    ( Position 24 60 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 25 1 )
+    ( Indent 4 )
+, L
+    ( Position 25 5 )
+    ( TokSym "pcre" )
+, L
+    ( Position 25 9 )
+    ( TokOther "/" )
+, L
+    ( Position 25 10 )
+    ( TokSym "pcre_valid_utf8.c" )
+, L
+    ( Position 25 27 )
+    ( Whitespace " " )
+, L
+    ( Position 25 28 )
+    ( TokSym "pcre" )
+, L
+    ( Position 25 32 )
+    ( TokOther "/" )
+, L
+    ( Position 25 33 )
+    ( TokSym "pcreposix.h" )
+, L
+    ( Position 25 44 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 26 1 )
+    ( Indent 4 )
+, L
+    ( Position 26 5 )
+    ( TokSym "pcre" )
+, L
+    ( Position 26 9 )
+    ( TokOther "/" )
+, L
+    ( Position 26 10 )
+    ( TokSym "pcre_dfa_exec.c" )
+, L
+    ( Position 26 25 )
+    ( Whitespace " " )
+, L
+    ( Position 26 26 )
+    ( TokSym "pcre" )
+, L
+    ( Position 26 30 )
+    ( TokOther "/" )
+, L
+    ( Position 26 31 )
+    ( TokSym "pcre_ord2utf8.c" )
+, L
+    ( Position 26 46 )
+    ( Whitespace " " )
+, L
+    ( Position 26 47 )
+    ( TokSym "pcre" )
+, L
+    ( Position 26 51 )
+    ( TokOther "/" )
+, L
+    ( Position 26 52 )
+    ( TokSym "pcre_version.c" )
+, L
+    ( Position 26 66 )
+    ( Whitespace " " )
+, L
+    ( Position 26 67 )
+    ( TokSym "pcre" )
+, L
+    ( Position 26 71 )
+    ( TokOther "/" )
+, L
+    ( Position 26 72 )
+    ( TokSym "pcretest.c" )
+, L
+    ( Position 26 82 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 27 1 )
+    ( Indent 4 )
+, L
+    ( Position 27 5 )
+    ( TokSym "pcre" )
+, L
+    ( Position 27 9 )
+    ( TokOther "/" )
+, L
+    ( Position 27 10 )
+    ( TokSym "pcre_exec.c" )
+, L
+    ( Position 27 21 )
+    ( Whitespace " " )
+, L
+    ( Position 27 22 )
+    ( TokSym "pcre" )
+, L
+    ( Position 27 26 )
+    ( TokOther "/" )
+, L
+    ( Position 27 27 )
+    ( TokSym "pcre_refcount.c" )
+, L
+    ( Position 27 42 )
+    ( Whitespace " " )
+, L
+    ( Position 27 43 )
+    ( TokSym "pcre" )
+, L
+    ( Position 27 47 )
+    ( TokOther "/" )
+, L
+    ( Position 27 48 )
+    ( TokSym "pcre_xclass.c" )
+, L
+    ( Position 27 61 )
+    ( Whitespace " " )
+, L
+    ( Position 27 62 )
+    ( TokSym "pcre" )
+, L
+    ( Position 27 66 )
+    ( TokOther "/" )
+, L
+    ( Position 27 67 )
+    ( TokSym "ucp.h" )
+, L
+    ( Position 27 72 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 28 1 )
+    ( Indent 4 )
+, L
+    ( Position 28 5 )
+    ( TokSym "pcre" )
+, L
+    ( Position 28 9 )
+    ( TokOther "/" )
+, L
+    ( Position 28 10 )
+    ( TokSym "pcre_fullinfo.c" )
+, L
+    ( Position 28 25 )
+    ( Whitespace " " )
+, L
+    ( Position 28 26 )
+    ( TokSym "pcre" )
+, L
+    ( Position 28 30 )
+    ( TokOther "/" )
+, L
+    ( Position 28 31 )
+    ( TokSym "pcre_scanner.h" )
+, L
+    ( Position 28 45 )
+    ( Whitespace " " )
+, L
+    ( Position 28 46 )
+    ( TokSym "pcre" )
+, L
+    ( Position 28 50 )
+    ( TokOther "/" )
+, L
+    ( Position 28 51 )
+    ( TokSym "pcrecpp.h" )
+, L
+    ( Position 28 60 )
+    ( Whitespace " " )
+, L
+    ( Position 28 61 )
+    ( TokSym "pcre" )
+, L
+    ( Position 28 65 )
+    ( TokOther "/" )
+, L
+    ( Position 28 66 )
+    ( TokSym "ucpinternal.h" )
+, L
+    ( Position 28 79 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 29 1 )
+    ( Indent 4 )
+, L
+    ( Position 29 5 )
+    ( TokSym "pcre" )
+, L
+    ( Position 29 9 )
+    ( TokOther "/" )
+, L
+    ( Position 29 10 )
+    ( TokSym "pcre_get.c" )
+, L
+    ( Position 29 20 )
+    ( Whitespace " " )
+, L
+    ( Position 29 21 )
+    ( TokSym "pcre" )
+, L
+    ( Position 29 25 )
+    ( TokOther "/" )
+, L
+    ( Position 29 26 )
+    ( TokSym "pcre_stringpiece.h" )
+, L
+    ( Position 29 44 )
+    ( Whitespace " " )
+, L
+    ( Position 29 45 )
+    ( TokSym "pcre" )
+, L
+    ( Position 29 49 )
+    ( TokOther "/" )
+, L
+    ( Position 29 50 )
+    ( TokSym "pcrecpp_internal.h" )
+, L
+    ( Position 29 68 )
+    ( Whitespace " " )
+, L
+    ( Position 29 69 )
+    ( TokSym "pcre" )
+, L
+    ( Position 29 73 )
+    ( TokOther "/" )
+, L
+    ( Position 29 74 )
+    ( TokSym "ucptable.h" )
+, L
+    ( Position 29 84 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 30 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 31 1 )
+    ( Indent 0 )
+, L
+    ( Position 31 1 )
+    ( TokSym "flag" )
+, L
+    ( Position 31 5 )
+    ( Whitespace " " )
+, L
+    ( Position 31 6 )
+    ( TokSym "splitBase" )
+, L
+    ( Position 31 15 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 32 1 )
+    ( Indent 2 )
+, L
+    ( Position 32 3 )
+    ( TokSym "description" )
+, L
+    ( Position 32 14 ) Colon
+, L
+    ( Position 32 15 )
+    ( Whitespace " " )
+, L
+    ( Position 32 16 )
+    ( TokSym "Choose" )
+, L
+    ( Position 32 22 )
+    ( Whitespace " " )
+, L
+    ( Position 32 23 )
+    ( TokSym "the" )
+, L
+    ( Position 32 26 )
+    ( Whitespace " " )
+, L
+    ( Position 32 27 )
+    ( TokSym "new" )
+, L
+    ( Position 32 30 )
+    ( Whitespace " " )
+, L
+    ( Position 32 31 )
+    ( TokSym "smaller" )
+, L
+    ( Position 32 38 )
+    ( TokOther "," )
+, L
+    ( Position 32 39 )
+    ( Whitespace " " )
+, L
+    ( Position 32 40 )
+    ( TokSym "split-up" )
+, L
+    ( Position 32 48 )
+    ( Whitespace " " )
+, L
+    ( Position 32 49 )
+    ( TokSym "base" )
+, L
+    ( Position 32 53 )
+    ( Whitespace " " )
+, L
+    ( Position 32 54 )
+    ( TokSym "package." )
+, L
+    ( Position 32 62 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 33 1 )
+    ( Indent 0 )
+, L
+    ( Position 33 1 )
+    ( TokSym "library" )
+, L
+    ( Position 33 8 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 34 1 )
+    ( Indent 2 )
+, L
+    ( Position 34 3 )
+    ( TokSym "if" )
+, L
+    ( Position 34 5 )
+    ( Whitespace " " )
+, L
+    ( Position 34 6 )
+    ( TokSym "flag" )
+, L
+    ( Position 34 10 )
+    ( TokOther "(" )
+, L
+    ( Position 34 11 )
+    ( TokSym "splitBase" )
+, L
+    ( Position 34 20 )
+    ( TokOther ")" )
+, L
+    ( Position 34 21 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 35 1 )
+    ( Indent 4 )
+, L
+    ( Position 35 5 )
+    ( TokSym "Build-Depends" )
+, L
+    ( Position 35 18 ) Colon
+, L
+    ( Position 35 19 )
+    ( Whitespace " " )
+, L
+    ( Position 35 20 )
+    ( TokSym "base" )
+, L
+    ( Position 35 24 )
+    ( Whitespace " " )
+, L
+    ( Position 35 25 )
+    ( TokOther ">=" )
+, L
+    ( Position 35 27 )
+    ( Whitespace " " )
+, L
+    ( Position 35 28 )
+    ( TokSym "3.0" )
+, L
+    ( Position 35 31 )
+    ( TokOther "," )
+, L
+    ( Position 35 32 )
+    ( Whitespace " " )
+, L
+    ( Position 35 33 )
+    ( TokSym "regex-base" )
+, L
+    ( Position 35 43 )
+    ( Whitespace " " )
+, L
+    ( Position 35 44 )
+    ( TokOther ">=" )
+, L
+    ( Position 35 46 )
+    ( Whitespace " " )
+, L
+    ( Position 35 47 )
+    ( TokSym "0.93" )
+, L
+    ( Position 35 51 )
+    ( TokOther "," )
+, L
+    ( Position 35 52 )
+    ( Whitespace " " )
+, L
+    ( Position 35 53 )
+    ( TokSym "array" )
+, L
+    ( Position 35 58 )
+    ( TokOther "," )
+, L
+    ( Position 35 59 )
+    ( Whitespace " " )
+, L
+    ( Position 35 60 )
+    ( TokSym "containers" )
+, L
+    ( Position 35 70 )
+    ( TokOther "," )
+, L
+    ( Position 35 71 )
+    ( Whitespace " " )
+, L
+    ( Position 35 72 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 35 82 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 36 1 )
+    ( Comment "    -- Need the next symbol for using CPP to get Data.ByteString.Base|Unsafe in" )
+, L
+    ( Position 36 80 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 37 1 )
+    ( Comment "    --  ./Text/Regex/Posix/ByteString.hs and  ./Text/Regex/Posix/ByteString/Lazy.hs" )
+, L
+    ( Position 37 84 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 38 1 )
+    ( Indent 4 )
+, L
+    ( Position 38 5 )
+    ( TokSym "CPP-Options" )
+, L
+    ( Position 38 16 ) Colon
+, L
+    ( Position 38 17 )
+    ( Whitespace " " )
+, L
+    ( Position 38 18 )
+    ( TokStr "-DSPLIT_BASE=1" )
+, L
+    ( Position 38 34 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 39 1 )
+    ( Indent 4 )
+, L
+    ( Position 39 5 )
+    ( TokSym "Extensions" )
+, L
+    ( Position 39 15 ) Colon
+, L
+    ( Position 39 16 )
+    ( Whitespace "    " )
+, L
+    ( Position 39 20 )
+    ( TokSym "MultiParamTypeClasses" )
+, L
+    ( Position 39 41 )
+    ( TokOther "," )
+, L
+    ( Position 39 42 )
+    ( Whitespace " " )
+, L
+    ( Position 39 43 )
+    ( TokSym "FunctionalDependencies" )
+, L
+    ( Position 39 65 )
+    ( TokOther "," )
+, L
+    ( Position 39 66 )
+    ( Whitespace " " )
+, L
+    ( Position 39 67 )
+    ( TokSym "CPP" )
+, L
+    ( Position 39 70 )
+    ( TokOther "," )
+, L
+    ( Position 39 71 )
+    ( Whitespace " " )
+, L
+    ( Position 39 72 )
+    ( TokSym "ForeignFunctionInterface" )
+, L
+    ( Position 39 96 )
+    ( TokOther "," )
+, L
+    ( Position 39 97 )
+    ( Whitespace " " )
+, L
+    ( Position 39 98 )
+    ( TokSym "PatternSignatures" )
+, L
+    ( Position 39 115 )
+    ( TokOther "," )
+, L
+    ( Position 39 116 )
+    ( Whitespace " " )
+, L
+    ( Position 39 117 )
+    ( TokSym "GeneralizedNewtypeDeriving" )
+, L
+    ( Position 39 143 )
+    ( TokOther "," )
+, L
+    ( Position 39 144 )
+    ( Whitespace " " )
+, L
+    ( Position 39 145 )
+    ( TokSym "FlexibleContexts" )
+, L
+    ( Position 39 161 )
+    ( TokOther "," )
+, L
+    ( Position 39 162 )
+    ( Whitespace " " )
+, L
+    ( Position 39 163 )
+    ( TokSym "TypeSynonymInstances" )
+, L
+    ( Position 39 183 )
+    ( TokOther "," )
+, L
+    ( Position 39 184 )
+    ( Whitespace " " )
+, L
+    ( Position 39 185 )
+    ( TokSym "FlexibleInstances" )
+, L
+    ( Position 39 202 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 40 1 )
+    ( Indent 2 )
+, L
+    ( Position 40 3 )
+    ( TokSym "else" )
+, L
+    ( Position 40 7 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 41 1 )
+    ( Indent 4 )
+, L
+    ( Position 41 5 )
+    ( TokSym "Build-Depends" )
+, L
+    ( Position 41 18 ) Colon
+, L
+    ( Position 41 19 )
+    ( Whitespace " " )
+, L
+    ( Position 41 20 )
+    ( TokSym "base" )
+, L
+    ( Position 41 24 )
+    ( Whitespace " " )
+, L
+    ( Position 41 25 )
+    ( TokOther "<" )
+, L
+    ( Position 41 26 )
+    ( Whitespace " " )
+, L
+    ( Position 41 27 )
+    ( TokSym "3.0" )
+, L
+    ( Position 41 30 )
+    ( TokOther "," )
+, L
+    ( Position 41 31 )
+    ( Whitespace " " )
+, L
+    ( Position 41 32 )
+    ( TokSym "regex-base" )
+, L
+    ( Position 41 42 )
+    ( Whitespace " " )
+, L
+    ( Position 41 43 )
+    ( TokOther ">=" )
+, L
+    ( Position 41 45 )
+    ( Whitespace " " )
+, L
+    ( Position 41 46 )
+    ( TokSym "0.93" )
+, L
+    ( Position 41 50 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 42 1 )
+    ( Indent 4 )
+, L
+    ( Position 42 5 )
+    ( TokSym "Extensions" )
+, L
+    ( Position 42 15 ) Colon
+, L
+    ( Position 42 16 )
+    ( Whitespace "    " )
+, L
+    ( Position 42 20 )
+    ( TokSym "MultiParamTypeClasses" )
+, L
+    ( Position 42 41 )
+    ( TokOther "," )
+, L
+    ( Position 42 42 )
+    ( Whitespace " " )
+, L
+    ( Position 42 43 )
+    ( TokSym "FunctionalDependencies" )
+, L
+    ( Position 42 65 )
+    ( TokOther "," )
+, L
+    ( Position 42 66 )
+    ( Whitespace " " )
+, L
+    ( Position 42 67 )
+    ( TokSym "CPP" )
+, L
+    ( Position 42 70 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 43 1 )
+    ( Comment "  -- Data-Files:" )
+, L
+    ( Position 43 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 44 1 )
+    ( Comment "  -- Extra-Source-Files:" )
+, L
+    ( Position 44 25 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 45 1 )
+    ( Comment "  -- Extra-Tmp-Files:" )
+, L
+    ( Position 45 22 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 46 1 )
+    ( Indent 2 )
+, L
+    ( Position 46 3 )
+    ( TokSym "Exposed-Modules" )
+, L
+    ( Position 46 18 ) Colon
+, L
+    ( Position 46 19 )
+    ( Whitespace "        " )
+, L
+    ( Position 46 27 )
+    ( TokSym "Text.Regex.PCRE" )
+, L
+    ( Position 46 42 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 47 1 )
+    ( Indent 26 )
+, L
+    ( Position 47 27 )
+    ( TokSym "Text.Regex.PCRE.Wrap" )
+, L
+    ( Position 47 47 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 48 1 )
+    ( Indent 26 )
+, L
+    ( Position 48 27 )
+    ( TokSym "Text.Regex.PCRE.String" )
+, L
+    ( Position 48 49 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 49 1 )
+    ( Indent 26 )
+, L
+    ( Position 49 27 )
+    ( TokSym "Text.Regex.PCRE.Sequence" )
+, L
+    ( Position 49 51 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 50 1 )
+    ( Indent 26 )
+, L
+    ( Position 50 27 )
+    ( TokSym "Text.Regex.PCRE.ByteString" )
+, L
+    ( Position 50 53 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 51 1 )
+    ( Indent 26 )
+, L
+    ( Position 51 27 )
+    ( TokSym "Text.Regex.PCRE.ByteString.Lazy" )
+, L
+    ( Position 51 58 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 52 1 )
+    ( Indent 2 )
+, L
+    ( Position 52 3 )
+    ( TokSym "Buildable" )
+, L
+    ( Position 52 12 ) Colon
+, L
+    ( Position 52 13 )
+    ( Whitespace "              " )
+, L
+    ( Position 52 27 )
+    ( TokSym "True" )
+, L
+    ( Position 52 31 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 53 1 )
+    ( Comment "  -- Other-Modules:" )
+, L
+    ( Position 53 20 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 54 1 )
+    ( Comment "  -- HS-Source-Dirs:         "."" )
+, L
+    ( Position 54 33 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 55 1 )
+    ( Comment "  -- The CPP is for using -DSPLIT_BASE=1 to get Data.ByteString.Base|Unsafe" )
+, L
+    ( Position 55 76 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 56 1 )
+    ( Comment "  -- And the CPP is for using -DHAVE_PCRE_H to get the local posix library" )
+, L
+    ( Position 56 75 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 57 1 )
+    ( Comment "  -- GHC-Options:            -Wall -Werror -O2" )
+, L
+    ( Position 57 47 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 58 1 )
+    ( Comment "  -- GHC-Options:            -Wall -O2" )
+, L
+    ( Position 58 39 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 59 1 )
+    ( Comment "  -- GHC-Options:            -Wall -ddump-minimal-imports" )
+, L
+    ( Position 59 58 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 60 1 )
+    ( Comment "  -- GHC-Prof-Options:" )
+, L
+    ( Position 60 23 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 61 1 )
+    ( Comment "  -- Hugs-Options:" )
+, L
+    ( Position 61 19 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 62 1 )
+    ( Comment "  -- NHC-Options:" )
+, L
+    ( Position 62 18 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 63 1 )
+    ( Comment "  -- C-Sources:" )
+, L
+    ( Position 63 16 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 64 1 )
+    ( Comment "  -- Includes:" )
+, L
+    ( Position 64 15 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 65 1 )
+    ( Comment "  -- LD-Options:" )
+, L
+    ( Position 65 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 66 1 )
+    ( Comment "  -- Frameworks:" )
+, L
+    ( Position 66 17 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 67 1 )
+    ( Comment "  -- The only reason to NOT define -DHAVE_PCRE_H is if you are on" )
+, L
+    ( Position 67 66 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 68 1 )
+    ( Comment "  -- a plotform without a regex library but want to compile this package" )
+, L
+    ( Position 68 73 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 69 1 )
+    ( Comment "  -- anyway.  The resulting regex-posix will exist, but throw errors." )
+, L
+    ( Position 69 70 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 70 1 )
+    ( Indent 2 )
+, L
+    ( Position 70 3 )
+    ( TokSym "CC-Options" )
+, L
+    ( Position 70 13 ) Colon
+, L
+    ( Position 70 14 )
+    ( Whitespace "             " )
+, L
+    ( Position 70 27 )
+    ( TokSym "-DHAVE_PCRE_H" )
+, L
+    ( Position 70 40 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 71 1 )
+    ( Comment "  --Include-Dirs:           /opt/local/include" )
+, L
+    ( Position 71 47 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 72 1 )
+    ( Comment "  --Extra-Lib-Dirs:         /opt/local/lib" )
+, L
+    ( Position 72 43 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 73 1 )
+    ( Indent 2 )
+, L
+    ( Position 73 3 )
+    ( TokSym "Include-dirs" )
+, L
+    ( Position 73 15 ) Colon
+, L
+    ( Position 73 16 )
+    ( Whitespace "    " )
+, L
+    ( Position 73 20 )
+    ( TokSym "pcre" )
+, L
+    ( Position 73 24 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 74 1 )
+    ( Indent 2 )
+, L
+    ( Position 74 3 )
+    ( TokSym "Includes" )
+, L
+    ( Position 74 11 ) Colon
+, L
+    ( Position 74 12 )
+    ( Whitespace "        " )
+, L
+    ( Position 74 20 )
+    ( TokSym "pcre" )
+, L
+    ( Position 74 24 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 75 1 )
+    ( Indent 2 )
+, L
+    ( Position 75 3 )
+    ( TokSym "C-sources" )
+, L
+    ( Position 75 12 ) Colon
+, L
+    ( Position 75 13 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 76 1 )
+    ( Indent 8 )
+, L
+    ( Position 76 9 )
+    ( TokSym "pcre" )
+, L
+    ( Position 76 13 )
+    ( TokOther "/" )
+, L
+    ( Position 76 14 )
+    ( TokSym "pcre_compile.c" )
+, L
+    ( Position 76 28 )
+    ( Whitespace " " )
+, L
+    ( Position 76 29 )
+    ( TokSym "pcre" )
+, L
+    ( Position 76 33 )
+    ( TokOther "/" )
+, L
+    ( Position 76 34 )
+    ( TokSym "pcre_config.c" )
+, L
+    ( Position 76 47 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 77 1 )
+    ( Indent 8 )
+, L
+    ( Position 77 9 )
+    ( TokSym "pcre" )
+, L
+    ( Position 77 13 )
+    ( TokOther "/" )
+, L
+    ( Position 77 14 )
+    ( TokSym "pcre_dfa_exec.c" )
+, L
+    ( Position 77 29 )
+    ( Whitespace " " )
+, L
+    ( Position 77 30 )
+    ( TokSym "pcre" )
+, L
+    ( Position 77 34 )
+    ( TokOther "/" )
+, L
+    ( Position 77 35 )
+    ( TokSym "pcre_exec.c" )
+, L
+    ( Position 77 46 )
+    ( Whitespace " " )
+, L
+    ( Position 77 47 )
+    ( TokSym "pcre" )
+, L
+    ( Position 77 51 )
+    ( TokOther "/" )
+, L
+    ( Position 77 52 )
+    ( TokSym "pcre_fullinfo.c" )
+, L
+    ( Position 77 67 )
+    ( Whitespace " " )
+, L
+    ( Position 77 68 )
+    ( TokSym "pcre" )
+, L
+    ( Position 77 72 )
+    ( TokOther "/" )
+, L
+    ( Position 77 73 )
+    ( TokSym "pcre_get.c" )
+, L
+    ( Position 77 83 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 78 1 )
+    ( Indent 8 )
+, L
+    ( Position 78 9 )
+    ( TokSym "pcre" )
+, L
+    ( Position 78 13 )
+    ( TokOther "/" )
+, L
+    ( Position 78 14 )
+    ( TokSym "pcre_globals.c" )
+, L
+    ( Position 78 28 )
+    ( Whitespace " " )
+, L
+    ( Position 78 29 )
+    ( TokSym "pcre" )
+, L
+    ( Position 78 33 )
+    ( TokOther "/" )
+, L
+    ( Position 78 34 )
+    ( TokSym "pcre_info.c" )
+, L
+    ( Position 78 45 )
+    ( Whitespace " " )
+, L
+    ( Position 78 46 )
+    ( TokSym "pcre" )
+, L
+    ( Position 78 50 )
+    ( TokOther "/" )
+, L
+    ( Position 78 51 )
+    ( TokSym "pcre_maketables.c" )
+, L
+    ( Position 78 68 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 79 1 )
+    ( Indent 8 )
+, L
+    ( Position 79 9 )
+    ( TokSym "pcre" )
+, L
+    ( Position 79 13 )
+    ( TokOther "/" )
+, L
+    ( Position 79 14 )
+    ( TokSym "pcre_newline.c" )
+, L
+    ( Position 79 28 )
+    ( Whitespace " " )
+, L
+    ( Position 79 29 )
+    ( TokSym "pcre" )
+, L
+    ( Position 79 33 )
+    ( TokOther "/" )
+, L
+    ( Position 79 34 )
+    ( TokSym "pcre_ord2utf8.c" )
+, L
+    ( Position 79 49 )
+    ( Whitespace " " )
+, L
+    ( Position 79 50 )
+    ( TokSym "pcre" )
+, L
+    ( Position 79 54 )
+    ( TokOther "/" )
+, L
+    ( Position 79 55 )
+    ( TokSym "pcre_refcount.c" )
+, L
+    ( Position 79 70 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 80 1 )
+    ( Indent 8 )
+, L
+    ( Position 80 9 )
+    ( TokSym "pcre" )
+, L
+    ( Position 80 13 )
+    ( TokOther "/" )
+, L
+    ( Position 80 14 )
+    ( TokSym "pcre_study.c" )
+, L
+    ( Position 80 26 )
+    ( Whitespace " " )
+, L
+    ( Position 80 27 )
+    ( TokSym "pcre" )
+, L
+    ( Position 80 31 )
+    ( TokOther "/" )
+, L
+    ( Position 80 32 )
+    ( TokSym "pcre_tables.c" )
+, L
+    ( Position 80 45 )
+    ( Whitespace " " )
+, L
+    ( Position 80 46 )
+    ( TokSym "pcre" )
+, L
+    ( Position 80 50 )
+    ( TokOther "/" )
+, L
+    ( Position 80 51 )
+    ( TokSym "pcre_try_flipped.c" )
+, L
+    ( Position 80 69 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 81 1 )
+    ( Indent 8 )
+, L
+    ( Position 81 9 )
+    ( TokSym "pcre" )
+, L
+    ( Position 81 13 )
+    ( TokOther "/" )
+, L
+    ( Position 81 14 )
+    ( TokSym "pcre_ucp_searchfuncs.c" )
+, L
+    ( Position 81 36 )
+    ( Whitespace " " )
+, L
+    ( Position 81 37 )
+    ( TokSym "pcre" )
+, L
+    ( Position 81 41 )
+    ( TokOther "/" )
+, L
+    ( Position 81 42 )
+    ( TokSym "pcre_valid_utf8.c" )
+, L
+    ( Position 81 59 )
+    ( Whitespace " " )
+, L
+    ( Position 81 60 )
+    ( TokSym "pcre" )
+, L
+    ( Position 81 64 )
+    ( TokOther "/" )
+, L
+    ( Position 81 65 )
+    ( TokSym "pcre_version.c" )
+, L
+    ( Position 81 79 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 82 1 )
+    ( Indent 8 )
+, L
+    ( Position 82 9 )
+    ( TokSym "pcre" )
+, L
+    ( Position 82 13 )
+    ( TokOther "/" )
+, L
+    ( Position 82 14 )
+    ( TokSym "pcre_xclass.c" )
+, L
+    ( Position 82 27 )
+    ( Whitespace " " )
+, L
+    ( Position 82 28 )
+    ( TokSym "pcre" )
+, L
+    ( Position 82 32 )
+    ( TokOther "/" )
+, L
+    ( Position 82 33 )
+    ( TokSym "pcre_chartables.c" )
+, L
+    ( Position 82 50 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 83 1 )
+    ( Whitespace "
+    " )
+, L
+    ( Position 84 1 ) EOF
+]

@@ -1,0 +1,234 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 6 )
+    ( Whitespace "                " )
+, L
+    ( Position 1 22 )
+    ( TokSym "wl-pprint" )
+, L
+    ( Position 1 31 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 9 )
+    ( Whitespace "             " )
+, L
+    ( Position 2 22 )
+    ( TokSym "1.2" )
+, L
+    ( Position 2 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "x-revision" )
+, L
+    ( Position 3 11 ) Colon
+, L
+    ( Position 3 12 )
+    ( Whitespace " " )
+, L
+    ( Position 3 13 )
+    ( TokSym "1" )
+, L
+    ( Position 3 14 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Cabal-Version" )
+, L
+    ( Position 4 14 ) Colon
+, L
+    ( Position 4 15 )
+    ( Whitespace "       " )
+, L
+    ( Position 4 22 )
+    ( TokOther ">=" )
+, L
+    ( Position 4 24 )
+    ( TokSym "1.6" )
+, L
+    ( Position 4 27 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 5 9 ) Colon
+, L
+    ( Position 5 10 )
+    ( Whitespace "            " )
+, L
+    ( Position 5 22 )
+    ( TokSym "The" )
+, L
+    ( Position 5 25 )
+    ( Whitespace " " )
+, L
+    ( Position 5 26 )
+    ( TokSym "Wadler" )
+, L
+    ( Position 5 32 )
+    ( TokOther "/" )
+, L
+    ( Position 5 33 )
+    ( TokSym "Leijen" )
+, L
+    ( Position 5 39 )
+    ( Whitespace " " )
+, L
+    ( Position 5 40 )
+    ( TokSym "Pretty" )
+, L
+    ( Position 5 46 )
+    ( Whitespace " " )
+, L
+    ( Position 5 47 )
+    ( TokSym "Printer" )
+, L
+    ( Position 5 54 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 6 1 )
+    ( Indent 0 )
+, L
+    ( Position 6 1 )
+    ( TokSym "Category" )
+, L
+    ( Position 6 9 ) Colon
+, L
+    ( Position 6 10 )
+    ( Whitespace "            " )
+, L
+    ( Position 6 22 )
+    ( TokSym "Text" )
+, L
+    ( Position 6 26 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 7 1 )
+    ( Indent 0 )
+, L
+    ( Position 7 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 7 12 ) Colon
+, L
+    ( Position 7 13 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 8 1 )
+    ( Indent 1 )
+, L
+    ( Position 8 2 )
+    ( TokSym "This" )
+, L
+    ( Position 8 6 )
+    ( Whitespace " " )
+, L
+    ( Position 8 7 )
+    ( TokSym "is" )
+, L
+    ( Position 8 9 )
+    ( Whitespace " " )
+, L
+    ( Position 8 10 )
+    ( TokSym "a" )
+, L
+    ( Position 8 11 )
+    ( Whitespace " " )
+, L
+    ( Position 8 12 )
+    ( TokSym "pretty" )
+, L
+    ( Position 8 18 )
+    ( Whitespace " " )
+, L
+    ( Position 8 19 )
+    ( TokSym "printing" )
+, L
+    ( Position 8 27 )
+    ( Whitespace " " )
+, L
+    ( Position 8 28 )
+    ( TokSym "library" )
+, L
+    ( Position 8 35 )
+    ( Whitespace " " )
+, L
+    ( Position 8 36 )
+    ( TokSym "based" )
+, L
+    ( Position 8 41 )
+    ( Whitespace " " )
+, L
+    ( Position 8 42 )
+    ( TokSym "on" )
+, L
+    ( Position 8 44 )
+    ( Whitespace " " )
+, L
+    ( Position 8 45 )
+    ( TokSym "Wadler's" )
+, L
+    ( Position 8 53 )
+    ( Whitespace " " )
+, L
+    ( Position 8 54 )
+    ( TokSym "paper" )
+, L
+    ( Position 8 59 )
+    ( Whitespace " " )
+, L
+    ( Position 8 71 )
+    ( LexicalError "\xd
+     Printer".  See the haddocks for full info.  This version allows the\xd
+     library user to declare overlapping instances of the 'Pretty' class.\xd
+    License:             BSD3\xd
+    License-file:        LICENSE\xd
+    Author:              Daan Leijen\xd
+    Maintainer:          Noam Lewis <jones.noamle@gmail.com> \xd
+    Build-Type:          Simple\xd
+    \xd
+    Library\xd
+      Build-Depends:       base < 4.11\xd
+      Exposed-Modules:     Text.PrettyPrint.Leijen\xd
+      Extensions:          OverlappingInstances\xd
+    \xd
+    source-repository head\xd
+      type: git\xd
+      location: git@github.com:sinelaw/wl-pprint.git\xd
+    \xd
+    " )
+, L
+    ( Position 8 60 ) EOF
+]

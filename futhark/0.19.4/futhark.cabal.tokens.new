@@ -1,0 +1,5865 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "cabal-version" )
+, L
+    ( Position 1 14 ) Colon
+, L
+    ( Position 1 15 )
+    ( Whitespace " " )
+, L
+    ( Position 1 16 )
+    ( TokSym "2.4" )
+, L
+    ( Position 1 19 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 2 1 )
+    ( Comment "-- Run 'cabal2nix . >futhark.nix' after adding deps." )
+, L
+    ( Position 2 53 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "name" )
+, L
+    ( Position 3 5 ) Colon
+, L
+    ( Position 3 6 )
+    ( Whitespace "           " )
+, L
+    ( Position 3 17 )
+    ( TokSym "futhark" )
+, L
+    ( Position 3 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "version" )
+, L
+    ( Position 4 8 ) Colon
+, L
+    ( Position 4 9 )
+    ( Whitespace "        " )
+, L
+    ( Position 4 17 )
+    ( TokSym "0.19.4" )
+, L
+    ( Position 4 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "x-revision" )
+, L
+    ( Position 5 11 ) Colon
+, L
+    ( Position 5 12 )
+    ( Whitespace " " )
+, L
+    ( Position 5 13 )
+    ( TokSym "1" )
+, L
+    ( Position 5 14 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 6 1 )
+    ( Indent 0 )
+, L
+    ( Position 6 1 )
+    ( TokSym "synopsis" )
+, L
+    ( Position 6 9 ) Colon
+, L
+    ( Position 6 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 6 17 )
+    ( TokSym "An" )
+, L
+    ( Position 6 19 )
+    ( Whitespace " " )
+, L
+    ( Position 6 20 )
+    ( TokSym "optimising" )
+, L
+    ( Position 6 30 )
+    ( Whitespace " " )
+, L
+    ( Position 6 31 )
+    ( TokSym "compiler" )
+, L
+    ( Position 6 39 )
+    ( Whitespace " " )
+, L
+    ( Position 6 40 )
+    ( TokSym "for" )
+, L
+    ( Position 6 43 )
+    ( Whitespace " " )
+, L
+    ( Position 6 44 )
+    ( TokSym "a" )
+, L
+    ( Position 6 45 )
+    ( Whitespace " " )
+, L
+    ( Position 6 46 )
+    ( TokSym "functional" )
+, L
+    ( Position 6 56 )
+    ( TokOther "," )
+, L
+    ( Position 6 57 )
+    ( Whitespace " " )
+, L
+    ( Position 6 58 )
+    ( TokSym "array-oriented" )
+, L
+    ( Position 6 72 )
+    ( Whitespace " " )
+, L
+    ( Position 6 73 )
+    ( TokSym "language." )
+, L
+    ( Position 6 82 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 7 1 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 8 1 )
+    ( Indent 0 )
+, L
+    ( Position 8 1 )
+    ( TokSym "description" )
+, L
+    ( Position 8 12 ) Colon
+, L
+    ( Position 8 13 )
+    ( Whitespace "    " )
+, L
+    ( Position 8 17 )
+    ( TokSym "Futhark" )
+, L
+    ( Position 8 24 )
+    ( Whitespace " " )
+, L
+    ( Position 8 25 )
+    ( TokSym "is" )
+, L
+    ( Position 8 27 )
+    ( Whitespace " " )
+, L
+    ( Position 8 28 )
+    ( TokSym "a" )
+, L
+    ( Position 8 29 )
+    ( Whitespace " " )
+, L
+    ( Position 8 30 )
+    ( TokSym "small" )
+, L
+    ( Position 8 35 )
+    ( Whitespace " " )
+, L
+    ( Position 8 36 )
+    ( TokSym "programming" )
+, L
+    ( Position 8 47 )
+    ( Whitespace " " )
+, L
+    ( Position 8 48 )
+    ( TokSym "language" )
+, L
+    ( Position 8 56 )
+    ( Whitespace " " )
+, L
+    ( Position 8 57 )
+    ( TokSym "designed" )
+, L
+    ( Position 8 65 )
+    ( Whitespace " " )
+, L
+    ( Position 8 66 )
+    ( TokSym "to" )
+, L
+    ( Position 8 68 )
+    ( Whitespace " " )
+, L
+    ( Position 8 69 )
+    ( TokSym "be" )
+, L
+    ( Position 8 71 )
+    ( Whitespace " " )
+, L
+    ( Position 8 72 )
+    ( TokSym "compiled" )
+, L
+    ( Position 8 80 )
+    ( Whitespace " " )
+, L
+    ( Position 8 81 )
+    ( TokSym "to" )
+, L
+    ( Position 8 83 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 9 1 )
+    ( Indent 16 )
+, L
+    ( Position 9 17 )
+    ( TokSym "efficient" )
+, L
+    ( Position 9 26 )
+    ( Whitespace " " )
+, L
+    ( Position 9 27 )
+    ( TokSym "parallel" )
+, L
+    ( Position 9 35 )
+    ( Whitespace " " )
+, L
+    ( Position 9 36 )
+    ( TokSym "code." )
+, L
+    ( Position 9 41 )
+    ( Whitespace " " )
+, L
+    ( Position 9 42 )
+    ( TokSym "It" )
+, L
+    ( Position 9 44 )
+    ( Whitespace " " )
+, L
+    ( Position 9 45 )
+    ( TokSym "is" )
+, L
+    ( Position 9 47 )
+    ( Whitespace " " )
+, L
+    ( Position 9 48 )
+    ( TokSym "a" )
+, L
+    ( Position 9 49 )
+    ( Whitespace " " )
+, L
+    ( Position 9 50 )
+    ( TokSym "statically" )
+, L
+    ( Position 9 60 )
+    ( Whitespace " " )
+, L
+    ( Position 9 61 )
+    ( TokSym "typed" )
+, L
+    ( Position 9 66 )
+    ( TokOther "," )
+, L
+    ( Position 9 67 )
+    ( Whitespace " " )
+, L
+    ( Position 9 68 )
+    ( TokSym "data-parallel" )
+, L
+    ( Position 9 81 )
+    ( TokOther "," )
+, L
+    ( Position 9 82 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 10 1 )
+    ( Indent 16 )
+, L
+    ( Position 10 17 )
+    ( TokSym "and" )
+, L
+    ( Position 10 20 )
+    ( Whitespace " " )
+, L
+    ( Position 10 21 )
+    ( TokSym "purely" )
+, L
+    ( Position 10 27 )
+    ( Whitespace " " )
+, L
+    ( Position 10 28 )
+    ( TokSym "functional" )
+, L
+    ( Position 10 38 )
+    ( Whitespace " " )
+, L
+    ( Position 10 39 )
+    ( TokSym "array" )
+, L
+    ( Position 10 44 )
+    ( Whitespace " " )
+, L
+    ( Position 10 45 )
+    ( TokSym "language" )
+, L
+    ( Position 10 53 )
+    ( Whitespace " " )
+, L
+    ( Position 10 54 )
+    ( TokSym "in" )
+, L
+    ( Position 10 56 )
+    ( Whitespace " " )
+, L
+    ( Position 10 57 )
+    ( TokSym "the" )
+, L
+    ( Position 10 60 )
+    ( Whitespace " " )
+, L
+    ( Position 10 61 )
+    ( TokSym "ML" )
+, L
+    ( Position 10 63 )
+    ( Whitespace " " )
+, L
+    ( Position 10 64 )
+    ( TokSym "family" )
+, L
+    ( Position 10 70 )
+    ( TokOther "," )
+, L
+    ( Position 10 71 )
+    ( Whitespace " " )
+, L
+    ( Position 10 72 )
+    ( TokSym "and" )
+, L
+    ( Position 10 75 )
+    ( Whitespace " " )
+, L
+    ( Position 10 76 )
+    ( TokSym "comes" )
+, L
+    ( Position 10 81 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 11 1 )
+    ( Indent 16 )
+, L
+    ( Position 11 17 )
+    ( TokSym "with" )
+, L
+    ( Position 11 21 )
+    ( Whitespace " " )
+, L
+    ( Position 11 22 )
+    ( TokSym "a" )
+, L
+    ( Position 11 23 )
+    ( Whitespace " " )
+, L
+    ( Position 11 24 )
+    ( TokSym "heavily" )
+, L
+    ( Position 11 31 )
+    ( Whitespace " " )
+, L
+    ( Position 11 32 )
+    ( TokSym "optimising" )
+, L
+    ( Position 11 42 )
+    ( Whitespace " " )
+, L
+    ( Position 11 43 )
+    ( TokSym "ahead-of-time" )
+, L
+    ( Position 11 56 )
+    ( Whitespace " " )
+, L
+    ( Position 11 57 )
+    ( TokSym "compiler" )
+, L
+    ( Position 11 65 )
+    ( Whitespace " " )
+, L
+    ( Position 11 66 )
+    ( TokSym "that" )
+, L
+    ( Position 11 70 )
+    ( Whitespace " " )
+, L
+    ( Position 11 71 )
+    ( TokSym "presently" )
+, L
+    ( Position 11 80 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 12 1 )
+    ( Indent 16 )
+, L
+    ( Position 12 17 )
+    ( TokSym "generates" )
+, L
+    ( Position 12 26 )
+    ( Whitespace " " )
+, L
+    ( Position 12 27 )
+    ( TokSym "GPU" )
+, L
+    ( Position 12 30 )
+    ( Whitespace " " )
+, L
+    ( Position 12 31 )
+    ( TokSym "code" )
+, L
+    ( Position 12 35 )
+    ( Whitespace " " )
+, L
+    ( Position 12 36 )
+    ( TokSym "via" )
+, L
+    ( Position 12 39 )
+    ( Whitespace " " )
+, L
+    ( Position 12 40 )
+    ( TokSym "CUDA" )
+, L
+    ( Position 12 44 )
+    ( Whitespace " " )
+, L
+    ( Position 12 45 )
+    ( TokSym "and" )
+, L
+    ( Position 12 48 )
+    ( Whitespace " " )
+, L
+    ( Position 12 49 )
+    ( TokSym "OpenCL" )
+, L
+    ( Position 12 55 )
+    ( TokOther "," )
+, L
+    ( Position 12 56 )
+    ( Whitespace " " )
+, L
+    ( Position 12 57 )
+    ( TokSym "although" )
+, L
+    ( Position 12 65 )
+    ( Whitespace " " )
+, L
+    ( Position 12 66 )
+    ( TokSym "the" )
+, L
+    ( Position 12 69 )
+    ( Whitespace " " )
+, L
+    ( Position 12 70 )
+    ( TokSym "language" )
+, L
+    ( Position 12 78 )
+    ( Whitespace " " )
+, L
+    ( Position 12 79 )
+    ( TokSym "itself" )
+, L
+    ( Position 12 85 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 13 1 )
+    ( Indent 16 )
+, L
+    ( Position 13 17 )
+    ( TokSym "is" )
+, L
+    ( Position 13 19 )
+    ( Whitespace " " )
+, L
+    ( Position 13 20 )
+    ( TokSym "hardware-agnostic." )
+, L
+    ( Position 13 38 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 14 1 )
+    ( Indent 16 )
+, L
+    ( Position 14 17 )
+    ( TokSym "." )
+, L
+    ( Position 14 18 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 15 1 )
+    ( Indent 16 )
+, L
+    ( Position 15 17 )
+    ( TokSym "For" )
+, L
+    ( Position 15 20 )
+    ( Whitespace " " )
+, L
+    ( Position 15 21 )
+    ( TokSym "more" )
+, L
+    ( Position 15 25 )
+    ( Whitespace " " )
+, L
+    ( Position 15 26 )
+    ( TokSym "information" )
+, L
+    ( Position 15 37 )
+    ( TokOther "," )
+, L
+    ( Position 15 38 )
+    ( Whitespace " " )
+, L
+    ( Position 15 39 )
+    ( TokSym "see" )
+, L
+    ( Position 15 42 )
+    ( Whitespace " " )
+, L
+    ( Position 15 43 )
+    ( TokSym "the" )
+, L
+    ( Position 15 46 )
+    ( Whitespace " " )
+, L
+    ( Position 15 47 )
+    ( TokSym "website" )
+, L
+    ( Position 15 54 )
+    ( Whitespace " " )
+, L
+    ( Position 15 55 )
+    ( TokSym "at" )
+, L
+    ( Position 15 57 )
+    ( Whitespace " " )
+, L
+    ( Position 15 58 )
+    ( TokSym "https" )
+, L
+    ( Position 15 63 ) Colon
+, L
+    ( Position 15 64 )
+    ( TokOther "//" )
+, L
+    ( Position 15 66 )
+    ( TokSym "futhark-lang.org" )
+, L
+    ( Position 15 82 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 16 1 )
+    ( Indent 16 )
+, L
+    ( Position 16 17 )
+    ( TokSym "." )
+, L
+    ( Position 16 18 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 17 1 )
+    ( Indent 16 )
+, L
+    ( Position 17 17 )
+    ( TokSym "For" )
+, L
+    ( Position 17 20 )
+    ( Whitespace " " )
+, L
+    ( Position 17 21 )
+    ( TokSym "introductionary" )
+, L
+    ( Position 17 36 )
+    ( Whitespace " " )
+, L
+    ( Position 17 37 )
+    ( TokSym "information" )
+, L
+    ( Position 17 48 )
+    ( Whitespace " " )
+, L
+    ( Position 17 49 )
+    ( TokSym "about" )
+, L
+    ( Position 17 54 )
+    ( Whitespace " " )
+, L
+    ( Position 17 55 )
+    ( TokSym "hacking" )
+, L
+    ( Position 17 62 )
+    ( Whitespace " " )
+, L
+    ( Position 17 63 )
+    ( TokSym "on" )
+, L
+    ( Position 17 65 )
+    ( Whitespace " " )
+, L
+    ( Position 17 66 )
+    ( TokSym "the" )
+, L
+    ( Position 17 69 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 18 1 )
+    ( Indent 16 )
+, L
+    ( Position 18 17 )
+    ( TokSym "Futhark" )
+, L
+    ( Position 18 24 )
+    ( Whitespace " " )
+, L
+    ( Position 18 25 )
+    ( TokSym "compiler" )
+, L
+    ( Position 18 33 )
+    ( TokOther "," )
+, L
+    ( Position 18 34 )
+    ( Whitespace " " )
+, L
+    ( Position 18 35 )
+    ( TokSym "see" )
+, L
+    ( Position 18 38 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 19 1 )
+    ( Indent 16 )
+, L
+    ( Position 19 17 )
+    ( TokOther "<" )
+, L
+    ( Position 19 18 )
+    ( TokSym "https" )
+, L
+    ( Position 19 23 ) Colon
+, L
+    ( Position 19 24 )
+    ( TokOther "//" )
+, L
+    ( Position 19 26 )
+    ( TokSym "futhark.readthedocs.io" )
+, L
+    ( Position 19 48 )
+    ( TokOther "/" )
+, L
+    ( Position 19 49 )
+    ( TokSym "en" )
+, L
+    ( Position 19 51 )
+    ( TokOther "/" )
+, L
+    ( Position 19 52 )
+    ( TokSym "latest" )
+, L
+    ( Position 19 58 )
+    ( TokOther "/" )
+, L
+    ( Position 19 59 )
+    ( TokSym "hacking.html" )
+, L
+    ( Position 19 71 )
+    ( Whitespace " " )
+, L
+    ( Position 19 72 )
+    ( TokSym "the" )
+, L
+    ( Position 19 75 )
+    ( Whitespace " " )
+, L
+    ( Position 19 76 )
+    ( TokSym "hacking" )
+, L
+    ( Position 19 83 )
+    ( Whitespace " " )
+, L
+    ( Position 19 84 )
+    ( TokSym "guide" )
+, L
+    ( Position 19 89 )
+    ( TokOther ">." )
+, L
+    ( Position 19 91 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 20 1 )
+    ( Indent 16 )
+, L
+    ( Position 20 17 )
+    ( TokSym "Regarding" )
+, L
+    ( Position 20 26 )
+    ( Whitespace " " )
+, L
+    ( Position 20 27 )
+    ( TokSym "the" )
+, L
+    ( Position 20 30 )
+    ( Whitespace " " )
+, L
+    ( Position 20 31 )
+    ( TokSym "internal" )
+, L
+    ( Position 20 39 )
+    ( Whitespace " " )
+, L
+    ( Position 20 40 )
+    ( TokSym "design" )
+, L
+    ( Position 20 46 )
+    ( Whitespace " " )
+, L
+    ( Position 20 47 )
+    ( TokSym "of" )
+, L
+    ( Position 20 49 )
+    ( Whitespace " " )
+, L
+    ( Position 20 50 )
+    ( TokSym "the" )
+, L
+    ( Position 20 53 )
+    ( Whitespace " " )
+, L
+    ( Position 20 54 )
+    ( TokSym "compiler" )
+, L
+    ( Position 20 62 )
+    ( TokOther "," )
+, L
+    ( Position 20 63 )
+    ( Whitespace " " )
+, L
+    ( Position 20 64 )
+    ( TokSym "the" )
+, L
+    ( Position 20 67 )
+    ( Whitespace " " )
+, L
+    ( Position 20 68 )
+    ( TokSym "following" )
+, L
+    ( Position 20 77 )
+    ( Whitespace " " )
+, L
+    ( Position 20 78 )
+    ( TokSym "modules" )
+, L
+    ( Position 20 85 )
+    ( Whitespace " " )
+, L
+    ( Position 20 86 )
+    ( TokSym "make" )
+, L
+    ( Position 20 90 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 21 1 )
+    ( Indent 16 )
+, L
+    ( Position 21 17 )
+    ( TokSym "good" )
+, L
+    ( Position 21 21 )
+    ( Whitespace " " )
+, L
+    ( Position 21 22 )
+    ( TokSym "starting" )
+, L
+    ( Position 21 30 )
+    ( Whitespace " " )
+, L
+    ( Position 21 31 )
+    ( TokSym "points" )
+, L
+    ( Position 21 37 ) Colon
+, L
+    ( Position 21 38 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 22 1 )
+    ( Indent 16 )
+, L
+    ( Position 22 17 )
+    ( TokSym "." )
+, L
+    ( Position 22 18 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 23 1 )
+    ( Indent 16 )
+, L
+    ( Position 23 17 )
+    ( TokOther "*" )
+, L
+    ( Position 23 18 )
+    ( Whitespace " " )
+, L
+    ( Position 23 19 )
+    ( TokStr "Futhark.IR.Syntax" )
+, L
+    ( Position 23 38 )
+    ( Whitespace " " )
+, L
+    ( Position 23 39 )
+    ( TokSym "explains" )
+, L
+    ( Position 23 47 )
+    ( Whitespace " " )
+, L
+    ( Position 23 48 )
+    ( TokSym "the" )
+, L
+    ( Position 23 51 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 24 1 )
+    ( Indent 18 )
+, L
+    ( Position 24 19 )
+    ( TokSym "basic" )
+, L
+    ( Position 24 24 )
+    ( Whitespace " " )
+, L
+    ( Position 24 25 )
+    ( TokSym "design" )
+, L
+    ( Position 24 31 )
+    ( Whitespace " " )
+, L
+    ( Position 24 32 )
+    ( TokSym "of" )
+, L
+    ( Position 24 34 )
+    ( Whitespace " " )
+, L
+    ( Position 24 35 )
+    ( TokSym "the" )
+, L
+    ( Position 24 38 )
+    ( Whitespace " " )
+, L
+    ( Position 24 39 )
+    ( TokSym "intermediate" )
+, L
+    ( Position 24 51 )
+    ( Whitespace " " )
+, L
+    ( Position 24 52 )
+    ( TokSym "representation" )
+, L
+    ( Position 24 66 )
+    ( Whitespace " " )
+, L
+    ( Position 24 67 )
+    ( TokOther "(" )
+, L
+    ( Position 24 68 )
+    ( TokSym "IR" )
+, L
+    ( Position 24 70 )
+    ( TokOther ")" )
+, L
+    ( Position 24 71 )
+    ( TokSym "." )
+, L
+    ( Position 24 72 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 25 1 )
+    ( Indent 16 )
+, L
+    ( Position 25 17 )
+    ( TokOther "*" )
+, L
+    ( Position 25 18 )
+    ( Whitespace " " )
+, L
+    ( Position 25 19 )
+    ( TokStr "Futhark.Construct" )
+, L
+    ( Position 25 38 )
+    ( Whitespace " " )
+, L
+    ( Position 25 39 )
+    ( TokSym "explains" )
+, L
+    ( Position 25 47 )
+    ( Whitespace " " )
+, L
+    ( Position 25 48 )
+    ( TokSym "how" )
+, L
+    ( Position 25 51 )
+    ( Whitespace " " )
+, L
+    ( Position 25 52 )
+    ( TokSym "to" )
+, L
+    ( Position 25 54 )
+    ( Whitespace " " )
+, L
+    ( Position 25 55 )
+    ( TokSym "write" )
+, L
+    ( Position 25 60 )
+    ( Whitespace " " )
+, L
+    ( Position 25 61 )
+    ( TokSym "code" )
+, L
+    ( Position 25 65 )
+    ( Whitespace " " )
+, L
+    ( Position 25 66 )
+    ( TokSym "that" )
+, L
+    ( Position 25 70 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 26 1 )
+    ( Indent 18 )
+, L
+    ( Position 26 19 )
+    ( TokSym "manipulates" )
+, L
+    ( Position 26 30 )
+    ( Whitespace " " )
+, L
+    ( Position 26 31 )
+    ( TokSym "and" )
+, L
+    ( Position 26 34 )
+    ( Whitespace " " )
+, L
+    ( Position 26 35 )
+    ( TokSym "creates" )
+, L
+    ( Position 26 42 )
+    ( Whitespace " " )
+, L
+    ( Position 26 43 )
+    ( TokSym "AST" )
+, L
+    ( Position 26 46 )
+    ( Whitespace " " )
+, L
+    ( Position 26 47 )
+    ( TokSym "fragments." )
+, L
+    ( Position 26 57 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 27 1 )
+    ( Indent 16 )
+, L
+    ( Position 27 17 )
+    ( TokSym "." )
+, L
+    ( Position 27 18 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 28 1 )
+    ( Indent 16 )
+, L
+    ( Position 28 17 )
+    ( TokOther "<<" )
+, L
+    ( Position 28 19 )
+    ( TokSym "docs" )
+, L
+    ( Position 28 23 )
+    ( TokOther "/" )
+, L
+    ( Position 28 24 )
+    ( TokSym "assets" )
+, L
+    ( Position 28 30 )
+    ( TokOther "/" )
+, L
+    ( Position 28 31 )
+    ( TokSym "ohyes.png" )
+, L
+    ( Position 28 40 )
+    ( Whitespace " " )
+, L
+    ( Position 28 41 )
+    ( TokSym "You" )
+, L
+    ( Position 28 44 )
+    ( Whitespace " " )
+, L
+    ( Position 28 45 )
+    ( TokSym "too" )
+, L
+    ( Position 28 48 )
+    ( Whitespace " " )
+, L
+    ( Position 28 49 )
+    ( TokSym "can" )
+, L
+    ( Position 28 52 )
+    ( Whitespace " " )
+, L
+    ( Position 28 53 )
+    ( TokSym "go" )
+, L
+    ( Position 28 55 )
+    ( Whitespace " " )
+, L
+    ( Position 28 56 )
+    ( TokSym "fast" )
+, L
+    ( Position 28 60 )
+    ( Whitespace " " )
+, L
+    ( Position 28 61 )
+    ( TokSym "once" )
+, L
+    ( Position 28 65 )
+    ( Whitespace " " )
+, L
+    ( Position 28 66 )
+    ( TokSym "you" )
+, L
+    ( Position 28 69 )
+    ( Whitespace " " )
+, L
+    ( Position 28 70 )
+    ( TokSym "rewrite" )
+, L
+    ( Position 28 77 )
+    ( Whitespace " " )
+, L
+    ( Position 28 78 )
+    ( TokSym "your" )
+, L
+    ( Position 28 82 )
+    ( Whitespace " " )
+, L
+    ( Position 28 83 )
+    ( TokSym "program" )
+, L
+    ( Position 28 90 )
+    ( Whitespace " " )
+, L
+    ( Position 28 91 )
+    ( TokSym "in" )
+, L
+    ( Position 28 93 )
+    ( Whitespace " " )
+, L
+    ( Position 28 94 )
+    ( TokSym "Futhark." )
+, L
+    ( Position 28 102 )
+    ( TokOther ">>" )
+, L
+    ( Position 28 104 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 29 1 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 30 1 )
+    ( Indent 0 )
+, L
+    ( Position 30 1 )
+    ( TokSym "category" )
+, L
+    ( Position 30 9 ) Colon
+, L
+    ( Position 30 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 30 17 )
+    ( TokSym "Language" )
+, L
+    ( Position 30 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 31 1 )
+    ( Indent 0 )
+, L
+    ( Position 31 1 )
+    ( TokSym "homepage" )
+, L
+    ( Position 31 9 ) Colon
+, L
+    ( Position 31 10 )
+    ( Whitespace "       " )
+, L
+    ( Position 31 17 )
+    ( TokSym "https" )
+, L
+    ( Position 31 22 ) Colon
+, L
+    ( Position 31 23 )
+    ( TokOther "//" )
+, L
+    ( Position 31 25 )
+    ( TokSym "futhark-lang.org" )
+, L
+    ( Position 31 41 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 32 1 )
+    ( Indent 0 )
+, L
+    ( Position 32 1 )
+    ( TokSym "bug-reports" )
+, L
+    ( Position 32 12 ) Colon
+, L
+    ( Position 32 13 )
+    ( Whitespace "    " )
+, L
+    ( Position 32 17 )
+    ( TokSym "https" )
+, L
+    ( Position 32 22 ) Colon
+, L
+    ( Position 32 23 )
+    ( TokOther "//" )
+, L
+    ( Position 32 25 )
+    ( TokSym "github.com" )
+, L
+    ( Position 32 35 )
+    ( TokOther "/" )
+, L
+    ( Position 32 36 )
+    ( TokSym "diku-dk" )
+, L
+    ( Position 32 43 )
+    ( TokOther "/" )
+, L
+    ( Position 32 44 )
+    ( TokSym "futhark" )
+, L
+    ( Position 32 51 )
+    ( TokOther "/" )
+, L
+    ( Position 32 52 )
+    ( TokSym "issues" )
+, L
+    ( Position 32 58 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 33 1 )
+    ( Indent 0 )
+, L
+    ( Position 33 1 )
+    ( TokSym "maintainer" )
+, L
+    ( Position 33 11 ) Colon
+, L
+    ( Position 33 12 )
+    ( Whitespace "     " )
+, L
+    ( Position 33 17 )
+    ( TokSym "Troels" )
+, L
+    ( Position 33 23 )
+    ( Whitespace " " )
+, L
+    ( Position 33 24 )
+    ( TokSym "Henriksen" )
+, L
+    ( Position 33 33 )
+    ( Whitespace " " )
+, L
+    ( Position 33 34 )
+    ( TokSym "athas" )
+, L
+    ( Position 33 39 )
+    ( TokOther "@" )
+, L
+    ( Position 33 40 )
+    ( TokSym "sigkill.dk" )
+, L
+    ( Position 33 50 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 34 1 )
+    ( Indent 0 )
+, L
+    ( Position 34 1 )
+    ( TokSym "license" )
+, L
+    ( Position 34 8 ) Colon
+, L
+    ( Position 34 9 )
+    ( Whitespace "        " )
+, L
+    ( Position 34 17 )
+    ( TokSym "ISC" )
+, L
+    ( Position 34 20 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 35 1 )
+    ( Indent 0 )
+, L
+    ( Position 35 1 )
+    ( TokSym "license-file" )
+, L
+    ( Position 35 13 ) Colon
+, L
+    ( Position 35 14 )
+    ( Whitespace "   " )
+, L
+    ( Position 35 17 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 35 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 36 1 )
+    ( Indent 0 )
+, L
+    ( Position 36 1 )
+    ( TokSym "build-type" )
+, L
+    ( Position 36 11 ) Colon
+, L
+    ( Position 36 12 )
+    ( Whitespace "     " )
+, L
+    ( Position 36 17 )
+    ( TokSym "Simple" )
+, L
+    ( Position 36 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 37 1 )
+    ( Indent 0 )
+, L
+    ( Position 37 1 )
+    ( TokSym "extra-source-files" )
+, L
+    ( Position 37 19 ) Colon
+, L
+    ( Position 37 20 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 38 1 )
+    ( Indent 4 )
+, L
+    ( Position 38 5 )
+    ( TokSym "rts" )
+, L
+    ( Position 38 8 )
+    ( TokOther "/" )
+, L
+    ( Position 38 9 )
+    ( TokSym "c" )
+, L
+    ( Position 38 10 )
+    ( TokOther "/*." )
+, L
+    ( Position 38 13 )
+    ( TokSym "h" )
+, L
+    ( Position 38 14 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 39 1 )
+    ( Indent 4 )
+, L
+    ( Position 39 5 )
+    ( TokSym "rts" )
+, L
+    ( Position 39 8 )
+    ( TokOther "/" )
+, L
+    ( Position 39 9 )
+    ( TokSym "futhark-doc" )
+, L
+    ( Position 39 20 )
+    ( TokOther "/*." )
+, L
+    ( Position 39 23 )
+    ( TokSym "css" )
+, L
+    ( Position 39 26 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 40 1 )
+    ( Indent 4 )
+, L
+    ( Position 40 5 )
+    ( TokSym "rts" )
+, L
+    ( Position 40 8 )
+    ( TokOther "/" )
+, L
+    ( Position 40 9 )
+    ( TokSym "python" )
+, L
+    ( Position 40 15 )
+    ( TokOther "/*." )
+, L
+    ( Position 40 18 )
+    ( TokSym "py" )
+, L
+    ( Position 40 20 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 41 1 )
+    ( Indent 4 )
+, L
+    ( Position 41 5 )
+    ( TokSym "prelude" )
+, L
+    ( Position 41 12 )
+    ( TokOther "/*." )
+, L
+    ( Position 41 15 )
+    ( TokSym "fut" )
+, L
+    ( Position 41 18 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 42 1 )
+    ( Comment "-- Just enough of the docs to build the manpages." )
+, L
+    ( Position 42 50 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 43 1 )
+    ( Indent 4 )
+, L
+    ( Position 43 5 )
+    ( TokSym "docs" )
+, L
+    ( Position 43 9 )
+    ( TokOther "/**/*." )
+, L
+    ( Position 43 15 )
+    ( TokSym "rst" )
+, L
+    ( Position 43 18 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 44 1 )
+    ( Indent 4 )
+, L
+    ( Position 44 5 )
+    ( TokSym "docs" )
+, L
+    ( Position 44 9 )
+    ( TokOther "/" )
+, L
+    ( Position 44 10 )
+    ( TokSym "Makefile" )
+, L
+    ( Position 44 18 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 45 1 )
+    ( Indent 4 )
+, L
+    ( Position 45 5 )
+    ( TokSym "docs" )
+, L
+    ( Position 45 9 )
+    ( TokOther "/" )
+, L
+    ( Position 45 10 )
+    ( TokSym "conf.py" )
+, L
+    ( Position 45 17 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 46 1 )
+    ( Indent 4 )
+, L
+    ( Position 46 5 )
+    ( TokSym "docs" )
+, L
+    ( Position 46 9 )
+    ( TokOther "/" )
+, L
+    ( Position 46 10 )
+    ( TokSym "requirements.txt" )
+, L
+    ( Position 46 26 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 47 1 )
+    ( Indent 0 )
+, L
+    ( Position 47 1 )
+    ( TokSym "extra-doc-files" )
+, L
+    ( Position 47 16 ) Colon
+, L
+    ( Position 47 17 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 48 1 )
+    ( Indent 2 )
+, L
+    ( Position 48 3 )
+    ( TokSym "assets" )
+, L
+    ( Position 48 9 )
+    ( TokOther "/*." )
+, L
+    ( Position 48 12 )
+    ( TokSym "png" )
+, L
+    ( Position 48 15 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 49 1 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 50 1 )
+    ( Indent 0 )
+, L
+    ( Position 50 1 )
+    ( TokSym "source-repository" )
+, L
+    ( Position 50 18 )
+    ( Whitespace " " )
+, L
+    ( Position 50 19 )
+    ( TokSym "head" )
+, L
+    ( Position 50 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 51 1 )
+    ( Indent 2 )
+, L
+    ( Position 51 3 )
+    ( TokSym "type" )
+, L
+    ( Position 51 7 ) Colon
+, L
+    ( Position 51 8 )
+    ( Whitespace " " )
+, L
+    ( Position 51 9 )
+    ( TokSym "git" )
+, L
+    ( Position 51 12 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 52 1 )
+    ( Indent 2 )
+, L
+    ( Position 52 3 )
+    ( TokSym "location" )
+, L
+    ( Position 52 11 ) Colon
+, L
+    ( Position 52 12 )
+    ( Whitespace " " )
+, L
+    ( Position 52 13 )
+    ( TokSym "https" )
+, L
+    ( Position 52 18 ) Colon
+, L
+    ( Position 52 19 )
+    ( TokOther "//" )
+, L
+    ( Position 52 21 )
+    ( TokSym "github.com" )
+, L
+    ( Position 52 31 )
+    ( TokOther "/" )
+, L
+    ( Position 52 32 )
+    ( TokSym "diku-dk" )
+, L
+    ( Position 52 39 )
+    ( TokOther "/" )
+, L
+    ( Position 52 40 )
+    ( TokSym "futhark" )
+, L
+    ( Position 52 47 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 53 1 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 54 1 )
+    ( Indent 0 )
+, L
+    ( Position 54 1 )
+    ( TokSym "library" )
+, L
+    ( Position 54 8 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 55 1 )
+    ( Indent 2 )
+, L
+    ( Position 55 3 )
+    ( TokSym "exposed-modules" )
+, L
+    ( Position 55 18 ) Colon
+, L
+    ( Position 55 19 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 56 1 )
+    ( Indent 6 )
+, L
+    ( Position 56 7 )
+    ( TokSym "Futhark.Actions" )
+, L
+    ( Position 56 22 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 57 1 )
+    ( Indent 6 )
+, L
+    ( Position 57 7 )
+    ( TokSym "Futhark.Analysis.Alias" )
+, L
+    ( Position 57 29 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 58 1 )
+    ( Indent 6 )
+, L
+    ( Position 58 7 )
+    ( TokSym "Futhark.Analysis.CallGraph" )
+, L
+    ( Position 58 33 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 59 1 )
+    ( Indent 6 )
+, L
+    ( Position 59 7 )
+    ( TokSym "Futhark.Analysis.DataDependencies" )
+, L
+    ( Position 59 40 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 60 1 )
+    ( Indent 6 )
+, L
+    ( Position 60 7 )
+    ( TokSym "Futhark.Analysis.HORep.MapNest" )
+, L
+    ( Position 60 37 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 61 1 )
+    ( Indent 6 )
+, L
+    ( Position 61 7 )
+    ( TokSym "Futhark.Analysis.HORep.SOAC" )
+, L
+    ( Position 61 34 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 62 1 )
+    ( Indent 6 )
+, L
+    ( Position 62 7 )
+    ( TokSym "Futhark.Analysis.Metrics" )
+, L
+    ( Position 62 31 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 63 1 )
+    ( Indent 6 )
+, L
+    ( Position 63 7 )
+    ( TokSym "Futhark.Analysis.Metrics.Type" )
+, L
+    ( Position 63 36 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 64 1 )
+    ( Indent 6 )
+, L
+    ( Position 64 7 )
+    ( TokSym "Futhark.Analysis.PrimExp" )
+, L
+    ( Position 64 31 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 65 1 )
+    ( Indent 6 )
+, L
+    ( Position 65 7 )
+    ( TokSym "Futhark.Analysis.PrimExp.Parse" )
+, L
+    ( Position 65 37 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 66 1 )
+    ( Indent 6 )
+, L
+    ( Position 66 7 )
+    ( TokSym "Futhark.Analysis.PrimExp.Convert" )
+, L
+    ( Position 66 39 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 67 1 )
+    ( Indent 6 )
+, L
+    ( Position 67 7 )
+    ( TokSym "Futhark.Analysis.PrimExp.Generalize" )
+, L
+    ( Position 67 42 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 68 1 )
+    ( Indent 6 )
+, L
+    ( Position 68 7 )
+    ( TokSym "Futhark.Analysis.PrimExp.Simplify" )
+, L
+    ( Position 68 40 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 69 1 )
+    ( Indent 6 )
+, L
+    ( Position 69 7 )
+    ( TokSym "Futhark.Analysis.Rephrase" )
+, L
+    ( Position 69 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 70 1 )
+    ( Indent 6 )
+, L
+    ( Position 70 7 )
+    ( TokSym "Futhark.Analysis.SymbolTable" )
+, L
+    ( Position 70 35 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 71 1 )
+    ( Indent 6 )
+, L
+    ( Position 71 7 )
+    ( TokSym "Futhark.Analysis.UsageTable" )
+, L
+    ( Position 71 34 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 72 1 )
+    ( Indent 6 )
+, L
+    ( Position 72 7 )
+    ( TokSym "Futhark.Bench" )
+, L
+    ( Position 72 20 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 73 1 )
+    ( Indent 6 )
+, L
+    ( Position 73 7 )
+    ( TokSym "Futhark.Binder" )
+, L
+    ( Position 73 21 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 74 1 )
+    ( Indent 6 )
+, L
+    ( Position 74 7 )
+    ( TokSym "Futhark.Binder.Class" )
+, L
+    ( Position 74 27 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 75 1 )
+    ( Indent 6 )
+, L
+    ( Position 75 7 )
+    ( TokSym "Futhark.CLI.Autotune" )
+, L
+    ( Position 75 27 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 76 1 )
+    ( Indent 6 )
+, L
+    ( Position 76 7 )
+    ( TokSym "Futhark.CLI.Bench" )
+, L
+    ( Position 76 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 77 1 )
+    ( Indent 6 )
+, L
+    ( Position 77 7 )
+    ( TokSym "Futhark.CLI.C" )
+, L
+    ( Position 77 20 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 78 1 )
+    ( Indent 6 )
+, L
+    ( Position 78 7 )
+    ( TokSym "Futhark.CLI.CUDA" )
+, L
+    ( Position 78 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 79 1 )
+    ( Indent 6 )
+, L
+    ( Position 79 7 )
+    ( TokSym "Futhark.CLI.Check" )
+, L
+    ( Position 79 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 80 1 )
+    ( Indent 6 )
+, L
+    ( Position 80 7 )
+    ( TokSym "Futhark.CLI.Datacmp" )
+, L
+    ( Position 80 26 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 81 1 )
+    ( Indent 6 )
+, L
+    ( Position 81 7 )
+    ( TokSym "Futhark.CLI.Dataset" )
+, L
+    ( Position 81 26 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 82 1 )
+    ( Indent 6 )
+, L
+    ( Position 82 7 )
+    ( TokSym "Futhark.CLI.Dev" )
+, L
+    ( Position 82 22 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 83 1 )
+    ( Indent 6 )
+, L
+    ( Position 83 7 )
+    ( TokSym "Futhark.CLI.Doc" )
+, L
+    ( Position 83 22 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 84 1 )
+    ( Indent 6 )
+, L
+    ( Position 84 7 )
+    ( TokSym "Futhark.CLI.Literate" )
+, L
+    ( Position 84 27 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 85 1 )
+    ( Indent 6 )
+, L
+    ( Position 85 7 )
+    ( TokSym "Futhark.CLI.Misc" )
+, L
+    ( Position 85 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 86 1 )
+    ( Indent 6 )
+, L
+    ( Position 86 7 )
+    ( TokSym "Futhark.CLI.Multicore" )
+, L
+    ( Position 86 28 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 87 1 )
+    ( Indent 6 )
+, L
+    ( Position 87 7 )
+    ( TokSym "Futhark.CLI.OpenCL" )
+, L
+    ( Position 87 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 88 1 )
+    ( Indent 6 )
+, L
+    ( Position 88 7 )
+    ( TokSym "Futhark.CLI.Pkg" )
+, L
+    ( Position 88 22 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 89 1 )
+    ( Indent 6 )
+, L
+    ( Position 89 7 )
+    ( TokSym "Futhark.CLI.PyOpenCL" )
+, L
+    ( Position 89 27 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 90 1 )
+    ( Indent 6 )
+, L
+    ( Position 90 7 )
+    ( TokSym "Futhark.CLI.Python" )
+, L
+    ( Position 90 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 91 1 )
+    ( Indent 6 )
+, L
+    ( Position 91 7 )
+    ( TokSym "Futhark.CLI.Query" )
+, L
+    ( Position 91 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 92 1 )
+    ( Indent 6 )
+, L
+    ( Position 92 7 )
+    ( TokSym "Futhark.CLI.REPL" )
+, L
+    ( Position 92 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 93 1 )
+    ( Indent 6 )
+, L
+    ( Position 93 7 )
+    ( TokSym "Futhark.CLI.Run" )
+, L
+    ( Position 93 22 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 94 1 )
+    ( Indent 6 )
+, L
+    ( Position 94 7 )
+    ( TokSym "Futhark.CLI.Test" )
+, L
+    ( Position 94 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 95 1 )
+    ( Indent 6 )
+, L
+    ( Position 95 7 )
+    ( TokSym "Futhark.CodeGen.Backends.CCUDA" )
+, L
+    ( Position 95 37 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 96 1 )
+    ( Indent 6 )
+, L
+    ( Position 96 7 )
+    ( TokSym "Futhark.CodeGen.Backends.CCUDA.Boilerplate" )
+, L
+    ( Position 96 49 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 97 1 )
+    ( Indent 6 )
+, L
+    ( Position 97 7 )
+    ( TokSym "Futhark.CodeGen.Backends.COpenCL" )
+, L
+    ( Position 97 39 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 98 1 )
+    ( Indent 6 )
+, L
+    ( Position 98 7 )
+    ( TokSym "Futhark.CodeGen.Backends.COpenCL.Boilerplate" )
+, L
+    ( Position 98 51 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 99 1 )
+    ( Indent 6 )
+, L
+    ( Position 99 7 )
+    ( TokSym "Futhark.CodeGen.Backends.GenericC" )
+, L
+    ( Position 99 40 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 100 1 )
+    ( Indent 6 )
+, L
+    ( Position 100 7 )
+    ( TokSym "Futhark.CodeGen.Backends.GenericC.CLI" )
+, L
+    ( Position 100 44 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 101 1 )
+    ( Indent 6 )
+, L
+    ( Position 101 7 )
+    ( TokSym "Futhark.CodeGen.Backends.GenericC.Server" )
+, L
+    ( Position 101 47 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 102 1 )
+    ( Indent 6 )
+, L
+    ( Position 102 7 )
+    ( TokSym "Futhark.CodeGen.Backends.GenericC.Options" )
+, L
+    ( Position 102 48 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 103 1 )
+    ( Indent 6 )
+, L
+    ( Position 103 7 )
+    ( TokSym "Futhark.CodeGen.Backends.GenericPython" )
+, L
+    ( Position 103 45 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 104 1 )
+    ( Indent 6 )
+, L
+    ( Position 104 7 )
+    ( TokSym "Futhark.CodeGen.Backends.GenericPython.AST" )
+, L
+    ( Position 104 49 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 105 1 )
+    ( Indent 6 )
+, L
+    ( Position 105 7 )
+    ( TokSym "Futhark.CodeGen.Backends.GenericPython.Definitions" )
+, L
+    ( Position 105 57 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 106 1 )
+    ( Indent 6 )
+, L
+    ( Position 106 7 )
+    ( TokSym "Futhark.CodeGen.Backends.GenericPython.Options" )
+, L
+    ( Position 106 53 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 107 1 )
+    ( Indent 6 )
+, L
+    ( Position 107 7 )
+    ( TokSym "Futhark.CodeGen.Backends.MulticoreC" )
+, L
+    ( Position 107 42 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 108 1 )
+    ( Indent 6 )
+, L
+    ( Position 108 7 )
+    ( TokSym "Futhark.CodeGen.Backends.PyOpenCL" )
+, L
+    ( Position 108 40 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 109 1 )
+    ( Indent 6 )
+, L
+    ( Position 109 7 )
+    ( TokSym "Futhark.CodeGen.Backends.PyOpenCL.Boilerplate" )
+, L
+    ( Position 109 52 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 110 1 )
+    ( Indent 6 )
+, L
+    ( Position 110 7 )
+    ( TokSym "Futhark.CodeGen.Backends.SequentialC" )
+, L
+    ( Position 110 43 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 111 1 )
+    ( Indent 6 )
+, L
+    ( Position 111 7 )
+    ( TokSym "Futhark.CodeGen.Backends.SequentialC.Boilerplate" )
+, L
+    ( Position 111 55 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 112 1 )
+    ( Indent 6 )
+, L
+    ( Position 112 7 )
+    ( TokSym "Futhark.CodeGen.Backends.SequentialPython" )
+, L
+    ( Position 112 48 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 113 1 )
+    ( Indent 6 )
+, L
+    ( Position 113 7 )
+    ( TokSym "Futhark.CodeGen.Backends.SimpleRep" )
+, L
+    ( Position 113 41 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 114 1 )
+    ( Indent 6 )
+, L
+    ( Position 114 7 )
+    ( TokSym "Futhark.CodeGen.ImpCode" )
+, L
+    ( Position 114 30 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 115 1 )
+    ( Indent 6 )
+, L
+    ( Position 115 7 )
+    ( TokSym "Futhark.CodeGen.ImpCode.Kernels" )
+, L
+    ( Position 115 38 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 116 1 )
+    ( Indent 6 )
+, L
+    ( Position 116 7 )
+    ( TokSym "Futhark.CodeGen.ImpCode.Multicore" )
+, L
+    ( Position 116 40 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 117 1 )
+    ( Indent 6 )
+, L
+    ( Position 117 7 )
+    ( TokSym "Futhark.CodeGen.ImpCode.OpenCL" )
+, L
+    ( Position 117 37 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 118 1 )
+    ( Indent 6 )
+, L
+    ( Position 118 7 )
+    ( TokSym "Futhark.CodeGen.ImpCode.Sequential" )
+, L
+    ( Position 118 41 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 119 1 )
+    ( Indent 6 )
+, L
+    ( Position 119 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen" )
+, L
+    ( Position 119 29 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 120 1 )
+    ( Indent 6 )
+, L
+    ( Position 120 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.CUDA" )
+, L
+    ( Position 120 34 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 121 1 )
+    ( Indent 6 )
+, L
+    ( Position 121 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Kernels" )
+, L
+    ( Position 121 37 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 122 1 )
+    ( Indent 6 )
+, L
+    ( Position 122 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Kernels.Base" )
+, L
+    ( Position 122 42 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 123 1 )
+    ( Indent 6 )
+, L
+    ( Position 123 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Kernels.SegHist" )
+, L
+    ( Position 123 45 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 124 1 )
+    ( Indent 6 )
+, L
+    ( Position 124 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Kernels.SegMap" )
+, L
+    ( Position 124 44 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 125 1 )
+    ( Indent 6 )
+, L
+    ( Position 125 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Kernels.SegRed" )
+, L
+    ( Position 125 44 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 126 1 )
+    ( Indent 6 )
+, L
+    ( Position 126 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Kernels.SegScan" )
+, L
+    ( Position 126 45 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 127 1 )
+    ( Indent 6 )
+, L
+    ( Position 127 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Kernels.SegScan.SinglePass" )
+, L
+    ( Position 127 56 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 128 1 )
+    ( Indent 6 )
+, L
+    ( Position 128 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Kernels.SegScan.TwoPass" )
+, L
+    ( Position 128 53 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 129 1 )
+    ( Indent 6 )
+, L
+    ( Position 129 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Kernels.ToOpenCL" )
+, L
+    ( Position 129 46 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 130 1 )
+    ( Indent 6 )
+, L
+    ( Position 130 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Kernels.Transpose" )
+, L
+    ( Position 130 47 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 131 1 )
+    ( Indent 6 )
+, L
+    ( Position 131 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Multicore" )
+, L
+    ( Position 131 39 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 132 1 )
+    ( Indent 6 )
+, L
+    ( Position 132 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Multicore.Base" )
+, L
+    ( Position 132 44 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 133 1 )
+    ( Indent 6 )
+, L
+    ( Position 133 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Multicore.SegHist" )
+, L
+    ( Position 133 47 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 134 1 )
+    ( Indent 6 )
+, L
+    ( Position 134 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Multicore.SegMap" )
+, L
+    ( Position 134 46 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 135 1 )
+    ( Indent 6 )
+, L
+    ( Position 135 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Multicore.SegRed" )
+, L
+    ( Position 135 46 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 136 1 )
+    ( Indent 6 )
+, L
+    ( Position 136 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Multicore.SegScan" )
+, L
+    ( Position 136 47 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 137 1 )
+    ( Indent 6 )
+, L
+    ( Position 137 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.OpenCL" )
+, L
+    ( Position 137 36 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 138 1 )
+    ( Indent 6 )
+, L
+    ( Position 138 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Sequential" )
+, L
+    ( Position 138 40 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 139 1 )
+    ( Indent 6 )
+, L
+    ( Position 139 7 )
+    ( TokSym "Futhark.CodeGen.ImpGen.Transpose" )
+, L
+    ( Position 139 39 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 140 1 )
+    ( Indent 6 )
+, L
+    ( Position 140 7 )
+    ( TokSym "Futhark.CodeGen.OpenCL.Heuristics" )
+, L
+    ( Position 140 40 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 141 1 )
+    ( Indent 6 )
+, L
+    ( Position 141 7 )
+    ( TokSym "Futhark.CodeGen.SetDefaultSpace" )
+, L
+    ( Position 141 38 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 142 1 )
+    ( Indent 6 )
+, L
+    ( Position 142 7 )
+    ( TokSym "Futhark.Compiler" )
+, L
+    ( Position 142 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 143 1 )
+    ( Indent 6 )
+, L
+    ( Position 143 7 )
+    ( TokSym "Futhark.Compiler.CLI" )
+, L
+    ( Position 143 27 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 144 1 )
+    ( Indent 6 )
+, L
+    ( Position 144 7 )
+    ( TokSym "Futhark.Compiler.Program" )
+, L
+    ( Position 144 31 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 145 1 )
+    ( Indent 6 )
+, L
+    ( Position 145 7 )
+    ( TokSym "Futhark.Construct" )
+, L
+    ( Position 145 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 146 1 )
+    ( Indent 6 )
+, L
+    ( Position 146 7 )
+    ( TokSym "Futhark.Doc.Generator" )
+, L
+    ( Position 146 28 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 147 1 )
+    ( Indent 6 )
+, L
+    ( Position 147 7 )
+    ( TokSym "Futhark.Error" )
+, L
+    ( Position 147 20 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 148 1 )
+    ( Indent 6 )
+, L
+    ( Position 148 7 )
+    ( TokSym "Futhark.FreshNames" )
+, L
+    ( Position 148 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 149 1 )
+    ( Indent 6 )
+, L
+    ( Position 149 7 )
+    ( TokSym "Futhark.IR" )
+, L
+    ( Position 149 17 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 150 1 )
+    ( Indent 6 )
+, L
+    ( Position 150 7 )
+    ( TokSym "Futhark.IR.Aliases" )
+, L
+    ( Position 150 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 151 1 )
+    ( Indent 6 )
+, L
+    ( Position 151 7 )
+    ( TokSym "Futhark.IR.Decorations" )
+, L
+    ( Position 151 29 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 152 1 )
+    ( Indent 6 )
+, L
+    ( Position 152 7 )
+    ( TokSym "Futhark.IR.Parse" )
+, L
+    ( Position 152 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 153 1 )
+    ( Indent 6 )
+, L
+    ( Position 153 7 )
+    ( TokSym "Futhark.IR.Kernels" )
+, L
+    ( Position 153 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 154 1 )
+    ( Indent 6 )
+, L
+    ( Position 154 7 )
+    ( TokSym "Futhark.IR.Kernels.Kernel" )
+, L
+    ( Position 154 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 155 1 )
+    ( Indent 6 )
+, L
+    ( Position 155 7 )
+    ( TokSym "Futhark.IR.Kernels.Simplify" )
+, L
+    ( Position 155 34 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 156 1 )
+    ( Indent 6 )
+, L
+    ( Position 156 7 )
+    ( TokSym "Futhark.IR.Kernels.Sizes" )
+, L
+    ( Position 156 31 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 157 1 )
+    ( Indent 6 )
+, L
+    ( Position 157 7 )
+    ( TokSym "Futhark.IR.KernelsMem" )
+, L
+    ( Position 157 28 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 158 1 )
+    ( Indent 6 )
+, L
+    ( Position 158 7 )
+    ( TokSym "Futhark.IR.MC" )
+, L
+    ( Position 158 20 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 159 1 )
+    ( Indent 6 )
+, L
+    ( Position 159 7 )
+    ( TokSym "Futhark.IR.MC.Op" )
+, L
+    ( Position 159 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 160 1 )
+    ( Indent 6 )
+, L
+    ( Position 160 7 )
+    ( TokSym "Futhark.IR.MCMem" )
+, L
+    ( Position 160 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 161 1 )
+    ( Indent 6 )
+, L
+    ( Position 161 7 )
+    ( TokSym "Futhark.IR.Mem" )
+, L
+    ( Position 161 21 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 162 1 )
+    ( Indent 6 )
+, L
+    ( Position 162 7 )
+    ( TokSym "Futhark.IR.Mem.IxFun" )
+, L
+    ( Position 162 27 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 163 1 )
+    ( Indent 6 )
+, L
+    ( Position 163 7 )
+    ( TokSym "Futhark.IR.Mem.Simplify" )
+, L
+    ( Position 163 30 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 164 1 )
+    ( Indent 6 )
+, L
+    ( Position 164 7 )
+    ( TokSym "Futhark.IR.Pretty" )
+, L
+    ( Position 164 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 165 1 )
+    ( Indent 6 )
+, L
+    ( Position 165 7 )
+    ( TokSym "Futhark.IR.Primitive" )
+, L
+    ( Position 165 27 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 166 1 )
+    ( Indent 6 )
+, L
+    ( Position 166 7 )
+    ( TokSym "Futhark.IR.Primitive.Parse" )
+, L
+    ( Position 166 33 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 167 1 )
+    ( Indent 6 )
+, L
+    ( Position 167 7 )
+    ( TokSym "Futhark.IR.Prop" )
+, L
+    ( Position 167 22 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 168 1 )
+    ( Indent 6 )
+, L
+    ( Position 168 7 )
+    ( TokSym "Futhark.IR.Prop.Aliases" )
+, L
+    ( Position 168 30 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 169 1 )
+    ( Indent 6 )
+, L
+    ( Position 169 7 )
+    ( TokSym "Futhark.IR.Prop.Constants" )
+, L
+    ( Position 169 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 170 1 )
+    ( Indent 6 )
+, L
+    ( Position 170 7 )
+    ( TokSym "Futhark.IR.Prop.Names" )
+, L
+    ( Position 170 28 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 171 1 )
+    ( Indent 6 )
+, L
+    ( Position 171 7 )
+    ( TokSym "Futhark.IR.Prop.Patterns" )
+, L
+    ( Position 171 31 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 172 1 )
+    ( Indent 6 )
+, L
+    ( Position 172 7 )
+    ( TokSym "Futhark.IR.Prop.Rearrange" )
+, L
+    ( Position 172 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 173 1 )
+    ( Indent 6 )
+, L
+    ( Position 173 7 )
+    ( TokSym "Futhark.IR.Prop.Reshape" )
+, L
+    ( Position 173 30 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 174 1 )
+    ( Indent 6 )
+, L
+    ( Position 174 7 )
+    ( TokSym "Futhark.IR.Prop.Scope" )
+, L
+    ( Position 174 28 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 175 1 )
+    ( Indent 6 )
+, L
+    ( Position 175 7 )
+    ( TokSym "Futhark.IR.Prop.TypeOf" )
+, L
+    ( Position 175 29 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 176 1 )
+    ( Indent 6 )
+, L
+    ( Position 176 7 )
+    ( TokSym "Futhark.IR.Prop.Types" )
+, L
+    ( Position 176 28 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 177 1 )
+    ( Indent 6 )
+, L
+    ( Position 177 7 )
+    ( TokSym "Futhark.IR.RetType" )
+, L
+    ( Position 177 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 178 1 )
+    ( Indent 6 )
+, L
+    ( Position 178 7 )
+    ( TokSym "Futhark.IR.SOACS" )
+, L
+    ( Position 178 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 179 1 )
+    ( Indent 6 )
+, L
+    ( Position 179 7 )
+    ( TokSym "Futhark.IR.SOACS.SOAC" )
+, L
+    ( Position 179 28 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 180 1 )
+    ( Indent 6 )
+, L
+    ( Position 180 7 )
+    ( TokSym "Futhark.IR.SOACS.Simplify" )
+, L
+    ( Position 180 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 181 1 )
+    ( Indent 6 )
+, L
+    ( Position 181 7 )
+    ( TokSym "Futhark.IR.SegOp" )
+, L
+    ( Position 181 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 182 1 )
+    ( Indent 6 )
+, L
+    ( Position 182 7 )
+    ( TokSym "Futhark.IR.Seq" )
+, L
+    ( Position 182 21 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 183 1 )
+    ( Indent 6 )
+, L
+    ( Position 183 7 )
+    ( TokSym "Futhark.IR.SeqMem" )
+, L
+    ( Position 183 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 184 1 )
+    ( Indent 6 )
+, L
+    ( Position 184 7 )
+    ( TokSym "Futhark.IR.Syntax" )
+, L
+    ( Position 184 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 185 1 )
+    ( Indent 6 )
+, L
+    ( Position 185 7 )
+    ( TokSym "Futhark.IR.Syntax.Core" )
+, L
+    ( Position 185 29 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 186 1 )
+    ( Indent 6 )
+, L
+    ( Position 186 7 )
+    ( TokSym "Futhark.IR.Traversals" )
+, L
+    ( Position 186 28 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 187 1 )
+    ( Indent 6 )
+, L
+    ( Position 187 7 )
+    ( TokSym "Futhark.Internalise" )
+, L
+    ( Position 187 26 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 188 1 )
+    ( Indent 6 )
+, L
+    ( Position 188 7 )
+    ( TokSym "Futhark.Internalise.AccurateSizes" )
+, L
+    ( Position 188 40 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 189 1 )
+    ( Indent 6 )
+, L
+    ( Position 189 7 )
+    ( TokSym "Futhark.Internalise.Bindings" )
+, L
+    ( Position 189 35 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 190 1 )
+    ( Indent 6 )
+, L
+    ( Position 190 7 )
+    ( TokSym "Futhark.Internalise.Defunctionalise" )
+, L
+    ( Position 190 42 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 191 1 )
+    ( Indent 6 )
+, L
+    ( Position 191 7 )
+    ( TokSym "Futhark.Internalise.Defunctorise" )
+, L
+    ( Position 191 39 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 192 1 )
+    ( Indent 6 )
+, L
+    ( Position 192 7 )
+    ( TokSym "Futhark.Internalise.FreeVars" )
+, L
+    ( Position 192 35 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 193 1 )
+    ( Indent 6 )
+, L
+    ( Position 193 7 )
+    ( TokSym "Futhark.Internalise.Lambdas" )
+, L
+    ( Position 193 34 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 194 1 )
+    ( Indent 6 )
+, L
+    ( Position 194 7 )
+    ( TokSym "Futhark.Internalise.LiftLambdas" )
+, L
+    ( Position 194 38 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 195 1 )
+    ( Indent 6 )
+, L
+    ( Position 195 7 )
+    ( TokSym "Futhark.Internalise.Monad" )
+, L
+    ( Position 195 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 196 1 )
+    ( Indent 6 )
+, L
+    ( Position 196 7 )
+    ( TokSym "Futhark.Internalise.Monomorphise" )
+, L
+    ( Position 196 39 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 197 1 )
+    ( Indent 6 )
+, L
+    ( Position 197 7 )
+    ( TokSym "Futhark.Internalise.TypesValues" )
+, L
+    ( Position 197 38 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 198 1 )
+    ( Indent 6 )
+, L
+    ( Position 198 7 )
+    ( TokSym "Futhark.MonadFreshNames" )
+, L
+    ( Position 198 30 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 199 1 )
+    ( Indent 6 )
+, L
+    ( Position 199 7 )
+    ( TokSym "Futhark.Optimise.BlkRegTiling" )
+, L
+    ( Position 199 36 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 200 1 )
+    ( Indent 6 )
+, L
+    ( Position 200 7 )
+    ( TokSym "Futhark.Optimise.CSE" )
+, L
+    ( Position 200 27 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 201 1 )
+    ( Indent 6 )
+, L
+    ( Position 201 7 )
+    ( TokSym "Futhark.Optimise.DoubleBuffer" )
+, L
+    ( Position 201 36 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 202 1 )
+    ( Indent 6 )
+, L
+    ( Position 202 7 )
+    ( TokSym "Futhark.Optimise.Fusion" )
+, L
+    ( Position 202 30 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 203 1 )
+    ( Indent 6 )
+, L
+    ( Position 203 7 )
+    ( TokSym "Futhark.Optimise.Fusion.Composing" )
+, L
+    ( Position 203 40 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 204 1 )
+    ( Indent 6 )
+, L
+    ( Position 204 7 )
+    ( TokSym "Futhark.Optimise.Fusion.LoopKernel" )
+, L
+    ( Position 204 41 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 205 1 )
+    ( Indent 6 )
+, L
+    ( Position 205 7 )
+    ( TokSym "Futhark.Optimise.InPlaceLowering" )
+, L
+    ( Position 205 39 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 206 1 )
+    ( Indent 6 )
+, L
+    ( Position 206 7 )
+    ( TokSym "Futhark.Optimise.InPlaceLowering.LowerIntoStm" )
+, L
+    ( Position 206 52 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 207 1 )
+    ( Indent 6 )
+, L
+    ( Position 207 7 )
+    ( TokSym "Futhark.Optimise.InPlaceLowering.SubstituteIndices" )
+, L
+    ( Position 207 57 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 208 1 )
+    ( Indent 6 )
+, L
+    ( Position 208 7 )
+    ( TokSym "Futhark.Optimise.InliningDeadFun" )
+, L
+    ( Position 208 39 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 209 1 )
+    ( Indent 6 )
+, L
+    ( Position 209 7 )
+    ( TokSym "Futhark.Optimise.Simplify" )
+, L
+    ( Position 209 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 210 1 )
+    ( Indent 6 )
+, L
+    ( Position 210 7 )
+    ( TokSym "Futhark.Optimise.Simplify.Engine" )
+, L
+    ( Position 210 39 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 211 1 )
+    ( Indent 6 )
+, L
+    ( Position 211 7 )
+    ( TokSym "Futhark.Optimise.Simplify.Lore" )
+, L
+    ( Position 211 37 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 212 1 )
+    ( Indent 6 )
+, L
+    ( Position 212 7 )
+    ( TokSym "Futhark.Optimise.Simplify.Rule" )
+, L
+    ( Position 212 37 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 213 1 )
+    ( Indent 6 )
+, L
+    ( Position 213 7 )
+    ( TokSym "Futhark.Optimise.Simplify.Rules" )
+, L
+    ( Position 213 38 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 214 1 )
+    ( Indent 6 )
+, L
+    ( Position 214 7 )
+    ( TokSym "Futhark.Optimise.Simplify.Rules.BasicOp" )
+, L
+    ( Position 214 46 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 215 1 )
+    ( Indent 6 )
+, L
+    ( Position 215 7 )
+    ( TokSym "Futhark.Optimise.Simplify.Rules.ClosedForm" )
+, L
+    ( Position 215 49 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 216 1 )
+    ( Indent 6 )
+, L
+    ( Position 216 7 )
+    ( TokSym "Futhark.Optimise.Simplify.Rules.Index" )
+, L
+    ( Position 216 44 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 217 1 )
+    ( Indent 6 )
+, L
+    ( Position 217 7 )
+    ( TokSym "Futhark.Optimise.Simplify.Rules.Loop" )
+, L
+    ( Position 217 43 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 218 1 )
+    ( Indent 6 )
+, L
+    ( Position 218 7 )
+    ( TokSym "Futhark.Optimise.Simplify.Rules.Simple" )
+, L
+    ( Position 218 45 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 219 1 )
+    ( Indent 6 )
+, L
+    ( Position 219 7 )
+    ( TokSym "Futhark.Optimise.Sink" )
+, L
+    ( Position 219 28 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 220 1 )
+    ( Indent 6 )
+, L
+    ( Position 220 7 )
+    ( TokSym "Futhark.Optimise.TileLoops" )
+, L
+    ( Position 220 33 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 221 1 )
+    ( Indent 6 )
+, L
+    ( Position 221 7 )
+    ( TokSym "Futhark.Optimise.TileLoops.Shared" )
+, L
+    ( Position 221 40 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 222 1 )
+    ( Indent 6 )
+, L
+    ( Position 222 7 )
+    ( TokSym "Futhark.Optimise.Unstream" )
+, L
+    ( Position 222 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 223 1 )
+    ( Indent 6 )
+, L
+    ( Position 223 7 )
+    ( TokSym "Futhark.Pass" )
+, L
+    ( Position 223 19 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 224 1 )
+    ( Indent 6 )
+, L
+    ( Position 224 7 )
+    ( TokSym "Futhark.Pass.ExpandAllocations" )
+, L
+    ( Position 224 37 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 225 1 )
+    ( Indent 6 )
+, L
+    ( Position 225 7 )
+    ( TokSym "Futhark.Pass.ExplicitAllocations" )
+, L
+    ( Position 225 39 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 226 1 )
+    ( Indent 6 )
+, L
+    ( Position 226 7 )
+    ( TokSym "Futhark.Pass.ExplicitAllocations.Kernels" )
+, L
+    ( Position 226 47 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 227 1 )
+    ( Indent 6 )
+, L
+    ( Position 227 7 )
+    ( TokSym "Futhark.Pass.ExplicitAllocations.SegOp" )
+, L
+    ( Position 227 45 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 228 1 )
+    ( Indent 6 )
+, L
+    ( Position 228 7 )
+    ( TokSym "Futhark.Pass.ExplicitAllocations.Seq" )
+, L
+    ( Position 228 43 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 229 1 )
+    ( Indent 6 )
+, L
+    ( Position 229 7 )
+    ( TokSym "Futhark.Pass.ExplicitAllocations.MC" )
+, L
+    ( Position 229 42 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 230 1 )
+    ( Indent 6 )
+, L
+    ( Position 230 7 )
+    ( TokSym "Futhark.Pass.ExtractKernels" )
+, L
+    ( Position 230 34 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 231 1 )
+    ( Indent 6 )
+, L
+    ( Position 231 7 )
+    ( TokSym "Futhark.Pass.ExtractKernels.BlockedKernel" )
+, L
+    ( Position 231 48 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 232 1 )
+    ( Indent 6 )
+, L
+    ( Position 232 7 )
+    ( TokSym "Futhark.Pass.ExtractKernels.DistributeNests" )
+, L
+    ( Position 232 50 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 233 1 )
+    ( Indent 6 )
+, L
+    ( Position 233 7 )
+    ( TokSym "Futhark.Pass.ExtractKernels.Distribution" )
+, L
+    ( Position 233 47 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 234 1 )
+    ( Indent 6 )
+, L
+    ( Position 234 7 )
+    ( TokSym "Futhark.Pass.ExtractKernels.ISRWIM" )
+, L
+    ( Position 234 41 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 235 1 )
+    ( Indent 6 )
+, L
+    ( Position 235 7 )
+    ( TokSym "Futhark.Pass.ExtractKernels.Interchange" )
+, L
+    ( Position 235 46 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 236 1 )
+    ( Indent 6 )
+, L
+    ( Position 236 7 )
+    ( TokSym "Futhark.Pass.ExtractKernels.Intragroup" )
+, L
+    ( Position 236 45 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 237 1 )
+    ( Indent 6 )
+, L
+    ( Position 237 7 )
+    ( TokSym "Futhark.Pass.ExtractKernels.StreamKernel" )
+, L
+    ( Position 237 47 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 238 1 )
+    ( Indent 6 )
+, L
+    ( Position 238 7 )
+    ( TokSym "Futhark.Pass.ExtractKernels.ToKernels" )
+, L
+    ( Position 238 44 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 239 1 )
+    ( Indent 6 )
+, L
+    ( Position 239 7 )
+    ( TokSym "Futhark.Pass.ExtractMulticore" )
+, L
+    ( Position 239 36 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 240 1 )
+    ( Indent 6 )
+, L
+    ( Position 240 7 )
+    ( TokSym "Futhark.Pass.FirstOrderTransform" )
+, L
+    ( Position 240 39 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 241 1 )
+    ( Indent 6 )
+, L
+    ( Position 241 7 )
+    ( TokSym "Futhark.Pass.KernelBabysitting" )
+, L
+    ( Position 241 37 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 242 1 )
+    ( Indent 6 )
+, L
+    ( Position 242 7 )
+    ( TokSym "Futhark.Pass.Simplify" )
+, L
+    ( Position 242 28 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 243 1 )
+    ( Indent 6 )
+, L
+    ( Position 243 7 )
+    ( TokSym "Futhark.Passes" )
+, L
+    ( Position 243 21 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 244 1 )
+    ( Indent 6 )
+, L
+    ( Position 244 7 )
+    ( TokSym "Futhark.Pipeline" )
+, L
+    ( Position 244 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 245 1 )
+    ( Indent 6 )
+, L
+    ( Position 245 7 )
+    ( TokSym "Futhark.Pkg.Info" )
+, L
+    ( Position 245 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 246 1 )
+    ( Indent 6 )
+, L
+    ( Position 246 7 )
+    ( TokSym "Futhark.Pkg.Solve" )
+, L
+    ( Position 246 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 247 1 )
+    ( Indent 6 )
+, L
+    ( Position 247 7 )
+    ( TokSym "Futhark.Pkg.Types" )
+, L
+    ( Position 247 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 248 1 )
+    ( Indent 6 )
+, L
+    ( Position 248 7 )
+    ( TokSym "Futhark.Script" )
+, L
+    ( Position 248 21 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 249 1 )
+    ( Indent 6 )
+, L
+    ( Position 249 7 )
+    ( TokSym "Futhark.Server" )
+, L
+    ( Position 249 21 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 250 1 )
+    ( Indent 6 )
+, L
+    ( Position 250 7 )
+    ( TokSym "Futhark.Test" )
+, L
+    ( Position 250 19 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 251 1 )
+    ( Indent 6 )
+, L
+    ( Position 251 7 )
+    ( TokSym "Futhark.Test.Values" )
+, L
+    ( Position 251 26 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 252 1 )
+    ( Indent 6 )
+, L
+    ( Position 252 7 )
+    ( TokSym "Futhark.Test.Values.Parser" )
+, L
+    ( Position 252 33 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 253 1 )
+    ( Indent 6 )
+, L
+    ( Position 253 7 )
+    ( TokSym "Futhark.Tools" )
+, L
+    ( Position 253 20 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 254 1 )
+    ( Indent 6 )
+, L
+    ( Position 254 7 )
+    ( TokSym "Futhark.Transform.CopyPropagate" )
+, L
+    ( Position 254 38 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 255 1 )
+    ( Indent 6 )
+, L
+    ( Position 255 7 )
+    ( TokSym "Futhark.Transform.FirstOrderTransform" )
+, L
+    ( Position 255 44 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 256 1 )
+    ( Indent 6 )
+, L
+    ( Position 256 7 )
+    ( TokSym "Futhark.Transform.Rename" )
+, L
+    ( Position 256 31 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 257 1 )
+    ( Indent 6 )
+, L
+    ( Position 257 7 )
+    ( TokSym "Futhark.Transform.Substitute" )
+, L
+    ( Position 257 35 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 258 1 )
+    ( Indent 6 )
+, L
+    ( Position 258 7 )
+    ( TokSym "Futhark.TypeCheck" )
+, L
+    ( Position 258 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 259 1 )
+    ( Indent 6 )
+, L
+    ( Position 259 7 )
+    ( TokSym "Futhark.Util" )
+, L
+    ( Position 259 19 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 260 1 )
+    ( Indent 6 )
+, L
+    ( Position 260 7 )
+    ( TokSym "Futhark.Util.Console" )
+, L
+    ( Position 260 27 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 261 1 )
+    ( Indent 6 )
+, L
+    ( Position 261 7 )
+    ( TokSym "Futhark.Util.IntegralExp" )
+, L
+    ( Position 261 31 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 262 1 )
+    ( Indent 6 )
+, L
+    ( Position 262 7 )
+    ( TokSym "Futhark.Util.Loc" )
+, L
+    ( Position 262 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 263 1 )
+    ( Indent 6 )
+, L
+    ( Position 263 7 )
+    ( TokSym "Futhark.Util.Log" )
+, L
+    ( Position 263 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 264 1 )
+    ( Indent 6 )
+, L
+    ( Position 264 7 )
+    ( TokSym "Futhark.Util.Options" )
+, L
+    ( Position 264 27 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 265 1 )
+    ( Indent 6 )
+, L
+    ( Position 265 7 )
+    ( TokSym "Futhark.Util.Pretty" )
+, L
+    ( Position 265 26 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 266 1 )
+    ( Indent 6 )
+, L
+    ( Position 266 7 )
+    ( TokSym "Futhark.Util.Table" )
+, L
+    ( Position 266 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 267 1 )
+    ( Indent 6 )
+, L
+    ( Position 267 7 )
+    ( TokSym "Futhark.Version" )
+, L
+    ( Position 267 22 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 268 1 )
+    ( Indent 6 )
+, L
+    ( Position 268 7 )
+    ( TokSym "Language.Futhark" )
+, L
+    ( Position 268 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 269 1 )
+    ( Indent 6 )
+, L
+    ( Position 269 7 )
+    ( TokSym "Language.Futhark.Core" )
+, L
+    ( Position 269 28 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 270 1 )
+    ( Indent 6 )
+, L
+    ( Position 270 7 )
+    ( TokSym "Language.Futhark.Interpreter" )
+, L
+    ( Position 270 35 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 271 1 )
+    ( Indent 6 )
+, L
+    ( Position 271 7 )
+    ( TokSym "Language.Futhark.Parser" )
+, L
+    ( Position 271 30 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 272 1 )
+    ( Indent 6 )
+, L
+    ( Position 272 7 )
+    ( TokSym "Language.Futhark.Prelude" )
+, L
+    ( Position 272 31 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 273 1 )
+    ( Indent 6 )
+, L
+    ( Position 273 7 )
+    ( TokSym "Language.Futhark.Pretty" )
+, L
+    ( Position 273 30 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 274 1 )
+    ( Indent 6 )
+, L
+    ( Position 274 7 )
+    ( TokSym "Language.Futhark.Prop" )
+, L
+    ( Position 274 28 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 275 1 )
+    ( Indent 6 )
+, L
+    ( Position 275 7 )
+    ( TokSym "Language.Futhark.Query" )
+, L
+    ( Position 275 29 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 276 1 )
+    ( Indent 6 )
+, L
+    ( Position 276 7 )
+    ( TokSym "Language.Futhark.Semantic" )
+, L
+    ( Position 276 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 277 1 )
+    ( Indent 6 )
+, L
+    ( Position 277 7 )
+    ( TokSym "Language.Futhark.Syntax" )
+, L
+    ( Position 277 30 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 278 1 )
+    ( Indent 6 )
+, L
+    ( Position 278 7 )
+    ( TokSym "Language.Futhark.Traversals" )
+, L
+    ( Position 278 34 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 279 1 )
+    ( Indent 6 )
+, L
+    ( Position 279 7 )
+    ( TokSym "Language.Futhark.TypeChecker" )
+, L
+    ( Position 279 35 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 280 1 )
+    ( Indent 6 )
+, L
+    ( Position 280 7 )
+    ( TokSym "Language.Futhark.TypeChecker.Match" )
+, L
+    ( Position 280 41 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 281 1 )
+    ( Indent 6 )
+, L
+    ( Position 281 7 )
+    ( TokSym "Language.Futhark.TypeChecker.Modules" )
+, L
+    ( Position 281 43 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 282 1 )
+    ( Indent 6 )
+, L
+    ( Position 282 7 )
+    ( TokSym "Language.Futhark.TypeChecker.Monad" )
+, L
+    ( Position 282 41 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 283 1 )
+    ( Indent 6 )
+, L
+    ( Position 283 7 )
+    ( TokSym "Language.Futhark.TypeChecker.Terms" )
+, L
+    ( Position 283 41 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 284 1 )
+    ( Indent 6 )
+, L
+    ( Position 284 7 )
+    ( TokSym "Language.Futhark.TypeChecker.Types" )
+, L
+    ( Position 284 41 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 285 1 )
+    ( Indent 6 )
+, L
+    ( Position 285 7 )
+    ( TokSym "Language.Futhark.TypeChecker.Unify" )
+, L
+    ( Position 285 41 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 286 1 )
+    ( Indent 6 )
+, L
+    ( Position 286 7 )
+    ( TokSym "Language.Futhark.Warnings" )
+, L
+    ( Position 286 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 287 1 )
+    ( Indent 2 )
+, L
+    ( Position 287 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 287 16 ) Colon
+, L
+    ( Position 287 17 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 288 1 )
+    ( Indent 6 )
+, L
+    ( Position 288 7 )
+    ( TokSym "Language.Futhark.Parser.Parser" )
+, L
+    ( Position 288 37 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 289 1 )
+    ( Indent 6 )
+, L
+    ( Position 289 7 )
+    ( TokSym "Language.Futhark.Parser.Lexer" )
+, L
+    ( Position 289 36 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 290 1 )
+    ( Indent 6 )
+, L
+    ( Position 290 7 )
+    ( TokSym "Paths_futhark" )
+, L
+    ( Position 290 20 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 291 1 )
+    ( Indent 2 )
+, L
+    ( Position 291 3 )
+    ( TokSym "autogen-modules" )
+, L
+    ( Position 291 18 ) Colon
+, L
+    ( Position 291 19 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 292 1 )
+    ( Indent 6 )
+, L
+    ( Position 292 7 )
+    ( TokSym "Paths_futhark" )
+, L
+    ( Position 292 20 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 293 1 )
+    ( Indent 2 )
+, L
+    ( Position 293 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 293 17 ) Colon
+, L
+    ( Position 293 18 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 294 1 )
+    ( Indent 6 )
+, L
+    ( Position 294 7 )
+    ( TokSym "src" )
+, L
+    ( Position 294 10 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 295 1 )
+    ( Indent 2 )
+, L
+    ( Position 295 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 295 14 ) Colon
+, L
+    ( Position 295 15 )
+    ( Whitespace " " )
+, L
+    ( Position 295 16 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 295 21 )
+    ( Whitespace " " )
+, L
+    ( Position 295 22 )
+    ( TokSym "-Wcompat" )
+, L
+    ( Position 295 30 )
+    ( Whitespace " " )
+, L
+    ( Position 295 31 )
+    ( TokSym "-Wredundant-constraints" )
+, L
+    ( Position 295 54 )
+    ( Whitespace " " )
+, L
+    ( Position 295 55 )
+    ( TokSym "-Wincomplete-record-updates" )
+, L
+    ( Position 295 82 )
+    ( Whitespace " " )
+, L
+    ( Position 295 83 )
+    ( TokSym "-Wmissing-export-lists" )
+, L
+    ( Position 295 105 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 296 1 )
+    ( Indent 2 )
+, L
+    ( Position 296 3 )
+    ( TokSym "build-tool-depends" )
+, L
+    ( Position 296 21 ) Colon
+, L
+    ( Position 296 22 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 297 1 )
+    ( Indent 6 )
+, L
+    ( Position 297 7 )
+    ( TokSym "alex" )
+, L
+    ( Position 297 11 ) Colon
+, L
+    ( Position 297 12 )
+    ( TokSym "alex" )
+, L
+    ( Position 297 16 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 298 1 )
+    ( Indent 4 )
+, L
+    ( Position 298 5 )
+    ( TokOther "," )
+, L
+    ( Position 298 6 )
+    ( Whitespace " " )
+, L
+    ( Position 298 7 )
+    ( TokSym "happy" )
+, L
+    ( Position 298 12 ) Colon
+, L
+    ( Position 298 13 )
+    ( TokSym "happy" )
+, L
+    ( Position 298 18 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 299 1 )
+    ( Indent 2 )
+, L
+    ( Position 299 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 299 16 ) Colon
+, L
+    ( Position 299 17 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 300 1 )
+    ( Indent 6 )
+, L
+    ( Position 300 7 )
+    ( TokSym "aeson" )
+, L
+    ( Position 300 12 )
+    ( Whitespace " " )
+, L
+    ( Position 300 13 )
+    ( TokOther ">=" )
+, L
+    ( Position 300 15 )
+    ( TokSym "1.0.0.0" )
+, L
+    ( Position 300 22 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 301 1 )
+    ( Indent 4 )
+, L
+    ( Position 301 5 )
+    ( TokOther "," )
+, L
+    ( Position 301 6 )
+    ( Whitespace " " )
+, L
+    ( Position 301 7 )
+    ( TokSym "ansi-terminal" )
+, L
+    ( Position 301 20 )
+    ( Whitespace " " )
+, L
+    ( Position 301 21 )
+    ( TokOther ">=" )
+, L
+    ( Position 301 23 )
+    ( TokSym "0.6.3.1" )
+, L
+    ( Position 301 30 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 302 1 )
+    ( Indent 4 )
+, L
+    ( Position 302 5 )
+    ( TokOther "," )
+, L
+    ( Position 302 6 )
+    ( Whitespace " " )
+, L
+    ( Position 302 7 )
+    ( TokSym "array" )
+, L
+    ( Position 302 12 )
+    ( Whitespace " " )
+, L
+    ( Position 302 13 )
+    ( TokOther ">=" )
+, L
+    ( Position 302 15 )
+    ( TokSym "0.4" )
+, L
+    ( Position 302 18 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 303 1 )
+    ( Indent 4 )
+, L
+    ( Position 303 5 )
+    ( TokOther "," )
+, L
+    ( Position 303 6 )
+    ( Whitespace " " )
+, L
+    ( Position 303 7 )
+    ( TokSym "base" )
+, L
+    ( Position 303 11 )
+    ( Whitespace " " )
+, L
+    ( Position 303 12 )
+    ( TokOther ">=" )
+, L
+    ( Position 303 14 )
+    ( TokSym "4.13" )
+, L
+    ( Position 303 18 )
+    ( Whitespace " " )
+, L
+    ( Position 303 19 )
+    ( TokOther "&&" )
+, L
+    ( Position 303 21 )
+    ( Whitespace " " )
+, L
+    ( Position 303 22 )
+    ( TokOther "<" )
+, L
+    ( Position 303 23 )
+    ( TokSym "5" )
+, L
+    ( Position 303 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 304 1 )
+    ( Indent 4 )
+, L
+    ( Position 304 5 )
+    ( TokOther "," )
+, L
+    ( Position 304 6 )
+    ( Whitespace " " )
+, L
+    ( Position 304 7 )
+    ( TokSym "binary" )
+, L
+    ( Position 304 13 )
+    ( Whitespace " " )
+, L
+    ( Position 304 14 )
+    ( TokOther ">=" )
+, L
+    ( Position 304 16 )
+    ( TokSym "0.8.3" )
+, L
+    ( Position 304 21 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 305 1 )
+    ( Indent 4 )
+, L
+    ( Position 305 5 )
+    ( TokOther "," )
+, L
+    ( Position 305 6 )
+    ( Whitespace " " )
+, L
+    ( Position 305 7 )
+    ( TokSym "blaze-html" )
+, L
+    ( Position 305 17 )
+    ( Whitespace " " )
+, L
+    ( Position 305 18 )
+    ( TokOther ">=" )
+, L
+    ( Position 305 20 )
+    ( TokSym "0.9.0.1" )
+, L
+    ( Position 305 27 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 306 1 )
+    ( Indent 4 )
+, L
+    ( Position 306 5 )
+    ( TokOther "," )
+, L
+    ( Position 306 6 )
+    ( Whitespace " " )
+, L
+    ( Position 306 7 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 306 17 )
+    ( Whitespace " " )
+, L
+    ( Position 306 18 )
+    ( TokOther ">=" )
+, L
+    ( Position 306 20 )
+    ( TokSym "0.10.8" )
+, L
+    ( Position 306 26 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 307 1 )
+    ( Indent 4 )
+, L
+    ( Position 307 5 )
+    ( TokOther "," )
+, L
+    ( Position 307 6 )
+    ( Whitespace " " )
+, L
+    ( Position 307 7 )
+    ( TokSym "bytestring-to-vector" )
+, L
+    ( Position 307 27 )
+    ( Whitespace " " )
+, L
+    ( Position 307 28 )
+    ( TokOther ">=" )
+, L
+    ( Position 307 30 )
+    ( TokSym "0.3.0.1" )
+, L
+    ( Position 307 37 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 308 1 )
+    ( Indent 4 )
+, L
+    ( Position 308 5 )
+    ( TokOther "," )
+, L
+    ( Position 308 6 )
+    ( Whitespace " " )
+, L
+    ( Position 308 7 )
+    ( TokSym "bmp" )
+, L
+    ( Position 308 10 )
+    ( Whitespace " " )
+, L
+    ( Position 308 11 )
+    ( TokOther ">=" )
+, L
+    ( Position 308 13 )
+    ( TokSym "1.2.6.3" )
+, L
+    ( Position 308 20 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 309 1 )
+    ( Indent 4 )
+, L
+    ( Position 309 5 )
+    ( TokOther "," )
+, L
+    ( Position 309 6 )
+    ( Whitespace " " )
+, L
+    ( Position 309 7 )
+    ( TokSym "containers" )
+, L
+    ( Position 309 17 )
+    ( Whitespace " " )
+, L
+    ( Position 309 18 )
+    ( TokOther ">=" )
+, L
+    ( Position 309 20 )
+    ( TokSym "0.6.2.1" )
+, L
+    ( Position 309 27 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 310 1 )
+    ( Indent 4 )
+, L
+    ( Position 310 5 )
+    ( TokOther "," )
+, L
+    ( Position 310 6 )
+    ( Whitespace " " )
+, L
+    ( Position 310 7 )
+    ( TokSym "directory" )
+, L
+    ( Position 310 16 )
+    ( Whitespace " " )
+, L
+    ( Position 310 17 )
+    ( TokOther ">=" )
+, L
+    ( Position 310 19 )
+    ( TokSym "1.3.0.0" )
+, L
+    ( Position 310 26 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 311 1 )
+    ( Indent 4 )
+, L
+    ( Position 311 5 )
+    ( TokOther "," )
+, L
+    ( Position 311 6 )
+    ( Whitespace " " )
+, L
+    ( Position 311 7 )
+    ( TokSym "directory-tree" )
+, L
+    ( Position 311 21 )
+    ( Whitespace " " )
+, L
+    ( Position 311 22 )
+    ( TokOther ">=" )
+, L
+    ( Position 311 24 )
+    ( TokSym "0.12.1" )
+, L
+    ( Position 311 30 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 312 1 )
+    ( Indent 4 )
+, L
+    ( Position 312 5 )
+    ( TokOther "," )
+, L
+    ( Position 312 6 )
+    ( Whitespace " " )
+, L
+    ( Position 312 7 )
+    ( TokSym "dlist" )
+, L
+    ( Position 312 12 )
+    ( Whitespace " " )
+, L
+    ( Position 312 13 )
+    ( TokOther ">=" )
+, L
+    ( Position 312 15 )
+    ( TokSym "0.6.0.1" )
+, L
+    ( Position 312 22 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 313 1 )
+    ( Indent 4 )
+, L
+    ( Position 313 5 )
+    ( TokOther "," )
+, L
+    ( Position 313 6 )
+    ( Whitespace " " )
+, L
+    ( Position 313 7 )
+    ( TokSym "file-embed" )
+, L
+    ( Position 313 17 )
+    ( Whitespace " " )
+, L
+    ( Position 313 18 )
+    ( TokOther ">=" )
+, L
+    ( Position 313 20 )
+    ( TokSym "0.0.9" )
+, L
+    ( Position 313 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 314 1 )
+    ( Indent 4 )
+, L
+    ( Position 314 5 )
+    ( TokOther "," )
+, L
+    ( Position 314 6 )
+    ( Whitespace " " )
+, L
+    ( Position 314 7 )
+    ( TokSym "filepath" )
+, L
+    ( Position 314 15 )
+    ( Whitespace " " )
+, L
+    ( Position 314 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 314 18 )
+    ( TokSym "1.4.1.1" )
+, L
+    ( Position 314 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 315 1 )
+    ( Indent 4 )
+, L
+    ( Position 315 5 )
+    ( TokOther "," )
+, L
+    ( Position 315 6 )
+    ( Whitespace " " )
+, L
+    ( Position 315 7 )
+    ( TokSym "free" )
+, L
+    ( Position 315 11 )
+    ( Whitespace " " )
+, L
+    ( Position 315 12 )
+    ( TokOther ">=" )
+, L
+    ( Position 315 14 )
+    ( TokSym "4.12.4" )
+, L
+    ( Position 315 20 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 316 1 )
+    ( Indent 4 )
+, L
+    ( Position 316 5 )
+    ( TokOther "," )
+, L
+    ( Position 316 6 )
+    ( Whitespace " " )
+, L
+    ( Position 316 7 )
+    ( TokSym "gitrev" )
+, L
+    ( Position 316 13 )
+    ( Whitespace " " )
+, L
+    ( Position 316 14 )
+    ( TokOther ">=" )
+, L
+    ( Position 316 16 )
+    ( TokSym "1.2.0" )
+, L
+    ( Position 316 21 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 317 1 )
+    ( Indent 4 )
+, L
+    ( Position 317 5 )
+    ( TokOther "," )
+, L
+    ( Position 317 6 )
+    ( Whitespace " " )
+, L
+    ( Position 317 7 )
+    ( TokSym "hashable" )
+, L
+    ( Position 317 15 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 318 1 )
+    ( Indent 4 )
+, L
+    ( Position 318 5 )
+    ( TokOther "," )
+, L
+    ( Position 318 6 )
+    ( Whitespace " " )
+, L
+    ( Position 318 7 )
+    ( TokSym "haskeline" )
+, L
+    ( Position 318 16 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 319 1 )
+    ( Indent 4 )
+, L
+    ( Position 319 5 )
+    ( TokOther "," )
+, L
+    ( Position 319 6 )
+    ( Whitespace " " )
+, L
+    ( Position 319 7 )
+    ( TokSym "language-c-quote" )
+, L
+    ( Position 319 23 )
+    ( Whitespace " " )
+, L
+    ( Position 319 24 )
+    ( TokOther ">=" )
+, L
+    ( Position 319 26 )
+    ( TokSym "0.12" )
+, L
+    ( Position 319 30 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 320 1 )
+    ( Indent 4 )
+, L
+    ( Position 320 5 )
+    ( TokOther "," )
+, L
+    ( Position 320 6 )
+    ( Whitespace " " )
+, L
+    ( Position 320 7 )
+    ( TokSym "mainland-pretty" )
+, L
+    ( Position 320 22 )
+    ( Whitespace " " )
+, L
+    ( Position 320 23 )
+    ( TokOther ">=" )
+, L
+    ( Position 320 25 )
+    ( TokSym "0.6.1" )
+, L
+    ( Position 320 30 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 321 1 )
+    ( Indent 4 )
+, L
+    ( Position 321 5 )
+    ( TokOther "," )
+, L
+    ( Position 321 6 )
+    ( Whitespace " " )
+, L
+    ( Position 321 7 )
+    ( TokSym "cmark-gfm" )
+, L
+    ( Position 321 16 )
+    ( Whitespace " " )
+, L
+    ( Position 321 17 )
+    ( TokOther ">=" )
+, L
+    ( Position 321 19 )
+    ( TokSym "0.2.1" )
+, L
+    ( Position 321 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 322 1 )
+    ( Indent 4 )
+, L
+    ( Position 322 5 )
+    ( TokOther "," )
+, L
+    ( Position 322 6 )
+    ( Whitespace " " )
+, L
+    ( Position 322 7 )
+    ( TokSym "megaparsec" )
+, L
+    ( Position 322 17 )
+    ( Whitespace " " )
+, L
+    ( Position 322 18 )
+    ( TokOther ">=" )
+, L
+    ( Position 322 20 )
+    ( TokSym "9.0.0" )
+, L
+    ( Position 322 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 323 1 )
+    ( Indent 4 )
+, L
+    ( Position 323 5 )
+    ( TokOther "," )
+, L
+    ( Position 323 6 )
+    ( Whitespace " " )
+, L
+    ( Position 323 7 )
+    ( TokSym "mtl" )
+, L
+    ( Position 323 10 )
+    ( Whitespace " " )
+, L
+    ( Position 323 11 )
+    ( TokOther ">=" )
+, L
+    ( Position 323 13 )
+    ( TokSym "2.2.1" )
+, L
+    ( Position 323 18 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 324 1 )
+    ( Indent 4 )
+, L
+    ( Position 324 5 )
+    ( TokOther "," )
+, L
+    ( Position 324 6 )
+    ( Whitespace " " )
+, L
+    ( Position 324 7 )
+    ( TokSym "neat-interpolation" )
+, L
+    ( Position 324 25 )
+    ( Whitespace " " )
+, L
+    ( Position 324 26 )
+    ( TokOther ">=" )
+, L
+    ( Position 324 28 )
+    ( TokSym "0.3" )
+, L
+    ( Position 324 31 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 325 1 )
+    ( Indent 4 )
+, L
+    ( Position 325 5 )
+    ( TokOther "," )
+, L
+    ( Position 325 6 )
+    ( Whitespace " " )
+, L
+    ( Position 325 7 )
+    ( TokSym "parallel" )
+, L
+    ( Position 325 15 )
+    ( Whitespace " " )
+, L
+    ( Position 325 16 )
+    ( TokOther ">=" )
+, L
+    ( Position 325 18 )
+    ( TokSym "3.2.1.0" )
+, L
+    ( Position 325 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 326 1 )
+    ( Indent 4 )
+, L
+    ( Position 326 5 )
+    ( TokOther "," )
+, L
+    ( Position 326 6 )
+    ( Whitespace " " )
+, L
+    ( Position 326 7 )
+    ( TokSym "pcg-random" )
+, L
+    ( Position 326 17 )
+    ( Whitespace " " )
+, L
+    ( Position 326 18 )
+    ( TokOther ">=" )
+, L
+    ( Position 326 20 )
+    ( Whitespace " " )
+, L
+    ( Position 326 21 )
+    ( TokSym "0.1" )
+, L
+    ( Position 326 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 327 1 )
+    ( Indent 4 )
+, L
+    ( Position 327 5 )
+    ( TokOther "," )
+, L
+    ( Position 327 6 )
+    ( Whitespace " " )
+, L
+    ( Position 327 7 )
+    ( TokSym "process" )
+, L
+    ( Position 327 14 )
+    ( Whitespace " " )
+, L
+    ( Position 327 15 )
+    ( TokOther ">=" )
+, L
+    ( Position 327 17 )
+    ( TokSym "1.4.3.0" )
+, L
+    ( Position 327 24 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 328 1 )
+    ( Indent 4 )
+, L
+    ( Position 328 5 )
+    ( TokOther "," )
+, L
+    ( Position 328 6 )
+    ( Whitespace " " )
+, L
+    ( Position 328 7 )
+    ( TokSym "process-extras" )
+, L
+    ( Position 328 21 )
+    ( Whitespace " " )
+, L
+    ( Position 328 22 )
+    ( TokOther ">=" )
+, L
+    ( Position 328 24 )
+    ( TokSym "0.7.2" )
+, L
+    ( Position 328 29 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 329 1 )
+    ( Indent 4 )
+, L
+    ( Position 329 5 )
+    ( TokOther "," )
+, L
+    ( Position 329 6 )
+    ( Whitespace " " )
+, L
+    ( Position 329 7 )
+    ( TokSym "regex-tdfa" )
+, L
+    ( Position 329 17 )
+    ( Whitespace " " )
+, L
+    ( Position 329 18 )
+    ( TokOther ">=" )
+, L
+    ( Position 329 20 )
+    ( TokSym "1.2" )
+, L
+    ( Position 329 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 330 1 )
+    ( Indent 4 )
+, L
+    ( Position 330 5 )
+    ( TokOther "," )
+, L
+    ( Position 330 6 )
+    ( Whitespace " " )
+, L
+    ( Position 330 7 )
+    ( TokSym "srcloc" )
+, L
+    ( Position 330 13 )
+    ( Whitespace " " )
+, L
+    ( Position 330 14 )
+    ( TokOther ">=" )
+, L
+    ( Position 330 16 )
+    ( TokSym "0.4" )
+, L
+    ( Position 330 19 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 331 1 )
+    ( Indent 4 )
+, L
+    ( Position 331 5 )
+    ( TokOther "," )
+, L
+    ( Position 331 6 )
+    ( Whitespace " " )
+, L
+    ( Position 331 7 )
+    ( TokSym "template-haskell" )
+, L
+    ( Position 331 23 )
+    ( Whitespace " " )
+, L
+    ( Position 331 24 )
+    ( TokOther ">=" )
+, L
+    ( Position 331 26 )
+    ( TokSym "2.11.1" )
+, L
+    ( Position 331 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 332 1 )
+    ( Indent 4 )
+, L
+    ( Position 332 5 )
+    ( TokOther "," )
+, L
+    ( Position 332 6 )
+    ( Whitespace " " )
+, L
+    ( Position 332 7 )
+    ( TokSym "temporary" )
+, L
+    ( Position 332 16 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 333 1 )
+    ( Indent 4 )
+, L
+    ( Position 333 5 )
+    ( TokOther "," )
+, L
+    ( Position 333 6 )
+    ( Whitespace " " )
+, L
+    ( Position 333 7 )
+    ( TokSym "terminal-size" )
+, L
+    ( Position 333 20 )
+    ( Whitespace " " )
+, L
+    ( Position 333 21 )
+    ( TokOther ">=" )
+, L
+    ( Position 333 23 )
+    ( TokSym "0.3" )
+, L
+    ( Position 333 26 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 334 1 )
+    ( Indent 4 )
+, L
+    ( Position 334 5 )
+    ( TokOther "," )
+, L
+    ( Position 334 6 )
+    ( Whitespace " " )
+, L
+    ( Position 334 7 )
+    ( TokSym "text" )
+, L
+    ( Position 334 11 )
+    ( Whitespace " " )
+, L
+    ( Position 334 12 )
+    ( TokOther ">=" )
+, L
+    ( Position 334 14 )
+    ( TokSym "1.2.2.2" )
+, L
+    ( Position 334 21 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 335 1 )
+    ( Indent 4 )
+, L
+    ( Position 335 5 )
+    ( TokOther "," )
+, L
+    ( Position 335 6 )
+    ( Whitespace " " )
+, L
+    ( Position 335 7 )
+    ( TokSym "time" )
+, L
+    ( Position 335 11 )
+    ( Whitespace " " )
+, L
+    ( Position 335 12 )
+    ( TokOther ">=" )
+, L
+    ( Position 335 14 )
+    ( TokSym "1.6.0.1" )
+, L
+    ( Position 335 21 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 336 1 )
+    ( Indent 4 )
+, L
+    ( Position 336 5 )
+    ( TokOther "," )
+, L
+    ( Position 336 6 )
+    ( Whitespace " " )
+, L
+    ( Position 336 7 )
+    ( TokSym "transformers" )
+, L
+    ( Position 336 19 )
+    ( Whitespace " " )
+, L
+    ( Position 336 20 )
+    ( TokOther ">=" )
+, L
+    ( Position 336 22 )
+    ( TokSym "0.3" )
+, L
+    ( Position 336 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 337 1 )
+    ( Indent 4 )
+, L
+    ( Position 337 5 )
+    ( TokOther "," )
+, L
+    ( Position 337 6 )
+    ( Whitespace " " )
+, L
+    ( Position 337 7 )
+    ( TokSym "unordered-containers" )
+, L
+    ( Position 337 27 )
+    ( Whitespace " " )
+, L
+    ( Position 337 28 )
+    ( TokOther ">=" )
+, L
+    ( Position 337 30 )
+    ( TokSym "0.2.7" )
+, L
+    ( Position 337 35 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 338 1 )
+    ( Indent 4 )
+, L
+    ( Position 338 5 )
+    ( TokOther "," )
+, L
+    ( Position 338 6 )
+    ( Whitespace " " )
+, L
+    ( Position 338 7 )
+    ( TokSym "utf8-string" )
+, L
+    ( Position 338 18 )
+    ( Whitespace " " )
+, L
+    ( Position 338 19 )
+    ( TokOther ">=" )
+, L
+    ( Position 338 21 )
+    ( TokSym "1" )
+, L
+    ( Position 338 22 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 339 1 )
+    ( Indent 4 )
+, L
+    ( Position 339 5 )
+    ( TokOther "," )
+, L
+    ( Position 339 6 )
+    ( Whitespace " " )
+, L
+    ( Position 339 7 )
+    ( TokSym "vector" )
+, L
+    ( Position 339 13 )
+    ( Whitespace " " )
+, L
+    ( Position 339 14 )
+    ( TokOther ">=" )
+, L
+    ( Position 339 16 )
+    ( TokSym "0.12" )
+, L
+    ( Position 339 20 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 340 1 )
+    ( Indent 4 )
+, L
+    ( Position 340 5 )
+    ( TokOther "," )
+, L
+    ( Position 340 6 )
+    ( Whitespace " " )
+, L
+    ( Position 340 7 )
+    ( TokSym "vector-binary-instances" )
+, L
+    ( Position 340 30 )
+    ( Whitespace " " )
+, L
+    ( Position 340 31 )
+    ( TokOther ">=" )
+, L
+    ( Position 340 33 )
+    ( TokSym "0.2.2.0" )
+, L
+    ( Position 340 40 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 341 1 )
+    ( Indent 4 )
+, L
+    ( Position 341 5 )
+    ( TokOther "," )
+, L
+    ( Position 341 6 )
+    ( Whitespace " " )
+, L
+    ( Position 341 7 )
+    ( TokSym "versions" )
+, L
+    ( Position 341 15 )
+    ( Whitespace " " )
+, L
+    ( Position 341 16 )
+    ( TokOther "==" )
+, L
+    ( Position 341 18 )
+    ( TokSym "4." )
+, L
+    ( Position 341 20 )
+    ( TokOther "*" )
+, L
+    ( Position 341 21 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 342 1 )
+    ( Indent 4 )
+, L
+    ( Position 342 5 )
+    ( TokOther "," )
+, L
+    ( Position 342 6 )
+    ( Whitespace " " )
+, L
+    ( Position 342 7 )
+    ( TokSym "zip-archive" )
+, L
+    ( Position 342 18 )
+    ( Whitespace " " )
+, L
+    ( Position 342 19 )
+    ( TokOther ">=" )
+, L
+    ( Position 342 21 )
+    ( TokSym "0.3.1.1" )
+, L
+    ( Position 342 28 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 343 1 )
+    ( Indent 4 )
+, L
+    ( Position 343 5 )
+    ( TokOther "," )
+, L
+    ( Position 343 6 )
+    ( Whitespace " " )
+, L
+    ( Position 343 7 )
+    ( TokSym "zlib" )
+, L
+    ( Position 343 11 )
+    ( Whitespace " " )
+, L
+    ( Position 343 12 )
+    ( TokOther ">=" )
+, L
+    ( Position 343 14 )
+    ( TokSym "0.6.1.2" )
+, L
+    ( Position 343 21 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 344 1 )
+    ( Indent 2 )
+, L
+    ( Position 344 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 344 19 ) Colon
+, L
+    ( Position 344 20 )
+    ( Whitespace " " )
+, L
+    ( Position 344 21 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 344 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 345 1 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 346 1 )
+    ( Indent 0 )
+, L
+    ( Position 346 1 )
+    ( TokSym "executable" )
+, L
+    ( Position 346 11 )
+    ( Whitespace " " )
+, L
+    ( Position 346 12 )
+    ( TokSym "futhark" )
+, L
+    ( Position 346 19 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 347 1 )
+    ( Indent 2 )
+, L
+    ( Position 347 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 347 10 ) Colon
+, L
+    ( Position 347 11 )
+    ( Whitespace " " )
+, L
+    ( Position 347 12 )
+    ( TokSym "src" )
+, L
+    ( Position 347 15 )
+    ( TokOther "/" )
+, L
+    ( Position 347 16 )
+    ( TokSym "futhark.hs" )
+, L
+    ( Position 347 26 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 348 1 )
+    ( Indent 2 )
+, L
+    ( Position 348 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 348 16 ) Colon
+, L
+    ( Position 348 17 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 349 1 )
+    ( Indent 6 )
+, L
+    ( Position 349 7 )
+    ( TokSym "Paths_futhark" )
+, L
+    ( Position 349 20 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 350 1 )
+    ( Indent 2 )
+, L
+    ( Position 350 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 350 14 ) Colon
+, L
+    ( Position 350 15 )
+    ( Whitespace " " )
+, L
+    ( Position 350 16 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 350 21 )
+    ( Whitespace " " )
+, L
+    ( Position 350 22 )
+    ( TokSym "-Wcompat" )
+, L
+    ( Position 350 30 )
+    ( Whitespace " " )
+, L
+    ( Position 350 31 )
+    ( TokSym "-Wredundant-constraints" )
+, L
+    ( Position 350 54 )
+    ( Whitespace " " )
+, L
+    ( Position 350 55 )
+    ( TokSym "-Wincomplete-record-updates" )
+, L
+    ( Position 350 82 )
+    ( Whitespace " " )
+, L
+    ( Position 350 83 )
+    ( TokSym "-Wmissing-export-lists" )
+, L
+    ( Position 350 105 )
+    ( Whitespace " " )
+, L
+    ( Position 350 106 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 350 115 )
+    ( Whitespace " " )
+, L
+    ( Position 350 116 )
+    ( TokSym "-rtsopts" )
+, L
+    ( Position 350 124 )
+    ( Whitespace " " )
+, L
+    ( Position 350 125 )
+    ( TokStr "-with-rtsopts=-N -qg -H1G -A4M" )
+, L
+    ( Position 350 157 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 351 1 )
+    ( Indent 2 )
+, L
+    ( Position 351 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 351 16 ) Colon
+, L
+    ( Position 351 17 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 352 1 )
+    ( Indent 6 )
+, L
+    ( Position 352 7 )
+    ( TokSym "base" )
+, L
+    ( Position 352 11 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 353 1 )
+    ( Indent 4 )
+, L
+    ( Position 353 5 )
+    ( TokOther "," )
+, L
+    ( Position 353 6 )
+    ( Whitespace " " )
+, L
+    ( Position 353 7 )
+    ( TokSym "futhark" )
+, L
+    ( Position 353 14 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 354 1 )
+    ( Indent 4 )
+, L
+    ( Position 354 5 )
+    ( TokOther "," )
+, L
+    ( Position 354 6 )
+    ( Whitespace " " )
+, L
+    ( Position 354 7 )
+    ( TokSym "text" )
+, L
+    ( Position 354 11 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 355 1 )
+    ( Indent 2 )
+, L
+    ( Position 355 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 355 19 ) Colon
+, L
+    ( Position 355 20 )
+    ( Whitespace " " )
+, L
+    ( Position 355 21 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 355 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 356 1 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 357 1 )
+    ( Indent 0 )
+, L
+    ( Position 357 1 )
+    ( TokSym "test-suite" )
+, L
+    ( Position 357 11 )
+    ( Whitespace " " )
+, L
+    ( Position 357 12 )
+    ( TokSym "unit" )
+, L
+    ( Position 357 16 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 358 1 )
+    ( Indent 2 )
+, L
+    ( Position 358 3 )
+    ( TokSym "type" )
+, L
+    ( Position 358 7 ) Colon
+, L
+    ( Position 358 8 )
+    ( Whitespace " " )
+, L
+    ( Position 358 9 )
+    ( TokSym "exitcode-stdio-1.0" )
+, L
+    ( Position 358 27 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 359 1 )
+    ( Indent 2 )
+, L
+    ( Position 359 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 359 10 ) Colon
+, L
+    ( Position 359 11 )
+    ( Whitespace " " )
+, L
+    ( Position 359 12 )
+    ( TokSym "futhark_tests.hs" )
+, L
+    ( Position 359 28 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 360 1 )
+    ( Indent 2 )
+, L
+    ( Position 360 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 360 16 ) Colon
+, L
+    ( Position 360 17 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 361 1 )
+    ( Indent 6 )
+, L
+    ( Position 361 7 )
+    ( TokSym "Futhark.BenchTests" )
+, L
+    ( Position 361 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 362 1 )
+    ( Indent 6 )
+, L
+    ( Position 362 7 )
+    ( TokSym "Futhark.Pkg.SolveTests" )
+, L
+    ( Position 362 29 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 363 1 )
+    ( Indent 6 )
+, L
+    ( Position 363 7 )
+    ( TokSym "Futhark.IR.Prop.RearrangeTests" )
+, L
+    ( Position 363 37 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 364 1 )
+    ( Indent 6 )
+, L
+    ( Position 364 7 )
+    ( TokSym "Futhark.IR.Prop.ReshapeTests" )
+, L
+    ( Position 364 35 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 365 1 )
+    ( Indent 6 )
+, L
+    ( Position 365 7 )
+    ( TokSym "Futhark.IR.PropTests" )
+, L
+    ( Position 365 27 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 366 1 )
+    ( Indent 6 )
+, L
+    ( Position 366 7 )
+    ( TokSym "Futhark.IR.Syntax.CoreTests" )
+, L
+    ( Position 366 34 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 367 1 )
+    ( Indent 6 )
+, L
+    ( Position 367 7 )
+    ( TokSym "Futhark.IR.SyntaxTests" )
+, L
+    ( Position 367 29 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 368 1 )
+    ( Indent 6 )
+, L
+    ( Position 368 7 )
+    ( TokSym "Futhark.IR.Mem.IxFun.Alg" )
+, L
+    ( Position 368 31 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 369 1 )
+    ( Indent 6 )
+, L
+    ( Position 369 7 )
+    ( TokSym "Futhark.IR.Mem.IxFunTests" )
+, L
+    ( Position 369 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 370 1 )
+    ( Indent 6 )
+, L
+    ( Position 370 7 )
+    ( TokSym "Futhark.IR.Mem.IxFunWrapper" )
+, L
+    ( Position 370 34 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 371 1 )
+    ( Indent 6 )
+, L
+    ( Position 371 7 )
+    ( TokSym "Futhark.IR.PrimitiveTests" )
+, L
+    ( Position 371 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 372 1 )
+    ( Indent 6 )
+, L
+    ( Position 372 7 )
+    ( TokSym "Language.Futhark.CoreTests" )
+, L
+    ( Position 372 33 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 373 1 )
+    ( Indent 6 )
+, L
+    ( Position 373 7 )
+    ( TokSym "Language.Futhark.SyntaxTests" )
+, L
+    ( Position 373 35 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 374 1 )
+    ( Indent 6 )
+, L
+    ( Position 374 7 )
+    ( TokSym "Paths_futhark" )
+, L
+    ( Position 374 20 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 375 1 )
+    ( Indent 2 )
+, L
+    ( Position 375 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 375 17 ) Colon
+, L
+    ( Position 375 18 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 376 1 )
+    ( Indent 6 )
+, L
+    ( Position 376 7 )
+    ( TokSym "unittests" )
+, L
+    ( Position 376 16 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 377 1 )
+    ( Indent 2 )
+, L
+    ( Position 377 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 377 14 ) Colon
+, L
+    ( Position 377 15 )
+    ( Whitespace " " )
+, L
+    ( Position 377 16 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 377 21 )
+    ( Whitespace " " )
+, L
+    ( Position 377 22 )
+    ( TokSym "-Wcompat" )
+, L
+    ( Position 377 30 )
+    ( Whitespace " " )
+, L
+    ( Position 377 31 )
+    ( TokSym "-Wredundant-constraints" )
+, L
+    ( Position 377 54 )
+    ( Whitespace " " )
+, L
+    ( Position 377 55 )
+    ( TokSym "-Wincomplete-record-updates" )
+, L
+    ( Position 377 82 )
+    ( Whitespace " " )
+, L
+    ( Position 377 83 )
+    ( TokSym "-Wmissing-export-lists" )
+, L
+    ( Position 377 105 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 378 1 )
+    ( Indent 2 )
+, L
+    ( Position 378 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 378 16 ) Colon
+, L
+    ( Position 378 17 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 379 1 )
+    ( Indent 6 )
+, L
+    ( Position 379 7 )
+    ( TokSym "QuickCheck" )
+, L
+    ( Position 379 17 )
+    ( Whitespace " " )
+, L
+    ( Position 379 18 )
+    ( TokOther ">=" )
+, L
+    ( Position 379 20 )
+    ( TokSym "2.8" )
+, L
+    ( Position 379 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 380 1 )
+    ( Indent 4 )
+, L
+    ( Position 380 5 )
+    ( TokOther "," )
+, L
+    ( Position 380 6 )
+    ( Whitespace " " )
+, L
+    ( Position 380 7 )
+    ( TokSym "base" )
+, L
+    ( Position 380 11 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 381 1 )
+    ( Indent 4 )
+, L
+    ( Position 381 5 )
+    ( TokOther "," )
+, L
+    ( Position 381 6 )
+    ( Whitespace " " )
+, L
+    ( Position 381 7 )
+    ( TokSym "containers" )
+, L
+    ( Position 381 17 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 382 1 )
+    ( Indent 4 )
+, L
+    ( Position 382 5 )
+    ( TokOther "," )
+, L
+    ( Position 382 6 )
+    ( Whitespace " " )
+, L
+    ( Position 382 7 )
+    ( TokSym "futhark" )
+, L
+    ( Position 382 14 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 383 1 )
+    ( Indent 4 )
+, L
+    ( Position 383 5 )
+    ( TokOther "," )
+, L
+    ( Position 383 6 )
+    ( Whitespace " " )
+, L
+    ( Position 383 7 )
+    ( TokSym "megaparsec" )
+, L
+    ( Position 383 17 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 384 1 )
+    ( Indent 4 )
+, L
+    ( Position 384 5 )
+    ( TokOther "," )
+, L
+    ( Position 384 6 )
+    ( Whitespace " " )
+, L
+    ( Position 384 7 )
+    ( TokSym "mtl" )
+, L
+    ( Position 384 10 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 385 1 )
+    ( Indent 4 )
+, L
+    ( Position 385 5 )
+    ( TokOther "," )
+, L
+    ( Position 385 6 )
+    ( Whitespace " " )
+, L
+    ( Position 385 7 )
+    ( TokSym "parser-combinators" )
+, L
+    ( Position 385 25 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 386 1 )
+    ( Indent 4 )
+, L
+    ( Position 386 5 )
+    ( TokOther "," )
+, L
+    ( Position 386 6 )
+    ( Whitespace " " )
+, L
+    ( Position 386 7 )
+    ( TokSym "tasty" )
+, L
+    ( Position 386 12 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 387 1 )
+    ( Indent 4 )
+, L
+    ( Position 387 5 )
+    ( TokOther "," )
+, L
+    ( Position 387 6 )
+    ( Whitespace " " )
+, L
+    ( Position 387 7 )
+    ( TokSym "tasty-hunit" )
+, L
+    ( Position 387 18 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 388 1 )
+    ( Indent 4 )
+, L
+    ( Position 388 5 )
+    ( TokOther "," )
+, L
+    ( Position 388 6 )
+    ( Whitespace " " )
+, L
+    ( Position 388 7 )
+    ( TokSym "tasty-quickcheck" )
+, L
+    ( Position 388 23 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 389 1 )
+    ( Indent 4 )
+, L
+    ( Position 389 5 )
+    ( TokOther "," )
+, L
+    ( Position 389 6 )
+    ( Whitespace " " )
+, L
+    ( Position 389 7 )
+    ( TokSym "text" )
+, L
+    ( Position 389 11 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 390 1 )
+    ( Indent 2 )
+, L
+    ( Position 390 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 390 19 ) Colon
+, L
+    ( Position 390 20 )
+    ( Whitespace " " )
+, L
+    ( Position 390 21 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 390 32 )
+    ( Whitespace "\xd
+    " )
+, L
+    ( Position 391 1 ) EOF
+]

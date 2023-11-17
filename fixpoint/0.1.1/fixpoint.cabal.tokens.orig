@@ -1,0 +1,159 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 17 )
+    ( TokSym "fixpoint" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 17 )
+    ( TokSym "0.1.1" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 3 9 ) Colon
+, L
+    ( Position 3 17 )
+    ( TokSym "Data" )
+, L
+    ( Position 3 22 )
+    ( TokSym "types" )
+, L
+    ( Position 3 28 )
+    ( TokSym "as" )
+, L
+    ( Position 3 31 )
+    ( TokSym "fixpoints" )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Category" )
+, L
+    ( Position 4 9 ) Colon
+, L
+    ( Position 4 17 )
+    ( TokSym "Data" )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 5 12 ) Colon
+, L
+    ( Position 6 1 )
+    ( Indent 2 )
+, L
+    ( Position 6 3 )
+    ( TokSym "This" )
+, L
+    ( Position 6 8 )
+    ( TokSym "package" )
+, L
+    ( Position 6 16 )
+    ( TokSym "allows" )
+, L
+    ( Position 6 23 )
+    ( TokSym "data" )
+, L
+    ( Position 6 28 )
+    ( TokSym "types" )
+, L
+    ( Position 6 34 )
+    ( TokSym "to" )
+, L
+    ( Position 6 37 )
+    ( TokSym "be" )
+, L
+    ( Position 6 40 )
+    ( TokSym "seen" )
+, L
+    ( Position 6 45 )
+    ( TokSym "and" )
+, L
+    ( Position 6 49 )
+    ( TokSym "manipulated" )
+, L
+    ( Position 6 61 )
+    ( TokSym "as" )
+, L
+    ( Position 6 64 )
+    ( TokSym "fixpoints" )
+, L
+    ( Position 6 74 )
+    ( TokSym "of" )
+, L
+    ( Position 7 1 )
+    ( Indent 2 )
+, L
+    ( Position 7 3 )
+    ( TokSym "their" )
+, L
+    ( Position 7 9 )
+    ( TokSym "underlying" )
+, L
+    ( Position 7 20 )
+    ( TokSym "functors." )
+, L
+    ( Position 7 30 )
+    ( TokSym "It" )
+, L
+    ( Position 7 33 )
+    ( TokSym "is" )
+, L
+    ( Position 7 36 )
+    ( TokSym "mostly" )
+, L
+    ( Position 7 43 )
+    ( TokSym "based" )
+, L
+    ( Position 7 49 )
+    ( TokSym "on" )
+, L
+    ( Position 7 80 )
+    ( LexicalError "
+      Bananas, Lenses, Envelopes and Barbed Wire" by Erik Meijer, Maarten Fokkinga
+      and Ross Paterson (<http://citeseer.ist.psu.edu/meijer91functional.html>). It
+      makes essential use of associated types and related extensions.
+    License:        BSD3
+    License-File:   LICENSE
+    Author:         Roman Leshchinskiy <rl@cse.unsw.edu.au>
+    Maintainer:     Roman Leshchinskiy <rl@cse.unsw.edu.au>
+    Copyright:      (c) 2007 Roman Leshchinskiy
+    Homepage:       http://www.cse.unsw.edu.au/~rl/code/fixpoint.html
+    Cabal-Version:  >= 1.2
+    Build-Type:     Simple
+
+    Library
+            Build-Depends:  base
+            Exposed-Modules:
+                    Data.Fixpoint
+                    Data.Fixpoint.Algorithms
+            Other-Modules:
+                    Data.Fixpoint.Base
+                    Data.Fixpoint.Instances
+            Ghc-Options: -Wall
+
+    " )
+, L
+    ( Position 7 52 ) EOF
+]

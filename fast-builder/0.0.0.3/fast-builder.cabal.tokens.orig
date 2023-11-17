@@ -1,0 +1,958 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 22 )
+    ( TokSym "fast-builder" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 22 )
+    ( TokSym "0.0.0.3" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "synopsis" )
+, L
+    ( Position 3 9 ) Colon
+, L
+    ( Position 3 22 )
+    ( TokSym "Fast" )
+, L
+    ( Position 3 27 )
+    ( TokSym "ByteString" )
+, L
+    ( Position 3 38 )
+    ( TokSym "Builder" )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "description" )
+, L
+    ( Position 4 12 ) Colon
+, L
+    ( Position 4 22 )
+    ( TokSym "An" )
+, L
+    ( Position 4 25 )
+    ( TokSym "efficient" )
+, L
+    ( Position 4 35 )
+    ( TokSym "implementation" )
+, L
+    ( Position 4 50 )
+    ( TokSym "of" )
+, L
+    ( Position 4 53 )
+    ( TokSym "ByteString" )
+, L
+    ( Position 4 64 )
+    ( TokSym "builder." )
+, L
+    ( Position 4 73 )
+    ( TokSym "It" )
+, L
+    ( Position 4 76 )
+    ( TokSym "should" )
+, L
+    ( Position 4 83 )
+    ( TokSym "be" )
+, L
+    ( Position 4 86 )
+    ( TokSym "faster" )
+, L
+    ( Position 4 93 )
+    ( TokSym "than" )
+, L
+    ( Position 5 1 )
+    ( Indent 21 )
+, L
+    ( Position 5 22 )
+    ( TokSym "the" )
+, L
+    ( Position 5 26 )
+    ( TokSym "standard" )
+, L
+    ( Position 5 35 )
+    ( TokSym "implementation" )
+, L
+    ( Position 5 50 )
+    ( TokSym "in" )
+, L
+    ( Position 5 53 )
+    ( TokSym "most" )
+, L
+    ( Position 5 58 )
+    ( TokSym "cases." )
+, L
+    ( Position 6 1 )
+    ( Indent 21 )
+, L
+    ( Position 6 22 )
+    ( TokSym "." )
+, L
+    ( Position 7 1 )
+    ( Indent 21 )
+, L
+    ( Position 7 22 )
+    ( TokSym "In" )
+, L
+    ( Position 7 25 )
+    ( TokSym "many" )
+, L
+    ( Position 7 30 )
+    ( TokSym "benchmarks" )
+, L
+    ( Position 7 40 )
+    ( TokOther "," )
+, L
+    ( Position 7 42 )
+    ( TokSym "the" )
+, L
+    ( Position 7 46 )
+    ( TokSym "performance" )
+, L
+    ( Position 7 58 )
+    ( TokSym "improvement" )
+, L
+    ( Position 7 70 )
+    ( TokSym "is" )
+, L
+    ( Position 7 73 )
+    ( TokSym "2x-10x." )
+, L
+    ( Position 8 1 )
+    ( Indent 0 )
+, L
+    ( Position 8 1 )
+    ( TokSym "homepage" )
+, L
+    ( Position 8 9 ) Colon
+, L
+    ( Position 8 22 )
+    ( TokSym "http" )
+, L
+    ( Position 8 26 ) Colon
+, L
+    ( Position 8 27 )
+    ( TokOther "//" )
+, L
+    ( Position 8 29 )
+    ( TokSym "github.com" )
+, L
+    ( Position 8 39 )
+    ( TokOther "/" )
+, L
+    ( Position 8 40 )
+    ( TokSym "takano-akio" )
+, L
+    ( Position 8 51 )
+    ( TokOther "/" )
+, L
+    ( Position 8 52 )
+    ( TokSym "fast-builder" )
+, L
+    ( Position 9 1 )
+    ( Indent 0 )
+, L
+    ( Position 9 1 )
+    ( TokSym "license" )
+, L
+    ( Position 9 8 ) Colon
+, L
+    ( Position 9 22 )
+    ( TokSym "PublicDomain" )
+, L
+    ( Position 10 1 )
+    ( Indent 0 )
+, L
+    ( Position 10 1 )
+    ( TokSym "license-file" )
+, L
+    ( Position 10 13 ) Colon
+, L
+    ( Position 10 22 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 11 1 )
+    ( Indent 0 )
+, L
+    ( Position 11 1 )
+    ( TokSym "author" )
+, L
+    ( Position 11 7 ) Colon
+, L
+    ( Position 11 22 )
+    ( TokSym "Takano" )
+, L
+    ( Position 11 29 )
+    ( TokSym "Akio" )
+, L
+    ( Position 12 1 )
+    ( Indent 0 )
+, L
+    ( Position 12 1 )
+    ( TokSym "maintainer" )
+, L
+    ( Position 12 11 ) Colon
+, L
+    ( Position 12 22 )
+    ( TokSym "aljee" )
+, L
+    ( Position 12 27 )
+    ( TokOther "@" )
+, L
+    ( Position 12 28 )
+    ( TokSym "hyper.cx" )
+, L
+    ( Position 14 1 )
+    ( Indent 0 )
+, L
+    ( Position 14 1 )
+    ( TokSym "category" )
+, L
+    ( Position 14 9 ) Colon
+, L
+    ( Position 14 22 )
+    ( TokSym "Data" )
+, L
+    ( Position 15 1 )
+    ( Indent 0 )
+, L
+    ( Position 15 1 )
+    ( TokSym "build-type" )
+, L
+    ( Position 15 11 ) Colon
+, L
+    ( Position 15 22 )
+    ( TokSym "Simple" )
+, L
+    ( Position 17 1 )
+    ( Indent 0 )
+, L
+    ( Position 17 1 )
+    ( TokSym "cabal-version" )
+, L
+    ( Position 17 14 ) Colon
+, L
+    ( Position 17 22 )
+    ( TokOther ">=" )
+, L
+    ( Position 17 24 )
+    ( TokSym "1.10" )
+, L
+    ( Position 18 1 )
+    ( Indent 0 )
+, L
+    ( Position 18 1 )
+    ( TokSym "tested-with" )
+, L
+    ( Position 18 12 ) Colon
+, L
+    ( Position 18 22 )
+    ( TokSym "GHC" )
+, L
+    ( Position 18 26 )
+    ( TokOther ">=" )
+, L
+    ( Position 18 29 )
+    ( TokSym "7.10.1" )
+, L
+    ( Position 18 36 )
+    ( TokOther "&&" )
+, L
+    ( Position 18 39 )
+    ( TokOther "<" )
+, L
+    ( Position 18 41 )
+    ( TokSym "8" )
+, L
+    ( Position 20 1 )
+    ( Indent 0 )
+, L
+    ( Position 20 1 )
+    ( TokSym "library" )
+, L
+    ( Position 21 1 )
+    ( Indent 2 )
+, L
+    ( Position 21 3 )
+    ( TokSym "exposed-modules" )
+, L
+    ( Position 21 18 ) Colon
+, L
+    ( Position 21 24 )
+    ( TokSym "Data.ByteString.FastBuilder" )
+, L
+    ( Position 21 51 )
+    ( TokOther "," )
+, L
+    ( Position 22 1 )
+    ( Indent 23 )
+, L
+    ( Position 22 24 )
+    ( TokSym "Data.ByteString.FastBuilder.Internal" )
+, L
+    ( Position 23 1 )
+    ( Indent 2 )
+, L
+    ( Position 23 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 23 16 ) Colon
+, L
+    ( Position 23 24 )
+    ( TokSym "Data.ByteString.FastBuilder.Internal.Prim" )
+, L
+    ( Position 26 1 )
+    ( Indent 2 )
+, L
+    ( Position 26 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 26 16 ) Colon
+, L
+    ( Position 26 24 )
+    ( TokSym "base" )
+, L
+    ( Position 26 29 )
+    ( TokOther ">=" )
+, L
+    ( Position 26 32 )
+    ( TokSym "4.8" )
+, L
+    ( Position 26 36 )
+    ( TokOther "&&" )
+, L
+    ( Position 26 39 )
+    ( TokOther "<" )
+, L
+    ( Position 26 41 )
+    ( TokSym "4.9" )
+, L
+    ( Position 26 44 )
+    ( TokOther "," )
+, L
+    ( Position 26 46 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 26 57 )
+    ( TokOther ">=" )
+, L
+    ( Position 26 60 )
+    ( TokSym "0.10.6.0" )
+, L
+    ( Position 26 68 )
+    ( TokOther "," )
+, L
+    ( Position 26 70 )
+    ( TokSym "ghc-prim" )
+, L
+    ( Position 28 1 )
+    ( Indent 2 )
+, L
+    ( Position 28 3 )
+    ( TokSym "default-language" )
+, L
+    ( Position 28 19 ) Colon
+, L
+    ( Position 28 24 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 29 1 )
+    ( Indent 2 )
+, L
+    ( Position 29 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 29 14 ) Colon
+, L
+    ( Position 29 24 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 29 30 )
+    ( TokSym "-g" )
+, L
+    ( Position 31 1 )
+    ( Indent 0 )
+, L
+    ( Position 31 1 )
+    ( TokSym "benchmark" )
+, L
+    ( Position 31 11 )
+    ( TokSym "aeson" )
+, L
+    ( Position 32 1 )
+    ( Indent 2 )
+, L
+    ( Position 32 3 )
+    ( TokSym "type" )
+, L
+    ( Position 32 7 ) Colon
+, L
+    ( Position 32 24 )
+    ( TokSym "exitcode-stdio-1.0" )
+, L
+    ( Position 33 1 )
+    ( Indent 2 )
+, L
+    ( Position 33 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 33 10 ) Colon
+, L
+    ( Position 33 24 )
+    ( TokSym "main.hs" )
+, L
+    ( Position 34 1 )
+    ( Indent 2 )
+, L
+    ( Position 34 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 34 17 ) Colon
+, L
+    ( Position 34 24 )
+    ( TokSym "benchmarks" )
+, L
+    ( Position 34 34 )
+    ( TokOther "/" )
+, L
+    ( Position 34 35 )
+    ( TokSym "aeson" )
+, L
+    ( Position 35 1 )
+    ( Indent 2 )
+, L
+    ( Position 35 3 )
+    ( TokSym "other-modules" )
+, L
+    ( Position 35 16 ) Colon
+, L
+    ( Position 35 24 )
+    ( TokSym "Fast" )
+, L
+    ( Position 35 28 )
+    ( TokOther "," )
+, L
+    ( Position 35 30 )
+    ( TokSym "Bstr" )
+, L
+    ( Position 35 34 )
+    ( TokOther "," )
+, L
+    ( Position 35 36 )
+    ( TokSym "HashMapExts" )
+, L
+    ( Position 36 1 )
+    ( Indent 2 )
+, L
+    ( Position 36 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 36 16 ) Colon
+, L
+    ( Position 36 24 )
+    ( TokSym "base" )
+, L
+    ( Position 36 28 )
+    ( TokOther "," )
+, L
+    ( Position 36 30 )
+    ( TokSym "fast-builder" )
+, L
+    ( Position 36 42 )
+    ( TokOther "," )
+, L
+    ( Position 36 44 )
+    ( TokSym "aeson" )
+, L
+    ( Position 36 49 )
+    ( TokOther "," )
+, L
+    ( Position 36 51 )
+    ( TokSym "criterion" )
+, L
+    ( Position 36 60 )
+    ( TokOther "," )
+, L
+    ( Position 36 62 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 36 72 )
+    ( TokOther "," )
+, L
+    ( Position 37 1 )
+    ( Indent 4 )
+, L
+    ( Position 37 5 )
+    ( TokSym "scientific" )
+, L
+    ( Position 37 15 )
+    ( TokOther "," )
+, L
+    ( Position 37 17 )
+    ( TokSym "text" )
+, L
+    ( Position 37 21 )
+    ( TokOther "," )
+, L
+    ( Position 37 23 )
+    ( TokSym "vector" )
+, L
+    ( Position 37 29 )
+    ( TokOther "," )
+, L
+    ( Position 37 31 )
+    ( TokSym "deepseq" )
+, L
+    ( Position 37 38 )
+    ( TokOther "," )
+, L
+    ( Position 37 40 )
+    ( TokSym "unordered-containers" )
+, L
+    ( Position 37 60 )
+    ( TokOther "," )
+, L
+    ( Position 37 62 )
+    ( TokSym "ghc-prim" )
+, L
+    ( Position 37 70 )
+    ( TokOther "," )
+, L
+    ( Position 38 1 )
+    ( Indent 4 )
+, L
+    ( Position 38 5 )
+    ( TokSym "template-haskell" )
+, L
+    ( Position 38 21 )
+    ( TokOther "," )
+, L
+    ( Position 38 23 )
+    ( TokSym "true-name" )
+, L
+    ( Position 38 33 )
+    ( TokOther ">=" )
+, L
+    ( Position 38 36 )
+    ( TokSym "0.1.0.0" )
+, L
+    ( Position 39 1 )
+    ( Indent 2 )
+, L
+    ( Position 39 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 39 14 ) Colon
+, L
+    ( Position 39 24 )
+    ( TokSym "-fsimpl-tick-factor" )
+, L
+    ( Position 39 43 )
+    ( TokOther "=" )
+, L
+    ( Position 39 44 )
+    ( TokSym "120" )
+, L
+    ( Position 40 1 )
+    ( Indent 2 )
+, L
+    ( Position 40 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 40 14 ) Colon
+, L
+    ( Position 40 24 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 40 30 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 40 40 )
+    ( TokSym "-g" )
+, L
+    ( Position 40 43 )
+    ( TokSym "-rtsopts" )
+, L
+    ( Position 42 1 )
+    ( Indent 0 )
+, L
+    ( Position 42 1 )
+    ( TokSym "benchmark" )
+, L
+    ( Position 42 11 )
+    ( TokSym "vector" )
+, L
+    ( Position 43 1 )
+    ( Indent 2 )
+, L
+    ( Position 43 3 )
+    ( TokSym "type" )
+, L
+    ( Position 43 7 ) Colon
+, L
+    ( Position 43 24 )
+    ( TokSym "exitcode-stdio-1.0" )
+, L
+    ( Position 44 1 )
+    ( Indent 2 )
+, L
+    ( Position 44 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 44 10 ) Colon
+, L
+    ( Position 44 24 )
+    ( TokSym "vector.hs" )
+, L
+    ( Position 45 1 )
+    ( Indent 2 )
+, L
+    ( Position 45 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 45 17 ) Colon
+, L
+    ( Position 45 24 )
+    ( TokSym "benchmarks" )
+, L
+    ( Position 46 1 )
+    ( Indent 2 )
+, L
+    ( Position 46 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 46 16 ) Colon
+, L
+    ( Position 46 24 )
+    ( TokSym "base" )
+, L
+    ( Position 46 28 )
+    ( TokOther "," )
+, L
+    ( Position 46 30 )
+    ( TokSym "fast-builder" )
+, L
+    ( Position 46 42 )
+    ( TokOther "," )
+, L
+    ( Position 46 44 )
+    ( TokSym "criterion" )
+, L
+    ( Position 46 53 )
+    ( TokOther "," )
+, L
+    ( Position 46 55 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 46 65 )
+    ( TokOther "," )
+, L
+    ( Position 46 67 )
+    ( TokSym "vector" )
+, L
+    ( Position 46 73 )
+    ( TokOther "," )
+, L
+    ( Position 46 75 )
+    ( TokSym "deepseq" )
+, L
+    ( Position 47 1 )
+    ( Indent 2 )
+, L
+    ( Position 47 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 47 14 ) Colon
+, L
+    ( Position 47 24 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 47 30 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 47 40 )
+    ( TokSym "-g" )
+, L
+    ( Position 47 43 )
+    ( TokSym "-rtsopts" )
+, L
+    ( Position 47 52 )
+    ( TokSym "-eventlog" )
+, L
+    ( Position 49 1 )
+    ( Indent 0 )
+, L
+    ( Position 49 1 )
+    ( TokSym "benchmark" )
+, L
+    ( Position 49 11 )
+    ( TokSym "map" )
+, L
+    ( Position 50 1 )
+    ( Indent 2 )
+, L
+    ( Position 50 3 )
+    ( TokSym "type" )
+, L
+    ( Position 50 7 ) Colon
+, L
+    ( Position 50 24 )
+    ( TokSym "exitcode-stdio-1.0" )
+, L
+    ( Position 51 1 )
+    ( Indent 2 )
+, L
+    ( Position 51 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 51 10 ) Colon
+, L
+    ( Position 51 24 )
+    ( TokSym "map.hs" )
+, L
+    ( Position 52 1 )
+    ( Indent 2 )
+, L
+    ( Position 52 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 52 17 ) Colon
+, L
+    ( Position 52 24 )
+    ( TokSym "benchmarks" )
+, L
+    ( Position 53 1 )
+    ( Indent 2 )
+, L
+    ( Position 53 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 53 16 ) Colon
+, L
+    ( Position 53 24 )
+    ( TokSym "base" )
+, L
+    ( Position 53 28 )
+    ( TokOther "," )
+, L
+    ( Position 53 30 )
+    ( TokSym "fast-builder" )
+, L
+    ( Position 53 42 )
+    ( TokOther "," )
+, L
+    ( Position 53 44 )
+    ( TokSym "criterion" )
+, L
+    ( Position 53 53 )
+    ( TokOther "," )
+, L
+    ( Position 53 55 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 53 65 )
+    ( TokOther "," )
+, L
+    ( Position 53 67 )
+    ( TokSym "containers" )
+, L
+    ( Position 53 77 )
+    ( TokOther "," )
+, L
+    ( Position 53 79 )
+    ( TokSym "deepseq" )
+, L
+    ( Position 54 1 )
+    ( Indent 2 )
+, L
+    ( Position 54 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 54 14 ) Colon
+, L
+    ( Position 54 24 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 54 30 )
+    ( TokSym "-threaded" )
+, L
+    ( Position 54 40 )
+    ( TokSym "-g" )
+, L
+    ( Position 54 43 )
+    ( TokSym "-rtsopts" )
+, L
+    ( Position 54 52 )
+    ( TokSym "-eventlog" )
+, L
+    ( Position 56 1 )
+    ( Indent 0 )
+, L
+    ( Position 56 1 )
+    ( TokSym "test-suite" )
+, L
+    ( Position 56 12 )
+    ( TokSym "prop" )
+, L
+    ( Position 57 1 )
+    ( Indent 2 )
+, L
+    ( Position 57 3 )
+    ( TokSym "type" )
+, L
+    ( Position 57 7 ) Colon
+, L
+    ( Position 57 24 )
+    ( TokSym "exitcode-stdio-1.0" )
+, L
+    ( Position 58 1 )
+    ( Indent 2 )
+, L
+    ( Position 58 3 )
+    ( TokSym "main-is" )
+, L
+    ( Position 58 10 ) Colon
+, L
+    ( Position 58 24 )
+    ( TokSym "prop.hs" )
+, L
+    ( Position 59 1 )
+    ( Indent 2 )
+, L
+    ( Position 59 3 )
+    ( TokSym "hs-source-dirs" )
+, L
+    ( Position 59 17 ) Colon
+, L
+    ( Position 59 24 )
+    ( TokSym "tests" )
+, L
+    ( Position 60 1 )
+    ( Indent 2 )
+, L
+    ( Position 60 3 )
+    ( TokSym "build-depends" )
+, L
+    ( Position 60 16 ) Colon
+, L
+    ( Position 60 24 )
+    ( TokSym "base" )
+, L
+    ( Position 60 28 )
+    ( TokOther "," )
+, L
+    ( Position 60 30 )
+    ( TokSym "fast-builder" )
+, L
+    ( Position 60 42 )
+    ( TokOther "," )
+, L
+    ( Position 60 44 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 60 54 )
+    ( TokOther "," )
+, L
+    ( Position 60 56 )
+    ( TokSym "QuickCheck" )
+, L
+    ( Position 60 66 )
+    ( TokOther "," )
+, L
+    ( Position 60 68 )
+    ( TokSym "stm" )
+, L
+    ( Position 60 71 )
+    ( TokOther "," )
+, L
+    ( Position 60 73 )
+    ( TokSym "process" )
+, L
+    ( Position 61 1 )
+    ( Indent 2 )
+, L
+    ( Position 61 3 )
+    ( TokSym "ghc-options" )
+, L
+    ( Position 61 14 ) Colon
+, L
+    ( Position 61 24 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 61 30 )
+    ( TokSym "-g" )
+, L
+    ( Position 61 33 )
+    ( TokSym "-rtsopts" )
+, L
+    ( Position 63 1 )
+    ( Indent 0 )
+, L
+    ( Position 63 1 )
+    ( TokSym "source-repository" )
+, L
+    ( Position 63 19 )
+    ( TokSym "head" )
+, L
+    ( Position 64 1 )
+    ( Indent 2 )
+, L
+    ( Position 64 3 )
+    ( TokSym "type" )
+, L
+    ( Position 64 7 ) Colon
+, L
+    ( Position 64 24 )
+    ( TokSym "git" )
+, L
+    ( Position 65 1 )
+    ( Indent 2 )
+, L
+    ( Position 65 3 )
+    ( TokSym "location" )
+, L
+    ( Position 65 11 ) Colon
+, L
+    ( Position 65 24 )
+    ( TokSym "https" )
+, L
+    ( Position 65 29 ) Colon
+, L
+    ( Position 65 30 )
+    ( TokOther "//" )
+, L
+    ( Position 65 32 )
+    ( TokSym "github.com" )
+, L
+    ( Position 65 42 )
+    ( TokOther "/" )
+, L
+    ( Position 65 43 )
+    ( TokSym "takano-akio" )
+, L
+    ( Position 65 54 )
+    ( TokOther "/" )
+, L
+    ( Position 65 55 )
+    ( TokSym "fast-builder.git" )
+, L
+    ( Position 66 1 ) EOF
+]

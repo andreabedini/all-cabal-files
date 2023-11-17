@@ -1,0 +1,1661 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 22 )
+    ( TokSym "hssqlppp" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 22 )
+    ( TokSym "0.0.6" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 3 9 ) Colon
+, L
+    ( Position 3 22 )
+    ( TokSym "Sql" )
+, L
+    ( Position 3 26 )
+    ( TokSym "parser" )
+, L
+    ( Position 3 33 )
+    ( TokSym "and" )
+, L
+    ( Position 3 37 )
+    ( TokSym "type" )
+, L
+    ( Position 3 42 )
+    ( TokSym "checker" )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Description" )
+, L
+    ( Position 4 12 ) Colon
+, L
+    ( Position 4 22 )
+    ( TokSym "Sql" )
+, L
+    ( Position 4 26 )
+    ( TokSym "parser" )
+, L
+    ( Position 4 32 )
+    ( TokOther "," )
+, L
+    ( Position 4 34 )
+    ( TokSym "pretty" )
+, L
+    ( Position 4 41 )
+    ( TokSym "printer" )
+, L
+    ( Position 4 49 )
+    ( TokSym "and" )
+, L
+    ( Position 4 53 )
+    ( TokSym "type" )
+, L
+    ( Position 4 58 )
+    ( TokSym "checker" )
+, L
+    ( Position 4 65 )
+    ( TokOther "," )
+, L
+    ( Position 4 67 )
+    ( TokSym "targets" )
+, L
+    ( Position 4 75 )
+    ( TokSym "PostGreSQL" )
+, L
+    ( Position 4 86 )
+    ( TokSym "SQL" )
+, L
+    ( Position 5 1 )
+    ( Indent 21 )
+, L
+    ( Position 5 22 )
+    ( TokSym "and" )
+, L
+    ( Position 5 26 )
+    ( TokSym "PL" )
+, L
+    ( Position 5 28 )
+    ( TokOther "/" )
+, L
+    ( Position 5 29 )
+    ( TokSym "pgSQL" )
+, L
+    ( Position 5 34 )
+    ( TokOther "," )
+, L
+    ( Position 5 36 )
+    ( TokSym "uses" )
+, L
+    ( Position 5 41 )
+    ( TokSym "Parsec" )
+, L
+    ( Position 5 48 )
+    ( TokSym "and" )
+, L
+    ( Position 5 52 )
+    ( TokSym "UUAGC." )
+, L
+    ( Position 7 1 )
+    ( Indent 21 )
+, L
+    ( Position 7 22 )
+    ( TokSym "Overview" )
+, L
+    ( Position 7 30 ) Colon
+, L
+    ( Position 9 1 )
+    ( Indent 21 )
+, L
+    ( Position 9 22 )
+    ( TokSym "see" )
+, L
+    ( Position 9 26 )
+    ( TokSym "the" )
+, L
+    ( Position 9 30 )
+    ( TokSym "module" )
+, L
+    ( Position 9 37 )
+    ( TokSym "'Database.HsSqlPpp.TypeChecking.Ast'" )
+, L
+    ( Position 9 74 )
+    ( TokSym "for" )
+, L
+    ( Position 9 78 )
+    ( TokSym "the" )
+, L
+    ( Position 9 82 )
+    ( TokSym "ast" )
+, L
+    ( Position 9 86 )
+    ( TokSym "types;" )
+, L
+    ( Position 11 1 )
+    ( Indent 21 )
+, L
+    ( Position 11 22 )
+    ( TokSym "'Parser'" )
+, L
+    ( Position 11 31 )
+    ( TokSym "for" )
+, L
+    ( Position 11 35 )
+    ( TokSym "converting" )
+, L
+    ( Position 11 46 )
+    ( TokSym "text" )
+, L
+    ( Position 11 51 )
+    ( TokSym "to" )
+, L
+    ( Position 11 54 )
+    ( TokSym "asts;" )
+, L
+    ( Position 13 1 )
+    ( Indent 21 )
+, L
+    ( Position 13 22 )
+    ( TokSym "'PrettyPrinter'" )
+, L
+    ( Position 13 38 )
+    ( TokSym "for" )
+, L
+    ( Position 13 42 )
+    ( TokSym "converting" )
+, L
+    ( Position 13 53 )
+    ( TokSym "asts" )
+, L
+    ( Position 13 58 )
+    ( TokSym "to" )
+, L
+    ( Position 13 61 )
+    ( TokSym "text;" )
+, L
+    ( Position 15 1 )
+    ( Indent 21 )
+, L
+    ( Position 15 22 )
+    ( TokSym "'TypeChecker'" )
+, L
+    ( Position 15 36 )
+    ( TokSym "for" )
+, L
+    ( Position 15 40 )
+    ( TokSym "annotating" )
+, L
+    ( Position 15 51 )
+    ( TokSym "asts" )
+, L
+    ( Position 15 56 )
+    ( TokOther "(" )
+, L
+    ( Position 15 57 )
+    ( TokSym "this" )
+, L
+    ( Position 15 62 )
+    ( TokSym "does" )
+, L
+    ( Position 15 67 )
+    ( TokSym "the" )
+, L
+    ( Position 16 1 )
+    ( Indent 21 )
+, L
+    ( Position 16 22 )
+    ( TokSym "type" )
+, L
+    ( Position 16 27 )
+    ( TokSym "checking" )
+, L
+    ( Position 16 35 )
+    ( TokOther ")" )
+, L
+    ( Position 16 36 )
+    ( TokOther "," )
+, L
+    ( Position 16 38 )
+    ( TokSym "and" )
+, L
+    ( Position 16 42 )
+    ( TokSym "working" )
+, L
+    ( Position 16 50 )
+    ( TokSym "with" )
+, L
+    ( Position 16 55 )
+    ( TokSym "annotated" )
+, L
+    ( Position 16 65 )
+    ( TokSym "trees;" )
+, L
+    ( Position 18 1 )
+    ( Indent 21 )
+, L
+    ( Position 18 22 )
+    ( TokSym "'Scope'" )
+, L
+    ( Position 18 30 )
+    ( TokSym "to" )
+, L
+    ( Position 18 33 )
+    ( TokSym "read" )
+, L
+    ( Position 18 38 )
+    ( TokSym "a" )
+, L
+    ( Position 18 40 )
+    ( TokSym "catalog" )
+, L
+    ( Position 18 48 )
+    ( TokSym "from" )
+, L
+    ( Position 18 53 )
+    ( TokSym "a" )
+, L
+    ( Position 18 55 )
+    ( TokSym "database" )
+, L
+    ( Position 18 64 )
+    ( TokSym "to" )
+, L
+    ( Position 18 67 )
+    ( TokSym "type" )
+, L
+    ( Position 18 72 )
+    ( TokSym "check" )
+, L
+    ( Position 18 78 )
+    ( TokSym "against" )
+, L
+    ( Position 18 85 )
+    ( TokOther "," )
+, L
+    ( Position 18 87 )
+    ( TokSym "or" )
+, L
+    ( Position 19 1 )
+    ( Indent 21 )
+, L
+    ( Position 19 22 )
+    ( TokSym "to" )
+, L
+    ( Position 19 25 )
+    ( TokSym "generate" )
+, L
+    ( Position 19 34 )
+    ( TokSym "catalog" )
+, L
+    ( Position 19 42 )
+    ( TokSym "information;" )
+, L
+    ( Position 21 1 )
+    ( Indent 21 )
+, L
+    ( Position 21 22 )
+    ( TokSym "'DatabaseLoader'" )
+, L
+    ( Position 21 39 )
+    ( TokSym "for" )
+, L
+    ( Position 21 43 )
+    ( TokSym "the" )
+, L
+    ( Position 21 47 )
+    ( TokSym "beginnings" )
+, L
+    ( Position 21 58 )
+    ( TokSym "of" )
+, L
+    ( Position 21 61 )
+    ( TokSym "a" )
+, L
+    ( Position 21 63 )
+    ( TokSym "routine" )
+, L
+    ( Position 22 1 )
+    ( Indent 23 )
+, L
+    ( Position 22 24 )
+    ( TokSym "to" )
+, L
+    ( Position 22 27 )
+    ( TokSym "load" )
+, L
+    ( Position 22 32 )
+    ( TokSym "SQL" )
+, L
+    ( Position 22 36 )
+    ( TokSym "into" )
+, L
+    ( Position 22 41 )
+    ( TokSym "a" )
+, L
+    ( Position 22 43 )
+    ( TokSym "database" )
+, L
+    ( Position 22 52 )
+    ( TokOther "(" )
+, L
+    ( Position 22 53 )
+    ( TokSym "e.g." )
+, L
+    ( Position 22 58 )
+    ( TokSym "to" )
+, L
+    ( Position 22 61 )
+    ( TokSym "generate" )
+, L
+    ( Position 23 1 )
+    ( Indent 23 )
+, L
+    ( Position 23 24 )
+    ( TokSym "an" )
+, L
+    ( Position 23 27 )
+    ( TokSym "ast" )
+, L
+    ( Position 23 31 )
+    ( TokSym "then" )
+, L
+    ( Position 23 36 )
+    ( TokSym "load" )
+, L
+    ( Position 23 41 )
+    ( TokSym "it" )
+, L
+    ( Position 23 44 )
+    ( TokSym "into" )
+, L
+    ( Position 23 49 )
+    ( TokSym "a" )
+, L
+    ( Position 23 51 )
+    ( TokSym "database" )
+, L
+    ( Position 23 60 )
+    ( TokSym "without" )
+, L
+    ( Position 24 1 )
+    ( Indent 23 )
+, L
+    ( Position 24 24 )
+    ( TokSym "loading" )
+, L
+    ( Position 24 32 )
+    ( TokSym "it" )
+, L
+    ( Position 24 35 )
+    ( TokSym "via" )
+, L
+    ( Position 24 39 )
+    ( TokSym "psql" )
+, L
+    ( Position 24 43 )
+    ( TokOther ")" )
+, L
+    ( Position 24 44 )
+    ( TokSym "." )
+, L
+    ( Position 24 46 )
+    ( TokSym "The" )
+, L
+    ( Position 24 50 )
+    ( TokSym "loader" )
+, L
+    ( Position 24 57 )
+    ( TokSym "just" )
+, L
+    ( Position 24 62 )
+    ( TokSym "about" )
+, L
+    ( Position 25 1 )
+    ( Indent 23 )
+, L
+    ( Position 25 24 )
+    ( TokSym "does" )
+, L
+    ( Position 25 29 )
+    ( TokSym "the" )
+, L
+    ( Position 25 33 )
+    ( TokSym "job" )
+, L
+    ( Position 25 37 )
+    ( TokSym "but" )
+, L
+    ( Position 25 41 )
+    ( TokSym "error" )
+, L
+    ( Position 25 47 )
+    ( TokSym "handling" )
+, L
+    ( Position 25 56 )
+    ( TokSym "is" )
+, L
+    ( Position 25 59 )
+    ( TokSym "a" )
+, L
+    ( Position 25 61 )
+    ( TokSym "bit" )
+, L
+    ( Position 25 65 )
+    ( TokSym "crap" )
+, L
+    ( Position 26 1 )
+    ( Indent 23 )
+, L
+    ( Position 26 24 )
+    ( TokSym "at" )
+, L
+    ( Position 26 27 )
+    ( TokSym "the" )
+, L
+    ( Position 26 31 )
+    ( TokSym "moment." )
+, L
+    ( Position 28 1 )
+    ( Indent 21 )
+, L
+    ( Position 28 22 )
+    ( TokSym "Comes" )
+, L
+    ( Position 28 28 )
+    ( TokSym "with" )
+, L
+    ( Position 28 33 )
+    ( TokSym "a" )
+, L
+    ( Position 28 35 )
+    ( TokSym "HUnit" )
+, L
+    ( Position 28 41 )
+    ( TokSym "test" )
+, L
+    ( Position 28 46 )
+    ( TokSym "suite" )
+, L
+    ( Position 28 52 )
+    ( TokSym "which" )
+, L
+    ( Position 28 58 )
+    ( TokSym "you" )
+, L
+    ( Position 28 62 )
+    ( TokSym "can" )
+, L
+    ( Position 28 66 )
+    ( TokSym "run" )
+, L
+    ( Position 28 70 )
+    ( TokSym "using" )
+, L
+    ( Position 28 76 )
+    ( TokSym "the" )
+, L
+    ( Position 28 80 )
+    ( TokSym "HsSqlPppTests" )
+, L
+    ( Position 29 1 )
+    ( Indent 21 )
+, L
+    ( Position 29 22 )
+    ( TokSym "executable" )
+, L
+    ( Position 29 32 )
+    ( TokOther "," )
+, L
+    ( Position 29 34 )
+    ( TokSym "and" )
+, L
+    ( Position 29 38 )
+    ( TokSym "command" )
+, L
+    ( Position 29 46 )
+    ( TokSym "line" )
+, L
+    ( Position 29 51 )
+    ( TokSym "access" )
+, L
+    ( Position 29 58 )
+    ( TokSym "to" )
+, L
+    ( Position 29 61 )
+    ( TokSym "some" )
+, L
+    ( Position 29 66 )
+    ( TokSym "functions" )
+, L
+    ( Position 29 76 )
+    ( TokSym "via" )
+, L
+    ( Position 29 80 )
+    ( TokSym "a" )
+, L
+    ( Position 29 82 )
+    ( TokSym "exe" )
+, L
+    ( Position 29 86 )
+    ( TokSym "called" )
+, L
+    ( Position 30 1 )
+    ( Indent 21 )
+, L
+    ( Position 30 22 )
+    ( TokSym "HsSqlSystem." )
+, L
+    ( Position 30 35 )
+    ( TokSym "See" )
+, L
+    ( Position 30 39 )
+    ( TokSym "the" )
+, L
+    ( Position 30 43 )
+    ( TokSym "project" )
+, L
+    ( Position 30 51 )
+    ( TokSym "page" )
+, L
+    ( Position 30 56 )
+    ( TokOther "<" )
+, L
+    ( Position 30 57 )
+    ( TokSym "https" )
+, L
+    ( Position 30 62 ) Colon
+, L
+    ( Position 30 63 )
+    ( TokOther "//" )
+, L
+    ( Position 30 65 )
+    ( TokSym "launchpad.net" )
+, L
+    ( Position 30 78 )
+    ( TokOther "/" )
+, L
+    ( Position 30 79 )
+    ( TokSym "hssqlppp" )
+, L
+    ( Position 30 87 )
+    ( TokOther ">" )
+, L
+    ( Position 31 1 )
+    ( Indent 21 )
+, L
+    ( Position 31 22 )
+    ( TokSym "for" )
+, L
+    ( Position 31 26 )
+    ( TokSym "more" )
+, L
+    ( Position 31 31 )
+    ( TokSym "information" )
+, L
+    ( Position 31 43 )
+    ( TokSym "and" )
+, L
+    ( Position 31 47 )
+    ( TokSym "documentation" )
+, L
+    ( Position 31 61 )
+    ( TokSym "links." )
+, L
+    ( Position 33 1 )
+    ( Indent 0 )
+, L
+    ( Position 33 1 )
+    ( TokSym "License" )
+, L
+    ( Position 33 8 ) Colon
+, L
+    ( Position 33 22 )
+    ( TokSym "BSD3" )
+, L
+    ( Position 34 1 )
+    ( Indent 0 )
+, L
+    ( Position 34 1 )
+    ( TokSym "License-file" )
+, L
+    ( Position 34 13 ) Colon
+, L
+    ( Position 34 22 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 35 1 )
+    ( Indent 0 )
+, L
+    ( Position 35 1 )
+    ( TokSym "Author" )
+, L
+    ( Position 35 7 ) Colon
+, L
+    ( Position 35 22 )
+    ( TokSym "Jake" )
+, L
+    ( Position 35 27 )
+    ( TokSym "Wheat" )
+, L
+    ( Position 36 1 )
+    ( Indent 0 )
+, L
+    ( Position 36 1 )
+    ( TokSym "Maintainer" )
+, L
+    ( Position 36 11 ) Colon
+, L
+    ( Position 36 22 )
+    ( TokSym "jakewheatmail" )
+, L
+    ( Position 36 35 )
+    ( TokOther "@" )
+, L
+    ( Position 36 36 )
+    ( TokSym "gmail.com" )
+, L
+    ( Position 37 1 )
+    ( Indent 0 )
+, L
+    ( Position 37 1 )
+    ( TokSym "Build-Type" )
+, L
+    ( Position 37 11 ) Colon
+, L
+    ( Position 37 22 )
+    ( TokSym "Simple" )
+, L
+    ( Position 38 1 )
+    ( Indent 0 )
+, L
+    ( Position 38 1 )
+    ( TokSym "Cabal-Version" )
+, L
+    ( Position 38 14 ) Colon
+, L
+    ( Position 38 22 )
+    ( TokOther ">=" )
+, L
+    ( Position 38 24 )
+    ( TokSym "1.2" )
+, L
+    ( Position 39 1 )
+    ( Indent 0 )
+, L
+    ( Position 39 1 )
+    ( TokSym "copyright" )
+, L
+    ( Position 39 10 ) Colon
+, L
+    ( Position 39 22 )
+    ( TokSym "Copyright" )
+, L
+    ( Position 39 32 )
+    ( TokSym "2009" )
+, L
+    ( Position 39 37 )
+    ( TokSym "Jake" )
+, L
+    ( Position 39 42 )
+    ( TokSym "Wheat" )
+, L
+    ( Position 40 1 )
+    ( Indent 0 )
+, L
+    ( Position 40 1 )
+    ( TokSym "stability" )
+, L
+    ( Position 40 10 ) Colon
+, L
+    ( Position 40 22 )
+    ( TokSym "pre-alpha" )
+, L
+    ( Position 41 1 )
+    ( Indent 0 )
+, L
+    ( Position 41 1 )
+    ( TokSym "homepage" )
+, L
+    ( Position 41 9 ) Colon
+, L
+    ( Position 41 22 )
+    ( TokSym "https" )
+, L
+    ( Position 41 27 ) Colon
+, L
+    ( Position 41 28 )
+    ( TokOther "//" )
+, L
+    ( Position 41 30 )
+    ( TokSym "launchpad.net" )
+, L
+    ( Position 41 43 )
+    ( TokOther "/" )
+, L
+    ( Position 41 44 )
+    ( TokSym "hssqlppp" )
+, L
+    ( Position 42 1 )
+    ( Indent 0 )
+, L
+    ( Position 42 1 )
+    ( TokSym "bug-reports" )
+, L
+    ( Position 42 12 ) Colon
+, L
+    ( Position 42 22 )
+    ( TokSym "mailto" )
+, L
+    ( Position 42 28 ) Colon
+, L
+    ( Position 42 29 )
+    ( TokSym "jakewheatmail" )
+, L
+    ( Position 42 42 )
+    ( TokOther "@" )
+, L
+    ( Position 42 43 )
+    ( TokSym "gmail.com" )
+, L
+    ( Position 43 1 )
+    ( Indent 0 )
+, L
+    ( Position 43 1 )
+    ( TokSym "category" )
+, L
+    ( Position 43 9 ) Colon
+, L
+    ( Position 43 22 )
+    ( TokSym "Database" )
+, L
+    ( Position 45 1 )
+    ( Indent 0 )
+, L
+    ( Position 45 1 )
+    ( TokSym "extra-source-files" )
+, L
+    ( Position 45 19 ) Colon
+, L
+    ( Position 45 22 )
+    ( TokSym "README" )
+, L
+    ( Position 45 28 )
+    ( TokOther "," )
+, L
+    ( Position 46 1 )
+    ( Indent 21 )
+, L
+    ( Position 46 22 )
+    ( TokSym "TODO" )
+, L
+    ( Position 46 26 )
+    ( TokOther "," )
+, L
+    ( Position 47 1 )
+    ( Indent 21 )
+, L
+    ( Position 47 22 )
+    ( TokSym "development" )
+, L
+    ( Position 47 33 )
+    ( TokOther "," )
+, L
+    ( Position 48 1 )
+    ( Indent 21 )
+, L
+    ( Position 48 22 )
+    ( TokSym "questions" )
+, L
+    ( Position 48 31 )
+    ( TokOther "," )
+, L
+    ( Position 49 1 )
+    ( Indent 21 )
+, L
+    ( Position 49 22 )
+    ( TokSym "usage" )
+, L
+    ( Position 49 27 )
+    ( TokOther "," )
+, L
+    ( Position 50 1 )
+    ( Indent 21 )
+, L
+    ( Position 50 22 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 50 29 )
+    ( TokOther "," )
+, L
+    ( Position 51 1 )
+    ( Indent 21 )
+, L
+    ( Position 51 22 )
+    ( TokSym "changelog" )
+, L
+    ( Position 51 31 )
+    ( TokOther "," )
+, L
+    ( Position 52 1 )
+    ( Indent 21 )
+, L
+    ( Position 52 22 )
+    ( TokSym "Database" )
+, L
+    ( Position 52 30 )
+    ( TokOther "/" )
+, L
+    ( Position 52 31 )
+    ( TokSym "HsSqlPpp" )
+, L
+    ( Position 52 39 )
+    ( TokOther "/" )
+, L
+    ( Position 52 40 )
+    ( TokSym "TypeChecking" )
+, L
+    ( Position 52 52 )
+    ( TokOther "/" )
+, L
+    ( Position 52 53 )
+    ( TokSym "AstInternal.ag" )
+, L
+    ( Position 53 1 )
+    ( Indent 21 )
+, L
+    ( Position 53 22 )
+    ( TokSym "Database" )
+, L
+    ( Position 53 30 )
+    ( TokOther "/" )
+, L
+    ( Position 53 31 )
+    ( TokSym "HsSqlPpp" )
+, L
+    ( Position 53 39 )
+    ( TokOther "/" )
+, L
+    ( Position 53 40 )
+    ( TokSym "TypeChecking" )
+, L
+    ( Position 53 52 )
+    ( TokOther "/" )
+, L
+    ( Position 53 53 )
+    ( TokSym "TypeChecking.ag" )
+, L
+    ( Position 54 1 )
+    ( Indent 21 )
+, L
+    ( Position 54 22 )
+    ( TokSym "Database" )
+, L
+    ( Position 54 30 )
+    ( TokOther "/" )
+, L
+    ( Position 54 31 )
+    ( TokSym "HsSqlPpp" )
+, L
+    ( Position 54 39 )
+    ( TokOther "/" )
+, L
+    ( Position 54 40 )
+    ( TokSym "TypeChecking" )
+, L
+    ( Position 54 52 )
+    ( TokOther "/" )
+, L
+    ( Position 54 53 )
+    ( TokSym "DefaultScopeEmpty.hs" )
+, L
+    ( Position 55 1 )
+    ( Indent 21 )
+, L
+    ( Position 55 22 )
+    ( TokSym "sqltestfiles" )
+, L
+    ( Position 55 34 )
+    ( TokOther "/" )
+, L
+    ( Position 55 35 )
+    ( TokSym "system.sql" )
+, L
+    ( Position 56 1 )
+    ( Indent 21 )
+, L
+    ( Position 56 22 )
+    ( TokSym "sqltestfiles" )
+, L
+    ( Position 56 34 )
+    ( TokOther "/" )
+, L
+    ( Position 56 35 )
+    ( TokSym "server.sql" )
+, L
+    ( Position 57 1 )
+    ( Indent 21 )
+, L
+    ( Position 57 22 )
+    ( TokSym "sqltestfiles" )
+, L
+    ( Position 57 34 )
+    ( TokOther "/" )
+, L
+    ( Position 57 35 )
+    ( TokSym "client.sql" )
+, L
+    ( Position 59 1 )
+    ( Indent 0 )
+, L
+    ( Position 59 1 )
+    ( TokSym "Library" )
+, L
+    ( Position 60 1 )
+    ( Indent 2 )
+, L
+    ( Position 60 3 )
+    ( TokSym "Build-Depends" )
+, L
+    ( Position 60 16 ) Colon
+, L
+    ( Position 60 22 )
+    ( TokSym "base" )
+, L
+    ( Position 60 27 )
+    ( TokOther ">=" )
+, L
+    ( Position 60 30 )
+    ( TokSym "3" )
+, L
+    ( Position 60 32 )
+    ( TokOther "&&" )
+, L
+    ( Position 60 35 )
+    ( TokOther "<" )
+, L
+    ( Position 60 37 )
+    ( TokSym "5" )
+, L
+    ( Position 60 38 )
+    ( TokOther "," )
+, L
+    ( Position 61 1 )
+    ( Indent 21 )
+, L
+    ( Position 61 22 )
+    ( TokSym "mtl" )
+, L
+    ( Position 61 25 )
+    ( TokOther "," )
+, L
+    ( Position 62 1 )
+    ( Indent 21 )
+, L
+    ( Position 62 22 )
+    ( TokSym "parsec" )
+, L
+    ( Position 62 29 )
+    ( TokOther ">=" )
+, L
+    ( Position 62 32 )
+    ( TokSym "3" )
+, L
+    ( Position 62 33 )
+    ( TokOther "," )
+, L
+    ( Position 63 1 )
+    ( Indent 21 )
+, L
+    ( Position 63 22 )
+    ( TokSym "pretty" )
+, L
+    ( Position 63 28 )
+    ( TokOther "," )
+, L
+    ( Position 64 1 )
+    ( Indent 21 )
+, L
+    ( Position 64 22 )
+    ( TokSym "containers" )
+, L
+    ( Position 64 32 )
+    ( TokOther "," )
+, L
+    ( Position 65 1 )
+    ( Indent 21 )
+, L
+    ( Position 65 22 )
+    ( TokSym "regex-posix" )
+, L
+    ( Position 65 33 )
+    ( TokOther "," )
+, L
+    ( Position 66 1 )
+    ( Indent 21 )
+, L
+    ( Position 66 22 )
+    ( TokSym "HDBC" )
+, L
+    ( Position 66 26 )
+    ( TokOther "," )
+, L
+    ( Position 67 1 )
+    ( Indent 21 )
+, L
+    ( Position 67 22 )
+    ( TokSym "HDBC-postgresql" )
+, L
+    ( Position 67 37 )
+    ( TokOther "," )
+, L
+    ( Position 68 1 )
+    ( Indent 21 )
+, L
+    ( Position 68 22 )
+    ( TokSym "directory" )
+, L
+    ( Position 69 1 )
+    ( Indent 2 )
+, L
+    ( Position 69 3 )
+    ( TokSym "Exposed-modules" )
+, L
+    ( Position 69 18 ) Colon
+, L
+    ( Position 69 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.Ast" )
+, L
+    ( Position 69 56 )
+    ( TokOther "," )
+, L
+    ( Position 70 1 )
+    ( Indent 21 )
+, L
+    ( Position 70 22 )
+    ( TokSym "Database.HsSqlPpp.Parsing.Parser" )
+, L
+    ( Position 70 54 )
+    ( TokOther "," )
+, L
+    ( Position 71 1 )
+    ( Indent 21 )
+, L
+    ( Position 71 22 )
+    ( TokSym "Database.HsSqlPpp.PrettyPrinter.PrettyPrinter" )
+, L
+    ( Position 71 67 )
+    ( TokOther "," )
+, L
+    ( Position 72 1 )
+    ( Indent 21 )
+, L
+    ( Position 72 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.TypeChecker" )
+, L
+    ( Position 72 64 )
+    ( TokOther "," )
+, L
+    ( Position 73 1 )
+    ( Indent 21 )
+, L
+    ( Position 73 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.Scope" )
+, L
+    ( Position 73 58 )
+    ( TokOther "," )
+, L
+    ( Position 74 1 )
+    ( Indent 21 )
+, L
+    ( Position 74 22 )
+    ( TokSym "Database.HsSqlPpp.Dbms.DatabaseLoader" )
+, L
+    ( Position 76 1 )
+    ( Indent 0 )
+, L
+    ( Position 76 1 )
+    ( TokSym "Executable" )
+, L
+    ( Position 76 12 )
+    ( TokSym "HsSqlSystem" )
+, L
+    ( Position 77 1 )
+    ( Indent 2 )
+, L
+    ( Position 77 3 )
+    ( TokSym "Main-is" )
+, L
+    ( Position 77 10 ) Colon
+, L
+    ( Position 77 22 )
+    ( TokSym "HsSqlSystem.lhs" )
+, L
+    ( Position 78 1 )
+    ( Indent 2 )
+, L
+    ( Position 78 3 )
+    ( TokSym "Build-Depends" )
+, L
+    ( Position 78 16 ) Colon
+, L
+    ( Position 78 22 )
+    ( TokSym "base" )
+, L
+    ( Position 78 26 )
+    ( TokOther "," )
+, L
+    ( Position 79 1 )
+    ( Indent 21 )
+, L
+    ( Position 79 22 )
+    ( TokSym "haskell98" )
+, L
+    ( Position 79 31 )
+    ( TokOther "," )
+, L
+    ( Position 80 1 )
+    ( Indent 21 )
+, L
+    ( Position 80 22 )
+    ( TokSym "regex-posix" )
+, L
+    ( Position 80 33 )
+    ( TokOther "," )
+, L
+    ( Position 81 1 )
+    ( Indent 21 )
+, L
+    ( Position 81 22 )
+    ( TokSym "HDBC" )
+, L
+    ( Position 81 26 )
+    ( TokOther "," )
+, L
+    ( Position 82 1 )
+    ( Indent 21 )
+, L
+    ( Position 82 22 )
+    ( TokSym "HDBC-postgresql" )
+, L
+    ( Position 82 37 )
+    ( TokOther "," )
+, L
+    ( Position 83 1 )
+    ( Indent 21 )
+, L
+    ( Position 83 22 )
+    ( TokSym "directory" )
+, L
+    ( Position 84 1 )
+    ( Indent 2 )
+, L
+    ( Position 84 3 )
+    ( TokSym "Other-Modules" )
+, L
+    ( Position 84 16 ) Colon
+, L
+    ( Position 84 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.AstAnnotation" )
+, L
+    ( Position 84 66 )
+    ( TokOther "," )
+, L
+    ( Position 85 1 )
+    ( Indent 21 )
+, L
+    ( Position 85 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.Ast" )
+, L
+    ( Position 85 56 )
+    ( TokOther "," )
+, L
+    ( Position 86 1 )
+    ( Indent 21 )
+, L
+    ( Position 86 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.AstInternal" )
+, L
+    ( Position 86 64 )
+    ( TokOther "," )
+, L
+    ( Position 87 1 )
+    ( Indent 21 )
+, L
+    ( Position 87 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.TypeChecker" )
+, L
+    ( Position 87 64 )
+    ( TokOther "," )
+, L
+    ( Position 88 1 )
+    ( Indent 21 )
+, L
+    ( Position 88 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.AstUtils" )
+, L
+    ( Position 88 61 )
+    ( TokOther "," )
+, L
+    ( Position 89 1 )
+    ( Indent 21 )
+, L
+    ( Position 89 22 )
+    ( TokSym "Database.HsSqlPpp.Dbms.DatabaseLoader" )
+, L
+    ( Position 89 59 )
+    ( TokOther "," )
+, L
+    ( Position 90 1 )
+    ( Indent 21 )
+, L
+    ( Position 90 22 )
+    ( TokSym "Database.HsSqlPpp.Dbms.DBAccess" )
+, L
+    ( Position 90 53 )
+    ( TokOther "," )
+, L
+    ( Position 91 1 )
+    ( Indent 21 )
+, L
+    ( Position 91 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.DefaultScope" )
+, L
+    ( Position 91 65 )
+    ( TokOther "," )
+, L
+    ( Position 92 1 )
+    ( Indent 21 )
+, L
+    ( Position 92 22 )
+    ( TokSym "Database.HsSqlPpp.Parsing.Lexer" )
+, L
+    ( Position 92 53 )
+    ( TokOther "," )
+, L
+    ( Position 93 1 )
+    ( Indent 21 )
+, L
+    ( Position 93 22 )
+    ( TokSym "Database.HsSqlPpp.Parsing.ParseErrors" )
+, L
+    ( Position 93 59 )
+    ( TokOther "," )
+, L
+    ( Position 94 1 )
+    ( Indent 21 )
+, L
+    ( Position 94 22 )
+    ( TokSym "Database.HsSqlPpp.Parsing.Parser" )
+, L
+    ( Position 94 54 )
+    ( TokOther "," )
+, L
+    ( Position 95 1 )
+    ( Indent 21 )
+, L
+    ( Position 95 22 )
+    ( TokSym "Database.HsSqlPpp.PrettyPrinter.PrettyPrinter" )
+, L
+    ( Position 95 67 )
+    ( TokOther "," )
+, L
+    ( Position 96 1 )
+    ( Indent 21 )
+, L
+    ( Position 96 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.ScopeData" )
+, L
+    ( Position 96 62 )
+    ( TokOther "," )
+, L
+    ( Position 97 1 )
+    ( Indent 21 )
+, L
+    ( Position 97 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.Scope" )
+, L
+    ( Position 97 58 )
+    ( TokOther "," )
+, L
+    ( Position 98 1 )
+    ( Indent 21 )
+, L
+    ( Position 98 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.ScopeReader" )
+, L
+    ( Position 98 64 )
+    ( TokOther "," )
+, L
+    ( Position 99 1 )
+    ( Indent 21 )
+, L
+    ( Position 99 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.TypeCheckingH" )
+, L
+    ( Position 99 66 )
+    ( TokOther "," )
+, L
+    ( Position 100 1 )
+    ( Indent 21 )
+, L
+    ( Position 100 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.TypeConversion" )
+, L
+    ( Position 100 67 )
+    ( TokOther "," )
+, L
+    ( Position 101 1 )
+    ( Indent 21 )
+, L
+    ( Position 101 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.TypeType" )
+, L
+    ( Position 103 1 )
+    ( Indent 0 )
+, L
+    ( Position 103 1 )
+    ( TokSym "Executable" )
+, L
+    ( Position 103 12 )
+    ( TokSym "HsSqlPppTests" )
+, L
+    ( Position 104 1 )
+    ( Indent 2 )
+, L
+    ( Position 104 3 )
+    ( TokSym "Main-is" )
+, L
+    ( Position 104 10 ) Colon
+, L
+    ( Position 104 22 )
+    ( TokSym "HsSqlPppTests.lhs" )
+, L
+    ( Position 105 1 )
+    ( Indent 2 )
+, L
+    ( Position 105 3 )
+    ( TokSym "Build-Depends" )
+, L
+    ( Position 105 16 ) Colon
+, L
+    ( Position 105 22 )
+    ( TokSym "base" )
+, L
+    ( Position 105 26 )
+    ( TokOther "," )
+, L
+    ( Position 106 1 )
+    ( Indent 21 )
+, L
+    ( Position 106 22 )
+    ( TokSym "HUnit" )
+, L
+    ( Position 106 27 )
+    ( TokOther "," )
+, L
+    ( Position 107 1 )
+    ( Indent 21 )
+, L
+    ( Position 107 22 )
+    ( TokSym "test-framework" )
+, L
+    ( Position 107 36 )
+    ( TokOther "," )
+, L
+    ( Position 108 1 )
+    ( Indent 21 )
+, L
+    ( Position 108 22 )
+    ( TokSym "test-framework-hunit" )
+, L
+    ( Position 108 42 )
+    ( TokOther "," )
+, L
+    ( Position 109 1 )
+    ( Indent 21 )
+, L
+    ( Position 109 22 )
+    ( TokSym "regex-posix" )
+, L
+    ( Position 109 33 )
+    ( TokOther "," )
+, L
+    ( Position 110 1 )
+    ( Indent 21 )
+, L
+    ( Position 110 22 )
+    ( TokSym "HDBC" )
+, L
+    ( Position 110 26 )
+    ( TokOther "," )
+, L
+    ( Position 111 1 )
+    ( Indent 21 )
+, L
+    ( Position 111 22 )
+    ( TokSym "HDBC-postgresql" )
+, L
+    ( Position 111 37 )
+    ( TokOther "," )
+, L
+    ( Position 112 1 )
+    ( Indent 21 )
+, L
+    ( Position 112 22 )
+    ( TokSym "directory" )
+, L
+    ( Position 114 1 )
+    ( Indent 2 )
+, L
+    ( Position 114 3 )
+    ( TokSym "Other-Modules" )
+, L
+    ( Position 114 16 ) Colon
+, L
+    ( Position 114 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.AstAnnotation" )
+, L
+    ( Position 114 66 )
+    ( TokOther "," )
+, L
+    ( Position 115 1 )
+    ( Indent 21 )
+, L
+    ( Position 115 22 )
+    ( TokSym "Database.HsSqlPpp.Tests.AstCheckTests" )
+, L
+    ( Position 115 59 )
+    ( TokOther "," )
+, L
+    ( Position 116 1 )
+    ( Indent 21 )
+, L
+    ( Position 116 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.Ast" )
+, L
+    ( Position 116 56 )
+    ( TokOther "," )
+, L
+    ( Position 117 1 )
+    ( Indent 21 )
+, L
+    ( Position 117 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.AstInternal" )
+, L
+    ( Position 117 64 )
+    ( TokOther "," )
+, L
+    ( Position 118 1 )
+    ( Indent 21 )
+, L
+    ( Position 118 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.TypeChecker" )
+, L
+    ( Position 118 64 )
+    ( TokOther "," )
+, L
+    ( Position 119 1 )
+    ( Indent 21 )
+, L
+    ( Position 119 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.AstUtils" )
+, L
+    ( Position 119 61 )
+    ( TokOther "," )
+, L
+    ( Position 120 1 )
+    ( Indent 21 )
+, L
+    ( Position 120 22 )
+    ( TokSym "Database.HsSqlPpp.Dbms.DatabaseLoader" )
+, L
+    ( Position 120 59 )
+    ( TokOther "," )
+, L
+    ( Position 121 1 )
+    ( Indent 21 )
+, L
+    ( Position 121 22 )
+    ( TokSym "Database.HsSqlPpp.Tests.DatabaseLoaderTests" )
+, L
+    ( Position 121 65 )
+    ( TokOther "," )
+, L
+    ( Position 122 1 )
+    ( Indent 21 )
+, L
+    ( Position 122 22 )
+    ( TokSym "Database.HsSqlPpp.Dbms.DBAccess" )
+, L
+    ( Position 122 53 )
+    ( TokOther "," )
+, L
+    ( Position 123 1 )
+    ( Indent 21 )
+, L
+    ( Position 123 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.DefaultScope" )
+, L
+    ( Position 123 65 )
+    ( TokOther "," )
+, L
+    ( Position 124 1 )
+    ( Indent 21 )
+, L
+    ( Position 124 22 )
+    ( TokSym "Database.HsSqlPpp.Parsing.Lexer" )
+, L
+    ( Position 124 53 )
+    ( TokOther "," )
+, L
+    ( Position 125 1 )
+    ( Indent 21 )
+, L
+    ( Position 125 22 )
+    ( TokSym "Database.HsSqlPpp.Parsing.ParseErrors" )
+, L
+    ( Position 125 59 )
+    ( TokOther "," )
+, L
+    ( Position 126 1 )
+    ( Indent 21 )
+, L
+    ( Position 126 22 )
+    ( TokSym "Database.HsSqlPpp.Parsing.Parser" )
+, L
+    ( Position 126 54 )
+    ( TokOther "," )
+, L
+    ( Position 127 1 )
+    ( Indent 21 )
+, L
+    ( Position 127 22 )
+    ( TokSym "Database.HsSqlPpp.Tests.ParserTests" )
+, L
+    ( Position 127 57 )
+    ( TokOther "," )
+, L
+    ( Position 128 1 )
+    ( Indent 21 )
+, L
+    ( Position 128 22 )
+    ( TokSym "Database.HsSqlPpp.PrettyPrinter.PrettyPrinter" )
+, L
+    ( Position 128 67 )
+    ( TokOther "," )
+, L
+    ( Position 129 1 )
+    ( Indent 21 )
+, L
+    ( Position 129 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.ScopeData" )
+, L
+    ( Position 129 62 )
+    ( TokOther "," )
+, L
+    ( Position 130 1 )
+    ( Indent 21 )
+, L
+    ( Position 130 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.Scope" )
+, L
+    ( Position 130 58 )
+    ( TokOther "," )
+, L
+    ( Position 131 1 )
+    ( Indent 21 )
+, L
+    ( Position 131 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.ScopeReader" )
+, L
+    ( Position 131 64 )
+    ( TokOther "," )
+, L
+    ( Position 132 1 )
+    ( Indent 21 )
+, L
+    ( Position 132 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.TypeCheckingH" )
+, L
+    ( Position 132 66 )
+    ( TokOther "," )
+, L
+    ( Position 133 1 )
+    ( Indent 21 )
+, L
+    ( Position 133 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.TypeConversion" )
+, L
+    ( Position 133 67 )
+    ( TokOther "," )
+, L
+    ( Position 134 1 )
+    ( Indent 21 )
+, L
+    ( Position 134 22 )
+    ( TokSym "Database.HsSqlPpp.TypeChecking.TypeType" )
+, L
+    ( Position 135 1 ) EOF
+]

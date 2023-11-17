@@ -1,0 +1,967 @@
+[ L
+    ( Position 1 1 )
+    ( Indent 0 )
+, L
+    ( Position 1 1 )
+    ( TokSym "Name" )
+, L
+    ( Position 1 5 ) Colon
+, L
+    ( Position 1 22 )
+    ( TokSym "snaplet-influxdb" )
+, L
+    ( Position 2 1 )
+    ( Indent 0 )
+, L
+    ( Position 2 1 )
+    ( TokSym "Version" )
+, L
+    ( Position 2 8 ) Colon
+, L
+    ( Position 2 22 )
+    ( TokSym "1.0.1.0" )
+, L
+    ( Position 3 1 )
+    ( Indent 0 )
+, L
+    ( Position 3 1 )
+    ( TokSym "Synopsis" )
+, L
+    ( Position 3 9 ) Colon
+, L
+    ( Position 3 22 )
+    ( TokSym "Snap" )
+, L
+    ( Position 3 27 )
+    ( TokSym "framework" )
+, L
+    ( Position 3 37 )
+    ( TokSym "snaplet" )
+, L
+    ( Position 3 45 )
+    ( TokSym "for" )
+, L
+    ( Position 3 49 )
+    ( TokSym "the" )
+, L
+    ( Position 3 53 )
+    ( TokSym "InfluxDB" )
+, L
+    ( Position 3 62 )
+    ( TokSym "library" )
+, L
+    ( Position 4 1 )
+    ( Indent 0 )
+, L
+    ( Position 4 1 )
+    ( TokSym "Homepage" )
+, L
+    ( Position 4 9 ) Colon
+, L
+    ( Position 4 22 )
+    ( TokSym "https" )
+, L
+    ( Position 4 27 ) Colon
+, L
+    ( Position 4 28 )
+    ( TokOther "//" )
+, L
+    ( Position 4 30 )
+    ( TokSym "github.com" )
+, L
+    ( Position 4 40 )
+    ( TokOther "/" )
+, L
+    ( Position 4 41 )
+    ( TokSym "ixmatus" )
+, L
+    ( Position 4 48 )
+    ( TokOther "/" )
+, L
+    ( Position 4 49 )
+    ( TokSym "snaplet-influxdb" )
+, L
+    ( Position 5 1 )
+    ( Indent 0 )
+, L
+    ( Position 5 1 )
+    ( TokSym "License" )
+, L
+    ( Position 5 8 ) Colon
+, L
+    ( Position 5 22 )
+    ( TokSym "BSD3" )
+, L
+    ( Position 6 1 )
+    ( Indent 0 )
+, L
+    ( Position 6 1 )
+    ( TokSym "License-file" )
+, L
+    ( Position 6 13 ) Colon
+, L
+    ( Position 6 22 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 7 1 )
+    ( Indent 0 )
+, L
+    ( Position 7 1 )
+    ( TokSym "Author" )
+, L
+    ( Position 7 7 ) Colon
+, L
+    ( Position 7 22 )
+    ( TokSym "Parnell" )
+, L
+    ( Position 7 30 )
+    ( TokSym "Springmeyer" )
+, L
+    ( Position 8 1 )
+    ( Indent 0 )
+, L
+    ( Position 8 1 )
+    ( TokSym "Maintainer" )
+, L
+    ( Position 8 11 ) Colon
+, L
+    ( Position 8 22 )
+    ( TokSym "parnell" )
+, L
+    ( Position 8 29 )
+    ( TokOther "@" )
+, L
+    ( Position 8 30 )
+    ( TokSym "digitalmentat.com" )
+, L
+    ( Position 9 1 )
+    ( Indent 0 )
+, L
+    ( Position 9 1 )
+    ( TokSym "Copyright" )
+, L
+    ( Position 9 10 ) Colon
+, L
+    ( Position 9 22 )
+    ( TokOther "(" )
+, L
+    ( Position 9 23 )
+    ( TokSym "c" )
+, L
+    ( Position 9 24 )
+    ( TokOther ")" )
+, L
+    ( Position 9 26 )
+    ( TokSym "2014" )
+, L
+    ( Position 9 31 )
+    ( TokSym "Parnell" )
+, L
+    ( Position 9 39 )
+    ( TokSym "Springmeyer" )
+, L
+    ( Position 10 1 )
+    ( Indent 0 )
+, L
+    ( Position 10 1 )
+    ( TokSym "Category" )
+, L
+    ( Position 10 9 ) Colon
+, L
+    ( Position 10 22 )
+    ( TokSym "Web" )
+, L
+    ( Position 11 1 )
+    ( Indent 0 )
+, L
+    ( Position 11 1 )
+    ( TokSym "Build-type" )
+, L
+    ( Position 11 11 ) Colon
+, L
+    ( Position 11 22 )
+    ( TokSym "Simple" )
+, L
+    ( Position 12 1 )
+    ( Indent 0 )
+, L
+    ( Position 12 1 )
+    ( TokSym "Stability" )
+, L
+    ( Position 12 10 ) Colon
+, L
+    ( Position 12 22 )
+    ( TokSym "stable" )
+, L
+    ( Position 13 1 )
+    ( Indent 0 )
+, L
+    ( Position 13 1 )
+    ( TokSym "Bug-reports" )
+, L
+    ( Position 13 12 ) Colon
+, L
+    ( Position 13 22 )
+    ( TokSym "https" )
+, L
+    ( Position 13 27 ) Colon
+, L
+    ( Position 13 28 )
+    ( TokOther "//" )
+, L
+    ( Position 13 30 )
+    ( TokSym "github.com" )
+, L
+    ( Position 13 40 )
+    ( TokOther "/" )
+, L
+    ( Position 13 41 )
+    ( TokSym "ixmatus" )
+, L
+    ( Position 13 48 )
+    ( TokOther "/" )
+, L
+    ( Position 13 49 )
+    ( TokSym "snaplet-influxdb" )
+, L
+    ( Position 13 65 )
+    ( TokOther "/" )
+, L
+    ( Position 13 66 )
+    ( TokSym "issues" )
+, L
+    ( Position 14 1 )
+    ( Indent 0 )
+, L
+    ( Position 14 1 )
+    ( TokSym "Package-url" )
+, L
+    ( Position 14 12 ) Colon
+, L
+    ( Position 14 22 )
+    ( TokSym "http" )
+, L
+    ( Position 14 26 ) Colon
+, L
+    ( Position 14 27 )
+    ( TokOther "//" )
+, L
+    ( Position 14 29 )
+    ( TokSym "hackage.haskell.org" )
+, L
+    ( Position 14 48 )
+    ( TokOther "/" )
+, L
+    ( Position 14 49 )
+    ( TokSym "package" )
+, L
+    ( Position 14 56 )
+    ( TokOther "/" )
+, L
+    ( Position 14 57 )
+    ( TokSym "snaplet-influxdb" )
+, L
+    ( Position 15 1 )
+    ( Indent 0 )
+, L
+    ( Position 15 1 )
+    ( TokSym "Tested-with" )
+, L
+    ( Position 15 12 ) Colon
+, L
+    ( Position 15 22 )
+    ( TokSym "GHC" )
+, L
+    ( Position 15 26 )
+    ( TokOther "==" )
+, L
+    ( Position 15 29 )
+    ( TokSym "7.6.3" )
+, L
+    ( Position 16 1 )
+    ( Indent 0 )
+, L
+    ( Position 16 1 )
+    ( TokSym "Cabal-version" )
+, L
+    ( Position 16 14 ) Colon
+, L
+    ( Position 16 22 )
+    ( TokOther ">=" )
+, L
+    ( Position 16 24 )
+    ( TokSym "1.14.0" )
+, L
+    ( Position 18 1 )
+    ( Indent 0 )
+, L
+    ( Position 18 1 )
+    ( TokSym "description" )
+, L
+    ( Position 18 12 ) Colon
+, L
+    ( Position 20 1 )
+    ( Indent 2 )
+, L
+    ( Position 20 3 )
+    ( TokOther "<<" )
+, L
+    ( Position 20 5 )
+    ( TokSym "https" )
+, L
+    ( Position 20 10 ) Colon
+, L
+    ( Position 20 11 )
+    ( TokOther "//" )
+, L
+    ( Position 20 13 )
+    ( TokSym "travis-ci.org" )
+, L
+    ( Position 20 26 )
+    ( TokOther "/" )
+, L
+    ( Position 20 27 )
+    ( TokSym "ixmatus" )
+, L
+    ( Position 20 34 )
+    ( TokOther "/" )
+, L
+    ( Position 20 35 )
+    ( TokSym "snaplet-influxdb.svg" )
+, L
+    ( Position 20 55 )
+    ( TokOther "?" )
+, L
+    ( Position 20 56 )
+    ( TokSym "branch" )
+, L
+    ( Position 20 62 )
+    ( TokOther "=" )
+, L
+    ( Position 20 63 )
+    ( TokSym "master" )
+, L
+    ( Position 20 69 )
+    ( TokOther ">>" )
+, L
+    ( Position 21 1 )
+    ( Indent 2 )
+, L
+    ( Position 21 3 )
+    ( TokSym "." )
+, L
+    ( Position 22 1 )
+    ( Indent 2 )
+, L
+    ( Position 22 3 )
+    ( TokSym "`snaplet-influxdb`" )
+, L
+    ( Position 22 22 )
+    ( TokSym "is" )
+, L
+    ( Position 22 25 )
+    ( TokSym "a" )
+, L
+    ( Position 22 27 )
+    ( TokSym "snaplet" )
+, L
+    ( Position 22 35 )
+    ( TokSym "for" )
+, L
+    ( Position 22 39 )
+    ( TokSym "the" )
+, L
+    ( Position 22 43 )
+    ( TokSym "Snap" )
+, L
+    ( Position 22 48 )
+    ( TokSym "web" )
+, L
+    ( Position 22 52 )
+    ( TokSym "framework" )
+, L
+    ( Position 22 62 )
+    ( TokSym "providing" )
+, L
+    ( Position 23 1 )
+    ( Indent 2 )
+, L
+    ( Position 23 3 )
+    ( TokSym "convenience" )
+, L
+    ( Position 23 15 )
+    ( TokSym "functions" )
+, L
+    ( Position 23 25 )
+    ( TokSym "and" )
+, L
+    ( Position 23 29 )
+    ( TokSym "state" )
+, L
+    ( Position 23 35 )
+    ( TokSym "management" )
+, L
+    ( Position 23 46 )
+    ( TokSym "for" )
+, L
+    ( Position 23 50 )
+    ( TokSym "the" )
+, L
+    ( Position 23 54 )
+    ( TokSym "Haskell" )
+, L
+    ( Position 23 62 )
+    ( TokSym "InfluxDB" )
+, L
+    ( Position 24 1 )
+    ( Indent 2 )
+, L
+    ( Position 24 3 )
+    ( TokSym "package." )
+, L
+    ( Position 25 1 )
+    ( Indent 2 )
+, L
+    ( Position 25 3 )
+    ( TokSym "." )
+, L
+    ( Position 26 1 )
+    ( Indent 2 )
+, L
+    ( Position 26 3 )
+    ( TokSym "Please" )
+, L
+    ( Position 26 10 )
+    ( TokSym "refer" )
+, L
+    ( Position 26 16 )
+    ( TokSym "to" )
+, L
+    ( Position 26 19 )
+    ( TokSym "the" )
+, L
+    ( Position 26 23 )
+    ( TokSym "README" )
+, L
+    ( Position 26 30 )
+    ( TokSym "for" )
+, L
+    ( Position 26 34 )
+    ( TokSym "an" )
+, L
+    ( Position 26 37 )
+    ( TokSym "example" )
+, L
+    ( Position 26 45 )
+    ( TokSym "-" )
+, L
+    ( Position 26 47 )
+    ( TokSym "Cabal" )
+, L
+    ( Position 26 53 )
+    ( TokSym "descriptions" )
+, L
+    ( Position 26 66 )
+    ( TokSym "don't" )
+, L
+    ( Position 27 1 )
+    ( Indent 2 )
+, L
+    ( Position 27 3 )
+    ( TokSym "make" )
+, L
+    ( Position 27 8 )
+    ( TokSym "it" )
+, L
+    ( Position 27 11 )
+    ( TokSym "easy" )
+, L
+    ( Position 27 16 )
+    ( TokSym "to" )
+, L
+    ( Position 27 19 )
+    ( TokSym "do" )
+, L
+    ( Position 27 22 )
+    ( TokSym "so." )
+, L
+    ( Position 29 1 )
+    ( Indent 0 )
+, L
+    ( Position 29 1 )
+    ( TokSym "Extra-source-files" )
+, L
+    ( Position 29 19 ) Colon
+, L
+    ( Position 30 1 )
+    ( Indent 4 )
+, L
+    ( Position 30 5 )
+    ( TokSym "LICENSE" )
+, L
+    ( Position 31 1 )
+    ( Indent 4 )
+, L
+    ( Position 31 5 )
+    ( TokSym "DEPENDENCY-LICENSES.org" )
+, L
+    ( Position 32 1 )
+    ( Indent 4 )
+, L
+    ( Position 32 5 )
+    ( TokSym "README.org" )
+, L
+    ( Position 34 1 )
+    ( Indent 0 )
+, L
+    ( Position 34 1 )
+    ( TokSym "Data-files" )
+, L
+    ( Position 34 11 ) Colon
+, L
+    ( Position 35 1 )
+    ( Indent 4 )
+, L
+    ( Position 35 5 )
+    ( TokSym "resources" )
+, L
+    ( Position 35 14 )
+    ( TokOther "/" )
+, L
+    ( Position 35 15 )
+    ( TokSym "influxdb" )
+, L
+    ( Position 35 23 )
+    ( TokOther "/" )
+, L
+    ( Position 35 24 )
+    ( TokSym "devel.cfg" )
+, L
+    ( Position 37 1 )
+    ( Indent 0 )
+, L
+    ( Position 37 1 )
+    ( TokSym "Library" )
+, L
+    ( Position 38 1 )
+    ( Indent 2 )
+, L
+    ( Position 38 3 )
+    ( TokSym "Default-Language" )
+, L
+    ( Position 38 19 ) Colon
+, L
+    ( Position 38 25 )
+    ( TokSym "Haskell2010" )
+, L
+    ( Position 39 1 )
+    ( Indent 2 )
+, L
+    ( Position 39 3 )
+    ( TokSym "HS-Source-Dirs" )
+, L
+    ( Position 39 17 ) Colon
+, L
+    ( Position 39 25 )
+    ( TokSym "src" )
+, L
+    ( Position 40 1 )
+    ( Indent 2 )
+, L
+    ( Position 40 3 )
+    ( TokSym "Ghc-options" )
+, L
+    ( Position 40 14 ) Colon
+, L
+    ( Position 40 16 )
+    ( TokSym "-Wall" )
+, L
+    ( Position 40 22 )
+    ( TokSym "-fwarn-tabs" )
+, L
+    ( Position 40 34 )
+    ( TokSym "-funbox-strict-fields" )
+, L
+    ( Position 41 1 )
+    ( Indent 15 )
+, L
+    ( Position 41 16 )
+    ( TokSym "-fno-warn-orphans" )
+, L
+    ( Position 41 34 )
+    ( TokSym "-fno-warn-unused-do-bind" )
+, L
+    ( Position 43 1 )
+    ( Indent 2 )
+, L
+    ( Position 43 3 )
+    ( TokSym "Exposed-Modules" )
+, L
+    ( Position 43 18 ) Colon
+, L
+    ( Position 44 1 )
+    ( Indent 4 )
+, L
+    ( Position 44 5 )
+    ( TokSym "Snap.Snaplet.InfluxDB" )
+, L
+    ( Position 46 1 )
+    ( Indent 2 )
+, L
+    ( Position 46 3 )
+    ( TokSym "Other-Modules" )
+, L
+    ( Position 46 16 ) Colon
+, L
+    ( Position 47 1 )
+    ( Indent 4 )
+, L
+    ( Position 47 5 )
+    ( TokSym "Paths_snaplet_influxdb" )
+, L
+    ( Position 49 1 )
+    ( Indent 2 )
+, L
+    ( Position 49 3 )
+    ( TokSym "Build-Depends" )
+, L
+    ( Position 49 16 ) Colon
+, L
+    ( Position 50 1 )
+    ( Indent 4 )
+, L
+    ( Position 50 5 )
+    ( TokSym "base" )
+, L
+    ( Position 50 31 )
+    ( TokOther ">=" )
+, L
+    ( Position 50 34 )
+    ( TokSym "4.4" )
+, L
+    ( Position 50 42 )
+    ( TokOther "&&" )
+, L
+    ( Position 50 45 )
+    ( TokOther "<" )
+, L
+    ( Position 50 47 )
+    ( TokSym "5" )
+, L
+    ( Position 50 48 )
+    ( TokOther "," )
+, L
+    ( Position 51 1 )
+    ( Indent 4 )
+, L
+    ( Position 51 5 )
+    ( TokSym "snap" )
+, L
+    ( Position 51 31 )
+    ( TokOther ">=" )
+, L
+    ( Position 51 34 )
+    ( TokSym "0.13" )
+, L
+    ( Position 51 42 )
+    ( TokOther "&&" )
+, L
+    ( Position 51 45 )
+    ( TokOther "<" )
+, L
+    ( Position 51 47 )
+    ( TokSym "0.14" )
+, L
+    ( Position 51 51 )
+    ( TokOther "," )
+, L
+    ( Position 52 1 )
+    ( Indent 4 )
+, L
+    ( Position 52 5 )
+    ( TokSym "monad-control" )
+, L
+    ( Position 52 31 )
+    ( TokOther ">=" )
+, L
+    ( Position 52 34 )
+    ( TokSym "0.3" )
+, L
+    ( Position 52 42 )
+    ( TokOther "&&" )
+, L
+    ( Position 52 45 )
+    ( TokOther "<" )
+, L
+    ( Position 52 47 )
+    ( TokSym "0.4" )
+, L
+    ( Position 52 50 )
+    ( TokOther "," )
+, L
+    ( Position 53 1 )
+    ( Indent 4 )
+, L
+    ( Position 53 5 )
+    ( TokSym "text" )
+, L
+    ( Position 53 31 )
+    ( TokOther ">=" )
+, L
+    ( Position 53 34 )
+    ( TokSym "1.0" )
+, L
+    ( Position 53 42 )
+    ( TokOther "&&" )
+, L
+    ( Position 53 45 )
+    ( TokOther "<" )
+, L
+    ( Position 53 47 )
+    ( TokSym "2.0" )
+, L
+    ( Position 53 50 )
+    ( TokOther "," )
+, L
+    ( Position 54 1 )
+    ( Indent 4 )
+, L
+    ( Position 54 5 )
+    ( TokSym "http-client" )
+, L
+    ( Position 54 31 )
+    ( TokOther ">=" )
+, L
+    ( Position 54 34 )
+    ( TokSym "0.3" )
+, L
+    ( Position 54 42 )
+    ( TokOther "&&" )
+, L
+    ( Position 54 45 )
+    ( TokOther "<" )
+, L
+    ( Position 54 47 )
+    ( TokSym "0.4" )
+, L
+    ( Position 54 50 )
+    ( TokOther "," )
+, L
+    ( Position 55 1 )
+    ( Indent 4 )
+, L
+    ( Position 55 5 )
+    ( TokSym "influxdb" )
+, L
+    ( Position 55 31 )
+    ( TokOther ">=" )
+, L
+    ( Position 55 34 )
+    ( TokSym "0.7" )
+, L
+    ( Position 55 42 )
+    ( TokOther "&&" )
+, L
+    ( Position 55 45 )
+    ( TokOther "<" )
+, L
+    ( Position 55 47 )
+    ( TokSym "0.8" )
+, L
+    ( Position 55 50 )
+    ( TokOther "," )
+, L
+    ( Position 56 1 )
+    ( Indent 4 )
+, L
+    ( Position 56 5 )
+    ( TokSym "bytestring" )
+, L
+    ( Position 56 31 )
+    ( TokOther ">=" )
+, L
+    ( Position 56 34 )
+    ( TokSym "0.9" )
+, L
+    ( Position 56 42 )
+    ( TokOther "&&" )
+, L
+    ( Position 56 45 )
+    ( TokOther "<" )
+, L
+    ( Position 56 47 )
+    ( TokSym "11" )
+, L
+    ( Position 56 49 )
+    ( TokOther "," )
+, L
+    ( Position 57 1 )
+    ( Indent 4 )
+, L
+    ( Position 57 5 )
+    ( TokSym "lens" )
+, L
+    ( Position 57 31 )
+    ( TokOther ">=" )
+, L
+    ( Position 57 34 )
+    ( TokSym "4" )
+, L
+    ( Position 57 42 )
+    ( TokOther "&&" )
+, L
+    ( Position 57 45 )
+    ( TokOther "<" )
+, L
+    ( Position 57 47 )
+    ( TokSym "5" )
+, L
+    ( Position 57 48 )
+    ( TokOther "," )
+, L
+    ( Position 58 1 )
+    ( Indent 4 )
+, L
+    ( Position 58 5 )
+    ( TokSym "transformers" )
+, L
+    ( Position 58 31 )
+    ( TokOther ">=" )
+, L
+    ( Position 58 34 )
+    ( TokSym "0.4" )
+, L
+    ( Position 58 42 )
+    ( TokOther "&&" )
+, L
+    ( Position 58 45 )
+    ( TokOther "<" )
+, L
+    ( Position 58 47 )
+    ( TokSym "0.5" )
+, L
+    ( Position 58 50 )
+    ( TokOther "," )
+, L
+    ( Position 59 1 )
+    ( Indent 4 )
+, L
+    ( Position 59 5 )
+    ( TokSym "configurator" )
+, L
+    ( Position 59 31 )
+    ( TokOther ">=" )
+, L
+    ( Position 59 34 )
+    ( TokSym "0.3" )
+, L
+    ( Position 59 42 )
+    ( TokOther "&&" )
+, L
+    ( Position 59 45 )
+    ( TokOther "<" )
+, L
+    ( Position 59 47 )
+    ( TokSym "0.4" )
+, L
+    ( Position 59 50 )
+    ( TokOther "," )
+, L
+    ( Position 60 1 )
+    ( Indent 4 )
+, L
+    ( Position 60 5 )
+    ( TokSym "network" )
+, L
+    ( Position 60 31 )
+    ( TokOther ">=" )
+, L
+    ( Position 60 34 )
+    ( TokSym "2.5" )
+, L
+    ( Position 60 42 )
+    ( TokOther "&&" )
+, L
+    ( Position 60 45 )
+    ( TokOther "<" )
+, L
+    ( Position 60 47 )
+    ( TokSym "2.7" )
+, L
+    ( Position 60 50 )
+    ( TokOther "," )
+, L
+    ( Position 61 1 )
+    ( Indent 4 )
+, L
+    ( Position 61 5 )
+    ( TokSym "mtl" )
+, L
+    ( Position 61 31 )
+    ( TokOther ">=" )
+, L
+    ( Position 61 34 )
+    ( TokSym "2" )
+, L
+    ( Position 61 42 )
+    ( TokOther "&&" )
+, L
+    ( Position 61 45 )
+    ( TokOther "<" )
+, L
+    ( Position 61 47 )
+    ( TokSym "3" )
+, L
+    ( Position 63 1 )
+    ( Indent 0 )
+, L
+    ( Position 63 1 )
+    ( TokSym "Source-Repository" )
+, L
+    ( Position 63 19 )
+    ( TokSym "head" )
+, L
+    ( Position 64 1 )
+    ( Indent 2 )
+, L
+    ( Position 64 3 )
+    ( TokSym "Type" )
+, L
+    ( Position 64 7 ) Colon
+, L
+    ( Position 64 25 )
+    ( TokSym "git" )
+, L
+    ( Position 65 1 )
+    ( Indent 2 )
+, L
+    ( Position 65 3 )
+    ( TokSym "Location" )
+, L
+    ( Position 65 11 ) Colon
+, L
+    ( Position 65 25 )
+    ( TokSym "https" )
+, L
+    ( Position 65 30 ) Colon
+, L
+    ( Position 65 31 )
+    ( TokOther "//" )
+, L
+    ( Position 65 33 )
+    ( TokSym "github.com" )
+, L
+    ( Position 65 43 )
+    ( TokOther "/" )
+, L
+    ( Position 65 44 )
+    ( TokSym "ixmatus" )
+, L
+    ( Position 65 51 )
+    ( TokOther "/" )
+, L
+    ( Position 65 52 )
+    ( TokSym "snaplet-influxdb" )
+, L
+    ( Position 66 1 ) EOF
+]
